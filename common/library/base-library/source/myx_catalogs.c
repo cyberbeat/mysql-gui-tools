@@ -819,7 +819,7 @@ MYX_SCHEMA_TABLE_STATUS * myx_get_schema_table_status(MYSQL *mysql, const char *
           else
           {
             // If there is a comment then it contains error info.
-            table->table_type= table->table_type= g_strdup(row_tbl[fi[14]]);
+            table->table_type= g_strdup(row_tbl[fi[14]]);
             skip_details= 1;
           };
 

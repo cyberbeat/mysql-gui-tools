@@ -1104,7 +1104,6 @@ CFigureElement::CFigureElement(CFigureElementTemplate* aTemplate, CGenericCanvas
   FTranslation[0] = 0;
   FTranslation[1] = 0;
   FTranslation[2] = 0;
-  FTranslation[3] = 0;
 
   FLayout = GC_LAYOUT_COLUMN;
   FResizeMode = GC_RESIZE_NONE;
