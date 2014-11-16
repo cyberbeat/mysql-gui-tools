@@ -96,6 +96,8 @@ user, if needed) to have the installation directory updated.
 EOF
         exit 1
     fi
+else
+    args="$@"
 fi
 ### end stuff needed for bundled gtk libraries
 
