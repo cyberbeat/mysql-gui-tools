@@ -26,7 +26,7 @@
 #include <gtkmm/treepath.h>
 
 
-class MGResultSetModel : public Glib::Object, public Gtk::TreeModel, public MYXResultSet {
+class MGResultSetModel : public Gtk::TreeModel, public Glib::Object, public MYXResultSet {
   public:
     enum SpecialColumns {
       RowEditable, // bool
