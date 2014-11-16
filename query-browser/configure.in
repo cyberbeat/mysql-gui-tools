@@ -72,6 +72,7 @@ AC_SUBST(GLIB_LIBS)
 
 PKG_CHECK_MODULES(GNOME, [libglade-2.0
 			gthread-2.0
+			libgnome-2.0
 			libxml-2.0 >= 2.6.2
                         $gtkhtml
                         gtkmm-2.4])
