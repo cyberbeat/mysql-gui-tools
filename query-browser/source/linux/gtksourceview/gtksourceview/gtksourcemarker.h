@@ -39,9 +39,9 @@ GType                 gtk_source_marker_get_type        (void) G_GNUC_CONST;
 
 void                  gtk_source_marker_set_marker_type (GtkSourceMarker *marker,
 							 const gchar     *type);
-G_CONST_RETURN gchar *gtk_source_marker_get_marker_type (GtkSourceMarker *marker);
+const gchar *gtk_source_marker_get_marker_type (GtkSourceMarker *marker);
 gint                  gtk_source_marker_get_line        (GtkSourceMarker *marker);
-G_CONST_RETURN gchar *gtk_source_marker_get_name        (GtkSourceMarker *marker);
+const gchar *gtk_source_marker_get_name        (GtkSourceMarker *marker);
 GtkSourceBuffer      *gtk_source_marker_get_buffer      (GtkSourceMarker *marker);
 GtkSourceMarker      *gtk_source_marker_next            (GtkSourceMarker *marker);
 GtkSourceMarker      *gtk_source_marker_prev            (GtkSourceMarker *marker);

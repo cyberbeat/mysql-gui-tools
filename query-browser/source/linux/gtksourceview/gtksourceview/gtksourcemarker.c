@@ -64,7 +64,7 @@ gtk_source_marker_set_marker_type (GtkSourceMarker *marker,
 	_gtk_source_marker_changed (marker);
 }
 
-G_CONST_RETURN gchar *
+const gchar *
 gtk_source_marker_get_marker_type (GtkSourceMarker *marker)
 {
 	g_return_val_if_fail (marker != NULL, NULL);
@@ -88,7 +88,7 @@ gtk_source_marker_get_line (GtkSourceMarker *marker)
 	return gtk_text_iter_get_line (&iter);
 }
 
-G_CONST_RETURN gchar *
+const gchar *
 gtk_source_marker_get_name (GtkSourceMarker *marker)
 {
 	g_return_val_if_fail (marker != NULL, NULL);
