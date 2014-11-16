@@ -821,7 +821,7 @@ void MAdministrator::open_help()
   if (!Glib::file_test(path, Glib::FILE_TEST_EXISTS))
     path= "/usr/share/doc/packages/mysql-administrator/administrator.html"; // location in SUSE^M
 
-  g_spawn_command_line_async(ufmt("gnome-help ghelp:///%s >& /dev/null",path.c_str()).c_str(), NULL);
+  g_spawn_command_line_async(ufmt("desktop-launch %s",path.c_str()).c_str(), NULL);
 }
 
 /*
