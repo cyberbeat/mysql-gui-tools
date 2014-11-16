@@ -20,7 +20,7 @@
 #ifndef __GTK_SOURCE_REGEX_H__
 #define __GTK_SOURCE_REGEX_H__
 
-#include <glib/gtypes.h>
+#include <glib.h>
 
 G_BEGIN_DECLS
 
