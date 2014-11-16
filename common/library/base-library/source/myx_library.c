@@ -31,10 +31,10 @@
 #endif
 #endif
 
-//#if defined (__WIN__) || defined(_WIN32) || defined(_WIN64)
+#if defined (__WIN__) || defined(_WIN32) || defined(_WIN64)
 #include <my_global.h>
 #include <m_ctype.h>
-//#endif
+#endif
 
 #include "myx_library.h"
 #include "myx_network.h"
