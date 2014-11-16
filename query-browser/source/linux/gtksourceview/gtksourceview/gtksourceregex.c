@@ -28,6 +28,7 @@
 
 #ifdef NATIVE_GNU_REGEX
 #include <sys/types.h>
+#define __USE_GNU
 #include <regex.h>
 #else
 #include "gnu-regex/regex.h"

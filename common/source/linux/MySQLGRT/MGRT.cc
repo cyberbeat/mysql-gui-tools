@@ -891,7 +891,7 @@ void MGRT::set_global_value(const char *path, const MGRTValue &value)
 
 void MGRT::unset_global_value(const char *path)
 {
-  char *end= strrchr(path, '/');
+  const char *end= strrchr(path, '/');
   std::string subpath(path, end-path);
   MYX_GRT_VALUE *dict;
   
