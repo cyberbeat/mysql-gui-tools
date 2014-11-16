@@ -1737,20 +1737,21 @@ bool query_is_join(Query *query)
       char *t= g_strdup(c.clause);
       mask_quotas_and_brackets(t);
       bool b= (strchr(t, ',') != NULL);
-      if (!b)
-      {
-        const char* location;
-        while ((location= stristr(t, "join")) != NULL)
-        {
-          // If we find a "join" location then check if this is preceeded by a white space.
-          // Otherwise it might be part of an identifier.
-          if ((location == t) || (*(location -1) == ' ') || (*(location -1) == '\n') || (*(location -1) == '\r'))
-          {
-             b= true;
-             break;
-          };
-          t= (char*)(location++);
-        };
+      // search for "join" or "straight_join"
+      for (int i = 0; (!b) && (i <= 1); i++) {
+	const char *keyword = (i == 0 ? "join" : "straight_join");
+	const char *location = t;
+	while ((location != NULL) && (location= stristr(location, keyword)) != NULL)
+	{
+	  // If we find the keyword location then check if this is preceeded by a white space.
+	  // Otherwise it might be part of an identifier.
+	  if ((location == t) || (*(location -1) == ' ') || (*(location -1) == '\n') || (*(location -1) == '\r'))
+	  {
+	     b= true;
+	     break;
+	  };
+	  location++;
+	};
       };
       g_free(t);
       return b;
