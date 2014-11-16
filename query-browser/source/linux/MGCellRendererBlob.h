@@ -26,19 +26,20 @@
 #include <gtkmm/textview.h>
 #include <gtkmm/eventbox.h>
 
-
+#define __STDC_FORMAT_MACROS 1
+#include <inttypes.h>
 
 // I don't like this, but until I find a better alternative, it'll stay like this
 inline void str2data(const std::string &str, gpointer *data, gsize *size)
 {
-  sscanf(str.c_str(), "%p %lu", data, size);
+  sscanf(str.c_str(), "%p %" __PRIPTR_PREFIX "u", data, size);
 }
 
 
 inline std::string data2str(gpointer data, gsize size)
 {
   char buffer[128];
-  sprintf(buffer, "%p %lu", data, size);
+  sprintf(buffer, "%p %" __PRIPTR_PREFIX "u", data, size);
   return buffer;
 }
 
