@@ -21,7 +21,7 @@
 #include <sys/stat.h>
 #include <errno.h>
 #include <stdio.h> /* rename() in FreeBSD */
-
+#include <cstring>
 
 
 MGFileBrowserList::MGFileBrowserList(const Glib::ustring &title,

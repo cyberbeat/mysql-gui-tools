@@ -50,7 +50,7 @@ class MGRTValueTree : public Gtk::TreeView {
     void set_icon(Gtk::TreeRow row, MGRTValue value);
     void add_value_item(Gtk::TreeIter iter, MGRTValue value);
     
-    void add_list_to_store(MGRTValue list, Gtk::TreeRow *parent, std::list<MYX_GRT_VALUE*> *list);
+    void add_list_to_store(MGRTValue list, Gtk::TreeRow *parent, std::list<MYX_GRT_VALUE*> *expanded_list);
     void add_dict_to_store(MGRTValue dict, Gtk::TreeRow &parent, std::list<MYX_GRT_VALUE*> *list);
 
     void remember_path(Gtk::TreeView *tree, const Gtk::TreeModel::Path &path, std::list<MYX_GRT_VALUE*> &list);

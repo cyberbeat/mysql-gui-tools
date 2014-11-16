@@ -16,7 +16,7 @@
 
 
 #include "MGHMeterGraphPlotter.h"
-
+#include <cstring>
 
 
 MGHMeterGraphPlotter::MGHMeterGraphPlotter(GtkDrawingArea *darea)

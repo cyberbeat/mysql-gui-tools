@@ -2,6 +2,7 @@
 //#include <windows.h>
 //#endif
 #include "GraphRenderer.h"
+#include <climits>
 
 #ifdef __GNUC__
 const int GraphRenderer::K1F;

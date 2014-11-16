@@ -17,7 +17,7 @@
 #include "MGCodeEditor.h"
 
 #include <gtksourceview/gtksourcelanguagesmanager.h>
-
+#include <cstring>
 
 
 

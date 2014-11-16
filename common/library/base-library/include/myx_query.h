@@ -69,7 +69,7 @@ struct Query : public MYX_QUERY
 // Following functions are listed here for unit-tests.
 bool query_is_join(Query *query);
 
-#endif __cplusplus
+#endif // __cplusplus
 
 //----------------------------------------------------------------------------------------------------------------------
 
