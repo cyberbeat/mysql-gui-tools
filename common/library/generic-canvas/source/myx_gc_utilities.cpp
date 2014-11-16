@@ -359,7 +359,7 @@ string utf8ToANSI(const string& source)
  */
 void pngRead(png_structp png, png_bytep data, png_size_t length)
 {
-  fread(data, length, 1, (FILE*) png->io_ptr);
+  fread(data, length, 1, (FILE*) png_get_io_ptr(png));
 }
 
 //----------------------------------------------------------------------------------------------------------------------
@@ -370,7 +370,7 @@ void pngRead(png_structp png, png_bytep data, png_size_t length)
  */
 void pngWrite(png_structp png, png_bytep data, png_size_t length)
 {
-  fwrite(data, length, 1, (FILE*) png->io_ptr);
+  fwrite(data, length, 1, (FILE*) png_get_io_ptr(png));
 }
 
 //----------------------------------------------------------------------------------------------------------------------
@@ -381,7 +381,7 @@ void pngWrite(png_structp png, png_bytep data, png_size_t length)
  */
 void pngFlush(png_structp png)
 {
-  fflush((FILE*) png->io_ptr);
+  fflush((FILE*) png_get_io_ptr(png));
 }
 
 //----------------------------------------------------------------------------------------------------------------------
@@ -460,7 +460,7 @@ TImage* loadPNG(const wstring& filename)
         return NULL;
       };
 
-      image->data = (unsigned char*) malloc(width * height * info->channels);
+      image->data = (unsigned char*) malloc(width * height * png_get_channels(png, info));
       if (!image->data) 
       {
         fclose(file);
@@ -470,8 +470,8 @@ TImage* loadPNG(const wstring& filename)
 
       image->width = width;
       image->height = height;
-      image->colorType = (TColorType) info->color_type;
-      image->channels = info->channels;
+      image->colorType = (TColorType) png_get_color_type(png, info);
+      image->channels = png_get_channels(png, info);
 
       // normalize to 8bpp with alpha channel
       if (color_type == PNG_COLOR_TYPE_PALETTE && depth <= 8)
@@ -498,7 +498,7 @@ TImage* loadPNG(const wstring& filename)
       for (unsigned int i = 0; i < height; i++)
       {
         png_read_row(png, &image->data[offset], NULL);
-        offset += info->channels * width;
+        offset += png_get_channels(png, info) * width;
       }
       png_read_end(png, info);
       png_destroy_read_struct(&png, &info, NULL);
