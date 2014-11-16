@@ -1,4 +1,4 @@
-﻿// Copyright (C) 2003 - 2008 MySQL AB, 2008 Sun Microsystems, Inc.
+   // Copyright (C) 2003 - 2008 MySQL AB, 2008 Sun Microsystems, Inc.
 
 #include "myx_public_interface.h"
 #include "myx_util.h"
