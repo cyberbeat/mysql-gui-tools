@@ -472,6 +472,7 @@ gpointer GRTAgent::loop(gpointer data)
         g_warning("Error accepting connection from client.");
     }
   }
+  return 0;
 }
 
 
