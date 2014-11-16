@@ -109,7 +109,7 @@
       Include UI
     -->
 
-    <?include ../../../mysql-gui-common/setup/windows/mysql_common_ui.inc ?>
+    <?include ../../../common/setup/windows/mysql_common_ui.inc ?>
 
     <!-- *****************************************************************************************
       Properties
@@ -192,22 +192,22 @@
     <Binary Id="AdminBackground" src="resources/AdminBackground.jpg" />
     <Binary Id="AdminHeader" src="resources/AdminHeader.jpg" />     
     
-    <Binary Id="NewBinary2" src="../../../mysql-gui-common/setup/windows/resources/binary/binary2" />     
-    <Binary Id="NewBinary3" src="../../../mysql-gui-common/setup/windows/resources/binary/binary3" />     
-    <Binary Id="NewBinary4" src="../../../mysql-gui-common/setup/windows/resources/binary/binary4" />
-    <Binary Id="NewBinary5" src="../../../mysql-gui-common/setup/windows/resources/binary/binary5" />
-    <Binary Id="NewBinary6" src="../../../mysql-gui-common/setup/windows/resources/binary/binary6" />
-    <Binary Id="NewBinary7" src="../../../mysql-gui-common/setup/windows/resources/binary/binary7" />
-    <Binary Id="NewBinary8" src="../../../mysql-gui-common/setup/windows/resources/binary/binary8" />
-    <Binary Id="NewBinary9" src="../../../mysql-gui-common/setup/windows/resources/binary/binary9" />
-    <Binary Id="NewBinary10" src="../../../mysql-gui-common/setup/windows/resources/binary/binary10" />
-    <Binary Id="NewBinary11" src="../../../mysql-gui-common/setup/windows/resources/binary/binary11" />
-    <Binary Id="NewBinary12" src="../../../mysql-gui-common/setup/windows/resources/binary/binary12" />
-    <Binary Id="NewBinary13" src="../../../mysql-gui-common/setup/windows/resources/binary/binary13" />
-    <Binary Id="NewBinary14" src="../../../mysql-gui-common/setup/windows/resources/binary/binary14" />
-    <Binary Id="NewBinary15" src="../../../mysql-gui-common/setup/windows/resources/binary/binary15" />    
-    <Binary Id="NewBinary16" src="../../../mysql-gui-common/setup/windows/resources/binary/binary16" />
-    <Binary Id="NewBinary17" src="../../../mysql-gui-common/setup/windows/resources/binary/binary17" />
-    <Binary Id="NewBinary18" src="../../../mysql-gui-common/setup/windows/resources/binary/binary18" />
+    <Binary Id="NewBinary2" src="../../../common/setup/windows/resources/binary/binary2" />     
+    <Binary Id="NewBinary3" src="../../../common/setup/windows/resources/binary/binary3" />     
+    <Binary Id="NewBinary4" src="../../../common/setup/windows/resources/binary/binary4" />
+    <Binary Id="NewBinary5" src="../../../common/setup/windows/resources/binary/binary5" />
+    <Binary Id="NewBinary6" src="../../../common/setup/windows/resources/binary/binary6" />
+    <Binary Id="NewBinary7" src="../../../common/setup/windows/resources/binary/binary7" />
+    <Binary Id="NewBinary8" src="../../../common/setup/windows/resources/binary/binary8" />
+    <Binary Id="NewBinary9" src="../../../common/setup/windows/resources/binary/binary9" />
+    <Binary Id="NewBinary10" src="../../../common/setup/windows/resources/binary/binary10" />
+    <Binary Id="NewBinary11" src="../../../common/setup/windows/resources/binary/binary11" />
+    <Binary Id="NewBinary12" src="../../../common/setup/windows/resources/binary/binary12" />
+    <Binary Id="NewBinary13" src="../../../common/setup/windows/resources/binary/binary13" />
+    <Binary Id="NewBinary14" src="../../../common/setup/windows/resources/binary/binary14" />
+    <Binary Id="NewBinary15" src="../../../common/setup/windows/resources/binary/binary15" />    
+    <Binary Id="NewBinary16" src="../../../common/setup/windows/resources/binary/binary16" />
+    <Binary Id="NewBinary17" src="../../../common/setup/windows/resources/binary/binary17" />
+    <Binary Id="NewBinary18" src="../../../common/setup/windows/resources/binary/binary18" />
   </Product>
 </Wix>

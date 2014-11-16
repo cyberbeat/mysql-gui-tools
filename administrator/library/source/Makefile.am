@@ -3,10 +3,10 @@ noinst_LIBRARIES = libadmin.a
 
 INCLUDES= -Wsign-compare -Wall \
 	 -I../include @MYSQL_CFLAGS@ \
-	-I$(top_srcdir)/../mysql-gui-common/source/linux\
-	-I$(top_srcdir)/../mysql-gui-common/library/base-library/include\
-	-I$(top_srcdir)/../mysql-gui-common/library/utilities/shared_include\
-	-I$(top_srcdir)/../mysql-gui-common/library/utilities/include\
+	-I$(top_srcdir)/../common/source/linux\
+	-I$(top_srcdir)/../common/library/base-library/include\
+	-I$(top_srcdir)/../common/library/utilities/shared_include\
+	-I$(top_srcdir)/../common/library/utilities/include\
 	@PCRE_CFLAGS@\
 	@GLIB_CFLAGS@
 

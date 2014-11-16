@@ -31,10 +31,10 @@ mysql_administrator_bin_SOURCES=\
 
 
 INCLUDES=@GNOME_CFLAGS@ @MYSQL_CFLAGS@ @PCRE_CFLAGS@\
-	-I$(top_srcdir)/../mysql-gui-common/source/linux\
-	-I$(top_srcdir)/../mysql-gui-common/library/base-library/include\
-	-I$(top_srcdir)/../mysql-gui-common/library/utilities/shared_include\
-	-I$(top_srcdir)/../mysql-gui-common/library/utilities/include\
+	-I$(top_srcdir)/../common/source/linux\
+	-I$(top_srcdir)/../common/library/base-library/include\
+	-I$(top_srcdir)/../common/library/utilities/shared_include\
+	-I$(top_srcdir)/../common/library/utilities/include\
 	-I$(top_srcdir)/library/include\
 	-DPREFIX=\""$(PREFIX)"\"\
         -DDATADIRNAME=\""$(DATADIRNAME)"\"\
@@ -46,9 +46,9 @@ INCLUDES=@GNOME_CFLAGS@ @MYSQL_CFLAGS@ @PCRE_CFLAGS@\
 
 mysql_administrator_bin_LDADD=\
 	$(top_srcdir)/library/source/libadmin.a\
-	$(top_srcdir)/../mysql-gui-common/source/linux/libmacommongui.a\
-	$(top_srcdir)/../mysql-gui-common/library/base-library/source/.libs/libmysqlx.a\
-	$(top_srcdir)/../mysql-gui-common/library/sql-parser/source/.libs/libsqlparser.a\
-	$(top_srcdir)/../mysql-gui-common/library/utilities/source/.libs/libguiutil.a\
+	$(top_srcdir)/../common/source/linux/libmacommongui.a\
+	$(top_srcdir)/../common/library/base-library/source/.libs/libmysqlx.a\
+	$(top_srcdir)/../common/library/sql-parser/source/.libs/libsqlparser.a\
+	$(top_srcdir)/../common/library/utilities/source/.libs/libguiutil.a\
 	@MYSQL_LIBS@ @GNOME_LIBS@ @UTIL_LIBS@ @PCRE_LIBS@
 

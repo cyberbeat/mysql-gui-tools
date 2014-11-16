@@ -356,7 +356,7 @@
 		6535B3BD06B070EA000445A4 /* MAHealthGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAHealthGraph.m; sourceTree = SOURCE_ROOT; };
 		6535B58A06B2041C000445A4 /* mysqladmin_health.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = mysqladmin_health.xml; sourceTree = "<group>"; };
 		6535B75206B30536000445A4 /* health_level_fg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health_level_fg.png; sourceTree = "<group>"; };
-		65369E580693704100DFB427 /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_icon.png; path = "../../../mysql-gui-common/images/icons/png/user_icon.png"; sourceTree = SOURCE_ROOT; };
+		65369E580693704100DFB427 /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_icon.png; path = "../../../common/images/icons/png/user_icon.png"; sourceTree = SOURCE_ROOT; };
 		6543AAA306911A01002E79CA /* MACatalogs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MACatalogs.h; sourceTree = "<group>"; };
 		6543AAA406911A01002E79CA /* MACatalogs.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 30; path = MACatalogs.m; sourceTree = "<group>"; };
 		6562F71606B4D410001AED88 /* mysqladmin_status_variables.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = mysqladmin_status_variables.xml; sourceTree = "<group>"; };
@@ -1655,7 +1655,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = mabackup;
 				SYMROOT = "~/guibuild";
-				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../mysql-gui-common/library/base-library/include $(SOURCE_ROOT)/../../../mysql-gui-common/library/utilities/shared_include $(SOURCE_ROOT)/../../../mysql-gui-common/library/utilities/include";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../common/library/base-library/include $(SOURCE_ROOT)/../../../common/library/utilities/shared_include $(SOURCE_ROOT)/../../../common/library/utilities/include";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cp ../../../../mysql-gui-common/tests/common.sh ./test_linked.sh
+cp ../../../../common/tests/common.sh ./test_linked.sh
 cat ./test_priv.sh >> ./test_linked.sh
 chmod +x ./test_linked.sh
 ./test_linked.sh $*

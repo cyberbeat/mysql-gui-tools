@@ -1,10 +1,10 @@
 
 
 INCLUDES=`pkg-config glib-2.0 --cflags` `mysql_config --cflags` `pcre-config --cflags`\
-	-I../../../mysql-gui-common/library_grt/include -I../../../mysql-gui-common/library/include
+	-I../../../common/library_grt/include -I../../../common/library/include
 
-LIBS= -L../../../mysql-gui-common/library_grt/source -lgrt\
-	-L../../../mysql-gui-common/library/source -lmysqlx\
+LIBS= -L../../../common/library_grt/source -lgrt\
+	-L../../../common/library/source -lmysqlx\
 	`pcre-config --libs`\
 	`pkg-config glib-2.0 libxml-2.0 --libs`  -llualib -llua \
 

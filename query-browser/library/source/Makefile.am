@@ -2,10 +2,10 @@
 noinst_LIBRARIES = libqb.a
 
 INCLUDES= -I../include -I../public_interface/linux\
-        -I$(top_srcdir)/../mysql-gui-common/source/linux\
-        -I$(top_srcdir)/../mysql-gui-common/library/base-library/include\
-        -I$(top_srcdir)/../mysql-gui-common/library/utilities/shared_include\
-        -I$(top_srcdir)/../mysql-gui-common/library/utilities/include\
+        -I$(top_srcdir)/../common/source/linux\
+        -I$(top_srcdir)/../common/library/base-library/include\
+        -I$(top_srcdir)/../common/library/utilities/shared_include\
+        -I$(top_srcdir)/../common/library/utilities/include\
 	@MYSQL_CFLAGS@ @GLIB_CFLAGS@ @PCRE_CFLAGS@
 
 libqb_a_SOURCES=\

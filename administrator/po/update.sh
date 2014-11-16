@@ -5,7 +5,7 @@ template=mysql-administrator-template.po
 tr -d \\r < $template > tmp
 mv tmp $template
 
-python ../../mysql-gui-common/tools/glade2po.py ../res/linux/*.glade --except-from=$template > glade.pot
+python ../../common/tools/glade2po.py ../res/linux/*.glade --except-from=$template > glade.pot
 msgcat -s -o new.pot glade.pot $template 
 mv -f new.pot $template 
 pofiles=`/bin/ls -1 *.po|grep -v template`

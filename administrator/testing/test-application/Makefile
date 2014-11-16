@@ -2,7 +2,7 @@
 TEST_TIMEOUT=120000
 
 
-GCDIR=../../../mysql-gui-common/
+GCDIR=../../../common/
 
 TUT_INCLUDES=-I$(GCDIR)/library/testing/include/
 

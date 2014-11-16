@@ -17,11 +17,11 @@ AC_CHECK_TOOL(PKG_CONFIG, pkg-config)
 #
 # internal libraries
 #
-AC_CHECK_FILE(../mysql-gui-common/library/base-library/include, 
-        [MYSQLA_INCLUDE='-I$(top_srcdir)/../mysql-gui-common/library/base-library/include -I$(top_srcdir)/../mysql-gui-common/source/linux'],
+AC_CHECK_FILE(../common/library/base-library/include, 
+        [MYSQLA_INCLUDE='-I$(top_srcdir)/../common/library/base-library/include -I$(top_srcdir)/../common/source/linux'],
 	        AC_MSG_ERROR([mysql-gui-common source tree must be present in the same directory as this program]))
 
-#AC_CHECK_FILE(../mysql-gui-common/source/linux/libqbcommongui.a, [],
+#AC_CHECK_FILE(../common/source/linux/libqbcommongui.a, [],
 #	AC_MSG_ERROR([mysql-gui-common source tree must be compiled and present in the same directory as this program]))
 
 

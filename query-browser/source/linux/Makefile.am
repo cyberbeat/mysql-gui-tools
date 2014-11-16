@@ -35,10 +35,10 @@ mysql_query_browser_bin_SOURCES=\
 
 
 INCLUDES=@GNOME_CFLAGS@ @MYSQL_CFLAGS@ @PCRE_CFLAGS@\
-        -I$(top_srcdir)/../mysql-gui-common/source/linux\
-        -I$(top_srcdir)/../mysql-gui-common/library/base-library/include\
-        -I$(top_srcdir)/../mysql-gui-common/library/utilities/shared_include\
-        -I$(top_srcdir)/../mysql-gui-common/library/utilities/include\
+        -I$(top_srcdir)/../common/source/linux\
+        -I$(top_srcdir)/../common/library/base-library/include\
+        -I$(top_srcdir)/../common/library/utilities/shared_include\
+        -I$(top_srcdir)/../common/library/utilities/include\
         -I$(top_srcdir)/library/include\
 	-I$(top_srcdir)/source/linux/gtksourceview\
 	-DPREFIX=\""$(PREFIX)"\"\
@@ -48,10 +48,10 @@ INCLUDES=@GNOME_CFLAGS@ @MYSQL_CFLAGS@ @PCRE_CFLAGS@\
 
 
 mysql_query_browser_bin_LDADD=$(top_builddir)/library/source/libqb.a\
-	$(top_builddir)/../mysql-gui-common/source/linux/libqbcommongui.a\
-	$(top_builddir)/../mysql-gui-common/library/base-library/source/.libs/libmysqlx.a\
-	$(top_builddir)/../mysql-gui-common/library/utilities/source/.libs/libguiutil.a\
-	$(top_builddir)/../mysql-gui-common/library/sql-parser/source/.libs/libsqlparser.a\
+	$(top_builddir)/../common/source/linux/libqbcommongui.a\
+	$(top_builddir)/../common/library/base-library/source/.libs/libmysqlx.a\
+	$(top_builddir)/../common/library/utilities/source/.libs/libguiutil.a\
+	$(top_builddir)/../common/library/sql-parser/source/.libs/libsqlparser.a\
 	$(top_builddir)/source/linux/gtksourceview/gtksourceview/.libs/libgtksourceview-1.0.a\
         @MYSQL_LIBS@ @GNOME_LIBS@ @PCRE_LIBS@ 
 

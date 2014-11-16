@@ -34,22 +34,22 @@ cd mysql-migration-toolkit-script-$version
 
 mkdir -p java/lib
 mv ../mysql-grt-java-1.0.0-bin.jar java/lib
-cp ../../mysql-gui-common/res/java/*jar java/lib
+cp ../../common/res/java/*jar java/lib
 
 mkdir -p java/com/mysql/grt/modules/
-cp ../../mysql-gui-common/source/java/com/mysql/grt/modules/*java java/com/mysql/grt/modules/
-#cp ../../mysql-gui-common/source/java/com/mysql/grt/modules/*java java/com/mysql/grt/modules
+cp ../../common/source/java/com/mysql/grt/modules/*java java/com/mysql/grt/modules/
+#cp ../../common/source/java/com/mysql/grt/modules/*java java/com/mysql/grt/modules
 (cd java; javac -g:none -nowarn -classpath .:lib:lib/junit.jar:lib/mysql-grt-java-1.0.0-bin.jar com/mysql/grt/modules/*)
 
 mkdir xml
-cp ../../mysql-gui-common/res/grt/*xml xml
+cp ../../common/res/grt/*xml xml
 cp ../res/grt/*xml xml
 
 mkdir scripts
 cp ../source/scripts/*lua scripts
 
 mkdir lua
-cp ../../mysql-gui-common/source/lua/* lua
+cp ../../common/source/lua/* lua
 cp ../source/lua/*lua lua
 
 if test `uname -s` = Darwin; then
@@ -59,10 +59,10 @@ else
 	libname=libmyx_grt_java.so
         tlibname=myx_grt_java.so
 fi
-#make -C ../../mysql-gui-common/library/generic-runtime/source $libname
-cp ../../mysql-gui-common/library/generic-runtime/source/.libs/$libname java/
+#make -C ../../common/library/generic-runtime/source $libname
+cp ../../common/library/generic-runtime/source/.libs/$libname java/
 if test $libname != $tlibname; then (cd java; ln -s $libname $tlibname); fi
-cp ../../mysql-gui-common/tools/grtsh/grtsh .
+cp ../../common/tools/grtsh/grtsh .
 cp ../README.script .
 
 cat <<EOF> run_migration_simple

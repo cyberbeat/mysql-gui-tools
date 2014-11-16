@@ -1,6 +1,6 @@
 
 mtroot=./
-mcroot=../mysql-gui-common
+mcroot=../common
 
 GRTSH=$mcroot/tools/grtsh/grtsh
 

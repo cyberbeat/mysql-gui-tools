@@ -81,7 +81,7 @@ INSTOBJEXT = @INSTOBJEXT@
 #	$(MSGFMT) -o $@ $<
 
 .po.mo:
-	msgcat -o $<-merged $< $(top_srcdir)/../mysql-gui-common/po/mysql-gui-common-template.po
+	msgcat -o $<-merged $< $(top_srcdir)/../common/po/mysql-gui-common-template.po
 	$(MSGFMT) -o $@ $<-merged
 
 #.po.gmo:
@@ -90,7 +90,7 @@ INSTOBJEXT = @INSTOBJEXT@
 
 .po.gmo:
 	file=$(srcdir)/`echo $* | sed 's,.*/,,'`.gmo \
-	  && msgcat -o $<-merged $< $(top_srcdir)/../mysql-gui-common/po/mysql-gui-common-template.po\
+	  && msgcat -o $<-merged $< $(top_srcdir)/../common/po/mysql-gui-common-template.po\
 	  && rm -f $$file && $(GMSGFMT) -o $$file $<-merged
 
 

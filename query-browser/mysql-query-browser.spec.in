@@ -35,7 +35,7 @@ It's part of the MySQL Developer Suite.
 %build
 
 # first we have to build the common libs
-cd ../mysql-gui-common
+cd ../common
 %configure --with-commondirname=query-browser
 make %{?_smp_mflags} 
 
@@ -47,7 +47,7 @@ make -i %{?_smp_mflags} %{?qblibs}
 
 %install
 rm -rf %{buildroot}
-cd ../mysql-gui-common
+cd ../common
 make DESTDIR=%{buildroot} install
 
 cd ../%{name}
