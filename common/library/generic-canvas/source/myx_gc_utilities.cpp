@@ -414,7 +414,7 @@ TImage* loadPNG(const wstring& filename)
         fclose(file);
         return NULL;
       };
-      if (!png_check_sig(magic, sizeof(magic)))
+      if (png_sig_cmp(magic, 0, sizeof(magic)))
       {
         fclose(file);
         return NULL;

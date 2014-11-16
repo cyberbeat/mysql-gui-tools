@@ -18,6 +18,7 @@
 #ifndef _MGCANVAS_H_
 #define _MGCANVAS_H_
 
+#include <png.h>
 #include <gtkmm/layout.h>
 #include <gtkmm/drawingarea.h>
 #include <gdkmm/cursor.h>
