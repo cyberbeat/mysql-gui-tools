@@ -558,8 +558,8 @@ MYX_SCHEMA_STORED_PROCEDURES *MQQueryDispatcher::get_sps(const Glib::ustring &ca
 
   Gtk::Main::instance()->run();
 
-  while(!req->is_complete())
-    ;
+//  while(!req->is_complete())
+//    ;
 
   return sps;
 }
