@@ -61,7 +61,7 @@ mysql_query_browser_bin_LDADD=$(top_builddir)/library/source/libqb.a\
 # If a solution is found, this could be removed.
 #
 $(top_builddir)/source/linux/gtksourceview/gtksourceview/.libs/libgtksourceview-1.0.a:
-	(cd gtksourceview; ./configure --enable-static --disable-shared --disable-build-tests; make CFLAGS="$(CFLAGS) -fno-strict-aliasing")
+	(cd gtksourceview; ./configure --enable-compile-warnings=yes --enable-static --disable-shared --disable-build-tests; make CFLAGS="$(CFLAGS) -fno-strict-aliasing")
 
 clean-generic:
 	-make -C gtksourceview distclean
