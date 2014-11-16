@@ -3212,7 +3212,7 @@ int write_row_to_file(MYX_BS_STATUS *status, MYSQL_ROW row, MYX_BACKUP_ERROR *er
           value_stmt= str_g_append_and_free(value_stmt, hex_string);
         }
         else
-          if (IS_NUM_FIELD(field))
+          if ( field->flags & NUM_FLAG )
           {
             value_stmt=
               !strcmp(row[i],"nan") ||
