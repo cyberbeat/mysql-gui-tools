@@ -3164,7 +3164,8 @@ void CFigureInstance::makeShadow(void)
         // Convert depth map so that unused values become 0 (transparent).
         unsigned char* run = buffer;
         for (int i = 0; i < bufferSize; ++i)
-          *run = 255 - *run++;
+          *run = 255 - *run;
+          ++run;
       };
       
       // Release frame buffer binding to enable normal rendering again.

@@ -196,7 +196,7 @@ class MYXResultSetStorage {
     // comparing
 
     bool compare(MYXResultSetStorage *rset);
-    MYXRSCompareStatus get_compare_status(bigint row, int column);
+//  MYXRSCompareStatus get_compare_status(bigint row, int column);
 
 
     // resultset modification

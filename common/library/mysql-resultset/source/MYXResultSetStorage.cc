@@ -422,10 +422,9 @@ MYXResultSetStorage::FieldChange* MYXResultSetStorage::find_change(bigint row, i
 }
 
 
-
+/*
 MYXRSCompareStatus MYXResultSetStorage::get_compare_status(bigint row, int column)
 {
-  /*
   switch (_resultset->rows[row].diff&MYX_RD_MASK)
   {
     case MYX_RD_OTHER_ONLY:
@@ -438,8 +437,8 @@ MYXRSCompareStatus MYXResultSetStorage::get_compare_status(bigint row, int colum
         return MCSDiffers;
     default:
       return MCSMatch;
-  }*/
-}
+  }
+}*/
 
 
 MYXRSEditStatus MYXResultSetStorage::get_edit_status(bigint row, int column) const

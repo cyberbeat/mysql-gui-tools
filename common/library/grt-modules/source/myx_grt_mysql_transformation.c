@@ -2432,7 +2432,7 @@ static char * get_sql_alter_table(MYX_GRT *grt, MYX_GRT_VALUE * existing, MYX_GR
   // add changed table options
   for(i= 0; data[i].key != NULL; i++)
   {
-    if(data[i].value != "")
+    if(strcmp(data[i].value,""))
     {
       sql= str_g_append_and_free(sql, g_strdup_printf(", %s", data[i].value));
       g_free(data[i].value);
@@ -2514,7 +2514,7 @@ static char * get_sql_alter_routine(MYX_GRT *grt, MYX_GRT_VALUE * existing, MYX_
   // add changed routine options
   for(i= 0; data[i].key != NULL; i++)
   {
-    if(data[i].value != "")
+    if(strcmp(data[i].value,""))
     {
       sql= str_g_append_and_free(sql, g_strdup_printf(" %s", data[i].value));
       g_free(data[i].value);
