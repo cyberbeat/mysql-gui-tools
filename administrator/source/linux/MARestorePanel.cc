@@ -728,7 +728,7 @@ MYX_BACKUP_CONTENT *MARestorePanel::perform_load(const std::string &file,
   op_aborted= false;
 
   {
-    SigC::Connection con= Glib::signal_timeout().connect(sigc::bind<void*>
+    sigc::connection con= Glib::signal_timeout().connect(sigc::bind<void*>
                                                          (sigc::mem_fun(*this, &MARestorePanel::update_status),&arg.pdata),
                                                          50);
 
@@ -854,7 +854,7 @@ void MARestorePanel::perform_restore()
   //{
     MYX_BACKUP_ERROR err;
 
-    SigC::Connection con= Glib::signal_timeout().connect(sigc::bind<void*>
+    sigc::connection con= Glib::signal_timeout().connect(sigc::bind<void*>
                                                          (sigc::mem_fun(*this, &MARestorePanel::update_status),&arg.pdata),
                                                          50);
 

@@ -87,7 +87,7 @@ class MAServerConnectionsPanel : public MAPanel {
 
     Glib::RefPtr<Gdk::Pixbuf> _thread_icon;
 
-    SigC::Connection _timer;
+    sigc::connection _timer;
     
     int _current_page;
 

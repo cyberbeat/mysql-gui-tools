@@ -66,7 +66,7 @@ class MAdministrator : public Glib::ObjectBase {
 
     sigc::signal0<void> _signal_prefs_changed;
     
-    SigC::Connection _pulse_conn;
+    sigc::connection _pulse_conn;
     bool pulse_progress();
     
     void setup_sidebar();

@@ -45,7 +45,7 @@ ObjectShell::ObjectShell(GRTEnvironment *env)
 
   tree->set_model(_otree);
   
-  tree->get_selection()->signal_changed().connect(SigC::slot(*this,&ObjectShell::object_selected));
+  tree->get_selection()->signal_changed().connect(sigc::mem_fun(*this,&ObjectShell::object_selected));
   
   
   tree= _xml->get_tree("inspector_tree");
@@ -57,9 +57,9 @@ ObjectShell::ObjectShell(GRTEnvironment *env)
 
   tree->set_model(_ilist);
 
-  _xml->get_text("shell_text")->signal_key_press_event().connect(SigC::slot(*this,&ObjectShell::shell_key_press), false);
+  _xml->get_text("shell_text")->signal_key_press_event().connect(sigc::mem_fun(*this,&ObjectShell::shell_key_press), false);
   
-  env->set_shell_output_handler(SigC::slot(*this,&ObjectShell::print_shell));
+  env->set_shell_output_handler(sigc::mem_fun(*this,&ObjectShell::print_shell));
   
   put_prompt();
 }

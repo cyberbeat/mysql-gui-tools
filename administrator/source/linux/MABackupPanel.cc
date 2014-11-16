@@ -1282,7 +1282,7 @@ void MABackupPanel::perform_backup()
 
   if (_inst->check_connection())
   {
-    SigC::Connection con= Glib::signal_timeout().connect(sigc::bind<void*>
+    sigc::connection con= Glib::signal_timeout().connect(sigc::bind<void*>
                                                          (sigc::mem_fun(*this, &MABackupPanel::update_backup_progress),&arg.pdata),
                                                          50);
     dlg->show();

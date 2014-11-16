@@ -45,7 +45,7 @@ class MQResultTab : public MQBaseTab {
 
       Gtk::Paned *paned;
 
-      SigC::Connection scroll_con;
+      sigc::connection scroll_con;
     };
     
     enum CompareAction {
@@ -71,7 +71,7 @@ class MQResultTab : public MQBaseTab {
 
     bool _vertical;
 
-    SigC::Connection _sync_con1, _sync_con2;
+    sigc::connection _sync_con1, _sync_con2;
 
     void scrolled(MQResultSetView *sender);
     void activated(MQResultSetView *sender);

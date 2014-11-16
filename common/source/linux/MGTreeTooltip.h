@@ -39,7 +39,7 @@ class MGTreeTooltip : public Glib::Object {
     
     WillShowSignal _show_signal;
     
-    SigC::Connection _timeout;
+    sigc::connection _timeout;
 
     void expose_event(GdkEventExpose *event);
     void leave_event(GdkEventCrossing *event);

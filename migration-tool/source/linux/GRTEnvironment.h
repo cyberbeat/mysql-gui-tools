@@ -28,7 +28,7 @@ class GRTEnvironment {
     int _msgOffset;
     std::vector<Glib::ustring> _sourceObjectNames;
 
-    SigC::Slot1<void,const Glib::ustring&> _shellOutputHandler;
+    sigc::slot<void,const Glib::ustring&> _shellOutputHandler;
     
     static void process_shell_output(const char *text, void *udata);
         
@@ -42,7 +42,7 @@ class GRTEnvironment {
     int init_jni(const std::string &classpath);
     int execute_shell_command(const Glib::ustring &command);
 
-    void set_shell_output_handler(const SigC::Slot1<void,const Glib::ustring&> &slot);
+    void set_shell_output_handler(const sigc::slot<void,const Glib::ustring&> &slot);
 
     MYX_GRT_OBJ *get_object(const Glib::ustring &name);
     bool object_implements_interface(MYX_GRT_OBJ *obj, const Glib::ustring &name);

@@ -76,7 +76,7 @@ int GRTEnvironment::update_objects()
 }
 
 
-void GRTEnvironment::set_shell_output_handler(const SigC::Slot1<void,const Glib::ustring&> &slot)
+void GRTEnvironment::set_shell_output_handler(const sigc::slot<void,const Glib::ustring&> &slot)
 {
   _shellOutputHandler= slot;
 
