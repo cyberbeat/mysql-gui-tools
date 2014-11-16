@@ -1,0 +1,130 @@
+Functionality needed by each each part of the MySQL:-Administrator:
+
+
+General:
+---------------
+SET Names="UTF8";
+
+Connection and server Info:
+-----------------------------
+
+Functions:
+----------
+mysql_init
+mysql_options
+mysql_real_connect
+mysql_get_server_info
+mysql_get_proto_info
+mysql_errno
+mysql_error
+
+
+
+
+Schemata:
+-----------------------------
+
+Functions:
+----------
+mysql_list_dbs
+mysql_select_db
+mysql_list_tables
+mysql_query
+mysql_store_result
+mysql_num_rows
+mysql_fetch_row
+mysql_num_fields
+mysql_fetch_fields
+
+SQL commands:
+-------------
+SHOW TABLE STATUS
+SHOW COLUMNS FROM %s
+SHOW INDEX FROM %s
+DESCRIBE %s
+OPTIMIZE TABLE
+CHECK TABLE
+REPAIR TABLE
+
+
+
+
+User Management:
+-----------------------------
+
+We would need the same table structure like mysql has.
+Tables: user, db, tables_priv, columns_priv and
+user_info (which is created by the MySQL Administrator)
+
+Maybe this can be simulated or we whould have to recode
+the Admin library functions.
+
+SQL commands:
+-------------
+FLUSH PRIVILEGES
+
+
+
+
+Server Connections:
+-----------------------------
+
+SQL commands:
+-------------
+SHOW FULL PROCESSLIST
+
+
+
+
+Health:
+-----------------------------
+
+SQL commands:
+-------------
+SHOW VARIABLES LIKE
+SHOW STATUS LIKE
+SET GLOBAL
+
+
+
+
+
+Startup Variables:
+-----------------------------
+
+We modify the my.cnf or my.ini file. I do not know how
+this is handled with MaxDB
+
+
+
+Backup:
+-----------------------------
+
+SQL commands:
+-------------
+FLUSH TABLES WITH READ LOCK
+BEGIN
+COMMIT
+SET @OLD_SQL_MODE=@@SQL_MODE,sql_mode='ANSI_QUOTES'
+SET sql_mode=@OLD_SQL_MODE
+SELECT /*!40001 SQL_NO_CACHE */ * FROM schema.tablename
+/*!40000 ALTER TABLE %s DISABLE KEYS */
+/*!40000 ALTER TABLE %s ENABLE KEYS */
+LOCK TABLES %s WRITE
+UNLOCK TABLES
+CREATE DATABASE 
+CREATE DATABASE /*!32312 IF NOT EXISTS*/
+USE %s
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */
+SET SQL_QUOTE_SHOW_CREATE=1
+SHOW CREATE TABLE 
+DROP TABLE IF EXISTS %s
+SHOW CREATE DATABASE WITH IF NOT EXISTS
+table-identifiers etc are quoted using ` (back-ticks)
+
+Logfiles:
+-----------------------------
+We use regex to scan the MySQL log files for events.
+

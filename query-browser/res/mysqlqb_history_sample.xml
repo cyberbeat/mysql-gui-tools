@@ -1,0 +1,12 @@
+<history>
+
+  <history_entry>
+    <pos>1</pos>
+    <catalog>Default</catalog>
+    <schema>test</schema>
+    <sql>select * from ship;</sql>
+    <query_type>1</query_type>
+    <date_last_access>2004-03-30</date_last_access>
+  </history_entry>
+
+</history>

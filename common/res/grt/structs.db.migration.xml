@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="db.migration.Migration" parent="GrtObject" caption="Migration Settings" desc="an object to store information needed during the migration process">
+    <members>
+      <member name="sourceConnection" type="dict" struct-name="db.mgmt.Connection" desc="connection used for the source database" />
+      <member name="targetConnection" type="dict" struct-name="db.mgmt.Connection" desc="connection used for the target database" />
+
+      <member name="sourceSchemataNames" type="list" content-type="string" desc="list of available schemata names in the source database" />
+      <member name="selectedSchemataNames" type="list" content-type="string" desc="list of selected schemata names to reverse engineer" />
+
+      <member name="sourceCatalog" type="dict" struct-name="db.Catalog" desc="a catalog object reflecting the reverse engineered assets from the source database" />
+      <member name="targetCatalog" type="dict" struct-name="db.Catalog" desc="the migrated target catalog" />
+      <member name="targetVersion" type="dict" struct-name="db.Version" desc="the version that the target catalog should have" />
+
+      <member name="ignoreList" type="list" content-type="string" desc="list of objects that should not be migrated in the form objecttype:schemaname.objectname" />
+      <member name="mappingDefaults" type="list" content-type="dict" content-struct-name="db.migration.Mapping" desc="list of default mappings that are chosen when no mapping definition is defined" />
+      <member name="mappingDefinitions" type="list" content-type="dict" content-struct-name="db.migration.Mapping" desc="list of user defined mappings for objects that should not be migrated using the default mappings" />
+      <member name="migrationMethods" type="list" option="ref" content-type="string" content-struct-name="db.migration.Method" desc="list of available migration methods" />
+      <member name="sourceObjects" type="list" option="ref" content-type="string" content-struct-name="GrtObject" desc="temporary list of objects that should be migrated" />
+      <member name="objectCreationParams" type="dict" content-type="string" desc="the dictionary of parameters used during the object creation" />
+      <member name="dataBulkTransferParams" type="dict" content-type="string" desc="the dictionary of parameters used during the bulk data transfer" />
+
+      <member name="migrationLog" type="list" content-type="dict" content-struct-name="base.ObjectLog" desc="a listing of log messages generated during object migration" />
+      <member name="creationLog" type="list" content-type="dict" content-struct-name="base.ObjectLog" desc="a listing of log messages generated during object creation" />
+      <member name="dataTransferLog" type="list" content-type="dict" content-struct-name="base.ObjectLog" desc="a listing of log messages generated during data transfer" />
+
+      <member name="genericDatatypeMappings" type="list" content-type="dict" content-struct-name="db.migration.DatatypeMapping" desc="datatype mapping for generic migration" />
+      <member name="applicationData" type="dict" content-type="string" desc="internal parameters set by the migration tool" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.migration.Mapping" parent="GrtObject" desc="definition of the default methods that will be used">
+    <members>
+      <member name="sourceObject" type="string" option="ref" content-struct-name="GrtObject" desc="a link to the object that should be migrated. Null when this is a default mapping" />
+      <member name="sourceStructName" type="string" desc="the source struct name the migration method expects e.g. db.oracle.Table" />
+      <member name="method" type="string" option="ref" content-struct-name="db.migration.Method" desc="a link to the method that will be used" />
+      <member name="methodName" type="string" desc="name of the method used to migrate the source object" />
+      <member name="moduleName" type="string" desc="name of the module the method belongs to" />
+      <member name="paramGroupName" type="string" desc="name of the parameter group to use or empty if user defined settings at to use" />
+      <member name="params" type="dict" content-type="string" desc="dictionary of user defined parameters when no parameter group is specified" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.migration.Method" parent="GrtObject" desc="information about a method that can be used to migrate an object">
+    <members>
+      <member name="moduleName" type="string" desc="the name of the module that contains this method" />
+      <member name="caption" type="string" desc="the name of the method" />
+      <member name="desc" type="string" desc="description of the method" />
+      <member name="sourceStructName" type="string" desc="the struct name of the source object, e.g. db.oracle.Table" />
+      <member name="targetPackageName" type="string" desc="the package name of the target object, e.g. db.mysql" />
+      <member name="params" type="dict" content-type="string" desc="dictionary of all parameters the method can by called with together with the default values" />
+      <member name="paramGroups" type="list" content-type="dict" content-struct-name="db.migration.ParameterGroup" desc="list of predefined parameters groups" />
+      <member name="rating" type="int" desc="the method with the highest rating will be presented as default one" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.migration.ParameterGroup" parent="GrtObject" desc="a group of migration method parameters">
+    <members>
+      <member name="desc" type="string" desc="Description of the parameter group" />
+      <member name="params" type="dict" content-type="string" desc="the dictionary of parameters in the group" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.migration.DatatypeMapping" parent="GrtObject" desc="mapping of a datatype from one database to another">
+    <members>
+      <member name="sourceDatatypeName" type="string" desc="name of the datatype in the source database" />
+      <member name="targetDatatypeName" type="string" desc="name of the datatype in the target database" />
+      <member name="lengthConditionFrom" type="int" desc="if set to a value different than 0 this becomes a condition" />
+      <member name="lengthConditionTo" type="int" desc="if set to a value different than 0 this becomes a condition" />
+      <member name="length" type="int" desc="overwrite length if different than -1" />
+      <member name="precisionConditionFrom" type="int" desc="if set to a value different than 0 this becomes a condition" />
+      <member name="precisionConditionTo" type="int" desc="if set to a value different than 0 this becomes a condition" />
+      <member name="precision" type="int" desc="overwrite precision if different than -1" />
+      <member name="scaleConditionFrom" type="int" desc="if set to a value different than 0 this becomes a condition" />
+      <member name="scaleConditionTo" type="int" desc="if set to a value different than 0 this becomes a condition" />
+      <member name="scale" type="int" desc="overwrite scale if different than -1" />
+      <member name="characterSet" type="string" desc="set a fixed character set for the target datatype" />
+      <member name="collation" type="string" desc="set a fixed collation for the target datatype" />
+      <member name="autoIncrement" type="int" desc="sets the auto increment flag" />
+      <member name="unsigned" type="int" desc="sets the unsigned flag" />
+    </members>
+  </gstruct>
+
+</gstructs>

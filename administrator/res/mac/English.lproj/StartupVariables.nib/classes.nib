@@ -1,0 +1,36 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MAPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {topBox = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                discardChanges = id; 
+                moreInfo = id; 
+                openFile = id; 
+                openMerlinSite = id; 
+                saveChanges = id; 
+                sectionOK = id; 
+            }; 
+            CLASS = MAStartupVariables; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                adView = id; 
+                bigText = NSTextField; 
+                noteText = NSTextField; 
+                openButton = NSButton; 
+                pickPanel = NSPanel; 
+                popup = NSPopUpButton; 
+                sampleText = NSTextView; 
+                sectionPop = NSPopUpButton; 
+                tabView = NSTabView; 
+            }; 
+            SUPERCLASS = MAPanel; 
+        }
+    ); 
+    IBVersion = 1; 
+}

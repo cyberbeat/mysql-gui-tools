@@ -1,0 +1,148 @@
+
+MySQL Administrator - FAQ
+-------------------------
+
+General:
+-------------------------
+
+Q: I've found a bug. What should I do?
+
+A: Please go to http://bugs.mysql.com and submit a bug report. 
+
+--
+
+Q: I read MySQL Administrator only support MySQL 4.x databases. I have 3.x.
+Can I still use MySQL Administrator?
+
+A: Please notice that MySQL 3.x databases are not officially supported 
+although you can establish a connection. You should seriously consider 
+upgrading to 4.x.
+
+
+
+Windows:
+-------------------------
+
+Q: How do I install MySQL Administrator on my system?
+
+A: Download the mysql-administrator-[version]-win.zip file
+and open it. Doubleclick the setup.exe to start the installation. Then 
+follow the instructions on the screen.
+
+On systems other than Windows XP you will need an additional
+ZIP software to extract the setup file.
+
+--
+
+Q: I cannot install MySQL Administrator on my system. What to do?
+
+A: MySQL Administrator uses a Microsoft MSI installer. For Windows operating 
+systems that do not have MSI available, including Windows 95, 98, Me, and NT 
+4.0, you can get the MSI files from Microsoft or from our windows download page.
+
+Alternatively, you can simply use the 
+mysqladministrator-[version]-win-noinstall.zip for a manual install.
+
+--
+
+Q: Which versions of Windows are supported by MySQL Administrator?
+
+A: MySQL Administrator has been tested on Windows XP, Windows 2000, and
+Windows NT 4.0.
+
+--
+
+Q: MySQL Administrator keeps crashing as soon as displaying the 
+connection dialog. How can I fix this?
+
+A: Please go to c:\Documents and Settings\[YourUsername]\Application Data\MySQL.
+Delete all files located in this directory.
+
+--
+
+Q: All controls in the windows look somehow displaced. What can I do?
+
+A: Please got to Start > Control Panel > Display. Select Settings and
+click the Advanced button. Then change your DPI settings to Normal (96 DPI)
+
+--
+
+Q: Is there some documentation about MySQL Adminstrator?
+
+A: Simply press F1 to display the Help file or select Help from the Main Menu.
+
+
+
+Linux:
+-------------------------
+
+
+Q: How do I install MySQL Administrator on my Linux system?
+
+A: Download the mysql-administrator-[version]-linux.tar.gz file,
+go to the directory you would like to have it installed (normally in /opt)
+and execute the following:
+
+gunzip -c mysql-administrator-[versio]-linux.tar.gz | tar xv 
+
+The application binary will be installed in mysql-administrator/bin, 
+from where you can execute 'mysql-administrator' to start the application.
+
+In mysql-administrator/share/applications, there will be a .desktop file
+which you can copy to your desktop to create a launcher icon.
+
+--
+
+Q: Which versions of Linux are supported by MySQL Administrator?
+
+A: MySQL Administrator has been tested on Fedora Core 1 with glibc 2.3.2.
+Most other libraries, including Gtk+ are statically linked.
+Any recent distribution with glibc 2.3 should work fine.
+
+--
+
+Q: What do I need to build MySQL Administrator?
+
+A: Apart from the g++ development suite, you will need the following
+libraries and corresponding development packages:
+
+- gtk-2.x
+- gtkmm-2.x
+- libglade-2.x
+- libxml-2.6.4
+- libpcre-4.x
+- mysql-4.0 
+
+--
+
+Q: How can I build MySQL Administrator myself?
+
+A: The following BitKeeper modules can be downloaded from 
+http://mysql.bkbits.net, using the BitKeeper version management system:
+
+- mysql-gui-common
+- mysql-administrator
+
+Alternatively, download the source package from 
+http://www.mysql.com/downloads/administrator.html
+
+For each directory, execute the following commands:
+
+sh autogen.sh
+./configure
+make
+make install
+
+If everything went well, you should have the mysql-administrator binary 
+built and installed in /usr/local/bin
+
+--
+
+Q: Why do messages and captions appear so big?
+
+A: Your display resolution is probably set too high. Use gnome-font-properties
+to change your default font to something smaller or go to "Details" and set 
+your resolution to 72 or some other value that suits you better.
+
+
+

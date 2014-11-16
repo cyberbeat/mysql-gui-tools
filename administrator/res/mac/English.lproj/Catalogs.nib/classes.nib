@@ -1,0 +1,59 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                addSchema = id; 
+                checkTable = id; 
+                createProcedure = id; 
+                createTable = id; 
+                createView = id; 
+                delSchema = id; 
+                dropProcedure = id; 
+                dropTable = id; 
+                dropView = id; 
+                editProcedure = id; 
+                editTable = id; 
+                editView = id; 
+                optimizeTable = id; 
+                refreshContents = id; 
+                refreshSchemas = id; 
+                repairTable = id; 
+                searchCatalogs = id; 
+                toggleTableDetails = id; 
+            }; 
+            CLASS = MACatalogs; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                actionButton = NSPopUpButton; 
+                addSchemaButton = NSButton; 
+                delSchemaButton = NSButton; 
+                emptyText = NSTextField; 
+                funcTable = NSTableView; 
+                indexOutline = NSOutlineView; 
+                schemataOutline = NSOutlineView; 
+                schemataSearch = NSSearchField; 
+                spTable = NSTableView; 
+                tabView = NSTabView; 
+                tableDetailToggleButton = NSButton; 
+                tableDetailsTab = NSTabView; 
+                tableScrollView = NSScrollView; 
+                tableStatsDataText = NSTextField; 
+                tableStatsMatrix = NSMatrix; 
+                tableStatsTimeText = NSTextField; 
+                tableStatusText = NSTextField; 
+                tablesTable = NSTableView; 
+                viewTable = NSTableView; 
+            }; 
+            SUPERCLASS = MAPanel; 
+        }, 
+        {
+            CLASS = MAPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {topBox = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MTextImageCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }
+    ); 
+    IBVersion = 1; 
+}

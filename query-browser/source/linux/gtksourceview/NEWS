@@ -1,0 +1,96 @@
+News in 0.8.0
+-------------
+
+* Highlighting spec files for PHP, Verilog, MSIL, C# and SQL.
+* Migrated test application to Gtk 2.3 (UI and file selector).
+
+News in 0.7.0
+-------------
+
+* A bunch of small bugfixes
+* Replaced deprecated calls for glib 2.3
+* Multiline backward search works now
+* <keyword-item> patterns are now limited to 250 elements (more cause 
+  trouble with GNU regex)
+
+News 0.4.0 -> 0.5.0
+-------------------
+
+* Removed hack for bug #81893 since it's now fixed in Gtk+
+* Added "style_changed" signal to GtkSourceStyleScheme to signal the
+  buffer that a style has changed
+
+News 0.3.0 -> 0.4.0
+-------------------
+
+* Added get_style_names method to the GtkSourceStyleScheme interface
+* New method gtk_source_language_get_id
+* Added the id arg to all constructors of gtksourcetag.[ch]
+* Added ID and tag_style properties to GtkSourceTag
+* Fixed the .pc.in file
+* Fixes to the printing code
+
+News 0.2.1 -> 0.3.0
+-------------------
+
+* Printing support
+* Caseless search functions gtk_source_iter_search_forward/backward
+* API reference documentation building infrastructure
+* Added support for translation of user visible strings in language
+  spec files
+* gtk_source_buffer_find_bracket_match has been renamed to
+  gtk_source_iter_find_matching_bracket
+
+News 0.2.0 -> 0.2.1
+-------------------
+
+* Dropped strict libgnome dependency (some Gnome libraries are still needed to
+  build the tests, but those are now optional)
+* Regular expression syntax changed to Extended POSIX + GNU operators
+* Generate enums and flags for introspection and language bindings
+* Copy of GNU regular expression library included for platforms which aren't
+  based on the GNU C library (bug #112517)
+* grab_focus no longer scrolls the widget to the cursor (workaround Gtk+ 
+  bug #81893)
+
+News 0.1.0 -> 0.2.0
+-------------------
+
+* src directory renamed to gtksourceview for proper header
+  namespacing
+
+News 0.0.3 -> 0.1.0
+-------------------
+
+* API has been completely revised
+* New language and manager objects to set regular expressions for
+  syntax highlighting from XML files
+* New improved highlighting engine
+* Rewritten test application which demonstrates most important features
+* Markers API have been redesigned
+* Text style schemes for highlighted elements
+* The view can draw a vertical line indicating a right margin
+* Smart HOME/END keys move to the first/last character in the line
+  before moving to the real begin/end
+* Auto indentation
+
+News 0.0.2 -> 0.0.3
+----------------
+
+* Undo support using begin/end_user_action in GtkTextBuffer.
+* Implemented gtk_source_buffer_convert_to_html the name says what it does :-)
+* more auto indent support/bugfixes: On an keypress it will automatic inserting whitespaces before/after on operator characters like [=<>!], comma [,]  and begin parantes[(]. This is hardcoded values and will probadly only work correcly on C/C++/Java/python or similar programing languages syntax
+* bugfixes.
+
+News 0.0.1 -> 0.0.2
+----------------
+
+* Auto indent support
+* bugfixes
+
+News 0.0.1
+--------
+
+* Syntax/Pattern highlighting
+* Bracket matching support
+* Show line numbers in margin

@@ -1,0 +1,74 @@
+query : ****************************
+  sql : ----------------------------
+select * from таблица1
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "def"."test"."таблица1" ()
+     fullname= "таблица1"
+     charset= "utf8"
+     columns(1) : 
+       column "поле2", cs(utf8_bin) is not pk
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(1)
+     column "def"."test"."таблица1" ."поле2" (alias: поле2, is_pk: 0)
+  clauses(2)
+    clause (7,9) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+*
+      ------------------------------------
+    clause (14,29) doesn't end with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+таблица1
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+select поле1, поле2, (поле3 + поле4), таблица1.поле4, таблица1.поле1 from таблица1 т1
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "def"."test"."таблица1" (т1)
+     fullname= "таблица1"
+     charset= "utf8"
+     columns(1) : 
+       column "поле2", cs(utf8_bin) is not pk
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(5)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."поле1" (alias: поле1, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."поле2" (alias: поле2, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."(поле3 + поле4)" (alias: (поле3 + поле4), is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."поле4" (alias: поле4, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."поле1" (alias: поле1, is_pk: 0)
+  clauses(2)
+    clause (7,107) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+поле1, поле2, (поле3 + поле4), таблица1.поле4, таблица1.поле1
+      ------------------------------------
+    clause (112,131) doesn't end with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+таблица1 т1
+      ------------------------------------
+  subqueries(0)
+  params_num 0

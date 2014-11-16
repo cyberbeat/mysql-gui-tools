@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="db.maxdb.Catalog" parent="db.Catalog">
+    <members>
+      <member name="schemata" type="list" content-type="dict" content-struct-name="db.maxdb.Schema" overrides="db.Schema" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.maxdb.Schema" parent="db.Schema">
+    <members>
+      <member name="tables" type="list" content-type="dict" content-struct-name="db.maxdb.Table" overrides="db.Table" />
+      <member name="views" type="list" content-type="dict" content-struct-name="db.maxdb.View" overrides="db.View" />
+      <member name="routines" type="list" content-type="dict" content-struct-name="db.maxdb.Routine" overrides="db.Routine" />
+      <member name="routineGroups" type="list" content-type="dict" content-struct-name="db.maxdb.RoutineGroup" overrides="db.RoutineGroup" />
+      <member name="synonyms" type="list" content-type="dict" content-struct-name="db.maxdb.Synonym" overrides="db.Synonym" />
+      <member name="structuredTypes" type="list" content-type="dict" content-struct-name="db.maxdb.StructuredDatatype" overrides="db.StructuredDatatype" />
+      <member name="sequences" type="list" content-type="dict" content-struct-name="db.maxdb.Sequence" overrides="db.Sequence" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.maxdb.Table" parent="db.Table">
+    <members>
+      <!--
+      no way to reverse engineer this :-( 
+      <member name="ignoreRollback" type="string" desc="Disables ROLLBACK actions on temporary tables. Applied only to temporary tables." />
+      -->
+      <member name="noFixedLengthColumn" type="int" desc="Forces the usage of variable length style storage for all columns no matter what their data type is." />
+      <member name="sample" type="string" desc="Sample size definitions used to update statistics." />
+      <member name="createDate" type="string" desc="Creation date" />
+      <member name="createTime" type="string" desc="Creation time" />
+      <member name="updStatDate" type="string" desc="Date of last UPDATE STATISTICS statement for table" />
+      <member name="updStatTime" type="string" desc="Time of last UPDATE STATISTICS statement for table" />
+      <member name="alterDate" type="string" desc="Change date of table" />
+      <member name="alterTime" type="string" desc="Change time of table" />
+      <member name="unloaded" type="string" desc="Table is unloaded (YES | NO)" />
+      <member name="privileges" type="string" desc="Privileges that current user has for the table" />		 
+      <member name="comment" type="string" desc="Comment about table" />
+      <member name="tableid" type="string" desc="Table ID in hexadecimal format" />      
+      <member name="archive" type="string" desc="Table was defined with FOR ARCHIVE option (YES|NO)" />
+      <member name="variableColumns" type="string" desc="Columns stored with variable length (YES|NO); see CREATE TABLE Statement in the MaxDB Library" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.maxdb.Column" parent="db.Column" >
+   <members>
+     <member name="defaultFunction" type="string" />
+     <member name="codeType" type="string" desc="Code attribute of column (ASCII | BYTE | UNICODE)" />
+     <member name="privileges" type="string" desc="Privileges of current user for column" />
+     <member name="domainOwner" type="string" desc="Name of domain owner" />
+     <member name="domainName" type="string" desc="Name of domain" />
+     <member name="createDate" type="string" desc="Creation date" />
+      <member name="createTime" type="string" desc="Creation time" />
+      <member name="alterDate" type="string" desc="Change date of column" />
+      <member name="alterTime" type="string" desc="Change time of column" />
+   </members>
+  </gstruct>
+
+  <gstruct name="db.maxdb.SimpleDatatype" parent="db.SimpleDatatype" />
+
+  <gstruct name="db.maxdb.StructuredDatatype" parent="db.StructuredDatatype" caption="MaxDB Structured Datatype" desc="a MaxDB structured datatype object" />
+
+  <gstruct name="db.maxdb.Index" parent="db.Index">
+	<members>
+	    <member name="comment" type="string" desc="" />
+		  <member name="fileid" type="string" desc="" />
+		  <member name="filestate" type="string" desc="" />
+		  <member name="disabled" type="int" desc="" />		  
+		  <member name="indexUsed" type="int" desc="Has this index be accessed in the past?" />
+		  <member name="createDate" type="string" desc="Creation date" />
+		  <member name="createTime" type="string" desc="Creation time" />
+		  <member name="rootPage" type="int" desc="Page number of the root of the B* tree" />
+		  <member name="filetype" type="string" desc="Type of the B* tree" />
+		  <member name="usedPages" type="int" desc="Indicates how many pages are used by the index" />
+		  <member name="indexPages" type="int" desc="Indicates how many pages are used by the index in the B* tree index" />
+		  <member name="leafPages" type="int" desc="Indicates how many leaf pages are used by the index" />
+		  <member name="indexLevels" type="int" desc="Number of index levels in the B* tree" />
+		  <member name="totalSpaceUsed" type="int" desc="Space used of all pages in the B* tree (as a percentage)" />
+		  <member name="rootPageSpace" type="int" desc="Space used of the root page in the B* tree (as a percentage)" />
+		  <member name="indexPagesSpace" type="int" desc="Space used of the index pages in the B* tree (as a percentage)" />
+		  <member name="indexPageSpaceMin" type="int" desc="Contains the minimum used space of the index pages in the B* tree (as a percentage)" />
+		  <member name="indexPageSpaceMax" type="int" desc="Contains the maximum used space of the index pages in the B* tree (as a percentage)" />
+		  <member name="leafPagesSpace"  type="int" desc="Contains the used space of the leaf pages in the B* tree (as a percentage)" />
+		  <member name="leafPagesSpaceMin" type="int" desc="Contains the minimum used space of the leaf pages in the B* tree (as a percentage)" />
+		  <member name="leafPagesSpaceMax" type="int" desc="Contains the maximum used space of the leaf pages in the B* tree (as a percentage)" />
+		  <member name="numDistinctValues" type="int" desc="Only for secondary keys: number of different values of the indexed columns" />
+		  <member name="averageSkLength" type="int" desc="Contains the average length of an index value" />
+		  <member name="minSkLength" type="int" desc="Contains the minimum length of an index value" />
+		  <member name="maxSkLength" type="int" desc="Contains the maximum length of an index value" />
+		  <member name="minSeperatorLength" type="int" dec="Contains contains the minimum length of a separator" />
+		  <member name="avgSeperatorLength" type="int" dec="Contains the average length of a separator in the B* tree" />
+		  <member name="maxSeperatorLength" type="int" dec="Contains the maximum length of a separator" />
+		  <member name="numRowsPk" type="int" desc="Primary key: contains the number of rows in the table" />
+		  <member name="avgNumPkPerList" type="int" desc="Primary key: contains the average number of keys for each invert list" />
+		  <member name="minNumPkPerList" type="int" desc="Primary key: contains the minimum number of keys for each invert list" />
+		  <member name="maxNumPkPerList" type="int" desc="Primary key: contains the maximum number of keys for each invert list" />
+		  <member name="selectivityLess1Percent" type="int" desc="Values with selectivity &lt;= 1%, selectivity less or equal 1%" />
+		  <member name="selectivityLess5Percent" type="int" desc="Values with selectivity &lt;= 5%, selectivity between 1% and 5%" />
+		  <member name="selectivityLess10Percent" type="int" desc="Values with selectivity &lt;= 10%, selectivity between 5% and 10%" />
+		  <member name="selectivityLess25Percent" type="int" desc="Values with selectivity %lt;= 25%, selectivity between 10% and 25%" />
+		  <member name="selectivityGreater25Percent" type="int" desc="Values with selectivity &gt; 25%" />
+	  </members> 	 
+  </gstruct>
+
+  <gstruct name="db.maxdb.IndexColumn" parent="db.IndexColumn">
+	  <members>
+		  <member name="fileid" type="string" desc="" />
+		  <member name="filestate" type="string" desc="" />
+		  <member name="createDate" type="string" desc="Creation date" />
+		  <member name="createTime" type="string" desc="Creation time" />
+	  </members>
+  </gstruct>
+
+  <gstruct name="db.maxdb.ForeignKey" parent="db.ForeignKey">
+	  <members>	      
+		  <member name="createDate" type="string" desc="Creation date" />
+		  <member name="createTime" type="string" desc="Creation time" />
+	  </members>
+  </gstruct>
+  
+  <gstruct name="db.maxdb.Trigger" parent="db.Trigger">
+	  <members>	      
+		  <member name="createDate" type="string" desc="Creation date" />
+		  <member name="createTime" type="string" desc="Creation time" />
+		  <member name="definition" type="string" desc="SQL definition" />
+		  <member name="comment" type="string" />
+	  </members>
+  </gstruct>
+
+  <gstruct name="db.maxdb.View" parent="db.View">
+    <members>
+		 <member name="createDate" type="string" desc="Creation date" />
+		 <member name="createTime" type="string" desc="Creation time" />
+		 <member name="updStatDate" type="string" desc="Date of last UPDATE STATISTICS statement for view table" />
+		 <member name="updStatTime" type="string" desc="Time of last UPDATE STATISTICS statement for view table" />
+		 <member name="alterDate" type="string" desc="Change date of view table" />
+		 <member name="alterTime" type="string" desc="Change time of view table" />
+		 <member name="unloaded" type="string" desc="View table is unloaded (YES | NO)" />
+		 <member name="privileges" type="string" desc="Privileges of user for view table" />		 
+		 <member name="comment" type="string" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.maxdb.RoutineGroup" parent="db.RoutineGroup" caption="MaxDB Routine Group" desc="a MaxDB routine group" />
+
+  <gstruct name="db.maxdb.Routine" parent="db.Routine" caption="MaxDB Routine" desc="a MaxDB Stored Procedure or Stored Function">
+    <members>
+       <member name="createDate" type="string" desc="Creation date" />
+       <member name="createTime" type="string" desc="Creation time" />
+       <member name="comment" type="string" />       
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.maxdb.Synonym" parent="db.Synonym" caption="MaxDB Synonym" desc="a MaxDB database synonym object">
+	  <members>	      
+		  <member name="createDate" type="string" desc="Creation date" />
+		  <member name="createTime" type="string" desc="Creation time" />		
+		  <member name="comment" type="string" />
+	  </members>
+  </gstruct>
+  
+  <gstruct name="db.maxdb.Sequence" parent="db.Sequence" caption="MaxDB Sequence" desc="a MaxDB database sequence object">
+    <members>      
+      <member name="createDate" type="string" desc="Creation date" />
+      <member name="createTime" type="string" desc="Creation time" />
+      <member name="comment" type="string" />
+    </members>
+  </gstruct>
+
+</gstructs>

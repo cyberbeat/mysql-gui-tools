@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>grt.html</title>
+</head>
+<body>
+<h1>GRT - Generic Runtime Environment</h1>
+<h2>Concepts</h2>
+<h3>GRT<a name="GRT"></a></h3>
+The GRT is a system that allows execution of functions that are
+dynamically loaded from modules. Modules may be written in a variety of
+languages and a program that uses the GRT may call them in a unified
+way. Currently, there is a C API and a lua shell as <span
+ style="font-weight: bold;">frontends</span> for the GRT, ie: you can
+use the GRT from programs that link to the GRT library or from scripts
+written in the Lua language.<br>
+<br>
+When the GRT is started, you must call the functions to initialize the
+module loaders that you want to use. Once the loaders are initialized,
+you may call <code><span style="font-family: monospace;">myx_grt_scan_for_modules</span></code>
+to look for modules in specific directories. All modules found will be
+registered with the GRT. For C modules, you must register them with <code>myx_grt_register_builtin_module</code><br>
+<br>
+<h3>Modules<a name="Modules"></a></h3>
+Modules may be written in any language, as long as there is a module
+loader for that language. The current available loaders are for Lua,
+Java and C. With exception of C modules (at least at this time), all
+modules may be dynamically searched and loaded. C modules must be
+compiled in and registered manually, one by one. <br>
+<br>
+Modules implement functions that can be called by the GRT (it may
+contain other internal use functions too). A module may also have a
+"parent" module. This works similar to a class in an OO language. A
+module would be a class and its functions are the methods. A module's
+parent would be its "superclass". When a function from a module is
+invoked, the GRT looks for the function name in the named module. If
+it's not found there, the parent module will be searched and so on,
+until the top parent module. Unlike classes, tho, modules can't have
+attributes and are not instantiated.<br>
+<br>
+A module must provide the following attributes to the GRT:<br>
+<ol>
+  <li>a Name</li>
+  <li>a list of Functions that are provided by it</li>
+  <li>a "parent" module, which the module extends.<br>
+  </li>
+</ol>
+The GRT queries this data when the module is loaded. Therefore modules
+must implement a function called <code>getModuleInfo()</code>, which
+takes no parameters and returns a <span style="font-style: italic;">dictionary</span>
+(or whatever equivalent datatype there is in the language). For
+example, a Lua module would implement something like:<br>
+<br>
+<div style="margin-left: 40px;"><code>function getModuleInfo()</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return {</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; name =
+"someLuaModule",</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; extends =
+"anotherModule",</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; functions
+= {"function1:MyxObject:MyxObject", "function2:MyxObject:"}</code><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</code><br>
+<code>end</code><br>
+<code></code></div>
+<br>
+a Java module would be like:<br>
+<br>
+<div style="margin-left: 40px;"><code>&nbsp; public static HashMap
+getModuleInfo()</code><br>
+<code>&nbsp; {</code><br>
+<code>&nbsp;&nbsp;&nbsp; HashMap map= new HashMap();</code><br>
+<code>&nbsp;&nbsp;&nbsp; Vector vector;</code><br>
+<code></code><br>
+<code>&nbsp;&nbsp;&nbsp; map.put("name", "someJavaModule");</code><br>
+<code>&nbsp;&nbsp;&nbsp; map.put("extends", "anotherModule");</code><code></code><br>
+<code>&nbsp;&nbsp;&nbsp; vector= new Vector();</code><br>
+<code>&nbsp;&nbsp;&nbsp; vector.add("function1:MyxObject:MyxObject");<br>
+</code><code>&nbsp;&nbsp;&nbsp; vector.add("function2:MyxObject");</code><br>
+<code>&nbsp;&nbsp;&nbsp; map.put("functions", vector);</code><br>
+<br>
+<code>&nbsp;&nbsp;&nbsp; return map;</code><br>
+<code>&nbsp; }</code><br>
+</div>
+<br>
+The function list is a list of function signatures in the form:<br>
+<br>
+<div style="margin-left: 40px;"><code><span style="font-style: italic;">function_name</span>
+: <span style="font-style: italic;">parameter_struct_name</span> : <span
+ style="font-style: italic;">return_value_struct_name</span></code><br>
+</div>
+<br>
+where:<br>
+<div style="margin-left: 40px;"><code><span style="font-style: italic;">function_name</span><span
+ style="font-style: italic;"></span></code>&nbsp; The name of the
+function<br>
+<code><span style="font-style: italic;">parameter_struct_name </span></code>Name
+of the struct that the parameter must conform to. May be left empty.<br>
+<code><span style="font-style: italic;">return_value_struct_name </span></code>Name
+of the struct that the return value must conform to. May be left empty.<br>
+</div>
+<br>
+<h3>Functions<a name="Functions"></a></h3>
+In the point of view of the GRT, all functions must be in the form:<br>
+<br>
+<div style="margin-left: 40px;"><code>GRT-Value function(GRT-Value)</code><br>
+</div>
+<br>
+That is, it must take a single parameter which is a GRT Value and also
+return a GRT Value. On the other hand, module loaders, or even
+individual modules, may provide higher level interfaces for exporting
+functions. For example, in the MigrationTool, by convention, most
+functions take and return dictionary GRT Values. So, the loader for
+Java modules could provide a wrapper that will take the dictionary
+value and transform its items into separate parametes. So, while
+someone may invoke a function as:<br>
+<br>
+<div style="margin-left: 40px;"><code>value= {arg1=123, arg2="bla"}</code><br>
+<code>javaModule.doSomething(value)</code><br>
+</div>
+<br>
+the actual implementation may be:<br>
+<br>
+<div style="margin-left: 40px;"><code>public static int doSomething(int
+arg1, String arg2)</code><br>
+</div>
+<br>
+Naturally, the loader will have to take information about the function
+prototype/signature in some way, from each module. That's up to the
+loader itself and will be totally transparent for the rest of the GRT.<br>
+<br>
+<h3>GRT Values<a name="GRTValues"></a></h3>
+<code></code>GRT Values is what is used to pass around data in the GRT,
+between
+frontends and modules etc. It supports the following data types:<br>
+<ul>
+  <li>integer:&nbsp; (an int, in C)</li>
+  <li>real: (a double value, in C)<br>
+  </li>
+  <li>string<br>
+  </li>
+  <li>list: a list of GRT values. The list contents must be uniform
+(ie, only integers or only strings etc)<br>
+  </li>
+  <li>dictionary: a mapping from keys to values. Keys are unique
+strings in the dictionary that are associated to values, which can be
+any GRT value.<br>
+  </li>
+</ul>
+The number of datatypes is limited to allow supporting simpler
+languages that don't provide more complex data types. All data to be
+received and returned from functions must be represented with these
+types. <br>
+<br>
+GRT Values may optionally be associated to a GRT Struct. These provide
+information about how a given value is structured. It's analog to a
+class definition.<br>
+<br>
+The GRT provides functions to represent GRT values in XML. In fact,
+some loaders may receive and pass GRT values to functions as XML text.<br>
+<br>
+<h3>GRT Struct<a name="GRTStruct"></a></h3>
+GRT Structs provide information about how a piece of GRT Value is
+structured. It's existance is optional, but when it exists, values
+passed to and received from module functions will be validated against
+it. It's sole use inside GRT is for validating data, although it may be
+used externally from the GRT as documentation or for other things. <br>
+<br>
+Structs can be assigned to dictionaries and lists. When assigned to
+lists, the Struct will be applied to the contents of the list,
+therefore they can only be assigned to lists that contain dictionaries.<br>
+<br>
+<h3><a name="ModuleMessaging">Module Messaging</a></h3>
+When a function module needs to pass some kind of information back to the
+main program <em>during its execution</em>, such as progress information
+or warning messages, it may use a messaging for that.
+
+Module messaging is done through a local socket created by the GRT.  It will
+only work with module function calls done from a secondary thread, since the
+main program needs to check for messages while the function is being
+executed. It also has the limitation that only one messaging session may be
+active at a time.
+
+To initiate a session, the GRT needs to be prepared by calling
+<code>myx_grt_setup_module_messaging()</code> before the module function is called.
+
+Modules should perform the following:
+<ol>
+<li>connect a socket to the port indicated by the GRT at localhost 
+<li>write the cookie string indicated by the GRT in the socket
+</ol>
+Once connected and authenticated, the session is established and the socket
+may be used to send and receive zero terminated UTF-8 strings.
+
+Use <code>myx_grt_check_module_connected()</code> to perform the GRT side
+of the session establishment and <code>myx_grt_check_module_message()</code>/
+<cod>myx_grt_send_module_message()</code> tgo send and receive messages
+to the module.
+
+After calling <code>myx_grt_setup_module_messaging()</code>, usually
+once the function has finished executing, you must call
+<code>myx_grt_cleanup_module_messaging()</code>. 
+
+<br>
+<h2>The Lua Shell Frontend<a name="LuaShell"></a></h2>
+<h3>GRT Commands</h3>
+<br>
+<br>
+<br>
+<h2>The C API Frontend</h2>
+<h3>General<br>
+</h3>
+<h3>Module Handling<br>
+</h3>
+<h3>Functions</h3>
+<h3>Value Handling</h3>
+<h3>Struct Handling</h3>
+<br>
+<br>
+<h2>Writing Modules</h2>
+<h3>C Modules<br>
+</h3>
+<h3>Java Modules</h3>
+<h3>Lua Modules</h3>
+<h3>Python Modules</h3>
+<br>
+<br>
+<h2><br>
+</h2>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

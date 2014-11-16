@@ -1,0 +1,15 @@
+---------------------------------------------------------------------------
+Changes In 5.0.14
+
+Bug fixes:
+- Bug #40164  	Can't start transaction using toolbar button
+- Bug #36227  	Table will not create when migrating from SQL Server 2005 
+- Bug #37835  	Primary Keys migrated from Oracle in the wrong order (patch provided by Jérôme Louis)
+- Bug #36182  	Bulk Transfer via lua script and grtsh.exe results in 'DROP DATABASE IF EXISTS' 
+- Bug #40200  	No rollback on error for transactions defined in a script
+
+Changes:
+- Fixed unit tests.
+- Vista compatibility for tray monitor
+- Extended range of possible identifier characters (when quoted), used for parsing
+- New option in Query Browser to force script execution to continue even if there was an error (similar to --force for the command line client)

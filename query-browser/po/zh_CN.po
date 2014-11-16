@@ -1,0 +1,1706 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: MySQL Query Browser 1.2.12 汉化版\n"
+"POT-Creation-Date: 2005-11-03 12:03\n"
+"PO-Revision-Date: 2008-03-12 12:43+0800\n"
+"Last-Translator: 牛景春(xinjie) <openvfp@163.com>\n"
+"Language-Team: Trustqf Inc. <openvfp@163.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: QueryBrowser.pas:5504
+msgid " Progress"
+msgstr "进程"
+
+#: RegExTextImporter.pas:1377
+msgid "%d row(s) processed."
+msgstr "%d 行(s) 被处理。"
+
+#: QueryBrowser.pas:4636
+msgid "&Cancel"
+msgstr "取消&C"
+
+#  MainForm..MainMenu..FileMI..CloseTabMI..Caption
+#: Main.dfm:115
+msgid "&Close Tab"
+msgstr "关闭页面(Tab)&C"
+
+#  MainForm..MainActionManager..EditCopy1..Caption
+#: Main.dfm:319
+msgid "&Copy"
+msgstr "复制&C"
+
+#: QueryBrowser.pas:4636
+msgid "&Discard"
+msgstr "放弃&D"
+
+#  MainForm..MainMenu..Edit1..Caption
+#: Main.dfm:158
+msgid "&Edit"
+msgstr "编辑&E"
+
+#  MainForm..MainMenu..FileMI..Caption
+#: Main.dfm:53
+msgid "&File"
+msgstr "文件&F"
+
+#  MainForm..MainMenu..HelpMI..Caption
+#: Main.dfm:252
+msgid "&Help"
+msgstr "帮助&H"
+
+#  MainForm..MainMenu..FileMI..NewInstanceConnectionMI..Caption
+#: Main.dfm:56
+msgid "&New Instance Connection ..."
+msgstr "新实例连接&N ..."
+
+#  MainForm..MainMenu..FileMI..NewResultsetTabMI..Caption
+#: Main.dfm:70
+msgid "&New Resultset Tab"
+msgstr "新结果集页面(Tab)&N"
+
+#: QueryBrowser.pas:4656
+msgid "&No"
+msgstr "否&N"
+
+#  MainForm..MainMenu..FileMI..OpenQueryMI..Caption
+#: Main.dfm:80
+msgid "&Open Query ..."
+msgstr "打开查询&O ..."
+
+#  MainForm..MainActionManager..EditPaste1..Caption
+#: Main.dfm:327
+msgid "&Paste"
+msgstr "粘贴&P"
+
+#  MainForm..MainActionManager..EditRedo1..Caption
+#: Main.dfm:350
+msgid "&Redo"
+msgstr "重做&R"
+
+#  MainForm..MainMenu..FileMI..SaveMI..Caption
+#: Main.dfm:99
+msgid "&Save"
+msgstr "保存&S"
+
+#  MainForm..MainMenu..ToolsMI..Caption
+#: Main.dfm:194
+msgid "&Tools"
+msgstr "工具&T"
+
+#  MainForm..MainActionManager..EditUndo1..Caption
+#: Main.dfm:342
+msgid "&Undo"
+msgstr "撤消&U"
+
+#  MainForm..MainMenu..ViewMenuItem..Caption
+#: Main.dfm:190
+msgid "&View"
+msgstr "视图&V"
+
+#  MainForm..MainMenu..WindowMI..Caption
+#: Main.dfm:245
+msgid "&Window"
+msgstr "窗口&W"
+
+#: QueryBrowser.pas:4656
+msgid "&Yes"
+msgstr "是&Y"
+
+#  AboutForm..Label2..Caption
+#: About.dfm:1251
+msgid "(C) Copyright 2004 by MySQL AB. All rights reserved."
+msgstr "(C) Copyright 2004 by MySQL AB. All rights reserved."
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:168
+msgid "+AKY"
+msgstr "+AKY"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:167
+msgid "+AKw"
+msgstr "+AKw"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:166
+msgid "+ALY"
+msgstr "+ALY"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:184
+msgid "+ALc"
+msgstr "+ALc"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:186
+msgid "+ALs"
+msgstr "+ALs"
+
+#: QueryBrowser.pas:7326
+msgid "A view can only be created from a active resultset of SELECT command."
+msgstr "视图仅能从 SELECT 命令的当前结果创建。"
+
+#  MainForm..MainMenu..HelpMI..AboutMI..Caption
+#: Main.dfm:299
+msgid "About"
+msgstr "关于"
+
+#  AboutForm..Caption
+#: About.dfm:6
+msgid "About MySQL Administrator"
+msgstr "关于 MySQL Administrator"
+
+#  QueryBrowserForm..MainMenu..QueryMI..AddBookmarkMI..Caption
+#: QueryBrowser.dfm:1374
+msgid "Add Bookmark (Ctrl+B)"
+msgstr "增加书签 (Ctrl+B)"
+
+#  QueryBrowserForm..HistoryPopupMenu..AddHistoryItemasBookmarkMI..Caption
+#: QueryBrowser.dfm:1572
+msgid "Add History Item as Bookmark"
+msgstr "增加历史项为标签"
+
+#  QueryBrowserForm..RSGridPopupMenu..AddNewRSTabMI..Caption
+#  QueryBrowserForm..ScriptMemoPopupMenu..ScriptAddNewResultsetTabMI..Caption
+#: QueryBrowser.dfm:1256
+msgid "Add New Resultset Tab (Ctrl+T) "
+msgstr "增加新的结果集页面(Tab) (Ctrl+T) "
+
+#  QueryBrowserForm..RSGridPopupMenu..RSAddNewScriptTabMI..Caption
+#  QueryBrowserForm..ScriptMemoPopupMenu..AddNewScriptTabMI..Caption
+#: QueryBrowser.dfm:1261
+msgid "Add New Script Tab (Ctrl+Shift+T)"
+msgstr "增加新的脚本页面(Tab) (Ctrl+Shift+T)"
+
+#  QueryBrowserForm..ParamPopupMenu..AddParameterMI..Caption
+#: QueryBrowser.dfm:1870
+msgid "Add Parameter"
+msgstr "增加参数"
+
+#  QueryBrowserForm..RSGridPopupMenu..AddRowMI..Caption
+#: QueryBrowser.dfm:1301
+msgid "Add Row"
+msgstr "增加记录"
+
+#: TableDrag.pas:135
+msgid "Add Table(s)"
+msgstr "增加表(s)"
+
+#  AboutForm..InfoMemo....Lines.Strings
+#: About.dfm:1280
+msgid "Alfredo Kengi Kojima | Linux development, library coding"
+msgstr "Alfredo Kengi Kojima | Linux development, library coding"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..AlignNumericColsRightCBox..Caption
+#: QueryBrowserOptionPages.dfm:202
+msgid "Align numeric columns to the right"
+msgstr "数字列右对齐"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..AllowEmptyMatchesMI..Caption
+#: RegExTextImporter.dfm:575
+msgid "Allow Empty Matches"
+msgstr "总是空匹配"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..AlwaysAssumeMoreThanOneCharMI..Caption
+#: RegExTextImporter.dfm:569
+msgid "Always Assume More Than One Char"
+msgstr "总是假设多于一个字符"
+
+#: QueryBrowser.pas:5898
+#: QueryBrowser.pas:6138
+#: QueryBrowser.pas:6340
+#: RegExTextImporter.pas:1135
+#: RegExTextImporter.pas:1169
+#: RegExTextImporter.pas:1403
+#: RegExTextImporter.pas:1490
+msgid "Any File"
+msgstr "任意文件"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractStopwordMI..Caption
+#: RegExTextImporter.dfm:562
+msgid "Anything But Selected Chars"
+msgstr "除选择字符外的所有"
+
+#: QueryBrowser.pas:1249
+msgid "Apply the last undone action again"
+msgstr "再次应用最后未完成的操作"
+
+#: QueryBrowser.pas:6751
+msgid "Are you sure you want to clear the complete history?"
+msgstr "你想清除全部历史吗？"
+
+#: QueryBrowser.pas:3223
+msgid "Are you sure you want to delete the bookmark \"%s\"?"
+msgstr "你想删除书签 \"%s\" 吗？"
+
+#: QueryBrowser.pas:3260
+msgid "Are you sure you want to delete the bookmark folder \"%s\"?"
+msgstr "你想删除书签目录 \"%s\" 吗？"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox2..AssociateFileExtensionsCBox..Caption
+#: QueryBrowserOptionPages.dfm:220
+msgid "Associate sql/query files with Query Browser"
+msgstr "使用查询浏览器关联 sql/查询 文件"
+
+#: QueryBrowser.pas:3510
+msgid "Before Last Week"
+msgstr "上星期之前"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet2..Caption
+#: QueryBrowser.dfm:424
+msgid "Bookmarks"
+msgstr "书签"
+
+#  AboutForm..InfoMemo....Lines.Strings
+#: About.dfm:1282
+msgid "Brian Aker | Main concept, supervising"
+msgstr "Brian Aker | Main concept, supervising"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..Caption
+#: QueryBrowserOptionPages.dfm:35
+msgid "Browser"
+msgstr "浏览"
+
+#: QueryBrowser.pas:1413
+msgid "Calls the explain command to examine the query"
+msgstr "调用解释命令来检查查询"
+
+#: QueryBrowser.pas:3224
+#: QueryBrowser.pas:7318
+#: QueryBrowser.pas:7556
+msgid "Cancel"
+msgstr "取消"
+
+#: QueryBrowser.pas:7545
+msgid "Cannot add dynamic parameter"
+msgstr "不能增加动态参数"
+
+#: QueryBrowser.pas:3277
+msgid "Cannot delete Bookmark Folder"
+msgstr "不能删除书签目录"
+
+#: QueryBrowser.pas:7631
+msgid "Cannot delete dynamic parameter"
+msgstr "不能删除动态参数"
+
+#: QueryBrowser.pas:2944
+msgid "Caption:"
+msgstr "标题："
+
+#  RegExTextImporterForm..TntPanel8..CaseInsensitiveCBox..Caption
+#: RegExTextImporter.dfm:526
+msgid "Case Insensitve"
+msgstr "Case Insensitive"
+
+#  MainForm..MainMenu..FileMI..ChangeDefaultSchemaMI..Caption
+#: Main.dfm:124
+msgid "Change &Default Schema ..."
+msgstr "更改默认数据库&D ..."
+
+#  QueryBrowserForm..QueryPopupMenu..ClearQueryEditorMI..Caption
+#  RegExTextImporterForm..TntPanel8..ClearBtn..Caption
+#: QueryBrowser.dfm:879
+msgid "Clear"
+msgstr "清除"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..ClearAllBreakpointsMI..Caption
+#: QueryBrowser.dfm:1467
+msgid "Clear All Breakpoints"
+msgstr "清除所有断点"
+
+#  QueryBrowserForm..RSGridPopupMenu..ClearFieldContentMI..Caption
+#: QueryBrowser.dfm:1328
+msgid "Clear Field Content"
+msgstr "清除字段内容"
+
+#  QueryBrowserForm..HistoryPopupMenu..ClearHistoryMI..Caption
+#: QueryBrowser.dfm:1586
+msgid "Clear History"
+msgstr "清除历史"
+
+#: ScriptPanel.pas:1635
+msgid "Clear Messages"
+msgstr "清除消息"
+
+#: QueryBrowser.pas:6750
+msgid "Clear history"
+msgstr "清除历史"
+
+#  AboutForm..CloseBtn..Caption
+#: About.dfm:1292
+msgid "Close"
+msgstr "关闭"
+
+#: QueryBrowser.pas:1374
+msgid "Commit the transaction"
+msgstr "提交事务"
+
+#: QueryBrowser.pas:1418
+msgid "Compare"
+msgstr "比较"
+
+#  QueryBrowserForm..MainMenu..QueryMI..CompareResultsetsMI..Caption
+#: QueryBrowser.dfm:1408
+msgid "Compare Resultsets"
+msgstr "比较结果"
+
+#: QueryBrowser.pas:4655
+msgid "Confirm"
+msgstr "确认"
+
+#: QueryBrowser.pas:3223
+msgid "Confirm Deletion"
+msgstr "确认删除"
+
+#: ScriptPanel.pas:950
+msgid "Connection problem. Could not execute command."
+msgstr "连接问题。不能执行命令。"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..ScriptContinueMI..Caption
+#: QueryBrowser.dfm:1440
+msgid "Continue"
+msgstr "继续"
+
+#  QueryBrowserForm..RSGridPopupMenu..CopyFieldContentMI..Caption
+#: QueryBrowser.dfm:1324
+msgid "Copy Field Content"
+msgstr "复制字段内容"
+
+#  QueryBrowserForm..QueryPopupMenu..CopySQLasJavaCodeMI..Caption
+#: QueryBrowser.dfm:912
+msgid "Copy Query as Java Code"
+msgstr "复制查询为 Java 代码"
+
+#  QueryBrowserForm..QueryPopupMenu..CopySQLasPHPcodeMI..Caption
+#: QueryBrowser.dfm:908
+msgid "Copy Query as PHP code"
+msgstr "复制查询为 PHP 代码"
+
+#  QueryBrowserForm..RSGridPopupMenu..CopyRowValuesMI..Caption
+#: QueryBrowser.dfm:1309
+msgid "Copy Row Values"
+msgstr "复制记录值"
+
+#  QueryBrowserForm..TrxPopupMenu..TrxCopySQLMI..Caption
+#: QueryBrowser.dfm:2036
+msgid "Copy SQL to Clipboard"
+msgstr "复制 SQL 到剪贴板"
+
+#  RegExTextImporterForm..RegExPopupMenu..CopyforCcodeMI..Caption
+#: RegExTextImporter.dfm:606
+msgid "Copy for C code"
+msgstr "复制为 C 代码"
+
+#  MainForm..MainActionManager..EditCopy1..Hint
+#: Main.dfm:320
+msgid "Copy|Copies the selection and puts it on the Clipboard"
+msgstr "复制所选到剪贴板"
+
+#: QueryBrowser.pas:7123
+msgid "Could not fetch data for `%s`.`%s`Error code: %d%s"
+msgstr "不能从 `%s`.`%s`读取数据。错误代码： %d%s"
+
+#: QueryBrowser.pas:7556
+msgid "Create"
+msgstr "创建"
+
+#  QueryBrowserForm..BookmarkPopupMenu..CreateBookmarkFolderMI..Caption
+#: QueryBrowser.dfm:1239
+msgid "Create Bookmark Folder"
+msgstr "创建书签目录"
+
+#: QueryBrowser.pas:7086
+msgid "Create FUNCTION"
+msgstr "创建函数"
+
+#  RegExTextImporterForm..StructureTreePnl..FoundFuncPnl..CreateNestedExpBtn..Caption
+#  RegExTextImporterForm..StructureVTPopupMenu..CreateNestedExpressionMI..Caption
+#: RegExTextImporter.dfm:466
+msgid "Create Nested Expression"
+msgstr "创建嵌套表达式"
+
+#: QueryBrowser.pas:7086
+msgid "Create PROCEDURE"
+msgstr "创建过程"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..CreateStoredProcedureFunctionMI..Caption
+#: QueryBrowser.dfm:1474
+msgid "Create Stored Procedure / Function"
+msgstr "创建存储过程/函数"
+
+#: QueryBrowser.pas:7170
+msgid "Create View"
+msgstr "创建视图"
+
+#  QueryBrowserForm..MainMenu..QueryMI..CreateViewfromSelectMI..Caption
+#: QueryBrowser.dfm:1415
+msgid "Create View from Select"
+msgstr "依据所选创建视图"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..CreateWindowsStyleLineBreaksCBox..Caption
+#: QueryBrowserOptionPages.dfm:193
+msgid "Create Windows style line breaks (LF CR)"
+msgstr "创建 Windows 样式的换行符(LF CR)"
+
+#: QueryBrowser.pas:1479
+msgid "Create a view from the current select"
+msgstr "从当前选择创建一个视图"
+
+#  MainForm..MainActionManager..EditCut1..Caption
+#: Main.dfm:311
+msgid "Cu&t"
+msgstr "剪切&t"
+
+#  MainForm..MainActionManager..EditCut1..Hint
+#: Main.dfm:312
+msgid "Cut|Cuts the selection and puts it on the Clipboard"
+msgstr "剪切所选到剪贴板"
+
+#: TableDrag.pas:125
+msgid "DELETE"
+msgstr "DELETE"
+
+#  QueryBrowserForm..BookmarkPopupMenu..DeleteBookmarkMI..Caption
+#: QueryBrowser.dfm:1246
+msgid "Delete Items"
+msgstr "删除项目"
+
+#  QueryBrowserForm..ParamPopupMenu..DeleteParameterMI..Caption
+#: QueryBrowser.dfm:1874
+msgid "Delete Parameter"
+msgstr "删除参数"
+
+#  QueryBrowserForm..RSGridPopupMenu..DeleteRowMI..Caption
+#: QueryBrowser.dfm:1305
+msgid "Delete Row(s)"
+msgstr "删除行(s)"
+
+#  QueryBrowserForm..HistoryPopupMenu..DeleteSelectedHistoryEntriesMI..Caption
+#: QueryBrowser.dfm:1579
+msgid "Delete Selected History Entries"
+msgstr "删除所选历史记录"
+
+#: QueryBrowser.pas:4632
+msgid "Discard Changes"
+msgstr "放弃更改"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..Caption
+#: QueryBrowserOptionPages.dfm:46
+msgid "Display Options"
+msgstr "显示选项"
+
+#: QueryBrowser.pas:2999
+msgid "Do you want to overwrite this bookmark?"
+msgstr "你想覆盖这个书签吗？"
+
+#: TableDrag.pas:164
+msgid "Drop the column(s) on one of the buttons."
+msgstr "按钮之一用于删除字段(s)。"
+
+#: TableDrag.pas:146
+msgid "Drop the table(s) on one of the buttons."
+msgstr "按钮之一用于删除表(s)。"
+
+#: QueryBrowser.pas:2509
+msgid "Dynamic Params"
+msgstr "动态参数"
+
+#  MainForm..MainMenu..FileMI..ExportResultsetMI..Caption
+#: Main.dfm:111
+msgid "E&xport Resultset"
+msgstr "导出结果&x"
+
+#  MainForm..MainActionManager..EditCut1..Category
+#  MainForm..MainActionManager..EditCopy1..Category
+#  MainForm..MainActionManager..EditPaste1..Category
+#  MainForm..MainActionManager..EditSelectAll1..Category
+#  MainForm..MainActionManager..EditUndo1..Category
+#  MainForm..MainActionManager..EditRedo1..Category
+#: Main.dfm:310
+#: Main.dfm:349
+msgid "Edit"
+msgstr "编辑"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..EditAllStoredProceduresFunctionsMI..Caption
+#: QueryBrowser.dfm:1478
+msgid "Edit All Stored Procedures / Functions"
+msgstr "编辑所有存储过程/函数"
+
+#  QueryBrowserForm..RSGridPopupMenu..EditFieldinPopupEditorMI..Caption
+#: QueryBrowser.dfm:1339
+msgid "Edit Field in Popup Editor"
+msgstr "在弹出的编辑器中编辑字段"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..EnableFriendlyLineBreaksCBox..Caption
+#: QueryBrowserOptionPages.dfm:148
+msgid "Enable friendly line breaks"
+msgstr "可用友好的换行符"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..EnforceEditableQueriesCBox....Height
+#: QueryBrowserOptionPages.dfm:130
+msgid "Enforce queries to be editable by adding primary key columns to the select"
+msgstr "通过向选择(select)增加主键强制查询可编辑"
+
+#: QueryBrowser.pas:2941
+msgid "Enter Bookmark Caption"
+msgstr "键入书签标题"
+
+#: QueryBrowser.pas:3310
+msgid "Enter Bookmark Folder Caption"
+msgstr "键入书签目录标题"
+
+#  If there is no object given, a new one has to be created.
+#: QueryBrowser.pas:7083
+msgid "Enter Stored Procedure / Function Name"
+msgstr "键入存储过程/函数名"
+
+#  If there is no object given, a new one has to be created.
+#: QueryBrowser.pas:7169
+msgid "Enter View Name"
+msgstr "键入视图名"
+
+#: QueryBrowser.pas:2695
+msgid "Error while loading bookmarks."
+msgstr "载入书签时发生错误。"
+
+#: QueryBrowser.pas:3365
+msgid "Error while loading history."
+msgstr "载入历史记录时发生错误。"
+
+#: QueryBrowser.pas:3556
+msgid "Error while loading sql function index."
+msgstr "载入 sql 函数索引时发生错误。"
+
+#: QueryBrowser.pas:2738
+msgid "Error while storing bookmarks."
+msgstr "存储书签时发生错误。"
+
+#: QueryBrowser.pas:3390
+msgid "Error while storing history."
+msgstr "存储历史时发生错误。"
+
+#  MainForm..MainMenu..FileMI..CloseMI..Caption
+#: Main.dfm:152
+msgid "Ex&it"
+msgstr "退出&i"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..ScriptExecuteMI..Caption
+#: QueryBrowser.dfm:1427
+#: QueryBrowser.pas:1351
+#: QueryBrowser.pas:1557
+msgid "Execute"
+msgstr "运行"
+
+#  QueryBrowserForm..QueryExecutePopupMenu..ExecuteFromToolbarMI..Caption
+#  QueryBrowserForm..MainMenu..QueryMI..QueryExecuteMI..Caption
+#: QueryBrowser.dfm:841
+msgid "Execute (Ctrl+Enter)"
+msgstr "运行 (Ctrl+Enter)"
+
+#  RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel1..ExecuteNextRegExBtn..Caption
+#: RegExTextImporter.dfm:264
+msgid "Execute Next"
+msgstr "运行下一个"
+
+#  RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel1..ExecuteRegExBtn..Caption
+#: RegExTextImporter.dfm:254
+msgid "Execute RegEx"
+msgstr "运行正则表达式"
+
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..ExecuteSQLBtn..Caption
+#: RegExTextImporter.dfm:386
+msgid "Execute SQL"
+msgstr "运行 SQL"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..ScriptRunSelectionMI..Caption
+#: QueryBrowser.dfm:1431
+msgid "Execute Selection"
+msgstr "运行选定内容"
+
+#  QueryBrowserForm..MainMenu..QueryMI..QueryExecuteInNewTabMI..Caption
+#: QueryBrowser.dfm:1385
+msgid "Execute in New Tab  (Ctrl+Shift+Enter)"
+msgstr "在新页面(Tab)中执行  (Ctrl+Shift+Enter)"
+
+#  QueryBrowserForm..QueryExecutePopupMenu..ExecuteInNewTabFromToolbarMI..Caption
+#: QueryBrowser.dfm:845
+msgid "Execute in New Tab (Ctrl+Shift+Enter)"
+msgstr "在新页面(Tab)中执行 (Ctrl+Shift+Enter)"
+
+#: QueryBrowser.pas:1225
+msgid "Execute the entered query"
+msgstr "执行输入的查询"
+
+#: QueryBrowser.pas:1276
+msgid "Execute the script"
+msgstr "执行脚本"
+
+#: QueryBrowser.pas:1303
+msgid "Executes the next statement but steps over functions"
+msgstr "单步执行下一语句"
+
+#: QueryBrowser.pas:1418
+msgid "Executes the query and compares it with the current resultset"
+msgstr "执行查询并与当前结果集比较"
+
+#: QueryBrowser.pas:1297
+msgid "Executes the script and stops on errors"
+msgstr "执行脚本，在错误处停止"
+
+#: QueryBrowser.pas:1529
+msgid "Executes the script and stops on errors and breakpoints"
+msgstr "执行脚本，在错误和断点处停止"
+
+#: QueryBrowser.pas:1557
+msgid "Executes the script without stopping on errors and breakpoints"
+msgstr "执行脚本，在错误和断点处不停止"
+
+#  QueryBrowserForm..MainMenu..QueryMI..ExplainMI..Caption
+#  Special
+#: QueryBrowser.dfm:1404
+msgid "Explain"
+msgstr "说明"
+
+#: QueryBrowser.pas:6245
+msgid "Export As %s File..."
+msgstr "导出为文件 %s ..."
+
+#  QueryBrowserForm..RSGridPopupMenu..ExportResultsetMI..Caption
+#: QueryBrowser.dfm:1295
+msgid "Export Resultset"
+msgstr "导出结果集"
+
+#: RegExTextImporter.pas:495
+msgid "Expression found."
+msgstr "找到表达式"
+
+#: RegExTextImporter.pas:518
+msgid "Expression not found."
+msgstr "没有找到表达式。"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractNumbersMI..Caption
+#: RegExTextImporter.dfm:554
+msgid "Extract Numbers"
+msgstr "提取数字"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..Caption
+#: RegExTextImporter.dfm:548
+msgid "Extract RegEx"
+msgstr "提取正则表达式"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractTextMI..Caption
+#: RegExTextImporter.dfm:558
+msgid "Extract Text"
+msgstr "提取文本"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractTextandNumbersMI..Caption
+#: RegExTextImporter.dfm:550
+msgid "Extract Text and Numbers"
+msgstr "提取文本和数字"
+
+#: TableDrag.pas:158
+msgid "FROM"
+msgstr "FROM"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet1..SchemataPnl..SchemataFrame..CatalogVST..WideDefaultText
+#: QueryBrowser.dfm:393
+msgid "Fetching Data ..."
+msgstr "提取(Fetching)数据..."
+
+#  MainForm..MainMenu..Edit1..FindMI..Caption
+#  QueryBrowserForm..ScriptMemoPopupMenu..FindMI..Caption
+#: Main.dfm:185
+msgid "Find ..."
+msgstr "查找 ..."
+
+#: QueryBrowser.pas:3502
+msgid "Friday"
+msgstr "星期五"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..FuncSheet..Caption
+#: QueryBrowser.dfm:659
+msgid "Functions"
+msgstr "函数"
+
+#: TableDrag.pas:156
+msgid "GROUP"
+msgstr "GROUP"
+
+#: QueryBrowser.pas:2503
+msgid "Global Params"
+msgstr "全局参数"
+
+#: QueryBrowser.pas:1204
+msgid "Go back"
+msgstr "后退"
+
+#: QueryBrowser.pas:1204
+msgid "Go back in query history"
+msgstr "在查询历史中后退"
+
+#: QueryBrowser.pas:1210
+msgid "Go forward in query history"
+msgstr "在查询历史中前进"
+
+#: TableDrag.pas:155
+msgid "HAVING"
+msgstr "HAVING"
+
+#  MainForm..MainMenu..HelpMI..LaunchHelpMI..Caption
+#: Main.dfm:255
+msgid "Help"
+msgstr "帮助"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..HideTabWhenOneOpenCBox..Caption
+#: QueryBrowserOptionPages.dfm:62
+msgid "Hide the tab when only one page is open"
+msgstr "当仅有一页打开时隐藏页面(Tab)"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet3..Caption
+#: QueryBrowser.dfm:509
+msgid "History"
+msgstr "历史"
+
+#: TableDrag.pas:126
+msgid "INSERT"
+msgstr "INSERT"
+
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..InsertTemplateMemo....Lines.Strings
+#: RegExTextImporter.dfm:328
+msgid "INSERT INTO foo"
+msgstr "INSERT INTO foo"
+
+#: QueryBrowser.pas:3703
+msgid "Inline Help"
+msgstr "在线帮助"
+
+#: QueryBrowser.pas:1735
+msgid "It looks like the thread executing your query hangs on the server. This makes it impossible to tell it to stop working. If you continue now then the thread itself will be killed and a new one is created next time you issue a query. Do you want this?"
+msgstr "看上去好象是在服务器上运行你的线程。这就无法停止它。如果现在继续下去，线程会被自身 killed ，并且在下一次发出一个查询时会创建一个新的线程。你希望这样吗？"
+
+#: TableDrag.pas:134
+msgid "JOIN Table(s)"
+msgstr "连接表(s)"
+
+#: TableDrag.pas:133
+msgid "LEFT OUTER JOIN"
+msgstr "LEFT OUTER JOIN"
+
+#: QueryBrowser.pas:3508
+msgid "Last Week"
+msgstr "上星期"
+
+#  MainForm..MainMenu..HelpMI..VisitMySQLcomMI..Caption
+#: Main.dfm:281
+msgid "Launch MySQL.com Site"
+msgstr "访问 MySQL.com 站点"
+
+#  MainForm..MainMenu..HelpMI..ListreportedBugsMI..Caption
+#: Main.dfm:288
+msgid "List Reported Bugs"
+msgstr "列出报告的 Bugs"
+
+#  RegExTextImporterForm..TntPanel8..LoadBtn..Caption
+#: RegExTextImporter.dfm:518
+msgid "Load"
+msgstr "载入"
+
+#  QueryBrowserForm..RSGridPopupMenu..LoadFieldContentMI..Caption
+#: QueryBrowser.dfm:1316
+msgid "Load Field Content"
+msgstr "载入字段内容"
+
+#  RegExTextImporterForm..TntPanel8..LoadFileBtn..Caption
+#: RegExTextImporter.dfm:494
+msgid "Load Source Text"
+msgstr "载入源文本"
+
+#: QueryBrowser.pas:1258
+msgid "Load a script"
+msgstr "载入脚本"
+
+#: QueryBrowser.pas:2506
+msgid "Local Params"
+msgstr "局部参数"
+
+#: QueryBrowser.pas:1128
+msgid "Make Default Schema"
+msgstr "设置为默认数据库"
+
+#  MainForm..MainMenu..ToolsMI..ManageConnectionsMI..Caption
+#: Main.dfm:225
+msgid "Manage Connections ..."
+msgstr "管理连接 ..."
+
+#: RegExTextImporter.pas:1295
+msgid "Match %s not found in %s."
+msgstr "在 %s 中没有找到匹配的  %s 。"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..MatchExactCountMI..Caption
+#: RegExTextImporter.dfm:580
+msgid "Match Exact Count"
+msgstr "精确匹配计算"
+
+#: RegExTextImporter.pas:435
+msgid "Matches"
+msgstr "匹配"
+
+#  QueryBrowserForm..MainMenu..ViewMI..MaximizeQueryEditMI..Caption
+#: QueryBrowser.dfm:1352
+msgid "Maximize Query Edit (F11)"
+msgstr "最大化查询编辑区域 (F11)"
+
+#  QueryBrowserForm..MainMenu..ViewMI..OnlyTabsheetsMI..Caption
+#: QueryBrowser.dfm:1357
+msgid "Maximize Tabsheets (F12)"
+msgstr "最大化 Tabsheets (F12)"
+
+#  AboutForm..InfoMemo......Lines.Strings
+#: About.dfm:1279
+msgid "Michael G. Zinner | Graphical design, Windows development, library coding"
+msgstr "Michael G. Zinner | Graphical design, Windows development, library coding"
+
+#: QueryBrowser.pas:3494
+msgid "Monday"
+msgstr "星期一"
+
+#  QueryBrowserForm..ParamPopupMenu..MoveParametertoGlobalParametersMI..Caption
+#: QueryBrowser.dfm:1878
+msgid "Move Parameter to Global Parameters"
+msgstr "移动参数为全局参数"
+
+#  RegExTextImporterForm..TntPanel8..MultilineStringCBox..Caption
+#: RegExTextImporter.dfm:537
+msgid "Multiline String"
+msgstr "多行字符串"
+
+#  Warn about multiple commands on one line.
+#: QueryBrowser.pas:5030
+msgid "Multiple commands"
+msgstr "多条命令"
+
+#  MainForm..MainMenu..ToolsMI..MySQLAdministratorMI..Caption
+#: Main.dfm:197
+msgid "MySQL Administrator"
+msgstr "MySQL Administrator"
+
+#  MainForm..MainMenu..ToolsMI..MySQLCommandLineClientMI..Caption
+#: Main.dfm:201
+msgid "MySQL Command Line Client"
+msgstr "MySQL 命令行客户端"
+
+#  MainForm..Caption
+#: Main.dfm:4
+#: Main.pas:1184
+msgid "MySQL Query Browser"
+msgstr "MySQL 查询浏览器"
+
+#: QueryBrowser.pas:7557
+msgid "Name"
+msgstr "名字"
+
+#: QueryBrowser.pas:7087
+msgid "Name:"
+msgstr "名字："
+
+#  MainForm..MainMenu..FileMI..NewSQLScriptTabMI..Caption
+#: Main.dfm:75
+msgid "Ne&w Script Tab"
+msgstr "新脚本页面(Tab)&w"
+
+#: RegExTextImporter.pas:438
+msgid "Nested RegEx"
+msgstr "嵌套正则表达式"
+
+#: QueryBrowser.pas:7554
+msgid "New Parameter"
+msgstr "新参数"
+
+#: QueryBrowser.pas:1210
+msgid "Next"
+msgstr "下一个"
+
+#: QueryBrowser.pas:1736
+#: ScriptPanel.pas:688
+msgid "No"
+msgstr "否"
+
+#: RegExTextImporter.pas:537
+msgid "No Error."
+msgstr "没有错误。"
+
+#  RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel7..RegExErrorLbl..Caption
+#: RegExTextImporter.dfm:226
+msgid "No error."
+msgstr "没有错误。"
+
+#: ScriptPanel.pas:687
+msgid "No server connection"
+msgstr "没有服务器连接"
+
+#: QueryBrowser.pas:5031
+msgid "Note that only the first complete command is executed."
+msgstr "注意只有第一个完整命令被执行。"
+
+#  MainForm..MainMenu..FileMI..OpenSQLScriptMI..Caption
+#: Main.dfm:85
+msgid "O&pen Script ..."
+msgstr "打开脚本&p ..."
+
+#: QueryBrowser.pas:5031
+msgid "OK"
+msgstr "确定"
+
+#: QueryBrowser.pas:2943
+msgid ""
+"OK\n"
+"Cancel"
+msgstr ""
+"确定\n"
+"取消"
+
+#: TableDrag.pas:154
+msgid "ORDER"
+msgstr "排序"
+
+#  MainForm..MainMenu..HelpMI..OnlineDocsMI..Caption
+#: Main.dfm:266
+msgid "Online Docs"
+msgstr "在线文档"
+
+#  MainForm..MainMenu..HelpMI..OnlineReferenceCAPIMI..Caption
+#: Main.dfm:270
+msgid "Online Docs - C API"
+msgstr "在线文档 - C API"
+
+#  MainForm..MainMenu..HelpMI..OnlineDocsPHPAPIMI..Caption
+#: Main.dfm:274
+msgid "Online Docs - PHP API"
+msgstr "在线文档 - PHP API"
+
+#  QueryBrowserForm..QueryPopupMenu..OpenQueryMI..Caption
+#: QueryBrowser.dfm:886
+msgid "Open Query ..."
+msgstr "打开查询 ..."
+
+#  QueryBrowserForm..ScriptMemoPopupMenu..OpenScriptMI..Caption
+#: QueryBrowser.dfm:1548
+msgid "Open Script ... (Ctrl+O)"
+msgstr "打开脚本 ... (Ctrl+O)"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..OpenExportedResultsetCBox..Caption
+#: QueryBrowserOptionPages.dfm:139
+msgid "Open resultset in associated application after export"
+msgstr "在导出后使用关联程序打开结果集"
+
+#  MainForm..MainMenu..ToolsMI..OptionsMI..Caption
+#: Main.dfm:239
+msgid "Options ..."
+msgstr "选项 ..."
+
+#: QueryBrowser.pas:2999
+msgid "Overwrite Bookmark"
+msgstr "覆盖书签"
+
+#  MainForm..MainMenu..FileMI..PageSetupMI..Caption
+#: Main.dfm:133
+msgid "Page Setup ..."
+msgstr "页面设置 ..."
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..ParamPnl..ParamVT......WideText
+#: QueryBrowser.dfm:766
+msgid "Param"
+msgstr "参数"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..Caption
+#: QueryBrowser.dfm:713
+msgid "Params"
+msgstr "参数"
+
+#  RegExTextImporterForm..StructureTreePnl..StructureVT......WideText
+#  RegExTextImporterForm..StructureTreePnl..TntPanel4..Caption
+#: RegExTextImporter.dfm:435
+msgid "Parse Structure"
+msgstr "分析结构"
+
+#  RegExTextImporterForm..RegExPopupMenu..PasteCcodeMI..Caption
+#: RegExTextImporter.dfm:610
+msgid "Paste C code"
+msgstr "粘贴 C 代码"
+
+#  QueryBrowserForm..QueryPopupMenu..PasteClipboardContentasJavaCodeMI..Caption
+#: QueryBrowser.dfm:901
+msgid "Paste Clipboard Content as Java Code"
+msgstr "粘贴剪贴板内容为 Jave 代码"
+
+#  QueryBrowserForm..QueryPopupMenu..PasteClipboardContentasPHPcodeMI..Caption
+#: QueryBrowser.dfm:897
+msgid "Paste Clipboard Content as PHP Code"
+msgstr "粘贴剪贴板内容为 PHP 代码"
+
+#  MainForm..MainActionManager..EditPaste1..Hint
+#: Main.dfm:328
+msgid "Paste|Inserts Clipboard contents"
+msgstr "粘贴|插入剪贴板内容"
+
+#: QueryBrowser.pas:1290
+msgid "Pause"
+msgstr "暂停"
+
+#: QueryBrowser.pas:1522
+msgid "Pauses the execution"
+msgstr "暂停执行"
+
+#: QueryBrowser.pas:1290
+msgid "Pauses the execution of the script"
+msgstr "暂停执行脚本"
+
+#: QueryBrowser.pas:5311
+msgid "Please enter a SELECT statment before you use the EXPLAIN function."
+msgstr "在使用 EXPLAIN 函数前请键入一个 SELECT 语句。"
+
+#: QueryBrowser.pas:7555
+msgid "Please enter a name for the new parameter."
+msgstr "请键入新参数名。"
+
+#: QueryBrowser.pas:2942
+msgid "Please enter the caption for this bookmark"
+msgstr "请键入书签标题"
+
+#: QueryBrowser.pas:3310
+msgid "Please enter the caption for this bookmark folder."
+msgstr "请键入书签目录的标题。"
+
+#: QueryBrowser.pas:7085
+msgid "Please enter the name of the PROCEDURE / FUNCTION you want to create. A code template will be created."
+msgstr "请键入你想创建的过程/函数名。一个代码模板将被创建。"
+
+#: QueryBrowser.pas:7317
+msgid "Please enter the name of the VIEW you want to create."
+msgstr "请键入你想创建的视图名。"
+
+#: QueryBrowser.pas:7170
+msgid "Please enter the name of the VIEW you want to create. A code template will be created."
+msgstr "请键入你想创建的视图名。一个代码模板将被创建。"
+
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..PreviewBtn..Caption
+#: RegExTextImporter.dfm:364
+msgid "Preview"
+msgstr "预览"
+
+#  MainForm..MainMenu..FileMI..PrintMI..Caption
+#: Main.dfm:143
+msgid "Print ..."
+msgstr "打印 ..."
+
+#  MainForm..MainMenu..FileMI..PrinttoPDFMI..Caption
+#: Main.dfm:138
+msgid "Print to PDF ..."
+msgstr "打印到 PDF ..."
+
+#  QueryBrowserForm..MainMenu..QueryMI..Caption
+#: QueryBrowser.dfm:1370
+msgid "Query"
+msgstr "查询"
+
+#: Main.pas:364
+msgid "Query Browser"
+msgstr "查询浏览器"
+
+#: QueryBrowser.pas:5959
+#: QueryBrowser.pas:6132
+#: QueryBrowser.pas:6133
+#: QueryBrowser.pas:6134
+msgid "Query File"
+msgstr "查询文件"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..Caption
+#: QueryBrowserOptionPages.dfm:100
+msgid "Query Options"
+msgstr "查询选项"
+
+#  and did not come back to the application so that the thread could be stopped normally.
+#: QueryBrowser.pas:1733
+msgid "Query thread does not respond"
+msgstr "查询线程无反应"
+
+#  QueryBrowserForm..Caption
+#: QueryBrowser.dfm:4
+msgid "QueryBrowser"
+msgstr "查询浏览器"
+
+#  QueryBrowserOptionPagesForm..Caption
+#: QueryBrowserOptionPages.dfm:5
+msgid "QueryBrowserOptionPagesForm"
+msgstr "查询浏览器选项页窗体"
+
+#  MainForm..MainMenu..HelpMI..QuickStartGuideMI..Caption
+#: Main.dfm:259
+msgid "Quick Start Guide"
+msgstr "快速开始指南"
+
+#: QueryBrowser.pas:1249
+msgid "Redo"
+msgstr "重做"
+
+#  MainForm..MainActionManager..EditRedo1..Hint
+#: Main.dfm:351
+msgid "Redo|Redoes the last undone action"
+msgstr "重做最后未完成的操作"
+
+#  QueryBrowserForm..MainMenu..QueryMI..QueryRefreshMI..Caption
+#: QueryBrowser.dfm:1393
+msgid "Refresh"
+msgstr "刷新"
+
+#  QueryBrowserForm..ParamPopupMenu..RefreshParametersMI..Caption
+#: QueryBrowser.dfm:1885
+msgid "Refresh Parameters"
+msgstr "刷新参数"
+
+#: QueryBrowser.pas:1216
+msgid "Refresh the result grid"
+msgstr "刷新结果表格"
+
+#  RegExTextImporterForm..Caption
+#: RegExTextImporter.dfm:6
+msgid "RegEx Text Importer"
+msgstr "正则表达式文本导入"
+
+#  MainForm..MainMenu..ToolsMI..RegExTextImporterMI..Caption
+#: Main.dfm:216
+msgid "RegEx Text Importer ..."
+msgstr "正则表达式文本导入 ..."
+
+#: RegExTextImporter.pas:648
+msgid "RegEx%d"
+msgstr "正则表达式%d"
+
+#: RegExTextImporter.pas:1402
+msgid "RegExes File"
+msgstr "正则表达式文件"
+
+#  RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel2..Caption
+#: RegExTextImporter.dfm:181
+msgid "Regular Expression"
+msgstr "正则表达式"
+
+#  RegExTextImporterForm..StructureVTPopupMenu..RemoveRegExMI..Caption
+#: RegExTextImporter.dfm:591
+msgid "Remove RegEx"
+msgstr "移除正则表达式"
+
+#  QueryBrowserForm..RSGridPopupMenu..RemoveResultSetMI..Caption
+#: QueryBrowser.dfm:1287
+msgid "Remove Resultset"
+msgstr "移除结果集"
+
+#  QueryBrowserForm..RSGridPopupMenu..RemoveTabsheetMI..Caption
+#: QueryBrowser.dfm:1282
+msgid "Remove Tab"
+msgstr "移除页面(Tab)"
+
+#  MainForm..MainMenu..FileMI..ReopenMI..Caption
+#: Main.dfm:90
+msgid "Reopen"
+msgstr "重新打开"
+
+#  MainForm..MainMenu..HelpMI..ReportBugMI..Caption
+#: Main.dfm:292
+msgid "Report a New Bug to MySQL"
+msgstr "向 MySQL 报告一个新 Bug"
+
+#: QueryBrowser.pas:1987
+msgid "Resultset %d"
+msgstr "结果集 %d"
+
+#: QueryBrowser.pas:6369
+msgid "Resultset Exported Successfully."
+msgstr "结果集导出成功。"
+
+#: QueryBrowser.pas:1380
+msgid "Rollback the transaction"
+msgstr "回滚事务"
+
+#: TableDrag.pas:141
+msgid "SELECT"
+msgstr "SELECT"
+
+#: QueryBrowser.pas:5311
+msgid "SQL Error"
+msgstr "SQL 错误"
+
+#  Determine correct size of the query area header bar.
+#: QueryBrowser.pas:5399
+msgid "SQL Query Area"
+msgstr "SQL 查询范围"
+
+#: QueryBrowser.pas:5895
+#: QueryBrowser.pas:5962
+#: QueryBrowser.pas:5963
+#: QueryBrowser.pas:5964
+#: QueryBrowser.pas:6086
+#: QueryBrowser.pas:6087
+#: QueryBrowser.pas:6088
+#: QueryBrowser.pas:6135
+#: QueryBrowser.pas:6136
+#: QueryBrowser.pas:6137
+msgid "SQL Script File"
+msgstr "SQL 脚本文件"
+
+#: QueryBrowser.pas:7123
+msgid "SQL error"
+msgstr "SQL 错误"
+
+#  QueryBrowserForm..UCESQLHighlighter..DefaultFilter
+#: QueryBrowser.dfm:1484
+msgid "SQL script files (*.sql)|*.sql"
+msgstr "SQL 脚本文件 (*.sql)|*.sql"
+
+#: QueryBrowser.pas:3504
+msgid "Saturday"
+msgstr "星期六"
+
+#  RegExTextImporterForm..TntPanel8..SaveBtn..Caption
+#: RegExTextImporter.dfm:510
+msgid "Save"
+msgstr "保存"
+
+#  MainForm..MainMenu..FileMI..SaveAsMI..Caption
+#: Main.dfm:105
+msgid "Save &As ..."
+msgstr "另存为&A ..."
+
+#  MainForm..MainMenu..ToolsMI..SavecurrentConnectionMI..Caption
+#: Main.dfm:230
+msgid "Save Current Connection ..."
+msgstr "保存当前连接 ..."
+
+#  QueryBrowserForm..RSGridPopupMenu..SaveFieldContentMI..Caption
+#: QueryBrowser.dfm:1320
+msgid "Save Field Content"
+msgstr "保存字段内容"
+
+#  QueryBrowserForm..QueryPopupMenu..SaveQueryAsMI..Caption
+#: QueryBrowser.dfm:890
+msgid "Save Query As ..."
+msgstr "保存查询为 ..."
+
+#: QueryBrowser.pas:6130
+msgid "Save Query to File ..."
+msgstr "保存查询到文件 ..."
+
+#  QueryBrowserForm..ScriptMemoPopupMenu..SaveScriptMI..Caption
+#: QueryBrowser.dfm:1552
+msgid "Save Script"
+msgstr "保存脚本"
+
+#  QueryBrowserForm..ScriptMemoPopupMenu..SaveScriptAsMI..Caption
+#: QueryBrowser.dfm:1556
+msgid "Save Script As ..."
+msgstr "保存脚本为 ..."
+
+#: QueryBrowser.pas:6083
+msgid "Save Script to File ..."
+msgstr "保存脚本到文件 ..."
+
+#: QueryBrowser.pas:4655
+msgid "Save changes to %s?"
+msgstr "保存更改到 %s 吗？"
+
+#  if Exporter is found
+#: QueryBrowser.pas:6333
+msgid "Save result set to file ..."
+msgstr "保存结果集到文件 ..."
+
+#: QueryBrowser.pas:1263
+msgid "Save the script"
+msgstr "保存脚本"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet1..Caption
+#  Set properties of upper sidebar Tabcontrol
+#: QueryBrowser.dfm:361
+msgid "Schemata"
+msgstr "数据库"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..Caption
+#: QueryBrowser.dfm:1423
+msgid "Script"
+msgstr "脚本"
+
+#: QueryBrowser.pas:1268
+msgid "Search"
+msgstr "搜索"
+
+#: QueryBrowser.pas:1268
+msgid "Search and replace text"
+msgstr "搜索并替换文本"
+
+#  MainForm..MainActionManager..EditSelectAll1..Caption
+#: Main.dfm:335
+msgid "Select &All"
+msgstr "选择所有&A"
+
+#  MainForm..MainActionManager..EditSelectAll1..Hint
+#: Main.dfm:336
+msgid "Select All|Selects the entire document"
+msgstr "选择所有|选择整个文档"
+
+#: QueryBrowser.pas:1440
+msgid "Sets the FROM clause mouse cursor"
+msgstr "设置 FROM 子句鼠标光标"
+
+#: QueryBrowser.pas:1452
+msgid "Sets the GROUP clause mouse cursor"
+msgstr "设置 GROUP 子句鼠标光标"
+
+#: QueryBrowser.pas:1458
+msgid "Sets the HAVING clause mouse cursor"
+msgstr "设置 HAVING 子句鼠标光标"
+
+#: QueryBrowser.pas:1464
+msgid "Sets the ORDER clause mouse cursor"
+msgstr "设置 ORDER 子句鼠标光标"
+
+#: QueryBrowser.pas:1434
+msgid "Sets the SELECT clause mouse cursor"
+msgstr "设置 SELECT 子句鼠标光标"
+
+#: QueryBrowser.pas:1470
+msgid "Sets the SET clause mouse cursor"
+msgstr "设置 SET 子句鼠标光标"
+
+#: QueryBrowser.pas:1446
+msgid "Sets the WHERE clause mouse cursor"
+msgstr "设置 WHERE 子句鼠标光标"
+
+#: QueryBrowser.pas:1427
+msgid "Sets the standard mouse cursor"
+msgstr "设置标准的鼠标指针"
+
+#  MainForm..MainActionManager..EditRedo1....SecondaryShortCuts.Strings
+#: Main.dfm:355
+msgid "Shift+Ctrl+Z"
+msgstr "Shift+Ctrl+Z"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowAdvancedToolbarMI..Caption
+#: QueryBrowserOptionPages.dfm:53
+msgid "Show advanced toolbars"
+msgstr "显示高级工具栏"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowMouseCursorToolbarGroupCBox..Caption
+#: QueryBrowserOptionPages.dfm:89
+msgid "Show composer buttons toolbar"
+msgstr "显示设计按钮工具栏"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowFieldOverlayImagesCBox..Caption
+#: QueryBrowserOptionPages.dfm:80
+msgid "Show field overlay images for BLOB fields"
+msgstr "对于 BLOB 字段显示字段中的图象"
+
+#  QueryBrowserForm..MainMenu..ViewMI..ShowSidebarMI..Caption
+#: QueryBrowser.dfm:1364
+msgid "Sidebar"
+msgstr "其他选项"
+
+#  RegExTextImporterForm..ScrollBox..ExtractPnl..ContentPnl..TntPanel3..TntPanel5..Caption
+#: RegExTextImporter.dfm:143
+msgid "Source Text"
+msgstr "源文本"
+
+#  QueryBrowserForm..RSGridPopupMenu..SplitTabHorizontallyMI..Caption
+#  QueryBrowserForm..ScriptMemoPopupMenu..SplitScriptTabHorizontallyMI..Caption
+#: QueryBrowser.dfm:1274
+msgid "Split Tab Horizontally"
+msgstr "水平拆分页面(Tab)"
+
+#  QueryBrowserForm..RSGridPopupMenu..SplitResultsetTabVerticallyMI..Caption
+#: QueryBrowser.dfm:1269
+msgid "Split Tab Vertically"
+msgstr "垂直拆分页面(Tab)"
+
+#  QueryBrowserForm..MainMenu..QueryMI..SplitTabandExecuteMI..Caption
+#: QueryBrowser.dfm:1389
+msgid "Split Tab and Execute  (Ctrl+Alt+Enter)"
+msgstr "拆分页面(Tab)并执行  (Ctrl+Alt+Enter)"
+
+#  QueryBrowserForm..QueryExecutePopupMenu..SplitTabAndExecuteFromToolbarMI..Caption
+#: QueryBrowser.dfm:849
+msgid "Split Tab and Execute (Ctrl+Alt+Enter)"
+msgstr "拆分页面(Tab)并执行 (Ctrl+Alt+Enter)"
+
+#: QueryBrowser.pas:1369
+msgid "Start a new transaction"
+msgstr "开始一个新事务"
+
+#: QueryBrowser.pas:1303
+msgid "Step"
+msgstr "步骤"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..ScriptStepOverMI..Caption
+#: QueryBrowser.dfm:1445
+msgid "Step Over"
+msgstr "单步"
+
+#  QueryBrowserForm..MainMenu..QueryMI..QueryStopMI..Caption
+#  QueryBrowserForm..MainMenu..ScriptMI..ScriptStopMI..Caption
+#: QueryBrowser.dfm:1397
+#: QueryBrowser.pas:1281
+#: QueryBrowser.pas:1356
+#: QueryBrowser.pas:1562
+msgid "Stop"
+msgstr "停止"
+
+#: QueryBrowser.pas:1230
+msgid "Stop the execution of the query"
+msgstr "停止查询执行"
+
+#: QueryBrowser.pas:1281
+msgid "Stop the execution of the script"
+msgstr "停止脚本执行"
+
+#: QueryBrowser.pas:1562
+msgid "Stops the execution of the script"
+msgstr "停止脚本执行"
+
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..StoreSQLBtn..Caption
+#: RegExTextImporter.dfm:375
+msgid "Store SQL to Script"
+msgstr "存储 SQL 到脚本"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..TntLabel2..Caption
+#: QueryBrowserOptionPages.dfm:121
+msgid "Substitude CR:"
+msgstr "替代 CR："
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..TntLabel1..Caption
+#: QueryBrowserOptionPages.dfm:112
+msgid "Substitude LF:"
+msgstr "替代 LF："
+
+#: QueryBrowser.pas:3506
+msgid "Sunday"
+msgstr "星期日"
+
+#  MainForm..MainMenu..FileMI..SwitchMI..Caption
+#: Main.dfm:61
+msgid "Switch Connection"
+msgstr "切换连接"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..SynSheet..Caption
+#  Set properties of lower sidebar Tabcontrol
+#: QueryBrowser.dfm:605
+msgid "Syntax"
+msgstr "语法"
+
+#  TableDragForm..Caption
+#: TableDrag.dfm:7
+msgid "TableDragForm"
+msgstr "表删除窗体"
+
+#: Main.pas:975
+msgid "The Bitstream Vera Sans Mono fonts cannot be found. Please download the font files from http://www.gnome.org/fonts and copy them into the fonts directory %s. The following files are needed: VeraMoBd.ttf, VeraMoBI.ttf, VeraMoIt.ttf, VeraMono.ttf."
+msgstr "Bitstream Vera Sans Mono 字体不存在。请从 http://www.gnome.org/fonts 下载字体文件并将它们复制到字体文件夹 %s 中。下面的文件是必需的：VeraMoBd.ttf, VeraMoBI.ttf, VeraMoIt.ttf, VeraMono.ttf。"
+
+#: RegExTextImporter.pas:310
+msgid "The Matches Group Node cannot be found"
+msgstr "没有匹配的组节点"
+
+#: RegExTextImporter.pas:333
+msgid "The Nested Group Node cannot be found"
+msgstr "没有嵌套的组节点"
+
+#: ScriptPanel.pas:688
+msgid "The connection to the server was lost.  Reconnect?"
+msgstr "到服务器的连接已失效。重新连接吗？"
+
+#: QueryBrowser.pas:6376
+msgid "The file %s cannot be written."
+msgstr "文件 %s 不能被写入。"
+
+#: QueryBrowser.pas:6370
+msgid "The resultset has been exported to %s successfully."
+msgstr "结果集已被成功导出到 %s 。"
+
+#: QueryBrowser.pas:5030
+msgid "There are more than one commands on this line. "
+msgstr "在一行中存在多条命令。"
+
+#  DLL Version check
+#: ApplicationDataModule.pas:122
+msgid "There is a incompatible version of the library %s installed (Version %s). Please update the library to version %s."
+msgstr "不兼容版本的库(library)  %s 被安装 (版本 %s) 。请更新库(library)版本到  %s 。"
+
+#  AboutForm..LicenceLbl....AutoSize
+#: About.dfm:1264
+msgid "This software is released under the GNU General Public License (GPL), which is probably the best known Open Source license. The formal terms of the GPL license can be found at http://www.fsf.org/licenses/."
+msgstr "本软件在 GNU General Public License (GPL)协议下释放，它或许是已知的开源协议中最好的。GPL 协议的正式条款可在  http://www.fsf.org/licenses/ 中找到。"
+
+#: QueryBrowser.pas:3500
+msgid "Thursday"
+msgstr "星期四"
+
+#: QueryBrowser.pas:3492
+msgid "Today"
+msgstr "今天"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..ToggleBreakpointMI..Caption
+#: QueryBrowser.dfm:1462
+msgid "Toggle Breakpoint"
+msgstr "切换断点"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ToolbarGradientCBox..Caption
+#: QueryBrowserOptionPages.dfm:71
+msgid "Toolbars use a gradient background"
+msgstr "工具栏背景色渐变"
+
+#: QueryBrowser.pas:1364
+msgid "Transaction"
+msgstr "事务处理"
+
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel6..TriggerInsertCBox..Caption
+#: RegExTextImporter.dfm:310
+msgid "Trigger Insert Statement"
+msgstr "触发器 Insert 语句"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..TrxTabSheet..Caption
+#: QueryBrowser.dfm:777
+msgid "Trx"
+msgstr "Trx"
+
+#: QueryBrowser.pas:3496
+msgid "Tuesday"
+msgstr "星期二"
+
+#: SqlCmdPanel.pas:362
+msgid "Type '%s' or '%s' for help. Type '%s' to clear the screen."
+msgstr "键入 '%s' 或 '%s' 来获取帮助。键入 '%s' 可清除屏幕。"
+
+#: TableDrag.pas:127
+msgid "UPDATE"
+msgstr "UPDATE"
+
+#  AboutForm..InfoMemo....Lines.Strings
+#: About.dfm:1281
+msgid "Ulrich Bayer | Library coding"
+msgstr "Ulrich Bayer | Library coding"
+
+#: QueryBrowser.pas:1243
+msgid "Undo"
+msgstr "撤消"
+
+#: QueryBrowser.pas:1243
+msgid "Undo the last change"
+msgstr "撤消最后的更改"
+
+#  MainForm..MainActionManager..EditUndo1..Hint
+#: Main.dfm:343
+msgid "Undo|Reverts the last action"
+msgstr "撤消|还原最后的操作"
+
+#: QueryBrowser.pas:4747
+msgid "User Confirmation"
+msgstr "用户确认"
+
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..InsertTemplateMemo....Lines.Strings
+#: RegExTextImporter.dfm:329
+msgid "VALUES ();"
+msgstr "VALUES ();"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..ParamPnl..ParamVT......WideText
+#: QueryBrowser.dfm:771
+msgid "Value"
+msgstr "值"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox2..Caption
+#: QueryBrowserOptionPages.dfm:213
+msgid "Various"
+msgstr "其他"
+
+#  AboutForm..VersionLbl..Caption
+#: About.dfm:1243
+msgid "Version 1.0.3 ALPHA"
+msgstr "Version 1.0.3 ALPHA"
+
+#  QueryBrowserForm..MainMenu..ViewMI..Caption
+#: QueryBrowser.dfm:1348
+msgid "View"
+msgstr "视图"
+
+#  QueryBrowserForm..RSGridPopupMenu..ViewFieldinPopupEditorMI..Caption
+#: QueryBrowser.dfm:1335
+msgid "View Field in Popup Editor"
+msgstr "在弹出的编辑器中预览字段"
+
+#: TableDrag.pas:157
+msgid "WHERE"
+msgstr "WHERE"
+
+#: QueryBrowser.pas:3498
+msgid "Wednesday"
+msgstr "星期三"
+
+#  MainForm..MainMenu..ToolsMI..WindowsCommandLineMI..Caption
+#: Main.dfm:208
+msgid "Windows Command Line"
+msgstr "Windows 命令行"
+
+#  MainForm..MainActionManager..StyleName
+#: Main.dfm:308
+msgid "XP Style"
+msgstr "XP 样式"
+
+#: QueryBrowser.pas:1736
+#: QueryBrowser.pas:6752
+#: ScriptPanel.pas:688
+msgid "Yes"
+msgstr "是"
+
+#: QueryBrowser.pas:3262
+msgid ""
+"Yes\n"
+"Cancel"
+msgstr ""
+"是\n"
+"取消"
+
+#: QueryBrowser.pas:3000
+msgid ""
+"Yes\n"
+"No"
+msgstr ""
+"是\n"
+"否"
+
+#: QueryBrowser.pas:3512
+msgid "Yesterday"
+msgstr "昨天"
+
+#: QueryBrowser.pas:7548
+msgid "You cannot add a dynamic parameter manually. The dynamic paramteters are defined automatically by the columns of a master resultset."
+msgstr "你不能手工增加一个动态参数。动态参数是由主结果集的字段自动定义。"
+
+#: QueryBrowser.pas:7631
+msgid "You cannot delete a dynamic parameter."
+msgstr "你不能删除一个动态参数。"
+
+#: QueryBrowser.pas:3277
+msgid "You cannot delete the root folder."
+msgstr "你不能删除根目录。"
+
+#: QueryBrowser.pas:4634
+msgid "You have made changes to a resultset. Are you sure you want to discard your changes?"
+msgstr "你已经更改了结果集。你想放弃更改吗？"
+
+#: SqlCmdPanel.pas:357
+msgid "Your MySQL connection id is %d to server version : %s"
+msgstr "你的 MySQL 连接 ID 是 %d 服务器版本：%s"
+

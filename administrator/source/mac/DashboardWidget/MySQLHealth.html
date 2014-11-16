@@ -1,0 +1,69 @@
+<html>
+<head>
+<style type="text/css">
+  @import "MySQLHealth.css";
+</style>
+<script type='text/javascript' src='file:///System/Library/WidgetResources/button/genericButton.js' charset='utf-8'
+/>
+<script type="text/javascript" src="MySQLHealth.js"></script>
+</head>
+<body onload="loaded();">
+
+<div id="front" onmousemove='mousemove(event);' onmouseout='mouseexit(event);'>
+        <img span="backgroundImage" src="Default.png">
+        <span id="header" class="headerText">Local Server</span>
+        <span id="info" class="infoText">Caption</span>
+        <canvas id='mycanvas' width='387' height='152' />
+        <span id="scaleTop" class="canvasText"></span>
+        <span id="scaleMid" class="canvasText"></span>
+        <span id="scaleBot" class="canvasText"></span>
+
+        <span id="curValue" class="valueText">Cur:</span>
+        <span id="minValue" class="valueText">Min:</span>
+        <span id="maxValue" class="valueText">Max:</span>
+        <span id="medValue" class="valueText">Avg:</span>
+
+        <span id="error"></span>
+
+        <div class='flip' id='fliprollie'></div>
+        <div class='flip' id='flip' onclick='showPrefs(event);' onmouseover='enterflip(event);' onmouseout='exitflip(event)';></div>
+</div>
+
+<div id="back">
+        <img span="backgroundImage" src="Default_back.png">
+        <span id="hostLabel">Host:</span> <input type="text" id='host'>
+        <span id="userLabel">User:</span> <input type="text" id='user'>
+        <span id="passLabel">Password:</span> <input type="password" id='pass'>
+        <span id="delayLabel">Update Delay:</span> <input type="text" id='delay'>
+        <span id="graphLabel" class="graphLabel">Graph Types:</span>
+        <select id='graphType1' onchange='changeGraph(0, this);' value=1>
+                        <option value=1>Connections</option>
+                        <option value=5>Selects</option>
+                        <option value=6>Inserts</option>
+                        <option value=7>Updates</option>
+                        <option value=8>Deletes</option>
+                        <option value=10>Queries</option>
+                        <option value=11>Traffic In</option>
+                        <option value=12>Traffic Out</option>
+        </select>
+        <select id='graphType2' onchange='changeGraph(1, this);'>
+                        <option value=0>None</option>
+                        <option value=1>Connections</option>
+                        <option value=5>Selects</option>
+                        <option value=6>Inserts</option>
+                        <option value=7>Updates</option>
+                        <option value=8>Deletes</option>
+                        <option value=10>Queries</option>
+                        <option value=11>Traffic In</option>
+                        <option value=12>Traffic Out</option>
+        </select>
+        <div id="doneButton" class="doneButton" 
+                onmouseup='hidePrefs(); document.getElementById("doneButton").src = "done.png";' 
+                onmousedown='document.getElementById("doneButton").src = "done_pressed.png";' 
+                onmouseout='document.getElementById("doneButton").src = "done.png";'></div>
+        <div id="testButton" onclick='testConnection();'></div>
+        <div id="testResult"></div>
+</div>
+
+</body>
+</html>

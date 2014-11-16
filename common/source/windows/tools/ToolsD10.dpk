@@ -1,0 +1,42 @@
+package ToolsD10;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS OFF}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'General MySQL tools used for various projects'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  pngD10,
+  TntUnicodeVcl,
+  vclx;
+
+contains
+  ColorTools in 'ColorTools.pas',
+  ColorTypes in 'ColorTypes.pas',
+  GraphicTools in 'GraphicTools.pas',
+  PNGTools in 'PNGTools.pas';
+
+end.
+

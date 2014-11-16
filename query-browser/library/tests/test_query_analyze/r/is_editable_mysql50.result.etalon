@@ -1,0 +1,433 @@
+query : ****************************
+  sql : ----------------------------
+select * from t1, t2 
+where a=10;
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(2) : 
+    -------------------------------
+    table "def"."test"."t1" ()
+     fullname= "t1"
+     charset= "(null)"
+     columns(0) : 
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+    -------------------------------
+    table "def"."test"."t2" ()
+     fullname= "t2"
+     charset= "(null)"
+     columns(0) : 
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(0)
+  clauses(3)
+    clause (7,9) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+*
+      ------------------------------------
+    clause (14,23) ends with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+t1, t2
+      ------------------------------------
+    clause (29,34) doesn't end with linebreak
+      clause_type MYX_QCT_WHERE_CLAUSE
+      clause : -------------------------
+a=10;
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+select * from mysql.user
+------------------------------------
+query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "system"."mysql"."user" ()
+     fullname= "mysql.user"
+     charset= "latin1"
+     columns(33) : 
+       column "Host", cs(latin1_bin) is     pk
+       column "User", cs(latin1_bin) is     pk
+       column "Password", cs(latin1_bin) is not pk
+       column "Select_priv", cs(latin1_swedish_ci) is not pk
+       column "Insert_priv", cs(latin1_swedish_ci) is not pk
+       column "Update_priv", cs(latin1_swedish_ci) is not pk
+       column "Delete_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_priv", cs(latin1_swedish_ci) is not pk
+       column "Drop_priv", cs(latin1_swedish_ci) is not pk
+       column "Reload_priv", cs(latin1_swedish_ci) is not pk
+       column "Shutdown_priv", cs(latin1_swedish_ci) is not pk
+       column "Process_priv", cs(latin1_swedish_ci) is not pk
+       column "File_priv", cs(latin1_swedish_ci) is not pk
+       column "Grant_priv", cs(latin1_swedish_ci) is not pk
+       column "References_priv", cs(latin1_swedish_ci) is not pk
+       column "Index_priv", cs(latin1_swedish_ci) is not pk
+       column "Alter_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_db_priv", cs(latin1_swedish_ci) is not pk
+       column "Super_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_tmp_table_priv", cs(latin1_swedish_ci) is not pk
+       column "Lock_tables_priv", cs(latin1_swedish_ci) is not pk
+       column "Execute_priv", cs(latin1_swedish_ci) is not pk
+       column "Repl_slave_priv", cs(latin1_swedish_ci) is not pk
+       column "Repl_client_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_view_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_view_priv", cs(latin1_swedish_ci) is not pk
+       column "ssl_type", cs(latin1_swedish_ci) is not pk
+       column "ssl_cipher", cs((null)) is not pk
+       column "x509_issuer", cs((null)) is not pk
+       column "x509_subject", cs((null)) is not pk
+       column "max_questions", cs((null)) is not pk
+       column "max_updates", cs((null)) is not pk
+       column "max_connections", cs((null)) is not pk
+     pk_columns_num(2) : 
+    |Host|
+    |User|
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(33)
+     column "system"."mysql"."user" ."Host" (alias: Host, is_pk: 1)
+     column "system"."mysql"."user" ."User" (alias: User, is_pk: 1)
+     column "system"."mysql"."user" ."Password" (alias: Password, is_pk: 0)
+     column "system"."mysql"."user" ."Select_priv" (alias: Select_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Insert_priv" (alias: Insert_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Update_priv" (alias: Update_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Delete_priv" (alias: Delete_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Create_priv" (alias: Create_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Drop_priv" (alias: Drop_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Reload_priv" (alias: Reload_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Shutdown_priv" (alias: Shutdown_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Process_priv" (alias: Process_priv, is_pk: 0)
+     column "system"."mysql"."user" ."File_priv" (alias: File_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Grant_priv" (alias: Grant_priv, is_pk: 0)
+     column "system"."mysql"."user" ."References_priv" (alias: References_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Index_priv" (alias: Index_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Alter_priv" (alias: Alter_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Show_db_priv" (alias: Show_db_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Super_priv" (alias: Super_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Create_tmp_table_priv" (alias: Create_tmp_table_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Lock_tables_priv" (alias: Lock_tables_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Execute_priv" (alias: Execute_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Repl_slave_priv" (alias: Repl_slave_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Repl_client_priv" (alias: Repl_client_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Create_view_priv" (alias: Create_view_priv, is_pk: 0)
+     column "system"."mysql"."user" ."Show_view_priv" (alias: Show_view_priv, is_pk: 0)
+     column "system"."mysql"."user" ."ssl_type" (alias: ssl_type, is_pk: 0)
+     column "system"."mysql"."user" ."ssl_cipher" (alias: ssl_cipher, is_pk: 0)
+     column "system"."mysql"."user" ."x509_issuer" (alias: x509_issuer, is_pk: 0)
+     column "system"."mysql"."user" ."x509_subject" (alias: x509_subject, is_pk: 0)
+     column "system"."mysql"."user" ."max_questions" (alias: max_questions, is_pk: 0)
+     column "system"."mysql"."user" ."max_updates" (alias: max_updates, is_pk: 0)
+     column "system"."mysql"."user" ."max_connections" (alias: max_connections, is_pk: 0)
+  clauses(2)
+    clause (7,9) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+*
+      ------------------------------------
+    clause (14,24) doesn't end with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+mysql.user
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+select distinct * from mysql.user
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(1) : 
+    |DISTINCT|
+  tables(1) : 
+    -------------------------------
+    table "system"."mysql"."user" ()
+     fullname= "mysql.user"
+     charset= "latin1"
+     columns(33) : 
+       column "Host", cs(latin1_bin) is     pk
+       column "User", cs(latin1_bin) is     pk
+       column "Password", cs(latin1_bin) is not pk
+       column "Select_priv", cs(latin1_swedish_ci) is not pk
+       column "Insert_priv", cs(latin1_swedish_ci) is not pk
+       column "Update_priv", cs(latin1_swedish_ci) is not pk
+       column "Delete_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_priv", cs(latin1_swedish_ci) is not pk
+       column "Drop_priv", cs(latin1_swedish_ci) is not pk
+       column "Reload_priv", cs(latin1_swedish_ci) is not pk
+       column "Shutdown_priv", cs(latin1_swedish_ci) is not pk
+       column "Process_priv", cs(latin1_swedish_ci) is not pk
+       column "File_priv", cs(latin1_swedish_ci) is not pk
+       column "Grant_priv", cs(latin1_swedish_ci) is not pk
+       column "References_priv", cs(latin1_swedish_ci) is not pk
+       column "Index_priv", cs(latin1_swedish_ci) is not pk
+       column "Alter_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_db_priv", cs(latin1_swedish_ci) is not pk
+       column "Super_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_tmp_table_priv", cs(latin1_swedish_ci) is not pk
+       column "Lock_tables_priv", cs(latin1_swedish_ci) is not pk
+       column "Execute_priv", cs(latin1_swedish_ci) is not pk
+       column "Repl_slave_priv", cs(latin1_swedish_ci) is not pk
+       column "Repl_client_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_view_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_view_priv", cs(latin1_swedish_ci) is not pk
+       column "ssl_type", cs(latin1_swedish_ci) is not pk
+       column "ssl_cipher", cs((null)) is not pk
+       column "x509_issuer", cs((null)) is not pk
+       column "x509_subject", cs((null)) is not pk
+       column "max_questions", cs((null)) is not pk
+       column "max_updates", cs((null)) is not pk
+       column "max_connections", cs((null)) is not pk
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(1)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."distinct *" (alias: distinct *, is_pk: 0)
+  clauses(2)
+    clause (7,18) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+distinct *
+      ------------------------------------
+    clause (23,33) doesn't end with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+mysql.user
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+select user, host, password from mysql.user
+------------------------------------
+query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "system"."mysql"."user" ()
+     fullname= "mysql.user"
+     charset= "latin1"
+     columns(33) : 
+       column "Host", cs(latin1_bin) is     pk
+       column "User", cs(latin1_bin) is     pk
+       column "Password", cs(latin1_bin) is not pk
+       column "Select_priv", cs(latin1_swedish_ci) is not pk
+       column "Insert_priv", cs(latin1_swedish_ci) is not pk
+       column "Update_priv", cs(latin1_swedish_ci) is not pk
+       column "Delete_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_priv", cs(latin1_swedish_ci) is not pk
+       column "Drop_priv", cs(latin1_swedish_ci) is not pk
+       column "Reload_priv", cs(latin1_swedish_ci) is not pk
+       column "Shutdown_priv", cs(latin1_swedish_ci) is not pk
+       column "Process_priv", cs(latin1_swedish_ci) is not pk
+       column "File_priv", cs(latin1_swedish_ci) is not pk
+       column "Grant_priv", cs(latin1_swedish_ci) is not pk
+       column "References_priv", cs(latin1_swedish_ci) is not pk
+       column "Index_priv", cs(latin1_swedish_ci) is not pk
+       column "Alter_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_db_priv", cs(latin1_swedish_ci) is not pk
+       column "Super_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_tmp_table_priv", cs(latin1_swedish_ci) is not pk
+       column "Lock_tables_priv", cs(latin1_swedish_ci) is not pk
+       column "Execute_priv", cs(latin1_swedish_ci) is not pk
+       column "Repl_slave_priv", cs(latin1_swedish_ci) is not pk
+       column "Repl_client_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_view_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_view_priv", cs(latin1_swedish_ci) is not pk
+       column "ssl_type", cs(latin1_swedish_ci) is not pk
+       column "ssl_cipher", cs((null)) is not pk
+       column "x509_issuer", cs((null)) is not pk
+       column "x509_subject", cs((null)) is not pk
+       column "max_questions", cs((null)) is not pk
+       column "max_updates", cs((null)) is not pk
+       column "max_connections", cs((null)) is not pk
+     pk_columns_num(2) : 
+    |host|
+    |user|
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(3)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."user" (alias: user, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."host" (alias: host, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."password" (alias: password, is_pk: 0)
+  clauses(2)
+    clause (7,28) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+user, host, password
+      ------------------------------------
+    clause (33,43) doesn't end with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+mysql.user
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+select distinct user, host, password from mysql.user
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(1) : 
+    |DISTINCT|
+  tables(1) : 
+    -------------------------------
+    table "system"."mysql"."user" ()
+     fullname= "mysql.user"
+     charset= "latin1"
+     columns(33) : 
+       column "Host", cs(latin1_bin) is     pk
+       column "User", cs(latin1_bin) is     pk
+       column "Password", cs(latin1_bin) is not pk
+       column "Select_priv", cs(latin1_swedish_ci) is not pk
+       column "Insert_priv", cs(latin1_swedish_ci) is not pk
+       column "Update_priv", cs(latin1_swedish_ci) is not pk
+       column "Delete_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_priv", cs(latin1_swedish_ci) is not pk
+       column "Drop_priv", cs(latin1_swedish_ci) is not pk
+       column "Reload_priv", cs(latin1_swedish_ci) is not pk
+       column "Shutdown_priv", cs(latin1_swedish_ci) is not pk
+       column "Process_priv", cs(latin1_swedish_ci) is not pk
+       column "File_priv", cs(latin1_swedish_ci) is not pk
+       column "Grant_priv", cs(latin1_swedish_ci) is not pk
+       column "References_priv", cs(latin1_swedish_ci) is not pk
+       column "Index_priv", cs(latin1_swedish_ci) is not pk
+       column "Alter_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_db_priv", cs(latin1_swedish_ci) is not pk
+       column "Super_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_tmp_table_priv", cs(latin1_swedish_ci) is not pk
+       column "Lock_tables_priv", cs(latin1_swedish_ci) is not pk
+       column "Execute_priv", cs(latin1_swedish_ci) is not pk
+       column "Repl_slave_priv", cs(latin1_swedish_ci) is not pk
+       column "Repl_client_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_view_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_view_priv", cs(latin1_swedish_ci) is not pk
+       column "ssl_type", cs(latin1_swedish_ci) is not pk
+       column "ssl_cipher", cs((null)) is not pk
+       column "x509_issuer", cs((null)) is not pk
+       column "x509_subject", cs((null)) is not pk
+       column "max_questions", cs((null)) is not pk
+       column "max_updates", cs((null)) is not pk
+       column "max_connections", cs((null)) is not pk
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(3)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."distinct user" (alias: distinct user, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."host" (alias: host, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."password" (alias: password, is_pk: 0)
+  clauses(2)
+    clause (7,37) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+distinct user, host, password
+      ------------------------------------
+    clause (42,52) doesn't end with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+mysql.user
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+select distinct user, host, password from mysql.user group by user
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(1) : 
+    |DISTINCT|
+  tables(1) : 
+    -------------------------------
+    table "system"."mysql"."user" ()
+     fullname= "mysql.user"
+     charset= "latin1"
+     columns(33) : 
+       column "Host", cs(latin1_bin) is     pk
+       column "User", cs(latin1_bin) is     pk
+       column "Password", cs(latin1_bin) is not pk
+       column "Select_priv", cs(latin1_swedish_ci) is not pk
+       column "Insert_priv", cs(latin1_swedish_ci) is not pk
+       column "Update_priv", cs(latin1_swedish_ci) is not pk
+       column "Delete_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_priv", cs(latin1_swedish_ci) is not pk
+       column "Drop_priv", cs(latin1_swedish_ci) is not pk
+       column "Reload_priv", cs(latin1_swedish_ci) is not pk
+       column "Shutdown_priv", cs(latin1_swedish_ci) is not pk
+       column "Process_priv", cs(latin1_swedish_ci) is not pk
+       column "File_priv", cs(latin1_swedish_ci) is not pk
+       column "Grant_priv", cs(latin1_swedish_ci) is not pk
+       column "References_priv", cs(latin1_swedish_ci) is not pk
+       column "Index_priv", cs(latin1_swedish_ci) is not pk
+       column "Alter_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_db_priv", cs(latin1_swedish_ci) is not pk
+       column "Super_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_tmp_table_priv", cs(latin1_swedish_ci) is not pk
+       column "Lock_tables_priv", cs(latin1_swedish_ci) is not pk
+       column "Execute_priv", cs(latin1_swedish_ci) is not pk
+       column "Repl_slave_priv", cs(latin1_swedish_ci) is not pk
+       column "Repl_client_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_view_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_view_priv", cs(latin1_swedish_ci) is not pk
+       column "ssl_type", cs(latin1_swedish_ci) is not pk
+       column "ssl_cipher", cs((null)) is not pk
+       column "x509_issuer", cs((null)) is not pk
+       column "x509_subject", cs((null)) is not pk
+       column "max_questions", cs((null)) is not pk
+       column "max_updates", cs((null)) is not pk
+       column "max_connections", cs((null)) is not pk
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(3)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."distinct user" (alias: distinct user, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."host" (alias: host, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."password" (alias: password, is_pk: 0)
+  clauses(3)
+    clause (7,37) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+distinct user, host, password
+      ------------------------------------
+    clause (42,53) doesn't end with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+mysql.user
+      ------------------------------------
+    clause (62,66) doesn't end with linebreak
+      clause_type MYX_QCT_GROUP_CLAUSE
+      clause : -------------------------
+user
+      ------------------------------------
+  subqueries(0)
+  params_num 0

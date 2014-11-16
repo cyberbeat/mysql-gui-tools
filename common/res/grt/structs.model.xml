@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="model.Model" parent="GrtObject" caption="Model" desc="A model holding views">
+    <members>
+      <member name="views" type="list" content-type="dict" content-struct-name="model.View" desc="the list of views that belong to this model" />
+      <member name="currentView" type="string" option="ref" content-struct-name="model.View" desc="the current view of the model" />
+      <member name="markers" type="list" content-type="dict" content-struct-name="model.Marker" desc="the list of markers that restore a special model layout state" />
+      <member name="customData" type="dict" desc="a generic dictionary to hold additional information used by e.g. plugins" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="model.View" parent="GrtObject" caption="View" desc="A model view holding layers">
+    <members>
+      <member name="description" type="string" desc="the description of the view" />
+      <member name="zoom" type="real" default="1" desc="the current zoom factor" />
+      <member name="x" type="real" desc="the current x offset of the visible area" />
+      <member name="y" type="real" desc="the current y offset of the visible area" />
+      <member name="elements" type="list" content-type="dict" content-struct-name="model.Element" desc="all elements of this view" />
+      <member name="layers" type="list" content-type="dict" content-struct-name="model.Layer" desc="the list of layers that belong to this view" />
+      <member name="rootLayer" type="string" option="ref" content-struct-name="model.Layer" desc="reference to the root layer of this view" />
+      <member name="selection" type="list" content-type="dict" content-struct-name="model.Element" desc="the list of selected elements on the view" />
+      <member name="elementLayoutClass" type="string" desc="the default layout class to use for elements" />
+      <member name="connectionLayoutClass" type="string" desc="the layout class to use for connections" />
+      <member name="width" type="real" desc="the width of the view" />
+      <member name="height" type="real" desc="the height of the view" />      
+    </members>
+  </gstruct>
+  
+  <gstruct name="model.Layer" parent="GrtObject" caption="Layer" desc="A model layer holding sub-layers, groups and elements">
+    <members>
+      <member name="description" type="string" desc="description of the layer" />
+      <member name="enabled" type="int" desc="indicates whether the layer takes part in feedback actions or not" />
+      <member name="visible" type="int" desc="indicates whether the layer is visible" />
+      <member name="groups" type="list" content-type="dict" content-struct-name="model.Group" desc="reference list of top-level groups defined for this layer" />
+      <member name="subLayers" type="list" content-type="string" option="ref" content-struct-name="model.Layer" desc="references of all sub-layers of this layer" />
+      <member name="elements" type="list" content-type="string" option="ref" content-struct-name="model.Element" desc="all elements placed on this layer" />
+      
+      <member name="left" type="real" desc="left position for the enclosing region" />
+      <member name="top" type="real" desc="top position for the enclosing region" />
+      <member name="width" type="real" desc="width of the element for the enclosing region" />
+      <member name="height" type="real" desc="height of the element for the enclosing region" />      
+    </members>
+  </gstruct>
+  
+  <gstruct name="model.Group" parent="GrtObject" caption="Group" desc="A model group holding sub-groups and elements">
+    <members>
+      <member name="description" type="string" desc="description of the group" />
+      <member name="subGroups" type="list" content-type="dict" content-struct-name="model.Group" desc="the subgroups of this group" />
+      <member name="elements" type="list" content-type="dict" content-struct-name="model.Element" desc="all elements in this group" />      
+    </members>
+  </gstruct>
+  
+  <gstruct name="model.Element" parent="GrtObject" caption="Element" desc="A model element">
+    <members>
+      <member name="left" type="real" desc="left position" />
+      <member name="top" type="real" desc="top position" />
+      <member name="width" type="real" desc="width of the element" />
+      <member name="height" type="real" desc="height of the element" />
+      <member name="visible" type="int" desc="indicates whether the element is visible" />
+      <member name="enabled" type="int" desc="indicates whether the element can be modified" />
+      <member name="locked" type="int" desc="indicates whether the element is locked" />
+      <member name="expanded" type="int" default="1" desc="indicates whether the element is expanded" />
+      <member name="layer" type="string" option="ref" content-struct-name="model.Layer" desc="the layer this element is placed on" />
+      <member name="group" type="string" option="ref" content-struct-name="model.Group" desc="the group this element belongs to" />
+      <member name="layoutClass" type="string" desc="if set, the specified layout class will be used instead of the view's default" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="model.Marker" parent="GrtObject" caption="Canvas Marker" desc="used to store a layout state of the visible area of a Canvas">
+    <members>
+      <member name="zoom" type="real" default="1" desc="Current zoom factor of the model" />
+      <member name="x" type="int" desc="Current x offset of the visible area" />
+      <member name="y" type="int" desc="Current y offset of the visible area" />
+      <member name="view" type="string" option="ref" content-struct-name="GrtObject" desc="link to the view that was currently displayed" />
+    </members>
+  </gstruct>
+      
+</gstructs>

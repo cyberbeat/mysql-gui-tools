@@ -1,0 +1,86 @@
+
+
+style "result-set-buttons" {
+  GtkButton::focus-line-width = 0
+    GtkButton::focus-line-pattern = "\1"
+    GtkButton::focus-padding= 0
+    GtkWidget::interior-focus= 0
+
+    fg[NORMAL]= "#000000"
+    fg[ACTIVE]= "#000000"
+    fg[INSENSITIVE]= "#a0a0a0"
+    fg[PRELIGHT]= "#000000"
+    fg[SELECTED]= "#000000"
+
+    bg[NORMAL]= "#ffffff"
+    bg[ACTIVE]= "#f0f0c0"
+    bg[INSENSITIVE]= "#d0d0d0"
+    bg[PRELIGHT]= "#ffffff"
+    bg[SELECTED]= "#ffffff"
+
+    base[NORMAL]= "#ffffff"
+    base[ACTIVE]= "#ffffff"
+    base[INSENSITIVE]= "#e0e0e0"
+    base[PRELIGHT]= "#ffffff"
+    base[SELECTED]= "#ffffff"
+
+    font_name= "Sans 9"
+}
+
+style "result-set-label" {
+    fg[NORMAL]= "#000000"
+    fg[ACTIVE]= "#000000"
+    fg[INSENSITIVE]= "#a0a0a0"
+    fg[PRELIGHT]= "#000000"
+    fg[SELECTED]= "#000000"
+                                                                                
+    bg[NORMAL]= "#ffffff"
+    bg[ACTIVE]= "#f0f0c0"
+    bg[INSENSITIVE]= "#d0d0d0"
+    bg[PRELIGHT]= "#ffffff"
+    bg[SELECTED]= "#ffffff"
+
+    font_name= "Sans 9"
+}
+
+style "thin-buttons" {
+  GtkButton::focus-padding= 0
+    GtkWidget::interior-focus= 0
+    font_name= "Sans 9"
+}
+
+style "query-text" {
+   font_name= "bitstream vera sans mono 10"
+}
+
+style "small-text" {
+   font_name= "Sans 9"
+}
+
+style "white" {
+  bg[NORMAL]= "#ffffff"
+}
+
+style "table-clause-buttons" {
+        fg[NORMAL]= "#292"
+}
+style "column-clause-buttons" {
+        fg[NORMAL]= "#229"
+}
+
+
+widget "*.resultset_bar*GtkButton*" style "result-set-buttons"
+widget "*.resultset_bar*" style "result-set-label"
+
+widget "*.top_toolbar.*" style "thin-buttons"
+widget "*.toolbar.*" style "thin-buttons"
+
+widget "*.resultset_bar" style "white"
+
+widget "*.query_text" style "query-text"
+
+widget "table_editor.*.desc_label*" style "small-text"
+
+widget "clause_menu.*" style "table-clause-buttons"
+widget "column_menu.*" style "column-clause-buttons"
+

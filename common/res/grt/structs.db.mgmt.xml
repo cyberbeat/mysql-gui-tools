@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="db.mgmt.Management" parent="GrtObject" desc="Management for RDBMS drivers">
+    <members>
+      <member name="rdbms" type="list" content-type="dict" content-struct-name="db.mgmt.Rdbms" desc="a list of Rdbms with available drivers" />
+      <member name="storedConns" type="list" content-type="dict" content-struct-name="db.mgmt.Connection" desc="a list of stored connections" />
+      <member name="datatypeGroups" type="list" content-type="dict" content-struct-name="db.DatatypeGroup" desc="list of datatypegroups" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mgmt.Rdbms" parent="GrtObject" desc="Relational Database Management System">
+    <members>
+      <member name="caption" type="string" desc="the caption that is displayed in the UI" />
+      <member name="drivers" type="list" content-type="dict" content-struct-name="db.mgmt.Driver" desc="a list of drivers that can be used to connect to the database system" />
+      <member name="defaultDriver" type="string" option="ref" content-struct-name="db.mgmt.Driver" desc="the default driver to use" />      
+      <member name="databaseObjectPackage" type="string" desc="specifies the schema structs to use, e.g. db.mysql" />
+      <member name="simpleDatatypes" type="list" content-type="dict" content-struct-name="db.SimpleDatatype" />
+      <member name="characterSets" type="list" content-type="dict" content-struct-name="db.CharacterSet" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mgmt.Driver" parent="GrtObject" desc="information about a database driver">
+    <members>
+      <member name="caption" type="string" desc="the caption that is displayed in the UI" />
+      <member name="description" type="string" desc="a short description of the driver" />
+      <member name="filesTarget" type="string" desc="location where the driver files are installed" />
+      <member name="files" type="list" content-type="string" desc="filename(s) of the driver" />
+      <member name="downloadUrl" type="string" desc="Url where to download the driver" />
+
+      <member name="parameters" type="list" content-type="dict" content-struct-name="db.mgmt.DriverParameter" desc="the parameters the driver supports" />
+      <member name="defaultModules" type="dict" content-type="string" desc="the default modules" />
+
+      <member name="isAccessable" type="int" desc="set to 1 if the driver is accessable" />
+      <member name="isInstalled" type="int" desc="set to 1 if the driver is installed" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mgmt.NativeDriver" parent="db.mgmt.Driver" desc="information about a native driver" />
+
+  <gstruct name="db.mgmt.JdbcDriver" parent="db.mgmt.Driver" desc="information about a Jdbc driver">
+    <members>
+      <member name="className" type="string" desc="the classname used to access the Jdbc driver" />
+      <member name="connectionStringTemplate" type="string" desc="the template used to build the connection parameter" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mgmt.PhpDriver" parent="db.mgmt.Driver" desc="information about a Php driver" />
+
+  <gstruct name="db.mgmt.DriverParameter" parent="GrtObject" desc="a list of all parameters the Jdbc driver supports">
+    <members>
+      <member name="caption" type="string" desc="the caption displayed in the connection dialog" />
+      <member name="description" type="string" desc="the description displayed in the connection dialog" />
+
+      <member name="paramType" type="string" desc="can be string, int, boolean, tristate, file, dir" />
+      <member name="paramTypeDetails" type="dict" content-type="string" desc="additional information e.g. like file extension" />
+
+      <member name="required" type="int" desc="if set to 1 this parameter is a required parameter" />
+      <member name="defaultValue" type="string" desc="the default value of the parameter" />
+      <member name="lookupValueModule" type="string" desc="the module that contains the method to call to get the list of possible values" />
+      <member name="lookupValueMethod" type="string" desc="the method to call to get the list of possible values" />
+
+      <member name="layoutAdvanced" type="int" desc="when set to 1 this is paramter is only displayed in the advanced parameter section" />
+      <member name="layoutRow" type="int" desc="the row the parameter is displayed. There can be more than one parameters on the same row. When set to -1 the parameter is appended at the end of the parameter list" />
+      <member name="layoutWidth" type="int" desc="the width of the edit" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mgmt.Connection" parent="GrtObject">
+    <members>
+      <member name="driver" type="string" option="ref" content-struct-name="db.mgmt.Driver" desc="the driver used to connect" />
+      <member name="parameterValues" type="dict" content-type="string" desc="the parameters the user entered" />
+      <member name="modules" type="dict" content-type="string" desc="the modules used for this connection" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mgmt.IMConnection" parent="GrtObject">
+    <members>
+      <member name="managerConnection" type="dict" content-struct-name="db.mgmt.Connection" desc="the connection to the IM" />
+	  <member name="serverConnections" type="list" content-struct-name="db.mgmt.Connection" desc="the list of server connections for this IM connection" />
+    </members>
+  </gstruct>
+
+</gstructs>

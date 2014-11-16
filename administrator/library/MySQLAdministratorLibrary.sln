@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLAdministratorLibrary", "MySQLAdministratorLibrary.vcproj", "{6FBC86A7-892F-47C5-B62E-7304AB98DA29}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29} = {6FBC86A7-892F-47C5-B62E-7304AB98DA29}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLXLibrary", "..\..\mysql-gui-common\library\MySQLXLibrary.vcproj", "{6FBC86A7-892F-47C5-B62E-7304AB98DA29}"
+	ProjectSection(ProjectDependencies) = postProject
+		{142530C4-B184-4833-9A1A-F268B6E336A7} = {142530C4-B184-4833-9A1A-F268B6E336A7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLUtilLibrary", "..\..\mysql-gui-common\library_util\MySQLUtilLibrary.vcproj", "{142530C4-B184-4833-9A1A-F268B6E336A7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Lib_Commercial = Lib_Commercial
+		Lib_Debug = Lib_Debug
+		Lib_Release = Lib_Release
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Debug.ActiveCfg = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Debug.Build.0 = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Commercial.ActiveCfg = Lib_Commercial|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Commercial.Build.0 = Lib_Commercial|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Release.Build.0 = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Release.ActiveCfg = Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Release.Build.0 = Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Debug.ActiveCfg = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Debug.Build.0 = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Commercial.ActiveCfg = Lib_Commercial|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Commercial.Build.0 = Lib_Commercial|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Release.Build.0 = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Release.ActiveCfg = Lib_Embedded_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Release.Build.0 = Lib_Embedded_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Debug.ActiveCfg = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Debug.Build.0 = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Commercial.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Commercial.Build.0 = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Release.Build.0 = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Release.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Release.Build.0 = Lib_Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

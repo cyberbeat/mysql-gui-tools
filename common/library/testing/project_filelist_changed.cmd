@@ -1,0 +1,1 @@
+..\..\..\output\FilelistConvertTool.exe --mode=dump --proj-file=CommonTest.bdsproj --list-file=filelist

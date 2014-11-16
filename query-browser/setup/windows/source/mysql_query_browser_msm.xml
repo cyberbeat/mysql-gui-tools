@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2003/01/wi'>
+  <!--
+    Please note that all occurrences of Guid='xxx' are substituted with the same GUID and
+    every Guid="xxx" is substituted with a different GUID
+    -->
+  <Module Id="QBModule" Guid="B8F99503-E564-4f5a-8BA2-792A9B9E7DE2" Language="1033" Version="1.0.7.2">
+    <Package InstallerVersion="200" Manufacturer="MySQL AB" Compressed="yes" 
+     Id="????????-????-????-????-????????????" />
+    
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="Mysql_QB_Dir" LongName="MySQL Query Browser" Name="MySQL_QB">
+      
+        <Component Id="Third_Party_Libraries" Guid="3660E97C-F8E1-4B28-88F9-15E715FF4F1C"
+          Location="either">
+          <File Id="libglib_2.0_0.dll" Name="LIBGLI~1.DLL" LongName="libglib-2.0-0.dll" KeyPath="yes" />
+          <File Id="zlib.dll" Name="zlib.dll" Vital="yes" />
+          <File Id="iconv.dll" Name="iconv.dll" />
+          <File Id="intl.dll" Name="intl.dll" />
+          <File Id="libgmodule_2.0_0.dll" Name="LIBGMO~1.DLL" LongName="libgmodule-2.0-0.dll" />
+          <File Id="libgobject_2.0_0.dll" Name="LIBGOB~1.DLL" LongName="libgobject-2.0-0.dll" />
+          <File Id="libgthread_2.0_0.dll" Name="LIBGTH~1.DLL" LongName="libgthread-2.0-0.dll" />
+          <File Id="libmySQL.dll" Name="libmySQL.dll" />
+          <File Id="libxml2.dll" Name="libxml2.dll" />
+          <File Id="msvcr71.dll" Name="msvcr71.dll" />
+        </Component>
+        
+        <Component  Id="Gui_Libraries" Guid="1D4F98B9-9AD5-4B62-9AE0-51AAA192F96F" Location="either">
+          <File Id="libmysqlqb.dll" Name="LIBMYS~2.DLL" LongName="libmysqlqb.dll" KeyPath="yes" />
+          <File Id="libmysqlx.dll" Name="LIBMYS~1.DLL" LongName="libmysqlx.dll" />
+        </Component>
+        
+        <Component Id="RegEntries" Guid="A63EE4D8-E052-4B09-BEBE-968CDA6D7822" Location="either">
+          <Registry Id="QBRegVersion" Root="HKLM" Key="SOFTWARE\MySQL AB\MySQL Query Browser" Name="Version"
+            Type="string" Value="[Pversion]" KeyPath="yes" />
+          <Registry Id="QBRegLocation" Root="HKLM" Key="SOFTWARE\MySQL AB\MySQL Query Browser" Name="Location"
+            Type="string" Value="[Mysql_QB_Dir]" />
+        </Component>
+        
+        <Directory Id="DesktopFolder" Name="." />
+        <Directory Id="ProgramMenuFolder" Name=".">
+          <Directory Id="MysqlProgramMenuFolder" Name="MySQL" />
+        </Directory>
+        
+        <Component Id="MySQLQueryBrowser.exe" Guid="65565DD1-9F6B-41F6-96B8-10A1EFC2D1D1" Location="either">
+           <?if $(var.LICENSE_TYPE) = "gpl"?>
+           <File Id="COPYING" Name="COPYING" />
+           <?elseif $(var.LICENSE_TYPE) = "commercial"?>
+           <File Id="MySQLEULA.txt" Name="EULA.txt" LongName="MySQLEULA.txt" />
+           <?endif?>
+                            
+          <File Id="MySQLQueryBrowser.exe" Name="MYSQLQ~1.EXE" LongName="MySQLQueryBrowser.exe"
+            KeyPath="yes" />
+          <RemoveFile Directory="MysqlProgramMenuFolder" On="uninstall" Id="RemoveProgramMenuFolder" Name="MySQL" />
+        </Component>
+
+        <!-- Help file is an extra component because we might want to have a shortcut pointing to it -->
+        <Component Id="mysqlquerybrowser.chm" Guid="D3C77004-8258-44E4-BAB5-C59FAFD191EC"
+          Location="either">
+          <File Id="mysqlquerybrowser.chm" Name="MYSQLQ~1.CHM" LongName="mysqlquerybrowser.chm"
+            KeyPath="yes" />
+        </Component>
+        
+        <Directory Id="Doc" Name="doc">
+          <Component Id="Documentation" Guid="A80AF6F8-CB10-4614-B405-5227464DBE9D" KeyPath="yes" Location="either">
+            <File Id="mysqlqb_functions.html" Name="MYSQLQ~1.HTM" LongName="mysqlqb_functions.html" />
+            <File Id="mysqlqb_quickstart.html" Name="MYSQLQ~2.HTM" LongName="mysqlqb_quickstart.html" />
+            <File Id="mysqlqb_statements.html" Name="MYSQLQ~3.HTM" LongName="mysqlqb_statements.html" />
+            <File Id="main.css" Name="main.css" />
+          </Component>
+        </Directory>
+        
+        <Directory Id="FontsFolder" Name="Fonts">
+          <!-- each font sits in its own component because reference
+               counting only works on a component-level
+          -->
+          <Component Id="Font1" Guid="964C19C2-7BA4-4FF3-9FA5-D8DE88E18C98" SharedDllRefCount="yes" Location="either">
+            <File Id="VeraMoIt.ttf" Name="VeraMoIt.ttf" KeyPath="yes" TrueType="yes" />
+          </Component>
+          <Component Id="Font2" Guid="254F3658-6C2C-438A-90D7-064A10C9C24E" SharedDllRefCount="yes" Location="either">
+            <File Id="VeraMono.ttf" Name="VeraMono.ttf" KeyPath="yes" TrueType="yes" />
+          </Component>
+          <Component Id="Font3" Guid="24D2F33C-5C69-4586-AEA7-B0FFFAD677D2" SharedDllRefCount="yes" Location="either">
+            <File Id="VeraMoBI.ttf" Name="VeraMoBI.ttf" KeyPath="yes" TrueType="yes" />
+          </Component>
+          <Component Id="Font4" Guid="02AF4AB0-B486-4817-808F-29CE7ED416AF" SharedDllRefCount="yes" Location="either">
+            <File Id="VeraMoBd.ttf" Name="VeraMoBd.ttf" KeyPath="yes" TrueType="yes" />
+          </Component>
+        </Directory>
+        
+        <Directory Id="XML" Name="XML">
+          <Component Id="XmlFiles" Guid="6CB840B4-CFCD-4705-A920-6BB218E9B82D" KeyPath="yes" Location="either">
+            <File Id="mysqlx_dbm_charsets.xml" Name="MYSQLX~1.XML" LongName="mysqlx_dbm_charsets.xml" />
+            <File Id="mysqlx_dbm_datatypes.xml" Name="MYSQLX~2.XML" LongName="mysqlx_dbm_datatypes.xml" />
+            <File Id="mysqlqb_functions.xml" Name="MYSQLQ~1.XML" LongName="mysqlqb_functions.xml" />
+            <File Id="mysqlqb_statements.xml" Name="MYSQLQ~2.XML" LongName="mysqlqb_statements.xml" />
+          </Component>
+        </Directory>
+        
+      </Directory>
+    </Directory>
+  </Module>
+</Wix>

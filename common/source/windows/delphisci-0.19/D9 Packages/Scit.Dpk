@@ -1,0 +1,66 @@
+package Scit;
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Delphi Scintilla Interface Components Runtime'}
+{$LIBSUFFIX '19D9'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  designide,
+  vclactnband,
+  vclx;
+
+contains
+  EdOptionsWin in '..\source\EdOptionsWin.pas' {EdOptionsWindow},
+  SciConfirmReplaceDlg in '..\source\SciConfirmReplaceDlg.pas' {ConfirmReplaceDialog},
+  SciDetectUtils in '..\source\SciDetectUtils.pas',
+  SciKeyBindings in '..\source\SciKeyBindings.pas',
+  SciKeyEditForm in '..\source\SciKeyEditForm.pas' {KeyEditForm},
+  SciLexer in '..\source\SciLexer.pas',
+  scilexermod in '..\source\scilexermod.pas',
+  SciLexerOptionsDlg in '..\source\SciLexerOptionsDlg.pas',
+  SciReplaceTextDlg in '..\source\SciReplaceTextDlg.pas',
+  SciSearchReplace in '..\source\SciSearchReplace.pas',
+  SciSearchTextDlg in '..\source\SciSearchTextDlg.pas' {TextSearchDialog},
+  SciSupport in '..\source\SciSupport.pas',
+  tcFontCombobox in '..\source\tcFontCombobox.pas',
+  SciPropertyMgr in '..\source\SciPropertyMgr.pas',
+  SciDocuments in '..\source\SciDocuments.pas',
+  sciAddLanguageFormUnit in '..\source\sciAddLanguageFormUnit.pas' {sciAddLanguageForm},
+  ScintillaLanguageManager in '..\source\ScintillaLanguageManager.pas',
+  SciAutoComplete in '..\source\SciAutoComplete.pas',
+  SciCallTips in '..\source\SciCallTips.pas',
+  SciControllerHandler in '..\source\SciControllerHandler.pas',
+  SciMacroRecording in '..\source\SciMacroRecording.pas',
+  SciLexerMemo in '..\source\SciLexerMemo.pas',
+  SciResLang in '..\source\SciResLang.pas',
+  sciAbbrevationManager in '..\source\sciAbbrevationManager.pas',
+  sciUtils in '..\source\sciUtils.pas',
+  SciFileExtensionsManager in '..\source\SciFileExtensionsManager.pas',
+  SciLexerAuto in '..\source\SciLexerAuto.pas',
+  sciPrint in '..\source\sciPrint.pas';
+
+end.

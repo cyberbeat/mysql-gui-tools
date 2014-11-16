@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MAccessoryScrollView; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }, 
+        {
+            ACTIONS = {applyChanges = id; close = id; discardChanges = id; }; 
+            CLASS = MGRTObjectEditor; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {addRoutine = id; deleteRoutine = id; }; 
+            CLASS = MGRTRoutineGroupEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                nameText = NSTextField; 
+                routineTable = NSTableView; 
+                scrollView = NSScrollView; 
+            }; 
+            SUPERCLASS = MGRTObjectEditor; 
+        }, 
+        {CLASS = MSourceTextEditor; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

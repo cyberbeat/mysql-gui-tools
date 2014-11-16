@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- GtkSourceview language spec for SQL/MySQL -->
+
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="MySQL" version="1.0" _section="Sources" mimetypes="text/x-mysql">
+	<keyword-list _name="Numeric Types" style="Data Type" case-sensitive="FALSE">
+		<keyword>TINYINT</keyword>
+		<keyword>BIT|BOOL|BOOLEAN</keyword>
+		<keyword>SMALLINT</keyword>
+		<keyword>MEDIUMINT</keyword>
+		<keyword>INT|INTEGER</keyword>
+		<keyword>BIGINT</keyword>
+		<keyword>FLOAT</keyword>
+		<keyword>DOUBLE</keyword>
+		<keyword>DOUBLE[ \t\n]+PRECISION</keyword>
+		<keyword>REAL</keyword>
+		<keyword>DECIMAL</keyword>
+		<keyword>DEC</keyword>
+     		<keyword>NUMERIC</keyword>
+     		<keyword>FIXED</keyword>
+	</keyword-list>
+
+	<keyword-list _name="Date and Time Types" style="Data Type" case-sensitive="FALSE">
+		<keyword>DATE</keyword>
+		<keyword>DATETIME</keyword>
+		<keyword>TIMESTAMP</keyword>
+		<keyword>TIME</keyword>
+		<keyword>YEAR</keyword>
+	</keyword-list>
+
+	<keyword-list _name="String Types" style="Data Type" case-sensitive="FALSE">
+		<keyword>(NATIONAL[ \t\n]+)?CHAR</keyword>
+		<keyword>CHAR</keyword>
+		<keyword>(NATIONAL[ \t\n]+)?VARCHAR</keyword>
+		<keyword>TINYBLOB|TINYTEXT</keyword>
+		<keyword>BLOB|TEXT</keyword>
+		<keyword>MEDIUMBLOB|MEDIUMTEXT</keyword>
+		<keyword>LONGBLOB|LONGTEXT</keyword>
+		<keyword>ENUM</keyword>
+		<keyword>SET</keyword>
+	</keyword-list>
+
+
+	<string _name="Text Literals" style="String" end-at-line-end="FALSE">
+		<start-regex>&apos;</start-regex>
+		<end-regex>&apos;</end-regex>
+	</string>
+
+	<pattern-item _name="Integer Literals" style="Decimal">
+		<regex>\b[0-9]+\b</regex>
+	</pattern-item>
+
+	<pattern-item _name="Hex Literals" style="Decimal">
+		<regex>\b0[xX][0-9a-fA-F]+([Uu]([Ll]|LL|ll)?|([Ll]|LL|ll)[Uu]?)?\b</regex>
+	</pattern-item>
+
+	<pattern-item _name="Number Literals" style="Floating Point">
+		<regex>\b([0-9]+[Ee][-]?[0-9]+|([0-9]*\.[0-9]+|[0-9]+\.)([Ee][-]?[0-9]+)?)[fFlL]?</regex>
+	</pattern-item>
+
+	<keyword-list _name="Boolean" style="Decimal" case-sensitive="FALSE">
+		<keyword>TRUE</keyword>
+		<keyword>FALSE</keyword>
+	</keyword-list>
+
+	<keyword-list _name="Null" style="Decimal" case-sensitive="FALSE">
+		<keyword>NULL</keyword>
+	</keyword-list>
+
+	<block-comment _name="Block Comment" style="Comment">
+		<start-regex>/\*</start-regex>
+        	<end-regex>\*/</end-regex>
+	</block-comment>
+
+	<line-comment _name="Line Comment" style="Comment">
+		<start-regex>--</start-regex>
+	</line-comment>
+  
+  	<line-comment _name="Line Comment 2" style="Comment">
+		<start-regex>#</start-regex>
+	</line-comment>
+
+  
+
+	<keyword-list _name="Operators" style="Keyword" case-sensitive="FALSE">
+		<keyword>=|&#60;=&#62;|&#60;&#62;|!=|&#60;=|&#60;|&#62;=|&#62;</keyword>
+		<keyword>IS|NOT</keyword>
+		<keyword>BETWEEN</keyword>
+    		<keyword>IN</keyword>
+    		<keyword>\+|\*|/|-|%|MOD|DIV</keyword>
+    		<keyword>!|AND|&#38;&#38;|OR|XOR|&#124;&#124;</keyword>
+	</keyword-list>
+
+	<keyword-list _name="Control Flow" style="Keyword" case-sensitive="FALSE">
+    		<keyword>CASE|WHEN|THEN|ELSE|END</keyword>
+    		<keyword>IF</keyword>
+    		<keyword>IFNULL|NULLIF</keyword>
+  	</keyword-list>
+  
+  
+  	<keyword-list _name="Functions" style="Function" case-sensitive="FALSE">
+		<keyword>ASCII</keyword>
+		<keyword>BIN</keyword>
+		<keyword>BIT_LENGTH</keyword>
+		<keyword>CHAR</keyword>
+		<keyword>CHAR_LENGTH</keyword>
+		<keyword>CHARACTER_LENGTH</keyword>
+		<keyword>COMPRESS</keyword>
+		<keyword>CONCAT</keyword>
+		<keyword>CONCAT_WS</keyword>
+		<keyword>CONV</keyword>
+		<keyword>REGEXP</keyword>
+		<keyword>ELT</keyword>
+		<keyword>EXPORT_SET</keyword>
+		<keyword>FIELD</keyword>
+		<keyword>FIND_IN_SET</keyword>
+		<keyword>HEX</keyword>
+		<keyword>INSERT</keyword>
+		<keyword>INSTR</keyword>
+		<keyword>LCASE</keyword>
+		<keyword>LEFT</keyword>
+		<keyword>LENGTH</keyword>
+		<keyword>LOAD_FILE</keyword>
+		<keyword>LOCATE</keyword>
+		<keyword>LOCATE</keyword>
+		<keyword>LOWER</keyword>
+		<keyword>LPAD</keyword>
+		<keyword>LTRIM</keyword>
+		<keyword>MAKE_SET</keyword>
+		<keyword>MID</keyword>
+		<keyword>OCT</keyword>
+		<keyword>OCTET_LENGTH</keyword>
+		<keyword>ORD</keyword>
+		<keyword>POSITION</keyword>
+		<keyword>QUOTE</keyword>
+		<keyword>REPEAT</keyword>
+		<keyword>REPLACE</keyword>
+		<keyword>REVERSE</keyword>
+		<keyword>RIGHT</keyword>
+		<keyword>RPAD</keyword>
+		<keyword>RTRIM</keyword>
+		<keyword>SOUNDEX</keyword>
+		<keyword>SOUNDS LIKE</keyword>
+		<keyword>SPACE</keyword>
+		<keyword>SUBSTRING</keyword>
+		<keyword>SUBSTRING_INDEX</keyword>
+		<keyword>TRIM</keyword>
+		<keyword>UCASE</keyword>
+		<keyword>UNCOMPRESS</keyword>
+		<keyword>UNCOMPRESSED_LENGTH</keyword>
+		<keyword>UNHEX</keyword>
+		<keyword>UPPER</keyword>
+		<keyword>STRCMP</keyword>
+		<keyword>ABS</keyword>
+		<keyword>ACOS</keyword>
+		<keyword>ASIN</keyword>
+		<keyword>ATAN</keyword>
+		<keyword>ATAN2</keyword>
+		<keyword>CEILING</keyword>
+		<keyword>CEIL</keyword>
+		<keyword>COS</keyword>
+		<keyword>COT</keyword>
+		<keyword>CRC32</keyword>
+		<keyword>DEGREES</keyword>
+		<keyword>EXP</keyword>
+		<keyword>FLOOR</keyword>
+		<keyword>LN</keyword>
+		<keyword>LOG</keyword>
+		<keyword>LOG</keyword>
+		<keyword>LOG2</keyword>
+		<keyword>LOG10</keyword>
+		<keyword>PI</keyword>
+		<keyword>POW</keyword>
+		<keyword>POWER</keyword>
+		<keyword>RADIANS</keyword>
+		<keyword>RAND</keyword>
+		<keyword>RAND</keyword>
+		<keyword>ROUND</keyword>
+		<keyword>ROUND</keyword>
+		<keyword>SIGN</keyword>
+		<keyword>SIN</keyword>
+		<keyword>SQRT</keyword>
+		<keyword>TAN</keyword>
+		<keyword>TRUNCATE</keyword>
+		<keyword>ADDDATE</keyword>
+		<keyword>ADDTIME</keyword>
+		<keyword>CURDATE</keyword>
+		<keyword>CURRENT_DATE</keyword>
+		<keyword>CURTIME</keyword>
+		<keyword>CURRENT_TIME</keyword>
+		<keyword>CURRENT_TIMESTAMP</keyword>
+		<keyword>DATE</keyword>
+		<keyword>DATEDIFF</keyword>
+		<keyword>DATE_ADD</keyword>
+		<keyword>DATE_SUB</keyword>
+		<keyword>DATE_FORMAT</keyword>
+		<keyword>DAY</keyword>
+		<keyword>DAYNAME</keyword>
+		<keyword>DAYOFMONTH</keyword>
+		<keyword>DAYOFWEEK</keyword>
+		<keyword>DAYOFYEAR</keyword>
+		<keyword>EXTRACT</keyword>
+		<keyword>FROM_DAYS</keyword>
+		<keyword>FROM_UNIXTIME</keyword>
+		<keyword>FROM_UNIXTIME</keyword>
+		<keyword>GET_FORMAT</keyword>
+		<keyword>HOUR</keyword>
+		<keyword>LAST_DAY</keyword>
+		<keyword>LOCALTIME</keyword>
+		<keyword>LOCALTIMESTAMP</keyword>
+		<keyword>MAKEDATE</keyword>
+		<keyword>MAKETIME</keyword>
+		<keyword>MICROSECOND</keyword>
+		<keyword>MINUTE</keyword>
+		<keyword>MONTH</keyword>
+		<keyword>MONTHNAME</keyword>
+		<keyword>NOW</keyword>
+		<keyword>PERIOD_ADD</keyword>
+		<keyword>PERIOD_DIFF</keyword>
+		<keyword>QUARTER</keyword>
+		<keyword>SECOND</keyword>
+		<keyword>SEC_TO_TIME</keyword>
+		<keyword>STR_TO_DATE</keyword>
+		<keyword>SUBDATE</keyword>
+		<keyword>SUBDATE</keyword>
+		<keyword>SUBTIME</keyword>
+		<keyword>SYSDATE</keyword>
+		<keyword>TIME</keyword>
+		<keyword>TIMEDIFF</keyword>
+		<keyword>TIMESTAMP</keyword>
+		<keyword>TIMESTAMP</keyword>
+		<keyword>TIMESTAMPADD</keyword>
+		<keyword>TIMESTAMPDIFF</keyword>
+		<keyword>TIME_FORMAT</keyword>
+		<keyword>TIME_TO_SEC</keyword>
+		<keyword>TO_DAYS</keyword>
+		<keyword>UNIX_TIMESTAMP</keyword>
+		<keyword>UNIX_TIMESTAMP</keyword>
+		<keyword>UTC_DATE</keyword>
+		<keyword>UTC_TIME</keyword>
+		<keyword>UTC_TIMESTAMP</keyword>
+		<keyword>WEEK</keyword>
+		<keyword>WEEKDAY</keyword>
+		<keyword>WEEKOFYEAR</keyword>
+		<keyword>YEAR</keyword>
+		<keyword>YEARWEEK</keyword>
+		<keyword>YEARWEEK</keyword>
+		<keyword>MATCH</keyword>
+		<keyword>CAST</keyword>
+		<keyword>CONVERT</keyword>
+		<keyword>CONVERT</keyword>
+		<keyword>BIT_COUNT</keyword>
+		<keyword>AES_ENCRYPT</keyword>
+		<keyword>AES_DECRYPT</keyword>
+		<keyword>DECODE</keyword>
+		<keyword>ENCODE</keyword>
+		<keyword>DES_DECRYPT</keyword>
+		<keyword>DES_ENCRYPT</keyword>
+		<keyword>ENCRYPT</keyword>
+		<keyword>MD5</keyword>
+		<keyword>PASSWORD</keyword>
+		<keyword>OLD_PASSWORD</keyword>
+		<keyword>SHA1</keyword>
+		<keyword>SHA</keyword>
+		<keyword>BENCHMARK</keyword>
+		<keyword>CHARSET</keyword>
+		<keyword>COERCIBILITY</keyword>
+		<keyword>COLLATION</keyword>
+		<keyword>CONNECTION_ID</keyword>
+		<keyword>CURRENT_USER</keyword>
+		<keyword>DATABASE</keyword>
+		<keyword>FOUND_ROWS</keyword>
+		<keyword>LAST_INSERT_ID</keyword>
+		<keyword>LAST_INSERT_ID</keyword>
+		<keyword>SESSION_USER</keyword>
+		<keyword>SYSTEM_USER</keyword>
+		<keyword>USER</keyword>
+		<keyword>VERSION</keyword>
+		<keyword>FORMAT</keyword>
+		<keyword>GET_LOCK</keyword>
+		<keyword>INET_ATON</keyword>
+		<keyword>INET_NTOA</keyword>
+		<keyword>IS_FREE_LOCK</keyword>
+		<keyword>IS_USED_LOCK</keyword>
+		<keyword>MASTER_POS_WAIT</keyword>
+		<keyword>RELEASE_LOCK</keyword>
+		<keyword>UUID</keyword>
+		<keyword>AVG</keyword>
+		<keyword>BIT_AND</keyword>
+		<keyword>BIT_OR</keyword>
+		<keyword>BIT_XOR</keyword>
+		<keyword>COUNT</keyword>
+		<keyword>COUNT</keyword>
+		<keyword>GROUP_CONCAT</keyword>
+		<keyword>MIN</keyword>
+		<keyword>MAX</keyword>
+		<keyword>STD</keyword>
+		<keyword>STDDEV</keyword>
+		<keyword>SUM</keyword>
+		<keyword>VARIANCE</keyword>
+	</keyword-list>  
+
+        <keyword-list _name="Reserved Words" style="Keyword" case-sensitive="FALSE">
+		<keyword>ADD</keyword>
+		<keyword>ALL</keyword>
+		<keyword>ALTER</keyword>
+		<keyword>ANALYZE</keyword>
+		<keyword>AND</keyword>
+		<keyword>AS</keyword>
+		<keyword>ASC</keyword>
+		<keyword>ASENSITIVE</keyword>
+		<keyword>INCREMENT</keyword>
+		<keyword>BDB</keyword>
+		<keyword>BEFORE</keyword>
+		<keyword>BERKELEYDB</keyword>
+		<keyword>BETWEEN</keyword>
+		<keyword>BOTH</keyword>
+		<keyword>BY</keyword>
+		<keyword>CALL</keyword>
+		<keyword>CASCADE</keyword>
+		<keyword>CHANGE</keyword>
+		<keyword>CHECK</keyword>
+		<keyword>COLLATE</keyword>
+		<keyword>COLUMN</keyword>
+		<keyword>COLUMNS</keyword>
+		<keyword>CONDITION</keyword>
+		<keyword>CONNECTION</keyword>
+		<keyword>CONTINUE</keyword>
+		<keyword>CREATE</keyword>
+		<keyword>CROSS</keyword>
+		<keyword>CURSOR</keyword>
+		<keyword>DEFAULT</keyword>
+		<keyword>DELAYED</keyword>
+		<keyword>DELETE</keyword>
+		<keyword>DESC</keyword>
+		<keyword>DESCRIBE</keyword>
+		<keyword>DISTINCT</keyword>
+		<keyword>DISTINCTROW</keyword>
+		<keyword>DROP</keyword>
+		<keyword>ENCLOSED</keyword>
+		<keyword>ESCAPED</keyword>
+		<keyword>EXISTS</keyword>
+		<keyword>EXIT</keyword>
+		<keyword>FETCH</keyword>
+		<keyword>FOR</keyword>
+		<keyword>FORCE</keyword>
+		<keyword>FOREIGN</keyword>
+		<keyword>FOUND</keyword>
+		<keyword>FROM</keyword>
+		<keyword>GRANT</keyword>
+		<keyword>GROUP</keyword>
+		<keyword>HAVING</keyword>
+		<keyword>PRIORITY</keyword>
+		<keyword>IGNORE</keyword>
+		<keyword>INDEX</keyword>
+		<keyword>INFILE</keyword>
+		<keyword>INNER</keyword>
+		<keyword>INNODB</keyword>
+		<keyword>INOUT</keyword>
+		<keyword>INSENSITIVE</keyword>
+		<keyword>THREAD</keyword>
+		<keyword>ITERATE</keyword>
+		<keyword>JOIN</keyword>
+		<keyword>KEY</keyword>
+		<keyword>KEYS</keyword>
+		<keyword>KILL</keyword>
+		<keyword>LEADING</keyword>
+		<keyword>LEAVE</keyword>
+		<keyword>LIKE</keyword>
+		<keyword>LIMIT</keyword>
+		<keyword>LINES</keyword>
+		<keyword>LOAD</keyword>
+		<keyword>LOCK</keyword>
+		<keyword>LONG</keyword>
+		<keyword>LOOP</keyword>
+		<keyword>PRIORITY</keyword>
+		<keyword>ID</keyword>
+		<keyword>NATURAL</keyword>
+		<keyword>ON</keyword>
+		<keyword>OPTIMIZE</keyword>
+		<keyword>OPTION</keyword>
+		<keyword>OPTIONALLY</keyword>
+		<keyword>OUT</keyword>
+		<keyword>OUTER</keyword>
+		<keyword>OUTFILE</keyword>
+		<keyword>PRECISION</keyword>
+		<keyword>PRIMARY</keyword>
+		<keyword>PRIVILEGES</keyword>
+		<keyword>PROCEDURE</keyword>
+		<keyword>PURGE</keyword>
+		<keyword>READ</keyword>
+		<keyword>REFERENCES</keyword>
+		<keyword>RENAME</keyword>
+		<keyword>REQUIRE</keyword>
+		<keyword>RESTRICT</keyword>
+		<keyword>RETURN</keyword>
+		<keyword>REVOKE</keyword>
+		<keyword>RLIKE</keyword>
+		<keyword>SELECT</keyword>
+		<keyword>SENSITIVE</keyword>
+		<keyword>SEPARATOR</keyword>
+		<keyword>SHOW</keyword>
+		<keyword>SOME</keyword>
+		<keyword>SONAME</keyword>
+		<keyword>SPATIAL</keyword>
+		<keyword>SPECIFIC</keyword>
+		<keyword>SQL</keyword>
+		<keyword>SQLEXCEPTION</keyword>
+		<keyword>SQLSTATE</keyword>
+		<keyword>SQLWARNING</keyword>
+		<keyword>RESULT</keyword>
+		<keyword>ROWS</keyword>
+		<keyword>SSL</keyword>
+		<keyword>STARTING</keyword>
+		<keyword>JOIN</keyword>
+		<keyword>STRIPED</keyword>
+		<keyword>TABLE</keyword>
+		<keyword>TABLES</keyword>
+		<keyword>TO</keyword>
+		<keyword>TRAILING</keyword>
+		<keyword>UNDO</keyword>
+		<keyword>UNION</keyword>
+		<keyword>UNIQUE</keyword>
+		<keyword>UNLOCK</keyword>
+		<keyword>USAGE</keyword>
+		<keyword>USE</keyword>
+		<keyword>RESOURCES</keyword>
+		<keyword>VALUES</keyword>
+		<keyword>VARYING</keyword>
+		<keyword>WHEN</keyword>
+		<keyword>WHERE</keyword>
+		<keyword>WHILE</keyword>
+		<keyword>WITH</keyword>
+		<keyword>WRITE</keyword>
+		<keyword>ZEROFILL</keyword>
+        </keyword-list>
+
+</language>

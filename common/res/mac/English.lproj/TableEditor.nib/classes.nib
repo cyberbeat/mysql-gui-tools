@@ -1,0 +1,76 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MAccessoryScrollView; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }, 
+        {
+            ACTIONS = {
+                applyChanges = id; 
+                chooseFile = id; 
+                close = id; 
+                confirmCancel = id; 
+                confirmOK = id; 
+                confirmSave = id; 
+                discardChanges = id; 
+                handleColumnValueChange = id; 
+                handleFKValueChange = id; 
+                handleIndexValueChange = id; 
+                handleValueChange = id; 
+            }; 
+            CLASS = MTableEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                colAIncCheck = NSButtonCell; 
+                colCharsetPop = NSPopUpButton; 
+                colCollationPop = NSPopUpButton; 
+                colCommentText = NSTextView; 
+                colDefaultNull = NSButton; 
+                colDefaultText = NSTextField; 
+                colFlagsList = NSTableView; 
+                colGroup = NSView; 
+                colNNullCheck = NSButtonCell; 
+                colNameText = NSTextField; 
+                colPKCheck = NSButtonCell; 
+                colTypeCombo = NSComboBox; 
+                colUniqueCheck = NSButtonCell; 
+                columnList = NSTableView; 
+                commentText = NSTextField; 
+                confirmPanel = NSPanel; 
+                confirmText = NSTextView; 
+                enginePop = NSPopUpButton; 
+                engineText = NSTextField; 
+                federOpView = NSView; 
+                fkBox = NSBox; 
+                fkColumnList = NSTableView; 
+                fkContainer = NSView; 
+                fkList = NSTableView; 
+                fkNameText = NSTextField; 
+                fkOnDeletePop = NSPopUpButton; 
+                fkOnUpdatePop = NSPopUpButton; 
+                fkRefTablePop = NSPopUpButton; 
+                indBox = NSBox; 
+                indColumnList = NSTableView; 
+                indKindPop = NSPopUpButton; 
+                indNameText = NSTextField; 
+                indTypePop = NSPopUpButton; 
+                indexList = NSTableView; 
+                mergeOpView = NSView; 
+                miscOpView = NSView; 
+                raidOpView = NSView; 
+                rowOpView = NSView; 
+                schemaPop = NSPopUpButton; 
+                stoOpView = NSView; 
+                tableNameText = NSTextField; 
+                tblCharsetPop = NSPopUpButton; 
+                tblCollationPop = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = MTextImageCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }
+    ); 
+    IBVersion = 1; 
+}

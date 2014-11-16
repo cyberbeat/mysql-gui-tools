@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="com/" excluding="com/mysql/grt/SCCS/|com/mysql/grt/modules/SCCS/" kind="src" path="source/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="source/java/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="source/java/lib/junit.jar"/>
+	<classpathentry kind="output" path="bin/windows/java"/>
+</classpath>

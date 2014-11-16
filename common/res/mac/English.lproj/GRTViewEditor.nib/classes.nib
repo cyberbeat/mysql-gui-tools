@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {applyChanges = id; close = id; discardChanges = id; }; 
+            CLASS = MGRTObjectEditor; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            CLASS = MGRTViewEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                commentText = NSTextView; 
+                editor = MSourceTextEditor; 
+                nameText = NSTextField; 
+            }; 
+            SUPERCLASS = MGRTObjectEditor; 
+        }, 
+        {CLASS = MSourceTextEditor; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

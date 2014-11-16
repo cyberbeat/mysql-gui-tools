@@ -1,0 +1,619 @@
+----------------------
+----------------------
+JAVA
+QB_MENU
+----------------------
+----------------------
+
+
+----------------------
+----------------------
+JAVA
+QB_MENU
+----------------------
+select 1;
+----------------------
+
+
+----------------------
+----------------------
+JAVA
+QB_MENU
+----------------------
+select 1,
+       2;
+----------------------
+
+
+----------------------
+----------------------
+JAVA
+QB_MENU
+----------------------
+select 1,
+       2,
+       3;
+----------------------
+
+
+
+----------------------
+query= "select 1;" // test commentary
+----------------------
+JAVA
+QB_MENU
+----------------------
+select 1;
+----------------------
+
+
+----------------------
+query= "select 1," + // test commentary 1
+       "       2;";  // test commentary 2
+----------------------
+JAVA
+QB_MENU
+----------------------
+select 1,
+       2;
+----------------------
+
+----------------------
+query= "select 1," + // test commentary 1
+       "       2," + // test commentary 2
+       "       3;";  // test commentary 3
+----------------------
+JAVA
+QB_MENU
+----------------------
+select 1,
+       2,
+       3;
+----------------------
+
+
+----------------------
+query= "select 1," + // test commentary 1
+       "       2," + // test commentary 2
+       "       3," + // test commentary 3
+       "       4;";  // test commentary 4
+----------------------
+JAVA
+QB_MENU
+----------------------
+select 1,
+       2,
+       3,
+       4;
+----------------------
+
+
+----------------------
+query= "select 1;"; // commentary
+----------------------
+JAVA
+QB_MENU
+----------------------
+explain
+select 1;
+----------------------
+
+
+----------------------
+query= "select 1;"; // commentary
+----------------------
+JAVA
+QB_MENU
+----------------------
+select 1,
+       2;
+----------------------
+
+
+----------------------
+query= "select 1;"; // commentary
+----------------------
+JAVA
+QB_MENU
+----------------------
+select 1,
+       2,
+       3;
+----------------------
+
+----------------------
+query= "select 1" + 
+       " as a"; // commentary
+----------------------
+JAVA
+QB_MENU
+----------------------
+select 1
+as a,
+       2
+as b
+;
+----------------------
+
+----------------------
+query= "select 1," + // commentary 1
+       "       2," + // commentary 2
+       "       3," + // commentary 3
+       "       4," + // commentary 4
+       "       5," + // commentary 5
+       "       6;";  // commentary 6
+----------------------
+JAVA
+QB_MENU
+----------------------
+select 3,
+       1,
+       6,
+       4,
+       2,
+       8,
+       7,
+       5;
+----------------------
+
+----------------------
+query= "select *" + // first comment
+       "   from a"; // last comment
+----------------------
+JAVA
+QB_MENU
+----------------------
+select *
+   from a
+where c=1
+----------------------
+
+----------------------
+query= "select *" +      // comment 1
+       " Description " + // comment 2
+       "from a";         // comment 3
+----------------------
+JAVA
+QB_MENU
+----------------------
+select *
+ Description as D
+from a
+----------------------
+
+----------------------
+query= "select Description " + // comment 1
+       "from a";     // comment 2
+----------------------
+JAVA
+QB_MENU
+----------------------
+select Description as D
+from a
+----------------------
+
+----------------------
+query= "select Description " + // comment 1
+       "from a";     // comment 2
+----------------------
+JAVA
+QB_MENU
+----------------------
+select Description
+from test.a
+----------------------
+
+
+
+----------------------
+query= "select Description " + // comment 1
+       "from a";     // comment 2
+----------------------
+JAVA
+QB_MENU
+----------------------
+explain
+select Description as D
+from test.a
+----------------------
+
+----------------------
+query= "select Description " + // comment 1
+       "from a";     // comment 2
+----------------------
+JAVA
+QB_MENU
+----------------------
+explain
+select Description as D
+from t.a
+where test.a.c=1
+----------------------
+
+----------------------
+query= "select Description " + // comment 1
+       "from a " +             // comment 2
+       "where c=1";            // comment 3
+----------------------
+JAVA
+QB_MENU
+----------------------
+select Description
+from t.a
+where c=1
+----------------------
+
+----------------------
+----------------------
+JAVA
+QB_MENU
+----------------------
+select "a";
+----------------------
+
+
+----------------------
+----------------------
+JAVA
+QB_MENU
+----------------------
+select "a",
+       "b",
+       "c";
+----------------------
+
+
+----------------------
+query= "select \"a\";"
+----------------------
+JAVA
+QB_MENU
+----------------------
+select "a";
+----------------------
+
+
+
+
+
+----------------------
+query= "select \"a\"," + // comment 1
+       "       \"b\"," + // comment 2
+       "       \"c\";";  // comment 3
+----------------------
+JAVA
+QB_MENU
+----------------------
+select "a",
+       "b",
+       "c";
+----------------------
+
+
+
+
+----------------------
+            sql = "SELECT * FROM ALL_USERS ORDER BY USERNAME"; //testselect
+----------------------
+JAVA
+QB_MENU
+----------------------
+SELECT * FROM ALL_USERS 
+WHERE USERNAME LIKE 'victor%'
+ORDER BY USERNAME
+----------------------
+
+
+----------------------
+                sql = "SELECT * FROM ALL_TABLES WHERE OWNER='" + schema.name
+                        + "' ORDER BY OWNER, TABLE_NAME";
+----------------------
+JAVA
+QB_MENU
+----------------------
+SELECT * FROM ALL_TABLES 
+WHERE OWNER=:schemaname
+ORDER BY OWNER, TABLE_NAME
+----------------------
+
+
+----------------------
+            sql = "SELECT * FROM ALL_TAB_COLUMNS WHERE OWNER='" + getOwner(table.name)
+                    + "' AND TABLE_NAME='" + table.name
+                    + "' ORDER BY COLUMN_ID";
+----------------------
+JAVA
+QB_MENU
+----------------------
+SELECT * FROM ALL_TAB_COLUMNS 
+WHERE OWNER=:param1 AND 
+TABLE_NAME=:tablename
+ORDER BY COLUMN_ID
+----------------------
+
+
+----------------------
+            sql = "SELECT * FROM ALL_TAB_COLUMNS WHERE OWNER='" + getOwner(table.name)
+                    + "' AND TABLE_NAME='" + table.name
+                    + "' ORDER BY COLUMN_ID";
+----------------------
+JAVA
+QB_MENU
+----------------------
+SELECT * FROM ALL_TAB_COLUMNS 
+WHERE OWNER=:getOwnertablename AND 
+TABLE_NAME=:tablename
+ORDER BY COLUMN_ID
+----------------------
+
+
+----------------------
+            sql = "SELECT * FROM ALL_TAB_COLUMNS WHERE OWNER='" + getOwner(table.name)
+                    + "' AND TABLE_NAME='" + table.name
+                    + "' ORDER BY COLUMN_ID";
+----------------------
+JAVA
+QB_MENU
+----------------------
+SELECT * FROM ALL_TAB_COLUMNS 
+WHERE OWNER=':getOwnertablename' AND 
+TABLE_NAME=':tablename'
+ORDER BY COLUMN_ID
+----------------------
+
+
+----------------------
+                sql = "SELECT * FROM ALL_TABLES WHERE OWNER='" + schema.name
+                        + "' ORDER BY OWNER, TABLE_NAME";
+----------------------
+JAVA
+QB_MENU
+----------------------
+SELECT * FROM ALL_TABLES 
+WHERE OWNER=':schemaname'
+ORDER BY OWNER, TABLE_NAME
+----------------------
+
+----------------------
+                sql = "SELECT * FROM ALL_TABLES WHERE OWNER='" + ab.c
+                        "' and X='" + a.bc
+                        + "' ORDER BY OWNER, TABLE_NAME";
+----------------------
+JAVA
+QB_MENU
+----------------------
+SELECT * FROM ALL_TABLES 
+WHERE OWNER=':abc' and X=':abc1'
+ORDER BY OWNER, TABLE_NAME
+----------------------
+
+
+----------------------
+$result  = mysql_query("SELECT d.iddownloadfile, d.iddownloadgroup, dg.caption as dlgroup, 
+     d.caption, d.shortdesc, d.version, d.fsize, d.filename, d.number, sr.os, 
+     l.caption as license
+    FROM downloadfile d left outer join systemreq sr on sr.idsystemreq=d.idsystemreq
+     left outer join license l on l.idlicense=d.idlicense, downloadgroup dg
+    WHERE d.iddownloadgroup=dg.iddownloadgroup
+    ORDER BY dg.number, d.number");
+----------------------
+PHP
+QB_MENU
+----------------------
+SELECT d.iddownloadfile, d.iddownloadgroup, dg.caption as dlgroup, 
+ d.caption, d.shortdesc, d.version, d.fsize, d.filename, d.number, sr.os, 
+ l.caption as license, l.caption as test
+FROM downloadfile d left outer join systemreq sr on sr.idsystemreq=d.idsystemreq
+ left outer join license l on l.idlicense=d.idlicense, downloadgroup dg
+WHERE d.iddownloadgroup=dg.iddownloadgroup
+ORDER BY dg.number, d.number
+----------------------
+
+
+
+----------------------
+$result  = mysql_query("SELECT d.iddownloadfile, d.iddownloadgroup, dg.caption as dlgroup, 
+     d.caption, d.shortdesc, d.version, d.fsize, d.filename, d.number, sr.os, 
+     l.caption as license
+    FROM downloadfile d left outer join systemreq sr on sr.idsystemreq=d.idsystemreq
+     left outer join license l on l.idlicense=d.idlicense, downloadgroup dg
+    WHERE d.iddownloadgroup=dg.iddownloadgroup
+    ORDER BY dg.number, d.number");
+----------------------
+PHP
+QB_MENU
+----------------------
+SELECT d.iddownloadfile, d.iddownloadgroup, dg.caption as dlgroup
+FROM downloadfile d left outer join systemreq sr on sr.idsystemreq=d.idsystemreq
+ left outer join license l on l.idlicense=d.idlicense, downloadgroup dg
+WHERE d.iddownloadgroup=dg.iddownloadgroup
+ORDER BY dg.number, d.number
+----------------------
+
+
+----------------------
+$result  = mysql_query("SELECT fhs.iddownloadsite, s.url, f.filename, f.version
+    FROM downloadsite_has_file fhs, downloadsite s, downloadfile f
+    WHERE fhs.iddownloadfile=$iddownloadfile AND 
+     f.iddownloadfile=" . $fruits['banana'] . " AND 
+     s.iddownloadsite=fhs.iddownloadsite AND
+     s.url LIKE '{$fruits['banana']}'
+     ORDER BY s.number");
+----------------------
+PHP
+QB_MENU
+----------------------
+SELECT fhs.iddownloadsite, s.url, f.filename, f.version, f.testcol1
+FROM downloadsite_has_file fhs, downloadsite s, downloadfile f
+WHERE fhs.iddownloadfile=:iddownloadfile AND 
+ f.iddownloadfile=:fruitsbanana AND 
+ s.iddownloadsite=fhs.iddownloadsite AND
+ s.url LIKE ':fruitsbanana1'
+ORDER BY s.number
+----------------------
+
+
+----------------------
+sql = "insert into a values (?,?,?)";
+----------------------
+JAVA
+QB_MENU
+----------------------
+insert into a values (:param1,:param2,:param3,:param4,:param5)
+----------------------
+
+----------------------
+$result = mysql_query("INSERT INTO signup_session(idsignup, ip, session_date) 
+      VALUES($signup_id, '".$HTTP_SERVER_VARS['REMOTE_ADDR']."', '".date('Y-m-d H:i:s')."')");
+----------------------
+PHP
+QB_MENU
+----------------------
+INSERT INTO signup_session(idsignup, ip, session_date) 
+      VALUES(:signup_id + 1, ':HTTP_SERVER_VARSREMOTE_ADDR', ':dateYmdHis')
+----------------------
+
+
+----------------------
+$result = mysql_query("SELECT idsignup FROM signup WHERE email like '$signup_old_email'");
+----------------------
+PHP
+QB_MENU
+----------------------
+----------------------
+
+----------------------
+$result = mysql_query("SELECT * FROM signup_business 
+      ORDER BY idsignup_business");
+----------------------
+PHP
+QB_MENU
+----------------------
+SELECT a FROM signup_business 
+      ORDER BY idsignup_business
+----------------------
+
+----------------------
+$result = mysql_query("SELECT test, id, name FROM signup_business
+      ORDER BY idsignup_business");
+----------------------
+PHP
+QB_MENU
+----------------------
+SELECT test, id, ucase(name) FROM signup_business
+      ORDER BY idsignup_business
+----------------------
+
+----------------------
+$result = mysql_query("SELECT * FROM signup_jobfunc 
+      ORDER BY idsignup_jobfunc");
+----------------------
+PHP
+QB_MENU
+----------------------
+SELECT x, y, z FROM signup_jobfunc 
+      ORDER BY idsignup_jobfunc
+----------------------
+
+----------------------
+SELECT * FROM signup_jobfunc 
+      ORDER BY idsignup_jobfunc");
+----------------------
+PHP
+QB_MENU
+----------------------
+SELECT x, y, z FROM signup_jobfunc 
+      ORDER BY idsignup_jobfunc
+----------------------
+
+----------------------
+SELECT * FROM signup_jobfunc 
+      ORDER BY idsignup_jobfunc
+----------------------
+PHP
+QB_MENU
+----------------------
+SELECT x, y, z FROM signup_jobfunc 
+      ORDER BY idsignup_jobfunc
+----------------------
+
+
+----------------------
+$result = mysql_query("SELECT * FROM signup_jobfunc 
+      ORDER BY idsignup_jobfunc
+----------------------
+PHP
+QB_MENU
+----------------------
+SELECT x, y, z FROM signup_jobfunc 
+      ORDER BY idsignup_jobfunc
+----------------------
+
+----------------------
+SELECT * FROM $signup 
+      ORDER BY idsignup_jobfunc
+----------------------
+PHP
+QB_MENU
+----------------------
+SELECT x, y, z FROM :signup
+      ORDER BY idsignup_jobfunc
+----------------------
+
+----------------------
+SELECT * FROM $signup 
+      ORDER BY idsignup_jobfunc
+----------------------
+PHP
+QB_MENU
+----------------------
+----------------------
+
+
+----------------------
+$result = mysql_query("INSERT INTO signup(
+          email, password, 
+          firstname, surename, 
+          company, phone, zip, 
+          contact_discuss, send_newsletter, 
+          subscribe_annc,
+          idsignup_state, idsignup_country,
+          idsignup_jobfunc, idsignup_business) 
+        VALUES('$signup_email', '$signup_password',
+          '$signup_firstname', '$signup_lastname',
+          '$signup_company', '$signup_phone', '$signup_zip',
+          '$signup_contact_discuss', '$signup_send_newsletter', 
+          '$signup_subscribe_annc',
+          $signup_state, $signup_country,
+          $signup_jobfunc, $signup_business)");
+----------------------
+PHP
+QB_MENU
+----------------------
+----------------------
+
+
+----------------------
+$result = mysql_query("UPDATE signup SET email='$signup_email', 
+          password='$signup_password', 
+          firstname='$signup_firstname', surename='$signup_lastname', 
+          company='$signup_company', phone='$signup_phone', zip='$signup_zip', 
+          contact_discuss='$signup_contact_discuss', send_newsletter='$signup_send_newsletter', 
+          subscribe_annc='$signup_subscribe_annc',
+          idsignup_state=$signup_state, idsignup_country=$signup_country,
+          idsignup_jobfunc=$signup_jobfunc, idsignup_business=$signup_business
+        WHERE idsignup=$signup_id");
+----------------------
+PHP
+QB_MENU
+----------------------
+----------------------
+
+----------------------
+select $real_variable, \":false_variable\" from a
+----------------------
+PHP
+QB_MENU
+----------------------
+select :real_variable, "::false_variable" from a
+----------------------

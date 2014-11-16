@@ -1,0 +1,31 @@
+#define VOS_NT_WINDOWS32    0x00040004L
+#define VFT_APP             0x00000001L
+
+MAINICON ICON "..\..\images\icons\MySQLAdmin.ico"
+
+1 VERSIONINFO
+FILEVERSION 1, 2, 14
+PRODUCTVERSION 1, 2, 14
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", "MySQL AB\000"
+   VALUE "FileVersion", "1.2.14\000"
+   VALUE "FileDescription", "Administator for MySQL Servers\000"
+   VALUE "InternalName", "MySQL Administator\000"
+   VALUE "LegalCopyright", "\251 Copyright 2004, MySQL AB\000"
+   VALUE "LegalTrademarks", "MySQL is a trademark of MySQL AB\000"
+   VALUE "OriginalFilename", "MySQLAdministrator.exe\000"
+   VALUE "ProductName", "MySQL Administator\000"
+   VALUE "ProductVersion", "1.2\000"
+  }
+ }
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 1033, 1252
+ }
+}

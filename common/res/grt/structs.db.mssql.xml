@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="db.mssql.Catalog" parent="db.Catalog" caption="MSSQL Catalog">
+    <members>
+      <member name="schemata" type="list" content-type="dict" content-struct-name="db.mssql.Schema" overrides="db.Schema" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mssql.Schema" parent="db.Schema" caption="MSSQL Schema">
+    <members>
+      <member name="tables" type="list" content-type="dict" content-struct-name="db.mssql.Table" overrides="db.Table" />
+      <member name="views" type="list" content-type="dict" content-struct-name="db.mssql.View" overrides="db.View" />
+      <member name="routines" type="list" content-type="dict" content-struct-name="db.mssql.Routine" overrides="db.Routine" />
+      <member name="routineGroups" type="list" content-type="dict" content-struct-name="db.mssql.RoutineGroup" overrides="db.RoutineGroup" />
+      <member name="synonyms" type="list" content-type="dict" content-struct-name="db.mssql.Synonym" overrides="db.Synonym" />
+      <member name="structuredTypes" type="list" content-type="dict" content-struct-name="db.mssql.StructuredDatatype" overrides="db.StructuredDatatype" />
+      <member name="sequences" type="list" content-type="dict" content-struct-name="db.mssql.Sequence" overrides="db.Sequence" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mssql.Table" parent="db.Table" caption="MSSQL Table" desc="a MSSQL database table object">
+    <members>
+      <member name="createdDatetime" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mssql.Column" parent="db.Column">
+    <members>
+      <member name="identity" type="int" />
+      <member name="computed" type="int" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mssql.SimpleDatatype" parent="db.SimpleDatatype" />
+
+  <gstruct name="db.mssql.StructuredDatatype" parent="db.StructuredDatatype" caption="MSSQL Structured Datatype" desc="a MSSQL structured datatype object" />
+
+  <gstruct name="db.mssql.Index" parent="db.Index">
+    <members>
+      <member name="ignoreDuplicateRows" type="int" />
+      <member name="clustered" type="int" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mssql.IndexColumn" parent="db.IndexColumn" />
+
+  <gstruct name="db.mssql.ForeignKey" parent="db.ForeignKey" />
+  
+  <gstruct name="db.mssql.Trigger" parent="db.Trigger" />
+
+  <gstruct name="db.mssql.View" parent="db.View" caption="MSSQL View" desc="a MSSQL database view object" />
+
+  <gstruct name="db.mssql.RoutineGroup" parent="db.RoutineGroup" caption="MSSQL Routine Group" desc="a MSSQL database routine group" />
+  
+  <gstruct name="db.mssql.Routine" parent="db.Routine" caption="MSSQL Routine" desc="a MSSQL database routine object" />
+
+  <gstruct name="db.mssql.Synonym" parent="db.Synonym" caption="MSSQL Synonym" desc="a MSSQL synonym object" />
+
+  <gstruct name="db.mssql.Sequence" parent="db.Sequence" caption="MSSQL Sequence" desc="a MSSQL database sequence object" />
+
+</gstructs>

@@ -1,0 +1,2307 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: MySQL Query Browser\n"
+"POT-Creation-Date: 2005-11-03 12:03\n"
+"PO-Revision-Date: 2006-04-12 06:00-0800\n"
+"Last-Translator: Vangelis Katsikaros <ibob17@yahoo.gr>\n"
+"Language-Team: EL translation team <ibob17@yahoo.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: QueryBrowser.pas:5504  QueryBrowser.pas:5536
+msgid " Progress"
+msgstr "Πρόοδος"
+
+#: RegExTextImporter.pas:1377 
+msgid "%d row(s) processed."
+msgstr "%d εγγραφές επεξεργάστηκαν."
+
+#: QueryBrowser.pas:4636  QueryBrowser.pas:4656
+msgid "&Cancel"
+msgstr "&Ακύρωση"
+
+#. MainForm..MainMenu..FileMI..CloseTabMI..Caption
+#: Main.dfm:115 
+msgid "&Close Tab"
+msgstr "&Κλείσιμο Καρτέλας"
+
+#. MainForm..MainActionManager..EditCopy1..Caption
+#: Main.dfm:319 
+msgid "&Copy"
+msgstr ""
+
+#: QueryBrowser.pas:4636 
+msgid "&Discard"
+msgstr "&Απόρριψη"
+
+#. MainForm..MainMenu..Edit1..Caption
+#: Main.dfm:158 
+msgid "&Edit"
+msgstr "&Επεξεργασία"
+
+#. MainForm..MainMenu..FileMI..Caption
+#: Main.dfm:53 
+msgid "&File"
+msgstr "&Αρχείο"
+
+#. MainForm..MainMenu..HelpMI..Caption
+#: Main.dfm:252 
+msgid "&Help"
+msgstr "&Βοήθεια"
+
+#  MainForm..MainMenu..FileMI..NewInstanceConnectionMI..Caption
+#. MainForm..MainMenu..FileMI..NewInstanceConnectionMI..Caption
+#: Main.dfm:56 
+msgid "&New Instance Connection ..."
+msgstr "&Νέο Instance Σύνδεσης..."
+
+#. MainForm..MainMenu..FileMI..NewResultsetTabMI..Caption
+#: Main.dfm:70 
+msgid "&New Resultset Tab"
+msgstr ""
+
+#: QueryBrowser.pas:4656 
+msgid "&No"
+msgstr "&Όχι"
+
+#. MainForm..MainMenu..FileMI..OpenQueryMI..Caption
+#: Main.dfm:80 
+msgid "&Open Query ..."
+msgstr "&Ανοιγμα Αιτήματος ..."
+
+#. MainForm..MainActionManager..EditPaste1..Caption
+#: Main.dfm:327 
+msgid "&Paste"
+msgstr ""
+
+#. MainForm..MainActionManager..EditRedo1..Caption
+#: Main.dfm:350 
+msgid "&Redo"
+msgstr ""
+
+#  MainForm..MainMenu..FileMI..SaveMI..Caption
+#. MainForm..MainMenu..FileMI..SaveMI..Caption
+#: Main.dfm:99 
+msgid "&Save"
+msgstr "&Αποθήκευση"
+
+#. MainForm..MainMenu..ToolsMI..Caption
+#: Main.dfm:194 
+msgid "&Tools"
+msgstr "&Εργαλεία"
+
+#. MainForm..MainActionManager..EditUndo1..Caption
+#: Main.dfm:342 
+msgid "&Undo"
+msgstr ""
+
+#. MainForm..MainMenu..ViewMenuItem..Caption
+#: Main.dfm:190 
+msgid "&View"
+msgstr "&Προβολή"
+
+#. MainForm..MainMenu..WindowMI..Caption
+#: Main.dfm:245 
+msgid "&Window"
+msgstr "&Παράθυρο"
+
+#: QueryBrowser.pas:4656 
+msgid "&Yes"
+msgstr "&Ναι"
+
+#. AboutForm..Label2..Caption
+#: About.dfm:1251 
+msgid "(C) Copyright 2004 by MySQL AB. All rights reserved."
+msgstr "(C) Copyright 2004 by MySQL AB. All rights reserved."
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:168 
+#, fuzzy
+msgid "+AKY"
+msgstr "+AKY"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:167  QueryBrowserOptionPages.dfm:185
+#, fuzzy
+msgid "+AKw"
+msgstr "+AKw"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:166 
+#, fuzzy
+msgid "+ALY"
+msgstr "+ALY"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:184 
+#, fuzzy
+msgid "+ALc"
+msgstr "+ALc"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:186 
+#, fuzzy
+msgid "+ALs"
+msgstr "+ALs"
+
+#: QueryBrowser.pas:7326 
+msgid "A view can only be created from a active resultset of SELECT command."
+msgstr ""
+"Μία Όψη μπορεί να δημιουργηθεί μόνο από σύνολο αποτελεσμάτων εντολής SELECT."
+
+#. MainForm..MainMenu..HelpMI..AboutMI..Caption
+#: Main.dfm:299 
+msgid "About"
+msgstr "Πληροφορίες"
+
+#. AboutForm..Caption
+#: About.dfm:6 
+msgid "About MySQL Administrator"
+msgstr "Πληροφορίες για τον MySQL Administrator"
+
+#. QueryBrowserForm..MainMenu..QueryMI..AddBookmarkMI..Caption
+#: QueryBrowser.dfm:1374 
+msgid "Add Bookmark (Ctrl+B)"
+msgstr "Προσθήκη Σελιδοδείκτη (Ctrl+B)"
+
+#. QueryBrowserForm..HistoryPopupMenu..AddHistoryItemasBookmarkMI..Caption
+#: QueryBrowser.dfm:1572 
+msgid "Add History Item as Bookmark"
+msgstr ""
+
+#. QueryBrowserForm..RSGridPopupMenu..AddNewRSTabMI..Caption
+#. QueryBrowserForm..ScriptMemoPopupMenu..ScriptAddNewResultsetTabMI..Caption
+#: QueryBrowser.dfm:1256  QueryBrowser.dfm:1527
+msgid "Add New Resultset Tab (Ctrl+T) "
+msgstr "Προσθήκη νέας καρτέλας Συνόλου Αποτελεσμάτων (Ctrl+T)"
+
+#. QueryBrowserForm..RSGridPopupMenu..RSAddNewScriptTabMI..Caption
+#. QueryBrowserForm..ScriptMemoPopupMenu..AddNewScriptTabMI..Caption
+#: QueryBrowser.dfm:1261  QueryBrowser.dfm:1532
+msgid "Add New Script Tab (Ctrl+Shift+T)"
+msgstr "Προσθήκη Νέας Καρτέλας Script (Ctrl+Shift+T)"
+
+#. QueryBrowserForm..ParamPopupMenu..AddParameterMI..Caption
+#: QueryBrowser.dfm:1870 
+msgid "Add Parameter"
+msgstr "Προσθήκη Παραμέτρου"
+
+#. QueryBrowserForm..RSGridPopupMenu..AddRowMI..Caption
+#: QueryBrowser.dfm:1301 
+msgid "Add Row"
+msgstr "Προσθήκη Εγγραφής"
+
+#: TableDrag.pas:135 
+msgid "Add Table(s)"
+msgstr "Προσθήκη Πίνακα"
+
+#. AboutForm..InfoMemo....Lines.Strings
+#: About.dfm:1280 
+msgid "Alfredo Kengi Kojima | Linux development, library coding"
+msgstr "Alfredo Kengi Kojima | Linux development, library coding"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..AlignNumericColsRightCBox..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..AlignNumericColsRightCBox..Caption
+#: QueryBrowserOptionPages.dfm:202 
+msgid "Align numeric columns to the right"
+msgstr "Στοίχιση αριθμητικών στηλών δεξιά"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..AllowEmptyMatchesMI..Caption
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..AllowEmptyMatchesMI..Caption
+#: RegExTextImporter.dfm:575 
+#, fuzzy
+msgid "Allow Empty Matches"
+msgstr "Allow Empty Matches"
+
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..AlwaysAssumeMoreThanOneCharMI..Caption
+#: RegExTextImporter.dfm:569 
+#, fuzzy
+msgid "Always Assume More Than One Char"
+msgstr "Always Assume More Than One Char"
+
+#: QueryBrowser.pas:5898  QueryBrowser.pas:5965 QueryBrowser.pas:6089
+#: QueryBrowser.pas:6138 QueryBrowser.pas:6340 RegExTextImporter.pas:1135
+#: RegExTextImporter.pas:1169 RegExTextImporter.pas:1403
+#: RegExTextImporter.pas:1490
+msgid "Any File"
+msgstr "Κάθε Αρχείο"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractStopwordMI..Caption
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractStopwordMI..Caption
+#: RegExTextImporter.dfm:562 
+#, fuzzy
+msgid "Anything But Selected Chars"
+msgstr "Anything But Selected Chars"
+
+#: QueryBrowser.pas:1249  QueryBrowser.pas:1495
+msgid "Apply the last undone action again"
+msgstr "Επαναφορά της τελευταίας ενέργεια που αναιρέθηκε"
+
+#: QueryBrowser.pas:6751 
+msgid "Are you sure you want to clear the complete history?"
+msgstr "Είστε σίγουροι ότι θέλετε να εκκαθαρίσετε όλο το ιστορικό;"
+
+#: QueryBrowser.pas:3223 
+msgid "Are you sure you want to delete the bookmark \"%s\"?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε τον σελιδοδείκτη \"%s\";"
+
+#: QueryBrowser.pas:3260 
+msgid "Are you sure you want to delete the bookmark folder \"%s\"?"
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να διαγράψετε τον κατάλογο των σελιδοδεικτών \"%s"
+"\";"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox2..AssociateFileExtensionsCBox..Caption
+#: QueryBrowserOptionPages.dfm:220 
+msgid "Associate sql/query files with Query Browser"
+msgstr "Συσχετισμός sql/query αρχείων με τον Query Browser"
+
+#: QueryBrowser.pas:3510 
+msgid "Before Last Week"
+msgstr "Πριν την προηγούμενη εβδομάδα"
+
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet2..Caption
+#: QueryBrowser.dfm:424  QueryBrowser.pas:888 QueryBrowser.pas:2716
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#. AboutForm..InfoMemo....Lines.Strings
+#: About.dfm:1282 
+msgid "Brian Aker | Main concept, supervising"
+msgstr "Brian Aker | Main concept, supervising"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..Caption
+#: QueryBrowserOptionPages.dfm:35 
+msgid "Browser"
+msgstr "Browser"
+
+#: QueryBrowser.pas:1413 
+msgid "Calls the explain command to examine the query"
+msgstr "Κληση της εντολής explain για την εξέταση του αιτήματος"
+
+#: QueryBrowser.pas:3224  QueryBrowser.pas:7087 QueryBrowser.pas:7170
+#: QueryBrowser.pas:7318 QueryBrowser.pas:7556
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: QueryBrowser.pas:7545 
+msgid "Cannot add dynamic parameter"
+msgstr ""
+
+#: QueryBrowser.pas:3277 
+msgid "Cannot delete Bookmark Folder"
+msgstr "Αποτυχία διαγραφής Καταλόγου των Σελιδοδ."
+
+#: QueryBrowser.pas:7631 
+msgid "Cannot delete dynamic parameter"
+msgstr ""
+
+#: QueryBrowser.pas:2944  QueryBrowser.pas:3010 QueryBrowser.pas:3311
+msgid "Caption:"
+msgstr "Τίτλος:"
+
+#. RegExTextImporterForm..TntPanel8..CaseInsensitiveCBox..Caption
+#: RegExTextImporter.dfm:526 
+#, fuzzy
+msgid "Case Insensitve"
+msgstr "Case Insensitve"
+
+#. MainForm..MainMenu..FileMI..ChangeDefaultSchemaMI..Caption
+#: Main.dfm:124 
+msgid "Change &Default Schema ..."
+msgstr "Αλλαγή &Προεπιλ. Σχήματος ..."
+
+#. QueryBrowserForm..QueryPopupMenu..ClearQueryEditorMI..Caption
+#. RegExTextImporterForm..TntPanel8..ClearBtn..Caption
+#: QueryBrowser.dfm:879  RegExTextImporter.dfm:502
+msgid "Clear"
+msgstr "Εκκαθάριση"
+
+#. QueryBrowserForm..MainMenu..ScriptMI..ClearAllBreakpointsMI..Caption
+#: QueryBrowser.dfm:1467 
+msgid "Clear All Breakpoints"
+msgstr "Εκκαθάριση Όλων των Breakpoint"
+
+#. QueryBrowserForm..RSGridPopupMenu..ClearFieldContentMI..Caption
+#: QueryBrowser.dfm:1328 
+msgid "Clear Field Content"
+msgstr "Εκκαθάριση Περιεχομένου Πεδίου"
+
+#. QueryBrowserForm..HistoryPopupMenu..ClearHistoryMI..Caption
+#: QueryBrowser.dfm:1586 
+msgid "Clear History"
+msgstr "Εκκαθάριση Ιστορικού"
+
+#: ScriptPanel.pas:1635 
+msgid "Clear Messages"
+msgstr "Εκκαθάριση Μηνυμάτων"
+
+#: QueryBrowser.pas:6750 
+msgid "Clear history"
+msgstr "Εκκαθάριση ιστορικού"
+
+#. AboutForm..CloseBtn..Caption
+#: About.dfm:1292 
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: QueryBrowser.pas:1374 
+msgid "Commit the transaction"
+msgstr "Ολοκλήρωση συναλλαγής"
+
+#: QueryBrowser.pas:1418 
+msgid "Compare"
+msgstr "Σύγκριση"
+
+#. QueryBrowserForm..MainMenu..QueryMI..CompareResultsetsMI..Caption
+#: QueryBrowser.dfm:1408 
+msgid "Compare Resultsets"
+msgstr "Σύγκριση Συνόλων Αποτελεσμάτων"
+
+#: QueryBrowser.pas:4655 
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+
+#: QueryBrowser.pas:3223  QueryBrowser.pas:3259
+msgid "Confirm Deletion"
+msgstr "Επιβεβαίωση Διαγραφής"
+
+#: ScriptPanel.pas:950 
+msgid "Connection problem. Could not execute command."
+msgstr ""
+
+#. QueryBrowserForm..MainMenu..ScriptMI..ScriptContinueMI..Caption
+#: QueryBrowser.dfm:1440  QueryBrowser.pas:1297 QueryBrowser.pas:1529
+msgid "Continue"
+msgstr "Συνέχιση"
+
+#. QueryBrowserForm..RSGridPopupMenu..CopyFieldContentMI..Caption
+#: QueryBrowser.dfm:1324 
+msgid "Copy Field Content"
+msgstr "Αντιγραφή Περιεχομένου Πεδίου"
+
+#. QueryBrowserForm..QueryPopupMenu..CopySQLasJavaCodeMI..Caption
+#: QueryBrowser.dfm:912 
+msgid "Copy Query as Java Code"
+msgstr "Αντιγραφή Αιτήματος ως Κώδικα Java"
+
+#. QueryBrowserForm..QueryPopupMenu..CopySQLasPHPcodeMI..Caption
+#: QueryBrowser.dfm:908 
+msgid "Copy Query as PHP code"
+msgstr "Αντιγραφή Αιτήματος ως Κώδικα PHP"
+
+#. QueryBrowserForm..RSGridPopupMenu..CopyRowValuesMI..Caption
+#: QueryBrowser.dfm:1309 
+msgid "Copy Row Values"
+msgstr "Αντιγραφή Τιμών Εγγραφής"
+
+#. QueryBrowserForm..TrxPopupMenu..TrxCopySQLMI..Caption
+#: QueryBrowser.dfm:2036 
+msgid "Copy SQL to Clipboard"
+msgstr "Αντιγραφή SQL στο Πρόχειρο"
+
+#. RegExTextImporterForm..RegExPopupMenu..CopyforCcodeMI..Caption
+#: RegExTextImporter.dfm:606 
+#, fuzzy
+msgid "Copy for C code"
+msgstr "Αντιγραφή για Κώδικα C"
+
+#. MainForm..MainActionManager..EditCopy1..Hint
+#: Main.dfm:320 
+msgid "Copy|Copies the selection and puts it on the Clipboard"
+msgstr ""
+
+#: QueryBrowser.pas:7123  QueryBrowser.pas:7203
+msgid "Could not fetch data for `%s`.`%s`Error code: %d%s"
+msgstr ""
+
+#: QueryBrowser.pas:7556 
+msgid "Create"
+msgstr "Δημιουργία"
+
+#. QueryBrowserForm..BookmarkPopupMenu..CreateBookmarkFolderMI..Caption
+#: QueryBrowser.dfm:1239 
+msgid "Create Bookmark Folder"
+msgstr "Δημιουργία Καταλόγου του Ιστορικού"
+
+#: QueryBrowser.pas:7086 
+msgid "Create FUNCTION"
+msgstr "Δημιουργία FUNCTION"
+
+#  RegExTextImporterForm..StructureTreePnl..FoundFuncPnl..CreateNestedExpBtn..Caption
+#  RegExTextImporterForm..StructureVTPopupMenu..CreateNestedExpressionMI..Caption
+#. RegExTextImporterForm..StructureTreePnl..FoundFuncPnl..CreateNestedExpBtn..Caption
+#. RegExTextImporterForm..StructureVTPopupMenu..CreateNestedExpressionMI..Caption
+#: RegExTextImporter.dfm:466  RegExTextImporter.dfm:598
+#, fuzzy
+msgid "Create Nested Expression"
+msgstr "Create Nested Expression"
+
+#: QueryBrowser.pas:7086 
+msgid "Create PROCEDURE"
+msgstr "Δημιουργία PROCEDURE"
+
+#. QueryBrowserForm..MainMenu..ScriptMI..CreateStoredProcedureFunctionMI..Caption
+#: QueryBrowser.dfm:1474 
+msgid "Create Stored Procedure / Function"
+msgstr "Δημιουργία Αποθηκ. Διαδικασίας/Συνάρτησης"
+
+#: QueryBrowser.pas:7170  QueryBrowser.pas:7318
+msgid "Create View"
+msgstr "Δημιουργία Όψης"
+
+#. QueryBrowserForm..MainMenu..QueryMI..CreateViewfromSelectMI..Caption
+#: QueryBrowser.dfm:1415 
+msgid "Create View from Select"
+msgstr "Δημιουργία Όψης από Select"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..CreateWindowsStyleLineBreaksCBox..Caption
+#: QueryBrowserOptionPages.dfm:193 
+msgid "Create Windows style line breaks (LF CR)"
+msgstr "Δημιουργία Windows αλλαγών γραμμής (LF CR)"
+
+#: QueryBrowser.pas:1479 
+msgid "Create a view from the current select"
+msgstr "Δημιουργία όψης από το τρέχον select"
+
+#. MainForm..MainActionManager..EditCut1..Caption
+#: Main.dfm:311 
+msgid "Cu&t"
+msgstr ""
+
+#. MainForm..MainActionManager..EditCut1..Hint
+#: Main.dfm:312 
+msgid "Cut|Cuts the selection and puts it on the Clipboard"
+msgstr ""
+
+#: TableDrag.pas:125 
+msgid "DELETE"
+msgstr "DELETE"
+
+#. QueryBrowserForm..BookmarkPopupMenu..DeleteBookmarkMI..Caption
+#: QueryBrowser.dfm:1246 
+msgid "Delete Items"
+msgstr "Διαγραφή Αντικειμένων"
+
+#. QueryBrowserForm..ParamPopupMenu..DeleteParameterMI..Caption
+#: QueryBrowser.dfm:1874 
+msgid "Delete Parameter"
+msgstr "Διαγραφή Παραμέτρων"
+
+#. QueryBrowserForm..RSGridPopupMenu..DeleteRowMI..Caption
+#: QueryBrowser.dfm:1305 
+msgid "Delete Row(s)"
+msgstr "Διαγραφή Εγγραφής(ων)"
+
+#. QueryBrowserForm..HistoryPopupMenu..DeleteSelectedHistoryEntriesMI..Caption
+#: QueryBrowser.dfm:1579 
+msgid "Delete Selected History Entries"
+msgstr "Διαγραφή Επιλεγμένων Αντικειμένων του Ιστορικού"
+
+#: QueryBrowser.pas:4632 
+msgid "Discard Changes"
+msgstr "Απόρριψη Αλλαγών"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..Caption
+#: QueryBrowserOptionPages.dfm:46 
+msgid "Display Options"
+msgstr "Επιλογές Εμφάνισης"
+
+#: QueryBrowser.pas:2999 
+msgid "Do you want to overwrite this bookmark?"
+msgstr "Θέλετε να αντικαταστήσετε τον σελιδοδείκτη;"
+
+#: TableDrag.pas:164  TableDrag.pas:165
+msgid "Drop the column(s) on one of the buttons."
+msgstr "Αφήστε την στήλη(ες) σε ένα από τα κουμπιά."
+
+#: TableDrag.pas:146  TableDrag.pas:147
+msgid "Drop the table(s) on one of the buttons."
+msgstr "Αφήστε τον πίνακα(ες) σε ένα από τα κουμπιά."
+
+#: QueryBrowser.pas:2509 
+msgid "Dynamic Params"
+msgstr "Δυναμικές Παράμ."
+
+#. MainForm..MainMenu..FileMI..ExportResultsetMI..Caption
+#: Main.dfm:111 
+msgid "E&xport Resultset"
+msgstr "Ε&ξαγωγή Συνόλου Αποτελεσμάτων"
+
+#. MainForm..MainActionManager..EditCut1..Category
+#. MainForm..MainActionManager..EditCopy1..Category
+#. MainForm..MainActionManager..EditPaste1..Category
+#. MainForm..MainActionManager..EditSelectAll1..Category
+#. MainForm..MainActionManager..EditUndo1..Category
+#. MainForm..MainActionManager..EditRedo1..Category
+#: Main.dfm:310  Main.dfm:318 Main.dfm:326 Main.dfm:334 Main.dfm:341
+#: Main.dfm:349
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#. QueryBrowserForm..MainMenu..ScriptMI..EditAllStoredProceduresFunctionsMI..Caption
+#: QueryBrowser.dfm:1478 
+msgid "Edit All Stored Procedures / Functions"
+msgstr "Επεξ/ία των Αποθ/μένων Διαδικασιών/Συναρτήσεων"
+
+#. QueryBrowserForm..RSGridPopupMenu..EditFieldinPopupEditorMI..Caption
+#: QueryBrowser.dfm:1339 
+msgid "Edit Field in Popup Editor"
+msgstr "Επεξεργασία Πεδίου σε Αναδυόμενο Επεξεργαστή"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..EnableFriendlyLineBreaksCBox..Caption
+#: QueryBrowserOptionPages.dfm:148 
+msgid "Enable friendly line breaks"
+msgstr "Ενεργ. φιλικών αλλαγών γραμμής"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..EnforceEditableQueriesCBox....Height
+#: QueryBrowserOptionPages.dfm:130 
+msgid ""
+"Enforce queries to be editable by adding primary key columns to the select"
+msgstr ""
+"Επιβολή επεξ/ίας αποτελεσμάτων αιτημάτων με προσθήκη των στηλών ΠΚ στο select"
+
+#: QueryBrowser.pas:2941  QueryBrowser.pas:3009
+msgid "Enter Bookmark Caption"
+msgstr "Εισάγετε Τίτλο Σελιδοδείκτη"
+
+#: QueryBrowser.pas:3310 
+msgid "Enter Bookmark Folder Caption"
+msgstr "Εισάγετε Τίτλο Καταλόγου Σελιδοδεικτών"
+
+#. If there is no object given, a new one has to be created.
+#: QueryBrowser.pas:7083 
+msgid "Enter Stored Procedure / Function Name"
+msgstr "Εισάγετε Όνομα Αποθ/μένης Διαδικασίας / Συνάρτησης"
+
+#  If there is now Object given, a new one has to be created
+#. If there is no object given, a new one has to be created.
+#: QueryBrowser.pas:7169  QueryBrowser.pas:7315
+msgid "Enter View Name"
+msgstr "Εισαγετε Ονόματος Όψης"
+
+#: QueryBrowser.pas:2695 
+msgid "Error while loading bookmarks."
+msgstr ""
+
+#: QueryBrowser.pas:3365 
+msgid "Error while loading history."
+msgstr ""
+
+#: QueryBrowser.pas:3556 
+#, fuzzy
+msgid "Error while loading sql function index."
+msgstr "Error while loading sql function index."
+
+#: QueryBrowser.pas:2738 
+msgid "Error while storing bookmarks."
+msgstr "Σφάλμα κατά την αποθήκευση των σελιδοδεικτών."
+
+#: QueryBrowser.pas:3390 
+msgid "Error while storing history."
+msgstr "Σφάλμα κατά την αποθήκευση του ιστορικού."
+
+#. MainForm..MainMenu..FileMI..CloseMI..Caption
+#: Main.dfm:152 
+msgid "Ex&it"
+msgstr "Έξ&οδος"
+
+#. QueryBrowserForm..MainMenu..ScriptMI..ScriptExecuteMI..Caption
+#: QueryBrowser.dfm:1427  QueryBrowser.pas:1225 QueryBrowser.pas:1276
+#: QueryBrowser.pas:1351 QueryBrowser.pas:1557
+msgid "Execute"
+msgstr "Εκτέλεση"
+
+#. QueryBrowserForm..QueryExecutePopupMenu..ExecuteFromToolbarMI..Caption
+#. QueryBrowserForm..MainMenu..QueryMI..QueryExecuteMI..Caption
+#: QueryBrowser.dfm:841  QueryBrowser.dfm:1381
+msgid "Execute (Ctrl+Enter)"
+msgstr "Εκτέλεση (Ctrl+Enter)"
+
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel1..ExecuteNextRegExBtn..Caption
+#: RegExTextImporter.dfm:264 
+#, fuzzy
+msgid "Execute Next"
+msgstr "Execute Next"
+
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel1..ExecuteRegExBtn..Caption
+#: RegExTextImporter.dfm:254 
+#, fuzzy
+msgid "Execute RegEx"
+msgstr "Execute RegEx"
+
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..ExecuteSQLBtn..Caption
+#: RegExTextImporter.dfm:386 
+#, fuzzy
+msgid "Execute SQL"
+msgstr "Εκτέλεση SQL"
+
+#. QueryBrowserForm..MainMenu..ScriptMI..ScriptRunSelectionMI..Caption
+#: QueryBrowser.dfm:1431 
+msgid "Execute Selection"
+msgstr "Εκτέλεση Επιλογής"
+
+#. QueryBrowserForm..MainMenu..QueryMI..QueryExecuteInNewTabMI..Caption
+#: QueryBrowser.dfm:1385 
+msgid "Execute in New Tab  (Ctrl+Shift+Enter)"
+msgstr "Εκτέλεση σε Νέα Καρτέλα  (Ctrl+Shift+Enter)"
+
+#. QueryBrowserForm..QueryExecutePopupMenu..ExecuteInNewTabFromToolbarMI..Caption
+#: QueryBrowser.dfm:845 
+msgid "Execute in New Tab (Ctrl+Shift+Enter)"
+msgstr "Εκτέλεση σε Νέα Καρτέλα (Ctrl+Shift+Enter)"
+
+#: QueryBrowser.pas:1225  QueryBrowser.pas:1351
+msgid "Execute the entered query"
+msgstr "Εκτέλεση του αιτήματος που εισήχθει"
+
+#: QueryBrowser.pas:1276 
+msgid "Execute the script"
+msgstr "Εκτέλεση του script"
+
+#: QueryBrowser.pas:1303  QueryBrowser.pas:1535
+msgid "Executes the next statement but steps over functions"
+msgstr "Εκτελεί την επόμενη εντολή αλλά προσπερνά τις συναρτήσεις"
+
+#: QueryBrowser.pas:1418 
+msgid "Executes the query and compares it with the current resultset"
+msgstr "Εκτελεί το αίτημα και το συγκρίνει με το τρέχον σύνολο αποτελεσμάτων"
+
+#: QueryBrowser.pas:1297 
+msgid "Executes the script and stops on errors"
+msgstr "Εκτελεί το script και σταματά σε σφάλματα"
+
+#: QueryBrowser.pas:1529 
+msgid "Executes the script and stops on errors and breakpoints"
+msgstr "Εκτελεί το script και σταματά σε σφάλματα και breakpoint"
+
+#: QueryBrowser.pas:1557 
+msgid "Executes the script without stopping on errors and breakpoints"
+msgstr "Εκτελεί το script δίχως να σταματά σε σφάλματα και breakpoint"
+
+#  QueryBrowserForm..MainMenu..QueryMI..ExplainMI..Caption
+#  Special
+#. QueryBrowserForm..MainMenu..QueryMI..ExplainMI..Caption
+#. Special
+#: QueryBrowser.dfm:1404  QueryBrowser.pas:1413
+msgid "Explain"
+msgstr "Επεξήγηση"
+
+#: QueryBrowser.pas:6245 
+msgid "Export As %s File..."
+msgstr "Εξαγωγή Ως %s Αρχείο..."
+
+#. QueryBrowserForm..RSGridPopupMenu..ExportResultsetMI..Caption
+#: QueryBrowser.dfm:1295 
+msgid "Export Resultset"
+msgstr "Εξαγωγή Συνόλου Αποτελεσμάτων"
+
+#: RegExTextImporter.pas:495 
+msgid "Expression found."
+msgstr "Έκφραση βρέθηκε."
+
+#: RegExTextImporter.pas:518 
+msgid "Expression not found."
+msgstr "Έκφραση δεν βρέθηκε."
+
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractNumbersMI..Caption
+#: RegExTextImporter.dfm:554 
+#, fuzzy
+msgid "Extract Numbers"
+msgstr "Extract Numbers"
+
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..Caption
+#: RegExTextImporter.dfm:548 
+#, fuzzy
+msgid "Extract RegEx"
+msgstr "Extract RegEx"
+
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractTextMI..Caption
+#: RegExTextImporter.dfm:558 
+#, fuzzy
+msgid "Extract Text"
+msgstr "Extract Text"
+
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractTextandNumbersMI..Caption
+#: RegExTextImporter.dfm:550 
+#, fuzzy
+msgid "Extract Text and Numbers"
+msgstr "Extract Text and Numbers"
+
+#: TableDrag.pas:158 
+msgid "FROM"
+msgstr "FROM"
+
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet1..SchemataPnl..SchemataFrame..CatalogVST..WideDefaultText
+#: QueryBrowser.dfm:393 
+msgid "Fetching Data ..."
+msgstr "Ανάκτηση Δεδομένων ..."
+
+#. MainForm..MainMenu..Edit1..FindMI..Caption
+#. QueryBrowserForm..ScriptMemoPopupMenu..FindMI..Caption
+#: Main.dfm:185  QueryBrowser.dfm:1563
+msgid "Find ..."
+msgstr "Εύρεση ..."
+
+#: QueryBrowser.pas:3502 
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..FuncSheet..Caption
+#: QueryBrowser.dfm:659 
+msgid "Functions"
+msgstr "Συναρτ."
+
+#: TableDrag.pas:156 
+msgid "GROUP"
+msgstr "GROUP"
+
+#: QueryBrowser.pas:2503 
+msgid "Global Params"
+msgstr "Καθολικές Παράμ."
+
+#: QueryBrowser.pas:1204  QueryBrowser.pas:1331
+msgid "Go back"
+msgstr "Προηγούμ."
+
+#: QueryBrowser.pas:1204  QueryBrowser.pas:1331
+msgid "Go back in query history"
+msgstr "Μετάβαση στο προηγούμενο αίτημα"
+
+#: QueryBrowser.pas:1210  QueryBrowser.pas:1337
+msgid "Go forward in query history"
+msgstr "Μετάβαση στο επόμενο αίτημα"
+
+#: TableDrag.pas:155 
+msgid "HAVING"
+msgstr "HAVING"
+
+#. MainForm..MainMenu..HelpMI..LaunchHelpMI..Caption
+#: Main.dfm:255 
+msgid "Help"
+msgstr "Βοήθεια"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..HideTabWhenOneOpenCBox..Caption
+#: QueryBrowserOptionPages.dfm:62 
+msgid "Hide the tab when only one page is open"
+msgstr "Απόκρυψη καρτέλας με μία μόνο σελίδα ανοικτή "
+
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet3..Caption
+#: QueryBrowser.dfm:509  QueryBrowser.pas:889
+msgid "History"
+msgstr "Ιστορικό"
+
+#: TableDrag.pas:126 
+msgid "INSERT"
+msgstr "INSERT"
+
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..InsertTemplateMemo....Lines.Strings
+#: RegExTextImporter.dfm:328 
+msgid "INSERT INTO foo"
+msgstr "INSERT INTO foo"
+
+#: QueryBrowser.pas:3703 
+msgid "Inline Help"
+msgstr "Ενσωματωμένη Βοήθεια"
+
+#: QueryBrowser.pas:1735 
+msgid ""
+"It looks like the thread executing your query hangs on the server. This "
+"makes it impossible to tell it to stop working. If you continue now then the "
+"thread itself will be killed and a new one is created next time you issue a "
+"query. Do you want this?"
+msgstr ""
+
+#: TableDrag.pas:134 
+#, fuzzy
+msgid "JOIN Table(s)"
+msgstr "JOIN Table(s)"
+
+#: TableDrag.pas:133 
+msgid "LEFT OUTER JOIN"
+msgstr "LEFT OUTER JOIN"
+
+#: QueryBrowser.pas:3508 
+msgid "Last Week"
+msgstr "Προηγούμενη Εβδομάδα"
+
+#  MainForm..MainMenu..HelpMI..VisitMySQLcomMI..Caption
+#. MainForm..MainMenu..HelpMI..VisitMySQLcomMI..Caption
+#: Main.dfm:281 
+msgid "Launch MySQL.com Site"
+msgstr "Διακτυακός τόπος MySQL.com"
+
+#. MainForm..MainMenu..HelpMI..ListreportedBugsMI..Caption
+#: Main.dfm:288 
+msgid "List Reported Bugs"
+msgstr "Bug που έχουν ήδη αναφερθεί"
+
+#. RegExTextImporterForm..TntPanel8..LoadBtn..Caption
+#: RegExTextImporter.dfm:518  QueryBrowser.pas:1258 QueryBrowser.pas:1504
+#, fuzzy
+msgid "Load"
+msgstr "Φόρτωση"
+
+#. QueryBrowserForm..RSGridPopupMenu..LoadFieldContentMI..Caption
+#: QueryBrowser.dfm:1316 
+msgid "Load Field Content"
+msgstr "Φόρτωση Περιεχομένου Πεδίου"
+
+#. RegExTextImporterForm..TntPanel8..LoadFileBtn..Caption
+#: RegExTextImporter.dfm:494 
+#, fuzzy
+msgid "Load Source Text"
+msgstr "Load Source Text"
+
+#: QueryBrowser.pas:1258  QueryBrowser.pas:1504
+msgid "Load a script"
+msgstr "Φόρτωση script"
+
+#: QueryBrowser.pas:2506 
+msgid "Local Params"
+msgstr "Τοπικές Παράμ."
+
+#: QueryBrowser.pas:1128 
+msgid "Make Default Schema"
+msgstr "Να γίνει το Προεπιλεγμένο Σχήμα"
+
+#. MainForm..MainMenu..ToolsMI..ManageConnectionsMI..Caption
+#: Main.dfm:225 
+msgid "Manage Connections ..."
+msgstr "Διαχείριση Συνδέσεων ..."
+
+#: RegExTextImporter.pas:1295 
+#, fuzzy
+msgid "Match %s not found in %s."
+msgstr "Match %s not found in %s."
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..MatchExactCountMI..Caption
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..MatchExactCountMI..Caption
+#: RegExTextImporter.dfm:580 
+#, fuzzy
+msgid "Match Exact Count"
+msgstr "Match Exact Count"
+
+#: RegExTextImporter.pas:435 
+#, fuzzy
+msgid "Matches"
+msgstr "Matches"
+
+#  QueryBrowserForm..MainMenu..ViewMI..MaximizeQueryEditMI..Caption
+#. QueryBrowserForm..MainMenu..ViewMI..MaximizeQueryEditMI..Caption
+#: QueryBrowser.dfm:1352 
+msgid "Maximize Query Edit (F11)"
+msgstr "Μεγιστοποίηση Επεξεργασίας Αιτήματος (F11)"
+
+#  QueryBrowserForm..MainMenu..ViewMI..OnlyTabsheetsMI..Caption
+#. QueryBrowserForm..MainMenu..ViewMI..OnlyTabsheetsMI..Caption
+#: QueryBrowser.dfm:1357 
+msgid "Maximize Tabsheets (F12)"
+msgstr "Μεγιστοποίηση Καρτελών (F12)"
+
+#. AboutForm..InfoMemo......Lines.Strings
+#: About.dfm:1279 
+msgid ""
+"Michael G. Zinner | Graphical design, Windows development, library coding"
+msgstr ""
+"Michael G. Zinner | Graphical design, Windows development, library coding"
+
+#: QueryBrowser.pas:3494 
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#. QueryBrowserForm..ParamPopupMenu..MoveParametertoGlobalParametersMI..Caption
+#: QueryBrowser.dfm:1878 
+msgid "Move Parameter to Global Parameters"
+msgstr "Μετακίνηση Παραμέτρου στις Καθολικές Παραμ."
+
+#. RegExTextImporterForm..TntPanel8..MultilineStringCBox..Caption
+#: RegExTextImporter.dfm:537 
+#, fuzzy
+msgid "Multiline String"
+msgstr "Multiline String"
+
+#. Warn about multiple commands on one line.
+#: QueryBrowser.pas:5030 
+msgid "Multiple commands"
+msgstr ""
+
+#. MainForm..MainMenu..ToolsMI..MySQLAdministratorMI..Caption
+#: Main.dfm:197 
+msgid "MySQL Administrator"
+msgstr "MySQL Administrator"
+
+#. MainForm..MainMenu..ToolsMI..MySQLCommandLineClientMI..Caption
+#: Main.dfm:201 
+msgid "MySQL Command Line Client"
+msgstr "MySQL Client Γραμμής Εντολών "
+
+#. MainForm..Caption
+#: Main.dfm:4  Main.pas:215 Main.pas:343 Main.pas:1119 Main.pas:1182
+#: Main.pas:1184
+msgid "MySQL Query Browser"
+msgstr "MySQL Query Browser"
+
+#: QueryBrowser.pas:7557 
+msgid "Name"
+msgstr "Όνομα"
+
+#: QueryBrowser.pas:7087  QueryBrowser.pas:7170 QueryBrowser.pas:7318
+msgid "Name:"
+msgstr "Όνομα:"
+
+#. MainForm..MainMenu..FileMI..NewSQLScriptTabMI..Caption
+#: Main.dfm:75 
+msgid "Ne&w Script Tab"
+msgstr "Ν&έα Καρτέλα για Script"
+
+#: RegExTextImporter.pas:438 
+#, fuzzy
+msgid "Nested RegEx"
+msgstr "Nested RegEx"
+
+#: QueryBrowser.pas:7554 
+msgid "New Parameter"
+msgstr "Νέα Παράμετρος"
+
+#: QueryBrowser.pas:1210  QueryBrowser.pas:1337
+msgid "Next"
+msgstr "Επόμενο"
+
+#: QueryBrowser.pas:1736  QueryBrowser.pas:4748 QueryBrowser.pas:6752
+#: ScriptPanel.pas:688
+msgid "No"
+msgstr "Όχι"
+
+#: RegExTextImporter.pas:537  RegExTextImporter.pas:579
+msgid "No Error."
+msgstr "Κανένα Σφάλμα."
+
+#  RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel7..RegExErrorLbl..Caption
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel7..RegExErrorLbl..Caption
+#: RegExTextImporter.dfm:226 
+#, fuzzy
+msgid "No error."
+msgstr "Κανένα σφάλμα."
+
+#: ScriptPanel.pas:687 
+msgid "No server connection"
+msgstr "Καμία σύνδεση με server"
+
+#: QueryBrowser.pas:5031 
+msgid "Note that only the first complete command is executed."
+msgstr ""
+
+#. MainForm..MainMenu..FileMI..OpenSQLScriptMI..Caption
+#: Main.dfm:85 
+msgid "O&pen Script ..."
+msgstr "Ά&νοιγμα Script ..."
+
+#: QueryBrowser.pas:5031  QueryBrowser.pas:5609 QueryBrowser.pas:6371
+msgid "OK"
+msgstr "OK"
+
+#: QueryBrowser.pas:2943  QueryBrowser.pas:3010 QueryBrowser.pas:3311
+msgid ""
+"OK\n"
+"Cancel"
+msgstr ""
+"OK\n"
+"Ακύρωση"
+
+#: TableDrag.pas:154 
+msgid "ORDER"
+msgstr "ORDER"
+
+#  MainForm..MainMenu..HelpMI..OnlineDocsMI..Caption
+#. MainForm..MainMenu..HelpMI..OnlineDocsMI..Caption
+#: Main.dfm:266 
+msgid "Online Docs"
+msgstr "Τεκμηρίωση στο Διαδίκτυο"
+
+#  MainForm..MainMenu..HelpMI..OnlineReferenceCAPIMI..Caption
+#. MainForm..MainMenu..HelpMI..OnlineReferenceCAPIMI..Caption
+#: Main.dfm:270 
+msgid "Online Docs - C API"
+msgstr "Τεκμηρίωση στο Διαδίκτυο - C API"
+
+#  MainForm..MainMenu..HelpMI..OnlineDocsPHPAPIMI..Caption
+#. MainForm..MainMenu..HelpMI..OnlineDocsPHPAPIMI..Caption
+#: Main.dfm:274 
+msgid "Online Docs - PHP API"
+msgstr "Τεκμηρίωση στο Διαδίκτυο - PHP API"
+
+#. QueryBrowserForm..QueryPopupMenu..OpenQueryMI..Caption
+#: QueryBrowser.dfm:886 
+msgid "Open Query ..."
+msgstr "Άνοιγμα Αιτήματος ..."
+
+#. QueryBrowserForm..ScriptMemoPopupMenu..OpenScriptMI..Caption
+#: QueryBrowser.dfm:1548 
+msgid "Open Script ... (Ctrl+O)"
+msgstr "Άνοιγμα Script ... (Ctrl+O)"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..OpenExportedResultsetCBox..Caption
+#: QueryBrowserOptionPages.dfm:139 
+msgid "Open resultset in associated application after export"
+msgstr ""
+"Άνοιγμα συνόλου αποτελεσμάτων με συσχετισμένη εφαρμογή μετά την εξαγωγή"
+
+#. MainForm..MainMenu..ToolsMI..OptionsMI..Caption
+#: Main.dfm:239 
+msgid "Options ..."
+msgstr "Επιλογές ..."
+
+#: QueryBrowser.pas:2999 
+msgid "Overwrite Bookmark"
+msgstr "Αντικατάσταση Σελιδοδείκτη"
+
+#. MainForm..MainMenu..FileMI..PageSetupMI..Caption
+#: Main.dfm:133 
+msgid "Page Setup ..."
+msgstr "Διαμόρφωση Σελίδας ..."
+
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..ParamPnl..ParamVT......WideText
+#: QueryBrowser.dfm:766 
+msgid "Param"
+msgstr "Παράμ."
+
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..Caption
+#: QueryBrowser.dfm:713  QueryBrowser.pas:916
+msgid "Params"
+msgstr "Παράμ."
+
+#. RegExTextImporterForm..StructureTreePnl..StructureVT......WideText
+#. RegExTextImporterForm..StructureTreePnl..TntPanel4..Caption
+#: RegExTextImporter.dfm:435  RegExTextImporter.dfm:446
+#, fuzzy
+msgid "Parse Structure"
+msgstr "Parse Structure"
+
+#  RegExTextImporterForm..RegExPopupMenu..PasteCcodeMI..Caption
+#. RegExTextImporterForm..RegExPopupMenu..PasteCcodeMI..Caption
+#: RegExTextImporter.dfm:610 
+#, fuzzy
+msgid "Paste C code"
+msgstr "Επικόλληση κώδικα C"
+
+#. QueryBrowserForm..QueryPopupMenu..PasteClipboardContentasJavaCodeMI..Caption
+#: QueryBrowser.dfm:901 
+msgid "Paste Clipboard Content as Java Code"
+msgstr "Επικόλληση από το Πρόχειρο ως Κώδικα Java"
+
+#. QueryBrowserForm..QueryPopupMenu..PasteClipboardContentasPHPcodeMI..Caption
+#: QueryBrowser.dfm:897 
+msgid "Paste Clipboard Content as PHP Code"
+msgstr "Επικόλληση από το Πρόχειρο ως Κώδικα PHP"
+
+#. MainForm..MainActionManager..EditPaste1..Hint
+#: Main.dfm:328 
+msgid "Paste|Inserts Clipboard contents"
+msgstr ""
+
+#: QueryBrowser.pas:1290  QueryBrowser.pas:1522
+msgid "Pause"
+msgstr "Παύση"
+
+#: QueryBrowser.pas:1522 
+msgid "Pauses the execution"
+msgstr "Παύση εκτέλεσης"
+
+#: QueryBrowser.pas:1290 
+msgid "Pauses the execution of the script"
+msgstr "Κάνει πάυση στην εκτέλεση του script"
+
+#: QueryBrowser.pas:5311 
+msgid "Please enter a SELECT statment before you use the EXPLAIN function."
+msgstr ""
+"Εισάγετε μια εντολή SELECT προτού χρησιμοποιήσετε την λειτουργία EXPLAIN."
+
+#: QueryBrowser.pas:7555 
+msgid "Please enter a name for the new parameter."
+msgstr "Εισάγετε το όνομα της νέας παραμέτρου."
+
+#: QueryBrowser.pas:2942  QueryBrowser.pas:3009
+msgid "Please enter the caption for this bookmark"
+msgstr "Εισάγετε τον τίτλο του νέου σελιδοδείκτη."
+
+#: QueryBrowser.pas:3310 
+msgid "Please enter the caption for this bookmark folder."
+msgstr "Εισάγετε τον τίτλο του νέου καταλόγου των σελιδοδεικτών."
+
+#: QueryBrowser.pas:7085 
+#, fuzzy
+msgid ""
+"Please enter the name of the PROCEDURE / FUNCTION you want to create. A code "
+"template will be created."
+msgstr ""
+"Εισάγετε όνομα της  PROCEDURE / FUNCTIO που θέλετε να δημιουργήσετε. A code "
+"template θα δημιουργηθεί."
+
+#: QueryBrowser.pas:7317 
+msgid "Please enter the name of the VIEW you want to create."
+msgstr ""
+"Παρακαλώ εισάγετε το όνομα της Όψης (VIEW) που θέλετε να δημιουργήσετε."
+
+#: QueryBrowser.pas:7170 
+#, fuzzy
+msgid ""
+"Please enter the name of the VIEW you want to create. A code template will "
+"be created."
+msgstr ""
+"Εισάγετε όνομα της VIEW που θέλετε να δημιουργήσετε. A code template θα "
+"δημιουργηθεί."
+
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..PreviewBtn..Caption
+#: RegExTextImporter.dfm:364 
+#, fuzzy
+msgid "Preview"
+msgstr "Προεπισκόπιση"
+
+#. MainForm..MainMenu..FileMI..PrintMI..Caption
+#: Main.dfm:143 
+msgid "Print ..."
+msgstr "Εκτύπωση ..."
+
+#. MainForm..MainMenu..FileMI..PrinttoPDFMI..Caption
+#: Main.dfm:138 
+msgid "Print to PDF ..."
+msgstr "Εκτύπωση σε PDF ..."
+
+#. QueryBrowserForm..MainMenu..QueryMI..Caption
+#: QueryBrowser.dfm:1370 
+msgid "Query"
+msgstr "Αίτημα"
+
+#: Main.pas:364 
+msgid "Query Browser"
+msgstr "Query Browser"
+
+#: QueryBrowser.pas:5959  QueryBrowser.pas:5960 QueryBrowser.pas:5961
+#: QueryBrowser.pas:6132 QueryBrowser.pas:6133 QueryBrowser.pas:6134
+msgid "Query File"
+msgstr "Query File"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..Caption
+#: QueryBrowserOptionPages.dfm:100 
+msgid "Query Options"
+msgstr "Επιλογές Αιτημάτων"
+
+#. and did not come back to the application so that the thread could be stopped normally.
+#: QueryBrowser.pas:1733 
+msgid "Query thread does not respond"
+msgstr ""
+
+#. QueryBrowserForm..Caption
+#: QueryBrowser.dfm:4 
+#, fuzzy
+msgid "QueryBrowser"
+msgstr "QueryBrowser"
+
+#. QueryBrowserOptionPagesForm..Caption
+#: QueryBrowserOptionPages.dfm:5 
+#, fuzzy
+msgid "QueryBrowserOptionPagesForm"
+msgstr "QueryBrowserOptionPagesForm"
+
+#. MainForm..MainMenu..HelpMI..QuickStartGuideMI..Caption
+#: Main.dfm:259 
+msgid "Quick Start Guide"
+msgstr "Οδηγός Ταχείας Εκμάθησης"
+
+#: QueryBrowser.pas:1249  QueryBrowser.pas:1495
+msgid "Redo"
+msgstr "Ακύρωση Αναίρεσης"
+
+#. MainForm..MainActionManager..EditRedo1..Hint
+#: Main.dfm:351 
+msgid "Redo|Redoes the last undone action"
+msgstr ""
+
+#. QueryBrowserForm..MainMenu..QueryMI..QueryRefreshMI..Caption
+#: QueryBrowser.dfm:1393  QueryBrowser.pas:1216 QueryBrowser.pas:1343
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#. QueryBrowserForm..ParamPopupMenu..RefreshParametersMI..Caption
+#: QueryBrowser.dfm:1885 
+msgid "Refresh Parameters"
+msgstr "Ανανέωση Παραμέτρων"
+
+#: QueryBrowser.pas:1216  QueryBrowser.pas:1343
+#, fuzzy
+msgid "Refresh the result grid"
+msgstr "Ανανέωση του result grid"
+
+#. RegExTextImporterForm..Caption
+#: RegExTextImporter.dfm:6 
+#, fuzzy
+msgid "RegEx Text Importer"
+msgstr "RegEx Text Importer"
+
+#. MainForm..MainMenu..ToolsMI..RegExTextImporterMI..Caption
+#: Main.dfm:216 
+#, fuzzy
+msgid "RegEx Text Importer ..."
+msgstr "RegEx Text Importer ..."
+
+#: RegExTextImporter.pas:648 
+#, fuzzy
+msgid "RegEx%d"
+msgstr "RegEx%d"
+
+#: RegExTextImporter.pas:1402  RegExTextImporter.pas:1489
+#, fuzzy
+msgid "RegExes File"
+msgstr "RegExes File"
+
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel2..Caption
+#: RegExTextImporter.dfm:181 
+#, fuzzy
+msgid "Regular Expression"
+msgstr "Κανονική Έκφραση"
+
+#. RegExTextImporterForm..StructureVTPopupMenu..RemoveRegExMI..Caption
+#: RegExTextImporter.dfm:591 
+#, fuzzy
+msgid "Remove RegEx"
+msgstr "Remove RegEx"
+
+#. QueryBrowserForm..RSGridPopupMenu..RemoveResultSetMI..Caption
+#: QueryBrowser.dfm:1287 
+msgid "Remove Resultset"
+msgstr "Αφαίρεση Συνόλου Αποτελεσμάτων"
+
+#. QueryBrowserForm..RSGridPopupMenu..RemoveTabsheetMI..Caption
+#: QueryBrowser.dfm:1282 
+msgid "Remove Tab"
+msgstr "Αφαίρεση Καρτέλας"
+
+#. MainForm..MainMenu..FileMI..ReopenMI..Caption
+#: Main.dfm:90 
+msgid "Reopen"
+msgstr "Επαναφόρτωση"
+
+#. MainForm..MainMenu..HelpMI..ReportBugMI..Caption
+#: Main.dfm:292 
+msgid "Report a New Bug to MySQL"
+msgstr "Αναφορά νέου Bug στην MySQL"
+
+#: QueryBrowser.pas:1987 
+msgid "Resultset %d"
+msgstr "Σύνολο Αποτελεσμάτων %d"
+
+#: QueryBrowser.pas:6369 
+msgid "Resultset Exported Successfully."
+msgstr "Το σύνολο αποτελεσμάτων εξήχθει επιτυχώς."
+
+#: QueryBrowser.pas:1380 
+#, fuzzy
+msgid "Rollback the transaction"
+msgstr "Rollback την συναλλαγή"
+
+#: TableDrag.pas:141  TableDrag.pas:159
+msgid "SELECT"
+msgstr "SELECT"
+
+#: QueryBrowser.pas:5311 
+msgid "SQL Error"
+msgstr ""
+
+#. Determine correct size of the query area header bar.
+#: QueryBrowser.pas:5399  QueryBrowser.pas:7291
+msgid "SQL Query Area"
+msgstr "Περιοχή SQL Αιτημάτων"
+
+#: QueryBrowser.pas:5895  QueryBrowser.pas:5896 QueryBrowser.pas:5897
+#: QueryBrowser.pas:5962 QueryBrowser.pas:5963 QueryBrowser.pas:5964
+#: QueryBrowser.pas:6086 QueryBrowser.pas:6087 QueryBrowser.pas:6088
+#: QueryBrowser.pas:6135 QueryBrowser.pas:6136 QueryBrowser.pas:6137
+msgid "SQL Script File"
+msgstr "SQL Script Αρχείο"
+
+#: QueryBrowser.pas:7123  QueryBrowser.pas:7203
+msgid "SQL error"
+msgstr ""
+
+#. QueryBrowserForm..UCESQLHighlighter..DefaultFilter
+#: QueryBrowser.dfm:1484 
+msgid "SQL script files (*.sql)|*.sql"
+msgstr "SQL script αρχεία (*.sql)|*.sql"
+
+#: QueryBrowser.pas:3504 
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#. RegExTextImporterForm..TntPanel8..SaveBtn..Caption
+#: RegExTextImporter.dfm:510  QueryBrowser.pas:1263 QueryBrowser.pas:1509
+#, fuzzy
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#. MainForm..MainMenu..FileMI..SaveAsMI..Caption
+#: Main.dfm:105 
+msgid "Save &As ..."
+msgstr "Αποθήκευση &Ως ..."
+
+#. MainForm..MainMenu..ToolsMI..SavecurrentConnectionMI..Caption
+#: Main.dfm:230 
+msgid "Save Current Connection ..."
+msgstr "Αποθήκευση Τρέχουσας Σύνδεσης ..."
+
+#. QueryBrowserForm..RSGridPopupMenu..SaveFieldContentMI..Caption
+#: QueryBrowser.dfm:1320 
+msgid "Save Field Content"
+msgstr "Αποθήκευση Περιεχομένου Πεδίου"
+
+#. QueryBrowserForm..QueryPopupMenu..SaveQueryAsMI..Caption
+#: QueryBrowser.dfm:890 
+msgid "Save Query As ..."
+msgstr "Αποθήκευση Αιτήματος Ως ..."
+
+#: QueryBrowser.pas:6130 
+msgid "Save Query to File ..."
+msgstr "Αποθήκευση Αιτήματος σε Αρχείο ..."
+
+#. QueryBrowserForm..ScriptMemoPopupMenu..SaveScriptMI..Caption
+#: QueryBrowser.dfm:1552 
+msgid "Save Script"
+msgstr "Αποθήκευση Script"
+
+#. QueryBrowserForm..ScriptMemoPopupMenu..SaveScriptAsMI..Caption
+#: QueryBrowser.dfm:1556 
+msgid "Save Script As ..."
+msgstr "Αποθήκευση Script Ως ..."
+
+#: QueryBrowser.pas:6083 
+msgid "Save Script to File ..."
+msgstr "Αποθήκευση Script σε Αρχείο ..."
+
+#: QueryBrowser.pas:4655 
+msgid "Save changes to %s?"
+msgstr "Αποθήκευση αλλαγών στο %s;"
+
+#. if Exporter is found
+#: QueryBrowser.pas:6333 
+msgid "Save result set to file ..."
+msgstr ""
+
+#: QueryBrowser.pas:1263  QueryBrowser.pas:1509
+msgid "Save the script"
+msgstr "Αποθήκευση του Script"
+
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet1..Caption
+#. Set properties of upper sidebar Tabcontrol
+#: QueryBrowser.dfm:361  QueryBrowser.pas:887
+msgid "Schemata"
+msgstr "Σχήματα"
+
+#. QueryBrowserForm..MainMenu..ScriptMI..Caption
+#: QueryBrowser.dfm:1423 
+msgid "Script"
+msgstr "Script"
+
+#: QueryBrowser.pas:1268  QueryBrowser.pas:1514
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: QueryBrowser.pas:1268  QueryBrowser.pas:1514
+msgid "Search and replace text"
+msgstr "Αναζήτηση και αντικατάσταση κειμένου"
+
+#. MainForm..MainActionManager..EditSelectAll1..Caption
+#: Main.dfm:335 
+msgid "Select &All"
+msgstr ""
+
+#. MainForm..MainActionManager..EditSelectAll1..Hint
+#: Main.dfm:336 
+msgid "Select All|Selects the entire document"
+msgstr ""
+
+#: QueryBrowser.pas:1440 
+msgid "Sets the FROM clause mouse cursor"
+msgstr "Εμφανίζει τον δείκτη ποντικιού της συνιστώσας FROM "
+
+#: QueryBrowser.pas:1452 
+msgid "Sets the GROUP clause mouse cursor"
+msgstr "Εμφανίζει τον δείκτη ποντικιού της συνιστώσας GROUP"
+
+#: QueryBrowser.pas:1458 
+msgid "Sets the HAVING clause mouse cursor"
+msgstr "Εμφανίζει τον δείκτη ποντικιού της συνιστώσας HAVING"
+
+#: QueryBrowser.pas:1464 
+msgid "Sets the ORDER clause mouse cursor"
+msgstr "Εμφανίζει τον δείκτη ποντικιού της συνιστώσας ORDER"
+
+#: QueryBrowser.pas:1434 
+msgid "Sets the SELECT clause mouse cursor"
+msgstr "Εμφανίζει τον δείκτη ποντικιού της συνιστώσας SELECT"
+
+#: QueryBrowser.pas:1470 
+msgid "Sets the SET clause mouse cursor"
+msgstr "Εμφανίζει τον δείκτη ποντικιού της συνιστώσας SET"
+
+#: QueryBrowser.pas:1446 
+msgid "Sets the WHERE clause mouse cursor"
+msgstr "Εμφανίζει τον δείκτη ποντικιού της συνιστώσας WHERE"
+
+#: QueryBrowser.pas:1427 
+msgid "Sets the standard mouse cursor"
+msgstr "Εμφανίζει τον κανονικό δείκτη ποντικιού"
+
+#. MainForm..MainActionManager..EditRedo1....SecondaryShortCuts.Strings
+#: Main.dfm:355 
+msgid "Shift+Ctrl+Z"
+msgstr ""
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowAdvancedToolbarMI..Caption
+#: QueryBrowserOptionPages.dfm:53 
+msgid "Show advanced toolbars"
+msgstr "Εμφάνιση γραμμών εργαλείων ειδικών επιλογών"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowMouseCursorToolbarGroupCBox..Caption
+#: QueryBrowserOptionPages.dfm:89 
+#, fuzzy
+msgid "Show composer buttons toolbar"
+msgstr "Εμφάνιση γραμμής εργαλείων σύνθεσης"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowFieldOverlayImagesCBox..Caption
+#: QueryBrowserOptionPages.dfm:80 
+msgid "Show field overlay images for BLOB fields"
+msgstr "Εμφάνιση εικονιδίων διαχείρισης πεδίων BLOB"
+
+#. QueryBrowserForm..MainMenu..ViewMI..ShowSidebarMI..Caption
+#: QueryBrowser.dfm:1364 
+msgid "Sidebar"
+msgstr "Πλευρική Στήλη"
+
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..ContentPnl..TntPanel3..TntPanel5..Caption
+#: RegExTextImporter.dfm:143 
+#, fuzzy
+msgid "Source Text"
+msgstr "Source Text"
+
+#  QueryBrowserForm..RSGridPopupMenu..SplitTabHorizontallyMI..Caption
+#  QueryBrowserForm..ScriptMemoPopupMenu..SplitScriptTabHorizontallyMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..SplitTabHorizontallyMI..Caption
+#. QueryBrowserForm..ScriptMemoPopupMenu..SplitScriptTabHorizontallyMI..Caption
+#: QueryBrowser.dfm:1274  QueryBrowser.dfm:1540
+msgid "Split Tab Horizontally"
+msgstr "Διαίρεση Καρτέλας Οριζοντίως"
+
+#. QueryBrowserForm..RSGridPopupMenu..SplitResultsetTabVerticallyMI..Caption
+#: QueryBrowser.dfm:1269 
+msgid "Split Tab Vertically"
+msgstr "Διαίρεση Καρτέλας Κατακορύφως"
+
+#. QueryBrowserForm..MainMenu..QueryMI..SplitTabandExecuteMI..Caption
+#: QueryBrowser.dfm:1389 
+msgid "Split Tab and Execute  (Ctrl+Alt+Enter)"
+msgstr "Διαίρεση Καρτέλας και Εκτέλεση  (Ctrl+Alt+Enter)"
+
+#. QueryBrowserForm..QueryExecutePopupMenu..SplitTabAndExecuteFromToolbarMI..Caption
+#: QueryBrowser.dfm:849 
+msgid "Split Tab and Execute (Ctrl+Alt+Enter)"
+msgstr "Διαίρεση Καρτέλας και Εκτέλεση (Ctrl+Alt+Enter)"
+
+#: QueryBrowser.pas:1369 
+msgid "Start a new transaction"
+msgstr "Εκκίνηση νέας συναλλαγής"
+
+#: QueryBrowser.pas:1303  QueryBrowser.pas:1535
+msgid "Step"
+msgstr "Προσπέραση"
+
+#. QueryBrowserForm..MainMenu..ScriptMI..ScriptStepOverMI..Caption
+#: QueryBrowser.dfm:1445 
+msgid "Step Over"
+msgstr "Προσπέραση"
+
+#. QueryBrowserForm..MainMenu..QueryMI..QueryStopMI..Caption
+#. QueryBrowserForm..MainMenu..ScriptMI..ScriptStopMI..Caption
+#: QueryBrowser.dfm:1397  QueryBrowser.dfm:1453 QueryBrowser.pas:1230
+#: QueryBrowser.pas:1281 QueryBrowser.pas:1356 QueryBrowser.pas:1562
+msgid "Stop"
+msgstr "Διακοπή"
+
+#: QueryBrowser.pas:1230  QueryBrowser.pas:1356
+msgid "Stop the execution of the query"
+msgstr "Διακοπή της εκτέλεσης του αιτήματος"
+
+#: QueryBrowser.pas:1281 
+msgid "Stop the execution of the script"
+msgstr "Διακοπή της εκτέλεσης του script"
+
+#: QueryBrowser.pas:1562 
+msgid "Stops the execution of the script"
+msgstr "Διακόπτει την εκτέλεση του script"
+
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..StoreSQLBtn..Caption
+#: RegExTextImporter.dfm:375 
+#, fuzzy
+msgid "Store SQL to Script"
+msgstr "Αποθήκευση SQL σε Script"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..TntLabel2..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..TntLabel2..Caption
+#: QueryBrowserOptionPages.dfm:121 
+msgid "Substitude CR:"
+msgstr "Αντικατ/ση CR:"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..TntLabel1..Caption
+#: QueryBrowserOptionPages.dfm:112 
+msgid "Substitude LF:"
+msgstr "Αντικατ/ση LF:"
+
+#: QueryBrowser.pas:3506 
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#. MainForm..MainMenu..FileMI..SwitchMI..Caption
+#: Main.dfm:61 
+msgid "Switch Connection"
+msgstr ""
+
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..SynSheet..Caption
+#. Set properties of lower sidebar Tabcontrol
+#: QueryBrowser.dfm:605  QueryBrowser.pas:914
+msgid "Syntax"
+msgstr "Σύνταξη"
+
+#. TableDragForm..Caption
+#: TableDrag.dfm:7 
+#, fuzzy
+msgid "TableDragForm"
+msgstr "TableDragForm"
+
+#: Main.pas:975 
+msgid ""
+"The Bitstream Vera Sans Mono fonts cannot be found. Please download the font "
+"files from http://www.gnome.org/fonts and copy them into the fonts directory "
+"%s. The following files are needed: VeraMoBd.ttf, VeraMoBI.ttf, VeraMoIt."
+"ttf, VeraMono.ttf."
+msgstr ""
+"Η γραμματοσειρά Bitstream Vera Sans Mono fonts δεν βρέθηκε. Κατεβάστε τα "
+"αρχεία της από http://www.gnome.org/fonts και αντιγράψτε τα στον κατάλογο %"
+"s. Χρειάζονται τα εξής: VeraMoBd.ttf, VeraMoBI.ttf, VeraMoIt.ttf, VeraMono."
+"ttf."
+
+#: RegExTextImporter.pas:310 
+#, fuzzy
+msgid "The Matches Group Node cannot be found"
+msgstr "The Matches Group Node cannot be found"
+
+#: RegExTextImporter.pas:333 
+#, fuzzy
+msgid "The Nested Group Node cannot be found"
+msgstr "The Nested Group Node cannot be found"
+
+#: ScriptPanel.pas:688 
+msgid "The connection to the server was lost.  Reconnect?"
+msgstr "Η σύνδεση με τον εξυπηρετητή διακόπηκε. Να γίνει επανασύνδεση;"
+
+#: QueryBrowser.pas:6376 
+msgid "The file %s cannot be written."
+msgstr "Το αρχείο %s δεν μπορεί να γραφτεί."
+
+#: QueryBrowser.pas:6370 
+msgid "The resultset has been exported to %s successfully."
+msgstr "Το σύνολο αποτελεσμάτων εξήχθει στο %s επιτυχώς."
+
+#: QueryBrowser.pas:5030 
+msgid "There are more than one commands on this line. "
+msgstr ""
+
+#. DLL Version check
+#: ApplicationDataModule.pas:122  ApplicationDataModule.pas:128
+msgid ""
+"There is a incompatible version of the library %s installed (Version %s). "
+"Please update the library to version %s."
+msgstr ""
+"Υπάρχει ασύμβατη εγκατεστημένη βιβλιοθήκη %s (έκδοση %s). Ανανεώστε την "
+"βιβλιοθήκη στην έκδοση %s."
+
+#. AboutForm..LicenceLbl....AutoSize
+#: About.dfm:1264 
+msgid ""
+"This software is released under the GNU General Public License (GPL), which "
+"is probably the best known Open Source license. The formal terms of the GPL "
+"license can be found at http://www.fsf.org/licenses/."
+msgstr ""
+"Η εφαρμογή αυτή διανέμεται υπό την άδεια GNU General Public License (GPL), "
+"που είναι πιθανώς η καλύτερη γνωστή Open Source άδεια. Οι όροι της άδειας "
+"GPL βρίσκονται στην http://www.fsf.org/licenses/."
+
+#: QueryBrowser.pas:3500 
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: QueryBrowser.pas:3492 
+msgid "Today"
+msgstr "Σήμερα"
+
+#. QueryBrowserForm..MainMenu..ScriptMI..ToggleBreakpointMI..Caption
+#: QueryBrowser.dfm:1462 
+msgid "Toggle Breakpoint"
+msgstr "Εμφάνιση/Εξαφάνιση Breakpoint"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ToolbarGradientCBox..Caption
+#: QueryBrowserOptionPages.dfm:71 
+msgid "Toolbars use a gradient background"
+msgstr "Οι γραμμές εργαλείων έχουν gradient φόντο"
+
+#: QueryBrowser.pas:1364 
+msgid "Transaction"
+msgstr "Συναλλαγή"
+
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel6..TriggerInsertCBox..Caption
+#: RegExTextImporter.dfm:310 
+#, fuzzy
+msgid "Trigger Insert Statement"
+msgstr "Trigger Insert Statement"
+
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..TrxTabSheet..Caption
+#: QueryBrowser.dfm:777  QueryBrowser.pas:917
+msgid "Trx"
+msgstr "Trx"
+
+#: QueryBrowser.pas:3496 
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: SqlCmdPanel.pas:362 
+msgid "Type '%s' or '%s' for help. Type '%s' to clear the screen."
+msgstr ""
+"Πληκτρολογείστε '%s' ή '%s' για βοήθεια. Πληκτρ. '%s' για καθαρισμό οθόνης."
+
+#: TableDrag.pas:127 
+msgid "UPDATE"
+msgstr "UPDATE"
+
+#. AboutForm..InfoMemo....Lines.Strings
+#: About.dfm:1281 
+msgid "Ulrich Bayer | Library coding"
+msgstr "Ulrich Bayer | Library coding"
+
+#: QueryBrowser.pas:1243  QueryBrowser.pas:1489
+msgid "Undo"
+msgstr "Αναίρεση"
+
+#: QueryBrowser.pas:1243  QueryBrowser.pas:1489
+msgid "Undo the last change"
+msgstr "Αναίρεση τελευταίας επεξεργασίας"
+
+#. MainForm..MainActionManager..EditUndo1..Hint
+#: Main.dfm:343 
+msgid "Undo|Reverts the last action"
+msgstr ""
+
+#: QueryBrowser.pas:4747 
+msgid "User Confirmation"
+msgstr "Επιβεβαίωση από Χρήστη"
+
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..InsertTemplateMemo....Lines.Strings
+#: RegExTextImporter.dfm:329 
+#, fuzzy
+msgid "VALUES ();"
+msgstr "VALUES ();"
+
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..ParamPnl..ParamVT......WideText
+#: QueryBrowser.dfm:771 
+msgid "Value"
+msgstr "Τιμή"
+
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox2..Caption
+#: QueryBrowserOptionPages.dfm:213 
+msgid "Various"
+msgstr "Διάφορα"
+
+#  AboutForm..VersionLbl..Caption
+#. AboutForm..VersionLbl..Caption
+#: About.dfm:1243 
+msgid "Version 1.0.3 ALPHA"
+msgstr "Version 1.0.3 ALPHA"
+
+#. QueryBrowserForm..MainMenu..ViewMI..Caption
+#: QueryBrowser.dfm:1348 
+msgid "View"
+msgstr "Προβολή"
+
+#. QueryBrowserForm..RSGridPopupMenu..ViewFieldinPopupEditorMI..Caption
+#: QueryBrowser.dfm:1335 
+msgid "View Field in Popup Editor"
+msgstr "Προβολή Πεδίου σε Αναδυόμενο Επεξεργαστή"
+
+#: TableDrag.pas:157 
+msgid "WHERE"
+msgstr "WHERE"
+
+#: QueryBrowser.pas:3498 
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#. MainForm..MainMenu..ToolsMI..WindowsCommandLineMI..Caption
+#: Main.dfm:208 
+msgid "Windows Command Line"
+msgstr "Γραμμή Εντολών Windows"
+
+#. MainForm..MainActionManager..StyleName
+#: Main.dfm:308 
+msgid "XP Style"
+msgstr ""
+
+#: QueryBrowser.pas:1736  QueryBrowser.pas:3224 QueryBrowser.pas:4748
+#: QueryBrowser.pas:6752 ScriptPanel.pas:688
+msgid "Yes"
+msgstr "Ναι"
+
+#: QueryBrowser.pas:3262 
+msgid ""
+"Yes\n"
+"Cancel"
+msgstr ""
+"Ναι\n"
+"Ακύρωση"
+
+#: QueryBrowser.pas:3000 
+msgid ""
+"Yes\n"
+"No"
+msgstr ""
+"Ναι\n"
+"Όχι"
+
+#: QueryBrowser.pas:3512 
+msgid "Yesterday"
+msgstr "Χτες"
+
+#: QueryBrowser.pas:7548 
+msgid ""
+"You cannot add a dynamic parameter manually. The dynamic paramteters are "
+"defined automatically by the columns of a master resultset."
+msgstr ""
+"Δεν μπορείτε να προσθέσετε μια δυναμική παράμετρο χειροκίνητα. Ορίζονται "
+"αυτομάτως από τις στήλες του κύριου σύνολο αποτελεσμάτων."
+
+#: QueryBrowser.pas:7631 
+msgid "You cannot delete a dynamic parameter."
+msgstr "Δεν μπορείτε να διαγράψετε μια δυναμική παράμετρο."
+
+#: QueryBrowser.pas:3277 
+msgid "You cannot delete the root folder."
+msgstr "Δεν μπορείτε να διαγράψετε τον κατάλογο-ρίζα"
+
+#: QueryBrowser.pas:4634 
+msgid ""
+"You have made changes to a resultset. Are you sure you want to discard your "
+"changes?"
+msgstr ""
+"Έχετε κάνει αλλαγές σε ένα σύνολο αποτελεσμάτων. Είστε σίγουροι ότι θέλετε "
+"να απορρίψετε τις αλλαγές;"
+
+#: SqlCmdPanel.pas:357 
+msgid "Your MySQL connection id is %d to server version : %s"
+msgstr "Το id της MySQL σύνδεσης είναι %d σε server έκδοσης: %s"
+
+#~ msgid "&New Query Tab"
+#~ msgstr "&Νέα Καρτέλα Αιτήματος"
+
+#~ msgid "<small>Add Table</small>"
+#~ msgstr "<small>Προσθήκη Πίνακα</small>"
+
+#~ msgid "<small>Back</small>"
+#~ msgstr "<small>Πίσω</small>"
+
+#~ msgid "<small>Compare</small>"
+#~ msgstr "<small>Σύγκριση</small>"
+
+#~ msgid "<small>Continue</small>"
+#~ msgstr "<small>Συνέχιση</small>"
+
+#~ msgid "<small>DELETE</small>"
+#~ msgstr "<small>DELETE</small>"
+
+#~ msgid "<small>Drop on an action:</small>"
+#~ msgstr "<small>Drop στην ενέργεια:</small>"
+
+#~ msgid "<small>Execute</small>"
+#~ msgstr "<small>Εκτέλεση</small>"
+
+#  workarea.glade:GtkLabel:label8
+#~ msgid "<small>Explain</small>"
+#~ msgstr "<small>Επεξήγηση</small>"
+
+#~ msgid "<small>INSERT</small>"
+#~ msgstr "<small>INSERT</small>"
+
+#~ msgid "<small>JOIN Table</small>"
+#~ msgstr "<small>JOIN Table</small>"
+
+#~ msgid "<small>L.OUTER JOIN</small>"
+#~ msgstr "<small>L.OUTER JOIN</small>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<small>Leave blank to search all columnsand separate columns with a comma "
+#~ "(,).</small>"
+#~ msgstr ""
+#~ "<small>Leave blank to search all columnsand separate columns with a comma "
+#~ "(,).</small>"
+
+#~ msgid "<small>Next</small>"
+#~ msgstr "<small>Next</small>"
+
+#~ msgid "<small>Open</small>"
+#~ msgstr "<small>Άνοιγμα</small>"
+
+#~ msgid "<small>Redo</small>"
+#~ msgstr "<small>Ακύρωση Αναίρεσης</small>"
+
+#~ msgid "<small>SELECT</small>"
+#~ msgstr "<small>SELECT</small>"
+
+#~ msgid "<small>Save</small>"
+#~ msgstr "<small>Αποθήκευση</small>"
+
+#~ msgid "<small>Step</small>"
+#~ msgstr "<small>Προσπέραση</small>"
+
+#~ msgid "<small>Stop</small>"
+#~ msgstr "<small>Διακοπή</small>"
+
+#~ msgid "<small>Transaction</small>"
+#~ msgstr "<small>Συναλλαγή</small>"
+
+#~ msgid "<small>UPDATE</small>"
+#~ msgstr "<small>UPDATE</small>"
+
+#~ msgid "<small>Undo</small>"
+#~ msgstr "<small>Αναίρεση</small>"
+
+#~ msgid "Actions"
+#~ msgstr "Ενέργειες"
+
+#~ msgid "Apply Changes"
+#~ msgstr "Εφαρμογή Αλλαγών"
+
+#~ msgid "Auto-add PK"
+#~ msgstr "Αυτόμ. Προσθ. ΠΚ"
+
+#, fuzzy
+#~ msgid ""
+#~ "BLOB/text columns in resultsets will be truncated to this size for "
+#~ "display."
+#~ msgstr ""
+#~ "Στήλες BLOB/text στα σύνολα αποτελεσμάτων θα κόβονται σε αυτό το μέγεθος "
+#~ "κατά την εμφάνιση."
+
+#  qb_preferences.glade:GtkCheckButton:beep_check
+#, fuzzy
+#~ msgid "Beep on Errors"
+#~ msgstr "Beep on Errors"
+
+#  query_browser.glade:GtkWindow:add_bookmark_dialog
+#, fuzzy
+#~ msgid "Bookmark Query"
+#~ msgstr "Προσθ. Αιτηματος σε Σελιδ."
+
+#~ msgid "C code"
+#~ msgstr "Κώδικας C"
+
+#~ msgid "Cannot Add Dynamic Parameter"
+#~ msgstr "Αποτυχία προσθήκης Δυναμικής Παραμέτρου"
+
+#~ msgid "Cannot Delete Dynamic Parameter"
+#~ msgstr "Αποτυχία διαγραφής Δυναμικής Παραμέτρου"
+
+#~ msgid "Cannot open the file %s"
+#~ msgstr "Αποτυχία ανοίγματος του αρχείου %s"
+
+#~ msgid "Clear Breakpoints"
+#~ msgstr "Εκκαθάριση Breakpoint"
+
+#~ msgid "Close Tab"
+#~ msgstr "Κλείσιμο Καρτέλας"
+
+#~ msgid "Close this toolbar."
+#~ msgstr "Κλείσιμο Γραμμής Εργ."
+
+#~ msgid "Commit current transaction"
+#~ msgstr "Ολοκλήρωση τρέχουσας συναλλαγής"
+
+#~ msgid "Compare two resultsets side by side."
+#~ msgstr "Σύγκριση δύο συνόλων αποτελεσμάτων"
+
+#~ msgid "Connect"
+#~ msgstr "Σύνδεση"
+
+#, fuzzy
+#~ msgid "Connection problem. Could not execute step."
+#~ msgstr "Πρόβλημα σύνδεσης. Δεν είναι εφικτή η εκτέλεση του step."
+
+#~ msgid "Continue script"
+#~ msgstr "Συνέχιση script"
+
+#~ msgid "Copy"
+#~ msgstr "Αντιγραφή"
+
+#~ msgid "Copy All From Left to Right "
+#~ msgstr "Αντιγραφή Όλων Από Αριστερά στα Δεξιά"
+
+#~ msgid "Copy All From Right to Left"
+#~ msgstr "Αντιγραφή Όλων Από Δεξιά στα Αριστερά"
+
+#~ msgid "Copy Column _Names"
+#~ msgstr "Αντιγραφή Ονομάτων Στηλών"
+
+#~ msgid "Copy Row"
+#~ msgstr "Αντιγραφή Εγγραφής"
+
+#~ msgid "Copy _Row Values"
+#~ msgstr "Αντιγραφή Τιμών _Εγγραφών"
+
+#~ msgid "Copy as"
+#~ msgstr "Αντιγραφή ως"
+
+#~ msgid "Copy contents of selected row to the left resultset."
+#~ msgstr ""
+#~ "Αντιγραφή περιεχομένων επιλεγμένης γραμμής στο αριστερό σύνολο "
+#~ "αποτελεσμάτων."
+
+#~ msgid "Copy contents of selected row to the right resultset."
+#~ msgstr ""
+#~ "Αντιγραφή περιεχομένων επιλεγμένης γραμμής στο δεξιό σύνολο αποτελεσμάτων."
+
+#~ msgid "Could not fetch data for `%s`.`%s`"
+#~ msgstr "Δεν είναι εφικτή η ανάκτηση δεδομένων για τον `%s`.`%s`"
+
+#~ msgid "Create In:"
+#~ msgstr "Δημιουργία σε:"
+
+#~ msgid "Create Stored _Procedure/Function..."
+#~ msgstr "Δημιουργία Αποθηκ. _Διαδικασίας/Συνάρτησης"
+
+#~ msgid "Cut"
+#~ msgstr "Αποκοπή"
+
+#~ msgid "Delete All Rows That Are Only in Left"
+#~ msgstr "Διαγραφή Όλων των Στηλών Μόνο από Αριστερά"
+
+#~ msgid "Delete All Rows That Are Only in Right"
+#~ msgstr "Διαγραφή Όλων των Στηλών Μόνο από Δεξιά"
+
+#~ msgid "Edit _All Stored Procedures/Functions"
+#~ msgstr "Επεξεργ. _των Αποθ/μένων Διαδικασιών/Συναρτήσεων"
+
+#~ msgid ""
+#~ "Enforce queries to be editable by adding primary key column to the select"
+#~ msgstr ""
+#~ "Επιβολή επεξ/ίας σε αποτελέσματα αιτημάτων προσθέτοντας στηλες των ΠΚ στο "
+#~ "select"
+
+#, fuzzy
+#~ msgid "Enter the WideString you are searching for."
+#~ msgstr "Enter the WideString you are searching for."
+
+#~ msgid "Execute _Selection"
+#~ msgstr "Εκτέλεση _Επιλογής"
+
+#~ msgid "Execute query"
+#~ msgstr "Εκτέλεση αιτήματος"
+
+#~ msgid "Execute script"
+#~ msgstr "Εκτέλεση script"
+
+#~ msgid "Export _Resultset"
+#~ msgstr "Εξαγωγή _Συνόλου Αποτελεσμάτων"
+
+#~ msgid "Find Value:"
+#~ msgstr "Αναζ. Τιμής:"
+
+#~ msgid "Find _Next"
+#~ msgstr "Ανάζ. _Επομ."
+
+#~ msgid "Find _Previous"
+#~ msgstr "Αναζ. _Προηγ."
+
+#~ msgid "Find in Columns:"
+#~ msgstr "Αναζήτηση σε Στήλες:"
+
+#~ msgid "Find in Result Set"
+#~ msgstr "Εύρεση στο Σύνολο Αποτελεσμάτων"
+
+#~ msgid "First"
+#~ msgstr "Πρώτο"
+
+#~ msgid "Go back one executed query"
+#~ msgstr "Μετάβαση στο προηγούμενο εκτελεσμένο αίτημα"
+
+#~ msgid "Go forward one executed query"
+#~ msgstr "Μετάβαση στο επόμενο εκτελεσμένο αίτημα"
+
+#~ msgid "Java code"
+#~ msgstr "Κώδικας Java "
+
+#~ msgid "Last"
+#~ msgstr "Τελευταίο"
+
+#~ msgid ""
+#~ "Limit number of returned rows for SELECT queries generated automatically, "
+#~ "such as when dropping tables from the schema list."
+#~ msgstr ""
+#~ "Όριο πλήθους εγγραφών που επιστρέφονται για SELECT που δημιουργούνται "
+#~ "αυτόματα, πχ drop πινάκων από λιστα σχημάτων."
+
+#~ msgid "Manage _Connections..."
+#~ msgstr "Διαχείριση _Συνδέσεων ..."
+
+#  qb_preferences.glade:GtkLabel:label41
+#~ msgid "Max Rows For Generated Queries:"
+#~ msgstr "Μέγ. Πλήθος Εγγραφών για τα Αιτήματα:"
+
+#~ msgid "Max. BLOB Width:"
+#~ msgstr "Μέγ. Πλάτος BLOB:"
+
+#  qb_preferences.glade:GtkLabel:label33
+#~ msgid "Max. number of queries to keep in the history."
+#~ msgstr "Μέγ. πλήθος αιτημάτων προς κράτηση στο ιστορικό."
+
+#, fuzzy
+#~ msgid "MySQL Text Console"
+#~ msgstr "MySQL Κονσόλα Κειμένου"
+
+#~ msgid "New S_cript Tab"
+#~ msgstr "Νέα Καρτέλα S_cript"
+
+#~ msgid "New _Query Tab"
+#~ msgstr "Νέα Καρτέλα _Αιτήματος"
+
+#~ msgid "Open Recent"
+#~ msgstr "Άνοιγμα Προσφάτων"
+
+#  workarea.glade:GtkMenuItem:load_script1
+#~ msgid "Open Script..."
+#~ msgstr "Άνοιγμα Script ..."
+
+#~ msgid "Open a query file"
+#~ msgstr "Άνοιγμα query file"
+
+#  workarea.glade:GtkMenuItem:php_code1
+#~ msgid "PHP code"
+#~ msgstr "Κώδικας PHP"
+
+#~ msgid "Paste"
+#~ msgstr "Επικόλληση"
+
+#~ msgid "Previous"
+#~ msgstr "Προηγούμενο"
+
+#~ msgid "Query History Size:"
+#~ msgstr "Μέγεθος Ιστορικού Αιτημ:"
+
+#~ msgid "R&econnect"
+#~ msgstr "Ε&πανασύνδεση"
+
+#~ msgid "Reconnect"
+#~ msgstr "Επανασύνδεση"
+
+#~ msgid "Redo previously undone edit"
+#~ msgstr "Ακύρωση Αναίρεσης της προηγούμενης επεξεργασίας"
+
+#, fuzzy
+#~ msgid "Rollback current transaction"
+#~ msgstr "Rollback τρέχουσα συναλλαγή"
+
+#~ msgid "S_top"
+#~ msgstr "Δ_ιακοπή"
+
+#~ msgid "Save Resultset to File ..."
+#~ msgstr "Αποθήκευση Συνόλου Αποτελεσμάτων σε Αρχείο ..."
+
+#~ msgid "Save _As..."
+#~ msgstr "Αποθήκευση _Ως..."
+
+#~ msgid "Save query into a file"
+#~ msgstr "Αποθήκευση αιτήματος σε αρχείο"
+
+#~ msgid "Search Resultset"
+#~ msgstr "Αναζήτηση στο Σύνολο Αποτελεσμάτων"
+
+#~ msgid "Search for:"
+#~ msgstr "Αναζήτ. του:"
+
+#~ msgid "Select All"
+#~ msgstr "Επιλογή Όλων"
+
+#~ msgid "Select _Schema..."
+#~ msgstr "Επιλογή _Σχήματος..."
+
+#~ msgid "Select next differing row."
+#~ msgstr "Επιλογή της επόμ. διαφορετικής εγγραφής."
+
+#~ msgid "Select previous differing row."
+#~ msgstr "Επιλογή της προηγ. διαφορετικής εγγραφής."
+
+#~ msgid "Show \"explain query\" information"
+#~ msgstr "Εμφάνιση της πληροφορίας  \"explain query\""
+
+#  qb_preferences.glade:GtkLabel:label38
+#~ msgid "Sound a Beep on Errors"
+#~ msgstr "Στα Σφάλματα ακούγεται Beep "
+
+#~ msgid "Start transaction"
+#~ msgstr "Εκκίνηση συναλλαγής"
+
+#, fuzzy
+#~ msgid "Step _Into"
+#~ msgstr "Step _Into"
+
+#~ msgid "Step _Over"
+#~ msgstr "_Προσπέραση"
+
+#~ msgid "Step to next statement"
+#~ msgstr "Προσπέραση για την επόμενη εντολή"
+
+#~ msgid "Stop query"
+#~ msgstr "Διακοπή Αιτήματος"
+
+#~ msgid "Stop script execution"
+#~ msgstr "Διακοπή εκτέλεσης script"
+
+#~ msgid "Toggle _Breakpoint"
+#~ msgstr "Εμφάνιση/Εξαφάνιση _Breakpoint"
+
+#~ msgid "Undo last edit"
+#~ msgstr "Αναίρεση τελευταίας επεξεργασίας"
+
+#~ msgid "_About"
+#~ msgstr "_Πληροφορίες"
+
+#~ msgid "_Add"
+#~ msgstr "_Προσθήκη"
+
+#~ msgid "_Bookmark..."
+#~ msgstr "_Bookmark..."
+
+#, fuzzy
+#~ msgid "_Cancel Editions"
+#~ msgstr "_Cancel Editions"
+
+#~ msgid "_Clear History"
+#~ msgstr "_Εκκαθάριση Ιστορικού"
+
+#~ msgid "_Commit Transaction"
+#~ msgstr "_Ολοκλήρωση Συναλλαγής"
+
+#~ msgid "_Compare Results"
+#~ msgstr "_Σύγκριση Συνόλων Αποτελεσμάτων"
+
+#~ msgid "_Contents"
+#~ msgstr "_Περιεχόμενα"
+
+#~ msgid "_Continue"
+#~ msgstr "_Συνέχιση"
+
+#~ msgid "_Edit"
+#~ msgstr "_Επεξεργασία"
+
+#~ msgid "_Edit Resultset"
+#~ msgstr "_Επεξεργασία Συνόλου αποτελεσμάτων"
+
+#~ msgid "_Execute"
+#~ msgstr "_Εκτέλεση"
+
+#, fuzzy
+#~ msgid "_Expanded Query Area"
+#~ msgstr "_Expanded Query Area"
+
+#~ msgid "_Explain Query"
+#~ msgstr "_Επεξήγηση Αιτήματος"
+
+#~ msgid "_File"
+#~ msgstr "_Αρχείο"
+
+#~ msgid "_Find"
+#~ msgstr "_Εύρεση"
+
+#~ msgid "_Help"
+#~ msgstr "_Βοήθεια"
+
+#~ msgid "_Manage Bookmarks..."
+#~ msgstr "_Διαχείριση Σελιδοδεικτών..."
+
+#~ msgid "_New Connection..."
+#~ msgstr "_Νέα Σύνδεση..."
+
+#~ msgid "_New Folder"
+#~ msgstr "_Νέος Κατάλογος"
+
+#, fuzzy
+#~ msgid "_Normal View"
+#~ msgstr "_Normal View"
+
+#~ msgid "_Open Query..."
+#~ msgstr "_Άνοιγμα Αιτήματος..."
+
+#~ msgid "_Pause"
+#~ msgstr "_Παύση"
+
+#~ msgid "_Preferences..."
+#~ msgstr "_Προτιμήσεις..."
+
+#~ msgid "_Query"
+#~ msgstr "_Αίτημα"
+
+#~ msgid "_Quick Start Guide"
+#~ msgstr "_Οδηγός Ταχείας Εκμάθησης"
+
+#~ msgid "_Quit"
+#~ msgstr "_Έξοδος"
+
+#~ msgid "_Resultset Only"
+#~ msgstr "_Σύνολο Αποτελεσμάτων Μόνο"
+
+#, fuzzy
+#~ msgid "_Rollback Transaction"
+#~ msgstr "_Rollback Συναλλαγή"
+
+#~ msgid "_Save"
+#~ msgstr "_Αποθήκευση"
+
+#, fuzzy
+#~ msgid "_Save Editions"
+#~ msgstr "_Save Editions"
+
+#~ msgid "_Script"
+#~ msgstr "_Script"
+
+#~ msgid "_Sidebar"
+#~ msgstr "_Πλευρική Στήλη"
+
+#~ msgid "_Start Transaction"
+#~ msgstr "_Εκκίνηση Συναλλαγής"
+
+#~ msgid "_Stop"
+#~ msgstr "_Διακοπή"
+
+#~ msgid "_Tools"
+#~ msgstr "_Εργαλεία"
+
+#  workarea.glade:GtkMenuItem:menuitem3
+#~ msgid "_View"
+#~ msgstr "_Προβολή"
+
+#, fuzzy
+#~ msgid "window2"
+#~ msgstr "window2"

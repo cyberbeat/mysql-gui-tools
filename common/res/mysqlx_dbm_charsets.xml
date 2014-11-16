@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<charsets>
+  <charset>
+    <name>utf8</name>
+    <max_len>3</max_len>
+    <desc>UTF-8 Unicode</desc>
+    <default_collation>utf8_general_ci</default_collation>
+
+    <collation>
+      <name>utf8_general_ci</name>
+      <id>33</id>
+      <is_default>1</is_default>
+      <is_compiled>1</is_compiled>
+      <sort_len>1</sort_len>
+    </collation>
+    <collation>
+      <name>utf8_bin</name>
+      <id>83</id>
+      <is_compiled>1</is_compiled>
+      <sort_len>1</sort_len>
+    </collation>
+  </charset>
+
+  <charset>
+    <name>latin1</name>
+    <max_len>1</max_len>
+    <desc>ISO 8859-1 West European</desc>
+    <default_collation>latin1_swedish_ci</default_collation>
+
+
+    <collation>
+      <name>latin1_swedish_ci</name>
+      <id>8</id>
+      <is_default>1</is_default>
+      <is_compiled>1</is_compiled>
+      <sort_len>1</sort_len>
+    </collation>
+    <collation>
+      <name>latin1_german1_ci</name>
+      <id>5</id>
+      <is_compiled>1</is_compiled>
+      <sort_len>1</sort_len>
+    </collation>
+    <collation>
+      <name>latin1_german2_ci</name>
+	  <id>5</id>
+	  <is_compiled>1</is_compiled>
+	  <sort_len>1</sort_len>
+	</collation>
+	<collation>
+      <name>latin1_bin</name>
+      <id>47</id>
+      <is_compiled>1</is_compiled>
+      <sort_len>1</sort_len>
+    </collation>
+  </charset>
+  
+</charsets>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file contains the Generic Canvas style templates for database elements (table, trigger, column etc.). -->
+<gc-styles xmlns="http://dev.mysql.com/gc/styles" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <!-- Note ******************************************************************************************* -->
+
+  <style-definition id="db.note:$colorName$">
+    <svg:svg>
+      <g>
+        <polyline fill="$color$" stroke="#AAAAAA" points="0,50 0,0 200,0 200,50 "/>
+      </g>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.note.footer.left:$colorName$">
+    <svg:svg>
+      <g>
+        <polygon fill="$color$" points="190,0 0,0 190,10 "/>
+        <polyline fill="$color$" stroke="#AAAAAA" points="190,10 0,10 0,0 "/>
+      </g>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.note.footer.right:$colorName$">
+    <svg:svg>
+      <g>
+        <polygon fill="#AAAAAA" points="0,0 0.001,10 10,0 "/>
+      </g>
+    </svg:svg>
+  </style-definition>
+
+</gc-styles>

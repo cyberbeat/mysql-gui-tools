@@ -1,0 +1,205 @@
+<?xml version="1.0" ?> 
+
+  <health_pages>
+
+  <health_page>
+    <caption>Connection Health</caption>
+    <caption_trans_id></caption_trans_id>
+    <description>Client connection information.</description>
+    <description_trans_id></description_trans_id>
+    <pos>1</pos>
+
+    <health_groups>
+
+      <health_group>
+	<caption>Connection Usage</caption>
+	<caption_trans_id></caption_trans_id>
+	<pos>1</pos>
+	<health_graphs>
+	  <health_graph>
+	    <graph_caption>Connection Usage</graph_caption>
+	    <display_graph_caption>0</display_graph_caption>
+	    <graphtype>1</graphtype>
+	    <value_unit>0</value_unit>
+	    <min>0</min>
+	    <max>100</max>
+	    <autoextend_max>0</autoextend_max>
+	    <value_formula>[Threads_connected]</value_formula>
+	    <max_formula>[max_connections]</max_formula>
+	    <value_caption>Usage</value_caption>
+	    <value_caption_trans_id></value_caption_trans_id>
+	    <max_caption></max_caption>
+	    <max_caption_trans_id></max_caption_trans_id>
+	    <refreshtime>1000</refreshtime>
+	    <pos>1</pos>
+	  </health_graph>
+	</health_graphs>
+      </health_group>
+
+      <health_group>
+	<caption>Traffic</caption>
+	<caption_trans_id></caption_trans_id>
+	<pos>2</pos>
+	<health_graphs>
+	  <health_graph>
+	    <graph_caption>Traffic</graph_caption>
+	    <display_graph_caption>0</display_graph_caption>
+	    <graphtype>1</graphtype>
+	    <value_unit>2</value_unit>
+	    <min>0</min>
+	    <max>102400</max>
+	    <autoextend_max>1</autoextend_max>
+	    <value_formula>^[Bytes_sent]</value_formula>
+	    <max_formula>102400</max_formula>
+	    <value_caption>Usage</value_caption>
+	    <value_caption_trans_id></value_caption_trans_id>
+	    <max_caption></max_caption>
+	    <max_caption_trans_id></max_caption_trans_id>
+	    <refreshtime>1000</refreshtime>
+	    <pos>1</pos>
+	  </health_graph>
+	</health_graphs>
+      </health_group>
+
+      <health_group>
+	<caption>Number of SQL Queries</caption>
+	<caption_trans_id></caption_trans_id>
+	<pos>3</pos>
+	<health_graphs>
+	  <health_graph>
+	    <graph_caption>Number of SQL Queries</graph_caption>
+	    <display_graph_caption>0</display_graph_caption>
+	    <graphtype>1</graphtype>
+	    <value_unit>1</value_unit>
+	    <min>0</min>
+	    <max>10</max>
+	    <autoextend_max>1</autoextend_max>
+	    <value_formula>^[Com_select]</value_formula>
+	    <max_formula>10</max_formula>
+	    <value_caption></value_caption>
+	    <value_caption_trans_id></value_caption_trans_id>
+	    <max_caption></max_caption>
+	    <max_caption_trans_id></max_caption_trans_id>
+	    <refreshtime>1000</refreshtime>
+	    <pos>1</pos>
+	  </health_graph>
+	</health_graphs>
+      </health_group>
+    </health_groups>
+    
+  </health_page>
+
+
+  <health_page>
+    <caption>Memory Health</caption>
+    <caption_trans_id></caption_trans_id>
+    <description>Gives an overview of critical memory health issues.</description>
+    <description_trans_id></description_trans_id>
+    <pos>2</pos>
+
+    <health_groups>
+
+      <health_group>
+	<caption>Query Cache Hitrate</caption>
+	<caption_trans_id></caption_trans_id>
+	<pos>1</pos>
+	<health_graphs>
+	  <health_graph>
+	    <graph_caption>Query Cache Hitrate</graph_caption>
+	    <display_graph_caption>0</display_graph_caption>
+	    <graphtype>1</graphtype>
+	    <value_unit>0</value_unit>
+	    <min>0</min>
+	    <max>100</max>
+	    <autoextend_max>0</autoextend_max>
+	    <value_formula>(^[Qcache_hits]/(^[Qcache_hits]+^[QCache_inserts]+^[Qcache_not_cached]))*100</value_formula>
+	    <max_formula>100</max_formula>
+	    <value_caption>Hitrate</value_caption>
+	    <value_caption_trans_id></value_caption_trans_id>
+	    <max_caption></max_caption>
+	    <max_caption_trans_id></max_caption_trans_id>
+	    <refreshtime>1000</refreshtime>
+	    <pos>1</pos>
+	  </health_graph>
+	</health_graphs>
+      </health_group>
+
+      <health_group>
+	<caption>Key Efficiency</caption>
+	<caption_trans_id></caption_trans_id>
+	<pos>2</pos>
+	<health_graphs>
+	  <health_graph>
+	    <graph_caption>Key buffer size</graph_caption>
+	    <display_graph_caption>0</display_graph_caption>
+	    <graphtype>2</graphtype>
+	    <value_unit>3</value_unit>
+	    <min>0</min>
+	    <max>100</max>
+	    <autoextend_max>0</autoextend_max>
+	    <value_formula>[Key_blocks_used]*[key_cache_block_size]</value_formula>
+	    <max_formula>[key_buffer_size]</max_formula>
+	    <value_caption>Key buffer usage</value_caption>
+	    <value_caption_trans_id></value_caption_trans_id>
+	    <max_caption>Key buffer</max_caption>
+	    <max_caption_trans_id></max_caption_trans_id>
+	    <refreshtime>1000</refreshtime>
+	    <pos>1</pos>
+	  </health_graph>
+
+	  <health_graph>
+	    <graph_caption>Key buffer usage</graph_caption>
+	    <display_graph_caption>0</display_graph_caption>
+	    <graphtype>1</graphtype>
+	    <value_unit>0</value_unit>
+	    <min>0</min>
+	    <max>100</max>
+	    <autoextend_max>0</autoextend_max>
+	    <value_formula>100-(^[Key_reads]/^[Key_read_requests])*100</value_formula>
+	    <max_formula>100</max_formula>
+	    <value_caption>Hitrate</value_caption>
+	    <value_caption_trans_id></value_caption_trans_id>
+	    <max_caption></max_caption>
+	    <max_caption_trans_id></max_caption_trans_id>
+	    <refreshtime>1000</refreshtime>
+	    <pos>2</pos>
+	  </health_graph>
+	</health_graphs>
+      </health_group>
+    </health_groups>
+  </health_page>
+  
+  </health_pages>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = VirtualShellToolsD5.bpl VirtualShellToolsD5D.bpl \
+  VirtualExplorerListviewExD5.bpl VirtualExplorerListviewExD5D.bpl
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+
+VirtualShellToolsD5.bpl: VirtualShellToolsD5.dpk
+  $(DCC)
+
+VirtualShellToolsD5D.bpl: VirtualShellToolsD5D.dpk
+  $(DCC)
+
+VirtualExplorerListviewExD5.bpl: VirtualExplorerListviewExD5.dpk
+  $(DCC)
+
+VirtualExplorerListviewExD5D.bpl: VirtualExplorerListviewExD5D.dpk
+  $(DCC)
+
+

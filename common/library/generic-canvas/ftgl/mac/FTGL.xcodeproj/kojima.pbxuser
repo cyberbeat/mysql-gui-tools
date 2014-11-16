@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	2B832C5E0861E4F600D8BEB0 /* Unit Tests */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Unit Tests";
+		sourceDirectories = (
+		);
+	};
+	2B832C5F0861E4F600D8BEB0 /* FTGL Demo */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "FTGL Demo";
+		sourceDirectories = (
+		);
+	};
+	2B832C600861E4F600D8BEB0 /* FTGL Test */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "FTGL Test";
+		sourceDirectories = (
+		);
+	};
+	2B832C880861E54E00D8BEB0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	2B832C890861E54E00D8BEB0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2B832DCC0861E98F00D8BEB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0E606D1C70900CD5F16 /* FTBitmapGlyph.h */;
+		name = "FTBitmapGlyph.h: 5";
+		rLen = 0;
+		rLoc = 83;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	2B832DCF0861E98F00D8BEB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0E606D1C70900CD5F16 /* FTBitmapGlyph.h */;
+		name = "FTBitmapGlyph.h: 5";
+		rLen = 0;
+		rLoc = 83;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	2B832F000862331700D8BEB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0E506D1C70900CD5F16 /* FTBBox.h */;
+		name = "FTBBox.h: 42";
+		rLen = 0;
+		rLoc = 850;
+		rType = 0;
+		vrLen = 925;
+		vrLoc = 441;
+	};
+	2B832F020862331700D8BEB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0E506D1C70900CD5F16 /* FTBBox.h */;
+		name = "FTBBox.h: 42";
+		rLen = 0;
+		rLoc = 850;
+		rType = 0;
+		vrLen = 925;
+		vrLoc = 441;
+	};
+	2B832F200862347D00D8BEB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA4DCB0C06D848A60090441D /* FTGLDemo.cpp */;
+		name = "FTGLDemo.cpp: FONT_FILE";
+		rLen = 0;
+		rLoc = 482;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 92;
+	};
+	2B832F220862347D00D8BEB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA4DCB0C06D848A60090441D /* FTGLDemo.cpp */;
+		name = "FTGLDemo.cpp: FONT_FILE";
+		rLen = 0;
+		rLoc = 482;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 92;
+	};
+	2B8B71E609316A6D001C28EE /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = FTGL;
+		objects = (
+		);
+	};
+	2B99742D0A64C2B900649D58 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12506D1C72100CD5F16 /* FTFace.cpp */;
+		name = "FTFace.cpp: 39";
+		rLen = 0;
+		rLoc = 817;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 639;
+	};
+	2B9A58B90A182C72009BE1FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12506D1C72100CD5F16 /* FTFace.cpp */;
+		name = "FTFace.cpp: 39";
+		rLen = 0;
+		rLoc = 817;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 639;
+	};
+	2BB5733E09F8688300FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12E06D1C72100CD5F16 /* FTGlyph.cpp */;
+		name = "FTGlyph.cpp: 12";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+	2BB5733F09F8688300FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12C06D1C72100CD5F16 /* FTGLPolygonFont.cpp */;
+		name = "FTGLPolygonFont.cpp: 34";
+		rLen = 0;
+		rLoc = 636;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 122;
+	};
+	2BB5734009F8688300FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12006D1C72100CD5F16 /* FTBitmapGlyph.cpp */;
+		name = "FTBitmapGlyph.cpp: 66";
+		rLen = 0;
+		rLoc = 1578;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 917;
+	};
+	2BB5734409F8688300FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12E06D1C72100CD5F16 /* FTGlyph.cpp */;
+		name = "FTGlyph.cpp: 12";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+	2BB5734509F8688300FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12C06D1C72100CD5F16 /* FTGLPolygonFont.cpp */;
+		name = "FTGLPolygonFont.cpp: 34";
+		rLen = 0;
+		rLoc = 636;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 122;
+	};
+	2BB5734609F8688300FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12006D1C72100CD5F16 /* FTBitmapGlyph.cpp */;
+		name = "FTBitmapGlyph.cpp: 66";
+		rLen = 0;
+		rLoc = 1578;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 917;
+	};
+	2BB5734709F8688300FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12506D1C72100CD5F16 /* FTFace.cpp */;
+		name = "FTFace.cpp: 144";
+		rLen = 0;
+		rLoc = 3342;
+		rType = 0;
+		vrLen = 627;
+		vrLoc = 2299;
+	};
+	2BB5737509F86D2D00FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12606D1C72100CD5F16 /* FTFont.cpp */;
+		name = "FTFont.cpp: 27";
+		rLen = 0;
+		rLoc = 721;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	2BB5739709F86E5D00FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BB5739809F86E5D00FC03E1 /* ftmac.h */;
+		name = "FSSpec*   pathSpec,";
+		rLen = 48;
+		rLoc = 7397;
+		rType = 0;
+		vrLen = 1255;
+		vrLoc = 6306;
+	};
+	2BB5739809F86E5D00FC03E1 /* ftmac.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ftmac.h;
+		path = /sw/lib/freetype2/include/freetype2/freetype/ftmac.h;
+		sourceTree = "<absolute>";
+	};
+	2BB5739909F86E5D00FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12206D1C72100CD5F16 /* FTCharmap.cpp */;
+		name = "FTCharmap.cpp: 11";
+		rLen = 0;
+		rLoc = 170;
+		rType = 0;
+		vrLen = 440;
+		vrLoc = 0;
+	};
+	2BB5739A09F86E5D00FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0EC06D1C70900CD5F16 /* FTFace.h */;
+		name = "FTFace.h: 9";
+		rLen = 0;
+		rLoc = 177;
+		rType = 0;
+		vrLen = 610;
+		vrLoc = 0;
+	};
+	2BB5739B09F86E5D00FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0ED06D1C70900CD5F16 /* FTFont.h */;
+		name = "FTFont.h: 42";
+		rLen = 0;
+		rLoc = 1063;
+		rType = 0;
+		vrLen = 860;
+		vrLoc = 825;
+	};
+	2BB5739F09F86E5D00FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0EC06D1C70900CD5F16 /* FTFace.h */;
+		name = "FTFace.h: 7";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 0;
+	};
+	2BB573A009F86E5D00FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BB573A109F86E5D00FC03E1 /* ftmac.h */;
+		name = "(null): 95";
+		rLen = 0;
+		rLoc = 5861;
+		rType = 0;
+		vrLen = 1926;
+		vrLoc = 4692;
+	};
+	2BB573A109F86E5D00FC03E1 /* ftmac.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ftmac.h;
+		path = /sw/lib/freetype2/include/freetype2/freetype/ftmac.h;
+		sourceTree = "<absolute>";
+	};
+	2BB573A609F86E5D00FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12206D1C72100CD5F16 /* FTCharmap.cpp */;
+		name = "FTCharmap.cpp: 11";
+		rLen = 0;
+		rLoc = 170;
+		rType = 0;
+		vrLen = 440;
+		vrLoc = 0;
+	};
+	2BB573A809F86E5D00FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0ED06D1C70900CD5F16 /* FTFont.h */;
+		name = "FTFont.h: 42";
+		rLen = 0;
+		rLoc = 1063;
+		rType = 0;
+		vrLen = 860;
+		vrLoc = 825;
+	};
+	2BB573BA09F8720700FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12606D1C72100CD5F16 /* FTFont.cpp */;
+		name = "FTFont.cpp: 12";
+		rLen = 0;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 0;
+	};
+	2BB573BB09F8720700FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0EF06D1C70900CD5F16 /* FTGLBitmapFont.h */;
+		name = "FTGLBitmapFont.h: FTGLBitmapFont";
+		rLen = 0;
+		rLoc = 533;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 291;
+	};
+	2BB573BE09F8720700FC03E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B0EF06D1C70900CD5F16 /* FTGLBitmapFont.h */;
+		name = "FTGLBitmapFont.h: FTGLBitmapFont";
+		rLen = 0;
+		rLoc = 533;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 291;
+	};
+	2BB76FAA09F87A8000ABB625 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12706D1C72100CD5F16 /* FTGLBitmapFont.cpp */;
+		name = "FTGLBitmapFont.cpp: fond";
+		rLen = 0;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 556;
+		vrLoc = 0;
+	};
+	2BB76FAC09F87A8000ABB625 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA63B12706D1C72100CD5F16 /* FTGLBitmapFont.cpp */;
+		name = "FTGLBitmapFont.cpp: fond";
+		rLen = 0;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 556;
+		vrLoc = 0;
+	};
+	BA4DCB0C06D848A60090441D /* FTGLDemo.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 6012}}";
+			sepNavSelRange = "{482, 0}";
+			sepNavVisRect = "{{0, 102}, {746, 408}}";
+		};
+	};
+	BA4DCB1E06D8494E0090441D /* FTGL Demo */ = {
+		activeExec = 0;
+		executables = (
+			2B832C5F0861E4F600D8BEB0 /* FTGL Demo */,
+		);
+	};
+	BA4DCBAC06D84BA70090441D /* FTGL Test */ = {
+		activeExec = 0;
+		executables = (
+			2B832C600861E4F600D8BEB0 /* FTGL Test */,
+		);
+	};
+	BA4DCBB306D84BD30090441D /* demo.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 3900}}";
+			sepNavSelRange = "{575, 0}";
+			sepNavVisRect = "{{0, 197}, {746, 343}}";
+		};
+	};
+	BA63B0C006D1C62B00CD5F16 /* Project object */ = {
+		activeBuildConfigurationName = DeploymentU;
+		activeExecutable = 2B832C600861E4F600D8BEB0 /* FTGL Test */;
+		activeTarget = BA63B0DD06D1C6D900CD5F16 /* ftgl */;
+		breakpoints = (
+		);
+		breakpointsGroup = 2B8B71E609316A6D001C28EE /* XCBreakpointsBucket */;
+		codeSenseManager = 2B832C890861E54E00D8BEB0 /* Code sense */;
+		executables = (
+			2B832C5E0861E4F600D8BEB0 /* Unit Tests */,
+			2B832C5F0861E4F600D8BEB0 /* FTGL Demo */,
+			2B832C600861E4F600D8BEB0 /* FTGL Test */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					553,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXTargetDataSource_PrimaryAttribute;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					373,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 174375513;
+			PBXWorkspaceStateSaveDate = 174375513;
+		};
+		perUserProjectItems = {
+			2B832DCC0861E98F00D8BEB0 /* PBXTextBookmark */ = 2B832DCC0861E98F00D8BEB0 /* PBXTextBookmark */;
+			2B832DCF0861E98F00D8BEB0 /* PBXTextBookmark */ = 2B832DCF0861E98F00D8BEB0 /* PBXTextBookmark */;
+			2B832F000862331700D8BEB0 /* PBXTextBookmark */ = 2B832F000862331700D8BEB0 /* PBXTextBookmark */;
+			2B832F020862331700D8BEB0 /* PBXTextBookmark */ = 2B832F020862331700D8BEB0 /* PBXTextBookmark */;
+			2B832F200862347D00D8BEB0 /* PBXTextBookmark */ = 2B832F200862347D00D8BEB0 /* PBXTextBookmark */;
+			2B832F220862347D00D8BEB0 /* PBXTextBookmark */ = 2B832F220862347D00D8BEB0 /* PBXTextBookmark */;
+			2B99742D0A64C2B900649D58 /* PBXTextBookmark */ = 2B99742D0A64C2B900649D58 /* PBXTextBookmark */;
+			2B9A58B90A182C72009BE1FF /* PBXTextBookmark */ = 2B9A58B90A182C72009BE1FF /* PBXTextBookmark */;
+			2BB5733E09F8688300FC03E1 /* PBXTextBookmark */ = 2BB5733E09F8688300FC03E1 /* PBXTextBookmark */;
+			2BB5733F09F8688300FC03E1 /* PBXTextBookmark */ = 2BB5733F09F8688300FC03E1 /* PBXTextBookmark */;
+			2BB5734009F8688300FC03E1 /* PBXTextBookmark */ = 2BB5734009F8688300FC03E1 /* PBXTextBookmark */;
+			2BB5734409F8688300FC03E1 /* PBXTextBookmark */ = 2BB5734409F8688300FC03E1 /* PBXTextBookmark */;
+			2BB5734509F8688300FC03E1 /* PBXTextBookmark */ = 2BB5734509F8688300FC03E1 /* PBXTextBookmark */;
+			2BB5734609F8688300FC03E1 /* PBXTextBookmark */ = 2BB5734609F8688300FC03E1 /* PBXTextBookmark */;
+			2BB5734709F8688300FC03E1 /* PBXTextBookmark */ = 2BB5734709F8688300FC03E1 /* PBXTextBookmark */;
+			2BB5737509F86D2D00FC03E1 /* PBXTextBookmark */ = 2BB5737509F86D2D00FC03E1 /* PBXTextBookmark */;
+			2BB5739709F86E5D00FC03E1 /* PBXTextBookmark */ = 2BB5739709F86E5D00FC03E1 /* PBXTextBookmark */;
+			2BB5739909F86E5D00FC03E1 /* PBXTextBookmark */ = 2BB5739909F86E5D00FC03E1 /* PBXTextBookmark */;
+			2BB5739A09F86E5D00FC03E1 /* PBXTextBookmark */ = 2BB5739A09F86E5D00FC03E1 /* PBXTextBookmark */;
+			2BB5739B09F86E5D00FC03E1 /* PBXTextBookmark */ = 2BB5739B09F86E5D00FC03E1 /* PBXTextBookmark */;
+			2BB5739F09F86E5D00FC03E1 /* PBXTextBookmark */ = 2BB5739F09F86E5D00FC03E1 /* PBXTextBookmark */;
+			2BB573A009F86E5D00FC03E1 /* PBXTextBookmark */ = 2BB573A009F86E5D00FC03E1 /* PBXTextBookmark */;
+			2BB573A609F86E5D00FC03E1 /* PBXTextBookmark */ = 2BB573A609F86E5D00FC03E1 /* PBXTextBookmark */;
+			2BB573A809F86E5D00FC03E1 /* PBXTextBookmark */ = 2BB573A809F86E5D00FC03E1 /* PBXTextBookmark */;
+			2BB573BA09F8720700FC03E1 /* PBXTextBookmark */ = 2BB573BA09F8720700FC03E1 /* PBXTextBookmark */;
+			2BB573BB09F8720700FC03E1 /* PBXTextBookmark */ = 2BB573BB09F8720700FC03E1 /* PBXTextBookmark */;
+			2BB573BE09F8720700FC03E1 /* PBXTextBookmark */ = 2BB573BE09F8720700FC03E1 /* PBXTextBookmark */;
+			2BB76FAA09F87A8000ABB625 /* PBXTextBookmark */ = 2BB76FAA09F87A8000ABB625 /* PBXTextBookmark */;
+			2BB76FAC09F87A8000ABB625 /* PBXTextBookmark */ = 2BB76FAC09F87A8000ABB625 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2B832C880861E54E00D8BEB0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BA63B0DD06D1C6D900CD5F16 /* ftgl */ = {
+		activeExec = 0;
+	};
+	BA63B0E506D1C70900CD5F16 /* FTBBox.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 1500}}";
+			sepNavSelRange = "{850, 0}";
+			sepNavVisRect = "{{0, 413}, {745, 170}}";
+		};
+	};
+	BA63B0E606D1C70900CD5F16 /* FTBitmapGlyph.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 924}}";
+			sepNavSelRange = "{83, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0E806D1C70900CD5F16 /* FTCharmap.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 1644}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0E906D1C70900CD5F16 /* FTCharToGlyphIndexMap.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 1572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0EA06D1C70900CD5F16 /* FTContour.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 1068}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0EB06D1C70900CD5F16 /* FTExtrdGlyph.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 840}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0EC06D1C70900CD5F16 /* FTFace.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 1812}}";
+			sepNavSelRange = "{177, 0}";
+			sepNavVisRect = "{{0, 0}, {746, 343}}";
+		};
+	};
+	BA63B0ED06D1C70900CD5F16 /* FTFont.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {818, 3348}}";
+			sepNavSelRange = "{1063, 0}";
+			sepNavVisRect = "{{0, 387}, {746, 343}}";
+		};
+	};
+	BA63B0EE06D1C70900CD5F16 /* FTGL.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 1044}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0EF06D1C70900CD5F16 /* FTGLBitmapFont.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 816}}";
+			sepNavSelRange = "{533, 0}";
+			sepNavVisRect = "{{0, 219}, {746, 343}}";
+		};
+	};
+	BA63B0F106D1C70900CD5F16 /* FTGLExtrdFont.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 768}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0F206D1C70900CD5F16 /* FTGLOutlineFont.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {746, 348}}";
+		};
+	};
+	BA63B0F306D1C70900CD5F16 /* FTGLPixmapFont.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 828}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0F406D1C70900CD5F16 /* FTGLPolygonFont.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 648}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0F506D1C70900CD5F16 /* FTGLTextureFont.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 1824}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0F606D1C70900CD5F16 /* FTGlyph.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 348}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {746, 348}}";
+		};
+	};
+	BA63B0F706D1C70900CD5F16 /* FTGlyphContainer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {839, 1548}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0F806D1C70900CD5F16 /* FTLibrary.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 1176}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0F906D1C70900CD5F16 /* FTList.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 1356}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0FA06D1C70900CD5F16 /* FTOutlineGlyph.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 696}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0FB06D1C70900CD5F16 /* FTPixmapGlyph.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 840}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0FC06D1C70900CD5F16 /* FTPoint.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 348}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {746, 348}}";
+		};
+	};
+	BA63B0FD06D1C70900CD5F16 /* FTPolyGlyph.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {745, 720}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0FE06D1C70900CD5F16 /* FTSize.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1098, 1668}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B0FF06D1C70900CD5F16 /* FTTextureGlyph.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {783, 1140}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {745, 170}}";
+		};
+	};
+	BA63B10006D1C70900CD5F16 /* FTVector.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 348}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {746, 348}}";
+		};
+	};
+	BA63B10106D1C70900CD5F16 /* FTVectoriser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 348}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {746, 348}}";
+		};
+	};
+	BA63B12006D1C72100CD5F16 /* FTBitmapGlyph.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {762, 792}}";
+			sepNavSelRange = "{1578, 0}";
+			sepNavVisRect = "{{0, 449}, {746, 343}}";
+		};
+	};
+	BA63B12206D1C72100CD5F16 /* FTCharmap.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 756}}";
+			sepNavSelRange = "{170, 0}";
+			sepNavVisRect = "{{0, 0}, {746, 343}}";
+		};
+	};
+	BA63B12506D1C72100CD5F16 /* FTFace.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1056, 1980}}";
+			sepNavSelRange = "{817, 0}";
+			sepNavVisRect = "{{0, 384}, {746, 343}}";
+		};
+	};
+	BA63B12606D1C72100CD5F16 /* FTFont.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 3732}}";
+			sepNavSelRange = "{232, 0}";
+			sepNavVisRect = "{{0, 0}, {746, 343}}";
+		};
+	};
+	BA63B12706D1C72100CD5F16 /* FTGLBitmapFont.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 864}}";
+			sepNavSelRange = "{205, 0}";
+			sepNavVisRect = "{{0, 0}, {746, 343}}";
+		};
+	};
+	BA63B12C06D1C72100CD5F16 /* FTGLPolygonFont.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 408}}";
+			sepNavSelRange = "{636, 0}";
+			sepNavVisRect = "{{0, 65}, {746, 343}}";
+		};
+	};
+	BA63B12E06D1C72100CD5F16 /* FTGlyph.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 343}}";
+			sepNavSelRange = "{262, 0}";
+			sepNavVisRect = "{{0, 0}, {746, 343}}";
+		};
+	};
+	BA63B16D06D1C8FD00CD5F16 /* Unit Tests */ = {
+		activeExec = 0;
+		executables = (
+			2B832C5E0861E4F600D8BEB0 /* Unit Tests */,
+		);
+	};
+}

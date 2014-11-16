@@ -1,0 +1,57 @@
+# Name: 16096_missing_exec_priv
+# Target: windows
+##
+
+MyConnect({"user":"root","host":"localhost"})
+Delay(1)
+
+#ClickObject(PATH("ConnectToInstanceForm.ConnectToHostPnl"), offset=(53, 83))
+#Delay(1)
+#Key(Return)
+#Delay(2)
+
+ClickObject(PATH("MainForm.SidebarPnl.AdminTreeView"), offset=(59, 88))
+Delay(1)
+ClickObject(PATH("MainForm.SidebarPnl.SubTreePnl.SubTreePnl.UserTreeView"), offset=(36, 8))
+Delay(1)
+ClickObject(PATH("MainForm.SidebarPnl.SubTreePnl.SubTreePnl.UserTreeView"), offset=(36, 8), button=3)
+Delay(1)
+ClickObject(PATH("MainForm.SidebarPnl.SubTreePnl.SubTreePnl.UserTreeView"), offset=(61, 35))
+Delay(1)
+Type('127.0.0.1')
+Delay(1)
+Key(Return)
+Delay(1)
+ClickObject(PATH("MainForm.DockPnl.UserPnl.Panel3.BottomBtnPnl.ApplyChangesBtn"), offset=(67, 10))
+Delay(2)
+ClickObject(PATH("MainForm.SidebarPnl.SubTreePnl.SubTreePnl.UserTreeView"), offset=(57, 139), button=3)
+Delay(1)
+ClickObject(PATH("MainForm.SidebarPnl.SubTreePnl.SubTreePnl.UserTreeView"), offset=(65, 151))
+Delay(1)
+Type('test16096')
+Delay(1)
+ClickObject(PATH("MainForm.DockPnl.UserPnl.Panel3.BottomBtnPnl.ApplyChangesBtn"), offset=(32, 11))
+Delay(2)
+ClickObject(PATH("MainForm.SidebarPnl.SubTreePnl.SubTreePnl.UserTreeView"), offset=(38, 10))
+Delay(2)
+ClickObject(PATH("MainForm.SidebarPnl.SubTreePnl.SubTreePnl.UserTreeView"), offset=(57, 40))
+Delay(2)
+ClickObject(PATH("MainForm.DockPnl.UserPnl.UserPageControl"), offset=(137, 14))
+Delay(2)
+ClickObject(PATH("MainForm.DockPnl.UserPnl.UserPageControl.GlobalPrivSheet.GlobalPrivListView"), offset=(44, 313))
+Delay(2)
+ClickObject(PATH("MainForm.DockPnl.UserPnl.UserPageControl.GlobalPrivSheet.AssignGlobalPrivBtn"), offset=(12, 14))
+Delay(2)
+ClickObject(PATH("MainForm.DockPnl.UserPnl.Panel3.BottomBtnPnl.ApplyChangesBtn"), offset=(28, 14))
+Delay(4)
+ClickObject(PATH("MainForm.SidebarPnl.SubTreePnl.SubTreePnl.UserTreeView"), offset=(59, 58))
+Delay(2)
+ClickObject(PATH("MainForm.SidebarPnl.SubTreePnl.SubTreePnl.UserTreeView"), offset=(65, 40))
+Delay(2)
+
+
+if ListItemPosWithCaption(PATH("MainForm.DockPnl.UserPnl.UserPageControl.GlobalPrivSheet.GlobalAssignedPrivListView"), 0, "EXECUTE") == None:
+  Abort("no EXECUTE item in list")
+
+MyQuery("DROP USER 'root'@'127.0.0.1'")
+MyQuery("DROP USER TEST16096")

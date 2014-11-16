@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MAPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {topBox = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MAServerLogs; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bigText = NSTextField; tabView = NSTabView; }; 
+            SUPERCLASS = MAPanel; 
+        }
+    ); 
+    IBVersion = 1; 
+}

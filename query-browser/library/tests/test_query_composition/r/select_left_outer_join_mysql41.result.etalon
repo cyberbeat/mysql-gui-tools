@@ -1,0 +1,10 @@
+-----------------
+select * from db db LEFT OUTER JOIN host h ON h.Host=db.Host AND h.Db=db.Db where user='root'
+-----------------
+
+-----------------
+-----------------
+SELECT * FROM mysql.help_category h LEFT OUTER JOIN mysql.help_category he ON he.help_category_id=h.help_category_id
+-----------------
+
+-----------------

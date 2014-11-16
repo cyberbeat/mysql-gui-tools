@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {testSP = id; }; 
+            CLASS = MQSPEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                returnType = NSPopUpButton; 
+                spName = NSTextField; 
+                spParameters = NSTableView; 
+                spProgress = NSProgressIndicator; 
+                spResult = NSTextField; 
+                spText = NSTextView; 
+                spType = NSPopUpButton; 
+                spView = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

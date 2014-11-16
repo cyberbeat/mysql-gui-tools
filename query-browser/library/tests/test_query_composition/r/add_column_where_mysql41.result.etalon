@@ -1,0 +1,60 @@
+-----------------
+SELECT * FROM mysql.help_relation hr 
+WHERE hr.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT help_relation.help_keyword_id 
+FROM mysql.help_relation hr, mysql.help_keyword hk
+WHERE hr.help_keyword_id=hk.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT help_relation.help_keyword_id 
+FROM mysql.help_relation hr, mysql.help_keyword hk
+WHERE hr.help_keyword_id<hk.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT help_relation.help_keyword_id 
+FROM mysql.help_relation hr, mysql.help_keyword hk
+WHERE hr.help_keyword_id>hk.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT help_relation.help_keyword_id 
+FROM mysql.help_relation hr, mysql.help_keyword hk
+WHERE hr.help_keyword_id=hk.help_keyword_id AND hk.name
+-----------------
+
+-----------------
+-----------------
+UPDATE mysql.help_topic ht
+SET ht.help_topic_id=1 
+WHERE ht.name
+-----------------
+
+-----------------
+-----------------
+UPDATE mysql.help_topic ht
+SET ht.help_topic_id=1
+WHERE name='a' AND ht.content
+-----------------
+
+-----------------
+-----------------
+DELETE FROM mysql.help_topic ht 
+WHERE ht.name
+-----------------
+
+-----------------
+-----------------
+DELETE FROM mysql.help_topic ht
+WHERE name='a' AND ht.content
+-----------------
+
+-----------------

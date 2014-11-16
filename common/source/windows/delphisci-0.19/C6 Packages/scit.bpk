@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="scit19C6.bpl"/>
+    <OBJFILES value="..\b6obj\scit.obj ..\b6obj\SciLexer.obj ..\b6obj\SciSupport.obj 
+      ..\b6obj\SciKeyBindings.obj ..\b6obj\SciKeyEditForm.obj 
+      ..\b6obj\EdOptionsWin.obj ..\b6obj\SciConfirmReplaceDlg.obj 
+      ..\b6obj\ScintillaLanguageManager.obj ..\b6obj\SciSearchReplace.obj 
+      ..\b6obj\SciSearchTextDlg.obj ..\b6obj\SciReplaceTextDlg.obj 
+      ..\b6obj\SciLexerOptionsDlg.obj ..\b6obj\SciLexerAuto.obj 
+      ..\b6obj\scilexermod.obj ..\b6obj\SciDocuments.obj 
+      ..\b6obj\SciDetectUtils.obj ..\b6obj\SciPropertyMgr.obj 
+      ..\b6obj\tcFontCombobox.obj ..\b6obj\SciLexerMemo.obj 
+      ..\b6obj\SciControllerHandler.obj ..\b6obj\SciMacroRecording.obj 
+      ..\b6obj\SciAutoComplete.obj ..\b6obj\SciCallTips.obj 
+      ..\b6obj\SciResLang.obj ..\b6obj\sciAbbrevationManager.obj 
+      ..\b6obj\sciUtils.obj ..\b6obj\SciFileExtensionsManager.obj 
+      ..\b6obj\sciPrint.obj"/>
+    <RESFILES value="scit.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) ..\source\SciKeyEditForm.dfm 
+      ..\source\SciConfirmReplaceDlg.dfm ..\source\SciSearchTextDlg.dfm 
+      ..\source\SciReplaceTextDlg.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="rtl.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;..\source"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="scit.cpp"/>
+    <INCLUDEPATH value="..\source;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\..\lib;..\source;..\b6obj;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Q -Vx -Ve -X- -a8 -5 -b- -k- -vi -c -tWM"/>
+    <PFLAGS value="-N2..\b6obj -N0..\b6obj -$Y- -$L- -$D- -$A8 -v -JPHNE -M -LUdesignide"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-GB&quot;scit&quot; -I..\b6obj -D&quot;Delphi Scintilla Interface Components Runtime&quot; -aa 
+      -Tpp -Gpr -x -Gn -Gl -Gi"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="scit.res" FORMNAME="" UNITNAME="scit.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="scit.cpp" FORMNAME="" UNITNAME="scit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\source\DB\DB\DB\rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciLexer.pas" FORMNAME="" UNITNAME="SciLexer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciSupport.pas" FORMNAME="" UNITNAME="scisupport" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\source\DB\DB\DB\vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciKeyBindings.pas" FORMNAME="" UNITNAME="SciKeyBindings" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciKeyEditForm.pas" FORMNAME="KeyEditForm" UNITNAME="SciKeyEditForm" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\EdOptionsWin.pas" FORMNAME="" UNITNAME="EdOptionsWin" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\source\DB\DB\DB\vclx.bpi" FORMNAME="" UNITNAME="vclx" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciConfirmReplaceDlg.pas" FORMNAME="ConfirmReplaceDialog" UNITNAME="SciConfirmReplaceDlg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\ScintillaLanguageManager.pas" FORMNAME="" UNITNAME="ScintillaLanguageManager" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciSearchReplace.pas" FORMNAME="" UNITNAME="SciSearchReplace" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciSearchTextDlg.pas" FORMNAME="TextSearchDialog" UNITNAME="SciSearchTextDlg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciReplaceTextDlg.pas" FORMNAME="TextReplaceDialog" UNITNAME="SciReplaceTextDlg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciLexerOptionsDlg.pas" FORMNAME="" UNITNAME="SciLexerOptionsDlg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciLexerAuto.pas" FORMNAME="" UNITNAME="SciLexerAuto" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\scilexermod.pas" FORMNAME="" UNITNAME="SciLexerMod" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciDocuments.pas" FORMNAME="" UNITNAME="Scidocuments" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciDetectUtils.pas" FORMNAME="" UNITNAME="SciDetectUtils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciPropertyMgr.pas" FORMNAME="" UNITNAME="SciPropertyMgr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\helpdescriptions.txt" FORMNAME="" UNITNAME="helpdescriptions.txt" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\tcFontCombobox.pas" FORMNAME="" UNITNAME="tcFontCombobox" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciLexerMemo.pas" FORMNAME="" UNITNAME="SciLexerMemo" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciControllerHandler.pas" FORMNAME="" UNITNAME="SciControllerHandler" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciMacroRecording.pas" FORMNAME="" UNITNAME="SciMacroRecording" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciAutoComplete.pas" FORMNAME="" UNITNAME="SciAutoComplete" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciCallTips.pas" FORMNAME="" UNITNAME="SciCallTips" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciResLang.pas" FORMNAME="" UNITNAME="SciResLang" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\sciAbbrevationManager.pas" FORMNAME="" UNITNAME="sciAbbrevationManager" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\sciUtils.pas" FORMNAME="" UNITNAME="sciUtils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\SciFileExtensionsManager.pas" FORMNAME="" UNITNAME="SciFileExtensionsManager" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\sciPrint.pas" FORMNAME="" UNITNAME="sciPrint" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=0
+MinorVer=19
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Jan Martin Pettersen
+FileDescription=Delphi Scintilla Interface Components Runtime (C++ Builder 6)
+FileVersion=0.19.0.0
+InternalName=
+LegalCopyright=Copyright © 2004, 2005, Jan Martin Pettersen
+LegalTrademarks=
+OriginalFilename=
+ProductName=Delphi Scintilla Interface Components Runtime (C++ Builder 6)
+ProductVersion=0.19.0.0
+Comments=Released under the LGPL v2.1 license.
+
+[Excluded Packages]
+d:\program files\borland\cbuilder6\Bin\dclsoap60.bpl=Borland SOAP Components
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=..\source;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=..\..\lib;..\source;..\b6obj;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\b6obj;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG;
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=..\b6obj
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=C:\Mypro\xxx\Project2.exe
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+
+[Linker]
+LibPrefix=
+LibSuffix=19C6
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

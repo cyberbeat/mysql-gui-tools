@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MySQLMonitor' target in the 'MySQLMonitor' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

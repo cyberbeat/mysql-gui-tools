@@ -1,0 +1,6 @@
+-----------------
+select * from db db, host h
+WHERE h.Host=db.Host AND h.Db=db.Db
+-----------------
+
+-----------------

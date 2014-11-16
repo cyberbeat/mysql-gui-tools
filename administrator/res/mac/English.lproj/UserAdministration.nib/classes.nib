@@ -1,0 +1,78 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MAPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {topBox = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addHost = id; 
+                addHostAdd = id; 
+                addHostCancel = id; 
+                addUser = id; 
+                chooseIcon = id; 
+                discardChanges = id; 
+                filterSchemaList = id; 
+                filterTableList = id; 
+                filterUserList = id; 
+                globalAddPrivilege = id; 
+                globalRemovePrivilege = id; 
+                refreshUserList = id; 
+                removeHost = id; 
+                removeUser = id; 
+                saveChanges = id; 
+                schemaAddPrivilege = id; 
+                schemaRemovePrivilege = id; 
+                tableAddPrivilege = id; 
+                tableRemovePrivilege = id; 
+            }; 
+            CLASS = MAUserAdministration; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addHostMatrix = NSMatrix; 
+                addHostPanel = NSPanel; 
+                addHostText = NSTextField; 
+                confirmText = NSTextField; 
+                contactText = NSTextView; 
+                descriptionText = NSTextField; 
+                emailText = NSTextField; 
+                fullNameText = NSTextField; 
+                globalAssignedTable = NSTableView; 
+                globalAvailableTable = NSTableView; 
+                iconView = NSImageView; 
+                maxConnectionsText = NSTextField; 
+                maxQuestionText = NSTextField; 
+                maxUpdatesText = NSTextField; 
+                passwordText = NSTextField; 
+                schemaAssignedTable = NSTableView; 
+                schemaAvailableTable = NSTableView; 
+                schemaOutline = NSOutlineView; 
+                schemaSearch = NSTextField; 
+                tabView = NSTabView; 
+                tableAssignedTable = NSTableView; 
+                tableAvailableTable = NSTableView; 
+                tableOutline = NSOutlineView; 
+                tableSearch = NSTextField; 
+                userLabel1 = NSTextField; 
+                userLabel2 = NSTextField; 
+                userLabel3 = NSTextField; 
+                userLabel4 = NSTextField; 
+                userOutline = MOutlineView; 
+                userSearch = NSSearchField; 
+                usernameText = NSTextField; 
+            }; 
+            SUPERCLASS = MAPanel; 
+        }, 
+        {CLASS = MOutlineView; LANGUAGE = ObjC; SUPERCLASS = NSOutlineView; }, 
+        {CLASS = MTextImageCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }
+    ); 
+    IBVersion = 1; 
+}

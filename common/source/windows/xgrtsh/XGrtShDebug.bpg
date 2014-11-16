@@ -1,0 +1,55 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = PrepareRuntimeImageDirsDebug.bat MakeResources.bat \
+  MakeLibrariesDebug.bat CopyLibrariesDebug.bat MakeCommonTools.bat \
+  PrepareJavaCode.bat PreparePhpCode.bat MakeJava.bat MakePhp.bat MakeLua.bat \
+  MakePublicLibInterfaces.bat XGrtSh.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+PrepareRuntimeImageDirsDebug.bat: ..\..\..\build\PrepareRuntimeImageDirsDebug.bat
+  call $**
+
+MakeResources.bat: ..\..\..\build\MakeResources.bat
+  call $**
+
+MakeLibrariesDebug.bat: ..\..\..\build\MakeLibrariesDebug.bat
+  call $**
+
+CopyLibrariesDebug.bat: ..\..\..\build\CopyLibrariesDebug.bat
+  call $**
+
+MakeCommonTools.bat: ..\..\..\build\MakeCommonTools.bat
+  call $**
+
+PrepareJavaCode.bat: ..\..\..\build\PrepareJavaCode.bat
+  call $**
+
+PreparePhpCode.bat: ..\..\..\build\PreparePhpCode.bat
+  call $**
+
+MakeJava.bat: ..\..\..\build\MakeJava.bat
+  call $**
+
+MakePhp.bat: ..\..\..\build\MakePhp.bat
+  call $**
+
+MakeLua.bat: ..\..\..\build\MakeLua.bat
+  call $**
+
+MakePublicLibInterfaces.bat: ..\..\..\build\MakePublicLibInterfaces.bat
+  call $**
+
+XGrtSh.exe: XGrtSh.dpr
+  $(DCC)
+

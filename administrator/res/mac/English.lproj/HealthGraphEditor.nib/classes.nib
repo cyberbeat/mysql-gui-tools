@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancelClicked = id; okClicked = id; }; 
+            CLASS = MAGraphEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                autoMax = id; 
+                formula = id; 
+                graphType = id; 
+                maxCaption = id; 
+                maxFormula = id; 
+                maxValue = id; 
+                minValue = id; 
+                showTitle = id; 
+                title = id; 
+                unit = id; 
+                valueCaption = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

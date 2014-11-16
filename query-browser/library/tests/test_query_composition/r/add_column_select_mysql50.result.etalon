@@ -1,0 +1,15 @@
+-----------------
+SELECT help_relation.help_keyword_id
+-----------------
+ FROM mysql.help_relation help_relation
+-----------------
+-----------------
+SELECT help_relation.help_keyword_id, help_relation.help_keyword_id
+-----------------
+ FROM mysql.help_relation help_relation
+-----------------
+-----------------
+SELECT help_relation.help_keyword_id, help_relation.help_keyword_id
+-----------------
+ FROM mysql.help_relation help_relation
+-----------------

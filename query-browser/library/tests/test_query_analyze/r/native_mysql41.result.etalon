@@ -1,0 +1,133 @@
+query : ****************************
+  sql : ----------------------------
+SELECT host, db, user     FROM mysql.db
+union
+SELECT host, db, _utf8'*' FROM mysql.host
+------------------------------------
+  query_type : MYX_QT_UNION
+  options(0) : 
+  tables(0) : 
+  pk_columns_added_num 0
+  columns(0)
+  clauses(0)
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+(SELECT host, db, user     FROM mysql.db)
+union
+(SELECT host, db, _utf8'*' FROM mysql.host)
+------------------------------------
+  query_type : MYX_QT_UNION
+  options(0) : 
+  tables(0) : 
+  pk_columns_added_num 0
+  columns(0)
+  clauses(0)
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+(SELECT host, db, user     FROM mysql.db)
+union
+(SELECT host, db, _utf8'*' FROM mysql.host)
+order by 1
+------------------------------------
+  query_type : MYX_QT_UNION
+  options(0) : 
+  tables(0) : 
+  pk_columns_added_num 0
+  columns(0)
+  clauses(0)
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+(SELECT host, db, user     FROM mysql.db)
+union
+(SELECT host, db, _utf8'*' FROM mysql.host)
+------------------------------------
+  query_type : MYX_QT_UNION
+  options(0) : 
+  tables(0) : 
+  pk_columns_added_num 0
+  columns(0)
+  clauses(0)
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+SELECT host, db, 'user FROM mysql.db union SELECT host, db, _utf8\'*\'' FROM mysql.host
+------------------------------------
+query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "system"."mysql"."host" ()
+     fullname= "mysql.host"
+     charset= "utf8"
+     columns(14) : 
+       column "Host", cs(utf8_bin) is     pk
+       column "Db", cs(utf8_bin) is     pk
+       column "Select_priv", cs(utf8_bin) is not pk
+       column "Insert_priv", cs(utf8_bin) is not pk
+       column "Update_priv", cs(utf8_bin) is not pk
+       column "Delete_priv", cs(utf8_bin) is not pk
+       column "Create_priv", cs(utf8_bin) is not pk
+       column "Drop_priv", cs(utf8_bin) is not pk
+       column "Grant_priv", cs(utf8_bin) is not pk
+       column "References_priv", cs(utf8_bin) is not pk
+       column "Index_priv", cs(utf8_bin) is not pk
+       column "Alter_priv", cs(utf8_bin) is not pk
+       column "Create_tmp_table_priv", cs(utf8_bin) is not pk
+       column "Lock_tables_priv", cs(utf8_bin) is not pk
+     pk_columns_num(2) : 
+    |host|
+    |db|
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(3)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."host" (alias: host, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."db" (alias: db, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."'user FROM mysql.db union SELECT host, db, _utf8\'*\''" (alias: 'user FROM mysql.db union SELECT host, db, _utf8\'*\'', is_pk: 0)
+  clauses(2)
+    clause (7,72) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+host, db, 'user FROM mysql.db union SELECT host, db, _utf8\'*\''
+      ------------------------------------
+    clause (77,87) doesn't end with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+mysql.host
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+show tables
+------------------------------------
+  query_type : MYX_QT_SHOW
+  options(0) : 
+  tables(0) : 
+  pk_columns_added_num 0
+  columns(0)
+  clauses(0)
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+set @a= 1
+------------------------------------
+  query_type : MYX_QT_SET
+  options(0) : 
+  tables(0) : 
+  pk_columns_added_num 0
+  columns(0)
+  clauses(0)
+  subqueries(0)
+  params_num 0

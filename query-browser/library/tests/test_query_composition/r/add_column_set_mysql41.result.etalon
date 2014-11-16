@@ -1,0 +1,30 @@
+-----------------
+UPDATE mysql.help_relation hr SET hr.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+UPDATE mysql.help_relation hr SET hr.help_keyword_id=5, hr.help_topic_id
+-----------------
+
+-----------------
+-----------------
+UPDATE mysql.help_relation hr SET hr.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+UPDATE test.help_relation hr SET hr.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+UPDATE test.help_relation hr SET hr.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT * FROM mysql.db d 
+-----------------
+
+-----------------

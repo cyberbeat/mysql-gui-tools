@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {performCancel = id; performOK = id; }; 
+            CLASS = MSQLEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {editor = MSourceTextEditor; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = MSourceTextEditor; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

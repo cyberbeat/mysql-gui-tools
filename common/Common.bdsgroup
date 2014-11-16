@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{90ED4762-A0EA-4C4F-A0EF-31F1E68CFD02}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="dxgettext.exe">tools\dxgettext\dxgettext.bdsproj</Projects>
+      <Projects Name="MySQLLibInterfaceMapper.exe">tools\LibInterfaceMapper\MySQLLibInterfaceMapper.bdsproj</Projects>
+      <Projects Name="SetVersion.exe">tools\SetVersion\SetVersion.bdsproj</Projects>
+      <Projects Name="FilelistConvertTool.exe">tools\FilelistConvertTool\FilelistConvertTool.bdsproj</Projects>
+      <Projects Name="ftgl_static_lib.lib">library\generic-canvas\ftgl\ftgl_static_lib.bdsproj</Projects>
+      <Projects Name="libmysqlutil.dll">library\utilities\libmysqlutil.bdsproj</Projects>
+      <Projects Name="libmysqlsqlparser.dll">library\sql-parser\libmysqlsqlparser.bdsproj</Projects>
+      <Projects Name="libmysqlx.dll">library\base-library\libmysqlx.bdsproj</Projects>
+      <Projects Name="libmysqlgc.dll">library\generic-canvas\libmysqlgc.bdsproj</Projects>
+      <Projects Name="libmysqlgrt.dll">library\generic-runtime\libmysqlgrt.bdsproj</Projects>
+      <Projects Name="libmysqlgrtbuiltinmodule.dll">library\grt-modules\libmysqlgrtbuiltinmodule.bdsproj</Projects>
+      <Projects Name="libmysqlgrtwbmodule.dll">library\grt-wb-controller\libmysqlgrtwbmodule.bdsproj</Projects>
+      <Projects Name="grtsh.exe">tools\grtsh\grtsh.bdsproj</Projects>
+      <Projects Name="EmbeddedWBPackageD10.bpl">source\windows\embeddedwb\EmbeddedWBPackageD10.bdsproj</Projects>
+      <Projects Name="pngD10.bpl">source\windows\png\pngD10.bdsproj</Projects>
+      <Projects Name="TntUnicodeVcl100.bpl">source\windows\TNT\Packages\d10\TntUnicodeVcl.bdsproj</Projects>
+      <Projects Name="TntUnicodeVcl_Design100.bpl">source\windows\TNT\Packages\d10\TntUnicodeVcl_Design.bdsproj</Projects>
+      <Projects Name="VirtualTreesR.bpl">source\windows\VirtualTreeview\Packages\BDS 2006\VirtualTreesR.bdsproj</Projects>
+      <Projects Name="VirtualTreesD.bpl">source\windows\VirtualTreeview\Packages\BDS 2006\VirtualTreesD.bdsproj</Projects>
+      <Projects Name="UniCodeEditorD10.bpl">source\windows\UniCodeEditor\Packages\BDS 2006\UniCodeEditorD10.bdsproj</Projects>
+      <Projects Name="ToolsD10.bpl">source\windows\tools\ToolsD10.bdsproj</Projects>
+      <Projects Name="Targets">dxgettext.exe MySQLLibInterfaceMapper.exe SetVersion.exe FilelistConvertTool.exe ftgl_static_lib.lib libmysqlutil.dll libmysqlsqlparser.dll libmysqlx.dll libmysqlgc.dll libmysqlgrt.dll libmysqlgrtbuiltinmodule.dll libmysqlgrtwbmodule.dll grtsh.exe EmbeddedWBPackageD10.bpl pngD10.bpl TntUnicodeVcl100.bpl TntUnicodeVcl_Design100.bpl VirtualTreesR.bpl VirtualTreesD.bpl UniCodeEditorD10.bpl ToolsD10.bpl</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+        <Dependency GUID="{DC18529B-0888-4BB4-9C2B-F785C697AA4C}"/>
+      </Dependency>
+      <Dependency GUID="{333E03FE-5991-410E-AA33-3228289557B2}">
+        <Dependency GUID="{E368FC88-24DF-44C6-91D7-9582C9638C8D}"/>
+      </Dependency>
+      <Dependency GUID="{F82A5DBA-FE1F-4458-AEBC-2313D3B317F8}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+        <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}"/>
+      </Dependency>
+      <Dependency GUID="{0A0EB82A-BD79-45A8-9B75-8782D343F216}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+        <Dependency GUID="{F82A5DBA-FE1F-4458-AEBC-2313D3B317F8}"/>
+      </Dependency>
+      <Dependency GUID="{CD6F49F5-CF2F-4BF6-ABDE-80125A37B639}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+        <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}"/>
+        <Dependency GUID="{333E03FE-5991-410E-AA33-3228289557B2}"/>
+        <Dependency GUID="{F82A5DBA-FE1F-4458-AEBC-2313D3B317F8}"/>
+        <Dependency GUID="{DC18529B-0888-4BB4-9C2B-F785C697AA4C}"/>
+        <Dependency GUID="{0A0EB82A-BD79-45A8-9B75-8782D343F216}"/>
+      </Dependency>
+      <Dependency GUID="{4B705818-C338-4BA0-BD63-A990728187BF}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+        <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}"/>
+        <Dependency GUID="{F82A5DBA-FE1F-4458-AEBC-2313D3B317F8}"/>
+        <Dependency GUID="{DC18529B-0888-4BB4-9C2B-F785C697AA4C}"/>
+        <Dependency GUID="{0A0EB82A-BD79-45A8-9B75-8782D343F216}"/>
+      </Dependency>
+      <Dependency GUID="{380B243E-5C94-43AA-A35E-D6F56064D675}">
+        <Dependency GUID="{CC2B511C-6D3E-4BEC-8A86-33665C7643E7}"/>
+      </Dependency>
+      <Dependency GUID="{95C8AC8A-DF26-459E-A832-406624BDCDA2}">
+        <Dependency GUID="{C399FDBD-F5F7-4C57-B8E6-3FF2D30C7389}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+	<StarTeamAssociation></StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

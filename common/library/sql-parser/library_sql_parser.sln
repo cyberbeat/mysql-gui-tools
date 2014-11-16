@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "library_sql_parser", "library_sql_parser.vcproj", "{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcproj", "{19326277-FD0B-4826-BCD8-F838E128F034}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17} = {8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Lib_Debug = Lib_Debug
+		Lib_Release = Lib_Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Release.Build.0 = Lib_Release|Win32
+		{19326277-FD0B-4826-BCD8-F838E128F034}.Lib_Debug.ActiveCfg = Debug|Win32
+		{19326277-FD0B-4826-BCD8-F838E128F034}.Lib_Debug.Build.0 = Debug|Win32
+		{19326277-FD0B-4826-BCD8-F838E128F034}.Lib_Release.ActiveCfg = Release|Win32
+		{19326277-FD0B-4826-BCD8-F838E128F034}.Lib_Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

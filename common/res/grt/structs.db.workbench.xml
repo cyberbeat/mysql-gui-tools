@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="db.workbench.Workbench" parent="GrtObject" caption="Workbench application object" desc="an object to store the workbench's data">
+    <members>
+      <member name="rdbms" type="string" option="ref" content-struct-name="db.mgmt.Rdbms" desc="the rdbms used for the model" />
+      <member name="connection" type="dict" struct-name="db.mgmt.Connection" desc="the connection used for reverse engineering and synchronisation" />
+      <member name="catalog" type="dict" struct-name="db.Catalog" desc="the model's catalog" />
+      <member name="model" type="dict" struct-name="db.workbench.Model" desc="the model" />
+      <member name="version" type="int" desc="the version number of the model" />
+      <member name="customData" type="dict" desc="a generic dictionary to hold additional information used by e.g. plugins" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.workbench.ModelInfo" parent="GrtObject" caption="Workbench Model Properties" desc="properties to be stored with a model">
+    <members>
+      <member name="modelName" type="string" desc="Name of the model" />
+      <member name="version" type="string" desc="Version of the model" />
+      <member name="author" type="string" desc="Author of the model" />
+      <member name="project" type="string" desc="Name of the project" />
+      <member name="dateCreated" type="string" desc="Date of creation of the model" />
+      <member name="dateChanged" type="string" desc="Date of last modification of the model" />
+      <member name="description" type="string" desc="Description/comments for the model" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.workbench.Model" parent="model.Model" bridge="WorkbenchController" caption="Model" desc="A model holding views">
+    <members>
+	<member name="properties" type="dict" struct-name="db.workbench.ModelInfo" desc="user supplied information about the model" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.workbench.View" parent="model.View" bridge="WorkbenchController" caption="View" desc="A model view holding layers">
+   <members>
+      <member name="relationships" type="list" content-type="dict" content-struct-name="db.workbench.Relationship" desc="all relationships in the model" />
+    </members>
+ </gstruct>
+  
+  
+  <gstruct name="db.workbench.Layer" parent="model.Layer" bridge="WorkbenchController" caption="Layer" desc="A model layer holding sub-layers, groups and elements" >
+    <members>
+      <member name="color" type="string" desc="the color used for this layer" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.workbench.Group" parent="model.Group" bridge="WorkbenchController" caption="Group" desc="A model group holding sub-groups and elements" />
+  
+  <gstruct name="db.workbench.Element" parent="model.Element" bridge="WorkbenchController" caption="Element" desc="A generic model element">
+    <members>
+      <member name="obj" type="string" option="ref" content-struct-name="GrtObject" desc="a GRT object" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.workbench.TableElement" parent="model.Element" bridge="WorkbenchController" caption="Table" desc="The model element representing a table">
+    <members>
+      <member name="color" type="string" desc="color style name for the table" />
+      <member name="table" type="string" option="ref" content-struct-name="db.Table" desc="the table this element represents" />
+      <member name="columnsExpanded" type="int" default="1" desc="indicates whether the columns list is expanded" />
+      <member name="indicesExpanded" type="int" default="0" desc="indicates whether the indices list is expanded" />
+      <member name="foreignKeysExpanded" type="int" default="0" desc="indicates whether the foreign keys list is expanded" />
+      <member name="triggersExpanded" type="int" default="0" desc="indicates whether the triggers list is expanded" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.workbench.ViewElement" parent="model.Element" bridge="WorkbenchController" caption="View" desc="The model element representing a view">
+    <members>
+      <member name="view" type="string" option="ref" content-struct-name="db.View" desc="the view this element represents" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.workbench.RoutinesElement" parent="model.Element" bridge="WorkbenchController" caption="Routines" desc="The model element representing a collection of routines">
+    <members>
+      <member name="routineGroup" type="string" option="ref" content-struct-name="db.RoutineGroup" desc="the routine group this element represents" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.workbench.NoteElement" parent="model.Element" bridge="WorkbenchController" caption="Note" desc="The model element representing a note">
+    <members>
+      <member name="text" type="string" desc="the note text" />
+      <member name="color" type="string" desc="name of the color style for the note" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.workbench.ImageElement" parent="model.Element" bridge="WorkbenchController" caption="Image" desc="The model element representing an image">
+    <members>
+      <member name="filename" type="string" desc="the image file name" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.workbench.Relationship" parent="GrtObject" bridge="WorkbenchController" caption="Relationship" desc="The model elements representing a relationship">
+     <members>
+        <member name="startTable" type="string" option="ref" content-struct-name="db.workbench.TableElement" desc="the ID of the source table element" />
+        <member name="endTable" type="string" option="ref" content-struct-name="db.workbench.TableElement" desc="the ID of the target table element" />
+        <member name="startMandatory" type="int" desc="mandatory in the source table" />
+        <member name="endMandatory" type="int" desc="mandatory in the target table" />
+        <member name="startMany" type="int" desc="" />
+        <member name="endMany" type="int" desc="" />
+        <member name="caption" type="string" desc="center caption" />
+        <member name="captionXOffs" type="real" desc="X offset of the caption" />
+        <member name="captionYOffs" type="real" desc="Y offset of the caption" />
+        <member name="startCaption" type="string" desc="caption at the start of of the relationship" />
+        <member name="startCaptionXOffs" type="real" desc="X offset of the start caption" />
+        <member name="startCaptionYOffs" type="real" desc="Y offset of the start caption" />
+        <member name="endCaption" type="string" desc="caption at the end of of the relationship" />
+        <member name="endCaptionXOffs" type="real" desc="X offset of the end caption" />
+        <member name="endCaptionYOffs" type="real" desc="Y offset of the end caption" />
+        <member name="comment" type="string" desc="a comment about the relationship" />
+     </members>
+  </gstruct>
+  
+</gstructs>

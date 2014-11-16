@@ -1,0 +1,1908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0C5C5607BF0F4C00603E0B /* variable_disabled_mac.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0C5C5407BF0F4C00603E0B /* variable_disabled_mac.png */; };
+		2B0C5C5707BF0F4C00603E0B /* variable_editable_mac.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0C5C5507BF0F4C00603E0B /* variable_editable_mac.png */; };
+		2B1F2531087CB00200455FC3 /* 16x16_StoredProc.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1F252F087CB00200455FC3 /* 16x16_StoredProc.png */; };
+		2B1F2532087CB00200455FC3 /* 16x16_View.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1F2530087CB00200455FC3 /* 16x16_View.png */; };
+		2B23D25209D9AE1200FD540F /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A84B9C068D0FEF00BFAABD /* libglib-2.0.0.dylib */; };
+		2B682F990AB6318200389BA0 /* merlin_advisors_sticker.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B682F950AB6318200389BA0 /* merlin_advisors_sticker.png */; };
+		2B682F9A0AB6318200389BA0 /* merlin_alerts.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B682F960AB6318200389BA0 /* merlin_alerts.png */; };
+		2B682F9B0AB6318200389BA0 /* merlin_grid_graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B682F970AB6318200389BA0 /* merlin_grid_graph.png */; };
+		2B682F9C0AB6318200389BA0 /* merlin_graphs_sticker.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B682F980AB6318200389BA0 /* merlin_graphs_sticker.png */; };
+		2B70864007CD0195006E9F11 /* OSX-Icons_33.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B70863607CD0195006E9F11 /* OSX-Icons_33.png */; };
+		2B70864107CD0195006E9F11 /* OSX-Icons_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B70863707CD0195006E9F11 /* OSX-Icons_35.png */; };
+		2B70864207CD0195006E9F11 /* OSX-Icons_37.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B70863807CD0195006E9F11 /* OSX-Icons_37.png */; };
+		2B70864307CD0195006E9F11 /* OSX-Icons_39.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B70863907CD0195006E9F11 /* OSX-Icons_39.png */; };
+		2B70864407CD0195006E9F11 /* OSX-Icons_41.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B70863A07CD0195006E9F11 /* OSX-Icons_41.png */; };
+		2B70864507CD0195006E9F11 /* OSX-Icons_43.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B70863B07CD0195006E9F11 /* OSX-Icons_43.png */; };
+		2B70864607CD0195006E9F11 /* OSX-Icons_45.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B70863C07CD0195006E9F11 /* OSX-Icons_45.png */; };
+		2B70864707CD0195006E9F11 /* OSX-Icons_47.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B70863D07CD0195006E9F11 /* OSX-Icons_47.png */; };
+		2B70864807CD0195006E9F11 /* OSX-Icons_49.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B70863E07CD0195006E9F11 /* OSX-Icons_49.png */; };
+		2B70864907CD0195006E9F11 /* OSX-Icons_51.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B70863F07CD0195006E9F11 /* OSX-Icons_51.png */; };
+		2B7086FE07CD8782006E9F11 /* health_bar_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7086FC07CD8782006E9F11 /* health_bar_empty.png */; };
+		2B7086FF07CD8782006E9F11 /* health_bar_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7086FD07CD8782006E9F11 /* health_bar_filled.png */; };
+		2B70E9580B8DF74E004C061C /* StartupVariables.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B70E9560B8DF74E004C061C /* StartupVariables.nib */; };
+		2B871E6F07874303004B689C /* MADataFileEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B871E6D07874303004B689C /* MADataFileEditor.h */; };
+		2B871E7007874303004B689C /* MADataFileEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B871E6E07874303004B689C /* MADataFileEditor.m */; };
+		2B871E850787551B004B689C /* DataFileEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B871E830787551B004B689C /* DataFileEditor.nib */; };
+		2B8722D50787E940004B689C /* MADataFileView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8722D30787E940004B689C /* MADataFileView.h */; };
+		2B8722D60787E940004B689C /* MADataFileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8722D40787E940004B689C /* MADataFileView.m */; };
+		2B8733E1078B7E72004B689C /* mhelperlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B8733E0078B7E72004B689C /* mhelperlib.c */; };
+		2B8A3C0A087235E60079FC4E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8A3C09087235E60079FC4E /* libxml2.dylib */; };
+		2B90AD46074FCAC100F9E62D /* TableMaintenance.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B90AD44074FCAC100F9E62D /* TableMaintenance.nib */; };
+		2B9A53AB07A047A700A708EA /* MySQLToolsCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B90AF49074FD88C00F9E62D /* MySQLToolsCommon.framework */; };
+		2BAD37B507B5C0CA0001149C /* MAGraphEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAD37B307B5C0CA0001149C /* MAGraphEditor.h */; };
+		2BAD37B607B5C0CA0001149C /* MAGraphEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD37B407B5C0CA0001149C /* MAGraphEditor.m */; };
+		2BAD383407B5D18B0001149C /* HealthGraphEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD383207B5D18B0001149C /* HealthGraphEditor.nib */; };
+		2BAD389007B5DE130001149C /* MAMenuContextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAD388E07B5DE130001149C /* MAMenuContextView.h */; };
+		2BAD389107B5DE130001149C /* MAMenuContextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD388F07B5DE130001149C /* MAMenuContextView.m */; };
+		2BAD3EDF07B7460F0001149C /* MAHealthPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAD3EDD07B7460F0001149C /* MAHealthPage.h */; };
+		2BAD3EE007B7460F0001149C /* MAHealthPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD3EDE07B7460F0001149C /* MAHealthPage.m */; };
+		2BB21D0D0A01435000E7DDA2 /* libintl.3.4.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BBB02C108ABF70500A0C0A9 /* libintl.3.4.3.dylib */; };
+		2BB21DCF0A0148B800E7DDA2 /* libglib-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65A84B9C068D0FEF00BFAABD /* libglib-2.0.0.dylib */; };
+		2BB541B50857FEF3007DA3B2 /* libadministratorLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5E96606934A720089446E /* libadministratorLibrary.a */; };
+		2BB541C608580077007DA3B2 /* libadministratorLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5E96606934A720089446E /* libadministratorLibrary.a */; };
+		2BBB029008ABF5DB00A0C0A9 /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A84B9C068D0FEF00BFAABD /* libglib-2.0.0.dylib */; };
+		2BBB029108ABF5DB00A0C0A9 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8A3C09087235E60079FC4E /* libxml2.dylib */; };
+		2BBB02A708ABF68100A0C0A9 /* libmysqlclient_r.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBB02A608ABF68100A0C0A9 /* libmysqlclient_r.a */; };
+		2BBB02AA08ABF68500A0C0A9 /* libmysqlclient_r.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBB02A608ABF68100A0C0A9 /* libmysqlclient_r.a */; };
+		2BBB02B108ABF6B300A0C0A9 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBB02AF08ABF6B300A0C0A9 /* libiconv.dylib */; };
+		2BBB02B508ABF6B700A0C0A9 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBB02AF08ABF6B300A0C0A9 /* libiconv.dylib */; };
+		2BBB02C208ABF70500A0C0A9 /* libintl.3.4.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBB02C108ABF70500A0C0A9 /* libintl.3.4.3.dylib */; };
+		2BBB02C508ABF70A00A0C0A9 /* libintl.3.4.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBB02C108ABF70500A0C0A9 /* libintl.3.4.3.dylib */; };
+		2BBB02DD08ABF83900A0C0A9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBB02B008ABF6B300A0C0A9 /* libz.dylib */; };
+		2BBB030308ABFA6F00A0C0A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */; };
+		2BBEB0FD08FC14AC008D57B7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65333FA006D18DD800717689 /* Security.framework */; };
+		2BC93EF8076FEA5400B1EAF4 /* connect_header_admin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC93EF7076FEA5400B1EAF4 /* connect_header_admin.png */; };
+		2BC945F8077111B400B1EAF4 /* libmysqlx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC94530077105F500B1EAF4 /* libmysqlx.a */; };
+		2BF3126F07EE00F4003C831B /* mahelper_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3124A07EDFE44003C831B /* mahelper_file.c */; };
+		2BF6AFC607B088BD00C58861 /* mysql_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6AFC507B088BD00C58861 /* mysql_logo.png */; };
+		2BF6B00607B08BB300C58861 /* mahelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65A3D84406C1E558004625D5 /* mahelper */; };
+		2BF6B51607B357BD00C58861 /* add_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50407B357BD00C58861 /* add_disabled.png */; };
+		2BF6B51707B357BD00C58861 /* add_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50507B357BD00C58861 /* add_normal.png */; };
+		2BF6B51807B357BD00C58861 /* add_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50607B357BD00C58861 /* add_pressed.png */; };
+		2BF6B51907B357BD00C58861 /* addhost_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50707B357BD00C58861 /* addhost_disabled.png */; };
+		2BF6B51A07B357BD00C58861 /* addhost_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50807B357BD00C58861 /* addhost_normal.png */; };
+		2BF6B51B07B357BD00C58861 /* addhost_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50907B357BD00C58861 /* addhost_pressed.png */; };
+		2BF6B51C07B357BD00C58861 /* adduser_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50A07B357BD00C58861 /* adduser_disabled.png */; };
+		2BF6B51D07B357BD00C58861 /* adduser_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50B07B357BD00C58861 /* adduser_normal.png */; };
+		2BF6B51E07B357BD00C58861 /* adduser_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50C07B357BD00C58861 /* adduser_pressed.png */; };
+		2BF6B51F07B357BD00C58861 /* del_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50D07B357BD00C58861 /* del_disabled.png */; };
+		2BF6B52007B357BD00C58861 /* del_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50E07B357BD00C58861 /* del_normal.png */; };
+		2BF6B52107B357BD00C58861 /* del_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B50F07B357BD00C58861 /* del_pressed.png */; };
+		2BF6B52207B357BD00C58861 /* delhost_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B51007B357BD00C58861 /* delhost_disabled.png */; };
+		2BF6B52307B357BD00C58861 /* delhost_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B51107B357BD00C58861 /* delhost_normal.png */; };
+		2BF6B52407B357BD00C58861 /* delhost_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B51207B357BD00C58861 /* delhost_pressed.png */; };
+		2BF6B52507B357BD00C58861 /* deluser_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B51307B357BD00C58861 /* deluser_disabled.png */; };
+		2BF6B52607B357BD00C58861 /* deluser_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B51407B357BD00C58861 /* deluser_normal.png */; };
+		2BF6B52707B357BD00C58861 /* deluser_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6B51507B357BD00C58861 /* deluser_pressed.png */; };
+		2BFA093F07A701930025EA94 /* 16x16_Index.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA093E07A701930025EA94 /* 16x16_Index.png */; };
+		2BFA0CC907A769DC0025EA94 /* MySQLToolsCommon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B90AF49074FD88C00F9E62D /* MySQLToolsCommon.framework */; };
+		2BFA184507A9EEE60025EA94 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA184307A9EEE60025EA94 /* Preferences.nib */; };
+		6518EA6A068BE04E00E469B2 /* Administrator.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6518EA68068BE04E00E469B2 /* Administrator.nib */; };
+		6518EA92068BE09200E469B2 /* ServerInformation.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6518EA90068BE09200E469B2 /* ServerInformation.nib */; };
+		6518EAB7068BE11300E469B2 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6518EAB5068BE11300E469B2 /* MainMenu.nib */; };
+		6518EADD068BE29A00E469B2 /* locversion.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6518EAAD068BE0EA00E469B2 /* locversion.plist */; };
+		65251C5D0694EE9A00839977 /* 16x16_Catalog.png in Resources */ = {isa = PBXBuildFile; fileRef = 65251C5C0694EE9A00839977 /* 16x16_Catalog.png */; };
+		65251C620694EEAA00839977 /* 16x16_Field.png in Resources */ = {isa = PBXBuildFile; fileRef = 65251C600694EEAA00839977 /* 16x16_Field.png */; };
+		65251C630694EEAA00839977 /* 16x16_Database.png in Resources */ = {isa = PBXBuildFile; fileRef = 65251C610694EEAA00839977 /* 16x16_Database.png */; };
+		65251C690694EEB300839977 /* 16x16_Table.png in Resources */ = {isa = PBXBuildFile; fileRef = 65251C670694EEB300839977 /* 16x16_Table.png */; };
+		65251C6A0694EEB300839977 /* 16x16_KeyColumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 65251C680694EEB300839977 /* 16x16_KeyColumn.png */; };
+		65251CA90694F51300839977 /* Home.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65251CA80694F51300839977 /* Home.nib */; };
+		65251CAF0694F58800839977 /* MAHomePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65251CAD0694F58800839977 /* MAHomePanel.m */; };
+		65251CB00694F58800839977 /* MAHomePanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 65251CAE0694F58800839977 /* MAHomePanel.h */; };
+		65251D6F0695228A00839977 /* 16x16_Right.png in Resources */ = {isa = PBXBuildFile; fileRef = 65251D6E0695228A00839977 /* 16x16_Right.png */; };
+		6533407406D18EDF00717689 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65333FA006D18DD800717689 /* Security.framework */; };
+		6535B00506AE528C000445A4 /* MAHealth.h in Headers */ = {isa = PBXBuildFile; fileRef = 6535B00306AE528C000445A4 /* MAHealth.h */; };
+		6535B00606AE528C000445A4 /* MAHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535B00406AE528C000445A4 /* MAHealth.m */; };
+		6535B06106AE58FA000445A4 /* MAServiceControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6535B05F06AE58FA000445A4 /* MAServiceControl.h */; };
+		6535B06206AE58FA000445A4 /* MAServiceControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535B06006AE58FA000445A4 /* MAServiceControl.m */; };
+		6535B07406AE5A9A000445A4 /* MAStartupVariables.h in Headers */ = {isa = PBXBuildFile; fileRef = 6535B07206AE5A9A000445A4 /* MAStartupVariables.h */; };
+		6535B07506AE5A9A000445A4 /* MAStartupVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535B07306AE5A9A000445A4 /* MAStartupVariables.m */; };
+		6535B11D06AEAA4C000445A4 /* MAXMLGUIController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6535B11B06AEAA4C000445A4 /* MAXMLGUIController.h */; };
+		6535B11E06AEAA4C000445A4 /* MAXMLGUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535B11C06AEAA4C000445A4 /* MAXMLGUIController.m */; };
+		6535B1A806AEDAB9000445A4 /* mysqladmin_startup_variables_description.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6535B1A706AEDAB9000445A4 /* mysqladmin_startup_variables_description.xml */; };
+		6535B1D406AEDBEF000445A4 /* mysqladmin_startup_variables_description.dtd in Resources */ = {isa = PBXBuildFile; fileRef = 6535B1D306AEDBEF000445A4 /* mysqladmin_startup_variables_description.dtd */; };
+		6535B25406AF70E5000445A4 /* MATimeGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 6535B25206AF70E5000445A4 /* MATimeGraph.h */; };
+		6535B25506AF70E5000445A4 /* MATimeGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535B25306AF70E5000445A4 /* MATimeGraph.m */; };
+		6535B3BE06B070EA000445A4 /* MAHealthGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 6535B3BC06B070EA000445A4 /* MAHealthGraph.h */; };
+		6535B3BF06B070EA000445A4 /* MAHealthGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 6535B3BD06B070EA000445A4 /* MAHealthGraph.m */; };
+		6535B58B06B2041C000445A4 /* mysqladmin_health.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6535B58A06B2041C000445A4 /* mysqladmin_health.xml */; };
+		6535B75306B30536000445A4 /* health_level_fg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6535B75206B30536000445A4 /* health_level_fg.png */; };
+		65369E590693704100DFB427 /* user_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 65369E580693704100DFB427 /* user_icon.png */; };
+		6543AAA506911A01002E79CA /* MACatalogs.h in Headers */ = {isa = PBXBuildFile; fileRef = 6543AAA306911A01002E79CA /* MACatalogs.h */; };
+		6543AAA606911A01002E79CA /* MACatalogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543AAA406911A01002E79CA /* MACatalogs.m */; };
+		6562F71806B4D410001AED88 /* mysqladmin_status_variables.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6562F71606B4D410001AED88 /* mysqladmin_status_variables.xml */; };
+		6562F71906B4D410001AED88 /* mysqladmin_system_variables.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6562F71706B4D410001AED88 /* mysqladmin_system_variables.xml */; };
+		6562F78506B4DF04001AED88 /* mysqlx_translations_administrator.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6562F78306B4DF04001AED88 /* mysqlx_translations_administrator.xml */; };
+		6562F78606B4DF04001AED88 /* mysqlx_translations_general.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6562F78406B4DF04001AED88 /* mysqlx_translations_general.xml */; };
+		6573C1EB06BF29E000B4B739 /* MAFileTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6573C1E906BF29E000B4B739 /* MAFileTextField.h */; };
+		6573C1EC06BF29E000B4B739 /* MAFileTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6573C1EA06BF29E000B4B739 /* MAFileTextField.m */; };
+		6573C39606BF7C5B00B4B739 /* mahelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6573C39406BF7C5B00B4B739 /* mahelper.h */; };
+		6573C3C106BF7D1700B4B739 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 6573C3C006BF7D1700B4B739 /* about.png */; };
+		657F3D5E06BCB2A500479B23 /* MATableMaintenanceController.h in Headers */ = {isa = PBXBuildFile; fileRef = 657F3D5C06BCB2A500479B23 /* MATableMaintenanceController.h */; };
+		657F3D5F06BCB2A500479B23 /* MATableMaintenanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F3D5D06BCB2A500479B23 /* MATableMaintenanceController.m */; };
+		65999530068BA81600609548 /* MAPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6599952E068BA81600609548 /* MAPanel.h */; };
+		65999531068BA81600609548 /* MAPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6599952F068BA81600609548 /* MAPanel.m */; };
+		6599955F068BAC7000609548 /* MAServerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6599955D068BAC7000609548 /* MAServerInformation.h */; };
+		65999560068BAC7000609548 /* MAServerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6599955E068BAC7000609548 /* MAServerInformation.m */; };
+		659D636506B5E6540061E70D /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 659D636406B5E6540061E70D /* libpcre.a */; };
+		659D6A1B06B854C30061E70D /* MAdministratorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 659D6A1A06B854C30061E70D /* MAdministratorProtocol.h */; };
+		65A3D85406C1E573004625D5 /* mahelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6573C39406BF7C5B00B4B739 /* mahelper.h */; };
+		65A3D85506C1E573004625D5 /* mahelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 6573C39506BF7C5B00B4B739 /* mahelper.c */; };
+		65A8450D068BEE3E00BFAABD /* MAdministratorController.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A8450B068BEE3E00BFAABD /* MAdministratorController.h */; };
+		65A8450E068BEE3E00BFAABD /* MAdministratorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A8450C068BEE3E00BFAABD /* MAdministratorController.m */; };
+		65A84545068BF5F500BFAABD /* AdministratorIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 65A84544068BF5F500BFAABD /* AdministratorIcon.icns */; };
+		65A84714068C0A0100BFAABD /* myx_admin_library.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A8470A068C0A0100BFAABD /* myx_admin_library.c */; };
+		65A84715068C0A0100BFAABD /* myx_backup.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A8470B068C0A0100BFAABD /* myx_backup.c */; };
+		65A84716068C0A0100BFAABD /* myx_log_files.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A8470C068C0A0100BFAABD /* myx_log_files.c */; };
+		65A84717068C0A0100BFAABD /* myx_process_mysql_cnf_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A8470D068C0A0100BFAABD /* myx_process_mysql_cnf_file.c */; };
+		65A84718068C0A0100BFAABD /* myx_processlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A8470E068C0A0100BFAABD /* myx_processlist.c */; };
+		65A84719068C0A0100BFAABD /* myx_replication.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A8470F068C0A0100BFAABD /* myx_replication.c */; };
+		65A8471A068C0A0100BFAABD /* myx_user_management.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A84710068C0A0100BFAABD /* myx_user_management.c */; };
+		65A8471B068C0A0100BFAABD /* myx_xml_gui_description.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A84711068C0A0100BFAABD /* myx_xml_gui_description.c */; };
+		65A8471C068C0A0100BFAABD /* myx_xml_health.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A84712068C0A0100BFAABD /* myx_xml_health.c */; };
+		65A8471D068C0A0100BFAABD /* myx_xml_variables_listing.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A84713068C0A0100BFAABD /* myx_xml_variables_listing.c */; };
+		65A84730068C0A2700BFAABD /* myx_admin_library.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A8472E068C0A2700BFAABD /* myx_admin_library.h */; };
+		65A84731068C0A2700BFAABD /* myx_admin_public_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A8472F068C0A2700BFAABD /* myx_admin_public_interface.h */; };
+		65A849B5068CE2B900BFAABD /* service_status_paused.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A849B4068CE2B900BFAABD /* service_status_paused.png */; };
+		65A849BB068CE2D800BFAABD /* service_status_stopped.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A849B8068CE2D700BFAABD /* service_status_stopped.png */; };
+		65A849BC068CE2D800BFAABD /* service_status_running_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A849B9068CE2D700BFAABD /* service_status_running_gray.png */; };
+		65A849BD068CE2D800BFAABD /* service_status_running.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A849BA068CE2D700BFAABD /* service_status_running.png */; };
+		65A849C3068CE2E300BFAABD /* service_status_unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A849C2068CE2E300BFAABD /* service_status_unknown.png */; };
+		65A84CF3068D4C6400BFAABD /* ServerConnections.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65A84CF2068D4C6400BFAABD /* ServerConnections.nib */; };
+		65AEFA32069E3619008543FF /* ServerLogView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65AEFA30069E3619008543FF /* ServerLogView.nib */; };
+		65AEFA43069E368D008543FF /* MAServerLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AEFA41069E368D008543FF /* MAServerLogView.m */; };
+		65AEFA44069E368D008543FF /* MAServerLogView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65AEFA42069E368D008543FF /* MAServerLogView.h */; };
+		65AEFCAB069F52D0008543FF /* maUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AEFCA9069F52D0008543FF /* maUtils.m */; };
+		65AEFCAC069F52D0008543FF /* maUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 65AEFCAA069F52D0008543FF /* maUtils.h */; };
+		65B082DC0691E69500C4DB29 /* MUserListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B082DA0691E69500C4DB29 /* MUserListDataSource.h */; };
+		65B082DD0691E69500C4DB29 /* MUserListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B082DB0691E69500C4DB29 /* MUserListDataSource.m */; };
+		65C183F9069CF4AC005DDF9B /* 16x16_User.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C183F8069CF4AC005DDF9B /* 16x16_User.png */; };
+		65C18537069D224F005DDF9B /* PrivilegeDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C18535069D224F005DDF9B /* PrivilegeDataSource.h */; };
+		65C18538069D224F005DDF9B /* PrivilegeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C18536069D224F005DDF9B /* PrivilegeDataSource.m */; };
+		65EE3FAE068E8BDD004BB623 /* ServerLogs.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65EE3FAD068E8BDD004BB623 /* ServerLogs.nib */; };
+		65EE3FB0068E8BDD004BB623 /* Backup.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65EE3FAF068E8BDD004BB623 /* Backup.nib */; };
+		65EE3FB2068E8BDD004BB623 /* Restore.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65EE3FB1068E8BDD004BB623 /* Restore.nib */; };
+		65EE3FB4068E8BDD004BB623 /* Catalogs.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65EE3FB3068E8BDD004BB623 /* Catalogs.nib */; };
+		65EE3FB6068E8BDD004BB623 /* Health.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65EE3FB5068E8BDD004BB623 /* Health.nib */; };
+		65EE3FB8068E8BDD004BB623 /* UserAdministration.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65EE3FB7068E8BDD004BB623 /* UserAdministration.nib */; };
+		65EE3FBA068E8BDD004BB623 /* ServiceControl.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65EE3FB9068E8BDD004BB623 /* ServiceControl.nib */; };
+		65EE4003068E99AF004BB623 /* MAUserAdministration.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE4001068E99AF004BB623 /* MAUserAdministration.m */; };
+		65EE4004068E99AF004BB623 /* MAUserAdministration.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EE4002068E99AF004BB623 /* MAUserAdministration.h */; };
+		65EE44050690D377004BB623 /* MABackup.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE44040690D377004BB623 /* MABackup.m */; };
+		65EE44090690D37C004BB623 /* MABackup.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EE44080690D37C004BB623 /* MABackup.h */; };
+		65EE44760690D8E4004BB623 /* MARestore.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE44740690D8E4004BB623 /* MARestore.m */; };
+		65EE44770690D8E4004BB623 /* MARestore.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EE44750690D8E4004BB623 /* MARestore.h */; };
+		65EE44940690DCF0004BB623 /* MAServerLogs.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EE44920690DCF0004BB623 /* MAServerLogs.h */; };
+		65EE44950690DCF0004BB623 /* MAServerLogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE44930690DCF0004BB623 /* MAServerLogs.m */; };
+		65EE44CC0690F942004BB623 /* MAServerConnections.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE44CA0690F942004BB623 /* MAServerConnections.m */; };
+		65EE44CD0690F942004BB623 /* MAServerConnections.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EE44CB0690F942004BB623 /* MAServerConnections.h */; };
+		8D15AC290486D014006FF6A4 /* MySQL Administrator_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF750370BD2300C91783 /* MySQL Administrator_Prefix.pch */; };
+		8D15AC2A0486D014006FF6A4 /* MAdministrator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A37F4AEFDCFA73011CA2CEA /* MAdministrator.h */; };
+		8D15AC310486D014006FF6A4 /* MAdministrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MAdministrator.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		F5533DBE0830CF7B004AFCC3 /* mabackup in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5533D9C0830CE86004AFCC3 /* mabackup */; };
+		F5533DCA0830D083004AFCC3 /* mabackup.cc in Sources */ = {isa = PBXBuildFile; fileRef = F5533DC90830D083004AFCC3 /* mabackup.cc */; };
+		F5533DCF0830D0BA004AFCC3 /* libmysqlx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC94530077105F500B1EAF4 /* libmysqlx.a */; };
+		F5533DD10830D0DA004AFCC3 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 659D636406B5E6540061E70D /* libpcre.a */; };
+		F55BB7FB0AF27A7900955CFB /* libmysqlparser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F55BB7FA0AF27A7900955CFB /* libmysqlparser.a */; };
+		F55BB7FC0AF27A7900955CFB /* libmysqlparser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F55BB7FA0AF27A7900955CFB /* libmysqlparser.a */; };
+		F55BB7FD0AF27A7900955CFB /* libmysqlparser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F55BB7FA0AF27A7900955CFB /* libmysqlparser.a */; };
+		F55BB7FE0AF27A7900955CFB /* libmysqlparser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F55BB7FA0AF27A7900955CFB /* libmysqlparser.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B9A55FA07A360F100A708EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A3D84306C1E558004625D5;
+			remoteInfo = mahelper;
+		};
+		65B084C90692487900C4DB29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A846FE068C09B500BFAABD;
+			remoteInfo = administratorLibrary;
+		};
+		F5533D9E0830CEC4004AFCC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5533D9B0830CE86004AFCC3;
+			remoteInfo = mabackup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2BF6AFF707B08A4100C58861 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				F5533DBE0830CF7B004AFCC3 /* mabackup in CopyFiles */,
+				2BF6B00607B08BB300C58861 /* mahelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFA0CC807A769CA0025EA94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2BB21DCF0A0148B800E7DDA2 /* libglib-2.0.0.dylib in CopyFiles */,
+				2BB21D0D0A01435000E7DDA2 /* libintl.3.4.3.dylib in CopyFiles */,
+				2BFA0CC907A769DC0025EA94 /* MySQLToolsCommon.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2A37F4ACFDCFA73011CA2CEA /* MAdministrator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MAdministrator.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* MAdministrator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MAdministrator.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2B0C5C5407BF0F4C00603E0B /* variable_disabled_mac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = variable_disabled_mac.png; path = icons/png/variable_disabled_mac.png; sourceTree = "<group>"; };
+		2B0C5C5507BF0F4C00603E0B /* variable_editable_mac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = variable_editable_mac.png; path = icons/png/variable_editable_mac.png; sourceTree = "<group>"; };
+		2B1F252F087CB00200455FC3 /* 16x16_StoredProc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_StoredProc.png; path = icons/png/maintree/16x16_StoredProc.png; sourceTree = "<group>"; };
+		2B1F2530087CB00200455FC3 /* 16x16_View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_View.png; path = icons/png/maintree/16x16_View.png; sourceTree = "<group>"; };
+		2B62CA69078CCDFF0063A0C0 /* README.MacOSX */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = README.MacOSX; path = ../../README.MacOSX; sourceTree = SOURCE_ROOT; };
+		2B682F950AB6318200389BA0 /* merlin_advisors_sticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = merlin_advisors_sticker.png; sourceTree = "<group>"; };
+		2B682F960AB6318200389BA0 /* merlin_alerts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = merlin_alerts.png; sourceTree = "<group>"; };
+		2B682F970AB6318200389BA0 /* merlin_grid_graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = merlin_grid_graph.png; sourceTree = "<group>"; };
+		2B682F980AB6318200389BA0 /* merlin_graphs_sticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = merlin_graphs_sticker.png; sourceTree = "<group>"; };
+		2B70863607CD0195006E9F11 /* OSX-Icons_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSX-Icons_33.png"; path = "icons/png/mac/OSX-Icons_33.png"; sourceTree = "<group>"; };
+		2B70863707CD0195006E9F11 /* OSX-Icons_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSX-Icons_35.png"; path = "icons/png/mac/OSX-Icons_35.png"; sourceTree = "<group>"; };
+		2B70863807CD0195006E9F11 /* OSX-Icons_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSX-Icons_37.png"; path = "icons/png/mac/OSX-Icons_37.png"; sourceTree = "<group>"; };
+		2B70863907CD0195006E9F11 /* OSX-Icons_39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSX-Icons_39.png"; path = "icons/png/mac/OSX-Icons_39.png"; sourceTree = "<group>"; };
+		2B70863A07CD0195006E9F11 /* OSX-Icons_41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSX-Icons_41.png"; path = "icons/png/mac/OSX-Icons_41.png"; sourceTree = "<group>"; };
+		2B70863B07CD0195006E9F11 /* OSX-Icons_43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSX-Icons_43.png"; path = "icons/png/mac/OSX-Icons_43.png"; sourceTree = "<group>"; };
+		2B70863C07CD0195006E9F11 /* OSX-Icons_45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSX-Icons_45.png"; path = "icons/png/mac/OSX-Icons_45.png"; sourceTree = "<group>"; };
+		2B70863D07CD0195006E9F11 /* OSX-Icons_47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSX-Icons_47.png"; path = "icons/png/mac/OSX-Icons_47.png"; sourceTree = "<group>"; };
+		2B70863E07CD0195006E9F11 /* OSX-Icons_49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSX-Icons_49.png"; path = "icons/png/mac/OSX-Icons_49.png"; sourceTree = "<group>"; };
+		2B70863F07CD0195006E9F11 /* OSX-Icons_51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OSX-Icons_51.png"; path = "icons/png/mac/OSX-Icons_51.png"; sourceTree = "<group>"; };
+		2B7086FC07CD8782006E9F11 /* health_bar_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health_bar_empty.png; sourceTree = "<group>"; };
+		2B7086FD07CD8782006E9F11 /* health_bar_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health_bar_filled.png; sourceTree = "<group>"; };
+		2B70E9570B8DF74E004C061C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/StartupVariables.nib; sourceTree = "<group>"; };
+		2B871E6D07874303004B689C /* MADataFileEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADataFileEditor.h; sourceTree = "<group>"; };
+		2B871E6E07874303004B689C /* MADataFileEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADataFileEditor.m; sourceTree = "<group>"; };
+		2B871E840787551B004B689C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DataFileEditor.nib; sourceTree = "<group>"; };
+		2B8722D30787E940004B689C /* MADataFileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADataFileView.h; sourceTree = "<group>"; };
+		2B8722D40787E940004B689C /* MADataFileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADataFileView.m; sourceTree = "<group>"; };
+		2B8733E0078B7E72004B689C /* mhelperlib.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = mhelperlib.c; sourceTree = "<group>"; };
+		2B8A3C09087235E60079FC4E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = /usr/lib/libxml2.2.dylib; sourceTree = "<absolute>"; };
+		2B90AD45074FCAC100F9E62D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TableMaintenance.nib; sourceTree = "<group>"; };
+		2B90AF49074FD88C00F9E62D /* MySQLToolsCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MySQLToolsCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BAD37B307B5C0CA0001149C /* MAGraphEditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MAGraphEditor.h; sourceTree = "<group>"; };
+		2BAD37B407B5C0CA0001149C /* MAGraphEditor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MAGraphEditor.m; sourceTree = "<group>"; };
+		2BAD383307B5D18B0001149C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/HealthGraphEditor.nib; sourceTree = "<group>"; };
+		2BAD388E07B5DE130001149C /* MAMenuContextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMenuContextView.h; sourceTree = "<group>"; };
+		2BAD388F07B5DE130001149C /* MAMenuContextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMenuContextView.m; sourceTree = "<group>"; };
+		2BAD3EDD07B7460F0001149C /* MAHealthPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHealthPage.h; sourceTree = "<group>"; };
+		2BAD3EDE07B7460F0001149C /* MAHealthPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAHealthPage.m; sourceTree = "<group>"; };
+		2BBB02A608ABF68100A0C0A9 /* libmysqlclient_r.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmysqlclient_r.a; path = "/usr/local/mysql-standard-5.0.18-osx10.3-powerpc/lib/libmysqlclient_r.a"; sourceTree = "<absolute>"; };
+		2BBB02AF08ABF6B300A0C0A9 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = /usr/lib/libiconv.2.dylib; sourceTree = "<absolute>"; };
+		2BBB02B008ABF6B300A0C0A9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = /usr/lib/libz.dylib; sourceTree = "<absolute>"; };
+		2BBB02C108ABF70500A0C0A9 /* libintl.3.4.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.3.4.3.dylib; path = /uni/lib/libintl.3.4.3.dylib; sourceTree = "<absolute>"; };
+		2BBEB09C08FC0221008D57B7 /* libSystem.B.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; name = libSystem.B.dylib; path = /Developer/SDKs/MacOSX10.3.9.sdk/usr/lib/libSystem.B.dylib; sourceTree = "<absolute>"; };
+		2BC93EF7076FEA5400B1EAF4 /* connect_header_admin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect_header_admin.png; sourceTree = "<group>"; };
+		2BC94530077105F500B1EAF4 /* libmysqlx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmysqlx.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF3124A07EDFE44003C831B /* mahelper_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mahelper_file.c; sourceTree = "<group>"; };
+		2BF3127007EE0135003C831B /* mahelper_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mahelper_priv.h; sourceTree = "<group>"; };
+		2BF6AFC507B088BD00C58861 /* mysql_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mysql_logo.png; path = PreferencePane/mysql_logo.png; sourceTree = SOURCE_ROOT; };
+		2BF6B50407B357BD00C58861 /* add_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add_disabled.png; path = icons/png/add_disabled.png; sourceTree = "<group>"; };
+		2BF6B50507B357BD00C58861 /* add_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add_normal.png; path = icons/png/add_normal.png; sourceTree = "<group>"; };
+		2BF6B50607B357BD00C58861 /* add_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add_pressed.png; path = icons/png/add_pressed.png; sourceTree = "<group>"; };
+		2BF6B50707B357BD00C58861 /* addhost_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addhost_disabled.png; path = icons/png/addhost_disabled.png; sourceTree = "<group>"; };
+		2BF6B50807B357BD00C58861 /* addhost_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addhost_normal.png; path = icons/png/addhost_normal.png; sourceTree = "<group>"; };
+		2BF6B50907B357BD00C58861 /* addhost_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addhost_pressed.png; path = icons/png/addhost_pressed.png; sourceTree = "<group>"; };
+		2BF6B50A07B357BD00C58861 /* adduser_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adduser_disabled.png; path = icons/png/adduser_disabled.png; sourceTree = "<group>"; };
+		2BF6B50B07B357BD00C58861 /* adduser_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adduser_normal.png; path = icons/png/adduser_normal.png; sourceTree = "<group>"; };
+		2BF6B50C07B357BD00C58861 /* adduser_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adduser_pressed.png; path = icons/png/adduser_pressed.png; sourceTree = "<group>"; };
+		2BF6B50D07B357BD00C58861 /* del_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = del_disabled.png; path = icons/png/del_disabled.png; sourceTree = "<group>"; };
+		2BF6B50E07B357BD00C58861 /* del_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = del_normal.png; path = icons/png/del_normal.png; sourceTree = "<group>"; };
+		2BF6B50F07B357BD00C58861 /* del_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = del_pressed.png; path = icons/png/del_pressed.png; sourceTree = "<group>"; };
+		2BF6B51007B357BD00C58861 /* delhost_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delhost_disabled.png; path = icons/png/delhost_disabled.png; sourceTree = "<group>"; };
+		2BF6B51107B357BD00C58861 /* delhost_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delhost_normal.png; path = icons/png/delhost_normal.png; sourceTree = "<group>"; };
+		2BF6B51207B357BD00C58861 /* delhost_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delhost_pressed.png; path = icons/png/delhost_pressed.png; sourceTree = "<group>"; };
+		2BF6B51307B357BD00C58861 /* deluser_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deluser_disabled.png; path = icons/png/deluser_disabled.png; sourceTree = "<group>"; };
+		2BF6B51407B357BD00C58861 /* deluser_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deluser_normal.png; path = icons/png/deluser_normal.png; sourceTree = "<group>"; };
+		2BF6B51507B357BD00C58861 /* deluser_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deluser_pressed.png; path = icons/png/deluser_pressed.png; sourceTree = "<group>"; };
+		2BFA093E07A701930025EA94 /* 16x16_Index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_Index.png; path = icons/png/maintree/16x16_Index.png; sourceTree = "<group>"; };
+		2BFA184407A9EEE60025EA94 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
+		32DBCF750370BD2300C91783 /* MySQL Administrator_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MySQL Administrator_Prefix.pch"; sourceTree = "<group>"; };
+		6518EA69068BE04E00E469B2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Administrator.nib; sourceTree = "<group>"; };
+		6518EA91068BE09200E469B2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ServerInformation.nib; sourceTree = "<group>"; };
+		6518EAAD068BE0EA00E469B2 /* locversion.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = locversion.plist; sourceTree = "<group>"; };
+		6518EAB6068BE11300E469B2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		65251C5C0694EE9A00839977 /* 16x16_Catalog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_Catalog.png; path = icons/png/maintree/16x16_Catalog.png; sourceTree = "<group>"; };
+		65251C600694EEAA00839977 /* 16x16_Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_Field.png; path = icons/png/maintree/16x16_Field.png; sourceTree = "<group>"; };
+		65251C610694EEAA00839977 /* 16x16_Database.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_Database.png; path = icons/png/maintree/16x16_Database.png; sourceTree = "<group>"; };
+		65251C670694EEB300839977 /* 16x16_Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_Table.png; path = icons/png/maintree/16x16_Table.png; sourceTree = "<group>"; };
+		65251C680694EEB300839977 /* 16x16_KeyColumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_KeyColumn.png; path = icons/png/maintree/16x16_KeyColumn.png; sourceTree = "<group>"; };
+		65251CA30694F50300839977 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Home.nib; sourceTree = "<group>"; };
+		65251CAD0694F58800839977 /* MAHomePanel.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MAHomePanel.m; sourceTree = "<group>"; };
+		65251CAE0694F58800839977 /* MAHomePanel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MAHomePanel.h; sourceTree = "<group>"; };
+		65251D6E0695228A00839977 /* 16x16_Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_Right.png; path = icons/png/maintree/16x16_Right.png; sourceTree = "<group>"; };
+		65333FA006D18DD800717689 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		6535B00306AE528C000445A4 /* MAHealth.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MAHealth.h; sourceTree = "<group>"; };
+		6535B00406AE528C000445A4 /* MAHealth.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MAHealth.m; sourceTree = "<group>"; };
+		6535B05F06AE58FA000445A4 /* MAServiceControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MAServiceControl.h; sourceTree = "<group>"; };
+		6535B06006AE58FA000445A4 /* MAServiceControl.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MAServiceControl.m; sourceTree = "<group>"; };
+		6535B07206AE5A9A000445A4 /* MAStartupVariables.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MAStartupVariables.h; sourceTree = "<group>"; };
+		6535B07306AE5A9A000445A4 /* MAStartupVariables.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MAStartupVariables.m; sourceTree = "<group>"; };
+		6535B11B06AEAA4C000445A4 /* MAXMLGUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAXMLGUIController.h; sourceTree = "<group>"; };
+		6535B11C06AEAA4C000445A4 /* MAXMLGUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAXMLGUIController.m; sourceTree = "<group>"; };
+		6535B1A706AEDAB9000445A4 /* mysqladmin_startup_variables_description.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = mysqladmin_startup_variables_description.xml; sourceTree = "<group>"; };
+		6535B1D306AEDBEF000445A4 /* mysqladmin_startup_variables_description.dtd */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = mysqladmin_startup_variables_description.dtd; sourceTree = "<group>"; };
+		6535B25206AF70E5000445A4 /* MATimeGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATimeGraph.h; sourceTree = "<group>"; };
+		6535B25306AF70E5000445A4 /* MATimeGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATimeGraph.m; sourceTree = "<group>"; };
+		6535B3BC06B070EA000445A4 /* MAHealthGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHealthGraph.h; sourceTree = SOURCE_ROOT; };
+		6535B3BD06B070EA000445A4 /* MAHealthGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAHealthGraph.m; sourceTree = SOURCE_ROOT; };
+		6535B58A06B2041C000445A4 /* mysqladmin_health.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = mysqladmin_health.xml; sourceTree = "<group>"; };
+		6535B75206B30536000445A4 /* health_level_fg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health_level_fg.png; sourceTree = "<group>"; };
+		65369E580693704100DFB427 /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_icon.png; path = "../../../mysql-gui-common/images/icons/png/user_icon.png"; sourceTree = SOURCE_ROOT; };
+		6543AAA306911A01002E79CA /* MACatalogs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MACatalogs.h; sourceTree = "<group>"; };
+		6543AAA406911A01002E79CA /* MACatalogs.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 30; path = MACatalogs.m; sourceTree = "<group>"; };
+		6562F71606B4D410001AED88 /* mysqladmin_status_variables.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = mysqladmin_status_variables.xml; sourceTree = "<group>"; };
+		6562F71706B4D410001AED88 /* mysqladmin_system_variables.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = mysqladmin_system_variables.xml; sourceTree = "<group>"; };
+		6562F78306B4DF04001AED88 /* mysqlx_translations_administrator.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = mysqlx_translations_administrator.xml; sourceTree = "<group>"; };
+		6562F78406B4DF04001AED88 /* mysqlx_translations_general.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = mysqlx_translations_general.xml; sourceTree = "<group>"; };
+		6573C1E906BF29E000B4B739 /* MAFileTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFileTextField.h; sourceTree = "<group>"; };
+		6573C1EA06BF29E000B4B739 /* MAFileTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFileTextField.m; sourceTree = "<group>"; };
+		6573C39406BF7C5B00B4B739 /* mahelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mahelper.h; sourceTree = "<group>"; };
+		6573C39506BF7C5B00B4B739 /* mahelper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mahelper.c; sourceTree = "<group>"; };
+		6573C3C006BF7D1700B4B739 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		657F3D5C06BCB2A500479B23 /* MATableMaintenanceController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MATableMaintenanceController.h; sourceTree = "<group>"; };
+		657F3D5D06BCB2A500479B23 /* MATableMaintenanceController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MATableMaintenanceController.m; sourceTree = "<group>"; };
+		6599952E068BA81600609548 /* MAPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPanel.h; sourceTree = "<group>"; };
+		6599952F068BA81600609548 /* MAPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPanel.m; sourceTree = "<group>"; };
+		6599955D068BAC7000609548 /* MAServerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAServerInformation.h; sourceTree = "<group>"; };
+		6599955E068BAC7000609548 /* MAServerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAServerInformation.m; sourceTree = "<group>"; };
+		659D636406B5E6540061E70D /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcre.a; path = /sw/lib/libpcre.a; sourceTree = "<absolute>"; };
+		659D6A1A06B854C30061E70D /* MAdministratorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAdministratorProtocol.h; sourceTree = "<group>"; };
+		65A3D84406C1E558004625D5 /* mahelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mahelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A8450B068BEE3E00BFAABD /* MAdministratorController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MAdministratorController.h; sourceTree = "<group>"; };
+		65A8450C068BEE3E00BFAABD /* MAdministratorController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MAdministratorController.m; sourceTree = "<group>"; };
+		65A84544068BF5F500BFAABD /* AdministratorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AdministratorIcon.icns; sourceTree = "<group>"; };
+		65A8470A068C0A0100BFAABD /* myx_admin_library.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_admin_library.c; path = ../../library/source/myx_admin_library.c; sourceTree = "<group>"; };
+		65A8470B068C0A0100BFAABD /* myx_backup.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_backup.c; path = ../../library/source/myx_backup.c; sourceTree = "<group>"; };
+		65A8470C068C0A0100BFAABD /* myx_log_files.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_log_files.c; path = ../../library/source/myx_log_files.c; sourceTree = "<group>"; };
+		65A8470D068C0A0100BFAABD /* myx_process_mysql_cnf_file.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_process_mysql_cnf_file.c; path = ../../library/source/myx_process_mysql_cnf_file.c; sourceTree = "<group>"; };
+		65A8470E068C0A0100BFAABD /* myx_processlist.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_processlist.c; path = ../../library/source/myx_processlist.c; sourceTree = "<group>"; };
+		65A8470F068C0A0100BFAABD /* myx_replication.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_replication.c; path = ../../library/source/myx_replication.c; sourceTree = "<group>"; };
+		65A84710068C0A0100BFAABD /* myx_user_management.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_user_management.c; path = ../../library/source/myx_user_management.c; sourceTree = "<group>"; };
+		65A84711068C0A0100BFAABD /* myx_xml_gui_description.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_xml_gui_description.c; path = ../../library/source/myx_xml_gui_description.c; sourceTree = "<group>"; };
+		65A84712068C0A0100BFAABD /* myx_xml_health.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_xml_health.c; path = ../../library/source/myx_xml_health.c; sourceTree = "<group>"; };
+		65A84713068C0A0100BFAABD /* myx_xml_variables_listing.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_xml_variables_listing.c; path = ../../library/source/myx_xml_variables_listing.c; sourceTree = "<group>"; };
+		65A8472E068C0A2700BFAABD /* myx_admin_library.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_admin_library.h; path = ../../library/include/myx_admin_library.h; sourceTree = "<group>"; };
+		65A8472F068C0A2700BFAABD /* myx_admin_public_interface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_admin_public_interface.h; path = ../../library/include/myx_admin_public_interface.h; sourceTree = "<group>"; };
+		65A849B4068CE2B900BFAABD /* service_status_paused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = service_status_paused.png; path = icons/png/service_status_paused.png; sourceTree = "<group>"; };
+		65A849B8068CE2D700BFAABD /* service_status_stopped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = service_status_stopped.png; path = icons/png/service_status_stopped.png; sourceTree = "<group>"; };
+		65A849B9068CE2D700BFAABD /* service_status_running_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = service_status_running_gray.png; path = icons/png/service_status_running_gray.png; sourceTree = "<group>"; };
+		65A849BA068CE2D700BFAABD /* service_status_running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = service_status_running.png; path = icons/png/service_status_running.png; sourceTree = "<group>"; };
+		65A849C2068CE2E300BFAABD /* service_status_unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = service_status_unknown.png; path = icons/png/service_status_unknown.png; sourceTree = "<group>"; };
+		65A84B9C068D0FEF00BFAABD /* libglib-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.0.dylib"; path = "/uni/lib/libglib-2.0.0.dylib"; sourceTree = "<absolute>"; };
+		65A84CEC068D4C5400BFAABD /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ServerConnections.nib; sourceTree = "<group>"; };
+		65AEFA31069E3619008543FF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ServerLogView.nib; sourceTree = "<group>"; };
+		65AEFA41069E368D008543FF /* MAServerLogView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MAServerLogView.m; sourceTree = "<group>"; };
+		65AEFA42069E368D008543FF /* MAServerLogView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MAServerLogView.h; sourceTree = "<group>"; };
+		65AEFCA9069F52D0008543FF /* maUtils.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = maUtils.m; sourceTree = "<group>"; };
+		65AEFCAA069F52D0008543FF /* maUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = maUtils.h; sourceTree = "<group>"; };
+		65B082DA0691E69500C4DB29 /* MUserListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUserListDataSource.h; sourceTree = "<group>"; };
+		65B082DB0691E69500C4DB29 /* MUserListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUserListDataSource.m; sourceTree = "<group>"; };
+		65C183F8069CF4AC005DDF9B /* 16x16_User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_User.png; path = icons/png/maintree/16x16_User.png; sourceTree = "<group>"; };
+		65C18535069D224F005DDF9B /* PrivilegeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivilegeDataSource.h; sourceTree = "<group>"; };
+		65C18536069D224F005DDF9B /* PrivilegeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivilegeDataSource.m; sourceTree = "<group>"; };
+		65D5E96606934A720089446E /* libadministratorLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libadministratorLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EE3F8A068E8B56004BB623 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Backup.nib; sourceTree = "<group>"; };
+		65EE3F8E068E8B60004BB623 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Catalogs.nib; sourceTree = "<group>"; };
+		65EE3F92068E8B67004BB623 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Restore.nib; sourceTree = "<group>"; };
+		65EE3F96068E8B6D004BB623 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Health.nib; sourceTree = "<group>"; };
+		65EE3F9A068E8B76004BB623 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ServerLogs.nib; sourceTree = "<group>"; };
+		65EE3F9E068E8B87004BB623 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/UserAdministration.nib; sourceTree = "<group>"; };
+		65EE3FA2068E8B91004BB623 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ServiceControl.nib; sourceTree = "<group>"; };
+		65EE4001068E99AF004BB623 /* MAUserAdministration.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MAUserAdministration.m; sourceTree = "<group>"; };
+		65EE4002068E99AF004BB623 /* MAUserAdministration.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MAUserAdministration.h; sourceTree = "<group>"; };
+		65EE44040690D377004BB623 /* MABackup.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MABackup.m; sourceTree = "<group>"; };
+		65EE44080690D37C004BB623 /* MABackup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MABackup.h; sourceTree = "<group>"; };
+		65EE44740690D8E4004BB623 /* MARestore.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MARestore.m; sourceTree = "<group>"; };
+		65EE44750690D8E4004BB623 /* MARestore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MARestore.h; sourceTree = "<group>"; };
+		65EE44920690DCF0004BB623 /* MAServerLogs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MAServerLogs.h; sourceTree = "<group>"; };
+		65EE44930690DCF0004BB623 /* MAServerLogs.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MAServerLogs.m; sourceTree = "<group>"; };
+		65EE44CA0690F942004BB623 /* MAServerConnections.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MAServerConnections.m; sourceTree = "<group>"; };
+		65EE44CB0690F942004BB623 /* MAServerConnections.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MAServerConnections.h; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		8D15AC370486D014006FF6A4 /* MySQL Administrator.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "MySQL Administrator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5533D9C0830CE86004AFCC3 /* mabackup */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mabackup; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5533DC90830D083004AFCC3 /* mabackup.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = mabackup.cc; path = ../util/mabackup.cc; sourceTree = SOURCE_ROOT; };
+		F55BB7FA0AF27A7900955CFB /* libmysqlparser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmysqlparser.a; path = ../../../../guibuild/Development/libmysqlparser.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6533413F06D1901700717689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBEB0FD08FC14AC008D57B7 /* Security.framework in Frameworks */,
+				F55BB7FD0AF27A7900955CFB /* libmysqlparser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A846FD068C09B500BFAABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55BB7FC0AF27A7900955CFB /* libmysqlparser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB541B50857FEF3007DA3B2 /* libadministratorLibrary.a in Frameworks */,
+				6533407406D18EDF00717689 /* Security.framework in Frameworks */,
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				2B9A53AB07A047A700A708EA /* MySQLToolsCommon.framework in Frameworks */,
+				659D636506B5E6540061E70D /* libpcre.a in Frameworks */,
+				2BC945F8077111B400B1EAF4 /* libmysqlx.a in Frameworks */,
+				2B8A3C0A087235E60079FC4E /* libxml2.dylib in Frameworks */,
+				2BBB02A708ABF68100A0C0A9 /* libmysqlclient_r.a in Frameworks */,
+				2BBB02B108ABF6B300A0C0A9 /* libiconv.dylib in Frameworks */,
+				2BBB02C208ABF70500A0C0A9 /* libintl.3.4.3.dylib in Frameworks */,
+				2B23D25209D9AE1200FD540F /* libglib-2.0.0.dylib in Frameworks */,
+				F55BB7FB0AF27A7900955CFB /* libmysqlparser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5533D9A0830CE86004AFCC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB541C608580077007DA3B2 /* libadministratorLibrary.a in Frameworks */,
+				F5533DCF0830D0BA004AFCC3 /* libmysqlx.a in Frameworks */,
+				2BBB02AA08ABF68500A0C0A9 /* libmysqlclient_r.a in Frameworks */,
+				F5533DD10830D0DA004AFCC3 /* libpcre.a in Frameworks */,
+				2BBB029008ABF5DB00A0C0A9 /* libglib-2.0.0.dylib in Frameworks */,
+				2BBB02C508ABF70A00A0C0A9 /* libintl.3.4.3.dylib in Frameworks */,
+				2BBB02DD08ABF83900A0C0A9 /* libz.dylib in Frameworks */,
+				2BBB02B508ABF6B700A0C0A9 /* libiconv.dylib in Frameworks */,
+				2BBB029108ABF5DB00A0C0A9 /* libxml2.dylib in Frameworks */,
+				2BBB030308ABFA6F00A0C0A9 /* Foundation.framework in Frameworks */,
+				F55BB7FE0AF27A7900955CFB /* libmysqlparser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F55BB7FA0AF27A7900955CFB /* libmysqlparser.a */,
+				2BC94530077105F500B1EAF4 /* libmysqlx.a */,
+				659D636406B5E6540061E70D /* libpcre.a */,
+				65A84B9C068D0FEF00BFAABD /* libglib-2.0.0.dylib */,
+				2B8A3C09087235E60079FC4E /* libxml2.dylib */,
+				2BBEB09C08FC0221008D57B7 /* libSystem.B.dylib */,
+				2B90AF49074FD88C00F9E62D /* MySQLToolsCommon.framework */,
+				65333FA006D18DD800717689 /* Security.framework */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BBB02A608ABF68100A0C0A9 /* libmysqlclient_r.a */,
+				2BBB02C108ABF70500A0C0A9 /* libintl.3.4.3.dylib */,
+				2BBB02AF08ABF6B300A0C0A9 /* libiconv.dylib */,
+				2BBB02B008ABF6B300A0C0A9 /* libz.dylib */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* MySQL Administrator.app */,
+				65D5E96606934A720089446E /* libadministratorLibrary.a */,
+				65A3D84406C1E558004625D5 /* mahelper */,
+				F5533D9C0830CE86004AFCC3 /* mabackup */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* MySQL Administrator */ = {
+			isa = PBXGroup;
+			children = (
+				2B62CA69078CCDFF0063A0C0 /* README.MacOSX */,
+				65EE442B0690D3C3004BB623 /* Panels */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				65E48F880696EF03003C732E /* Application */,
+				6573C3AE06BF7C7700B4B739 /* Helper */,
+				2A37F4AFFDCFA73011CA2CEA /* Base Library */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			comments = "This Project contains the Mac OS X version of MySQL Administrator and the preference Pane for MySQL.\nThis depends on the MySQLToolsCommon framework in mysql-gui-common";
+			name = "MySQL Administrator";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6599952E068BA81600609548 /* MAPanel.h */,
+				6599952F068BA81600609548 /* MAPanel.m */,
+				2A37F4AEFDCFA73011CA2CEA /* MAdministrator.h */,
+				2A37F4ACFDCFA73011CA2CEA /* MAdministrator.m */,
+				659D6A1A06B854C30061E70D /* MAdministratorProtocol.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Base Library */ = {
+			isa = PBXGroup;
+			children = (
+				65A8472E068C0A2700BFAABD /* myx_admin_library.h */,
+				65A8472F068C0A2700BFAABD /* myx_admin_public_interface.h */,
+				65A8470A068C0A0100BFAABD /* myx_admin_library.c */,
+				65A8470B068C0A0100BFAABD /* myx_backup.c */,
+				65A8470C068C0A0100BFAABD /* myx_log_files.c */,
+				65A8470D068C0A0100BFAABD /* myx_process_mysql_cnf_file.c */,
+				65A8470E068C0A0100BFAABD /* myx_processlist.c */,
+				65A8470F068C0A0100BFAABD /* myx_replication.c */,
+				65A84710068C0A0100BFAABD /* myx_user_management.c */,
+				65A84711068C0A0100BFAABD /* myx_xml_gui_description.c */,
+				65A84712068C0A0100BFAABD /* myx_xml_health.c */,
+				65A84713068C0A0100BFAABD /* myx_xml_variables_listing.c */,
+			);
+			name = "Base Library";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6535B1AD06AEDAC0000445A4 /* DataFiles */,
+				65A849B0068CE29E00BFAABD /* Images */,
+				2BFA184307A9EEE60025EA94 /* Preferences.nib */,
+				2B90AD44074FCAC100F9E62D /* TableMaintenance.nib */,
+				2B871E830787551B004B689C /* DataFileEditor.nib */,
+				65251CA80694F51300839977 /* Home.nib */,
+				6518EAB5068BE11300E469B2 /* MainMenu.nib */,
+				6518EA68068BE04E00E469B2 /* Administrator.nib */,
+				65A84CF2068D4C6400BFAABD /* ServerConnections.nib */,
+				6518EA90068BE09200E469B2 /* ServerInformation.nib */,
+				65EE3FAD068E8BDD004BB623 /* ServerLogs.nib */,
+				65AEFA30069E3619008543FF /* ServerLogView.nib */,
+				65EE3FAF068E8BDD004BB623 /* Backup.nib */,
+				65EE3FB1068E8BDD004BB623 /* Restore.nib */,
+				65EE3FB3068E8BDD004BB623 /* Catalogs.nib */,
+				65EE3FB5068E8BDD004BB623 /* Health.nib */,
+				2BAD383207B5D18B0001149C /* HealthGraphEditor.nib */,
+				65EE3FB7068E8BDD004BB623 /* UserAdministration.nib */,
+				65EE3FB9068E8BDD004BB623 /* ServiceControl.nib */,
+				2B70E9560B8DF74E004C061C /* StartupVariables.nib */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				6518EAAD068BE0EA00E469B2 /* locversion.plist */,
+				65A84544068BF5F500BFAABD /* AdministratorIcon.icns */,
+			);
+			name = Resources;
+			path = ../../res/mac;
+			sourceTree = SOURCE_ROOT;
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BBEAFE808FBF279008D57B7 /* Backup Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F5533DC90830D083004AFCC3 /* mabackup.cc */,
+			);
+			name = "Backup Helper";
+			sourceTree = "<group>";
+		};
+		6535AFF806AE50F6000445A4 /* Restore */ = {
+			isa = PBXGroup;
+			children = (
+				65EE44740690D8E4004BB623 /* MARestore.m */,
+				65EE44750690D8E4004BB623 /* MARestore.h */,
+			);
+			name = Restore;
+			sourceTree = "<group>";
+		};
+		6535B00C06AE5292000445A4 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				2BAD388E07B5DE130001149C /* MAMenuContextView.h */,
+				2BAD388F07B5DE130001149C /* MAMenuContextView.m */,
+				6535B00406AE528C000445A4 /* MAHealth.m */,
+				6535B00306AE528C000445A4 /* MAHealth.h */,
+				2BAD3EDD07B7460F0001149C /* MAHealthPage.h */,
+				2BAD3EDE07B7460F0001149C /* MAHealthPage.m */,
+				6535B3BC06B070EA000445A4 /* MAHealthGraph.h */,
+				6535B3BD06B070EA000445A4 /* MAHealthGraph.m */,
+				6535B25206AF70E5000445A4 /* MATimeGraph.h */,
+				6535B25306AF70E5000445A4 /* MATimeGraph.m */,
+				2BAD37B307B5C0CA0001149C /* MAGraphEditor.h */,
+				2BAD37B407B5C0CA0001149C /* MAGraphEditor.m */,
+			);
+			name = Health;
+			sourceTree = "<group>";
+		};
+		6535B06D06AE58FE000445A4 /* ServiceControl */ = {
+			isa = PBXGroup;
+			children = (
+				6535B05F06AE58FA000445A4 /* MAServiceControl.h */,
+				6535B06006AE58FA000445A4 /* MAServiceControl.m */,
+			);
+			name = ServiceControl;
+			sourceTree = "<group>";
+		};
+		6535B09E06AE5B0A000445A4 /* StartupVariables */ = {
+			isa = PBXGroup;
+			children = (
+				6535B07206AE5A9A000445A4 /* MAStartupVariables.h */,
+				6535B07306AE5A9A000445A4 /* MAStartupVariables.m */,
+				2B8722D30787E940004B689C /* MADataFileView.h */,
+				2B8722D40787E940004B689C /* MADataFileView.m */,
+				2B871E6D07874303004B689C /* MADataFileEditor.h */,
+				2B871E6E07874303004B689C /* MADataFileEditor.m */,
+				6535B11B06AEAA4C000445A4 /* MAXMLGUIController.h */,
+				6535B11C06AEAA4C000445A4 /* MAXMLGUIController.m */,
+				6573C1E906BF29E000B4B739 /* MAFileTextField.h */,
+				6573C1EA06BF29E000B4B739 /* MAFileTextField.m */,
+			);
+			name = StartupVariables;
+			sourceTree = "<group>";
+		};
+		6535B1AD06AEDAC0000445A4 /* DataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6562F78306B4DF04001AED88 /* mysqlx_translations_administrator.xml */,
+				6562F78406B4DF04001AED88 /* mysqlx_translations_general.xml */,
+				6562F71606B4D410001AED88 /* mysqladmin_status_variables.xml */,
+				6562F71706B4D410001AED88 /* mysqladmin_system_variables.xml */,
+				6535B58A06B2041C000445A4 /* mysqladmin_health.xml */,
+				6535B1D306AEDBEF000445A4 /* mysqladmin_startup_variables_description.dtd */,
+				6535B1A706AEDAB9000445A4 /* mysqladmin_startup_variables_description.xml */,
+			);
+			name = DataFiles;
+			path = ../../res;
+			sourceTree = SOURCE_ROOT;
+		};
+		6573C3AE06BF7C7700B4B739 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2BF3127007EE0135003C831B /* mahelper_priv.h */,
+				6573C39406BF7C5B00B4B739 /* mahelper.h */,
+				6573C39506BF7C5B00B4B739 /* mahelper.c */,
+				2BF3124A07EDFE44003C831B /* mahelper_file.c */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		65A849B0068CE29E00BFAABD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2B682F950AB6318200389BA0 /* merlin_advisors_sticker.png */,
+				2B682F960AB6318200389BA0 /* merlin_alerts.png */,
+				2B682F970AB6318200389BA0 /* merlin_grid_graph.png */,
+				2B682F980AB6318200389BA0 /* merlin_graphs_sticker.png */,
+				2B7086FC07CD8782006E9F11 /* health_bar_empty.png */,
+				2B7086FD07CD8782006E9F11 /* health_bar_filled.png */,
+				2B70863607CD0195006E9F11 /* OSX-Icons_33.png */,
+				2B70863707CD0195006E9F11 /* OSX-Icons_35.png */,
+				2B70863807CD0195006E9F11 /* OSX-Icons_37.png */,
+				2B70863907CD0195006E9F11 /* OSX-Icons_39.png */,
+				2B70863A07CD0195006E9F11 /* OSX-Icons_41.png */,
+				2B70863B07CD0195006E9F11 /* OSX-Icons_43.png */,
+				2B70863C07CD0195006E9F11 /* OSX-Icons_45.png */,
+				2B70863D07CD0195006E9F11 /* OSX-Icons_47.png */,
+				2B70863E07CD0195006E9F11 /* OSX-Icons_49.png */,
+				2B70863F07CD0195006E9F11 /* OSX-Icons_51.png */,
+				6573C3C006BF7D1700B4B739 /* about.png */,
+				2BC93EF7076FEA5400B1EAF4 /* connect_header_admin.png */,
+				6535B75206B30536000445A4 /* health_level_fg.png */,
+				65251D6E0695228A00839977 /* 16x16_Right.png */,
+				65251C670694EEB300839977 /* 16x16_Table.png */,
+				65251C680694EEB300839977 /* 16x16_KeyColumn.png */,
+				2BFA093E07A701930025EA94 /* 16x16_Index.png */,
+				65251C600694EEAA00839977 /* 16x16_Field.png */,
+				65251C610694EEAA00839977 /* 16x16_Database.png */,
+				65251C5C0694EE9A00839977 /* 16x16_Catalog.png */,
+				65C183F8069CF4AC005DDF9B /* 16x16_User.png */,
+				2B1F252F087CB00200455FC3 /* 16x16_StoredProc.png */,
+				2B1F2530087CB00200455FC3 /* 16x16_View.png */,
+				2B0C5C5407BF0F4C00603E0B /* variable_disabled_mac.png */,
+				2B0C5C5507BF0F4C00603E0B /* variable_editable_mac.png */,
+				65369E580693704100DFB427 /* user_icon.png */,
+				65A849C2068CE2E300BFAABD /* service_status_unknown.png */,
+				65A849B4068CE2B900BFAABD /* service_status_paused.png */,
+				65A849B8068CE2D700BFAABD /* service_status_stopped.png */,
+				65A849B9068CE2D700BFAABD /* service_status_running_gray.png */,
+				65A849BA068CE2D700BFAABD /* service_status_running.png */,
+				2BF6AFC507B088BD00C58861 /* mysql_logo.png */,
+				2BF6B50407B357BD00C58861 /* add_disabled.png */,
+				2BF6B50507B357BD00C58861 /* add_normal.png */,
+				2BF6B50607B357BD00C58861 /* add_pressed.png */,
+				2BF6B50707B357BD00C58861 /* addhost_disabled.png */,
+				2BF6B50807B357BD00C58861 /* addhost_normal.png */,
+				2BF6B50907B357BD00C58861 /* addhost_pressed.png */,
+				2BF6B50A07B357BD00C58861 /* adduser_disabled.png */,
+				2BF6B50B07B357BD00C58861 /* adduser_normal.png */,
+				2BF6B50C07B357BD00C58861 /* adduser_pressed.png */,
+				2BF6B50D07B357BD00C58861 /* del_disabled.png */,
+				2BF6B50E07B357BD00C58861 /* del_normal.png */,
+				2BF6B50F07B357BD00C58861 /* del_pressed.png */,
+				2BF6B51007B357BD00C58861 /* delhost_disabled.png */,
+				2BF6B51107B357BD00C58861 /* delhost_normal.png */,
+				2BF6B51207B357BD00C58861 /* delhost_pressed.png */,
+				2BF6B51307B357BD00C58861 /* deluser_disabled.png */,
+				2BF6B51407B357BD00C58861 /* deluser_normal.png */,
+				2BF6B51507B357BD00C58861 /* deluser_pressed.png */,
+			);
+			name = Images;
+			path = ../../images;
+			sourceTree = SOURCE_ROOT;
+		};
+		65AEFBF0069E822E008543FF /* ServerInformation */ = {
+			isa = PBXGroup;
+			children = (
+				6599955D068BAC7000609548 /* MAServerInformation.h */,
+				6599955E068BAC7000609548 /* MAServerInformation.m */,
+			);
+			name = ServerInformation;
+			sourceTree = "<group>";
+		};
+		65AEFC01069E8247008543FF /* Catalogs */ = {
+			isa = PBXGroup;
+			children = (
+				6543AAA306911A01002E79CA /* MACatalogs.h */,
+				6543AAA406911A01002E79CA /* MACatalogs.m */,
+				657F3D5C06BCB2A500479B23 /* MATableMaintenanceController.h */,
+				657F3D5D06BCB2A500479B23 /* MATableMaintenanceController.m */,
+			);
+			name = Catalogs;
+			sourceTree = "<group>";
+		};
+		65AEFC11069E8259008543FF /* Backup */ = {
+			isa = PBXGroup;
+			children = (
+				65EE44080690D37C004BB623 /* MABackup.h */,
+				65EE44040690D377004BB623 /* MABackup.m */,
+				2BBEAFE808FBF279008D57B7 /* Backup Helper */,
+			);
+			name = Backup;
+			sourceTree = "<group>";
+		};
+		65C185EF069E14F5005DDF9B /* ServerConnections */ = {
+			isa = PBXGroup;
+			children = (
+				65EE44CA0690F942004BB623 /* MAServerConnections.m */,
+				65EE44CB0690F942004BB623 /* MAServerConnections.h */,
+			);
+			name = ServerConnections;
+			sourceTree = "<group>";
+		};
+		65C185FA069E1516005DDF9B /* ServerLogs */ = {
+			isa = PBXGroup;
+			children = (
+				65EE44920690DCF0004BB623 /* MAServerLogs.h */,
+				65EE44930690DCF0004BB623 /* MAServerLogs.m */,
+				65AEFA41069E368D008543FF /* MAServerLogView.m */,
+				65AEFA42069E368D008543FF /* MAServerLogView.h */,
+			);
+			name = ServerLogs;
+			sourceTree = "<group>";
+		};
+		65E48F880696EF03003C732E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				65AEFCA9069F52D0008543FF /* maUtils.m */,
+				65AEFCAA069F52D0008543FF /* maUtils.h */,
+				65A8450B068BEE3E00BFAABD /* MAdministratorController.h */,
+				65A8450C068BEE3E00BFAABD /* MAdministratorController.m */,
+				32DBCF750370BD2300C91783 /* MySQL Administrator_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+				2B8733E0078B7E72004B689C /* mhelperlib.c */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		65E48FB20696EF65003C732E /* UserAdministration */ = {
+			isa = PBXGroup;
+			children = (
+				65EE4001068E99AF004BB623 /* MAUserAdministration.m */,
+				65EE4002068E99AF004BB623 /* MAUserAdministration.h */,
+				65B082DB0691E69500C4DB29 /* MUserListDataSource.m */,
+				65B082DA0691E69500C4DB29 /* MUserListDataSource.h */,
+				65C18536069D224F005DDF9B /* PrivilegeDataSource.m */,
+				65C18535069D224F005DDF9B /* PrivilegeDataSource.h */,
+			);
+			name = UserAdministration;
+			sourceTree = "<group>";
+		};
+		65EE442B0690D3C3004BB623 /* Panels */ = {
+			isa = PBXGroup;
+			children = (
+				65251CAD0694F58800839977 /* MAHomePanel.m */,
+				65251CAE0694F58800839977 /* MAHomePanel.h */,
+				65AEFBF0069E822E008543FF /* ServerInformation */,
+				6535B09E06AE5B0A000445A4 /* StartupVariables */,
+				6535B06D06AE58FE000445A4 /* ServiceControl */,
+				6535B00C06AE5292000445A4 /* Health */,
+				65AEFC11069E8259008543FF /* Backup */,
+				6535AFF806AE50F6000445A4 /* Restore */,
+				65C185FA069E1516005DDF9B /* ServerLogs */,
+				65C185EF069E14F5005DDF9B /* ServerConnections */,
+				65AEFC01069E8247008543FF /* Catalogs */,
+				65E48FB20696EF65003C732E /* UserAdministration */,
+			);
+			name = Panels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65A3D84106C1E558004625D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A3D85406C1E573004625D5 /* mahelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A846FB068C09B500BFAABD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A84730068C0A2700BFAABD /* myx_admin_library.h in Headers */,
+				65A84731068C0A2700BFAABD /* myx_admin_public_interface.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC280486D014006FF6A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC290486D014006FF6A4 /* MySQL Administrator_Prefix.pch in Headers */,
+				8D15AC2A0486D014006FF6A4 /* MAdministrator.h in Headers */,
+				65999530068BA81600609548 /* MAPanel.h in Headers */,
+				6599955F068BAC7000609548 /* MAServerInformation.h in Headers */,
+				65A8450D068BEE3E00BFAABD /* MAdministratorController.h in Headers */,
+				65EE4004068E99AF004BB623 /* MAUserAdministration.h in Headers */,
+				65EE44090690D37C004BB623 /* MABackup.h in Headers */,
+				65EE44770690D8E4004BB623 /* MARestore.h in Headers */,
+				65EE44940690DCF0004BB623 /* MAServerLogs.h in Headers */,
+				65EE44CD0690F942004BB623 /* MAServerConnections.h in Headers */,
+				6543AAA506911A01002E79CA /* MACatalogs.h in Headers */,
+				65B082DC0691E69500C4DB29 /* MUserListDataSource.h in Headers */,
+				65251CB00694F58800839977 /* MAHomePanel.h in Headers */,
+				65C18537069D224F005DDF9B /* PrivilegeDataSource.h in Headers */,
+				65AEFA44069E368D008543FF /* MAServerLogView.h in Headers */,
+				65AEFCAC069F52D0008543FF /* maUtils.h in Headers */,
+				6535B00506AE528C000445A4 /* MAHealth.h in Headers */,
+				6535B06106AE58FA000445A4 /* MAServiceControl.h in Headers */,
+				6535B07406AE5A9A000445A4 /* MAStartupVariables.h in Headers */,
+				6535B11D06AEAA4C000445A4 /* MAXMLGUIController.h in Headers */,
+				6535B25406AF70E5000445A4 /* MATimeGraph.h in Headers */,
+				6535B3BE06B070EA000445A4 /* MAHealthGraph.h in Headers */,
+				659D6A1B06B854C30061E70D /* MAdministratorProtocol.h in Headers */,
+				657F3D5E06BCB2A500479B23 /* MATableMaintenanceController.h in Headers */,
+				6573C1EB06BF29E000B4B739 /* MAFileTextField.h in Headers */,
+				6573C39606BF7C5B00B4B739 /* mahelper.h in Headers */,
+				2B871E6F07874303004B689C /* MADataFileEditor.h in Headers */,
+				2B8722D50787E940004B689C /* MADataFileView.h in Headers */,
+				2BAD37B507B5C0CA0001149C /* MAGraphEditor.h in Headers */,
+				2BAD389007B5DE130001149C /* MAMenuContextView.h in Headers */,
+				2BAD3EDF07B7460F0001149C /* MAHealthPage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65A3D84306C1E558004625D5 /* mahelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB541990857FDE5007DA3B2 /* Build configuration list for PBXNativeTarget "mahelper" */;
+			buildPhases = (
+				65A3D84106C1E558004625D5 /* Headers */,
+				65A3D84206C1E558004625D5 /* Sources */,
+				6533413F06D1901700717689 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mahelper;
+			productName = mahelper;
+			productReference = 65A3D84406C1E558004625D5 /* mahelper */;
+			productType = "com.apple.product-type.tool";
+		};
+		65A846FE068C09B500BFAABD /* administratorLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB541950857FDE5007DA3B2 /* Build configuration list for PBXNativeTarget "administratorLibrary" */;
+			buildPhases = (
+				65A846FB068C09B500BFAABD /* Headers */,
+				65A846FC068C09B500BFAABD /* Sources */,
+				65A846FD068C09B500BFAABD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = administratorLibrary;
+			productName = administratorLibrary;
+			productReference = 65D5E96606934A720089446E /* libadministratorLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8D15AC270486D014006FF6A4 /* MySQL Administrator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB541A10857FDE5007DA3B2 /* Build configuration list for PBXNativeTarget "MySQL Administrator" */;
+			buildPhases = (
+				8D15AC280486D014006FF6A4 /* Headers */,
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				2BFA0CC807A769CA0025EA94 /* CopyFiles */,
+				2BF6AFF707B08A4100C58861 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B084CA0692487900C4DB29 /* PBXTargetDependency */,
+				2B9A55FB07A360F100A708EA /* PBXTargetDependency */,
+				F5533D9F0830CEC4004AFCC3 /* PBXTargetDependency */,
+			);
+			name = "MySQL Administrator";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "MySQL Administrator";
+			productReference = 8D15AC370486D014006FF6A4 /* MySQL Administrator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5533D9B0830CE86004AFCC3 /* mabackup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB5419D0857FDE5007DA3B2 /* Build configuration list for PBXNativeTarget "mabackup" */;
+			buildPhases = (
+				F5533D990830CE86004AFCC3 /* Sources */,
+				F5533D9A0830CE86004AFCC3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mabackup;
+			productName = mabackup;
+			productReference = F5533D9C0830CE86004AFCC3 /* mabackup */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2BB541A50857FDE5007DA3B2 /* Build configuration list for PBXProject "MySQL Administrator" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* MySQL Administrator */;
+			projectDirPath = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* MySQL Administrator */,
+				65A846FE068C09B500BFAABD /* administratorLibrary */,
+				65A3D84306C1E558004625D5 /* mahelper */,
+				F5533D9B0830CE86004AFCC3 /* mabackup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6518EADD068BE29A00E469B2 /* locversion.plist in Resources */,
+				65A84545068BF5F500BFAABD /* AdministratorIcon.icns in Resources */,
+				6518EA6A068BE04E00E469B2 /* Administrator.nib in Resources */,
+				6518EA92068BE09200E469B2 /* ServerInformation.nib in Resources */,
+				65A84CF3068D4C6400BFAABD /* ServerConnections.nib in Resources */,
+				6518EAB7068BE11300E469B2 /* MainMenu.nib in Resources */,
+				65A849B5068CE2B900BFAABD /* service_status_paused.png in Resources */,
+				65A849BB068CE2D800BFAABD /* service_status_stopped.png in Resources */,
+				65A849BC068CE2D800BFAABD /* service_status_running_gray.png in Resources */,
+				65A849BD068CE2D800BFAABD /* service_status_running.png in Resources */,
+				65A849C3068CE2E300BFAABD /* service_status_unknown.png in Resources */,
+				65EE3FB0068E8BDD004BB623 /* Backup.nib in Resources */,
+				65EE3FB4068E8BDD004BB623 /* Catalogs.nib in Resources */,
+				65EE3FB2068E8BDD004BB623 /* Restore.nib in Resources */,
+				65EE3FB6068E8BDD004BB623 /* Health.nib in Resources */,
+				65EE3FAE068E8BDD004BB623 /* ServerLogs.nib in Resources */,
+				65EE3FB8068E8BDD004BB623 /* UserAdministration.nib in Resources */,
+				65EE3FBA068E8BDD004BB623 /* ServiceControl.nib in Resources */,
+				65369E590693704100DFB427 /* user_icon.png in Resources */,
+				65251C5D0694EE9A00839977 /* 16x16_Catalog.png in Resources */,
+				65251C620694EEAA00839977 /* 16x16_Field.png in Resources */,
+				65251C630694EEAA00839977 /* 16x16_Database.png in Resources */,
+				65251C690694EEB300839977 /* 16x16_Table.png in Resources */,
+				65251C6A0694EEB300839977 /* 16x16_KeyColumn.png in Resources */,
+				65251CA90694F51300839977 /* Home.nib in Resources */,
+				65251D6F0695228A00839977 /* 16x16_Right.png in Resources */,
+				65C183F9069CF4AC005DDF9B /* 16x16_User.png in Resources */,
+				65AEFA32069E3619008543FF /* ServerLogView.nib in Resources */,
+				6535B1A806AEDAB9000445A4 /* mysqladmin_startup_variables_description.xml in Resources */,
+				6535B1D406AEDBEF000445A4 /* mysqladmin_startup_variables_description.dtd in Resources */,
+				6535B58B06B2041C000445A4 /* mysqladmin_health.xml in Resources */,
+				6535B75306B30536000445A4 /* health_level_fg.png in Resources */,
+				6562F71806B4D410001AED88 /* mysqladmin_status_variables.xml in Resources */,
+				6562F71906B4D410001AED88 /* mysqladmin_system_variables.xml in Resources */,
+				6562F78506B4DF04001AED88 /* mysqlx_translations_administrator.xml in Resources */,
+				6562F78606B4DF04001AED88 /* mysqlx_translations_general.xml in Resources */,
+				6573C3C106BF7D1700B4B739 /* about.png in Resources */,
+				2B90AD46074FCAC100F9E62D /* TableMaintenance.nib in Resources */,
+				2BC93EF8076FEA5400B1EAF4 /* connect_header_admin.png in Resources */,
+				2B871E850787551B004B689C /* DataFileEditor.nib in Resources */,
+				2BFA093F07A701930025EA94 /* 16x16_Index.png in Resources */,
+				2BFA184507A9EEE60025EA94 /* Preferences.nib in Resources */,
+				2BF6AFC607B088BD00C58861 /* mysql_logo.png in Resources */,
+				2BF6B51607B357BD00C58861 /* add_disabled.png in Resources */,
+				2BF6B51707B357BD00C58861 /* add_normal.png in Resources */,
+				2BF6B51807B357BD00C58861 /* add_pressed.png in Resources */,
+				2BF6B51907B357BD00C58861 /* addhost_disabled.png in Resources */,
+				2BF6B51A07B357BD00C58861 /* addhost_normal.png in Resources */,
+				2BF6B51B07B357BD00C58861 /* addhost_pressed.png in Resources */,
+				2BF6B51C07B357BD00C58861 /* adduser_disabled.png in Resources */,
+				2BF6B51D07B357BD00C58861 /* adduser_normal.png in Resources */,
+				2BF6B51E07B357BD00C58861 /* adduser_pressed.png in Resources */,
+				2BF6B51F07B357BD00C58861 /* del_disabled.png in Resources */,
+				2BF6B52007B357BD00C58861 /* del_normal.png in Resources */,
+				2BF6B52107B357BD00C58861 /* del_pressed.png in Resources */,
+				2BF6B52207B357BD00C58861 /* delhost_disabled.png in Resources */,
+				2BF6B52307B357BD00C58861 /* delhost_normal.png in Resources */,
+				2BF6B52407B357BD00C58861 /* delhost_pressed.png in Resources */,
+				2BF6B52507B357BD00C58861 /* deluser_disabled.png in Resources */,
+				2BF6B52607B357BD00C58861 /* deluser_normal.png in Resources */,
+				2BF6B52707B357BD00C58861 /* deluser_pressed.png in Resources */,
+				2BAD383407B5D18B0001149C /* HealthGraphEditor.nib in Resources */,
+				2B0C5C5607BF0F4C00603E0B /* variable_disabled_mac.png in Resources */,
+				2B0C5C5707BF0F4C00603E0B /* variable_editable_mac.png in Resources */,
+				2B70864007CD0195006E9F11 /* OSX-Icons_33.png in Resources */,
+				2B70864107CD0195006E9F11 /* OSX-Icons_35.png in Resources */,
+				2B70864207CD0195006E9F11 /* OSX-Icons_37.png in Resources */,
+				2B70864307CD0195006E9F11 /* OSX-Icons_39.png in Resources */,
+				2B70864407CD0195006E9F11 /* OSX-Icons_41.png in Resources */,
+				2B70864507CD0195006E9F11 /* OSX-Icons_43.png in Resources */,
+				2B70864607CD0195006E9F11 /* OSX-Icons_45.png in Resources */,
+				2B70864707CD0195006E9F11 /* OSX-Icons_47.png in Resources */,
+				2B70864807CD0195006E9F11 /* OSX-Icons_49.png in Resources */,
+				2B70864907CD0195006E9F11 /* OSX-Icons_51.png in Resources */,
+				2B7086FE07CD8782006E9F11 /* health_bar_empty.png in Resources */,
+				2B7086FF07CD8782006E9F11 /* health_bar_filled.png in Resources */,
+				2B1F2531087CB00200455FC3 /* 16x16_StoredProc.png in Resources */,
+				2B1F2532087CB00200455FC3 /* 16x16_View.png in Resources */,
+				2B682F990AB6318200389BA0 /* merlin_advisors_sticker.png in Resources */,
+				2B682F9A0AB6318200389BA0 /* merlin_alerts.png in Resources */,
+				2B682F9B0AB6318200389BA0 /* merlin_grid_graph.png in Resources */,
+				2B682F9C0AB6318200389BA0 /* merlin_graphs_sticker.png in Resources */,
+				2B70E9580B8DF74E004C061C /* StartupVariables.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A3D84206C1E558004625D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF3126F07EE00F4003C831B /* mahelper_file.c in Sources */,
+				65A3D85506C1E573004625D5 /* mahelper.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A846FC068C09B500BFAABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A84714068C0A0100BFAABD /* myx_admin_library.c in Sources */,
+				65A84715068C0A0100BFAABD /* myx_backup.c in Sources */,
+				65A84716068C0A0100BFAABD /* myx_log_files.c in Sources */,
+				65A84717068C0A0100BFAABD /* myx_process_mysql_cnf_file.c in Sources */,
+				65A84718068C0A0100BFAABD /* myx_processlist.c in Sources */,
+				65A84719068C0A0100BFAABD /* myx_replication.c in Sources */,
+				65A8471A068C0A0100BFAABD /* myx_user_management.c in Sources */,
+				65A8471B068C0A0100BFAABD /* myx_xml_gui_description.c in Sources */,
+				65A8471C068C0A0100BFAABD /* myx_xml_health.c in Sources */,
+				65A8471D068C0A0100BFAABD /* myx_xml_variables_listing.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				65999531068BA81600609548 /* MAPanel.m in Sources */,
+				65999560068BAC7000609548 /* MAServerInformation.m in Sources */,
+				8D15AC310486D014006FF6A4 /* MAdministrator.m in Sources */,
+				65A8450E068BEE3E00BFAABD /* MAdministratorController.m in Sources */,
+				65EE4003068E99AF004BB623 /* MAUserAdministration.m in Sources */,
+				65EE44050690D377004BB623 /* MABackup.m in Sources */,
+				65EE44760690D8E4004BB623 /* MARestore.m in Sources */,
+				65EE44950690DCF0004BB623 /* MAServerLogs.m in Sources */,
+				65EE44CC0690F942004BB623 /* MAServerConnections.m in Sources */,
+				6543AAA606911A01002E79CA /* MACatalogs.m in Sources */,
+				65B082DD0691E69500C4DB29 /* MUserListDataSource.m in Sources */,
+				65C18538069D224F005DDF9B /* PrivilegeDataSource.m in Sources */,
+				65251CAF0694F58800839977 /* MAHomePanel.m in Sources */,
+				65AEFA43069E368D008543FF /* MAServerLogView.m in Sources */,
+				65AEFCAB069F52D0008543FF /* maUtils.m in Sources */,
+				6535B00606AE528C000445A4 /* MAHealth.m in Sources */,
+				6535B06206AE58FA000445A4 /* MAServiceControl.m in Sources */,
+				6535B07506AE5A9A000445A4 /* MAStartupVariables.m in Sources */,
+				6535B11E06AEAA4C000445A4 /* MAXMLGUIController.m in Sources */,
+				6535B25506AF70E5000445A4 /* MATimeGraph.m in Sources */,
+				6535B3BF06B070EA000445A4 /* MAHealthGraph.m in Sources */,
+				657F3D5F06BCB2A500479B23 /* MATableMaintenanceController.m in Sources */,
+				6573C1EC06BF29E000B4B739 /* MAFileTextField.m in Sources */,
+				2B871E7007874303004B689C /* MADataFileEditor.m in Sources */,
+				2B8722D60787E940004B689C /* MADataFileView.m in Sources */,
+				2B8733E1078B7E72004B689C /* mhelperlib.c in Sources */,
+				2BAD37B607B5C0CA0001149C /* MAGraphEditor.m in Sources */,
+				2BAD389107B5DE130001149C /* MAMenuContextView.m in Sources */,
+				2BAD3EE007B7460F0001149C /* MAHealthPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5533D990830CE86004AFCC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5533DCA0830D083004AFCC3 /* mabackup.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B9A55FB07A360F100A708EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A3D84306C1E558004625D5 /* mahelper */;
+			targetProxy = 2B9A55FA07A360F100A708EA /* PBXContainerItemProxy */;
+		};
+		65B084CA0692487900C4DB29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A846FE068C09B500BFAABD /* administratorLibrary */;
+			targetProxy = 65B084C90692487900C4DB29 /* PBXContainerItemProxy */;
+		};
+		F5533D9F0830CEC4004AFCC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5533D9B0830CE86004AFCC3 /* mabackup */;
+			targetProxy = F5533D9E0830CEC4004AFCC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B70E9560B8DF74E004C061C /* StartupVariables.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B70E9570B8DF74E004C061C /* English */,
+			);
+			name = StartupVariables.nib;
+			sourceTree = "<group>";
+		};
+		2B871E830787551B004B689C /* DataFileEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B871E840787551B004B689C /* English */,
+			);
+			name = DataFileEditor.nib;
+			sourceTree = "<group>";
+		};
+		2B90AD44074FCAC100F9E62D /* TableMaintenance.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B90AD45074FCAC100F9E62D /* English */,
+			);
+			name = TableMaintenance.nib;
+			sourceTree = "<group>";
+		};
+		2BAD383207B5D18B0001149C /* HealthGraphEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BAD383307B5D18B0001149C /* English */,
+			);
+			name = HealthGraphEditor.nib;
+			sourceTree = "<group>";
+		};
+		2BFA184307A9EEE60025EA94 /* Preferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BFA184407A9EEE60025EA94 /* English */,
+			);
+			name = Preferences.nib;
+			sourceTree = "<group>";
+		};
+		6518EA68068BE04E00E469B2 /* Administrator.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6518EA69068BE04E00E469B2 /* English */,
+			);
+			name = Administrator.nib;
+			sourceTree = "<group>";
+		};
+		6518EA90068BE09200E469B2 /* ServerInformation.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6518EA91068BE09200E469B2 /* English */,
+			);
+			name = ServerInformation.nib;
+			sourceTree = "<group>";
+		};
+		6518EAB5068BE11300E469B2 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6518EAB6068BE11300E469B2 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		65251CA80694F51300839977 /* Home.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65251CA30694F50300839977 /* English */,
+			);
+			name = Home.nib;
+			sourceTree = "<group>";
+		};
+		65A84CF2068D4C6400BFAABD /* ServerConnections.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A84CEC068D4C5400BFAABD /* English */,
+			);
+			name = ServerConnections.nib;
+			sourceTree = "<group>";
+		};
+		65AEFA30069E3619008543FF /* ServerLogView.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AEFA31069E3619008543FF /* English */,
+			);
+			name = ServerLogView.nib;
+			sourceTree = "<group>";
+		};
+		65EE3FAD068E8BDD004BB623 /* ServerLogs.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EE3F9A068E8B76004BB623 /* English */,
+			);
+			name = ServerLogs.nib;
+			sourceTree = "<group>";
+		};
+		65EE3FAF068E8BDD004BB623 /* Backup.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EE3F8A068E8B56004BB623 /* English */,
+			);
+			name = Backup.nib;
+			sourceTree = "<group>";
+		};
+		65EE3FB1068E8BDD004BB623 /* Restore.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EE3F92068E8B67004BB623 /* English */,
+			);
+			name = Restore.nib;
+			sourceTree = "<group>";
+		};
+		65EE3FB3068E8BDD004BB623 /* Catalogs.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EE3F8E068E8B60004BB623 /* English */,
+			);
+			name = Catalogs.nib;
+			sourceTree = "<group>";
+		};
+		65EE3FB5068E8BDD004BB623 /* Health.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EE3F96068E8B6D004BB623 /* English */,
+			);
+			name = Health.nib;
+			sourceTree = "<group>";
+		};
+		65EE3FB7068E8BDD004BB623 /* UserAdministration.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EE3F9E068E8B87004BB623 /* English */,
+			);
+			name = UserAdministration.nib;
+			sourceTree = "<group>";
+		};
+		65EE3FB9068E8BDD004BB623 /* ServiceControl.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EE3FA2068E8B91004BB623 /* English */,
+			);
+			name = ServiceControl.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B23D29809D9BB6200FD540F /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"~/guibuild/DeploymentU",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = administratorLibrary;
+				SECTORDER_FLAGS = "";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../common/library/base-library/include $(SOURCE_ROOT)/../../../common/library/utilities/shared_include $(SOURCE_ROOT)/../../../common/library/utilities/include";
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = DeploymentU;
+		};
+		2B23D29909D9BB6200FD540F /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"~/guibuild/DeploymentU",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mahelper;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = DeploymentU;
+		};
+		2B23D29A09D9BB6200FD540F /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G4;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+				);
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"~/guibuild/DeploymentU",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				OTHER_CFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = mabackup;
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../common/library/base-library/include $(SOURCE_ROOT)/../../../common/library/utilities/shared_include $(SOURCE_ROOT)/../../../common/library/utilities/include";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = DeploymentU;
+		};
+		2B23D29B09D9BB6200FD540F /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySQL Administrator_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/mysql/lib,
+					"~/guibuild/DeploymentU",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "MySQL Administrator";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../common/library/base-library/include $(SOURCE_ROOT)/../../../common/library/utilities/shared_include $(SOURCE_ROOT)/../../../common/library/utilities/include";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = DeploymentU;
+		};
+		2B23D29C09D9BB6200FD540F /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = "$(SYMROOT)/DeploymentU";
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include",
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+				);
+				LIBRARY_SEARCH_PATHS = /uni/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = DeploymentU;
+		};
+		2BB541960857FDE5007DA3B2 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					/uni/lib,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				LIBRARY_STYLE = STATIC;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = administratorLibrary;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "~/guibuild";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../common/library/base-library/include $(SOURCE_ROOT)/../../../common/library/utilities/shared_include $(SOURCE_ROOT)/../../../common/library/utilities/include";
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		2BB541970857FDE5007DA3B2 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = administratorLibrary;
+				SECTORDER_FLAGS = "";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../common/library/base-library/include $(SOURCE_ROOT)/../../../common/library/utilities/shared_include $(SOURCE_ROOT)/../../../common/library/utilities/include";
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2BB5419A0857FDE5007DA3B2 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					/uni/lib,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mahelper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "~/guibuild";
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		2BB5419B0857FDE5007DA3B2 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.3.9.sdk/System/Library/Frameworks\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mahelper;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2BB5419E0857FDE5007DA3B2 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G4;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+				);
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					/uni/lib,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = mabackup;
+				SYMROOT = "~/guibuild";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../mysql-gui-common/library/base-library/include $(SOURCE_ROOT)/../../../mysql-gui-common/library/utilities/shared_include $(SOURCE_ROOT)/../../../mysql-gui-common/library/utilities/include";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		2BB5419F0857FDE5007DA3B2 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.3.9.sdk/System/Library/Frameworks",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G4;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+				);
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				OTHER_CFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = mabackup;
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../common/library/base-library/include $(SOURCE_ROOT)/../../../common/library/utilities/shared_include $(SOURCE_ROOT)/../../../common/library/utilities/include";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2BB541A20857FDE5007DA3B2 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySQL Administrator_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/mysql/lib,
+					/uni/lib,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OPTIMIZATION_CFLAGS = "-O0";
+				PRODUCT_NAME = "MySQL Administrator";
+				SYMROOT = "~/guibuild";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../common/library/base-library/include $(SOURCE_ROOT)/../../../common/library/utilities/shared_include $(SOURCE_ROOT)/../../../common/library/utilities/include";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		2BB541A30857FDE5007DA3B2 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SYMROOT)/Deployment";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySQL Administrator_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../guibuild/Development\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "MySQL Administrator";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../../common/library/base-library/include $(SOURCE_ROOT)/../../../common/library/utilities/shared_include $(SOURCE_ROOT)/../../../common/library/utilities/include";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2BB541A60857FDE5007DA3B2 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(SYMROOT)/Development";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include",
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+				);
+				LIBRARY_SEARCH_PATHS = /sw/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		2BB541A70857FDE5007DA3B2 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = "$(SYMROOT)/Deployment";
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include",
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+				);
+				LIBRARY_SEARCH_PATHS = /uni/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB541950857FDE5007DA3B2 /* Build configuration list for PBXNativeTarget "administratorLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB541960857FDE5007DA3B2 /* Development */,
+				2BB541970857FDE5007DA3B2 /* Deployment */,
+				2B23D29809D9BB6200FD540F /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2BB541990857FDE5007DA3B2 /* Build configuration list for PBXNativeTarget "mahelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB5419A0857FDE5007DA3B2 /* Development */,
+				2BB5419B0857FDE5007DA3B2 /* Deployment */,
+				2B23D29909D9BB6200FD540F /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2BB5419D0857FDE5007DA3B2 /* Build configuration list for PBXNativeTarget "mabackup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB5419E0857FDE5007DA3B2 /* Development */,
+				2BB5419F0857FDE5007DA3B2 /* Deployment */,
+				2B23D29A09D9BB6200FD540F /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2BB541A10857FDE5007DA3B2 /* Build configuration list for PBXNativeTarget "MySQL Administrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB541A20857FDE5007DA3B2 /* Development */,
+				2BB541A30857FDE5007DA3B2 /* Deployment */,
+				2B23D29B09D9BB6200FD540F /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2BB541A50857FDE5007DA3B2 /* Build configuration list for PBXProject "MySQL Administrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB541A60857FDE5007DA3B2 /* Development */,
+				2BB541A70857FDE5007DA3B2 /* Deployment */,
+				2B23D29C09D9BB6200FD540F /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

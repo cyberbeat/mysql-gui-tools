@@ -1,0 +1,3469 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imported text file\n"
+"POT-Creation-Date: 2006-10-25 09:42\n"
+"PO-Revision-Date: 2006-10-26 09:17+0100\n"
+"Last-Translator: Mike Lischke <mikel@mysql.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+
+# No translations found for these strings.
+#. Row 1
+msgid "&File"
+msgstr ""
+
+#. Row 2
+msgid "&New Connection ..."
+msgstr ""
+
+#. Row 3
+msgid "&Save Connection ..."
+msgstr ""
+
+# No translations found for these strings.
+msgid "."
+msgstr ""
+
+msgid "..."
+msgstr ""
+
+msgid "0"
+msgstr ""
+
+msgid ""
+"0 = do not purge relay logs. 1 = purge them as soon as they are no more "
+"needed."
+msgstr ""
+
+msgid ""
+"0- Store as Created, Case Sensitive=0\n"
+"1- Store in Lowercase, Case Insensitive=1\n"
+"2- Store as Created, Case Insensitive=2\n"
+msgstr ""
+
+msgid "00:00:00"
+msgstr ""
+
+msgid "100"
+msgstr ""
+
+msgid "152"
+msgstr ""
+
+msgid "2"
+msgstr ""
+
+msgid "2003-10-08 15:46:50"
+msgstr ""
+
+msgid "23:00"
+msgstr ""
+
+msgid "3"
+msgstr ""
+
+# #-#-#-#-#  ..\bin\Windows\locale\administrator-missing.po  #-#-#-#-#
+# No translations found for these strings.
+msgid "3306"
+msgstr ""
+
+msgid "4096"
+msgstr ""
+
+msgid "4294967295"
+msgstr ""
+
+msgid "50"
+msgstr ""
+
+msgid "64"
+msgstr ""
+
+msgid "<"
+msgstr ""
+
+msgid "<<"
+msgstr ""
+
+msgid ">"
+msgstr ""
+
+msgid ">>"
+msgstr ""
+
+msgid ""
+"A dedicated thread is created to flush all tables at the given interval."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 4
+msgid ""
+"A string to be executed by the server for each client that connects. The "
+"string consists of one or more SQL statements. To specify multiple "
+"statements, separate them by semicolon characters. This variable was added "
+"in MySQL 4.1.2."
+msgstr ""
+
+msgid "ARMSCII-8"
+msgstr ""
+
+msgid "AWE mem Pool Size:"
+msgstr ""
+
+msgid "Activate InnoDB"
+msgstr ""
+
+msgid "Activate Logging"
+msgstr ""
+
+msgid "Add Host from which the user can connect"
+msgstr ""
+
+msgid "Add new user"
+msgstr ""
+
+msgid "Add. mem Pool Size:"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "Advanced Networking"
+msgstr ""
+
+msgid "Advanced Settings"
+msgstr ""
+
+msgid "Advanced log options"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  german.po (Imported text file)  #-#-#-#-#
+#. Row 5
+msgid ""
+"After inserting delayed_insert_limit rows, the INSERT DELAYED handler will "
+"check if there are any SELECT statements pending. If so, it allows these to "
+"execute before continuing."
+msgstr ""
+
+msgid "After this many write locks, allow some read locks to run in between"
+msgstr ""
+
+#. Row 6
+msgid "After this many write locks, allow some read locks to run in between."
+msgstr ""
+
+msgid "Allocation block size for query parsing and execution"
+msgstr ""
+
+msgid "Allocation block size for storing ranges during optimization"
+msgstr ""
+
+msgid "Allocation block size for transactions to be stored in binary log"
+msgstr ""
+
+msgid ""
+"Allow big result sets by saving all temporary sets on file (Solves most "
+"'table full' errors)."
+msgstr ""
+
+msgid ""
+"Allow connections via named pipes (Windows NT+ only). Note: you can specify "
+"a pipe name on the advanced network page, if required."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 7
+msgid "Amount of free memory for query cache."
+msgstr ""
+
+#. Row 8
+msgid "BDB"
+msgstr ""
+
+#. Row 9
+msgid "BDB home directory. The value of the --bdb-home option"
+msgstr ""
+
+#. Row 10
+msgid "BDB log file directory. The value of the --bdb-logdir option."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 11
+msgid "BDB temporary files directory. The value of the --bdb_tmpdir option."
+msgstr ""
+
+msgid "Back log size"
+msgstr ""
+
+msgid "Base directory:"
+msgstr ""
+
+#. Row 12
+msgid "Berkeley DataBase (BDB) version."
+msgstr ""
+
+msgid "Big Tables"
+msgstr ""
+
+msgid "Binary Logfile Name:"
+msgstr ""
+
+msgid ""
+"Binary log will be rotated automatically when the size exceeds this value. "
+"Will also apply to relay logs if max_relay_log_size is 0. The minimum value "
+"for this variable is 4096."
+msgstr ""
+
+msgid "Bind to IP:"
+msgstr ""
+
+msgid "Binlog Options"
+msgstr ""
+
+msgid "Binlog cache size"
+msgstr ""
+
+msgid "Block size to be used for MyISAM index pages."
+msgstr ""
+
+msgid "Block size:"
+msgstr ""
+
+msgid "Buffer Pool Size:"
+msgstr ""
+
+msgid "Buffer length for TCP/IP and socket communication."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 13
+msgid ""
+"Buffer that is allocated to cache index and rows for BDB tables. If you "
+"don't use BDB tables, you should start the MySQL server with --skip-bdb to "
+"not waste memory for this cache."
+msgstr ""
+
+#. Row 14
+msgid "Buffers"
+msgstr ""
+
+msgid "Bulk insert buffer size"
+msgstr ""
+
+msgid "Cache Size"
+msgstr ""
+
+msgid "Cache type"
+msgstr ""
+
+#. Row 15
+msgid "Caches"
+msgstr ""
+
+msgid ""
+"Can be used to restrict the total size used to cache a multi-transaction "
+"query."
+msgstr ""
+
+msgid "Charsets directory:"
+msgstr ""
+
+msgid "Chroot mysqld daemon during startup."
+msgstr ""
+
+msgid "Chroot:"
+msgstr ""
+
+msgid "Client error messages in given language. May be given as a full path."
+msgstr ""
+
+msgid "Clone user"
+msgstr ""
+
+#. Row 16
+msgid "Clos&e"
+msgstr ""
+
+msgid "Command(s) that are executed for each new connection"
+msgstr ""
+
+msgid "Command(s) that are executed when a slave connects to this master"
+msgstr ""
+
+#. Row 17
+msgid "Commands executed"
+msgstr ""
+
+#. Row 18
+msgid ""
+"Common part of the directory path for all InnoDB datafiles. Default is the "
+"MySQL datadir."
+msgstr ""
+
+#. Row 19
+msgid ""
+"Common part of the directory path for all InnoDB datafiles. If you do not "
+"mentioned this option in `my.cnf' the default is the datadir of MySQL. You "
+"can specify this also as an empty string, in which case you can use absolute "
+"file paths in innodb_data_file_path."
+msgstr ""
+
+msgid "Connection Health"
+msgstr ""
+
+msgid "Connection Usage"
+msgstr ""
+
+msgid "Connection timeout"
+msgstr ""
+
+#. Row 20
+msgid "Connections"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 21
+msgid ""
+"Controls the demotion of buffers from the hot sub-chain of a key cache to "
+"the warm sub-chain. Lower values cause demotion to happen more quickly. The "
+"minimum value is 100. The default value is 300. This variable was added in "
+"MySQL 4.1.1."
+msgstr ""
+
+#. Row 22
+msgid "DDL"
+msgstr ""
+
+#. Row 32
+msgid "DML"
+msgstr ""
+
+msgid "Data / Memory size"
+msgstr ""
+
+msgid "Data File Path:"
+msgstr ""
+
+msgid "Data directory:"
+msgstr ""
+
+msgid "Datafiles"
+msgstr ""
+
+msgid "Deactivate show database"
+msgstr ""
+
+msgid "Deactivate thread priority"
+msgstr ""
+
+msgid "Def. Char Set:"
+msgstr ""
+
+msgid "Default Collation:"
+msgstr ""
+
+msgid "Default storage engine:"
+msgstr ""
+
+msgid "Default transaction isolation level"
+msgstr ""
+
+msgid "Default transaction isolation level:"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 23
+msgid "Default value for this is fdatasync. Another option is O_DSYNC."
+msgstr ""
+
+msgid "Default week format:"
+msgstr ""
+
+msgid "Delay key write:"
+msgstr ""
+
+#. Row 24
+msgid "Delayed"
+msgstr ""
+
+msgid "Delete user"
+msgstr ""
+
+msgid "Directories"
+msgstr ""
+
+#. Row 25
+msgid "Directories/Files"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 26
+msgid "Directory for database files. The value of the --datadir option."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 27
+msgid "Directory for temporary files. The value of the --tmpdir option."
+msgstr ""
+
+msgid "Directory path to InnoDB log files."
+msgstr ""
+
+#. Row 28
+msgid ""
+"Directory path to InnoDB log files. The default is the datadir of MySQL."
+msgstr ""
+
+msgid "Directory path where log archives should be stored."
+msgstr ""
+
+#. Row 29
+msgid ""
+"Directory where fully written log files would be archived if log archiving "
+"is used."
+msgstr ""
+
+msgid "Disable caching of host-names"
+msgstr ""
+
+msgid "Disable grant tables"
+msgstr ""
+
+msgid "Disable name resolving"
+msgstr ""
+
+msgid "Disable networking"
+msgstr ""
+
+msgid "Disable stack trace"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 30
+msgid ""
+"Disables (0) / enables (1) automatic purging of relay logs as soon as they "
+"are not needed any more. The default value is 1. This option is available as "
+"of MySQL 4.1.1."
+msgstr ""
+
+msgid "Disallow authentication for accounts that have old (pre-4.1) passwords."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 31
+msgid ""
+"Division point between the hot and warm sub-chains of the key cache buffer "
+"chain. The value is the percentage of the buffer chain to use for the warm "
+"sub-chain. Allowable values range from 1 to 100. The default value is 100. "
+"This variable was added in MySQL 4.1.1."
+msgstr ""
+
+msgid "Do not start slave automaticaly"
+msgstr ""
+
+msgid "Don't allow 'SHOW DATABASE' commands"
+msgstr ""
+
+msgid "Don't allow connections via TCP/IP."
+msgstr ""
+
+msgid "Don't allow creation of heap tables bigger than this."
+msgstr ""
+
+msgid ""
+"Don't allow new user creation by the user who has no write privileges to the "
+"mysql.user table."
+msgstr ""
+
+msgid "Don't cache host names."
+msgstr ""
+
+msgid ""
+"Don't cache or retrieve results=0\n"
+"Cache all queries except SELECT SQL_NO_CACHE=1\n"
+"Cache only SELECT SQL_CACHE queries=2\n"
+msgstr ""
+
+msgid "Don't cache results that are bigger than this."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 33
+msgid "Don't cache results that are bigger than this. (Default 1M). "
+msgstr ""
+
+msgid "Don't give threads different priorities."
+msgstr ""
+
+msgid "Don't log extra information to update and slow-query logs."
+msgstr ""
+
+msgid "Don't print a stack trace on failure"
+msgstr ""
+
+msgid "Don't resolve hostnames. All hostnames are IP's or 'localhost'."
+msgstr ""
+
+#. Row 34
+msgid ""
+"Don't start more than this number of threads to handle INSERT DELAYED "
+"statements."
+msgstr ""
+
+msgid ""
+"Don't start more than this number of threads to handle INSERT DELAYED "
+"statements. If set to zero, which means INSERT DELAYED is not used."
+msgstr ""
+
+msgid ""
+"Don't use the fast sort index method to created index if the temporary file "
+"would get bigger than this."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 35
+msgid ""
+"Each thread that does a sequential scan allocates a buffer of this size for "
+"each table it scans. If you do many sequential scans, you may want to "
+"increase this value."
+msgstr ""
+
+msgid "Each thread that needs to do a sort allocates a buffer of this size."
+msgstr ""
+
+#. Row 36
+msgid ""
+"Each thread that needs to do a sort allocates a buffer of this size. "
+"Increase this value for faster ORDER BY or GROUP BY operations."
+msgstr ""
+
+msgid "Edit Table"
+msgstr ""
+
+msgid "Enable load data local infile"
+msgstr ""
+
+msgid "Enable named pipes"
+msgstr ""
+
+msgid "Enable symbolic link support"
+msgstr ""
+
+msgid "Enable the slave to connect to the master using SSL."
+msgstr ""
+
+msgid "Enable this option only if you would like to use InnoDB tables."
+msgstr ""
+
+msgid "Enable/disable LOAD DATA LOCAL INFILE"
+msgstr ""
+
+msgid "Enter a name for the binary log. Otherwise a default name will be used."
+msgstr ""
+
+msgid ""
+"Enter a name for the error log file. Otherwise a default name will be used."
+msgstr ""
+
+msgid ""
+"Enter a name for the isam logfile. Otherwise a default name will be used."
+msgstr ""
+
+msgid ""
+"Enter a name for the query log file. Otherwise a default name will be used."
+msgstr ""
+
+msgid ""
+"Enter a name for the slow query log. Otherwise a default name will be used."
+msgstr ""
+
+msgid ""
+"Enter a name for the update log file. Otherwise a default name will be used."
+msgstr ""
+
+msgid "Error Logfile Name:"
+msgstr ""
+
+msgid "Expire log days"
+msgstr ""
+
+msgid "Extra sort file size:"
+msgstr ""
+
+msgid "Fast shutdown"
+msgstr ""
+
+#. Row 37
+msgid "Features"
+msgstr ""
+
+#. Row 38
+msgid "Fetching Catalogs/Schemata ..."
+msgstr ""
+
+#. Row 39
+msgid "Fetching Usernames ..."
+msgstr ""
+
+msgid "File IO Threads:"
+msgstr ""
+
+msgid "File that holds the names for last binary log files."
+msgstr ""
+
+msgid "Filename of the index for binary logfiles"
+msgstr ""
+
+msgid "Flush Log at:"
+msgstr ""
+
+msgid "Flush Method:"
+msgstr ""
+
+msgid "Flush tables"
+msgstr ""
+
+msgid "Flush tables to disk between SQL commands."
+msgstr ""
+
+msgid "Flush time"
+msgstr ""
+
+msgid "Force recovery"
+msgstr ""
+
+#. Row 40
+msgid "Full Text Search"
+msgstr ""
+
+msgid "Fulltext search"
+msgstr ""
+
+#. Row 41
+msgid "General"
+msgstr ""
+
+msgid "General Parameters"
+msgstr ""
+
+msgid "General slave"
+msgstr ""
+
+#. Row 42
+msgid "Grants the SELECT privilege to the user."
+msgstr ""
+
+msgid "Group concat max len"
+msgstr ""
+
+msgid "HP-ROMAN8"
+msgstr ""
+
+#. Row 43
+msgid "Handler"
+msgstr ""
+
+msgid "Helps in performance tuning in heavily concurrent environments."
+msgstr ""
+
+msgid ""
+"Helps to save your data in case the disk image of the database becomes "
+"corrupt."
+msgstr ""
+
+msgid "Hitrate"
+msgstr ""
+
+msgid ""
+"Hostname or IP of the slave to be reported to to the master during slave "
+"registration. Will appear in the output of SHOW SLAVE HOSTS. Leave unset if "
+"you do not want the slave to register itself with the master. Note that it "
+"is not sufficient for the master to simply read the IP of the slave off the "
+"socket once the slave connects. Due to NAT and other routing issues, that IP "
+"may not be valid for connecting to the slave from the master or other hosts."
+msgstr ""
+
+msgid ""
+"How long a INSERT DELAYED thread should wait for INSERT statements before "
+"terminating."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  german.po (Imported text file)  #-#-#-#-#
+#. Row 44
+msgid "How many seconds the server has been up."
+msgstr ""
+
+msgid "How many threads we should keep in a cache for reuse."
+msgstr ""
+
+msgid "INSERT/DELETE/UPDATE has lower priority than selects."
+msgstr ""
+
+msgid "IP address to bind to."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 52
+msgid ""
+"If ON (the default), MySQL will allow you to use INSERT on MyISAM tables at "
+"the same time as you run SELECT queries on them."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 45
+msgid ""
+"If a multiple-statement transaction requires more than this amount of "
+"memory, one will get the error \"Multi-statement transaction required more "
+"than 'max_binlog_cache_size' bytes of storage\"."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 46
+msgid ""
+"If a query takes longer than this time (in seconds), the Slow_queries "
+"counter will be incremented."
+msgstr ""
+
+#. Row 47
+msgid ""
+"If a read on a communication port is interrupted, retry as many times as "
+"specified before giving up. This value should be quite high on FreeBSD as "
+"internal interrupts are sent to all threads."
+msgstr ""
+
+msgid ""
+"If a read on a communication port is interrupted, retry this many times "
+"before giving up."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 48
+msgid ""
+"If a write to the binary update log exceeds the given value, rotate the logs."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 49
+msgid ""
+"If a write to the relay log exceeds the given value, rotate the relay log."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  german.po (Imported text file)  #-#-#-#-#
+#. Row 50
+msgid ""
+"If an in-memory temporary table exceeds this size, MySQL will automatically "
+"convert it to an on-disk MyISAM table."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 51
+msgid ""
+"If creating the thread takes longer than this time (in seconds), the "
+"Slow_launch_threads counter will be incremented."
+msgstr ""
+
+msgid ""
+"If creating the thread takes longer than this value (in seconds), the "
+"Slow_launch_threads counter will be incremented."
+msgstr ""
+
+msgid ""
+"If no specific storage engine/table type is defined in an SQL-Create "
+"statement the default type will be used."
+msgstr ""
+
+msgid ""
+"If non-zero: relay log will be rotated automatically when the size exceeds "
+"this value; if zero (the default): when the size exceeds max_binlog_size. 0 "
+"expected, the minimum value for this variable is 4096."
+msgstr ""
+
+msgid ""
+"If set to 0, table and db names are stored with the lettercase specified "
+"during creation and comparisons are case sensitive. If set to 1 table names "
+"are stored in lowercase on disk and table names will be case-insensitive. If "
+"set to 2, names are stored as specified during creation but are compared "
+"case-insensitively (Only works on case-insensitive filesystems, starting "
+"from MySQL 4.1.8)."
+msgstr ""
+
+#. Row 53
+msgid ""
+"If set to 1 table names are stored in lowercase on disk and table name "
+"comparisons will be case-insensitive."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 54
+msgid ""
+"If set to 1, table names are stored in lowercase on disk and table name "
+"comparisons will be case-insensitive. From version 4.0.2, this option also "
+"applies to database names. From 4.1.1 this option also applies to table "
+"alias."
+msgstr ""
+
+msgid "If set, slave is not autostarted."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 55
+msgid ""
+"If the MySQL server has been started with the --secure-auth option, it will "
+"block all connections from users with passwords stored in old (pre-4.1) "
+"format. In that case, the value of the variable is ON, otherwise it is OFF. "
+"Note, that the server start will fail with an error if this option has been "
+"enabled and the privilege tables are in pre-4.1 format. You should enable "
+"this option if you want to prevent all usage  of passwords in old format "
+"(and hence insecure communication over the network). Available as of MySQL "
+"4.1.1."
+msgstr ""
+
+#. Row 56
+msgid ""
+"If the MySQL server uses external locking, this value is ON; otherwise, it's "
+"OFF."
+msgstr ""
+
+#. Row 57
+msgid ""
+"If the temporary file used for fast index creation would be bigger than "
+"using the key cache by the amount specified here, then prefer the key cache "
+"method. This is mainly used to force long character keys in large tables to "
+"use the slower key cache method to create the index. Note that this "
+"parameter is given in megabytes before 4.0.3 and in bytes beginning with "
+"this version."
+msgstr ""
+
+msgid ""
+"If there is more than this number of interrupted connections from a host "
+"this host will be blocked from further connections."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 58
+msgid ""
+"If there is more than this number of interrupted connections from a host "
+"this host will be blocked from further connections. You can unblock a host "
+"with the command FLUSH HOSTS."
+msgstr ""
+
+msgid ""
+"If this is not 0, then mysqld will use this value to reserve file "
+"descriptors to use with setrlimit(). If this value is 0 then mysqld will "
+"reserve max_connections*5 or max_connections + table_cache*2 (whichever is "
+"larger) number of files."
+msgstr ""
+
+#. Row 59
+msgid ""
+"If this is set to a non-zero value, then every flush_time seconds all tables "
+"will be closed (to free up resources and sync unflushed data to disk). We "
+"only recommend this option on Windows 95, 98, or Me, or on systems where you "
+"have very little resources."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 60
+msgid ""
+"If this value is greater than 1, MyISAM table indexes during REPAIR by "
+"sorting process will be created in parallel - each index in its own thread."
+msgstr ""
+
+msgid "Ignore DBs:"
+msgstr ""
+
+msgid "Ignore tables:"
+msgstr ""
+
+msgid "Ignore updates for these databases"
+msgstr ""
+
+msgid "Index Name:"
+msgstr ""
+
+#. Row 61
+msgid ""
+"Indicates how long a INSERT DELAYED thread should wait for INSERT statements "
+"before terminating."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 62
+msgid "Indicates how many threads should be kept in a cache for reuse."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 65
+msgid "Indicates if the MySQL server supports Berkeley DB tables."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 67
+msgid "Indicates if the MySQL server supports InnoDB tables."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 68
+msgid ""
+"Indicates if the MySQL server supports SSL (encryption) on the client/server "
+"protocol."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 66
+msgid "Indicates if the MySQL server supports caching queries."
+msgstr ""
+
+#. Row 69
+msgid "Indicates if the MySQL server supports the RAID option."
+msgstr ""
+
+#. Row 63
+msgid "Indicates if the binary update log is enabled."
+msgstr ""
+
+#. Row 64
+msgid "Indicates if the general query log is enabled."
+msgstr ""
+
+msgid "Indicates if the general query log is enabled._bin"
+msgstr ""
+
+msgid "Indicates if the general query log is enabled._default_week_format"
+msgstr ""
+
+msgid "Indicates if the general query log is enabled._slave_updates"
+msgstr ""
+
+msgid "Indicates if the general query log is enabled._slow_queries"
+msgstr ""
+
+msgid "Indicates if the general query log is enabled._warnings"
+msgstr ""
+
+#. Row 70
+msgid "Indicates if the slow query log is enabled."
+msgstr ""
+
+#. Row 71
+msgid "Indicates if the update log is enabled."
+msgstr ""
+
+#. Row 72
+msgid "Indicates if updates from the slave should be logged."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 73
+msgid ""
+"Indicates what size queue (in rows) should be allocated for handling INSERT "
+"DELAYED. If the queue becomes full, any client that does INSERT DELAYED will "
+"wait until there is room in the queue again."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 74
+msgid ""
+"Indicates whether the MySQL server uses named pipes for local connections "
+"under Windows."
+msgstr ""
+
+msgid "Init connect:"
+msgstr ""
+
+msgid "Initial commands"
+msgstr ""
+
+msgid "Initial replication role"
+msgstr ""
+
+#. Row 75
+msgid "InnoDB"
+msgstr ""
+
+msgid "InnoDB Parameters"
+msgstr ""
+
+msgid ""
+"InnoDB log archive disabled=0\n"
+"InnoDB log archive enabled=1\n"
+msgstr ""
+
+msgid "Insert delayed Limit"
+msgstr ""
+
+msgid "Insert delayed Timeout"
+msgstr ""
+
+msgid "Insert delayed queue size"
+msgstr ""
+
+msgid "Insert delayed settings"
+msgstr ""
+
+msgid "Interactive timeout"
+msgstr ""
+
+#. Row 76
+msgid "Is ON if this server is a slave that is connected to a master."
+msgstr ""
+
+msgid "Isam Logfile Name:"
+msgstr ""
+
+msgid "Join buffer size:"
+msgstr ""
+
+msgid ""
+"Joins that are probably going to read more than max_join_size records return "
+"an error"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 77
+msgid ""
+"Joins that are probably going to read more than max_join_size records return "
+"an error. Set this value if your users tend to perform joins that lack a "
+"WHERE clause, that take a long time, and that return millions of rows."
+msgstr ""
+
+msgid "KOI8-R"
+msgstr ""
+
+msgid "KOI8-U"
+msgstr ""
+
+msgid "Key Efficiency"
+msgstr ""
+
+msgid "Key buffer"
+msgstr ""
+
+msgid "Key buffer size"
+msgstr ""
+
+msgid "Key buffer usage"
+msgstr ""
+
+msgid "Key buffer:"
+msgstr ""
+
+msgid "Key cache block size"
+msgstr ""
+
+msgid "Key cache division age treshold"
+msgstr ""
+
+msgid "Key cache division limit"
+msgstr ""
+
+#. Row 78
+msgid "Keys"
+msgstr ""
+
+#. Row 79
+msgid ""
+"Keys blocks in the key cache that has changed but hasn't yet been flushed to "
+"disk. "
+msgstr ""
+
+#. Row 80
+msgid "Language used for error messages."
+msgstr ""
+
+msgid "Limit assumed max number of seeks when looking up rows based on a key"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 81
+msgid "List of operators supported by MATCH ... AGAINST(... IN BOOLEAN MODE)."
+msgstr ""
+
+msgid "Localization"
+msgstr ""
+
+msgid "Lock Wait Timeout:"
+msgstr ""
+
+msgid "Lock mysqld in memory.(=Don't swap.)"
+msgstr ""
+
+#. Row 82
+msgid "Locks"
+msgstr ""
+
+msgid "Log Archive Dir:"
+msgstr ""
+
+msgid "Log Buffer Size:"
+msgstr ""
+
+msgid "Log File Size:"
+msgstr ""
+
+msgid "Log Files in Group:"
+msgstr ""
+
+msgid "Log Group Dir:"
+msgstr ""
+
+msgid ""
+"Log all queries that have taken more than long_query_time seconds to execute "
+"to file."
+msgstr ""
+
+msgid "Log archive"
+msgstr ""
+
+msgid "Log files"
+msgstr ""
+
+msgid "Log only in short format"
+msgstr ""
+
+msgid "Log queries that are executed without benefit of any index."
+msgstr ""
+
+msgid "Log queries that don't use indexes"
+msgstr ""
+
+msgid "Log slave updates"
+msgstr ""
+
+msgid "Log some not critical warnings to the log file."
+msgstr ""
+
+msgid "Log updates for these databases only"
+msgstr ""
+
+msgid "Log warnings"
+msgstr ""
+
+msgid "Logfiles"
+msgstr ""
+
+#. Row 83
+msgid "Logs"
+msgstr ""
+
+msgid "Logs will be rotated after expire-log-days days"
+msgstr ""
+
+msgid "Long query time"
+msgstr ""
+
+msgid "Low priority updates"
+msgstr ""
+
+msgid "MS Sans Serif"
+msgstr ""
+
+msgid "MS Shell Dlg 2"
+msgstr ""
+
+msgid "Make all tables read-only"
+msgstr ""
+
+msgid ""
+"Make all tables read-only, with the exception of replication (slave) threads "
+"and users with the SUPER privilege."
+msgstr ""
+
+msgid "Make table names case insensitive"
+msgstr ""
+
+#. Row 84
+msgid ""
+"Makes InnoDB store each created table in its own `.ibd' file (multiple "
+"tablespaces)."
+msgstr ""
+
+msgid "Master"
+msgstr ""
+
+msgid "Master SSL CA file. Only applies if you have enabled master-ssl."
+msgstr ""
+
+msgid "Master SSL CA filename:"
+msgstr ""
+
+msgid "Master SSL CA path. Only applies if you have enabled master-ssl."
+msgstr ""
+
+msgid "Master SSL CA-path:"
+msgstr ""
+
+msgid "Master SSL Certificate filename:"
+msgstr ""
+
+msgid "Master SSL Cipher:"
+msgstr ""
+
+msgid "Master SSL Key:"
+msgstr ""
+
+msgid ""
+"Master SSL certificate file name. Only applies if you have enabled master-ssl"
+msgstr ""
+
+msgid "Master SSL cipher. Only applies if you have enabled master-ssl."
+msgstr ""
+
+msgid "Master SSL keyfile name. Only applies if you have enabled master-ssl."
+msgstr ""
+
+msgid "Master Username:"
+msgstr ""
+
+msgid "Master connect retry"
+msgstr ""
+
+msgid ""
+"Master hostname or IP address for replication. If not set, the slave thread "
+"will not be started. Note that the setting of master-host will be ignored if "
+"there exists a valid master.info file."
+msgstr ""
+
+msgid "Master hostname:"
+msgstr ""
+
+msgid "Master info file name:"
+msgstr ""
+
+msgid "Master password:"
+msgstr ""
+
+msgid "Master port"
+msgstr ""
+
+msgid "Master retry count"
+msgstr ""
+
+msgid "Master ssl"
+msgstr ""
+
+msgid "Max Conn Errors:"
+msgstr ""
+
+msgid "Max Conn per User:"
+msgstr ""
+
+msgid "Max Connections:"
+msgstr ""
+
+msgid "Max Dirty Pages"
+msgstr ""
+
+msgid "Max heap table size"
+msgstr ""
+
+msgid "Max join size"
+msgstr ""
+
+msgid "Max length for sort data"
+msgstr ""
+
+msgid "Max number of bytes in sorted records."
+msgstr ""
+
+msgid "Max number of errors/warnings to store for a statement."
+msgstr ""
+
+msgid "Max packetlength to send/receive from to server."
+msgstr ""
+
+msgid "Max seeks for key"
+msgstr ""
+
+msgid "Max sort file size:"
+msgstr ""
+
+msgid "Max sort length"
+msgstr ""
+
+msgid "Max temporary tables:"
+msgstr ""
+
+msgid "Max write lock count"
+msgstr ""
+
+msgid "Max. packet size:"
+msgstr ""
+
+msgid "Maximum Threads"
+msgstr ""
+
+msgid "Maximum binary log size"
+msgstr ""
+
+msgid "Maximum binlog cache size:"
+msgstr ""
+
+msgid "Maximum error count"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 85
+msgid "Maximum length of a word to be included in a FULLTEXT index."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 86
+msgid "Maximum number of active connections for a single user (0 = no limit)."
+msgstr ""
+
+#. Row 87
+msgid "Maximum number of connections in use simultaneously."
+msgstr ""
+
+msgid "Maximum number of temporary tables a client can keep open at a time."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 88
+msgid ""
+"Maximum number of temporary tables a client can keep open at the same time."
+msgstr ""
+
+msgid "Maximum relay log size"
+msgstr ""
+
+msgid "Maximum size for all relay logs together:"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 89
+msgid ""
+"Maximum size of one packet. The message buffer is initialized to "
+"net_buffer_length bytes, but can grow up to max_allowed_packet bytes when "
+"needed."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 90
+msgid ""
+"Maximum size of the temporary file MySQL is allowed to use while recreating "
+"the index (during REPAIR, ALTER TABLE or LOAD DATA INFILE. If the file-size "
+"would be bigger than this, the index will be created through the key cache "
+"(which is slower). Note that this parameter is given in megabytes before "
+"4.0.3 and in bytes beginning with this version."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 91
+msgid ""
+"Maximum size to which subsequently created HEAP tables are allowed to grow. "
+"The value of this variable is used to calculate a HEAP table's MAX_ROWS "
+"value. Setting this variable has no effect on any existing HEAP table, "
+"unless the table is recreated with a statement such as CREATE TABLE or "
+"TRUNCATE TABLE, or altered with ALTER TABLE."
+msgstr ""
+
+msgid "Maximum space to use for all relay logs."
+msgstr ""
+
+msgid "Maximum word length:"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 92
+msgid "Memory"
+msgstr ""
+
+msgid "Memory Health"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 93
+msgid ""
+"Memory allocated to store results from old queries. If this is 0, the query "
+"cache is disabled (default)."
+msgstr ""
+
+msgid "Memory lock"
+msgstr ""
+
+msgid "Memory usage"
+msgstr ""
+
+msgid "Method used for flushing the log files to disk."
+msgstr ""
+
+msgid "Minimal size of result unit"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 94
+msgid "Minimum length of a word to be included in a FULLTEXT index."
+msgstr ""
+
+msgid "Minimum word length:"
+msgstr ""
+
+msgid "Mirrored Log Groups:"
+msgstr ""
+
+#. Row 95
+msgid "Miscellaneous"
+msgstr ""
+
+#. Row 96
+msgid "MyISAM"
+msgstr ""
+
+msgid "MyISAM Parameters"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 97
+msgid ""
+"MyISAM uses special tree-like cache to make bulk inserts (that is, "
+"INSERT ... SELECT, INSERT ... VALUES (...), (...), (...), and LOAD DATA "
+"INFILE) faster. This variable limits the size of the cache tree in bytes per "
+"thread. Setting it to 0 will disable this optimization. Note: This cache is "
+"only used when adding data to a non-empty table. Default value is 8 MB."
+msgstr ""
+
+msgid "MyIsam Sort buffer size:"
+msgstr ""
+
+msgid ""
+"MyIsam=myisam\n"
+"InnoDB=innodb\n"
+"BDB=bdb\n"
+"Heap=heap\n"
+msgstr ""
+
+msgid ""
+"MyIsam=myisam\n"
+"InnoDB=innodb\n"
+"Falcon=falcon\n"
+"BDB=bdb\n"
+"Heap=heap\n"
+msgstr ""
+
+#. Row 98
+msgid "MySQL installation directory. Value of the --basedir option."
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+#. Row 99
+msgid "Name of the error log file."
+msgstr ""
+
+msgid "Name of the socket file (Unix) or named pipe (Windows) to use."
+msgstr ""
+
+msgid "Naming"
+msgstr ""
+
+msgid "Net buffer length"
+msgstr ""
+
+#. Row 100
+msgid "Networking"
+msgstr ""
+
+msgid "Neue Variable"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  german.po (Imported text file)  #-#-#-#-#
+#. Row 101
+msgid "No description available."
+msgstr ""
+
+msgid "No description available._base_name"
+msgstr ""
+
+msgid "No description available._before_date"
+msgstr ""
+
+msgid "Node"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 102
+msgid ""
+"Normally you set this to 1, meaning that at a transaction commit, the log is "
+"flushed to disk, and the modifications made by the transaction become "
+"permanent, and survive a database crash. If you are willing to compromise "
+"this safety, and you are running small transactions, you may set this to 0 "
+"or 2 to reduce disk I/O to the logs. Value 0 means that the log is only "
+"written to the log file and the log file flushed to disk approximately once "
+"per second. Value 2 means the log is written to the log file at each commit, "
+"but the log file is only flushed to disk approximately once per second. The "
+"default value is 1 starting from MySQL-4.0.13; previously it was 0."
+msgstr ""
+
+#. Row 103
+msgid "Number of ALTER DATABASE commands since server start."
+msgstr ""
+
+#. Row 104
+msgid "Number of ALTER TABLE commands since server start."
+msgstr ""
+
+#. Row 105
+msgid "Number of ANALYZE TABLE commands performed since server start."
+msgstr ""
+
+#. Row 106
+msgid "Number of BACKUP TABLE commands performed since server start."
+msgstr ""
+
+#. Row 107
+msgid "Number of BEGIN transactional commands performed since server start."
+msgstr ""
+
+#. Row 111
+msgid ""
+"Number of CHANGE MASTER TO replication commands performed since server start."
+msgstr ""
+
+#. Row 112
+msgid "Number of CHECK TABLE commands performed since server start."
+msgstr ""
+
+msgid "Number of CHECK TABLE commands performed since server start.sum"
+msgstr ""
+
+#. Row 113
+msgid "Number of COMMIT transactional commands since server start."
+msgstr ""
+
+#. Row 116
+msgid "Number of CREATE DB commands since server start."
+msgstr ""
+
+#. Row 117
+msgid "Number of CREATE INDEX commands since server start."
+msgstr ""
+
+#. Row 118
+msgid "Number of CREATE TABLE commands since server start."
+msgstr ""
+
+#. Row 121
+msgid "Number of DELETE commands since server start."
+msgstr ""
+
+msgid "Number of DELETE commands since server start._multi"
+msgstr ""
+
+#. Row 122
+msgid ""
+"Number of DELETE commands with more than one table involved since server "
+"start."
+msgstr ""
+
+#. Row 123
+msgid "Number of DO commands performed since server start."
+msgstr ""
+
+#. Row 124
+msgid "Number of DROP DATABASE commands since server start."
+msgstr ""
+
+#. Row 125
+msgid "Number of DROP FUNCTION commands since server start."
+msgstr ""
+
+#. Row 126
+msgid "Number of DROP INDEX commands since server start."
+msgstr ""
+
+#. Row 127
+msgid "Number of DROP TABLE commands since server start."
+msgstr ""
+
+#. Row 128
+msgid "Number of DROP USER commands performed since server start."
+msgstr ""
+
+#. Row 132
+msgid "Number of FLUSH (LOGS, PRIVILEGES, etc.) commands since server start."
+msgstr ""
+
+#. Row 134
+msgid "Number of GRANT &lt;privileges&gt; commands since server start."
+msgstr ""
+
+msgid "Number of GRANT <privileges> commands since server start."
+msgstr ""
+
+#. Row 135
+msgid "Number of HELP commands since server start."
+msgstr ""
+
+#. Row 139
+msgid ""
+"Number of INSERT ... SELECT FROM &lt;tbl&gt; commands since server start."
+msgstr ""
+
+#. Row 140
+msgid "Number of INSERT commands since server start."
+msgstr ""
+
+msgid "Number of INSERT commands since server start._select"
+msgstr ""
+
+#. Row 148
+msgid "Number of KILL &lt;connection_id&gt; commands since server start."
+msgstr ""
+
+msgid "Number of KILL <connection_id> commands since server start."
+msgstr ""
+
+#. Row 149
+msgid ""
+"Number of LOAD DATA FROM MASTER replication commands since server start."
+msgstr ""
+
+#. Row 150
+msgid "Number of LOAD DATA INFILE commands since server start."
+msgstr ""
+
+msgid "Number of LOAD DATA INFILE commands since server start._master_data"
+msgstr ""
+
+msgid "Number of LOAD DATA INFILE commands since server start._master_table"
+msgstr ""
+
+#. Row 151
+msgid ""
+"Number of LOAD TABLE FROM MASTER replication commands since server start."
+msgstr ""
+
+#. Row 152
+msgid "Number of LOCK TABLES commands since server start."
+msgstr ""
+
+#. Row 157
+msgid "Number of OPTIMIZE TABLE commands since server start."
+msgstr ""
+
+#. Row 165
+msgid "Number of RENAME TABLE commands since server start."
+msgstr ""
+
+#. Row 166
+msgid "Number of REPAIR TABLE commands since server start."
+msgstr ""
+
+#. Row 167
+msgid ""
+"Number of REPLACE ... SELECT FROM &lt;tbl&gt; commands since server start."
+msgstr ""
+
+#. Row 168
+msgid "Number of REPLACE commands since server start."
+msgstr ""
+
+msgid "Number of REPLACE commands since server start._select"
+msgstr ""
+
+#. Row 177
+msgid ""
+"Number of RESET (MASTER | SLAVE) replication commands since server start."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 178
+msgid ""
+"Number of RESTORE TABLE commands since server start (regardless whether or "
+"not those were successful)."
+msgstr ""
+
+#. Row 179
+msgid "Number of REVOKE &lt;privileges&gt; commands since server start."
+msgstr ""
+
+msgid "Number of REVOKE <privileges> commands since server start."
+msgstr ""
+
+msgid "Number of REVOKE <privileges> commands since server start._all"
+msgstr ""
+
+#. Row 180
+msgid "Number of ROLLBACK transactional commands since server start."
+msgstr ""
+
+#. Row 191
+msgid "Number of SELECT commands since server start."
+msgstr ""
+
+#. Row 192
+msgid "Number of SET (GLOBAL | LOCAL) VARIABLE commands since server start."
+msgstr ""
+
+#. Row 193
+msgid ""
+"Number of SHOW (FIELDS | COLUMNS) FROM &lt;tbl&gt; or DESCRIBE &lt;tbl&gt; "
+"commands since server start."
+msgstr ""
+
+msgid ""
+"Number of SHOW (FIELDS | COLUMNS) FROM <tbl> or DESCRIBE <tbl> commands "
+"since server start."
+msgstr ""
+
+#. Row 194
+msgid "Number of SHOW (INDEX | KEYS) commands since server start."
+msgstr ""
+
+#. Row 195
+msgid "Number of SHOW BINLOG EVENTS commands since server start."
+msgstr ""
+
+#. Row 196
+msgid "Number of SHOW CHARACTER SET commands since server start."
+msgstr ""
+
+#. Row 197
+msgid "Number of SHOW COLLATION commands since server start."
+msgstr ""
+
+#. Row 198
+msgid "Number of SHOW CREATE DATABASE commands since server start."
+msgstr ""
+
+#. Row 199
+msgid "Number of SHOW CREATE TABLE commands since server start."
+msgstr ""
+
+#. Row 200
+msgid "Number of SHOW DATABASES commands since server start."
+msgstr ""
+
+#. Row 201
+msgid "Number of SHOW ERRORS commands since server start."
+msgstr ""
+
+#. Row 202
+msgid "Number of SHOW GRANTS commands since server start."
+msgstr ""
+
+#. Row 203
+msgid "Number of SHOW INNODB STATUS commands since server start."
+msgstr ""
+
+#. Row 204
+msgid "Number of SHOW LOGS commands since server start."
+msgstr ""
+
+#. Row 205
+msgid "Number of SHOW MASTER STATUS replication commands since server start."
+msgstr ""
+
+#. Row 206
+msgid "Number of SHOW OPEN TABLES commands since server start."
+msgstr ""
+
+#. Row 207
+msgid "Number of SHOW PRIVILEGES commands since server start."
+msgstr ""
+
+#. Row 208
+msgid "Number of SHOW PROCESSLIST commands since server start."
+msgstr ""
+
+#. Row 209
+msgid "Number of SHOW SLAVE HOSTS replication commands since server start."
+msgstr ""
+
+#. Row 210
+msgid "Number of SHOW SLAVE STATUS replication commands since server start."
+msgstr ""
+
+#. Row 211
+msgid "Number of SHOW STATUS commands since server start."
+msgstr ""
+
+#. Row 212
+msgid "Number of SHOW STORAGE ENGINES commands since server start."
+msgstr ""
+
+#. Row 213
+msgid "Number of SHOW TABLES commands since server start."
+msgstr ""
+
+#. Row 214
+msgid "Number of SHOW VARIABLES commands since server start."
+msgstr ""
+
+#. Row 215
+msgid "Number of SHOW WARNINGS commands since server start."
+msgstr ""
+
+msgid "Number of SQL Queries"
+msgstr ""
+
+#. Row 220
+msgid "Number of START SLAVE replication commands since server start."
+msgstr ""
+
+#. Row 221
+msgid "Number of STOP SLAVE replication commands since server start."
+msgstr ""
+
+#. Row 237
+msgid "Number of TRUNCATE TABLE commands since server start."
+msgstr ""
+
+#. Row 238
+msgid "Number of UNLOCK TABLES commands since server start."
+msgstr ""
+
+#. Row 239
+msgid "Number of UPDATE commands since server start."
+msgstr ""
+
+msgid "Number of UPDATE commands since server start._multi"
+msgstr ""
+
+#. Row 240
+msgid ""
+"Number of USE &lt;database&gt; commands performed that actually changed the "
+"default database, since server start."
+msgstr ""
+
+msgid ""
+"Number of USE <database> commands performed that actually changed the "
+"default database, since server start."
+msgstr ""
+
+msgid "Number of best matches to use for query expansion."
+msgstr ""
+
+#. Row 108
+msgid "Number of bytes received from all clients."
+msgstr ""
+
+#. Row 109
+msgid "Number of bytes sent to all clients."
+msgstr ""
+
+#. Row 110
+msgid ""
+"Number of bytes to use when sorting BLOB or TEXT values. Only the first "
+"max_sort_length bytes of each value are used; the rest are ignored."
+msgstr ""
+
+#. Row 114
+msgid "Number of connection attempts to the MySQL server."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 115
+msgid ""
+"Number of connections aborted because the client died without closing the "
+"connection properly."
+msgstr ""
+
+#. Row 119
+msgid "Number of currently open connections."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 120
+msgid "Number of delayed insert handler threads in use."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  german.po (Imported text file)  #-#-#-#-#
+#. Row 129
+msgid ""
+"Number of file I/O threads in InnoDB. Normally, this should be 4, but on "
+"Windows disk I/O may benefit from a larger number."
+msgstr ""
+
+#. Row 130
+msgid "Number of files that are open."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 131
+msgid "Number of files the system allows the MySQL server to open."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 133
+msgid "Number of free memory blocks in query cache."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 136
+msgid ""
+"Number of identical copies of log groups that are kept for the database. "
+"Currently this should be set to 1."
+msgstr ""
+
+msgid ""
+"Number of identical copies of log groups we keep for the database. Currently "
+"this should be set to 1."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 137
+msgid ""
+"Number of implicit temporary tables in memory created while executing "
+"statements."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 138
+msgid ""
+"Number of implicit temporary tables on disk created while executing "
+"statements."
+msgstr ""
+
+#. Row 141
+msgid "Number of internal COMMIT commands."
+msgstr ""
+
+#. Row 142
+msgid "Number of internal ROLLBACK commands."
+msgstr ""
+
+#. Row 143
+msgid "Number of joins where a full scan of the first table was done."
+msgstr ""
+
+#. Row 144
+msgid "Number of joins where a range search on the reference table was used."
+msgstr ""
+
+#. Row 145
+msgid ""
+"Number of joins where ranges on the first table were used. It's normally not "
+"critical even if this is big."
+msgstr ""
+
+msgid ""
+"Number of joins where ranges on the first table were used. It's normally not "
+"critical even if this is big._check"
+msgstr ""
+
+#. Row 146
+msgid ""
+"Number of joins without keys where we check for key usage after each row. If "
+"this is not 0, you should carefully check the indexes of your tables."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 147
+msgid ""
+"Number of joins without keys. If this is not 0, you should carefully check "
+"the indexes of your tables."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  german.po (Imported text file)  #-#-#-#-#
+#. Row 153
+msgid ""
+"Number of log files in the log group. InnoDB writes to the files in a "
+"circular fashion. Value 2 is recommended here. The default is 2."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 154
+msgid ""
+"Number of merge passes the sort algorithm have had to do. If this value is "
+"large you should consider increasing sort_buffer."
+msgstr ""
+
+#. Row 155
+msgid ""
+"Number of non-cached queries (not cachable, or due to QUERY_CACHE_TYPE)."
+msgstr ""
+
+#. Row 156
+msgid ""
+"Number of open tables for all threads. Increasing this value increases the "
+"number of file descriptors that the MySQL server requires. You can check if "
+"you need to increase the table cache by checking the Opened_tables variable."
+msgstr ""
+
+#. Row 158
+msgid "Number of outstanding connection requests MySQL can have."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 159
+msgid "Number of queries added to the query cache."
+msgstr ""
+
+#. Row 160
+msgid "Number of queries registered in the query cache."
+msgstr ""
+
+#. Row 161
+msgid "Number of queries sent to the server."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 162
+msgid "Number of queries that have taken more than long_query_time seconds."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 163
+msgid ""
+"Number of queries that were deleted from query cache because of low memory. "
+msgstr ""
+
+#. Row 164
+msgid "Number of query cache hits."
+msgstr ""
+
+msgid "Number of repair threads:"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 169
+msgid "Number of requests to insert a row in a table."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 170
+msgid "Number of requests to read a key block from the cache."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 171
+msgid ""
+"Number of requests to read a row based on a fixed position. This will be "
+"high if you are doing a lot of queries that require sorting of the result."
+msgstr ""
+
+msgid ""
+"Number of requests to read a row based on a fixed position. This will be "
+"high if you are doing a lot of queries that require sorting of the result."
+"_next"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 172
+msgid ""
+"Number of requests to read a row based on a key. If this is high, it is a "
+"good indication that your queries and tables are properly indexed."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 173
+msgid ""
+"Number of requests to read next row in key order. This will be incremented "
+"if you are querying an index column with a range constraint. This also will "
+"be incremented if you are doing an index scan."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 174
+msgid ""
+"Number of requests to read previous row in key order. This is mainly used to "
+"optimize ORDER BY ... DESC."
+msgstr ""
+
+#. Row 175
+msgid ""
+"Number of requests to read the next row in the datafile. This will be high "
+"if you are doing a lot of table scans. Generally this suggests that your "
+"tables are not properly indexed or that your queries are not written to take "
+"advantage of the indexes you have. "
+msgstr ""
+
+#. Row 176
+msgid "Number of requests to update a row in a table."
+msgstr ""
+
+#. Row 181
+msgid "Number of rows waiting to be written in INSERT DELAY queues."
+msgstr ""
+
+#. Row 182
+msgid ""
+"Number of rows written with INSERT DELAYED for which some error occurred "
+"(probably duplicate key)."
+msgstr ""
+
+#. Row 183
+msgid "Number of rows written with INSERT DELAYED."
+msgstr ""
+
+#. Row 184
+msgid ""
+"Number of seconds the MySQL server is waiting for a connect packet before "
+"responding with \"Bad handshake\"."
+msgstr ""
+
+#. Row 185
+msgid ""
+"Number of seconds the MySQL server waits for activity on a not interactive "
+"connection before closing it."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 186
+msgid ""
+"Number of seconds the server waits for activity on a not interactive "
+"connection before closing it."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 187
+msgid ""
+"Number of seconds the server waits for activity on an interactive connection "
+"before closing it. An interactive client is defined as a client that uses "
+"the CLIENT_INTERACTIVE option to mysql_real_connect()."
+msgstr ""
+
+msgid ""
+"Number of seconds to wait for a block to be written to a connection  before "
+"aborting the writ"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 188
+msgid ""
+"Number of seconds to wait for a block to be written to a connection before "
+"aborting the write."
+msgstr ""
+
+msgid ""
+"Number of seconds to wait for more data from a connection before aborting "
+"the read"
+msgstr ""
+
+#. Row 189
+msgid ""
+"Number of seconds to wait for more data from a connection before aborting "
+"the read. Note that when the MySQL server doesn't expect data from a "
+"connection, the timeout is defined by write_timeout."
+msgstr ""
+
+msgid ""
+"Number of seconds to wait for more data from a master/slave connection "
+"before aborting the read"
+msgstr ""
+
+#. Row 190
+msgid ""
+"Number of seconds to wait for more data from a master/slave connection "
+"before aborting the read."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 216
+msgid ""
+"Number of simultaneous clients allowed. Increasing this value increases the "
+"number of file descriptors that MySQL server requires."
+msgstr ""
+
+#. Row 217
+msgid "Number of sorted rows."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 218
+msgid "Number of sorts that were done by scanning the table."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 219
+msgid "Number of sorts that were done with ranges."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  german.po (Imported text file)  #-#-#-#-#
+#. Row 222
+msgid "Number of streams that are open (used mainly for logging)."
+msgstr ""
+
+#. Row 223
+msgid "Number of tables that are currently open."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  german.po (Imported text file)  #-#-#-#-#
+#. Row 224
+msgid "Number of tables that have been opened since server start."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 225
+msgid "Number of temporary files the MySQL server has created."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 226
+msgid "Number of temporary tables currently open by the slave thread."
+msgstr ""
+
+#. Row 227
+msgid "Number of threads created to handle connections."
+msgstr ""
+
+#. Row 228
+msgid "Number of threads in the thread cache."
+msgstr ""
+
+#. Row 229
+msgid "Number of threads that are not sleeping."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 230
+msgid "Number of threads that have taken more than slow_launch_time to create."
+msgstr ""
+
+msgid ""
+"Number of threads to use when repairing MyISAM tables.The value of 1 "
+"disables parallel repair."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 231
+msgid "Number of times a row was deleted from a table."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 232
+msgid ""
+"Number of times a table lock could not be acquired immediately and a wait "
+"was needed. If this is high, and you have performance problems, you should "
+"first optimize your queries, and then either split your table or tables or "
+"use replication."
+msgstr ""
+
+#. Row 233
+msgid "Number of times a table lock was acquired immediately."
+msgstr ""
+
+#. Row 234
+msgid ""
+"Number of times the first entry was read from an index. If this is high, it "
+"suggests that the server is doing a lot of full index scans, for example, "
+"SELECT col1 FROM foo, assuming that col1 is indexed."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 235
+msgid ""
+"Number of top matches to use for query expansion (in MATCH ... AGAINST (... "
+"WITH QUERY EXPANSION). This variable is available as of MySQL 4.1.1."
+msgstr ""
+
+#. Row 236
+msgid "Number of tries to connect to the MySQL server that failed."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 241
+msgid "Number of used blocks in the key cache."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 242
+msgid "ON if the MySQL server allows local connections only."
+msgstr ""
+
+#. Row 243
+msgid "ON if you have started the MySQL server with the --flush option."
+msgstr ""
+
+msgid "ON if you have started the MySQL server with the --flush option._time"
+msgstr ""
+
+msgid "Old rpl compat"
+msgstr ""
+
+msgid "One File per Table"
+msgstr ""
+
+msgid "Open Files:"
+msgstr ""
+
+msgid "Open files limit"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 244
+msgid ""
+"Option for MyISAM tables. Can have one of the following values: ON, OFF, ALL."
+msgstr ""
+
+#. Row 248
+msgid ""
+"PID file of the MySQL server process. The value of the --pid-file option."
+msgstr ""
+
+msgid ""
+"Path to installation directory. All paths are usually resolved relative to "
+"this."
+msgstr ""
+
+msgid "Path to the character-sets directory."
+msgstr ""
+
+msgid "Path to the database root"
+msgstr ""
+
+msgid "Path to the temporary directory."
+msgstr ""
+
+#. Row 245
+msgid ""
+"Paths to individual datafiles and their sizes. The full directory path to "
+"each datafile is acquired by concatenating innodb_data_home_dir to the paths "
+"specified here. The file sizes are specified in megabytes, hence the 'M' "
+"after the size specification above. InnoDB also understands the abbreviation "
+"'G', 1 G meaning 1024 MB. Starting from 3.23.44 you can set the file-size "
+"bigger than 4 GB on those operating systems which support big files. On some "
+"operating systems files must be &lt; 2 GB. If you do not specify "
+"innodb_data_file_path, the default behavior starting from 4.0 is to create a "
+"10 MB auto-extending datafile `ibdata1'. The sum of the sizes of the files "
+"must be at least 10 MB."
+msgstr ""
+
+msgid "Percentage of dirty pages allowed in bufferpool"
+msgstr ""
+
+#. Row 246
+msgid "Performance"
+msgstr ""
+
+msgid ""
+"Permits the application to give the threads system a hint for the desired "
+"number of threads that should be run at the same time"
+msgstr ""
+
+msgid "Persistent buffer for query parsing and execution"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 247
+msgid ""
+"Persistent buffer for transaction_alloc_blocks that is not freed between "
+"queries. By making this big enough to fit all queries in a common "
+"transaction you can avoid a lot of malloc() calls. This variable was added "
+"in MySQL 4.0.16."
+msgstr ""
+
+msgid "Persistent buffer for transactions to be stored in binary log"
+msgstr ""
+
+msgid ""
+"Port for connecting to slave reported to the master during slave "
+"registration. Set it only if the slave is listening on a non-default port or "
+"if you have a special tunnel from the master or other clients to the slave. "
+"If not sure, leave this option unset."
+msgstr ""
+
+msgid "Port number to use for connections."
+msgstr ""
+
+#. Row 249
+msgid "Port on which the MySQL server listens. Value of the --port option."
+msgstr ""
+
+msgid "Preload buffer size"
+msgstr ""
+
+msgid "Print a symbolic stack trace on failure."
+msgstr ""
+
+msgid "Print stack trace"
+msgstr ""
+
+#. Row 250
+msgid "Protocol version used by the MySQL server."
+msgstr ""
+
+msgid "Purge relay logs"
+msgstr ""
+
+msgid "Query Cache Hitrate"
+msgstr ""
+
+msgid "Query Logfile Name:"
+msgstr ""
+
+msgid "Query alloc block size:"
+msgstr ""
+
+#. Row 251
+msgid "Query cache"
+msgstr ""
+
+msgid "Query cache limit"
+msgstr ""
+
+msgid "Query cache type to use."
+msgstr ""
+
+msgid "Query expansion limit:"
+msgstr ""
+
+msgid "Query prealloc size"
+msgstr ""
+
+msgid ""
+"READ-UNCOMMITTED=READ-UNCOMMITTED\n"
+"READ-COMMITTED=READ-COMMITTED\n"
+"REPEATABLE-READ=REPEATABLE-READ\n"
+"SERIALIZABLE=SERIALIZABLE\n"
+msgstr ""
+
+msgid "Range alloc block size"
+msgstr ""
+
+msgid "Read buffer size"
+msgstr ""
+
+msgid "Read rnd buffer size"
+msgstr ""
+
+msgid "Read timeout"
+msgstr ""
+
+msgid "Relay Log"
+msgstr ""
+
+msgid "Relay log filename:"
+msgstr ""
+
+msgid "Relay log index filename:"
+msgstr ""
+
+msgid "Relay log info filename:"
+msgstr ""
+
+msgid "Remove host from which the user can connect"
+msgstr ""
+
+msgid "Replicate these databases:"
+msgstr ""
+
+msgid "Replicate these tables:"
+msgstr ""
+
+msgid "Replicate wild these tables:"
+msgstr ""
+
+#. Row 252
+msgid "Replication"
+msgstr ""
+
+msgid "Report Host:"
+msgstr ""
+
+msgid "Report Password:"
+msgstr ""
+
+msgid "Report Port"
+msgstr ""
+
+msgid "Report User:"
+msgstr ""
+
+msgid "Retry count:"
+msgstr ""
+
+msgid "Rewrite DB names:"
+msgstr ""
+
+msgid "Run as User:"
+msgstr ""
+
+msgid "Run mysqld daemon as user."
+msgstr ""
+
+#. Row 253
+msgid "SELECT"
+msgstr ""
+
+#. Row 270
+msgid "SQL"
+msgstr ""
+
+msgid "SQL Mode:"
+msgstr ""
+
+msgid "Safe User Create"
+msgstr ""
+
+msgid "Secure authentication"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+#. Row 254
+msgid "Selects"
+msgstr ""
+
+msgid "Server Id"
+msgstr ""
+
+msgid "Set the default character set."
+msgstr ""
+
+msgid "Set the default collation."
+msgstr ""
+
+msgid "Set the replication role"
+msgstr ""
+
+msgid "Set up for GDB"
+msgstr ""
+
+msgid "Set up signals usable for debugging"
+msgstr ""
+
+#. Row 255
+msgid "Show"
+msgstr ""
+
+msgid "Show Slave authentication Info"
+msgstr ""
+
+msgid "Show user and password in SHOW SLAVE HOSTS"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 256
+msgid ""
+"Size in bytes of blocks in the key buffer. The default value is 1024. This "
+"variable was added in MySQL 4.1.1. "
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  german.po (Imported text file)  #-#-#-#-#
+#. Row 257
+msgid ""
+"Size of a memory pool InnoDB uses to store data dictionary information and "
+"other internal data structures. A sensible value for this might be 2M, but "
+"the more tables you have in your application the more you will need to "
+"allocate here. If InnoDB runs out of memory in this pool, it will start to "
+"allocate memory from the operating system, and write warning messages to the "
+"MySQL error log."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 258
+msgid ""
+"Size of blocks that are allocated when doing range optimization. This "
+"variable was added in MySQL 4.0.16."
+msgstr ""
+
+msgid ""
+"Size of each log file in a log group in megabytes. Sensible values range "
+"from 1M to 1/n-th of the size of the buffer pool specified below, where n is "
+"the number of log files in the group. The larger the value, the less "
+"checkpoint flush activity is needed in the buffer pool, saving disk I/O. But "
+"larger log files also mean that recovery will be slower in case of a crash. "
+"The combined size of log files must be less than 4 GB on 32-bit computers. "
+"The default is 5M."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 259
+msgid ""
+"Size of each log file in a log group in megabytes. Sensible values range "
+"from 1M to 1/n-th of the size of the buffer pool, where n is the number of "
+"log files in the group. The larger the value, the less checkpoint flush "
+"activity is needed in the buffer pool, saving disk I/O. But larger log files "
+"also mean that recovery will be slower in case of a crash. The combined size "
+"of log files must be less than 4 GB on 32-bit computers. The default is 5M."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 260
+msgid ""
+"Size of memory allocation blocks that are allocated for objects created "
+"during query parsing and execution. If you have problem with memory "
+"fragmentation, it may help to increase this a bit. This variable was added "
+"in MySQL 4.0.16."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 261
+msgid ""
+"Size of memory allocation blocks that are allocated for storing queries that "
+"are part of a transaction that are to be stored in the binary log when doing "
+"a commit. This variable was added in MySQL 4.0.16."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 262
+msgid ""
+"Size of the buffer pool in MB, if it is placed in the AWE memory of 32-bit "
+"Windows. Available starting from 4.1.0 and only relevant in 32-bit Windows. "
+"If your 32-bit Windows operating system supports more than 4 GB memory, so-"
+"called Address Windowing Extensions, you can allocate the InnoDB buffer pool "
+"into the AWE physical memory using this parameter. The maximum possible "
+"value for this is 64000. If this parameter is specified, then "
+"innodb_buffer_pool_size is the window in the 32-bit address space of the "
+"MySQL server where InnoDB maps that AWE memory. A good value for "
+"innodb_buffer_pool_size is then 500 MB."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 263
+msgid ""
+"Size of the buffer that is used for full joins (joins that do not use "
+"indexes). The buffer is allocated one time for each full join between two "
+"tables. Increase this value to get a faster full join when adding indexes is "
+"not possible. (Normally the best way to get fast joins is to add indexes.)"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 264
+msgid ""
+"Size of the buffer used for index blocks. Index blocks are buffered and are "
+"shared by all threads. Increase this value to get better index handling (for "
+"all reads and multiple writes) to as much as you can afford."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 265
+msgid ""
+"Size of the buffer which InnoDB uses to write log to the log files on disk. "
+"Sensible values range from 1M to 8M. A big log buffer allows large "
+"transactions to run without a need to write the log to disk until the "
+"transaction commit. Thus, if you have big transactions, making the log "
+"buffer big will save disk I/O."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 266
+msgid ""
+"Size of the cache to hold the SQL statements for the binary log during a "
+"transaction. If you often use big, multi-statement transactions you can "
+"increase this to get more performance."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 267
+msgid ""
+"Size of the memory buffer InnoDB uses to cache data and indexes of its "
+"tables. The larger you set this, the less disk I/O is needed to access data "
+"in tables. On a dedicated database server you may set this parameter up to "
+"80% of the machine physical memory size. Do not set it too large, though, "
+"because competition of the physical memory might cause paging in the "
+"operating system."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 268
+msgid ""
+"Size of the persistent buffer used for query parsing and execution. This "
+"buffer is not freed between queries. If you are running complex queries, a "
+"larger query_prealloc_size value may be helpful in improving performance, "
+"because it can reduce the need for the server to perform memory allocation "
+"during query execution operations. This variable was added in MySQL 4.0.16."
+msgstr ""
+
+msgid ""
+"Size of tree cache used in bulk insert optimisation. Note that this is a "
+"limit per thread!"
+msgstr ""
+
+msgid "Skip the following errors:"
+msgstr ""
+
+msgid "Slave Identification"
+msgstr ""
+
+msgid "Slave default connection values"
+msgstr ""
+
+msgid "Slave replication objects"
+msgstr ""
+
+msgid "Slave timeout"
+msgstr ""
+
+msgid "Slow Queries Log:"
+msgstr ""
+
+msgid "Slow launch time"
+msgstr ""
+
+msgid "Slow query log options"
+msgstr ""
+
+msgid "Socket/pipe name:"
+msgstr ""
+
+#. Row 269
+msgid "Sort"
+msgstr ""
+
+msgid "Sort buffer size"
+msgstr ""
+
+msgid "Specifies when log files are flushed to disk."
+msgstr ""
+
+msgid "Speeds up server shutdown process."
+msgstr ""
+
+msgid ""
+"Start without grant tables. This gives all users FULL ACCESS to all tables!"
+msgstr ""
+
+#. Row 271
+msgid "Status of failsafe replication."
+msgstr ""
+
+msgid "Stopword file:"
+msgstr ""
+
+#. Row 272
+msgid "Storage Engines"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 273
+msgid ""
+"String to be executed by a slave server each time the SQL thread starts "
+"(similar to init_connect). The format of the string is the same as for the "
+"init_connect variable. This variable was added in MySQL 4.1.2."
+msgstr ""
+
+msgid ""
+"Syntax: sql-mode=option[,option[,option...]] where option can be one of: "
+"REAL_AS_FLOAT, PIPES_AS_CONCAT,ANSI_QUOTES, IGNORE_SPACE, ONLY_FULL_GROUP_BY,"
+"NO_UNSIGNED_SUBTRACTION."
+msgstr ""
+
+msgid "TCP Port:"
+msgstr ""
+
+msgid "Table cache:"
+msgstr ""
+
+msgid "Tahoma"
+msgstr ""
+
+msgid ""
+"Tells the master it should log updates for the specified database, and "
+"exclude all others not explicitly mentioned."
+msgstr ""
+
+msgid ""
+"Tells the master that updates to the given database should not be logged to "
+"the binary log."
+msgstr ""
+
+msgid ""
+"Tells the slave thread to continue replication when a query returns an error "
+"from the provided list."
+msgstr ""
+
+msgid ""
+"Tells the slave thread to not replicate to the specified database. To "
+"specify more than one database to ignore,use the directive multiple times, "
+"once for each database. This option will not work if you use cross "
+"databaseupdates. If you need cross database updates to work, make sure you "
+"have 3.23.28 or later, and use replicate-wild-ignore-table=db_name.%"
+msgstr ""
+
+msgid ""
+"Tells the slave thread to not replicate to the specified table. To specify "
+"more than one table to ignore, use the directive multiple times, once for "
+"each table. This will work for cross-datbase updates, in contrast to "
+"replicate-ignore-db."
+msgstr ""
+
+msgid ""
+"Tells the slave thread to not replicate to the tables that match the given "
+"wildcard pattern. To specify more than one table to ignore, use the "
+"directive multiple times, once for each table. This will work for cross-"
+"database updates. Example: replicate-wild-ignore-table=foo%.bar% will not do "
+"updates to tables in databases that start with foo and whose table names "
+"start with bar."
+msgstr ""
+
+msgid ""
+"Tells the slave thread to restrict replication to the specified database. To "
+"specify more than one database,use the directive multiple times, once for "
+"each database.Note that this will only work if you do not use cross-database "
+"queries such as UPDATE some_db.some_table SET foo='bar' while having "
+"selected a different or no database. If you need cross database updates to "
+"work, make sure you have 3.23.28 or later, and use replicate-wild-do-"
+"table=db_name.%"
+msgstr ""
+
+msgid ""
+"Tells the slave thread to restrict replication to the specified table. To "
+"specify more than one table, use the directive multiple times, once for each "
+"table. This will work for cross-database updates, in contrast to replicate-"
+"do-db."
+msgstr ""
+
+msgid ""
+"Tells the slave thread to restrict replication to the tables that match the "
+"specified wildcard pattern. Tospecify more than one table, use the directive "
+"multiple times, once for each table. This will work for cross-database "
+"updates. Example: replicate-wild-do-table=foo%.bar% will replicate only "
+"updates to tables in all databases that start with foo and whose table names "
+"start with bar"
+msgstr ""
+
+msgid ""
+"Tells the slave to log the updates from the slave thread to the binary log. "
+"You will need to turn it on if you plan to daisy-chain the slaves."
+msgstr ""
+
+msgid "Temp directory:"
+msgstr ""
+
+#. Row 274
+msgid "Temporary"
+msgstr ""
+
+msgid "Temporary Directory"
+msgstr ""
+
+msgid "Temporary table size"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 284
+msgid ""
+"The SQL mode define what SQL syntax MySQL should support and what kind of "
+"validation checks it should perform on the data. As of version 4.1.1, the "
+"following modes are supported: ANSI, DB2, MAXDB, MSSQL, MYSQL323, MYSQL40, "
+"ORACLE, and POSTGRESQL."
+msgstr ""
+
+msgid ""
+"The bigger you set this the less disk I/O is needed to access data in "
+"tables. On a dedicated database server you may set this parameter up to 80% "
+"of the machine physical memory size. Do not set it too large, though, "
+"because competition of the physical memory may cause paging in the operating "
+"system."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  german.po (Imported text file)  #-#-#-#-#
+#. Row 275
+msgid ""
+"The buffer that is allocated when sorting the index when doing a REPAIR or "
+"when creating indexes with CREATE INDEX or ALTER TABLE."
+msgstr ""
+
+msgid ""
+"The common part of the directory path for all InnoDB datafiles. Leave this "
+"empty if you want to split the data files onto different drives."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 276
+msgid ""
+"The communication buffer is reset to this size between queries. This should "
+"not normally be changed, but if you have very little memory, you can set it "
+"to the expected size of a query. (That is, the expected length of SQL "
+"statements sent by clients. If statements exceed this length, the buffer is "
+"automatically enlarged, up to max_allowed_packet bytes.)"
+msgstr ""
+
+#. Row 277
+msgid "The default character set."
+msgstr ""
+
+msgid "The default character set._client"
+msgstr ""
+
+msgid "The default character set._connection"
+msgstr ""
+
+msgid "The default character set._database"
+msgstr ""
+
+msgid "The default character set._results"
+msgstr ""
+
+msgid "The default character set._server"
+msgstr ""
+
+msgid "The default character set._system"
+msgstr ""
+
+msgid "The default size of key cache blocks"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 278
+msgid "The default table type (storage engine)."
+msgstr ""
+
+msgid "The default week format used by WEEK() functions."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 279
+msgid ""
+"The file from which the list of stopwords for full-text searches should be "
+"read from. All the words from the file will be used; comments are not "
+"honored."
+msgstr ""
+
+msgid ""
+"The location and name of the file that remembers the master and where the I/"
+"O replication thread is in the master's binlogs."
+msgstr ""
+
+msgid ""
+"The location and name of the file that remembers where the SQL replication "
+"thread is in the relay logs."
+msgstr ""
+
+msgid "The location and name to use for relay logs."
+msgstr ""
+
+msgid ""
+"The location and name to use for the file that keeps a list of the last "
+"relay logs."
+msgstr ""
+
+msgid ""
+"The location where the slave should put its temporary files when replicating "
+"a LOAD DATA INFILE command."
+msgstr ""
+
+msgid "The maximum length of the result of function  group_concat."
+msgstr ""
+
+msgid ""
+"The maximum length of the word to be included in a FULLTEXT index. Note: "
+"FULLTEXT indexes must be rebuilt after changing this variable."
+msgstr ""
+
+msgid ""
+"The maximum number of active connections for a single user (0 = no limit)."
+msgstr ""
+
+msgid "The memory allocated to store results from old queries."
+msgstr ""
+
+msgid ""
+"The minimum length of the word to be included in a FULLTEXT index. Note: "
+"FULLTEXT indexes must be rebuilt after changing this variable."
+msgstr ""
+
+msgid "The minimum percentage of warm blocks in key cache"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. #-#-#-#-#  german.po (Imported text file)  #-#-#-#-#
+#. Row 280
+msgid ""
+"The name of the file specified with the --init-file option when you start "
+"the server. This is a file of SQL statements you want the server to execute "
+"when it starts."
+msgstr ""
+
+msgid ""
+"The number of bytes to use when sorting BLOB or TEXT values (only the first "
+"max_sort_length bytes of each value are used; the rest are ignored)."
+msgstr ""
+
+msgid "The number of open tables for all threads."
+msgstr ""
+
+msgid ""
+"The number of outstanding connection requests MySQL can have. This comes "
+"into play when the main MySQL thread gets very many connection requests in a "
+"very short time."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 281
+msgid "The number of physical reads of a key block from disk."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 282
+msgid "The number of physical writes of a key block to disk."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 283
+msgid "The number of requests to write a key block to the cache."
+msgstr ""
+
+msgid ""
+"The number of seconds the mysqld server is waiting for a connect packet "
+"before responding with 'Bad handshake'"
+msgstr ""
+
+msgid ""
+"The number of seconds the server waits for activity on a connection before "
+"closing it"
+msgstr ""
+
+msgid ""
+"The number of seconds the server waits for activity on an interactive "
+"connection before closing it."
+msgstr ""
+
+msgid ""
+"The number of seconds the slave thread will sleep before retrying to connect "
+"to the master in case the master goes down or the connection is lost."
+msgstr ""
+
+msgid "The number of simultaneous clients allowed."
+msgstr ""
+
+msgid ""
+"The number of tries the slave will make to connect to the master before "
+"giving up."
+msgstr ""
+
+msgid ""
+"The password the slave thread will authenticate with when connecting to the "
+"master. If not set, an empty password is assumed.The value in master.info "
+"will take precedence if it can be read."
+msgstr ""
+
+msgid ""
+"The port the master is listening on. If not set, the compiled setting of "
+"MYSQL_PORT is assumed. If you have not tinkered with configure options, this "
+"should be 3306. The value in master.info will take precedence if it can be "
+"read."
+msgstr ""
+
+msgid ""
+"The size of the buffer that is allocated when preloading\n"
+"                      indexes"
+msgstr ""
+
+msgid "The size of the buffer that is used for full joins."
+msgstr ""
+
+msgid ""
+"The size of the buffer used for index blocks. Increase this to get better "
+"index handling (for all reads and multiple writes) to as much as you can "
+"afford; 64M on a 256M machine that mainly runs MySQL is quite common."
+msgstr ""
+
+msgid ""
+"The size of the buffer which InnoDB uses to write log to the log files on "
+"disk. Sensible values range from 1M to 8M. A big log buffer allows large "
+"transactions to run without a need to write the log to disk until the "
+"transaction commit. Thus, if you have big transactions, making the log "
+"buffer big will save disk I/O."
+msgstr ""
+
+msgid ""
+"The size of the cache to hold the SQL statements for the binary log during a "
+"transaction. If you often use big, multi-statement transactions you can "
+"increase this to get more performance."
+msgstr ""
+
+msgid "The stack size for each thread."
+msgstr ""
+
+#. Row 285
+msgid ""
+"The stack size for each thread. Many of the limits detected by the crash-me "
+"test are dependent on this value. The default is large enough for normal "
+"operation."
+msgstr ""
+
+#. Row 286
+msgid "The supported character sets."
+msgstr ""
+
+#. Row 287
+msgid ""
+"The transaction isolation level the InnoDB storage engine uses. This can be "
+"either READ-UNCOMMITTED, READ-COMMITTED, REPEATABLE-READ, or SERIALIZABLE."
+msgstr ""
+
+msgid ""
+"The username the slave thread will use for authentication when connecting to "
+"the master. The user must have FILE privilege. If the master user is not "
+"set, user test is assumed. The value in master.info will take precedence if "
+"it can be read."
+msgstr ""
+
+msgid ""
+"This characterizes the number of hits a hot block has to be untouched until "
+"it is considered aged enough to be downgraded to a warm block. This "
+"specifies the percentage ratio of that number of hits to the total number of "
+"blocks in key cache"
+msgstr ""
+
+msgid ""
+"This is relevant only if you use multiple tablespaces in InnoDB. This "
+"specifies the maximum how many .ibd files InnoDB can keep open at one time. "
+"The minimum value for this is 10. The default is 300."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 288
+msgid ""
+"This is relevant only if you use multiple tablespaces in InnoDB. This "
+"specifies the maximum how many `.ibd' files InnoDB can keep open at one "
+"time. The minimum value for this is 10. The default is 300. Numeric `my.cnf' "
+"parameter format. Available starting from 4.1.1."
+msgstr ""
+
+#. Row 289
+msgid "This may be set (only numeric) to 0 (OFF), 1 (ON), 2 (DEMAND)."
+msgstr ""
+
+msgid ""
+"This option makes InnoDB to store each created table into its own .ibd file."
+msgstr ""
+
+msgid "This password will be displayed in the output of \"SHOW SLAVE HOSTS\"."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 290
+msgid ""
+"This prevents users from doing SHOW DATABASES if they don't have the PROCESS "
+"privilege, or, as of version 4.0.2, the SHOW DATABASES privilege."
+msgstr ""
+
+msgid "This username will be displayed in the output of \"SHOW SLAVE HOSTS\"."
+msgstr ""
+
+msgid "This value should currently be disabled."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 291
+msgid ""
+"This value should currently be set to 0. As recovery from a backup is done "
+"by MySQL using its own log files, there is currently no need to archive "
+"InnoDB log files."
+msgstr ""
+
+msgid "Thread cache size"
+msgstr ""
+
+msgid "Thread concurrency"
+msgstr ""
+
+msgid "Thread specific settings"
+msgstr ""
+
+msgid "Thread stack size"
+msgstr ""
+
+#. Row 292
+msgid "Threads"
+msgstr ""
+
+msgid "Timeout Settings"
+msgstr ""
+
+msgid ""
+"Timeout in seconds InnoDB transaction may wait for a lock before being "
+"rolled back. InnoDB automatically detects transaction deadlocks in its own "
+"lock table and rolls back the transaction. If you use the LOCK TABLES "
+"command, or other transaction-safe storage engines than InnoDB in the same "
+"transaction, then a deadlock may arise which InnoDB cannot notice. In cases "
+"like this the timeout is useful to resolve the situation."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 293
+msgid ""
+"Timeout in seconds an InnoDB transaction may wait for a lock before being "
+"rolled back. InnoDB automatically detects transaction deadlocks in its own "
+"lock table and rolls back the transaction. If you use the LOCK TABLES "
+"command, or other transaction-safe storage engines than InnoDB in the same "
+"transaction, then a deadlock may arise which InnoDB cannot notice. In cases "
+"like this the timeout is useful to resolve the situation."
+msgstr ""
+
+#. Row 294
+msgid ""
+"Timezone for the server. This is set from the TZ environment variable when "
+"the MySQL server is started."
+msgstr ""
+
+#. Row 295
+msgid "To filter user accounts, enter a search string into the search box."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 296
+msgid "Total number of blocks in query cache."
+msgstr ""
+
+#. Row 297
+msgid "Traffic"
+msgstr ""
+
+msgid "Transaction alloc block size"
+msgstr ""
+
+msgid "Transaction prealloc size"
+msgstr ""
+
+msgid "Type of DELAY_KEY_WRITE."
+msgstr ""
+
+msgid "UCS-2"
+msgstr ""
+
+msgid ""
+"Uniquely identifies the server instance in the community of replication "
+"partners."
+msgstr ""
+
+msgid "Update Logfile Name:"
+msgstr ""
+
+msgid ""
+"Updates to a database with a different name than the original. Example:"
+"replicate-rewrite-db=master_db_name->slave_db_name."
+msgstr ""
+
+msgid "Usage"
+msgstr ""
+
+msgid "Use ANSI SQL"
+msgstr ""
+
+msgid "Use ANSI SQL syntax instead of MySQL syntax."
+msgstr ""
+
+msgid "Use compression"
+msgstr ""
+
+msgid "Use compression on master/slave protocol."
+msgstr ""
+
+msgid "Use concurrent insert with MyISAM."
+msgstr ""
+
+msgid "Use concurrent inserts"
+msgstr ""
+
+msgid "Use external locking"
+msgstr ""
+
+msgid "Use new routines"
+msgstr ""
+
+msgid "Use old LOAD DATA format in the binary log (don't save data in file)."
+msgstr ""
+
+msgid "Use old password encryption method (needed for 4.0 and older clients)."
+msgstr ""
+
+msgid "Use old passwords"
+msgstr ""
+
+msgid "Use pool for temporary files"
+msgstr ""
+
+msgid "Use stopwords from this file instead of built-in list."
+msgstr ""
+
+msgid ""
+"Use system (external) locking. With this option enabled you can run "
+"myisamchk to test (not repair) tables while the MySQL server is running."
+msgstr ""
+
+msgid "Use very new possible 'unsafe' functions."
+msgstr ""
+
+msgid ""
+"Used to help MySQL to decide when to use the slow but safe key cache index "
+"create method."
+msgstr ""
+
+#. Row 298
+msgid "Users Accounts"
+msgstr ""
+
+msgid ""
+"Using this option will cause most temporary files created to use a small set "
+"of names, rather than a unique name for each new file."
+msgstr ""
+
+#. Row 299
+msgid "Value of the --myisam-recover option."
+msgstr ""
+
+#. Row 300
+msgid "Value of the --server-id option."
+msgstr ""
+
+#. Row 301
+msgid "Version number of the MySQL server."
+msgstr ""
+
+msgid "Version number of the MySQL server._comment"
+msgstr ""
+
+msgid "Version number of the MySQL server._compile_machine"
+msgstr ""
+
+msgid "Version number of the MySQL server._compile_os"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Wait timeout"
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 302
+msgid ""
+"Warning: This option should be defined only in an emergency situation when "
+"you want to dump your tables from a corrupt database! Possible values are 1 "
+"through 6."
+msgstr ""
+
+msgid ""
+"What size queue (in rows) should be allocated for handling INSERT DELAYED. "
+"If the queue becomes full, any client that does INSERT DELAYED will wait "
+"until there is room in the queue again."
+msgstr ""
+
+msgid ""
+"When reading rows in sorted order after a sort, the rows are read through "
+"this buffer to avoid a disk seeks. If not set, then it's set to the value of "
+"record_buffer."
+msgstr ""
+
+#. #-#-#-#-#  ..\res\windows\po\external.po (Imported text file)  #-#-#-#-#
+#. Row 303
+msgid ""
+"When reading rows in sorted order after a sort, the rows are read through "
+"this buffer to avoid disk seeks. Can improve ORDER BY by a lot if set to a "
+"high value. As this is a thread-specific variable, one should not set this "
+"big globally, but just change this when running some specific big queries."
+msgstr ""
+
+msgid "Wild ignore tables:"
+msgstr ""
+
+msgid "Write core file"
+msgstr ""
+
+msgid "Write core on errors."
+msgstr ""
+
+msgid "Write timeout"
+msgstr ""
+
+msgid ""
+"Write to Log and flush every second=0\n"
+"Transaction commit flushes logs=1\n"
+"Write Log at commit, flush every second=2\n"
+msgstr ""
+
+msgid ""
+"You can allocate the InnoDB buffer pool into the AWE physical memory using "
+"this parameter."
+msgstr ""
+
+#. Row 304
+msgid "You do not have enough privileges to administer this instance."
+msgstr ""
+
+msgid "big5"
+msgstr ""
+
+msgid "checksum=1"
+msgstr ""
+
+msgid "cp1250"
+msgstr ""
+
+msgid "cp1251"
+msgstr ""
+
+msgid "cp1256"
+msgstr ""
+
+msgid "cp1257"
+msgstr ""
+
+msgid "cp850"
+msgstr ""
+
+msgid "cp866"
+msgstr ""
+
+msgid ""
+"fdatasync (safe, recommended)=fdatasync\n"
+"O_DSYNC (faster, but relies on OS/drv/hdw)=O_DSYNC\n"
+"nosync (not for production systems)=nosync\n"
+msgstr ""
+
+msgid "gb2312"
+msgstr ""
+
+msgid "latin1"
+msgstr ""
+
+msgid "latin2"
+msgstr ""
+
+msgid "latin5"
+msgstr ""
+
+msgid "latin7"
+msgstr ""
+
+msgid ""
+"minimal size of unit in wich space for results is allocated (last unit will "
+"be trimed after writing all result data"
+msgstr ""
+
+msgid "tis620"
+msgstr ""
+
+msgid "utf8"
+msgstr ""

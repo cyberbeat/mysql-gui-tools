@@ -1,0 +1,13 @@
+#!/bin/sh
+
+
+option=$1
+
+
+case $option in
+	--cflags)	echo "@ENABLED_MODULES@ @GRT_CFLAGS@"
+		;;
+	--libs)		echo "@GRT_LIBS@"
+		;;
+esac
+

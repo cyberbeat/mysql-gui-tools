@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<functionindex>
+  <functiongroup caption="Data Definition Statements">
+    <function id="alter-database" caption="ALTER DATABASE Syntax"/>
+    <function id="alter-table" caption="ALTER TABLE Syntax"/>
+    <function id="create-database" caption="CREATE DATABASE Syntax"/>
+    <function id="create-index" caption="CREATE INDEX Syntax"/>
+    <functionsubgroup id="create-table" caption="CREATE TABLE Syntax">
+      <function id="silent-column-changes" caption="Silent Column Specification Changes"/>
+    </functionsubgroup>
+    <function id="drop-database" caption="DROP DATABASE Syntax"/>
+    <function id="drop-index" caption="DROP INDEX Syntax"/>
+    <function id="drop-table" caption="DROP TABLE Syntax"/>
+    <function id="rename-table" caption="RENAME TABLE Syntax"/>
+  </functiongroup>
+  <functiongroup caption="Data Manipulation Statements">
+    <function id="delete" caption="DELETE Syntax"/>
+    <function id="do" caption="DO Syntax"/>
+    <function id="handler" caption="HANDLER Syntax"/>
+    <functionsubgroup id="insert" caption="INSERT Syntax">
+      <function id="insert-select" caption="INSERT ... SELECT Syntax"/>
+      <function id="insert-delayed" caption="INSERT DELAYED Syntax"/>
+      <function id="insert-on-duplicate" caption="INSERT ... ON DUPLICATE KEY UPDATE Syntax"/>
+    </functionsubgroup>
+    <function id="load-data" caption="LOAD DATA INFILE Syntax"/>
+    <function id="replace" caption="REPLACE Syntax"/>
+    <functionsubgroup id="select" caption="SELECT Syntax">
+      <function id="join" caption="JOIN Syntax"/>
+      <function id="index-hints" caption="Index Hint Syntax"/>
+      <function id="union" caption="UNION Syntax"/>
+    </functionsubgroup>
+    <functionsubgroup id="subqueries" caption="Subquery Syntax">
+      <function id="scalar-subqueries" caption="The Subquery as Scalar Operand"/>
+      <function id="comparisons-using-subqueries" caption="Comparisons Using Subqueries"/>
+      <function id="any-in-some-subqueries" caption="Subqueries with ANY, IN, and SOME"/>
+      <function id="all-subqueries" caption="Subqueries with ALL"/>
+      <function id="row-subqueries" caption="Row Subqueries"/>
+      <function id="exists-and-not-exists-subqueries" caption="EXISTS and NOT EXISTS"/>
+      <function id="correlated-subqueries" caption="Correlated Subqueries"/>
+      <function id="unnamed-views" caption="Subqueries in the FROM clause"/>
+      <function id="subquery-errors" caption="Subquery Errors"/>
+      <function id="optimizing-subqueries" caption="Optimizing Subqueries"/>
+      <function id="rewriting-subqueries" caption="Rewriting Subqueries as Joins for Earlier MySQL Versions"/>
+    </functionsubgroup>
+    <function id="truncate" caption="TRUNCATE Syntax"/>
+    <function id="update" caption="UPDATE Syntax"/>
+  </functiongroup>
+  <functiongroup caption="MySQL Utility Statements">
+    <function id="describe" caption="DESCRIBE Syntax"/>
+    <function id="help" caption="HELP Syntax"/>
+    <function id="use" caption="USE Syntax"/>
+  </functiongroup>
+  <functiongroup caption="MySQL Transactional and Locking Statements">
+    <function id="commit" caption="START TRANSACTION, COMMIT, and ROLLBACK Syntax"/>
+    <function id="cannot-roll-back" caption="Statements That Cannot Be Rolled Back"/>
+    <function id="implicit-commit" caption="Statements That Cause an Implicit Commit"/>
+    <function id="savepoints" caption="SAVEPOINT and ROLLBACK TO SAVEPOINT Syntax"/>
+    <function id="lock-tables" caption="LOCK TABLES and UNLOCK TABLES Syntax"/>
+    <function id="set-transaction" caption="SET TRANSACTION Syntax"/>
+    <functionsubgroup id="xa" caption="XA Transactions">
+      <function id="xa-statements" caption="XA Transaction SQL Syntax"/>
+      <function id="xa-states" caption="XA Transaction States"/>
+    </functionsubgroup>
+  </functiongroup>
+  <functiongroup caption="Database Administration Statements">
+    <functionsubgroup id="account-management-sql" caption="Account Management Statements">
+      <function id="create-user" caption="CREATE USER Syntax"/>
+      <function id="drop-user" caption="DROP USER Syntax"/>
+      <function id="grant" caption="GRANT Syntax"/>
+      <function id="rename-user" caption="RENAME USER Syntax"/>
+      <function id="revoke" caption="REVOKE Syntax"/>
+      <function id="set-password" caption="SET PASSWORD Syntax"/>
+    </functionsubgroup>
+    <functionsubgroup id="table-maintenance-sql" caption="Table Maintenance Statements">
+      <function id="analyze-table" caption="ANALYZE TABLE Syntax"/>
+      <function id="backup-table" caption="BACKUP TABLE Syntax"/>
+      <function id="check-table" caption="CHECK TABLE Syntax"/>
+      <function id="checksum-table" caption="CHECKSUM TABLE Syntax"/>
+      <function id="optimize-table" caption="OPTIMIZE TABLE Syntax"/>
+      <function id="repair-table" caption="REPAIR TABLE Syntax"/>
+      <function id="restore-table" caption="RESTORE TABLE Syntax"/>
+    </functionsubgroup>
+    <function id="set-option" caption="SET Syntax"/>
+    <functionsubgroup id="show" caption="SHOW Syntax">
+      <function id="show-character-set" caption="SHOW CHARACTER SET Syntax"/>
+      <function id="show-collation" caption="SHOW COLLATION Syntax"/>
+      <function id="show-columns" caption="SHOW COLUMNS Syntax"/>
+      <function id="show-create-database" caption="SHOW CREATE DATABASE Syntax"/>
+      <function id="show-create-procedure" caption="SHOW CREATE PROCEDURE and SHOW CREATE FUNCTION Syntax"/>
+      <function id="show-create-table" caption="SHOW CREATE TABLE Syntax"/>
+      <function id="show-create-view" caption="SHOW CREATE VIEW Syntax"/>
+      <function id="show-databases" caption="SHOW DATABASES Syntax"/>
+      <function id="show-engine" caption="SHOW ENGINE Syntax"/>
+      <function id="show-engines" caption="SHOW ENGINES Syntax"/>
+      <function id="show-errors" caption="SHOW ERRORS Syntax"/>
+      <function id="show-grants" caption="SHOW GRANTS Syntax"/>
+      <function id="show-index" caption="SHOW INDEX Syntax"/>
+      <function id="show-innodb-status" caption="SHOW INNODB STATUS Syntax"/>
+      <function id="show-logs" caption="SHOW LOGS Syntax"/>
+      <function id="show-mutex-status" caption="SHOW MUTEX STATUS Syntax"/>
+      <function id="show-open-tables" caption="SHOW OPEN TABLES Syntax"/>
+      <function id="show-privileges" caption="SHOW PRIVILEGES Syntax"/>
+      <function id="show-procedure-code" caption="SHOW PROCEDURE CODE and SHOW FUNCTION CODE Syntax"/>
+      <function id="show-procedure-status" caption="SHOW PROCEDURE STATUS and SHOW FUNCTION STATUS Syntax"/>
+      <function id="show-processlist" caption="SHOW PROCESSLIST Syntax"/>
+      <function id="show-profiles" caption="SHOW PROFILES and SHOW PROFILE Syntax"/>
+      <function id="show-status" caption="SHOW STATUS Syntax"/>
+      <function id="show-table-status" caption="SHOW TABLE STATUS Syntax"/>
+      <function id="show-tables" caption="SHOW TABLES Syntax"/>
+      <function id="show-triggers" caption="SHOW TRIGGERS Syntax"/>
+      <function id="show-variables" caption="SHOW VARIABLES Syntax"/>
+      <function id="show-warnings" caption="SHOW WARNINGS Syntax"/>
+    </functionsubgroup>
+    <functionsubgroup id="other-administrative-sql" caption="Other Administrative Statements">
+      <function id="cache-index" caption="CACHE INDEX Syntax"/>
+      <function id="flush" caption="FLUSH Syntax"/>
+      <function id="kill" caption="KILL Syntax"/>
+      <function id="load-index" caption="LOAD INDEX INTO CACHE Syntax"/>
+      <function id="reset" caption="RESET Syntax"/>
+    </functionsubgroup>
+  </functiongroup>
+  <functiongroup caption="Replication Statements">
+    <functionsubgroup id="replication-master-sql" caption="SQL Statements for Controlling Master Servers">
+      <function id="purge-master-logs" caption="PURGE MASTER LOGS Syntax"/>
+      <function id="reset-master" caption="RESET MASTER Syntax"/>
+      <function id="set-sql-log-bin" caption="SET SQL_LOG_BIN Syntax"/>
+      <function id="show-binlog-events" caption="SHOW BINLOG EVENTS Syntax"/>
+      <function id="show-binary-logs" caption="SHOW BINARY LOGS Syntax"/>
+      <function id="show-master-status" caption="SHOW MASTER STATUS Syntax"/>
+      <function id="show-slave-hosts" caption="SHOW SLAVE HOSTS Syntax"/>
+    </functionsubgroup>
+    <functionsubgroup id="replication-slave-sql" caption="SQL Statements for Controlling Slave Servers">
+      <function id="change-master-to" caption="CHANGE MASTER TO Syntax"/>
+      <function id="load-data-from-master" caption="LOAD DATA FROM MASTER Syntax"/>
+      <function id="load-table-from-master" caption="LOAD TABLE tbl_name FROM MASTER Syntax"/>
+      <function id="master-pos-wait" caption="MASTER_POS_WAIT() Syntax"/>
+      <function id="reset-slave" caption="RESET SLAVE Syntax"/>
+      <function id="set-global-sql-slave-skip-counter" caption="SET GLOBAL SQL_SLAVE_SKIP_COUNTER Syntax"/>
+      <function id="show-slave-status" caption="SHOW SLAVE STATUS Syntax"/>
+      <function id="start-slave" caption="START SLAVE Syntax"/>
+      <function id="stop-slave" caption="STOP SLAVE Syntax"/>
+    </functionsubgroup>
+  </functiongroup>
+  <functiongroup caption="SQL Syntax for Prepared Statements"/>
+</functionindex>

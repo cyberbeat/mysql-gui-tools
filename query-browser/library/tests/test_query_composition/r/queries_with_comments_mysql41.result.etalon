@@ -1,0 +1,11 @@
+-----------------
+select * from /*c1*/ t1 /*c3*/ t1_alias /*c4*/ , /*c5*/ t2 /*c6*/ t2_alias /*c7*/, t3 t where a=10
+-----------------
+
+-----------------
+-----------------
+select * from /*c1*/ t1 /*c3*/ t1_alias /*c4*/ , /*c5*/ t2 /*c6*/ t2_alias /*c7*/, t3 t
+WHERE a=10 AND t.silly_name=t1_alias.t1_id
+-----------------
+
+-----------------

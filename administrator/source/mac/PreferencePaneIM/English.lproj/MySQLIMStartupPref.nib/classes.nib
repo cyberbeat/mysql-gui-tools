@@ -1,0 +1,77 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MTextImageCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }, 
+        {
+            ACTIONS = {
+                changeIMAutoStart = id; 
+                connectIM = id; 
+                newAccountClose = id; 
+                performAction = id; 
+                setIMPassword = id; 
+                setServerPassword = id; 
+                showHelp = id; 
+                toggleCreateAccount = id; 
+                toggleIM = id; 
+                toggleServer = id; 
+            }; 
+            CLASS = MySQLStartupPref; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                authView = SFAuthorizationView; 
+                imButton = NSButton; 
+                imCheck = NSButton; 
+                imConnectButton = NSButton; 
+                imLoginWindow = NSWindow; 
+                imNewAccountWindow = NSWindow; 
+                imPasswordButton = NSButton; 
+                imPasswordText = NSTextField; 
+                imStateImage = NSImageView; 
+                imStateText = NSTextField; 
+                imWarningText = NSTextField; 
+                imlessButton = NSButton; 
+                imlessCheck = NSButton; 
+                imlessEnableButton = NSButton; 
+                imlessNotFoundText = NSTextField; 
+                imlessStateText = NSTextField; 
+                imlessWarningText = NSTextField; 
+                instanceList = NSTableView; 
+                serverActionButton = NSPopUpButton; 
+                serverBasePathText = NSTextField; 
+                serverButton = NSButton; 
+                serverDataPathText = NSTextField; 
+                serverVersionText = NSTextField; 
+                singleActionButton = NSPopUpButton; 
+                singleBasePathText = NSTextField; 
+                singleButton = NSButton; 
+                singleDataPathText = NSTextField; 
+                singleIcon = NSImageView; 
+                singlePortText = NSTextField; 
+                singleSocketPathText = NSTextField; 
+                singleStatusText = NSTextField; 
+                singleVersionText = NSTextField; 
+                singleWarningText = NSTextField; 
+                tabview = NSTabView; 
+            }; 
+            SUPERCLASS = NSPreferencePane; 
+        }, 
+        {
+            CLASS = NSPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_firstKeyView" = id; 
+                "_initialKeyView" = id; 
+                "_lastKeyView" = id; 
+                "_window" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = SFAuthorizationView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_delegate" = id; }; 
+            SUPERCLASS = NSView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

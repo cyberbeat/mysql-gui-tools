@@ -1,0 +1,42 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MQScriptEditor; LANGUAGE = ObjC; SUPERCLASS = MSourceTextEditor; }, 
+        {
+            ACTIONS = {clearMessages = id; copyMessage = id; openScript = id; saveScript = id; }; 
+            CLASS = MQScriptTab; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                editor = MQScriptEditor; 
+                messageTable = NSTableView; 
+                splitView = MSplitView; 
+                statusImage = NSImageView; 
+                statusText = NSTextField; 
+            }; 
+            SUPERCLASS = MTabViewItem; 
+        }, 
+        {CLASS = MQScriptTextView; LANGUAGE = ObjC; SUPERCLASS = MSourceTextView; }, 
+        {CLASS = MSourceTextEditor; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = MSourceTextView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {dropDelegate = id; }; 
+            SUPERCLASS = NSTextView; 
+        }, 
+        {CLASS = MSplitView; LANGUAGE = ObjC; SUPERCLASS = NSSplitView; }, 
+        {
+            CLASS = MTabView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = MTabViewItem; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {view = NSView; }; 
+            SUPERCLASS = NSResponder; 
+        }, 
+        {CLASS = MTextImageCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }
+    ); 
+    IBVersion = 1; 
+}

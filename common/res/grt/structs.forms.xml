@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <!-- structs managed by the bridge -->
+  
+  <gstruct name="forms.Application" parent="GrtObject" bridge="Forms" desc="the GRT proxy object to the application">
+    <members>
+      <member name="active" type="int" desc="is 1 when the application has the focus" />
+      <member name="mouseX" type="int" desc="current mouse X coordinate from the upper left corner of the screen" />
+      <member name="mouseY" type="int" desc="current mouse Y coordinate from the upper left corner of the screen" />
+      <member name="forms" type="list" content-type="dict" content-struct-name="forms.Form" desc="the list of forms available in the application" />
+      <member name="mainForm" type="string" option="ref" content-struct-name="forms.Form" desc="the main form of the application" />
+      <member name="activeForm" type="string" option="ref" content-struct-name="forms.Form" desc="the main form of the application" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Widget" parent="GrtObject" bridge="Forms">
+    <members>
+      <member name="left" type="int" />
+      <member name="top" type="int" />
+      <member name="width" type="int" />
+      <member name="height" type="int" />
+      <member name="autosize" type="int" />
+      <member name="caption" type="string" />
+      <member name="color" type="string" />
+      <member name="enabled" type="int" />
+      <member name="visible" type="int" />
+      <member name="anchors" type="dict" struct-name="forms.Anchors" />
+      <member name="constraints" type="dict" struct-name="forms.Constraints" />
+      <member name="parent" type="string" option="ref" content-struct-name="forms.Widget" />
+      <member name="controls" type="list" opt="ref" content-type="string" content-struct-name="forms.Widget" desc="a reference list of all child controls " />
+      <member name="eventOnClick" type="string" />
+      <member name="eventOnDblClick" type="string" />
+      <member name="eventOnResize" type="string" />
+      <member name="eventOnMouseDown" type="string" />
+      <member name="eventOnMouseMove" type="string" />
+      <member name="eventOnMouseUp" type="string" />
+      <member name="eventOnMouseIn" type="string" />
+      <member name="eventOnMouseOut" type="string" />
+      <member name="eventOnKeyDown" type="string" />
+      <member name="eventOnKeyUp" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Anchors" parent="GrtObject" bridge="Forms">
+    <members>
+      <member name="left" type="int" />
+      <member name="top" type="int" />
+      <member name="right" type="int" />
+      <member name="bottom" type="int" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Constraints" parent="GrtObject" bridge="Forms" caption="Widget Size Constraints" desc="used to restrict the size of a control">
+    <members>
+      <member name="minWidth" type="int" default="16" desc="The minimal width of the control" />
+      <member name="maxWidth" type="int" desc="The maximal width of the control" />
+      <member name="minHeight" type="int" default="16" desc="The minimal height of the control" />
+      <member name="maxHeight" type="int" desc="The maximal height of the control" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="forms.Form" parent="forms.Widget" bridge="Forms">
+    <members>
+      <member name="active" type="int" />      
+      <member name="alphaBlend" type="int" />
+      <member name="alphaBlendValue" type="int" />
+      <member name="windowState" type="string" />   
+      
+      <member name="eventOnCreate" type="string" />
+      <member name="eventOnDestroy" type="string" />
+      <member name="eventOnActivate" type="string" />
+      <member name="eventOnDeactivate" type="string" />
+      <member name="eventOnClose" type="string" />
+      
+      <member name="actions" type="dict" content-type="dict" content-struct-name="forms.Action" desc="List of all actions that are available on the form" />
+      <member name="menuitems" type="dict" content-type="dict" content-struct-name="forms.Menuitem" desc="List of all menuitems that are displayed on the form" />
+      <member name="panels" type="dict" content-type="dict" content-struct-name="forms.Panel" desc="List of all panels that are placed on the form" />
+      <member name="buttons" type="dict" content-type="dict" content-struct-name="forms.Button" desc="List of all buttons that are placed on the form" />
+      <member name="edits" type="dict" content-type="dict" content-struct-name="forms.Edit" desc="List of all edits that are placed on the form" />
+      <member name="checkboxes" type="dict" content-type="dict" content-struct-name="forms.Checkbox" desc="List of all checkboxes that are placed on the form" />
+      <member name="radiobuttons" type="dict" content-type="dict" content-struct-name="forms.Radiobutton" desc="List of all radiobuttons that are placed on the form" />
+      <member name="listboxes" type="dict" content-type="dict" content-struct-name="forms.Listbox" desc="List of all listboxes that are placed on the form" />
+      <member name="dropdowns" type="dict" content-type="dict" content-struct-name="forms.Dropdown" desc="List of all dropdowns that are placed on the form" />
+      <member name="pagecontrols" type="dict" content-type="dict" content-struct-name="forms.Pagecontrol" desc="List of all pagecontrols that are placed on the form" />
+      
+      <member name="activeControl" type="string" option="ref" content-struct-name="forms.Widget" />
+      <member name="mainMenu" type="list" opt="ref" content-type="string" content-struct-name="forms.Menuitem" desc="the top level main menu items" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Action" parent="GrtObject" bridge="Forms">
+    <members>
+      <member name="autoCheck" type="int" />
+      <member name="caption" type="string" />
+      <member name="checked" type="int" />
+      <member name="enabled" type="int" />
+      <member name="groupIndex" type="int" />
+      <member name="imageIndex" type="int" />
+      <member name="shortcut" type="string" />
+      <member name="visible" type="int" />
+      <member name="eventOnExecute" type="string" />
+      <member name="eventOnUpdate" type="string" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="forms.Menuitem" parent="GrtObject" bridge="Forms">
+    <members>
+      <member name="action" type="string" opt="ref" content-struct-name="forms.Action" desc="the assigned action" />
+      <member name="caption" type="string" />
+      <member name="checked" type="int" />
+      <member name="enabled" type="int" />
+      <member name="imageIndex" type="int" />
+      <member name="items" type="list" opt="ref" content-type="string" content-struct-name="forms.Menuitem" desc="the sub menu items" />
+      <member name="eventOnClick" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Panel" parent="forms.Widget" bridge="Forms">
+    <members>
+      <member name="border" type="int" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.GroupBox" parent="forms.Widget" bridge="Forms" />
+
+  <gstruct name="forms.Button" parent="forms.Widget" bridge="Forms">
+    <members>
+      <member name="isDefault" type="int" />
+      <member name="icon" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Edit" parent="forms.Widget" bridge="Forms">
+    <members>
+      <member name="border" type="int" />
+      <member name="text" type="string" />
+      <member name="readOnly" type="int" />
+      <member name="passwordChar" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Checkbox" parent="forms.Widget" bridge="Forms">
+    <members>
+      <member name="checked" type="int" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Radiobutton" parent="forms.Widget" bridge="Forms">
+    <members>
+      <member name="group" type="int" />
+      <member name="checked" type="int" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Listbox" parent="forms.Widget" bridge="Forms">
+    <members>
+      <member name="multiselect" type="int" />
+      <member name="lastSelectedItem" type="string" />
+      <member name="items" type="list" content-type="string" />
+      <member name="selectedItems" type="list" content-type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Dropdown" parent="forms.Widget" bridge="Forms">
+    <members>
+      <member name="fixedList" type="int" />
+      <member name="text" type="string" />
+      <member name="selectedItem" type="int" />
+      <member name="items" type="list" content-type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Pagecontrol" parent="forms.Widget" bridge="Forms">
+    <members>
+      <member name="activePage" type="int" />
+      <member name="pages" type="list" content-type="dict" content-struct-name="forms.Page" desc="the list of pages" />
+    </members>
+  </gstruct>
+
+  <gstruct name="forms.Page" parent="forms.Widget" bridge="Forms">
+    <members>
+    </members>
+  </gstruct>
+
+  <!-- additional helper structs -->
+  
+  <gstruct name="forms.Position" parent="GrtObject">
+    <members>
+      <member name="left" type="int" />
+      <member name="top" type="int" />
+      <member name="width" type="int" />
+      <member name="height" type="int" />
+      <member name="state" type="int" />
+      <member name="monitor" type="int" />
+    </members>
+  </gstruct>
+</gstructs>

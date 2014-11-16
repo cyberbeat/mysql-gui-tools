@@ -1,0 +1,38 @@
+package VirtualTreesD;
+
+{$R *.res}
+{$R '..\..\Design\VirtualTrees.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS OFF}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $30400000}
+{$DESCRIPTION 'Virtual Treeview design time package'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  dclstd,
+  VirtualTreesR;
+
+contains
+  VirtualTreesReg in '..\..\Design\VirtualTreesReg.pas';
+
+end.
+

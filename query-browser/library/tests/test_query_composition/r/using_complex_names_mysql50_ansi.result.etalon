@@ -1,0 +1,12 @@
+-----------------
+select * from t4 t4, t5 t
+WHERE t."field with complex name ` \\ """=t4."field with complex name ` \\ """
+-----------------
+
+-----------------
+-----------------
+select * from t4 t4, t6 t
+WHERE t.silly_name=t4."field with complex name ` \\ """
+-----------------
+
+-----------------

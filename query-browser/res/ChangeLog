@@ -1,0 +1,14 @@
+1.0.2
+
+-- Bugfixes Windows --
+
+Fixed issues with embedded help.
+Fixed issues while opening the QB. Some XML files got corrupted when executing
+  queries with "umlauts"
+Fixed Bug #4295 - query 'LIKE' problem
+Fixed issues when executing scripts, last command was not executed
+Fixed path issues when calling other tools
+
+1.0.1 
+
+First Alpha version

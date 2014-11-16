@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{E4573675-6119-40F4-B6E1-1D2D4BE364D5}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="Scit19D9.bpl">Scit.bdsproj</Projects>
+      <Projects Name="DScit19D9.bpl">DScit.bdsproj</Projects>
+      <Projects Name="ScitDB19D9.bpl">DB\ScitDB.bdsproj</Projects>
+      <Projects Name="DScitDB19D9.bpl">DB\DScitDB.bdsproj</Projects>
+      <Projects Name="Targets">Scit19D9.bpl DScit19D9.bpl ScitDB19D9.bpl DScitDB19D9.bpl</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

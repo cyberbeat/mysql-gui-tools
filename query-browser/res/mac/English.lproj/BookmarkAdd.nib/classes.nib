@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {add = id; cancel = id; }; 
+            CLASS = MQAddBookmarkPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {folder = NSPopUpButton; name = NSTextField; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

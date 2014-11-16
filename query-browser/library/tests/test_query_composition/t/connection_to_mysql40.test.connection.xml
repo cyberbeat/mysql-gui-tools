@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<user_connections>
+  <last_connection>0</last_connection>
+  <password_storage_type>2</password_storage_type>
+  <user_connection>
+    <connection_name>connection to mysql-4.0</connection_name>
+    <username>root</username>
+    <hostname>127.0.0.1</hostname>
+    <port>3307</port>
+    <schema>test</schema>
+    <advanced_options/>
+    <storage_path></storage_path>
+    <notes></notes>
+    <connection_type>0</connection_type>
+    <storage_type>1</storage_type>
+    <password/>
+  </user_connection>
+</user_connections>

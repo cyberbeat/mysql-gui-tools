@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<gstructs>
+ 
+  <gstruct name="db.query.Query" parent="GrtObject" desc="a database query">
+    <members>
+      <member name="sql" type="string" desc="the SQL statement" />
+      <member name="params" type="list" content-type="dict" content-struct-name="db.query.QueryParameter" desc="list of individual SQL statements" />
+      <member name="connection" type="string" option="ref" content-struct-name="db.mgmt.Connection" desc="connection parameter" />
+      <member name="moduleName" type="string" desc="the query module name" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.query.QueryParameter" parent="GrtObject" desc="a query parameter">
+    <members>
+      <member name="paramType" type="string" desc="type of the parameter, can be string, int, real, master" />
+      <member name="valueStr" type="string" desc="value if the type is string" />
+      <member name="valueInt" type="int" desc="value if the type is int" />
+      <member name="valueReal" type="real" desc="value if the type is real" />
+      <member name="masterQuery" type="string" option="ref" content-struct-name="db.query.Query" desc="reference to the master query to use" />
+      <member name="masterColumnName" type="string" desc="name of the column in the master query to use" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.query.ResultsetSource" parent="GrtObject" desc="a database connection object for running queries">
+      <member name="dbType" type="string" desc="the database type name" />
+  </gstruct>
+
+  <gstruct name="db.query.Resultset" parent="GrtObject" desc="a database resultset">
+    <members>
+      <member name="connection" type="string" option="ref" content-struct-name="db.mgmt.Connection" desc="connection parameter" />
+      <member name="query" type="string" option="ref" content-struct-name="db.query.Query" desc="the query that has generated this result set" />
+      <member name="sql" type="string" desc="the SQL statement with parameters set" />
+      <member name="columns" type="list" content-type="dict" content-struct-name="db.query.ResultsetColumn" desc="the columns of the resultset" />
+      <member name="rowBlockSize" type="int" desc="number of rows in a row block" />    
+      <member name="nextBlockStartRow" type="int" desc="for row block fetching, set to -1 when all blocks have been fetched" />   
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.query.ResultsetColumn" parent="GrtObject" desc="a database resultset column">
+    <members>
+      <member name="length" type="string" desc="the length of the column" />
+      <member name="displayLength" type="int" desc="the display length of the column if available, otherwise 0" />
+      <member name="displayDecimals" type="int" desc="the scale of the column if appropriate" />
+      <member name="isPrimaryKey" type="int" desc="set to 1 if the column is part of the primary key" />
+      <member name="columnType" type="string" desc="the type of the column, string, int, real, blob, date, time, datetime, geo" />
+    </members>
+  </gstruct>
+    
+</gstructs>

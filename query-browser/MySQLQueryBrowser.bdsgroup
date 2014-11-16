@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{48294CCE-39F7-4572-AAD4-56ECEE5FB2C8}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  
+    
+    <Projects>
+      <Projects Name="libmysqlutil_static.lib">..\common\library\utilities\libmysqlutil_static.bdsproj</Projects>
+      <Projects Name="libmysqlutil.dll">..\common\library\utilities\libmysqlutil.bdsproj</Projects>
+      <Projects Name="libmysqlx_static.lib">..\common\library\base-library\libmysqlx_static.bdsproj</Projects>
+      <Projects Name="libmysqlx.dll">..\common\library\base-library\libmysqlx.bdsproj</Projects>
+      <Projects Name="libmysqlqb_static.lib">library\libmysqlqb_static.bdsproj</Projects>
+      <Projects Name="libmysqlsqlparser.dll">..\common\library\sql-parser\libmysqlsqlparser.bdsproj</Projects>
+      <Projects Name="libmysqlsqlparser_static.lib">..\common\library\sql-parser\libmysqlsqlparser_static.bdsproj</Projects>
+      <Projects Name="libmysqlqb.dll">library\libmysqlqb.bdsproj</Projects>
+      <Projects Name="MySQLQueryBrowser.exe">source\windows\MySQLQueryBrowser.bdsproj</Projects>
+      <Projects Name="CommonTest.exe">..\common\library\testing\CommonTest.bdsproj</Projects>
+      <Projects Name="GeneralDUnitTest.exe">..\common\source\windows\testing\General\GeneralDUnitTest.bdsproj</Projects>
+      <Projects Name="MySQLQueryBrowserTest.exe">testing\test-application\MySQLQueryBrowserTest.bdsproj</Projects>
+      <Projects Name="MySQLQueryBrowserDUnitTest.exe">testing\test-application\MySQLQueryBrowserDUnitTest.bdsproj</Projects>
+      <Projects Name="Targets">libmysqlutil_static.lib libmysqlutil.dll libmysqlx_static.lib libmysqlx.dll libmysqlqb_static.lib libmysqlsqlparser.dll libmysqlsqlparser_static.lib libmysqlqb.dll MySQLQueryBrowser.exe CommonTest.exe GeneralDUnitTest.exe MySQLQueryBrowserTest.exe MySQLQueryBrowserDUnitTest.exe</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+      </Dependency>
+      <Dependency GUID="{3B3181BE-D199-4B69-9D32-21438694E1E8}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+        <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}"/>
+      </Dependency>
+      <Dependency GUID="{C8B061E7-D8A4-4E58-B96D-EB332DD2B53C}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+        <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}"/>
+      </Dependency>
+      <Dependency GUID="{1879C312-EA88-4C1D-81C2-7CC6EE644E98}">
+        <Dependency GUID="{DC18529B-0888-4BB4-9C2B-F785C697AA4C}"/>
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+        <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}"/>
+        <Dependency GUID="{C8B061E7-D8A4-4E58-B96D-EB332DD2B53C}"/>
+      </Dependency>
+      <Dependency GUID="{05B8F435-1869-47BB-8643-D9E5B8A9C7DD}">
+        <Dependency GUID="{E8843A5A-2D65-40A5-A02A-77C356881335}"/>
+        <Dependency GUID="{30A7F377-5BE8-4264-B25A-FEAF2F6B9824}"/>
+        <Dependency GUID="{CCD4C674-0938-4A07-8073-564A8C31288B}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+	<StarTeamAssociation></StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

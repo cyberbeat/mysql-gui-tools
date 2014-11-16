@@ -1,0 +1,60 @@
+-----------------
+SELECT * FROM mysql.help_relation h
+-----------------
+
+-----------------
+-----------------
+SELECT h.help_keyword_id
+-----------------
+ FROM mysql.help_relation h
+-----------------
+-----------------
+SELECT * FROM mysql.help_relation h, h.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT * FROM mysql.help_relation h 
+WHERE h.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT * FROM mysql.help_relation h 
+GROUP BY h.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT * FROM mysql.help_relation h 
+HAVING h.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT * FROM mysql.help_relation h 
+ORDER BY h.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+UPDATE mysql.help_relation h SET h.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+INSERT INTO mysql.help_relation VALUES(
+-----------------
+)
+-----------------
+-----------------
+UPDATE mysql.help_relation h, h.help_keyword_id
+-----------------
+ SET
+-----------------
+-----------------
+DELETE help_keyword_id
+-----------------
+ FROM mysql.help_relation
+WHERE
+-----------------

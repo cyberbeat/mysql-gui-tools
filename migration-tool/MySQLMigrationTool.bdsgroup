@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{13661828-68C2-4BC6-9181-D2AFD45E9C5C}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="libmysqlutil.dll">..\common\library\utilities\libmysqlutil.bdsproj</Projects>
+      <Projects Name="libmysqlx.dll">..\common\library\base-library\libmysqlx.bdsproj</Projects>
+      <Projects Name="libmysqlsqlparser.dll">..\common\library\sql-parser\libmysqlsqlparser.bdsproj</Projects>
+      <Projects Name="libmysqlgrt.dll">..\common\library\generic-runtime\libmysqlgrt.bdsproj</Projects>
+      <Projects Name="libmysqlgrtbuiltinmodule.dll">..\common\library\grt-modules\libmysqlgrtbuiltinmodule.bdsproj</Projects>
+      <Projects Name="grtsh.exe">..\common\tools\grtsh\grtsh.bdsproj</Projects>
+      <Projects Name="MySQLMigrationTool.exe">source\windows\MySQLMigrationTool.bdsproj</Projects>
+      <Projects Name="Targets">libmysqlutil.dll libmysqlx.dll libmysqlsqlparser.dll libmysqlgrt.dll libmysqlgrtbuiltinmodule.dll grtsh.exe MySQLMigrationTool.exe</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+      </Dependency>
+      <Dependency GUID="{DC18529B-0888-4BB4-9C2B-F785C697AA4C}">
+        <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}"/>
+      </Dependency>
+      <Dependency GUID="{F82A5DBA-FE1F-4458-AEBC-2313D3B317F8}">
+        <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}"/>
+      </Dependency>
+      <Dependency GUID="{0A0EB82A-BD79-45A8-9B75-8782D343F216}">
+        <Dependency GUID="{F82A5DBA-FE1F-4458-AEBC-2313D3B317F8}"/>
+      </Dependency>
+      <Dependency GUID="{10CF578C-B57E-4940-9018-C98F76EDEBAF}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+        <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}"/>
+        <Dependency GUID="{DC18529B-0888-4BB4-9C2B-F785C697AA4C}"/>
+        <Dependency GUID="{F82A5DBA-FE1F-4458-AEBC-2313D3B317F8}"/>
+        <Dependency GUID="{0A0EB82A-BD79-45A8-9B75-8782D343F216}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+</BorlandProject>

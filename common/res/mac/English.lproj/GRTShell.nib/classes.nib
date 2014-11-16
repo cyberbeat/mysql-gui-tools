@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                changeRoot = id; 
+                hide = id; 
+                reloadDetails = id; 
+                reloadItem = id; 
+                reloadTree = id; 
+                show = id; 
+            }; 
+            CLASS = MGRTShell; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                moduleInfo = NSTextField; 
+                moduleTree = NSOutlineView; 
+                rootCombo = NSComboBox; 
+                structTree = NSOutlineView; 
+                textView = MShellTextView; 
+                valueList = NSTableView; 
+                valueText = NSTextField; 
+                valueTree = NSOutlineView; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MShellTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = MTextImageCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }
+    ); 
+    IBVersion = 1; 
+}

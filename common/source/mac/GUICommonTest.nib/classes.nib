@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {showBoxTest = id; showButtonTest = id; showConnectionPanel = id; }; 
+            CLASS = TestApplication; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {testWindow = NSWindow; }; 
+            SUPERCLASS = NSApplication; 
+        }
+    ); 
+    IBVersion = 1; 
+}

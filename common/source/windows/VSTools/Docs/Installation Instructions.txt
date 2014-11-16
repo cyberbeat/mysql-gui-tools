@@ -1,0 +1,92 @@
+
+Installing VirtualShellTools 0.9.xxxx
+
+Since VSTools is not 100% complete I have not taken time to create an install procedure yet as it may change as I keep adding more things to VSTools.  In the interm here is the basics for installing VSTools 0.9.xxxx
+
+
+*************************************************************************************************************
+Make sure VirtualTreeview and ThemeManager (also needed for VT) is installed first before trying to install VSTools:
+
+http://www.lischke-online.de/
+
+AS OF VIRTUALSHELLTOOLS VERSION 0.9.230 YOU NEED VT VERSION 3.3.2 AND THEMEMANAGER 1.8.0 TO COMPILE
+
+UPDATE:  It is no longer necessary to use the ThemeManager in Delphi 7
+
+*************************************************************************************************************
+
+NOTE:  If you are upgradeing from older versions of VET or VSTools make sure you locate and delete all older versions of the *.bpl files.  They are usually found under the Delphi install folder at DelphiX/Projects/BPL. 
+
+
+1) Unzip the VirtualShellTools into its desired location.
+
+2) Delphi (or BCB) choose File > Open from the menu.
+
+3) Browse to the VSTools folder and either go to the Delphi or CBuilder folders selecting the version you are using.
+
+*************************************************************************************************************
+  In the following descriptions the *Dx.dpk and *DxD.dpk refer to the version of Delphi you are use so for D5 the files will be names *D5.dpk and *D5D.dpk and so on.  The nomemclature refers to either Design Time packages (required by D6) and Runtime Packages.  The Dx refers to Runtime only and DxD refers to Design time (ie. installable into the IDE) packages.
+*************************************************************************************************************
+
+4) Select 
+       VirtualToolsCommonDx.dpk  
+   and only Compile it
+
+5) Now open 
+       VirtualShellToolsDx.dpk
+   and only Compile it
+
+6) Now open
+       VirtualShellToolsDxD.dpk
+   and Compile it, then Install it into the IDE
+
+This is all that is necessary for the Explorer Tools
+
+If you want Robert Lee's ListviewEx (which uses the standard TListview to mimic the views other than Report, which the base VSTools only supports) then continue
+
+7) Open
+      VirtualExplorerListviewExDx.dpk
+   and only Compile it
+
+8) Open
+      VirtualExplorerListviewExDxD.dpk
+   and Compile it, then Install it into the IDE
+
+
+UPDATE 9.1.02
+
+The OLE is no longer included with the VSTools package.  I have fallen out of favor of the approach and now do it differently.  If you still use the DragManager you will need to do a few things to have it live concurrently with VSTools contact me if you have the need to do this.
+
+
+Now if all goes well drop the components on a form and go.
+
+
+
+
+If Delphi can't find the files then go to the 
+
+  Tools>Enviroment Option...  Menu choice and find the tab with the "Library Path" edit box.  Add the following paths:
+
+  {$YourPathToVSTools}\VirtualShellTools\Source\Common
+  {$YourPathToVSTools}\VirtualShellTools\Source\VirtualExplorerTree
+
+If you are using Robert Lee's ListviewEx then add
+
+  {$YourPathToVSTools}\VirtualShellTools\Source\VirtualListviewEx
+
+If you are using the OLEDragManager then add
+
+  {$YourPathToVSTools}\VirtualShellTools\Source\OLEDragManager
+
+For other problems you can search on the Yahoo Groups support group:
+
+http://groups.yahoo.com/group/VirtualExplorerTree/
+
+or email me
+
+jimdk@mindspring.com
+
+
+Jim Kueneman
+5-23-2002
+

@@ -1,0 +1,5 @@
+
+make LIBS='-lXft -lfontconfig -lfreetype -lpng -ltiff -ljpeg -lexpat -L/usr/X11R6/lib -lX11 -lXext -lXinerama -lXi -lXrender -lXcursor -lXrandr'
+
+
+

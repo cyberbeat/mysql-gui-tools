@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="ScitDB19C6.bpl"/>
+    <OBJFILES value="..\..\b6obj\ScitDB.obj ..\..\b6obj\SciLexerModDB.obj 
+      ..\..\b6obj\ScintillaMemoDB.obj"/>
+    <RESFILES value="ScitDB.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="rtl.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi dbrtl.bpi vcldb.bpi scit.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;..\..\source\DB"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="ScitDB.cpp"/>
+    <INCLUDEPATH value="..\..\source\DB;..\..\source;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\..\..\lib;..\..\source\DB;..\..\b6obj;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -5 -b- -k- -vi -c -tWM"/>
+    <PFLAGS value="-N2..\..\b6obj -N0..\..\b6obj -$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-GB&quot;ScitDB&quot; -I..\..\b6obj 
+      -D&quot;Delphi Scintilla Interface Components DB Runtime&quot; -aa -Tpp -Gpr -x -Gn 
+      -Gl -Gi"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="ScitDB.res" FORMNAME="" UNITNAME="ScitDB.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ScitDB.cpp" FORMNAME="" UNITNAME="ScitDB" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\source\DB\SciLexerModDB.pas" FORMNAME="" UNITNAME="SciLexerModDB" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\source\DB\ScintillaMemoDB.pas" FORMNAME="" UNITNAME="ScintillaMemoDB" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\dbrtl.bpi" FORMNAME="" UNITNAME="dbrtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\vcldb.bpi" FORMNAME="" UNITNAME="vcldb" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\scit.bpi" FORMNAME="" UNITNAME="scit" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=0
+MinorVer=19
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Jan Martin Pettersen
+FileDescription=Delphi Scintilla Interface Components DB Runtime (C++ Builder 6)
+FileVersion=0.19.0.0
+InternalName=
+LegalCopyright=Copyright © 2004, 2005, Jan Martin Pettersen
+LegalTrademarks=
+OriginalFilename=
+ProductName=Delphi Scintilla Interface Components DB Runtime (C++ Builder 6)
+ProductVersion=0.19.0.0
+Comments=Released under the LGPL v2.1 license.
+
+[Excluded Packages]
+d:\program files\borland\cbuilder6\Bin\dclsoap60.bpl=Borland SOAP Components
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=..\..\source\DB;..\..\source;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\..\source\DB;..\..\source;c:\Mypro;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\..\source\DB;c:\Mypro;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=4
+Item0=..\..\..\lib;..\..\source\DB;..\..\b6obj;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\..\..\lib;..\..\source\DB;..\..\b6obj;c:\Mypro;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\..\source\DB;..\..\b6obj;c:\Mypro;$(BCB)\lib\obj;$(BCB)\lib
+Item3=..\..\source\DB;c:\Mypro;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=..\..\b6obj
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+
+[Linker]
+LibPrefix=
+LibSuffix=19C6
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

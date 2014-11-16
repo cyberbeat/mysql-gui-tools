@@ -1,0 +1,132 @@
+
+
+Translating the MySQL GUI Tools
+===============================
+
+How it Works
+------------
+
+Internationalization (i18n) of the gui tools is done through gettext,
+including in the Delphi/Windows versions of the tools. Basically that means
+that each application will have 2 big po files containing all messages:
+one for the mysql-gui-common library and one for the application itself.
+Sometimes the application may have more po files for some extra libraries.
+Naturally, common libraries only need to be translated once.
+
+Once the po file is translated, you should send it to us and we will include
+it in the source tree, so that it is available when you install the next
+release of the tool. Instructions to install the translated file yourself 
+are given later in this file.
+
+
+How To Translate
+----------------
+
+The source distribution of each tool should have a directory called po for
+each component, such as mysql-gui-common/po and mysql-administrator/po
+These directories contain previously translated messages and the template
+file, which has an extension of .pot 
+
+1. Starting from scratch
+You may use the .pot file as a starting point, in that case copy the .pot
+file to <lang-code>.po and translate that file. lang-code must be the code of
+the language which you can look up here:
+
+http://www.gnu.org/software/gettext/manual/html_chapter/gettext_15.html
+
+2. Translate the po file
+
+The po file will contain a header section where it requests for several
+pieces of information such as the language name, translator info etc. 
+Fill it as much as you can, if you're not sure of something, you can leave it
+as is and we will fill it.
+
+The rest of the file consist of several lines like this:
+
+#: MySQLResultSet.pas:887 
+msgid "%d rows fetched so far."
+msgstr ""
+
+#: source/linux/MGConnectDialog.cc:386 
+msgid "(last connection)"
+msgstr ""
+
+
+Lines beginning with # are comments. You can add your own comments above the
+automatically inserted ones in case you need.
+
+The line that begins with msgid is the original message to be translated and
+should not be touched. 
+
+msgstr is the translated version of the string in msgid. 
+
+Sometimes, the string will contain special sequences like %i, %d or %s.
+These will be replaced by some text or number when it's displayed, so you
+should repeat the same sequences in the same order in the translated message.
+The amount of text between each one doesn't matter, but the number and type
+does.
+%f, %i and %d are replaced with numbers, %c with a character and %s is
+replaced by a text string.
+
+So, the Portuguese (pt.po) version of the example above would be:
+
+#: MySQLResultSet.pas:887 
+msgid "%d rows fetched so far."
+msgstr "%d linhas buscadas até o momento."
+
+# some extra comment here
+#: source/linux/MGConnectDialog.cc:386 
+msgid "(last connection)"
+msgstr "(última conexão)"
+
+
+3. (optional) Compile the po file
+You can compile the po file into the binary format used by the application
+with the following command:
+
+msgfmt -c --strict <lang>.po -o <lang>.mo
+
+You can then copy the <lang>.mo file to the corresponding locale directory
+for the tool, with the file name <application>.mo Replace <application> with
+the app name (mysql-admnistrator, mysql-query-browser etc) or mysql-gui-common.
+
+In Linux, the localized message directory is usually in
+/usr/share/locale/<lang>/LC_MESSSAGES
+
+
+4. Updating translation files
+
+To update an already existing but outdated po file, you must first call the
+following command, which will add new messages or comment out deleted ones:
+
+msgmerge <lang>.po <newfile>.pot
+
+Once the po file is updated, you can review it to translate any new messages.
+
+
+Notes
+-----
+
+Linux and Windows applications share the same po file. That means that during
+translation you may see messages that you will never see in the version of
+the app you are using in your platform. Some other times you will see the
+same messages repeated with different wording or with minor spelling
+differences. If you notice such cases, please mark such messages with a
+comment, starting with ## like:
+
+##DUPE
+
+for duplicated or very similar messages (like New Catalog vs New catalog)
+
+##TYPO
+
+for messages with spelling errors
+
+please remind us when submitting the translation of such things.
+
+
+
+You can send translated files to the GUI tools mailing list
+(http://lists.mysql.com/gui-tools) or submit them in the bug tracking system
+at http://bugs.mysql.com
+

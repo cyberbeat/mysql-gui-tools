@@ -1,0 +1,24 @@
+-----------------
+select * from db db, host h
+WHERE db.user='root' AND h.Host=db.Host AND h.Db=db.Db
+-----------------
+
+-----------------
+-----------------
+SELECT * FROM mysql.help_category h, help_category he
+WHERE he.help_category_id=h.help_category_id
+-----------------
+
+-----------------
+-----------------
+SELECT * FROM mysql.help_category h, help_category he, help_category h0
+WHERE he.help_category_id=h.help_category_id AND h0.help_category_id=h.help_category_id
+-----------------
+
+-----------------
+-----------------
+SELECT * FROM mysql.help_category h, help_category he, help_category h0, help_category h1
+WHERE he.help_category_id=h.help_category_id AND h0.help_category_id=h.help_category_id AND h1.help_category_id=h.help_category_id
+-----------------
+
+-----------------

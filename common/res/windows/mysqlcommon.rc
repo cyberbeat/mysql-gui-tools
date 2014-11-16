@@ -1,0 +1,121 @@
+dockpnl_bg PNG "..\..\images\png\dockpnl_bg.png"
+mysql_logo PNG "..\..\images\png\mysql_logo.png"
+connect_to_instance PNG "..\..\images\icons\png\connect_to_instance.png"
+clear_search PNG "..\..\images\buttons\png\clear_search.png"
+magnify_glass PNG "..\..\images\icons\png\magnify_glass.png"
+magnify_glass_with_popup PNG "..\..\images\icons\png\magnify_glass_with_popup.png"
+progress_indicator AVI "..\..\images\progress_indicator.avi"
+
+sakila PNG "..\..\images\png\sakila.png"
+
+white_8x8 BMP "..\..\images\white.8x8.bmp"
+white_12x12 BMP "..\..\images\white.12x12.bmp"
+white_16x16 BMP "..\..\images\white.16x16.bmp"
+
+task_checked PNG "..\..\images\png\task_checked.png"
+task_unchecked PNG "..\..\images\png\task_unchecked.png"
+task_error PNG "..\..\images\png\task_error.png"
+task_disabled PNG "..\..\images\png\task_disabled.png"
+
+messagedlg_warning PNG "..\..\images\icons\png\messagedlg_warning.png"
+messagedlg_error PNG "..\..\images\icons\png\messagedlg_error.png"
+messagedlg_edit PNG "..\..\images\icons\png\messagedlg_edit.png"
+messagedlg_confirmation PNG "..\..\images\icons\png\messagedlg_confirmation.png"
+messagedlg_information PNG "..\..\images\icons\png\messagedlg_information.png"
+
+thread_stop PNG "..\..\images\icons\png\thread_stop.png"
+user_icon PNG "..\..\images\icons\png\user_icon.png"
+sizer_h_left PNG "..\..\images\png\sizer_h_left.png"
+sizer_h_right PNG "..\..\images\png\sizer_h_right.png"
+edit_enabled PNG "..\..\images\png\checked.png"
+edit_disabled PNG "..\..\images\png\unchecked.png"
+
+tree_button_closed PNG "..\..\images\png\tree_button_closed.png"
+tree_button_open PNG "..\..\images\png\tree_button_open.png"
+tree_button_box PNG "..\..\images\png\tree_button_box.png"
+
+tab_close PNG "..\..\images\png\tab_close.png"
+tab_new PNG "..\..\images\png\tab_new.png"
+tab_list PNG "..\..\images\png\tab_list.png"
+
+options_general PNG "..\..\images\icons\png\options_general.png"
+options_connections PNG "..\..\images\icons\png\options_connections.png"
+options_editors PNG "..\..\images\icons\png\options_editors.png"
+options_bg PNG "..\..\images\icons\png\options_bg.png"
+options_admin PNG "..\..\images\icons\png\options_admin.png"
+options_querybrowser PNG "..\..\images\icons\png\options_querybrowser.png"
+
+options_checkbox PNG "..\..\images\icons\png\options_checkbox.png"
+options_checkbox_checked PNG "..\..\images\icons\png\options_checkbox_checked.png"
+options_checkbox_xed PNG "..\..\images\icons\png\options_checkbox_xed.png"
+
+checkmark PNG "..\..\images\icons\png\checkmark.png"
+
+datatype_numeric PNG "..\..\images\icons\png\datatype_numeric.png"
+datatype_string PNG "..\..\images\icons\png\datatype_string.png"
+datatype_text PNG "..\..\images\icons\png\datatype_string.png"
+datatype_blob PNG "..\..\images\icons\png\datatype_blob.png"
+datatype_datetime PNG "..\..\images\icons\png\datatype_datetime.png"
+datatype_spatial PNG "..\..\images\icons\png\datatype_spatial.png"
+datatype_various PNG "..\..\images\icons\png\datatype_userdefined.png"
+datatype_userdefined PNG "..\..\images\icons\png\datatype_userdefined.png"
+datatype_structured PNG "..\..\images\icons\png\datatype_userdefined.png"
+
+schema_32x32 PNG "..\..\images\icons\png\schema_32x32.png"
+
+catalog_16x16 PNG "..\..\images\png\16x16_Catalog.png"
+schema_16x16 PNG "..\..\images\icons\png\myx_schema_16x16.png"
+asset_table PNG "..\..\images\icons\png\asset_table.png"
+asset_table_16x16 PNG "..\..\images\icons\png\myx_schema_table_16x16.png"
+asset_index PNG "..\..\images\icons\png\asset_index.png"
+asset_index_16x16 PNG "..\..\images\icons\png\asset_index_16x16.png"
+column PNG "..\..\images\icons\png\column.png"
+column_fk PNG "..\..\images\icons\png\column_fk.png"
+column_pk PNG "..\..\images\icons\png\column_pk.png"
+users_16x16 PNG "..\..\images\png\16x16_Users.png"
+asset_sp_16x16 PNG "..\..\images\icons\png\myx_schema_sp_16x16.png"
+asset_view_16x16 PNG "..\..\images\icons\png\myx_schema_view_16x16.png"
+
+connection_dlg_no_schema_specified PNG "..\..\images\warnings\connection_dlg_no_schema_specified.png"
+
+source_dbconn PNG "..\..\images\png\source_dbconn.png"
+target_dbconn PNG "..\..\images\png\target_dbconn.png"
+
+field_overlay_clear PNG "..\..\images\png\field_overlay_clear.png"
+field_overlay_edit PNG "..\..\images\png\field_overlay_edit.png"
+field_overlay_load PNG "..\..\images\png\field_overlay_load.png"
+field_overlay_save PNG "..\..\images\png\field_overlay_save.png"
+field_overlay_view PNG "..\..\images\png\field_overlay_view.png"
+field_overlay_null PNG "..\..\images\png\field_overlay_null.png"
+blob_icon PNG "..\..\images\png\blob_icon.png"
+column_indicator PNG "..\..\images\icons\png\column_11x11.png"
+column_indicator_pk PNG "..\..\images\icons\png\column_pk_11x11.png"
+column_indicator_fk PNG "..\..\images\icons\png\column_fk_11x11.png"
+
+tabsheet_icon_close PNG "..\..\images\png\tabsheet_icon_close.png"
+tabsheet_icon_close2 PNG "..\..\images\png\tabsheet_icon_close2.png"
+
+statusbar_clear PNG "..\..\images\png\statusbar_clear.png"
+
+
+grt_value_dict PNG "..\..\images\grt\grt_value_dict.png"
+grt_value_list PNG "..\..\images\grt\grt_value_list.png"
+grt_value_simple PNG "..\..\images\grt\grt_value_simple.png"
+grt_value_struct PNG "..\..\images\grt\grt_value_struct.png"
+grt_module PNG "..\..\images\grt\grt_module.png"
+grt_function PNG "..\..\images\grt\grt_function.png"
+
+source_collapsed PNG "..\..\images\source_collapsed.png"
+source_expanded PNG "..\..\images\source_expanded.png"
+
+action_btn_down_bg PNG "..\..\images\png\action_btn_down_bg.png"
+action_btn_down_left_bg PNG "..\..\images\png\action_btn_down_left_bg.png"
+
+action_btn_edit PNG "..\..\images\png\action_btn_edit.png"
+action_btn_edit_disabled PNG "..\..\images\png\action_btn_edit_disabled.png"
+action_btn_edit_active PNG "..\..\images\png\action_btn_edit_active.png"
+action_btn_apply PNG "..\..\images\png\action_btn_apply.png"
+action_btn_apply_disabled PNG "..\..\images\png\action_btn_apply_disabled.png"
+action_btn_discard PNG "..\..\images\png\action_btn_discard.png"
+action_btn_discard_disabled PNG "..\..\images\png\action_btn_discard_disabled.png"
+

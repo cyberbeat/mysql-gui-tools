@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<functionindex>
+  <functiongroup caption="Operator and Function Reference"/>
+  <functiongroup caption="Operators">
+    <function id="operator-precedence" caption="Operator Precedence"/>
+    <function id="type-conversion" caption="Type Conversion in Expression Evaluation"/>
+    <functionsubgroup id="comparison-operators" caption="Comparison Functions and Operators">
+      <function id="operator_equal" caption="="/>
+      <function id="operator_equal-to" caption="&lt;=&gt;"/>
+      <function id="operator_not-equal" caption="&lt;&gt;"/>
+      <function id="operator_less-than-or-equal" caption="&lt;="/>
+      <function id="operator_less-than" caption="&lt;"/>
+      <function id="operator_greater-than-or-equal" caption="&gt;="/>
+      <function id="operator_greater-than" caption="&gt;"/>
+      <function id="operator_is" caption="IS boolean_value"/>
+      <function id="function_is-null" caption="IS NULL"/>
+      <function id="function_between" caption="expr BETWEEN min AND max"/>
+      <function id="function_not-between" caption="expr NOT BETWEEN min AND max"/>
+      <function id="function_coalesce" caption="COALESCE(value,...)"/>
+      <function id="function_greatest" caption="GREATEST(value1,value2,...)"/>
+      <function id="function_in" caption="expr IN (value,...)"/>
+      <function id="function_not-in" caption="expr NOT IN (value,...)"/>
+      <function id="function_isnull" caption="ISNULL(expr)"/>
+      <function id="function_interval" caption="INTERVAL(N,N1,N2,N3,...)"/>
+      <function id="function_least" caption="LEAST(value1,value2,...)"/>
+    </functionsubgroup>
+    <functionsubgroup id="logical-operators" caption="Logical Operators">
+      <function id="operator_not" caption="NOT"/>
+      <function id="operator_and" caption="AND"/>
+      <function id="operator_or" caption="OR"/>
+      <function id="operator_xor" caption="XOR"/>
+    </functionsubgroup>
+  </functiongroup>
+  <functiongroup caption="Control Flow Functions">
+    <function id="function_case" caption="CASE value WHEN [compare_value] THEN result [WHEN [compare_value] THEN result ...] [ELSE result] END"/>
+    <function id="function_if" caption="IF(expr1,expr2,expr3)"/>
+    <function id="function_ifnull" caption="IFNULL(expr1,expr2)"/>
+    <function id="function_nullif" caption="NULLIF(expr1,expr2)"/>
+  </functiongroup>
+  <functiongroup caption="String Functions">
+    <function id="function_ascii" caption="ASCII(str)"/>
+    <function id="function_bin" caption="BIN(N)"/>
+    <function id="function_bit-length" caption="BIT_LENGTH(str)"/>
+    <function id="function_char" caption="CHAR(N,... [USING charset_name])"/>
+    <function id="function_char-length" caption="CHAR_LENGTH(str)"/>
+    <function id="function_character-length" caption="CHARACTER_LENGTH(str)"/>
+    <function id="function_concat" caption="CONCAT(str1,str2,...)"/>
+    <function id="function_concat-ws" caption="CONCAT_WS(separator,str1,str2,...)"/>
+    <function id="function_conv" caption="CONV(N,from_base,to_base)"/>
+    <function id="function_elt" caption="ELT(N,str1,str2,str3,...)"/>
+    <function id="function_export-set" caption="EXPORT_SET(bits,on,off[,separator[,number_of_bits]])"/>
+    <function id="function_field" caption="FIELD(str,str1,str2,str3,...)"/>
+    <function id="function_find-in-set" caption="FIND_IN_SET(str,strlist)"/>
+    <function id="function_format" caption="FORMAT(X,D)"/>
+    <function id="function_hex" caption="HEX(N_or_S)"/>
+    <function id="function_insert" caption="INSERT(str,pos,len,newstr)"/>
+    <function id="function_instr" caption="INSTR(str,substr)"/>
+    <function id="function_lcase" caption="LCASE(str)"/>
+    <function id="function_left" caption="LEFT(str,len)"/>
+    <function id="function_length" caption="LENGTH(str)"/>
+    <function id="function_load-file" caption="LOAD_FILE(file_name)"/>
+    <function id="function_locate" caption="LOCATE(substr,str)"/>
+    <function id="function_lower" caption="LOWER(str)"/>
+    <function id="function_lpad" caption="LPAD(str,len,padstr)"/>
+    <function id="function_ltrim" caption="LTRIM(str)"/>
+    <function id="function_make-set" caption="MAKE_SET(bits,str1,str2,...)"/>
+    <function id="function_mid" caption="MID(str,pos,len)"/>
+    <function id="function_oct" caption="OCT(N)"/>
+    <function id="function_octet-length" caption="OCTET_LENGTH(str)"/>
+    <function id="function_ord" caption="ORD(str)"/>
+    <function id="function_position" caption="POSITION(substr IN str)"/>
+    <function id="function_quote" caption="QUOTE(str)"/>
+    <function id="function_repeat" caption="REPEAT(str,count)"/>
+    <function id="function_replace" caption="REPLACE(str,from_str,to_str)"/>
+    <function id="function_reverse" caption="REVERSE(str)"/>
+    <function id="function_right" caption="RIGHT(str,len)"/>
+    <function id="function_rpad" caption="RPAD(str,len,padstr)"/>
+    <function id="function_rtrim" caption="RTRIM(str)"/>
+    <function id="function_soundex" caption="SOUNDEX(str)"/>
+    <function id="operator_sounds-like" caption="expr1 SOUNDS LIKE expr2"/>
+    <function id="function_space" caption="SPACE(N)"/>
+    <function id="function_substring" caption="SUBSTRING(str,pos)"/>
+    <function id="function_substring-index" caption="SUBSTRING_INDEX(str,delim,count)"/>
+    <function id="function_trim" caption="TRIM([{BOTH | LEADING | TRAILING} [remstr] FROM] str)"/>
+    <function id="function_ucase" caption="UCASE(str)"/>
+    <function id="function_unhex" caption="UNHEX(str)"/>
+    <function id="function_upper" caption="UPPER(str)"/>
+    <functionsubgroup id="string-comparison-functions" caption="String Comparison Functions">
+      <function id="operator_like" caption="expr LIKE pat [ESCAPE 'escape_char']"/>
+      <function id="operator_not-like" caption="expr NOT LIKE pat [ESCAPE 'escape_char']"/>
+      <function id="operator_not-regexp" caption="expr NOT REGEXP pat"/>
+      <function id="operator_regexp" caption="expr REGEXP pat"/>
+      <function id="function_strcmp" caption="STRCMP(expr1,expr2)"/>
+    </functionsubgroup>
+    <function id="regexp" caption="Regular Expressions"/>
+  </functiongroup>
+  <functiongroup caption="Numeric Functions">
+    <functionsubgroup id="arithmetic-functions" caption="Arithmetic Operators">
+      <function id="operator_plus" caption="+"/>
+      <function id="operator_minus" caption="-"/>
+      <function id="operator_unary-minus" caption="-"/>
+      <function id="operator_times" caption="*"/>
+      <function id="operator_by" caption="/"/>
+      <function id="operator_div" caption="DIV"/>
+      <function id="operator_mod" caption="N % M"/>
+    </functionsubgroup>
+    <functionsubgroup id="mathematical-functions" caption="Mathematical Functions">
+      <function id="function_abs" caption="ABS(X)"/>
+      <function id="function_acos" caption="ACOS(X)"/>
+      <function id="function_asin" caption="ASIN(X)"/>
+      <function id="function_atan" caption="ATAN(X)"/>
+      <function id="function_atan2" caption="ATAN(Y,X)"/>
+      <function id="function_ceiling" caption="CEILING(X)"/>
+      <function id="function_cos" caption="COS(X)"/>
+      <function id="function_cot" caption="COT(X)"/>
+      <function id="function_crc32" caption="CRC32(expr)"/>
+      <function id="function_degrees" caption="DEGREES(X)"/>
+      <function id="function_exp" caption="EXP(X)"/>
+      <function id="function_floor" caption="FLOOR(X)"/>
+      <function id="function_ln" caption="LN(X)"/>
+      <function id="function_log" caption="LOG(X)"/>
+      <function id="function_log2" caption="LOG2(X)"/>
+      <function id="function_log10" caption="LOG10(X)"/>
+      <function id="function_mod" caption="MOD(N,M)"/>
+      <function id="function_pi" caption="PI()"/>
+      <function id="function_pow" caption="POW(X,Y)"/>
+      <function id="function_radians" caption="RADIANS(X)"/>
+      <function id="function_rand" caption="RAND()"/>
+      <function id="function_round" caption="ROUND(X)"/>
+      <function id="function_sign" caption="SIGN(X)"/>
+      <function id="function_sin" caption="SIN(X)"/>
+      <function id="function_sqrt" caption="SQRT(X)"/>
+      <function id="function_tan" caption="TAN(X)"/>
+      <function id="function_truncate" caption="TRUNCATE(X,D)"/>
+    </functionsubgroup>
+  </functiongroup>
+  <functiongroup caption="Date and Time Functions">
+    <function id="function_adddate" caption="ADDDATE(date,INTERVAL expr unit)"/>
+    <function id="function_addtime" caption="ADDTIME(expr1,expr2)"/>
+    <function id="function_convert-tz" caption="CONVERT_TZ(dt,from_tz,to_tz)"/>
+    <function id="function_curdate" caption="CURDATE()"/>
+    <function id="function_current-date" caption="CURRENT_DATE"/>
+    <function id="function_curtime" caption="CURTIME()"/>
+    <function id="function_current-time" caption="CURRENT_TIME"/>
+    <function id="function_current-timestamp" caption="CURRENT_TIMESTAMP"/>
+    <function id="function_date" caption="DATE(expr)"/>
+    <function id="function_datediff" caption="DATEDIFF(expr1,expr2)"/>
+    <function id="function_date-add" caption="DATE_ADD(date,INTERVAL expr unit)"/>
+    <function id="function_date-format" caption="DATE_FORMAT(date,format)"/>
+    <function id="function_date-sub" caption="DATE_SUB(date,INTERVAL expr unit)"/>
+    <function id="function_day" caption="DAY(date)"/>
+    <function id="function_dayname" caption="DAYNAME(date)"/>
+    <function id="function_dayofmonth" caption="DAYOFMONTH(date)"/>
+    <function id="function_dayofweek" caption="DAYOFWEEK(date)"/>
+    <function id="function_dayofyear" caption="DAYOFYEAR(date)"/>
+    <function id="function_extract" caption="EXTRACT(unit FROM date)"/>
+    <function id="function_from-days" caption="FROM_DAYS(N)"/>
+    <function id="function_from-unixtime" caption="FROM_UNIXTIME(unix_timestamp)"/>
+    <function id="function_get-format" caption="GET_FORMAT(DATE|TIME|DATETIME, 'EUR'|'USA'|'JIS'|'ISO'|'INTERNAL')"/>
+    <function id="function_hour" caption="HOUR(time)"/>
+    <function id="function_last-day" caption="LAST_DAY(date)"/>
+    <function id="function_localtime" caption="LOCALTIME"/>
+    <function id="function_localtimestamp" caption="LOCALTIMESTAMP"/>
+    <function id="function_makedate" caption="MAKEDATE(year,dayofyear)"/>
+    <function id="function_maketime" caption="MAKETIME(hour,minute,second)"/>
+    <function id="function_microsecond" caption="MICROSECOND(expr)"/>
+    <function id="function_minute" caption="MINUTE(time)"/>
+    <function id="function_month" caption="MONTH(date)"/>
+    <function id="function_monthname" caption="MONTHNAME(date)"/>
+    <function id="function_now" caption="NOW()"/>
+    <function id="function_period-add" caption="PERIOD_ADD(P,N)"/>
+    <function id="function_period-diff" caption="PERIOD_DIFF(P1,P2)"/>
+    <function id="function_quarter" caption="QUARTER(date)"/>
+    <function id="function_second" caption="SECOND(time)"/>
+    <function id="function_sec-to-time" caption="SEC_TO_TIME(seconds)"/>
+    <function id="function_str-to-date" caption="STR_TO_DATE(str,format)"/>
+    <function id="function_subdate" caption="SUBDATE(date,INTERVAL expr unit)"/>
+    <function id="function_subtime" caption="SUBTIME(expr1,expr2)"/>
+    <function id="function_sysdate" caption="SYSDATE()"/>
+    <function id="function_time" caption="TIME(expr)"/>
+    <function id="function_timediff" caption="TIMEDIFF(expr1,expr2)"/>
+    <function id="function_timestamp" caption="TIMESTAMP(expr)"/>
+    <function id="function_timestampadd" caption="TIMESTAMPADD(unit,interval,datetime_expr)"/>
+    <function id="function_timestampdiff" caption="TIMESTAMPDIFF(unit,datetime_expr1,datetime_expr2)"/>
+    <function id="function_time-format" caption="TIME_FORMAT(time,format)"/>
+    <function id="function_time-to-sec" caption="TIME_TO_SEC(time)"/>
+    <function id="function_to-days" caption="TO_DAYS(date)"/>
+    <function id="function_unix-timestamp" caption="UNIX_TIMESTAMP()"/>
+    <function id="function_utc-date" caption="UTC_DATE"/>
+    <function id="function_utc-time" caption="UTC_TIME"/>
+    <function id="function_utc-timestamp" caption="UTC_TIMESTAMP"/>
+    <function id="function_week" caption="WEEK(date[,mode])"/>
+    <function id="function_weekday" caption="WEEKDAY(date)"/>
+    <function id="function_weekofyear" caption="WEEKOFYEAR(date)"/>
+    <function id="function_year" caption="YEAR(date)"/>
+    <function id="function_yearweek" caption="YEARWEEK(date)"/>
+  </functiongroup>
+  <functiongroup caption="What Calendar Is Used By MySQL?"/>
+  <functiongroup caption="Full-Text Search Functions">
+    <function id="fulltext-boolean" caption="Boolean Full-Text Searches"/>
+    <function id="fulltext-query-expansion" caption="Full-Text Searches with Query Expansion"/>
+    <function id="fulltext-stopwords" caption="Full-Text Stopwords"/>
+    <function id="fulltext-restrictions" caption="Full-Text Restrictions"/>
+    <function id="fulltext-fine-tuning" caption="Fine-Tuning MySQL Full-Text Search"/>
+  </functiongroup>
+  <functiongroup caption="Cast Functions and Operators">
+    <function id="operator_binary" caption="BINARY"/>
+    <function id="function_cast" caption="CAST(expr AS type)"/>
+  </functiongroup>
+  <functiongroup caption="Other Functions">
+    <functionsubgroup id="bit-functions" caption="Bit Functions">
+      <function id="operator_bitwise-or" caption="|"/>
+      <function id="operator_bitwise-and" caption="&amp;"/>
+      <function id="operator_bitwise-xor" caption="^"/>
+      <function id="operator_left-shift" caption="&lt;&lt;"/>
+      <function id="operator_right-shift" caption="&gt;&gt;"/>
+      <function id="operator_tilde" caption="~"/>
+      <function id="function_bit-count" caption="BIT_COUNT(N)"/>
+    </functionsubgroup>
+    <functionsubgroup id="encryption-functions" caption="Encryption and Compression Functions">
+      <function id="function_aes-encrypt" caption="AES_ENCRYPT(str,key_str)"/>
+      <function id="function_compress" caption="COMPRESS(string_to_compress)"/>
+      <function id="function_decode" caption="DECODE(crypt_str,pass_str)"/>
+      <function id="function_encode" caption="ENCODE(str,pass_str)"/>
+      <function id="function_des-decrypt" caption="DES_DECRYPT(crypt_str[,key_str])"/>
+      <function id="function_des-encrypt" caption="DES_ENCRYPT(str[,{key_num|key_str}])"/>
+      <function id="function_encrypt" caption="ENCRYPT(str[,salt])"/>
+      <function id="function_md5" caption="MD5(str)"/>
+      <function id="function_old-password" caption="OLD_PASSWORD(str)"/>
+      <function id="function_password" caption="PASSWORD(str)"/>
+      <function id="function_sha1" caption="SHA1(str)"/>
+      <function id="function_uncompress" caption="UNCOMPRESS(string_to_uncompress)"/>
+      <function id="function_uncompressed-length" caption="UNCOMPRESSED_LENGTH(compressed_string)"/>
+    </functionsubgroup>
+    <functionsubgroup id="information-functions" caption="Information Functions">
+      <function id="function_benchmark" caption="BENCHMARK(count,expr)"/>
+      <function id="function_charset" caption="CHARSET(str)"/>
+      <function id="function_coercibility" caption="COERCIBILITY(str)"/>
+      <function id="function_collation" caption="COLLATION(str)"/>
+      <function id="function_connection-id" caption="CONNECTION_ID()"/>
+      <function id="function_current-user" caption="CURRENT_USER"/>
+      <function id="function_database" caption="DATABASE()"/>
+      <function id="function_found-rows" caption="FOUND_ROWS()"/>
+      <function id="function_last-insert-id" caption="LAST_INSERT_ID()"/>
+      <function id="function_row-count" caption="ROW_COUNT()"/>
+      <function id="function_schema" caption="SCHEMA()"/>
+      <function id="function_session-user" caption="SESSION_USER()"/>
+      <function id="function_system-user" caption="SYSTEM_USER()"/>
+      <function id="function_user" caption="USER()"/>
+      <function id="function_version" caption="VERSION()"/>
+    </functionsubgroup>
+    <functionsubgroup id="miscellaneous-functions" caption="Miscellaneous Functions">
+      <function id="function_default" caption="DEFAULT(col_name)"/>
+      <function id="function_get-lock" caption="GET_LOCK(str,timeout)"/>
+      <function id="function_inet-aton" caption="INET_ATON(expr)"/>
+      <function id="function_inet-ntoa" caption="INET_NTOA(expr)"/>
+      <function id="function_is-free-lock" caption="IS_FREE_LOCK(str)"/>
+      <function id="function_is-used-lock" caption="IS_USED_LOCK(str)"/>
+      <function id="function_master-pos-wait" caption="MASTER_POS_WAIT(log_name,log_pos[,timeout])"/>
+      <function id="function_name-const" caption="NAME_CONST(name,value)"/>
+      <function id="function_release-lock" caption="RELEASE_LOCK(str)"/>
+      <function id="function_sleep" caption="SLEEP(duration)"/>
+      <function id="function_uuid" caption="UUID()"/>
+      <function id="function_values" caption="VALUES(col_name)"/>
+    </functionsubgroup>
+  </functiongroup>
+  <functiongroup caption="Functions and Modifiers for Use with GROUP BY Clauses">
+    <functionsubgroup id="group-by-functions" caption="GROUP BY (Aggregate) Functions">
+      <function id="function_avg" caption="AVG([DISTINCT] expr)"/>
+      <function id="function_bit-and" caption="BIT_AND(expr)"/>
+      <function id="function_bit-or" caption="BIT_OR(expr)"/>
+      <function id="function_bit-xor" caption="BIT_XOR(expr)"/>
+      <function id="function_count" caption="COUNT(expr)"/>
+      <function id="function_count-distinct" caption="COUNT(DISTINCT expr,[expr...])"/>
+      <function id="function_group-concat" caption="GROUP_CONCAT(expr)"/>
+      <function id="function_min" caption="MIN([DISTINCT] expr)"/>
+      <function id="function_std" caption="STD(expr)"/>
+      <function id="function_stddev-pop" caption="STDDEV_POP(expr)"/>
+      <function id="function_stddev-samp" caption="STDDEV_SAMP(expr)"/>
+      <function id="function_sum" caption="SUM([DISTINCT] expr)"/>
+      <function id="function_var-pop" caption="VAR_POP(expr)"/>
+      <function id="function_var-samp" caption="VAR_SAMP(expr)"/>
+      <function id="function_variance" caption="VARIANCE(expr)"/>
+    </functionsubgroup>
+    <function id="group-by-modifiers" caption="GROUP BY Modifiers"/>
+    <function id="group-by-hidden-fields" caption="GROUP BY and HAVING with Hidden Fields"/>
+  </functiongroup>
+</functionindex>

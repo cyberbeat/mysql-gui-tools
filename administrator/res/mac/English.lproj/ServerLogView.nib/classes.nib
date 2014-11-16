@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {changePage = id; saveLog = id; selectLog = id; }; 
+            CLASS = MAServerLogView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                indexTable = NSTableView; 
+                pageSlider = NSSlider; 
+                pathText = NSTextField; 
+                sizeText = NSTextField; 
+                text = NSTextView; 
+                topView = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

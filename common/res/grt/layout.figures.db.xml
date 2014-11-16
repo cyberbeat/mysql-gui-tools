@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file contains the figure templates of all base Generic Canvas database figures. -->
+
+<gc-layouts xmlns="http://dev.mysql.com/gc/layout">
+
+  <layout-definition layout-class="default" type="paper">
+    <element template="paper"/>
+  </layout-definition>
+   
+  <layout-definition layout-class="icon" type="db.workbench.TableElement">
+    <element layout="column">
+    </element>
+  </layout-definition>
+  
+  <!-- Table ****************************************************************************************** -->  
+  <layout-definition layout-class="default" type="db.workbench.TableElement">
+    <element layout="column" resize="all" min-width="100" max-width="500">
+      <element id="table-header" layout="row" resize="horizontal">
+        <element id="table-header-left" resize="none" template="db.table.header.left:blue">
+          <action function="dragFigure();">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+          <action function="do(1001)" >
+            <trigger controller="left" event="double-click" modifiers="ignore"/>
+          </action>
+        </element>
+        <element key="/name" resize="horizontal" template="db.table.header.middle:blue">
+	        <caption platform="windows" font-family="Tahoma-Bold" font-size="16" default="Table"
+            x="5" y="2" horizontal-alignment="left" vertical-alignment="center" fill="black" />
+ 		<caption platform="linux,macosx" font-family="Bitstream Vera Sans" font-size="16" default="Table"
+            x="5" y="-2" horizontal-alignment="left" vertical-alignment="center" fill="black" />
+          <action function="dragFigure();">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+          <action function="do(1001)" >
+            <trigger controller="left" event="double-click" modifiers="none"/>
+          </action>
+        </element>
+        <element key="table-toggler" id="table-header-right" resize="none" template="db.table.header.arrow.down:blue"> 
+          <action function="toggle(../../table-body, db.table.header.arrow.down:blue, db.table.header.arrow.right:blue)" >
+            <trigger controller="left" event="down" modifiers="none"/>
+            <trigger controller="left" event="double-click" modifiers="none"/>
+          </action>
+        </element>
+      </element>
+
+      <element id="table-body" key="/table-body" layout="column" resize="horizontal" equal-size="true">
+
+        <!-- Columns -->
+        <element id="columns-part" layout="column" resize="horizontal" equal-size="true">
+          <!-- Columns part heading -->
+          <element id="columns-heading" layout="row">
+            <element id="columns-heading-left" resize="horizontal" template="db.table.column.header.left">
+              <caption platform="windows" fill="white" font-family="Tahoma-Bold" font-size="14" default="columns"
+                x="5" y="0" horizontal-alignment="left" vertical-alignment="center" />
+              <caption platform="linux,macosx" fill="white" font-family="Bitstream Vera Sans" font-size="14" default="columns"
+                x="5" y="-2" horizontal-alignment="left" vertical-alignment="center" />
+
+            </element>
+            <element key="columns-toggler" id="columns-heading-right" resize="none" template="db.table.column.header.arrow.down">
+              <action function="toggle(../../columns, db.table.column.header.arrow.down, db.table.column.header.arrow.right)">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+              </action>
+            </element>
+          </element>
+          <!-- Columns part content -->
+          <element id="columns" key="/columns" layout="column">
+            <element key="/columns/column" occurrence="*" layout="row">
+              <element key="/columns/column/icon" resize="none" template="db.table.column.left" />
+              <element key="/columns/column/name" resize="horizontal" template="db.table.column.right">
+                <caption fill="black" font-family="Tahoma" font-size="14" default="column"
+                  x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+                <caption platform="macosx" fill="black" font-family="Bitstream Vera Sans" font-size="14" default="column"
+                  x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+              </element>
+            </element>
+          </element>
+        </element>
+
+        <!-- Indices -->
+        <element id="indexes-part" layout="column" resize="horizontal" equal-size="true">
+          <!-- Indexes part heading -->
+          <element id="indexes-heading" layout="row">
+            <element id="indexes-heading-left" resize="horizontal" template="db.table.column.header.left">
+              <caption platform="windows" fill="white" font-family="Tahoma-Bold" font-size="14" default="indices"
+                x="5" y="0" horizontal-alignment="left" vertical-alignment="center" />
+              <caption platform="linux,macosx" fill="white" font-family="Bitstream Vera Sans" font-size="14" default="indices"
+                x="5" y="-2" horizontal-alignment="left" vertical-alignment="center" />
+
+            </element>
+            <element key="indexes-toggler" id="indexes-heading-right" resize="none" template="db.table.column.header.arrow.down">
+              <action function="toggle(./../../././indices, db.table.column.header.arrow.down, db.table.column.header.arrow.right)">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+              </action>
+            </element>
+          </element>
+          <!-- Indices part content -->
+          <element id="indices" key="/indices" layout="column">
+            <element id="index-item" key="/indices/index" occurrence="*" layout="column">
+              <!-- Index heading part content -->
+              <element id="index-heading" layout="row">
+                <element id="index-left" resize="none" template="db.table.subgroup.left.open">
+                  <action function="toggle(../../index-columns, db.table.subgroup.left.open, db.table.subgroup.left.closed)">
+                    <trigger controller="left" event="down" modifiers="ignore"/>
+                  </action>
+                </element>
+                <element id="indices-right" key="/indices/index/name" resize="horizontal" template="db.table.subgroup.right">
+                  <caption fill="black" font-family="Tahoma" font-size="14" default="index"
+                    x="5" y="2" horizontal-alignment="left" vertical-alignment="center" />
+                  <caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" default="index"
+                    x="5" y="2" horizontal-alignment="left" vertical-alignment="center" />
+                </element>
+              </element>
+              <!-- Index Columns part content -->
+              <element id="index-columns" key="/indices/index/columns" layout="column">
+                <element key="/indices/index/columns/column" occurrence="*" layout="row">
+                  <element key="/columns/column/icon" resize="none" template="db.table.index.column.left" />
+                  <element key="/indices/index/columns/column/name" resize="horizontal" template="db.table.index.column.right">
+                    <caption fill="black" font-family="Tahoma" font-size="14" default="column"
+                      x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+                    <caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" default="column"
+                      x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+                  </element>
+                </element>
+              </element>
+            </element>
+          </element>
+        </element>
+
+        <!-- Foreign keys -->
+        <element id="foreign-keys-part" layout="column" resize="horizontal" equal-size="true">
+          <!-- Foreign keys part heading -->
+          <element id="foreign-keys-heading" layout="row">
+            <element id="foreign-keys-heading-left" resize="horizontal" template="db.table.column.header.left">
+              <caption platform="windows" fill="white" font-family="Tahoma-Bold" font-size="14" default="foreign keys"
+                x="5" y="0" horizontal-alignment="left" vertical-alignment="center"
+              />
+              <caption platform="linux,macosx" fill="white" font-family="Bitstream Vera Sans" font-size="14" default="foreign keys"
+                x="5" y="-2" horizontal-alignment="left" vertical-alignment="center"
+              />
+
+            </element>
+            <element key="foreignKeys-toggler" id="foreign-keys-heading-right" resize="none" template="db.table.column.header.arrow.down">
+              <action function="toggle(../../foreignKeys, db.table.column.header.arrow.down, db.table.column.header.arrow.right)">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+              </action>
+            </element>
+          </element>
+
+          <!-- Foreign keys part content -->
+          <element id="foreignKeys" key="/foreignKeys" layout="column">
+            <element id="foreignKey-item" key="/foreignKeys/foreignKey" occurrence="*" layout="column">
+              <element id="foreignKey-heading" layout="row">
+                <element id="foreignKey-left" resize="none" template="db.table.subgroup.left.open">
+				  <action function="toggle(../../foreignKey-columns, db.table.subgroup.left.open, db.table.subgroup.left.closed)">
+                    <trigger controller="left" event="down" modifiers="ignore"/>
+                  </action>
+                </element>
+                <element id="foreignKey-right" key="/foreignKeys/foreignKey/name" resize="horizontal" template="db.table.subgroup.right">
+                  <caption fill="black" font-family="Tahoma" font-size="14" default="foreignKey"
+                    x="5" y="2" horizontal-alignment="left" vertical-alignment="center" />
+                  <caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" default="foreignKey"
+                    x="5" y="2" horizontal-alignment="left" vertical-alignment="center" />
+                </element>
+              </element>
+              <!-- Foreign keys columns part content -->
+              <element id="foreignKey-columns" key="/foreignKeys/foreignKey/columns" layout="column">
+                <element key="/foreignKeys/foreignKey/columns/column" occurrence="*" layout="row">
+                  <element key="/columns/column/icon" resize="none" template="db.table.fk.column.left" />
+                  <element key="/foreignKeys/foreignKey/columns/column/name" resize="horizontal" template="db.table.fk.column.right">
+                    <caption fill="black" font-family="Tahoma" font-size="14" default="column"
+                      x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+                    <caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" default="column"
+                      x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+                  </element>
+                </element>
+              </element>
+            </element>
+          </element>
+        </element>
+        
+        <!-- Triggers -->
+        <element id="triggers-part" layout="column" resize="horizontal" equal-size="true">
+          <!-- Triggers part heading -->
+          <element id="triggers-heading" layout="row">
+            <element id="triggers-heading-left" resize="horizontal" template="db.table.column.header.left">
+              <caption platform="windows" fill="white" font-family="Tahoma-Bold" font-size="14" default="triggers"
+                x="5" y="0" horizontal-alignment="left" vertical-alignment="center"
+              />
+              <caption platform="linux,macosx" fill="white" font-family="Bitstream Vera Sans" font-size="14" default="triggers"
+                x="5" y="-2" horizontal-alignment="left" vertical-alignment="center"
+              />
+
+            </element>
+            <element key="triggers-toggler" id="triggers-heading-right" resize="none" template="db.table.column.header.arrow.down">
+			  <action function="toggle(../../triggers, db.table.column.header.arrow.down, db.table.column.header.arrow.right)">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+              </action>
+            </element>
+          </element>
+          <!-- Triggers part content -->
+          <element id="triggers" key="/triggers" layout="column">
+            <element key="/triggers/trigger" occurrence="*" layout="row">
+              <element key="/triggers/trigger/icon" resize="none" template="db.table.trigger.left" />
+              <element key="/triggers/trigger/name" resize="horizontal" template="db.table.trigger.right">
+                <caption fill="black" font-family="Tahoma" font-size="14" default="trigger"
+                  x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+                <caption fill="black" platform="macosx" font-family= "Bitstream Vera Sans" font-size="14" default="trigger"
+                  x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+              </element>
+            </element>
+          </element>
+        </element>
+      </element>
+      
+      <element id="table-footer" layout="row" resize="horizontal" equal-size="true" min-occurs="1" max-occurs="1">
+        <element id="table-footer-edit" resize="none" template="db.table.footer.edit" min-occurs="1" max-occurs="1">
+          <action function="do(1001);">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+        </element>
+        <element id="table-footer-lock" resize="none" template="db.table.footer.lock" min-occurs="1" max-occurs="1">
+          <action function="do(1002);">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+        </element>
+        <element id="table-footer-middle" resize="horizontal" template="db.table.footer.middle" min-occurs="1" max-occurs="1" />
+        <element id="table-footer-menu" resize="none" template="db.table.footer.menu" min-occurs="1" max-occurs="1">
+          <action function="do(1003);">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+        </element>
+      </element>
+      <action function="do(1003);">
+        <trigger controller="left" event="up" modifiers="control"/>
+        <trigger controller="right" event="up" modifiers="ignore"/>
+      </action>
+    </element>
+  </layout-definition>
+
+  
+  <layout-definition layout-class="simple" type="db.workbench.TableElement">
+    <element layout="column" resize="all" min-width="100" max-width="500">
+      <element id="table-header" layout="row" resize="horizontal">
+        <element id="table-header-left" resize="none" template="db.table.header.left:blue">
+          <action function="dragFigure();">
+            <trigger controller="left" event="down" modifiers="none"/>
+          </action>
+          <action function="do(1001)" >
+            <trigger controller="left" event="double-click" modifiers="ignore"/>
+          </action>
+        </element>
+        <element key="/name" resize="horizontal" template="db.table.header.middle:blue">
+          <action function="dragFigure();">
+            <trigger controller="left" event="down" modifiers="none"/>
+          </action>
+          <action function="do(1001)" >
+            <trigger controller="left" event="double-click" modifiers="ignore"/>
+          </action>
+	        <caption font-family="Tahoma-Bold" font-size="16" default="Table"
+            x="5" y="2" horizontal-alignment="left" vertical-alignment="center" fill="black" />
+	        <caption platform="macosx" font-family="Bitstream Vera Sans" font-size="16" default="Table"
+            x="5" y="2" horizontal-alignment="left" vertical-alignment="center" fill="black" />
+        </element>
+        <element key="table-toggler" id="table-header-right" resize="none" template="db.table.header.arrow.down:blue">
+          <action function="toggle(../../table-body, db.table.header.arrow.down:blue, db.table.header.arrow.right:blue)">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+        </element>
+      </element>
+
+      <element id="table-body" layout="column" resize="horizontal" equal-size="true">
+
+        <!-- Columns -->
+        <element id="columns" key="/columns" layout="column">
+          <element key="/columns/column" occurrence="*" layout="row">
+            <element key="/columns/column/icon" resize="none" template="db.table.column.left" />
+            <element key="/columns/column/name" resize="horizontal" template="db.table.column.right">
+              <caption fill="black" font-family="Tahoma" font-size="14" default="column"
+                x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+              <caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" default="column"
+                x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+            </element>
+          </element>
+        </element>
+        
+      </element>
+      
+      <element id="table-footer-simple" resize="horizontal" template="db.table.footer.simple:blue" />
+      
+      <!-- <element id="table-footer" layout="row" resize="horizontal" equal-size="true" min-occurs="1" max-occurs="1">
+        <element id="table-footer-edit" resize="none" template="db.table.footer.edit" min-occurs="1" max-occurs="1">
+          <action function="do(1001);">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+        </element>
+        <element id="table-footer-lock" resize="none" template="db.table.footer.lock" min-occurs="1" max-occurs="1">
+          <action function="do(1002);">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+        </element>
+        <element id="table-footer-middle" resize="horizontal" template="db.table.footer.middle" min-occurs="1" max-occurs="1" />
+        <element id="table-footer-menu" resize="none" template="db.table.footer.menu" min-occurs="1" max-occurs="1">
+          <action function="do(1003);">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+        </element>
+      </element>-->
+      <action function="do(1003);">
+        <trigger controller="left" event="up" modifiers="control"/>
+        <trigger controller="right" event="up" modifiers="ignore"/>
+      </action>
+    </element>
+  </layout-definition>
+  
+  <!-- Connections crow's foot ************************************************************************************ -->  
+  <layout-definition layout-class="default" type="db.Connection.End.Single.Optional">
+    <element resize="none" template="db.connection.crow.end.single.optional" />
+  </layout-definition>
+
+  <layout-definition layout-class="default" type="db.Connection.End.Single.Mandatory">
+    <element resize="none" template="db.connection.crow.end.single.mandatory" />
+  </layout-definition>
+
+  <layout-definition layout-class="default" type="db.Connection.End.Multiple.Optional">
+    <element resize="none" template="db.connection.crow.end.multiple.optional" />
+  </layout-definition>
+
+  <layout-definition layout-class="default" type="db.Connection.End.Multiple.Mandatory">
+    <element resize="none" template="db.connection.crow.end.multiple.mandatory"/>
+  </layout-definition>
+
+  <layout-definition layout-class="default" type="db.Connection.Center.One.One">
+    <element resize="none" template="db.connection.crow.center" />
+  </layout-definition>
+
+  <layout-definition layout-class="default" type="db.Connection.Center.One.Many">
+    <element resize="none" template="db.connection.crow.center" />
+  </layout-definition>
+
+  <layout-definition layout-class="default" type="db.Connection.Center.Many.Many">
+    <element resize="none" template="db.connection.crow.center" />
+  </layout-definition>
+
+  <layout-definition layout-class="default" type="db.Connection.End1.Text">
+    <element resize="none">
+      <caption fill="black" font-family="Tahoma" font-size="14" default=""
+        horizontal-alignment="left" vertical-alignment="top" />
+      <caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" default=""
+        horizontal-alignment="left" vertical-alignment="top" />
+    </element>
+  </layout-definition>
+
+  <layout-definition layout-class="default" type="db.Connection.Center.Text">
+    <element id="connection-info" layout="row" resize="horizontal" equal-size="true" min-occurs="1" max-occurs="1">
+      <element key="/caption" resize="horizontal" template="db.connection.crow.info.lbl">
+        <caption fill="black" font-family="Tahoma" font-size="14" x="6" default="connection" />
+        <caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" x="6" default="connection" />
+        <action function="dragFigure()">
+          <trigger controller="left" event="down" modifiers="ignore"/>
+        </action>
+      </element>
+    </element>
+  </layout-definition>
+
+  <layout-definition layout-class="default" type="db.Connection.End2.Text">
+    <element resize="none">
+      <caption fill="black" font-family="Tahoma" font-size="14" default=""
+        horizontal-alignment="left" vertical-alignment="top" />
+      <caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" default=""
+        horizontal-alignment="left" vertical-alignment="top" />
+    </element>
+  </layout-definition>
+  
+  <!-- Connections EER ************************************************************************************ -->  
+  
+  <layout-definition layout-class="eer" type="db.Connection.End.Single.Optional">
+    <element resize="none" template="db.connection.eer.end.single.optional" />
+  </layout-definition>
+
+  <layout-definition layout-class="eer" type="db.Connection.End.Single.Mandatory">
+    <element resize="none" template="db.connection.eer.end.single.mandatory" />
+  </layout-definition>
+
+  <layout-definition layout-class="eer" type="db.Connection.End.Multiple.Optional">
+    <element resize="none" template="db.connection.eer.end.multiple.optional" />
+  </layout-definition>
+
+  <layout-definition layout-class="eer" type="db.Connection.End.Multiple.Mandatory">
+    <element resize="none" template="db.connection.eer.end.multiple.mandatory"/>
+  </layout-definition>
+
+  <layout-definition layout-class="eer" type="db.Connection.Center.One.One">
+    <element resize="none" template="db.connection.eer.center.one.one" />
+  </layout-definition>
+  
+  <layout-definition layout-class="eer" type="db.Connection.Center.One.Many">
+    <element resize="none" template="db.connection.eer.center.one.many" />
+  </layout-definition>
+  
+  <layout-definition layout-class="eer" type="db.Connection.Center.Many.Many">
+    <element resize="none" template="db.connection.eer.center.many.many" />
+  </layout-definition>
+
+  <layout-definition layout-class="eer" type="db.Connection.End1.Text">
+    <element resize="none">      
+      <caption fill="black" font-family="Tahoma" font-size="14" default=""
+        horizontal-alignment="left" vertical-alignment="top" />
+      <caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" default=""
+        horizontal-alignment="left" vertical-alignment="top" />
+    </element>
+  </layout-definition>
+
+  <layout-definition layout-class="eer" type="db.Connection.Center.Text">
+    <element id="connection-info" layout="row" resize="horizontal" equal-size="true" min-occurs="1" max-occurs="1">
+      <element resize="horizontal" template="db.connection.eer.info.lbl">
+	<caption fill="black" font-family="Tahoma" font-size="14" x="6" default="connection" />
+	<caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" x="6" default="connection" />
+      </element>
+      <element id="connection-menu" resize="none" template="db.connection.eer.info.menu" min-occurs="1" max-occurs="1">
+        <action function="do(1003);">
+          <trigger controller="left" event="down" modifiers="ignore"/>
+        </action>
+      </element>
+    </element>
+  </layout-definition>
+
+  <layout-definition layout-class="eer" type="db.Connection.End2.Text">
+    <element resize="none">
+      <caption fill="black" font-family="Tahoma" font-size="14" default=""
+        horizontal-alignment="left" vertical-alignment="top" />
+      <caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" default=""
+        horizontal-alignment="left" vertical-alignment="top" />
+    </element>
+  </layout-definition>
+  
+  <!-- View *************************************************************************************** -->  
+  <layout-definition layout-class="default" type="db.workbench.ViewElement">
+    <element layout="column" resize="all" min-width="300">
+    
+      <!-- Header -->
+      <element id="view-header" layout="row" resize="horizontal">
+        <element id="view-header-left" resize="none" template="db.view.header.left:orange">
+          <action function="dragFigure();">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+          <action function="do(1001)" >
+            <trigger controller="left" event="double-click" modifiers="ignore"/>
+          </action>
+        </element>
+        <element key="/name" resize="horizontal" template="db.view.header.middle:orange">
+          <action function="dragFigure();">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+          <action function="do(1001)" >
+            <trigger controller="left" event="double-click" modifiers="ignore"/>
+          </action>
+	        <caption font-family="Tahoma-Bold" font-size="16" default="View"
+            x="5" y="2" horizontal-alignment="left" vertical-alignment="center" fill="black" />
+	        <caption platform="macosx" font-family="Bitstream Vera Sans" font-size="16" default="View"
+            x="5" y="2" horizontal-alignment="left" vertical-alignment="center" fill="black" />
+        </element>
+        <element id="view-header-right" layout="column" resize="none">
+          <element id="view-header-right-tools" layout="row" resize="none">
+            <element id="view-header-right-tools-edit" resize="none" template="db.view.header.edit" min-occurs="1" max-occurs="1">
+              <action function="do(1001);">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+              </action>
+            </element>
+            <element id="view-header-right-tools-lock" resize="none" template="db.view.header.lock" min-occurs="1" max-occurs="1">
+              <action function="do(1002);">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+              </action>
+            </element>
+            <element id="view-header-right-tools-plugins" resize="none" template="db.view.header.plugins" min-occurs="1" max-occurs="1">
+              <action function="do(1003);">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+              </action>
+            </element>
+            <element id="view-header-header-right" resize="none" template="db.view.header.right.opened">
+              <action function="toggle(/view-body, db.view.header.right.opened, db.view.header.right.closed)">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+                <trigger controller="left" event="double-click" modifiers="ignore"/>
+              </action>
+            </element>
+          </element>
+          <element id="view-header-right-spacer" resize="none" template="db.view.header.right.spacer:orange"/>
+        </element>
+      </element>
+      
+      <!-- Content -->
+      <element id="view-body" layout="column" equal-size="true">
+        <element layout="row" equal-size="true">
+          <element resize="vertical" template="db.view.body.left:orange" />
+          <element key="/queryExpression" resize="all" template="db.view.body.middle">            
+		<caption fill="black" font-family="Tahoma" font-size="14" default=""
+              x="2" y="2" horizontal-alignment="left" vertical-alignment="top" wrap="true" />
+		<caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" default=""
+              x="2" y="2" horizontal-alignment="left" vertical-alignment="top" wrap="true" />
+          </element>
+          <element resize="vertical" template="db.view.body.right:orange" />
+        </element>
+      </element>
+
+      <!-- Footer -->
+      <element id="view-footer" layout="row" resize="horizontal" equal-size="true">
+        <element id="view-footer-left" resize="none" template="db.view.footer.left:orange"/>
+        <element id="view-footer-middle" resize="horizontal" template="db.view.footer.middle:orange"/>
+        <element id="view-footer-right" resize="none" template="db.view.footer.right:orange"/>
+      </element>
+      <action function="do(1003);">
+        <trigger controller="left" event="up" modifiers="control"/>
+        <trigger controller="right" event="up" modifiers="ignore"/>
+      </action>
+    </element>
+  </layout-definition>
+
+  
+  <!-- Routines *************************************************************************************** -->  
+  <layout-definition layout-class="default" type="db.workbench.RoutinesElement">
+    <element layout="column" resize="all" min-width="300">
+    
+      <!-- Header -->
+      <element id="package-header" layout="row" resize="horizontal">
+        <element id="package-header-left" resize="none" template="db.package.header.left"/>
+        <element key="/name" resize="horizontal" template="db.package.header.middle">
+          <action function="dragFigure();">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+          <action function="do(1001)" >
+            <trigger controller="left" event="double-click" modifiers="ignore"/>
+          </action>
+	        <caption font-family="Tahoma-Bold" font-size="16" default="Routine Package"
+            x="5" y="2" horizontal-alignment="left" vertical-alignment="center" fill="black" />
+	        <caption platform="macosx" font-family="Bitstream Vera Sans" font-size="16" default="Routine Package"
+            x="5" y="2" horizontal-alignment="left" vertical-alignment="center" fill="black" />
+        </element>
+        <element id="package-header-right" layout="column" resize="none">
+          <element id="package-header-right-tools" layout="row" resize="none">
+            <element id="package-header-right-tools-edit" resize="none" template="db.package.header.edit" min-occurs="1" max-occurs="1">
+              <action function="do(1001);">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+              </action>
+            </element>
+            <element id="package-header-right-tools-lock" resize="none" template="db.package.header.lock" min-occurs="1" max-occurs="1">
+              <action function="do(1002);">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+              </action>
+            </element>
+            <element id="package-header-right-tools-plugins" resize="none" template="db.package.header.plugins" min-occurs="1" max-occurs="1">
+              <action function="do(1003);">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+              </action>
+            </element>
+            <element id="package-header-header-right" resize="none" template="db.package.header.right.opened">
+              <action function="toggle(/package-routines, db.package.header.right.opened, db.package.header.right.closed)">
+                <trigger controller="left" event="down" modifiers="ignore"/>
+              </action>
+            </element>
+          </element>
+          <element id="package-header-right-spacer" resize="none" template="db.package.header.right.spacer"/>
+        </element>
+      </element>
+      
+      <!-- Routines -->
+      <element id="package-routines" key="/routines" layout="column">
+        <element key="/routines/routine" occurrence="*" layout="row">
+          <element resize="none" template="db.package.routine.left" />
+          <element key="/routines/routine/name" resize="horizontal" template="db.package.routine.middle">
+            <caption fill="black" font-family="Tahoma" font-size="14" default="routine"
+              x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+            <caption fill="black" platform="macosx" font-family="Bitstream Vera Sans" font-size="14" default="routine"
+              x="2" y="2" horizontal-alignment="left" vertical-alignment="center" />
+          </element>
+          <element resize="none" template="db.package.routine.right" />
+        </element>
+      </element>
+      
+      <!-- Footer -->
+      <element id="package-footer" layout="row" resize="horizontal">
+        <element id="package-footer-left" resize="none" template="db.package.footer.left"/>
+        <element id="package-footer-middle" resize="horizontal" template="db.package.footer.middle"/>
+        <element id="package-footer-right" resize="none" template="db.package.footer.right"/>
+      </element>
+      <action function="do(1003);">
+        <trigger controller="left" event="up" modifiers="control"/>
+        <trigger controller="right" event="up" modifiers="ignore"/>
+      </action>
+    </element>
+  </layout-definition>
+  
+  <!-- Layer ****************************************************************************************** -->  
+  <layout-definition layout-class="default" type="db.workbench.LayerFrame">
+    <element layout="column" resize="all" min-width="300">
+      <!-- header -->
+      <element id="layer-header" layout="row" resize="horizontal">
+        <element key="/name" resize="none" template="db.layer.header.left:red">
+          <action function="dragFigure();">
+            <trigger controller="left" event="down" modifiers="none"/>
+          </action>
+	        <caption font-family="Tahoma-Bold" font-size="16" default="Layer"
+            x="5" y="2" horizontal-alignment="left" vertical-alignment="center" fill="white" />
+	        <caption platform="macosx" font-family="Bitstream Vera Sans" font-size="16" default="Layer"
+            x="5" y="2" horizontal-alignment="left" vertical-alignment="center" fill="white" />
+        </element>
+        <element id="layer-header-right" resize="horizontal" template="db.layer.header.right:red">
+          <action function="dragFigure();">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+        </element>
+      </element>
+      
+      <!-- body -->
+      <element id="layer-body" resize="all" template="db.layer.body:red" />
+      
+      <!-- footer -->
+      <element id="layer-footer" layout="row" resize="horizontal">
+        <element id="layer-footer-left" resize="horizontal" template="db.layer.footer.left:red" />
+        <element id="table-footer-right" resize="none" template="db.layer.footer.right:red">
+          <action function="resizeFigure(south-east);">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+        </element>
+      </element>
+    </element>
+  </layout-definition>
+
+  <layout-definition layout-class="default" type="db.workbench.NoteElement">
+    <element layout="column" resize="all" min-width="200">
+      <element key="/text" template="db.note:white" min-width="100">
+        <action function="dragFigure();">
+          <trigger controller="left" event="down" modifiers="ignore"/>
+        </action>
+        <caption font-family="'Tahoma'" font-size="13" default="Region" wrap="true"
+            x="5" y="4" horizontal-alignment="left" vertical-alignment="left" fill="black" />
+        <caption platform="macosx" font-family="Bitstream Vera Sans" font-size="13" default="Region" wrap="true"
+            x="5" y="4" horizontal-alignment="left" vertical-alignment="left" fill="black" />
+      </element>
+      
+      <!-- Footer -->
+      <element id="note-footer" layout="row" resize="horizontal">
+        <element id="note-footer-left" resize="horizontal" template="db.note.footer.left:white"/>
+        <element id="note-footer-right" resize="none" template="db.note.footer.right:white">
+          <action function="resizeFigure(south-east)">
+            <trigger controller="left" event="down" modifiers="ignore"/>
+          </action>
+        </element>
+      </element>
+    </element>
+  </layout-definition>
+
+  <!-- Connection ****************************************************************************************** -->
+  <connection-definition type="db.connection.decor" layout-class="default">
+    <action function="do(1003);">
+      <trigger controller="left" event="up" modifiers="control"/>
+      <trigger controller="right" event="up" modifiers="ignore"/>
+    </action>
+  </connection-definition>
+  
+</gc-layouts>

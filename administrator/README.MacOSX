@@ -1,0 +1,51 @@
+
+Buiding Instructions for MySQL Administrator on MacOS X
+=======================================================
+
+Requirements:
+- from fink (http://fink.sourceforge.net)
+	- pkgconfig
+	- glib-2.2.x
+	- libxml-2.6.x
+	- pcre
+- MySQL client libs (5.x)
+
+
+- fetch sources for mysql-gui-common and mysql-administrator
+- Build mysql-gui-common
+	- open source/mac/MySQLGUICommon.xcode
+	- set the build output directory to $(HOME)/guibuild, if its not already set.
+		Select the project icon in the Groups & Files sidebar, and press cmd-i.
+		Then select Place Build Products In:
+		Separate Location
+	- set target to mysqlx and build
+	- set target to MySQLToolsCommon and build
+	- this will create MySQLToolsCommon.framework
+
+- Build mysql-administrator
+	- open "source/mac/MySQL Administrator.xcode"
+	- set the build output directory to $(HOME)/guibuild, if its not already set
+	- set target to administratorLibrary  and build
+	- set target to mahelper and build
+	- set target to MySQL Administrator and build
+    - this will create MySQL Administrator.app
+  
+Now you can create a Frameworks directory inside MySQL Administrator and move
+MySQLToolsCommon.framework in it, so you don't need to install the framework 
+separtely.
+
+
+To build the PreferencePane for the SystemPreferences app:
+
+open source/mac/PreferencePane/MySQLStartup.app and look at the README file in the project.
+
+
+Making a Release
+================
+
+1. Build MySQLToolsCommon (mysql-gui-common)
+2. Cmd-I on the Administrator Target and change the version number (or edit Info.plist)
+3. Build MySQL Administrator
+4. Compress and ship the resulting binary
+
+

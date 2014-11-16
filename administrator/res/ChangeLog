@@ -1,0 +1,31 @@
+1.0.6 (1.235)
+
+-- New Features Windows --
+
+Added MySQL System Tray Monitor
+Added Support for MySQL System Tray Monitor from MySQL Administrator
+
+-- Bugfixes Windows --
+
+Fixed issue when removing a windows service
+Fixed Bug #4243 - Creating a new backup project erases the previous one.
+Fixed Bug #4144 - Backup filename different if manual launch is executed vs scheduled.
+Fixed issue when calling Query Browser to select data from a table
+Fixed Bug #4141 - safe-updates option missing
+Fixed Bug #3555 - writing false syntax in /etc/mysql/my.cnf
+Fixed issues with backup project filenames
+Fixed Bug #4227 - Cannot focus exception in user administration
+
+1.0.5 (1.215.1.26)
+
+-- Bugfixes Windows --
+
+Added Charset detection and support for Backups
+Fixed backup mem leaks
+Fixed issue when creating new sevices
+Fixed issue when log files are not found
+Fixed build scripts
+
+1.0.4 (1.215.1.12)
+
+First Beta release

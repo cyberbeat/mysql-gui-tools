@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<messages>
+<textgroup id="ErrorMessages">
+  <text id="mysql_alloc">
+    <trans xml:lang="en">Error while allocating memory for MySQL Struct.</trans>
+    <trans xml:lang="de">Beim Speicher reservieren f&#252;r den MySQL Struct is ein Fehler aufgetreten.</trans>
+  </text>
+  <text id="login">
+    <trans xml:lang="en">Could not connect to the specified host.\n\nMySQL Error Nr.%s\n%s\n\nClick the PING button to see if there is a networking problem.</trans>
+  </text>
+  <text id="resolve_hostname">
+    <trans xml:lang="en">Could not resolve hostname %s.</trans>
+  </text>
+</textgroup>
+
+<textgroup id="ResourceStrings">
+  <text id="OKBtn">
+    <trans xml:lang="en">OK</trans>
+  </text>
+  <text id="CancelBtn">
+    <trans xml:lang="en">Cancel</trans>
+    <trans xml:lang="de">Abbruch</trans>
+  </text>
+  <text id="PingBtn">
+    <trans xml:lang="en">Ping</trans>
+  </text>
+  <text id="DetailsBtn_expanded">
+    <trans xml:lang="en">&#x3C;&#x3C; Details</trans>
+  </text>
+  <text id="DetailsBtn_collapsed">
+    <trans xml:lang="en">Details \03E\03E</trans>
+  </text>
+</textgroup>
+
+<textgroup id="Form_ConnectToInstanceForm">
+  <text id="ConnectionGBox">
+    <trans xml:lang="en">Connect to MySQL Server Instance</trans>
+  </text>
+  <text id="ConnectionLbl">
+    <trans xml:lang="en">Connection:</trans>
+  </text>
+  <text id="UsernameLb">
+    <trans xml:lang="en">Username:</trans>
+  </text>
+</textgroup>
+
+<textgroup id="ResourceStrings_ConnectToInstanceForm">
+  <text id="AdvancedOptionsStringGridHeader_Option">
+    <trans xml:lang="en">Option</trans>
+  </text>
+  <text id="AdvancedOptionsStringGridHeader_Value">
+    <trans xml:lang="en">Value</trans>
+  </text>
+</textgroup>
+</messages>

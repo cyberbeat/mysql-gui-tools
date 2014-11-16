@@ -1,0 +1,52 @@
+query : ****************************
+  sql : ----------------------------
+select Continent, sum(Population), min(Population),
+max(Population),
+std(Population),variance(Population),
+group_concat(name) from Country
+group by Continent;
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "def"."test"."Country" ()
+     fullname= "Country"
+     charset= "(null)"
+     columns(0) : 
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(7)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."Continent" (alias: Continent, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."sum(Population)" (alias: sum(Population), is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."min(Population)" (alias: min(Population), is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."max(Population)" (alias: max(Population), is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."std(Population)" (alias: std(Population), is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."variance(Population)" (alias: variance(Population), is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."group_concat(name)" (alias: group_concat(name), is_pk: 0)
+  clauses(3)
+    clause (7,129) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+Continent, sum(Population), min(Population),
+max(Population),
+std(Population),variance(Population),
+group_concat(name)
+      ------------------------------------
+    clause (134,143) ends with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+Country
+      ------------------------------------
+    clause (152,162) doesn't end with linebreak
+      clause_type MYX_QCT_GROUP_CLAUSE
+      clause : -------------------------
+Continent;
+      ------------------------------------
+  subqueries(0)
+  params_num 0

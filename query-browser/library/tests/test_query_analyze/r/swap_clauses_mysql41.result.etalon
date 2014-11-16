@@ -1,0 +1,44 @@
+query : ****************************
+  sql : ----------------------------
+SELECT Name FROM Country LIMIT 3 ORDER BY Name
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "def"."test"."Country" (LIMIT)
+     fullname= "Country"
+     charset= "(null)"
+     columns(0) : 
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(1)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."Name" (alias: Name, is_pk: 0)
+  clauses(4)
+    clause (7,12) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+Name
+      ------------------------------------
+    clause (17,33) doesn't end with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+Country LIMIT 3
+      ------------------------------------
+    clause (25,42) doesn't end with linebreak
+      clause_type MYX_QCT_ORDER_CLAUSE
+      clause : -------------------------
+LIMIT 3 ORDER BY
+      ------------------------------------
+    clause (31,46) doesn't end with linebreak
+      clause_type MYX_QCT_LIMIT_CLAUSE
+      clause : -------------------------
+3 ORDER BY Name
+      ------------------------------------
+  subqueries(0)
+  params_num 0

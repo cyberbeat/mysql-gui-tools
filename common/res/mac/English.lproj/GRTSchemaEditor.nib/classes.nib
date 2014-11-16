@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {applyChanges = id; close = id; discardChanges = id; }; 
+            CLASS = MGRTObjectEditor; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            CLASS = MGRTSchemaEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                collationPop = NSPopUpButton; 
+                commentText = NSTextView; 
+                nameText = NSTextField; 
+            }; 
+            SUPERCLASS = MGRTObjectEditor; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

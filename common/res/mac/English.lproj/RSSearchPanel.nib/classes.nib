@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {searchNext = id; searchPrev = id; }; 
+            CLASS = MQRSSearchPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {columnList = NSTableView; searchCombo = NSComboBox; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

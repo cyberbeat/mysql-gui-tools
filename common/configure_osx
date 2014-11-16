@@ -1,0 +1,1 @@
+env CFLAGS="-Wall -ggdb -Wsign-compare" ./configure --with-lua-includes=/sw/include --with-lua-libs=-L/sw/lib --enable-grt --with-java-includes=/System/Library/Frameworks/JavaVM.framework/Headers --with-java-ldflags="-framework JavaVM" --disable-gtk

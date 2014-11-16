@@ -1,0 +1,261 @@
+#  Doesn't have any letters
+#. MySQLResultSetFieldViewerForm..PageControl..ImageSheet..ImageSheetBtnPnl..ImageFormatLbl..Caption
+#: MySQLResultSetFieldViewer.dfm:141
+#. MySQLResultSetFieldViewerForm..PageControl..ImageSheet..ImageSheetBtnPnl..ImageSizeLbl..Caption
+#: MySQLResultSetFieldViewer.dfm:148
+#. MySQLResultSetFieldViewerForm..PageControl..BinarySheet..TntPanel1..BinarySizeLbl..Caption
+#: MySQLResultSetFieldViewer.dfm:878
+#. RoutineFrame..RoutinePopupMenu..N1..Caption
+#: MyxRoutineEditorFrame.dfm:447
+#. MyxTabHeaderFrame..TabHeaderPopupMenu..N1..Caption
+#: MyxTabHeader.dfm:19
+#. MyxTableEditorForm..ColumnPopupMenu..N2..Caption
+#: MyxTableEditor.dfm:1915
+#. ProgressForm..ProgressGBox..ActionLbl..Caption
+#: Progress.dfm:51
+#. SchemataFrame..SchemaSearchPopupMenu..N3..Caption
+#: SchemataTreeView.dfm:128
+#. SchemataFrame..SchemaTreeViewPopupMenu..N1..Caption
+#: SchemataTreeView.dfm:232
+#. SchemataFrame..SchemaTreeViewPopupMenu..N2..Caption
+#: SchemataTreeView.dfm:265
+#. TabHeaderFrame..TabHeaderPopupMenu..N1..Caption
+#: TabHeader.dfm:19
+msgid "-"
+msgstr ""
+
+#  Doesn't have any letters
+#. ConnectToInstanceForm..ConnectToHostPnl..PasswordEd..PasswordChar
+#: ConnectToInstance.dfm:603
+msgid "*"
+msgstr ""
+
+#  Doesn't have any letters
+#. ExOpenDialog..MainPanel..FilesPnl..FilterCombobox....Items.WideStrings
+#: ExOpenDialog.dfm:219
+msgid "*.*"
+msgstr ""
+
+#  Looks like a file extension or file mask
+#. ExOpenDialog..MainPanel..FilesPnl..FilterCombobox....Items.WideStrings
+#: ExOpenDialog.dfm:218
+msgid "*.png"
+msgstr ""
+
+#  Doesn't have any letters
+#. ConnectToInstanceForm..ConnectToHostPnl..OptionsBtn..Caption
+#: ConnectToInstance.dfm:647
+#: MyxConnectionDialog.pas:396
+msgid "..."
+msgstr ""
+
+#  Doesn't have any letters
+#. MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..AddIgnoreListExprBtn..Caption
+#: MigrationObjSelFilter.dfm:191
+msgid "+"
+msgstr ""
+
+#  Doesn't have any letters
+#. MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..RemoveFromIgnoreListBtn..Caption
+#: MigrationObjSelFilter.dfm:123
+msgid "<"
+msgstr ""
+
+#  Doesn't have any letters
+#. MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..RemoveAllFromIgnoreListBtn..Caption
+#: MigrationObjSelFilter.dfm:215
+msgid "<<"
+msgstr ""
+
+#  Doesn't have any letters
+#. MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..AddToIgnoreListBtn..Caption
+#: MigrationObjSelFilter.dfm:135
+msgid ">"
+msgstr ""
+
+#  Doesn't have any letters
+#. MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..AddAllToIgnoreListBtn..Caption
+#: MigrationObjSelFilter.dfm:203
+msgid ">>"
+msgstr ""
+
+#  Doesn't have any letters
+#. MigrationObjSelFilterFrame..ObjectSelGBox..SelObjCountLbl..Caption
+#: MigrationObjSelFilter.dfm:33
+msgid "0 / 0"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. EditorSqlForm..SqlUCE..Font.Name
+#: EditorSql.dfm:77
+#. MySQLResultSetFieldViewerForm..PageControl..BinarySheet..HexUniCodeEd..Font.Name
+#: MySQLResultSetFieldViewer.dfm:196
+#. MySQLResultSetFieldViewerForm..PageControl..BinarySheet..PlainTextUniCodeEdit..Font.Name
+#: MySQLResultSetFieldViewer.dfm:531
+#. RoutineFrame..RoutinePanel..RoutineUce..Font.Name
+#: MyxRoutineEditorFrame.dfm:70
+#. MyxViewEditorForm..ViewPageControl..ViewTabSheet..ViewSheetPnl..SqlUce..Font.Name
+#: MyxViewEditor.dfm:290
+msgid "Bitstream Vera Sans Mono"
+msgstr ""
+
+#  Doesn't look like text
+#. OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..CharsetCBox....Items.Strings
+#: OptionsEditor.dfm:366
+msgid "CHINESEBIG5_CHARSET"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. MyxTableEditorForm..TablePageControl..TntTabSheet4..StdInsertsSheetPnl..StandardInsertsUCE..Font.Name
+#: MyxTableEditor.dfm:1303
+msgid "Courier New"
+msgstr ""
+
+#  Seems like a Database field name or index field name
+#. EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..IndexTabsheet..TntGroupBox1..IndexNameLbl..Caption
+#: EditorTable.dfm:376
+msgid "Index Name:"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. ConnectToInstanceForm..Font.Name
+#: ConnectToInstance.dfm:14
+#. EditorTableForm..Font.Name
+#: EditorTable.dfm:14
+#. EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnVST..Header.Font.Name
+#: EditorTable.dfm:218
+#. EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..IndexTabsheet..IndexVST..Header.Font.Name
+#: EditorTable.dfm:344
+#. EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..IndexTabsheet..TntGroupBox1..TntLabel9..Font.Name
+#: EditorTable.dfm:468
+#. EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..FKTabsheet..TntGroupBox2..FKColsVST..Header.Font.Name
+#: EditorTable.dfm:631
+#. EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..FKTabsheet..FKVST..Header.Font.Name
+#: EditorTable.dfm:692
+#. EditorTableForm..TableEditorPnl..DockedHeaderPnl..TntLabel1..Font.Name
+#: EditorTable.dfm:1666
+#. MigrationObjMapDetailFrame..ObjectSelGBox..MethodComboBox..Font.Name
+#: MigrationObjMapDetail.dfm:60
+#. MigrationObjMapDetailFrame..ObjectSelGBox..DetailsPnl..TntRadioButton2..Font.Name
+#: MigrationObjMapDetail.dfm:111
+#. MigrationObjMapDetailFrame..ObjectSelGBox..DetailsPnl..TntRadioButton1..Font.Name
+#: MigrationObjMapDetail.dfm:125
+#. MigrationObjMapDetailFrame..ObjectSelGBox..UserDefinedParamsPnl..ParamsUserDefinedCBox..Font.Name
+#: MigrationObjMapDetail.dfm:158
+#. MigrationObjSelFilterFrame..ObjectSelGBox..SelObjCountLbl..Font.Name
+#: MigrationObjSelFilter.dfm:37
+#. MigrationObjSelFilterFrame..ObjectSelGBox..StructTypeLbl..Font.Name
+#: MigrationObjSelFilter.dfm:64
+#. MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..ObjIgnoreVT..Header.Font.Name
+#: MigrationObjSelFilter.dfm:99
+#. MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..ObjListVT..Header.Font.Name
+#: MigrationObjSelFilter.dfm:151
+#. MySQLResultSetFieldViewerForm..Font.Name
+#: MySQLResultSetFieldViewer.dfm:12
+#. MyxConnectionDialogForm..ParamsMainPnl..DriverNotInstalledPnl..TntLabel2..Font.Name
+#: MyxConnectionDialog.dfm:53
+#. MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST..Header.Font.Name
+#: MyxTableEditor.dfm:454
+#. MyxTableEditorForm..TablePageControl..IndicesSheet..IndexContentPnl..IndexVST..Header.Font.Name
+#: MyxTableEditor.dfm:596
+#. MyxTableEditorForm..TablePageControl..IndicesSheet..IndexContentPnl..IndexColumnVST..Header.Font.Name
+#: MyxTableEditor.dfm:641
+#. MyxTableEditorForm..TablePageControl..ForeignKeySheet..FkSheetPnl..ForeignKeyVST..Header.Font.Name
+#: MyxTableEditor.dfm:722
+#. MyxTableEditorForm..TablePageControl..ForeignKeySheet..FkSheetPnl..ForeignKeyColumnVST..Header.Font.Name
+#: MyxTableEditor.dfm:777
+#. OptionsForm..Font.Name
+#: OptionsEditor.dfm:14
+#. OptionsForm..HeaderPnl..TitleLbl..Font.Name
+#: OptionsEditor.dfm:266
+#. OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox1..Label3..Font.Name
+#: OptionsEditor.dfm:302
+#. OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox1..Label4..Font.Name
+#: OptionsEditor.dfm:320
+#. ProgressForm..Font.Name
+#: Progress.dfm:13
+#. ProgressForm..ProgressGBox..ActionLbl..Font.Name
+#: Progress.dfm:55
+#. SchemaSelectionForm..Font.Name
+#: SchemaSelection.dfm:13
+#. SchemaSelectionForm..HeaderPnl..Label1..Font.Name
+#: SchemaSelection.dfm:73
+#. SchemataFrame..CatalogVST..Header.Font.Name
+#: SchemataTreeView.dfm:20
+#. TextSearchForm..Font.Name
+#: TextSearch.dfm:16
+#. TextSearchForm..NoMatchFoundPnl..Font.Name
+#: TextSearch.dfm:320
+msgid "MS Sans Serif"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. EditorSqlForm..Font.Name
+#: EditorSql.dfm:12
+#. MyxConnectionDialogForm..Font.Name
+#: MyxConnectionDialog.dfm:12
+#. MyxRoutineGroupEditorForm..Font.Name
+#: MyxRoutineGroupEditor.dfm:11
+#. MyxSchemaEditorForm..Font.Name
+#: MyxSchemaEditor.dfm:12
+#. MyxTableEditorForm..Font.Name
+#: MyxTableEditor.dfm:12
+#. MyxViewEditorForm..Font.Name
+#: MyxViewEditor.dfm:12
+msgid "MS Shell Dlg 2"
+msgstr ""
+
+#  Doesn't look like text
+#. WindowsTabHeaderFrame..TabControl1....Tabs.Strings
+#: WindowsTabHeader.dfm:16
+msgid "Tab01"
+msgstr ""
+
+#  Doesn't look like text
+#. WindowsTabHeaderFrame..TabControl1....Tabs.Strings
+#: WindowsTabHeader.dfm:17
+msgid "Tab02"
+msgstr ""
+
+#  Doesn't look like text
+#. WindowsTabHeaderFrame..TabControl1....Tabs.Strings
+#: WindowsTabHeader.dfm:18
+msgid "Tab03"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. AboutForm..Font.Name
+#: About.dfm:13
+#. AboutForm..TextLbl..Font.Name
+#: About.dfm:37
+#. AboutForm..VersionLbl..Font.Name
+#: About.dfm:52
+#. AboutForm..CopyrightLbl..Font.Name
+#: About.dfm:67
+#. AboutForm..LicenceLbl..Font.Name
+#: About.dfm:86
+msgid "Tahoma"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. EditorSqlForm..SqlUCE..LineNumberFont.Name
+#: EditorSql.dfm:383
+#. MySQLResultSetFieldViewerForm..PageControl..BinarySheet..HexUniCodeEd..LineNumberFont.Name
+#: MySQLResultSetFieldViewer.dfm:501
+#. MySQLResultSetFieldViewerForm..PageControl..BinarySheet..PlainTextUniCodeEdit..LineNumberFont.Name
+#: MySQLResultSetFieldViewer.dfm:836
+#. RoutineFrame..RoutinePanel..RoutineUce..LineNumberFont.Name
+#: MyxRoutineEditorFrame.dfm:376
+#. MyxTableEditorForm..TablePageControl..TntTabSheet4..StdInsertsSheetPnl..StandardInsertsUCE..LineNumberFont.Name
+#: MyxTableEditor.dfm:1608
+#. MyxViewEditorForm..ViewPageControl..ViewTabSheet..ViewSheetPnl..SqlUce..LineNumberFont.Name
+#: MyxViewEditor.dfm:596
+msgid "Terminal"
+msgstr ""
+
+#  Doesn't look like text
+#. OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..DefaultDatatypeComboBox..Text
+#: OptionsEditor.dfm:1056
+msgid "VARCHAR(45)"
+msgstr ""
+

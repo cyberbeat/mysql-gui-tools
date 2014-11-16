@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1F28EC087E3DC100455FC3 /* MCanvasUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F28EA087E3DC100455FC3 /* MCanvasUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1F28ED087E3DC100455FC3 /* MCanvasUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F28EB087E3DC100455FC3 /* MCanvasUtils.mm */; };
+		2B1F2B26087F0BCD00455FC3 /* column.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B02087F0BCD00455FC3 /* column.png */; };
+		2B1F2B27087F0BCD00455FC3 /* column_256.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B03087F0BCD00455FC3 /* column_256.png */; };
+		2B1F2B28087F0BCD00455FC3 /* column_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B04087F0BCD00455FC3 /* column_64.png */; };
+		2B1F2B29087F0BCD00455FC3 /* column_fk_256.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B05087F0BCD00455FC3 /* column_fk_256.png */; };
+		2B1F2B2A087F0BCD00455FC3 /* column_fk_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B06087F0BCD00455FC3 /* column_fk_64.png */; };
+		2B1F2B2B087F0BCD00455FC3 /* column_pk.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B07087F0BCD00455FC3 /* column_pk.png */; };
+		2B1F2B2C087F0BCD00455FC3 /* column_pk_256.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B08087F0BCD00455FC3 /* column_pk_256.png */; };
+		2B1F2B2D087F0BCD00455FC3 /* column_pk_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B09087F0BCD00455FC3 /* column_pk_64.png */; };
+		2B1F2B2E087F0BCD00455FC3 /* index_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B0A087F0BCD00455FC3 /* index_64.png */; };
+		2B1F2B2F087F0BCD00455FC3 /* table_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B0B087F0BCD00455FC3 /* table_64.png */; };
+		2B1F2B30087F0BCD00455FC3 /* table_func_edit_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B0C087F0BCD00455FC3 /* table_func_edit_64.png */; };
+		2B1F2B31087F0BCD00455FC3 /* table_func_lock_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B0D087F0BCD00455FC3 /* table_func_lock_64.png */; };
+		2B1F2B32087F0BCD00455FC3 /* table_func_menu_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B0E087F0BCD00455FC3 /* table_func_menu_64.png */; };
+		2B832ADE0861D30F00D8BEB0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832ADD0861D30F00D8BEB0 /* OpenGL.framework */; };
+		2B832E32086207B100D8BEB0 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832E31086207B100D8BEB0 /* libpng.a */; };
+		2B832E37086207D900D8BEB0 /* libglib-2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832E36086207D900D8BEB0 /* libglib-2.0.a */; };
+		2B832E3B0862082200D8BEB0 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832E3A0862082200D8BEB0 /* libintl.a */; };
+		2B832E3D0862083C00D8BEB0 /* libftgl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832E3C0862083C00D8BEB0 /* libftgl.a */; };
+		2B832E3F086208D200D8BEB0 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832E3E086208D200D8BEB0 /* libfreetype.a */; };
+		2B832EB608622F2600D8BEB0 /* MGenericCanvasView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832EB408622F2600D8BEB0 /* MGenericCanvasView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832EB708622F2600D8BEB0 /* MGenericCanvasView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B832EB508622F2600D8BEB0 /* MGenericCanvasView.mm */; };
+		2B8331A40862787B00D8BEB0 /* MCanvasScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8331A20862787B00D8BEB0 /* MCanvasScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8331A50862787B00D8BEB0 /* MCanvasScrollView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B8331A30862787B00D8BEB0 /* MCanvasScrollView.mm */; };
+		2B8C26AE088C39800017DFD4 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C26AD088C39800017DFD4 /* libxml2.dylib */; };
+		2B8C26B4088C399C0017DFD4 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C26B3088C399C0017DFD4 /* libiconv.dylib */; };
+		2BB5607D09E5759C00FC03E1 /* myx_gc_animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5606709E5759C00FC03E1 /* myx_gc_animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5607E09E5759C00FC03E1 /* myx_gc_base.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5606809E5759C00FC03E1 /* myx_gc_base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5607F09E5759C00FC03E1 /* myx_gc_bsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5606909E5759C00FC03E1 /* myx_gc_bsp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608009E5759C00FC03E1 /* myx_gc_canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5606A09E5759C00FC03E1 /* myx_gc_canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608109E5759C00FC03E1 /* myx_gc_connection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5606B09E5759C00FC03E1 /* myx_gc_connection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608209E5759C00FC03E1 /* myx_gc_datatypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5606C09E5759C00FC03E1 /* myx_gc_datatypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608309E5759C00FC03E1 /* myx_gc_feedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5606D09E5759C00FC03E1 /* myx_gc_feedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608409E5759C00FC03E1 /* myx_gc_figure_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5606E09E5759C00FC03E1 /* myx_gc_figure_parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608509E5759C00FC03E1 /* myx_gc_figure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5606F09E5759C00FC03E1 /* myx_gc_figure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608609E5759C00FC03E1 /* myx_gc_font_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607009E5759C00FC03E1 /* myx_gc_font_manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608709E5759C00FC03E1 /* myx_gc_gl_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607109E5759C00FC03E1 /* myx_gc_gl_helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608809E5759C00FC03E1 /* myx_gc_layer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607209E5759C00FC03E1 /* myx_gc_layer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608909E5759C00FC03E1 /* myx_gc_layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607309E5759C00FC03E1 /* myx_gc_layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608A09E5759C00FC03E1 /* myx_gc_model.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607409E5759C00FC03E1 /* myx_gc_model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608B09E5759C00FC03E1 /* myx_gc_primitives.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607509E5759C00FC03E1 /* myx_gc_primitives.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608C09E5759C00FC03E1 /* myx_gc_style.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607609E5759C00FC03E1 /* myx_gc_style.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608D09E5759C00FC03E1 /* myx_gc_svgparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607709E5759C00FC03E1 /* myx_gc_svgparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608E09E5759C00FC03E1 /* myx_gc_texture.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607809E5759C00FC03E1 /* myx_gc_texture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5608F09E5759C00FC03E1 /* myx_gc_utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607909E5759C00FC03E1 /* myx_gc_utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5609009E5759C00FC03E1 /* myx_gc_variant.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607A09E5759C00FC03E1 /* myx_gc_variant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5609109E5759C00FC03E1 /* myx_gc_view.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607B09E5759C00FC03E1 /* myx_gc_view.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5609209E5759C00FC03E1 /* myx_gc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5607C09E5759C00FC03E1 /* myx_gc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5609409E575A100FC03E1 /* gc_glext.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5609309E575A100FC03E1 /* gc_glext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5609609E575AA00FC03E1 /* gl2ps.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5609509E575AA00FC03E1 /* gl2ps.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB560A309E575E400FC03E1 /* myx_gc_font_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB5609709E575E400FC03E1 /* myx_gc_font_manager.cpp */; };
+		2BB560A409E575E400FC03E1 /* myx_gc_gl_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB5609809E575E400FC03E1 /* myx_gc_gl_helper.cpp */; };
+		2BB560A509E575E400FC03E1 /* myx_gc_layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB5609909E575E400FC03E1 /* myx_gc_layer.cpp */; };
+		2BB560A609E575E400FC03E1 /* myx_gc_layout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB5609A09E575E400FC03E1 /* myx_gc_layout.cpp */; };
+		2BB560A709E575E400FC03E1 /* myx_gc_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB5609B09E575E400FC03E1 /* myx_gc_model.cpp */; };
+		2BB560A809E575E400FC03E1 /* myx_gc_primitives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB5609C09E575E400FC03E1 /* myx_gc_primitives.cpp */; };
+		2BB560A909E575E400FC03E1 /* myx_gc_style.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB5609D09E575E400FC03E1 /* myx_gc_style.cpp */; };
+		2BB560AA09E575E400FC03E1 /* myx_gc_svgparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB5609E09E575E400FC03E1 /* myx_gc_svgparser.cpp */; };
+		2BB560AB09E575E400FC03E1 /* myx_gc_texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB5609F09E575E400FC03E1 /* myx_gc_texture.cpp */; };
+		2BB560AC09E575E400FC03E1 /* myx_gc_utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560A009E575E400FC03E1 /* myx_gc_utilities.cpp */; };
+		2BB560AD09E575E400FC03E1 /* myx_gc_variant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560A109E575E400FC03E1 /* myx_gc_variant.cpp */; };
+		2BB560AE09E575E400FC03E1 /* myx_gc_view.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560A209E575E400FC03E1 /* myx_gc_view.cpp */; };
+		2BB560B709E575F700FC03E1 /* myx_gc_animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560AF09E575F700FC03E1 /* myx_gc_animation.cpp */; };
+		2BB560B809E575F700FC03E1 /* myx_gc_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560B009E575F700FC03E1 /* myx_gc_base.cpp */; };
+		2BB560B909E575F700FC03E1 /* myx_gc_bsp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560B109E575F700FC03E1 /* myx_gc_bsp.cpp */; };
+		2BB560BA09E575F700FC03E1 /* myx_gc_canvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560B209E575F700FC03E1 /* myx_gc_canvas.cpp */; };
+		2BB560BB09E575F700FC03E1 /* myx_gc_connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560B309E575F700FC03E1 /* myx_gc_connection.cpp */; };
+		2BB560BC09E575F700FC03E1 /* myx_gc_feedback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560B409E575F700FC03E1 /* myx_gc_feedback.cpp */; };
+		2BB560BD09E575F700FC03E1 /* myx_gc_figure_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560B509E575F700FC03E1 /* myx_gc_figure_parser.cpp */; };
+		2BB560BE09E575F700FC03E1 /* myx_gc_figure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560B609E575F700FC03E1 /* myx_gc_figure.cpp */; };
+		2BB560C009E575FF00FC03E1 /* gl2ps.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BB560BF09E575FF00FC03E1 /* gl2ps.c */; };
+		2BB560EC09E576FF00FC03E1 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB560EB09E576FF00FC03E1 /* libz.a */; };
+		2BB56A3109E76DD300FC03E1 /* layout.styles.db.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2BB56A3009E76DD300FC03E1 /* layout.styles.db.xml */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B9A58260A18025E009BE1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB560D509E5762C00FC03E1 /* FTGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA63B0DE06D1C6D900CD5F16;
+			remoteInfo = ftgl;
+		};
+		2B9A58280A18025E009BE1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB560D509E5762C00FC03E1 /* FTGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA63B16E06D1C8FD00CD5F16;
+			remoteInfo = "Unit Tests";
+		};
+		2B9A582A0A18025E009BE1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB560D509E5762C00FC03E1 /* FTGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA4DCB1F06D8494E0090441D;
+			remoteInfo = "FTGL Demo";
+		};
+		2B9A582C0A18025E009BE1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB560D509E5762C00FC03E1 /* FTGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA4DCBAD06D84BA70090441D;
+			remoteInfo = "FTGL Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B1F2C2F087F4FE300455FC3 /* Copy GRT Images */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = images/grt/db;
+			dstSubfolderSpec = 7;
+			files = (
+				2B1F2B26087F0BCD00455FC3 /* column.png in Copy GRT Images */,
+				2B1F2B27087F0BCD00455FC3 /* column_256.png in Copy GRT Images */,
+				2B1F2B28087F0BCD00455FC3 /* column_64.png in Copy GRT Images */,
+				2B1F2B29087F0BCD00455FC3 /* column_fk_256.png in Copy GRT Images */,
+				2B1F2B2A087F0BCD00455FC3 /* column_fk_64.png in Copy GRT Images */,
+				2B1F2B2B087F0BCD00455FC3 /* column_pk.png in Copy GRT Images */,
+				2B1F2B2C087F0BCD00455FC3 /* column_pk_256.png in Copy GRT Images */,
+				2B1F2B2D087F0BCD00455FC3 /* column_pk_64.png in Copy GRT Images */,
+				2B1F2B2E087F0BCD00455FC3 /* index_64.png in Copy GRT Images */,
+				2B1F2B2F087F0BCD00455FC3 /* table_64.png in Copy GRT Images */,
+				2B1F2B30087F0BCD00455FC3 /* table_func_edit_64.png in Copy GRT Images */,
+				2B1F2B31087F0BCD00455FC3 /* table_func_lock_64.png in Copy GRT Images */,
+				2B1F2B32087F0BCD00455FC3 /* table_func_menu_64.png in Copy GRT Images */,
+			);
+			name = "Copy GRT Images";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2B1F28EA087E3DC100455FC3 /* MCanvasUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCanvasUtils.h; sourceTree = "<group>"; };
+		2B1F28EB087E3DC100455FC3 /* MCanvasUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MCanvasUtils.mm; sourceTree = "<group>"; };
+		2B1F2B02087F0BCD00455FC3 /* column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column.png; path = ../../../images/grt/icons/db/column.png; sourceTree = "<group>"; };
+		2B1F2B03087F0BCD00455FC3 /* column_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_256.png; path = ../../../images/grt/icons/db/column_256.png; sourceTree = "<group>"; };
+		2B1F2B04087F0BCD00455FC3 /* column_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_64.png; path = ../../../images/grt/icons/db/column_64.png; sourceTree = "<group>"; };
+		2B1F2B05087F0BCD00455FC3 /* column_fk_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_fk_256.png; path = ../../../images/grt/icons/db/column_fk_256.png; sourceTree = "<group>"; };
+		2B1F2B06087F0BCD00455FC3 /* column_fk_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_fk_64.png; path = ../../../images/grt/icons/db/column_fk_64.png; sourceTree = "<group>"; };
+		2B1F2B07087F0BCD00455FC3 /* column_pk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_pk.png; path = ../../../images/grt/icons/db/column_pk.png; sourceTree = "<group>"; };
+		2B1F2B08087F0BCD00455FC3 /* column_pk_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_pk_256.png; path = ../../../images/grt/icons/db/column_pk_256.png; sourceTree = "<group>"; };
+		2B1F2B09087F0BCD00455FC3 /* column_pk_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_pk_64.png; path = ../../../images/grt/icons/db/column_pk_64.png; sourceTree = "<group>"; };
+		2B1F2B0A087F0BCD00455FC3 /* index_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = index_64.png; path = ../../../images/grt/icons/db/index_64.png; sourceTree = "<group>"; };
+		2B1F2B0B087F0BCD00455FC3 /* table_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_64.png; path = ../../../images/grt/icons/db/table_64.png; sourceTree = "<group>"; };
+		2B1F2B0C087F0BCD00455FC3 /* table_func_edit_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_func_edit_64.png; path = ../../../images/grt/icons/db/table_func_edit_64.png; sourceTree = "<group>"; };
+		2B1F2B0D087F0BCD00455FC3 /* table_func_lock_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_func_lock_64.png; path = ../../../images/grt/icons/db/table_func_lock_64.png; sourceTree = "<group>"; };
+		2B1F2B0E087F0BCD00455FC3 /* table_func_menu_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_func_menu_64.png; path = ../../../images/grt/icons/db/table_func_menu_64.png; sourceTree = "<group>"; };
+		2B1F32BE088368C800455FC3 /* GRTCanvas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "GRTCanvas-Info.plist"; sourceTree = "<group>"; };
+		2B832ADD0861D30F00D8BEB0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		2B832E31086207B100D8BEB0 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = /sw/lib/libpng12.a; sourceTree = "<absolute>"; };
+		2B832E36086207D900D8BEB0 /* libglib-2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libglib-2.0.a"; path = "/sw/lib/libglib-2.0.a"; sourceTree = "<absolute>"; };
+		2B832E3A0862082200D8BEB0 /* libintl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libintl.a; path = /sw/lib/libintl.a; sourceTree = "<absolute>"; };
+		2B832E3C0862083C00D8BEB0 /* libftgl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libftgl.a; path = ../../../../../guibuild/Deployment/libftgl.a; sourceTree = SOURCE_ROOT; };
+		2B832E3E086208D200D8BEB0 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = /sw/lib/freetype2/lib/libfreetype.a; sourceTree = "<absolute>"; };
+		2B832EB408622F2600D8BEB0 /* MGenericCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGenericCanvasView.h; sourceTree = "<group>"; };
+		2B832EB508622F2600D8BEB0 /* MGenericCanvasView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MGenericCanvasView.mm; sourceTree = "<group>"; };
+		2B8331A20862787B00D8BEB0 /* MCanvasScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCanvasScrollView.h; sourceTree = "<group>"; };
+		2B8331A30862787B00D8BEB0 /* MCanvasScrollView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MCanvasScrollView.mm; sourceTree = "<group>"; };
+		2B8C26AD088C39800017DFD4 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = /usr/lib/libxml2.2.dylib; sourceTree = "<absolute>"; };
+		2B8C26B3088C399C0017DFD4 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = /usr/lib/libiconv.2.dylib; sourceTree = "<absolute>"; };
+		2BB5606709E5759C00FC03E1 /* myx_gc_animation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_animation.h; path = include/myx_gc_animation.h; sourceTree = "<group>"; };
+		2BB5606809E5759C00FC03E1 /* myx_gc_base.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_base.h; path = include/myx_gc_base.h; sourceTree = "<group>"; };
+		2BB5606909E5759C00FC03E1 /* myx_gc_bsp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_bsp.h; path = include/myx_gc_bsp.h; sourceTree = "<group>"; };
+		2BB5606A09E5759C00FC03E1 /* myx_gc_canvas.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_canvas.h; path = include/myx_gc_canvas.h; sourceTree = "<group>"; };
+		2BB5606B09E5759C00FC03E1 /* myx_gc_connection.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_connection.h; path = include/myx_gc_connection.h; sourceTree = "<group>"; };
+		2BB5606C09E5759C00FC03E1 /* myx_gc_datatypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_datatypes.h; path = include/myx_gc_datatypes.h; sourceTree = "<group>"; };
+		2BB5606D09E5759C00FC03E1 /* myx_gc_feedback.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_feedback.h; path = include/myx_gc_feedback.h; sourceTree = "<group>"; };
+		2BB5606E09E5759C00FC03E1 /* myx_gc_figure_parser.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_figure_parser.h; path = include/myx_gc_figure_parser.h; sourceTree = "<group>"; };
+		2BB5606F09E5759C00FC03E1 /* myx_gc_figure.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_figure.h; path = include/myx_gc_figure.h; sourceTree = "<group>"; };
+		2BB5607009E5759C00FC03E1 /* myx_gc_font_manager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_font_manager.h; path = include/myx_gc_font_manager.h; sourceTree = "<group>"; };
+		2BB5607109E5759C00FC03E1 /* myx_gc_gl_helper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_gl_helper.h; path = include/myx_gc_gl_helper.h; sourceTree = "<group>"; };
+		2BB5607209E5759C00FC03E1 /* myx_gc_layer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_layer.h; path = include/myx_gc_layer.h; sourceTree = "<group>"; };
+		2BB5607309E5759C00FC03E1 /* myx_gc_layout.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_layout.h; path = include/myx_gc_layout.h; sourceTree = "<group>"; };
+		2BB5607409E5759C00FC03E1 /* myx_gc_model.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_model.h; path = include/myx_gc_model.h; sourceTree = "<group>"; };
+		2BB5607509E5759C00FC03E1 /* myx_gc_primitives.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_primitives.h; path = include/myx_gc_primitives.h; sourceTree = "<group>"; };
+		2BB5607609E5759C00FC03E1 /* myx_gc_style.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_style.h; path = include/myx_gc_style.h; sourceTree = "<group>"; };
+		2BB5607709E5759C00FC03E1 /* myx_gc_svgparser.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_svgparser.h; path = include/myx_gc_svgparser.h; sourceTree = "<group>"; };
+		2BB5607809E5759C00FC03E1 /* myx_gc_texture.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_texture.h; path = include/myx_gc_texture.h; sourceTree = "<group>"; };
+		2BB5607909E5759C00FC03E1 /* myx_gc_utilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_utilities.h; path = include/myx_gc_utilities.h; sourceTree = "<group>"; };
+		2BB5607A09E5759C00FC03E1 /* myx_gc_variant.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_variant.h; path = include/myx_gc_variant.h; sourceTree = "<group>"; };
+		2BB5607B09E5759C00FC03E1 /* myx_gc_view.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_view.h; path = include/myx_gc_view.h; sourceTree = "<group>"; };
+		2BB5607C09E5759C00FC03E1 /* myx_gc.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc.h; path = include/myx_gc.h; sourceTree = "<group>"; };
+		2BB5609309E575A100FC03E1 /* gc_glext.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = gc_glext.h; path = include/gc_glext.h; sourceTree = "<group>"; };
+		2BB5609509E575AA00FC03E1 /* gl2ps.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = gl2ps.h; path = include/gl2ps/gl2ps.h; sourceTree = "<group>"; };
+		2BB5609709E575E400FC03E1 /* myx_gc_font_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_font_manager.cpp; path = source/myx_gc_font_manager.cpp; sourceTree = "<group>"; };
+		2BB5609809E575E400FC03E1 /* myx_gc_gl_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_gl_helper.cpp; path = source/myx_gc_gl_helper.cpp; sourceTree = "<group>"; };
+		2BB5609909E575E400FC03E1 /* myx_gc_layer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_layer.cpp; path = source/myx_gc_layer.cpp; sourceTree = "<group>"; };
+		2BB5609A09E575E400FC03E1 /* myx_gc_layout.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_layout.cpp; path = source/myx_gc_layout.cpp; sourceTree = "<group>"; };
+		2BB5609B09E575E400FC03E1 /* myx_gc_model.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_model.cpp; path = source/myx_gc_model.cpp; sourceTree = "<group>"; };
+		2BB5609C09E575E400FC03E1 /* myx_gc_primitives.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_primitives.cpp; path = source/myx_gc_primitives.cpp; sourceTree = "<group>"; };
+		2BB5609D09E575E400FC03E1 /* myx_gc_style.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_style.cpp; path = source/myx_gc_style.cpp; sourceTree = "<group>"; };
+		2BB5609E09E575E400FC03E1 /* myx_gc_svgparser.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_svgparser.cpp; path = source/myx_gc_svgparser.cpp; sourceTree = "<group>"; };
+		2BB5609F09E575E400FC03E1 /* myx_gc_texture.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_texture.cpp; path = source/myx_gc_texture.cpp; sourceTree = "<group>"; };
+		2BB560A009E575E400FC03E1 /* myx_gc_utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_utilities.cpp; path = source/myx_gc_utilities.cpp; sourceTree = "<group>"; };
+		2BB560A109E575E400FC03E1 /* myx_gc_variant.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_variant.cpp; path = source/myx_gc_variant.cpp; sourceTree = "<group>"; };
+		2BB560A209E575E400FC03E1 /* myx_gc_view.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_view.cpp; path = source/myx_gc_view.cpp; sourceTree = "<group>"; };
+		2BB560AF09E575F700FC03E1 /* myx_gc_animation.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_animation.cpp; path = source/myx_gc_animation.cpp; sourceTree = "<group>"; };
+		2BB560B009E575F700FC03E1 /* myx_gc_base.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_base.cpp; path = source/myx_gc_base.cpp; sourceTree = "<group>"; };
+		2BB560B109E575F700FC03E1 /* myx_gc_bsp.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_bsp.cpp; path = source/myx_gc_bsp.cpp; sourceTree = "<group>"; };
+		2BB560B209E575F700FC03E1 /* myx_gc_canvas.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_canvas.cpp; path = source/myx_gc_canvas.cpp; sourceTree = "<group>"; };
+		2BB560B309E575F700FC03E1 /* myx_gc_connection.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_connection.cpp; path = source/myx_gc_connection.cpp; sourceTree = "<group>"; };
+		2BB560B409E575F700FC03E1 /* myx_gc_feedback.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_feedback.cpp; path = source/myx_gc_feedback.cpp; sourceTree = "<group>"; };
+		2BB560B509E575F700FC03E1 /* myx_gc_figure_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_figure_parser.cpp; path = source/myx_gc_figure_parser.cpp; sourceTree = "<group>"; };
+		2BB560B609E575F700FC03E1 /* myx_gc_figure.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_figure.cpp; path = source/myx_gc_figure.cpp; sourceTree = "<group>"; };
+		2BB560BF09E575FF00FC03E1 /* gl2ps.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = gl2ps.c; path = source/gl2ps/gl2ps.c; sourceTree = "<group>"; };
+		2BB560D509E5762C00FC03E1 /* FTGL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FTGL.xcodeproj; path = "../../../library/generic-canvas/ftgl/mac/FTGL.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		2BB560EB09E576FF00FC03E1 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = /usr/lib/libz.a; sourceTree = "<absolute>"; };
+		2BB56A3009E76DD300FC03E1 /* layout.styles.db.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = layout.styles.db.xml; path = ../../../res/grt/layout.styles.db.xml; sourceTree = SOURCE_ROOT; };
+		32DBCF5E0370ADEE00C91783 /* GenericCanvas_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericCanvas_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* GenericCanvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GenericCanvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				2B832ADE0861D30F00D8BEB0 /* OpenGL.framework in Frameworks */,
+				2B832E32086207B100D8BEB0 /* libpng.a in Frameworks */,
+				2B832E37086207D900D8BEB0 /* libglib-2.0.a in Frameworks */,
+				2B832E3B0862082200D8BEB0 /* libintl.a in Frameworks */,
+				2B832E3D0862083C00D8BEB0 /* libftgl.a in Frameworks */,
+				2B832E3F086208D200D8BEB0 /* libfreetype.a in Frameworks */,
+				2B8C26AE088C39800017DFD4 /* libxml2.dylib in Frameworks */,
+				2B8C26B4088C399C0017DFD4 /* libiconv.dylib in Frameworks */,
+				2BB560EC09E576FF00FC03E1 /* libz.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* GenericCanvas.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* GenericCanvas */ = {
+			isa = PBXGroup;
+			children = (
+				2BB560D509E5762C00FC03E1 /* FTGL.xcodeproj */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				2B832ACF0861D29100D8BEB0 /* generic-canvas */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				2B1F32BE088368C800455FC3 /* GRTCanvas-Info.plist */,
+			);
+			name = GenericCanvas;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BB56A3009E76DD300FC03E1 /* layout.styles.db.xml */,
+				2B1F2AEF087F0BAF00455FC3 /* images */,
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B832EB408622F2600D8BEB0 /* MGenericCanvasView.h */,
+				2B832EB508622F2600D8BEB0 /* MGenericCanvasView.mm */,
+				2B8331A20862787B00D8BEB0 /* MCanvasScrollView.h */,
+				2B8331A30862787B00D8BEB0 /* MCanvasScrollView.mm */,
+				2B1F28EA087E3DC100455FC3 /* MCanvasUtils.h */,
+				2B1F28EB087E3DC100455FC3 /* MCanvasUtils.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B832E36086207D900D8BEB0 /* libglib-2.0.a */,
+				2B832E31086207B100D8BEB0 /* libpng.a */,
+				2BB560EB09E576FF00FC03E1 /* libz.a */,
+				2B832E3A0862082200D8BEB0 /* libintl.a */,
+				2B832E3E086208D200D8BEB0 /* libfreetype.a */,
+				2B832E3C0862083C00D8BEB0 /* libftgl.a */,
+				2B8C26B3088C399C0017DFD4 /* libiconv.dylib */,
+				2B8C26AD088C39800017DFD4 /* libxml2.dylib */,
+				2B832ADD0861D30F00D8BEB0 /* OpenGL.framework */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2B1F2AEF087F0BAF00455FC3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2B1F2B02087F0BCD00455FC3 /* column.png */,
+				2B1F2B03087F0BCD00455FC3 /* column_256.png */,
+				2B1F2B04087F0BCD00455FC3 /* column_64.png */,
+				2B1F2B05087F0BCD00455FC3 /* column_fk_256.png */,
+				2B1F2B06087F0BCD00455FC3 /* column_fk_64.png */,
+				2B1F2B07087F0BCD00455FC3 /* column_pk.png */,
+				2B1F2B08087F0BCD00455FC3 /* column_pk_256.png */,
+				2B1F2B09087F0BCD00455FC3 /* column_pk_64.png */,
+				2B1F2B0A087F0BCD00455FC3 /* index_64.png */,
+				2B1F2B0B087F0BCD00455FC3 /* table_64.png */,
+				2B1F2B0C087F0BCD00455FC3 /* table_func_edit_64.png */,
+				2B1F2B0D087F0BCD00455FC3 /* table_func_lock_64.png */,
+				2B1F2B0E087F0BCD00455FC3 /* table_func_menu_64.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		2B832ACF0861D29100D8BEB0 /* generic-canvas */ = {
+			isa = PBXGroup;
+			children = (
+				2BB5609509E575AA00FC03E1 /* gl2ps.h */,
+				2BB5609309E575A100FC03E1 /* gc_glext.h */,
+				2BB5606709E5759C00FC03E1 /* myx_gc_animation.h */,
+				2BB5606809E5759C00FC03E1 /* myx_gc_base.h */,
+				2BB5606909E5759C00FC03E1 /* myx_gc_bsp.h */,
+				2BB5606A09E5759C00FC03E1 /* myx_gc_canvas.h */,
+				2BB5606B09E5759C00FC03E1 /* myx_gc_connection.h */,
+				2BB5606C09E5759C00FC03E1 /* myx_gc_datatypes.h */,
+				2BB5606D09E5759C00FC03E1 /* myx_gc_feedback.h */,
+				2BB5606E09E5759C00FC03E1 /* myx_gc_figure_parser.h */,
+				2BB5606F09E5759C00FC03E1 /* myx_gc_figure.h */,
+				2BB5607009E5759C00FC03E1 /* myx_gc_font_manager.h */,
+				2BB5607109E5759C00FC03E1 /* myx_gc_gl_helper.h */,
+				2BB5607209E5759C00FC03E1 /* myx_gc_layer.h */,
+				2BB5607309E5759C00FC03E1 /* myx_gc_layout.h */,
+				2BB5607409E5759C00FC03E1 /* myx_gc_model.h */,
+				2BB5607509E5759C00FC03E1 /* myx_gc_primitives.h */,
+				2BB5607609E5759C00FC03E1 /* myx_gc_style.h */,
+				2BB5607709E5759C00FC03E1 /* myx_gc_svgparser.h */,
+				2BB5607809E5759C00FC03E1 /* myx_gc_texture.h */,
+				2BB5607909E5759C00FC03E1 /* myx_gc_utilities.h */,
+				2BB5607A09E5759C00FC03E1 /* myx_gc_variant.h */,
+				2BB5607B09E5759C00FC03E1 /* myx_gc_view.h */,
+				2BB560BF09E575FF00FC03E1 /* gl2ps.c */,
+				2BB560AF09E575F700FC03E1 /* myx_gc_animation.cpp */,
+				2BB560B009E575F700FC03E1 /* myx_gc_base.cpp */,
+				2BB560B109E575F700FC03E1 /* myx_gc_bsp.cpp */,
+				2BB560B209E575F700FC03E1 /* myx_gc_canvas.cpp */,
+				2BB560B309E575F700FC03E1 /* myx_gc_connection.cpp */,
+				2BB560B409E575F700FC03E1 /* myx_gc_feedback.cpp */,
+				2BB560B509E575F700FC03E1 /* myx_gc_figure_parser.cpp */,
+				2BB560B609E575F700FC03E1 /* myx_gc_figure.cpp */,
+				2BB5609709E575E400FC03E1 /* myx_gc_font_manager.cpp */,
+				2BB5609809E575E400FC03E1 /* myx_gc_gl_helper.cpp */,
+				2BB5609909E575E400FC03E1 /* myx_gc_layer.cpp */,
+				2BB5609A09E575E400FC03E1 /* myx_gc_layout.cpp */,
+				2BB5609B09E575E400FC03E1 /* myx_gc_model.cpp */,
+				2BB5609C09E575E400FC03E1 /* myx_gc_primitives.cpp */,
+				2BB5609D09E575E400FC03E1 /* myx_gc_style.cpp */,
+				2BB5609E09E575E400FC03E1 /* myx_gc_svgparser.cpp */,
+				2BB5609F09E575E400FC03E1 /* myx_gc_texture.cpp */,
+				2BB560A009E575E400FC03E1 /* myx_gc_utilities.cpp */,
+				2BB560A109E575E400FC03E1 /* myx_gc_variant.cpp */,
+				2BB560A209E575E400FC03E1 /* myx_gc_view.cpp */,
+				2BB5607C09E5759C00FC03E1 /* myx_gc.h */,
+			);
+			name = "generic-canvas";
+			path = "../../../library/generic-canvas";
+			sourceTree = "<group>";
+		};
+		2B9A58200A18025E009BE1FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B9A58270A18025E009BE1FF /* libftgl.a */,
+				2B9A58290A18025E009BE1FF /* UnitTests */,
+				2B9A582B0A18025E009BE1FF /* FTGLDemo */,
+				2B9A582D0A18025E009BE1FF /* FTGLTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* GenericCanvas_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B832EB608622F2600D8BEB0 /* MGenericCanvasView.h in Headers */,
+				2B8331A40862787B00D8BEB0 /* MCanvasScrollView.h in Headers */,
+				2B1F28EC087E3DC100455FC3 /* MCanvasUtils.h in Headers */,
+				2BB5607D09E5759C00FC03E1 /* myx_gc_animation.h in Headers */,
+				2BB5607E09E5759C00FC03E1 /* myx_gc_base.h in Headers */,
+				2BB5607F09E5759C00FC03E1 /* myx_gc_bsp.h in Headers */,
+				2BB5608009E5759C00FC03E1 /* myx_gc_canvas.h in Headers */,
+				2BB5608109E5759C00FC03E1 /* myx_gc_connection.h in Headers */,
+				2BB5608209E5759C00FC03E1 /* myx_gc_datatypes.h in Headers */,
+				2BB5608309E5759C00FC03E1 /* myx_gc_feedback.h in Headers */,
+				2BB5608409E5759C00FC03E1 /* myx_gc_figure_parser.h in Headers */,
+				2BB5608509E5759C00FC03E1 /* myx_gc_figure.h in Headers */,
+				2BB5608609E5759C00FC03E1 /* myx_gc_font_manager.h in Headers */,
+				2BB5608709E5759C00FC03E1 /* myx_gc_gl_helper.h in Headers */,
+				2BB5608809E5759C00FC03E1 /* myx_gc_layer.h in Headers */,
+				2BB5608909E5759C00FC03E1 /* myx_gc_layout.h in Headers */,
+				2BB5608A09E5759C00FC03E1 /* myx_gc_model.h in Headers */,
+				2BB5608B09E5759C00FC03E1 /* myx_gc_primitives.h in Headers */,
+				2BB5608C09E5759C00FC03E1 /* myx_gc_style.h in Headers */,
+				2BB5608D09E5759C00FC03E1 /* myx_gc_svgparser.h in Headers */,
+				2BB5608E09E5759C00FC03E1 /* myx_gc_texture.h in Headers */,
+				2BB5608F09E5759C00FC03E1 /* myx_gc_utilities.h in Headers */,
+				2BB5609009E5759C00FC03E1 /* myx_gc_variant.h in Headers */,
+				2BB5609109E5759C00FC03E1 /* myx_gc_view.h in Headers */,
+				2BB5609209E5759C00FC03E1 /* myx_gc.h in Headers */,
+				2BB5609409E575A100FC03E1 /* gc_glext.h in Headers */,
+				2BB5609609E575AA00FC03E1 /* gl2ps.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* GenericCanvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B832AAC0861D23F00D8BEB0 /* Build configuration list for PBXNativeTarget "GenericCanvas" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				2B1F2C2F087F4FE300455FC3 /* Copy GRT Images */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenericCanvas;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = GenericCanvas;
+			productReference = 8DC2EF5B0486A6940098B216 /* GenericCanvas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2B832AB00861D23F00D8BEB0 /* Build configuration list for PBXProject "GenericCanvas" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* GenericCanvas */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2B9A58200A18025E009BE1FF /* Products */;
+					ProjectRef = 2BB560D509E5762C00FC03E1 /* FTGL.xcodeproj */;
+				},
+			);
+			targets = (
+				8DC2EF4F0486A6940098B216 /* GenericCanvas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2B9A58270A18025E009BE1FF /* libftgl.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libftgl.a;
+			remoteRef = 2B9A58260A18025E009BE1FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B9A58290A18025E009BE1FF /* UnitTests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = UnitTests;
+			remoteRef = 2B9A58280A18025E009BE1FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B9A582B0A18025E009BE1FF /* FTGLDemo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FTGLDemo;
+			remoteRef = 2B9A582A0A18025E009BE1FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B9A582D0A18025E009BE1FF /* FTGLTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FTGLTest;
+			remoteRef = 2B9A582C0A18025E009BE1FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				2BB56A3109E76DD300FC03E1 /* layout.styles.db.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B832EB708622F2600D8BEB0 /* MGenericCanvasView.mm in Sources */,
+				2B8331A50862787B00D8BEB0 /* MCanvasScrollView.mm in Sources */,
+				2B1F28ED087E3DC100455FC3 /* MCanvasUtils.mm in Sources */,
+				2BB560A309E575E400FC03E1 /* myx_gc_font_manager.cpp in Sources */,
+				2BB560A409E575E400FC03E1 /* myx_gc_gl_helper.cpp in Sources */,
+				2BB560A509E575E400FC03E1 /* myx_gc_layer.cpp in Sources */,
+				2BB560A609E575E400FC03E1 /* myx_gc_layout.cpp in Sources */,
+				2BB560A709E575E400FC03E1 /* myx_gc_model.cpp in Sources */,
+				2BB560A809E575E400FC03E1 /* myx_gc_primitives.cpp in Sources */,
+				2BB560A909E575E400FC03E1 /* myx_gc_style.cpp in Sources */,
+				2BB560AA09E575E400FC03E1 /* myx_gc_svgparser.cpp in Sources */,
+				2BB560AB09E575E400FC03E1 /* myx_gc_texture.cpp in Sources */,
+				2BB560AC09E575E400FC03E1 /* myx_gc_utilities.cpp in Sources */,
+				2BB560AD09E575E400FC03E1 /* myx_gc_variant.cpp in Sources */,
+				2BB560AE09E575E400FC03E1 /* myx_gc_view.cpp in Sources */,
+				2BB560B709E575F700FC03E1 /* myx_gc_animation.cpp in Sources */,
+				2BB560B809E575F700FC03E1 /* myx_gc_base.cpp in Sources */,
+				2BB560B909E575F700FC03E1 /* myx_gc_bsp.cpp in Sources */,
+				2BB560BA09E575F700FC03E1 /* myx_gc_canvas.cpp in Sources */,
+				2BB560BB09E575F700FC03E1 /* myx_gc_connection.cpp in Sources */,
+				2BB560BC09E575F700FC03E1 /* myx_gc_feedback.cpp in Sources */,
+				2BB560BD09E575F700FC03E1 /* myx_gc_figure_parser.cpp in Sources */,
+				2BB560BE09E575F700FC03E1 /* myx_gc_figure.cpp in Sources */,
+				2BB560C009E575FF00FC03E1 /* gl2ps.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B832AAD0861D23F00D8BEB0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GenericCanvas_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				PREBINDING = NO;
+				PRODUCT_NAME = GenericCanvas;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		2B832AAE0861D23F00D8BEB0 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GenericCanvas_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				PREBINDING = NO;
+				PRODUCT_NAME = GenericCanvas;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2B832AB10861D23F00D8BEB0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SYMROOT)/Deployment/usr/local/include/FTGL",
+					"$(SYMROOT)/Deployment/usr/local/include",
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+					/usr/include/libxml2,
+					/sw/lib/freetype2/include,
+					/sw/lib/freetype2/include/freetype2,
+					"$(PROJECT_DIR)/../../../library/generic-canvas/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SYMROOT)/DeploymentU",
+					/sw/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.3.9.sdk;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Development;
+		};
+		2B832AB20861D23F00D8BEB0 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SYMROOT)/Deployment/usr/local/include/FTGL",
+					"$(SYMROOT)/Deployment/usr/local/include",
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+					/usr/include/libxml2,
+					/sw/lib/freetype2/include,
+					/sw/lib/freetype2/include/freetype2,
+					"$(PROJECT_DIR)/../../../library/generic-canvas/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SYMROOT)/DeploymentU",
+					/sw/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.3.9.sdk;
+			};
+			name = Deployment;
+		};
+		2BB5666409E7452D00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GenericCanvas_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				PREBINDING = NO;
+				PRODUCT_NAME = GenericCanvas;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = DeploymentU;
+		};
+		2BB5666509E7452D00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SYMROOT)/DeploymentU/usr/local/include/FTGL",
+					"$(SYMROOT)/DeploymentU/usr/local/include",
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+					/usr/include/libxml2,
+					/sw/lib/freetype2/include,
+					/sw/lib/freetype2/include/freetype2,
+					"$(PROJECT_DIR)/../../../library/generic-canvas/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SYMROOT)/DeploymentU",
+					/sw/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = DeploymentU;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B832AAC0861D23F00D8BEB0 /* Build configuration list for PBXNativeTarget "GenericCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B832AAD0861D23F00D8BEB0 /* Development */,
+				2B832AAE0861D23F00D8BEB0 /* Deployment */,
+				2BB5666409E7452D00FC03E1 /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2B832AB00861D23F00D8BEB0 /* Build configuration list for PBXProject "GenericCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B832AB10861D23F00D8BEB0 /* Development */,
+				2B832AB20861D23F00D8BEB0 /* Deployment */,
+				2BB5666509E7452D00FC03E1 /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

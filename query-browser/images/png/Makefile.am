@@ -1,0 +1,56 @@
+	
+SUBDIRS=sidebar
+mqbdatadir=$(qbdatadir)
+	
+mqbdata_DATA=\
+	16x16_KeyColumn.png\
+	gutter_breakpoint.png\
+	gutter_current_pos.png\
+	gutter_query_start.png\
+	overlay_table_menu.png\
+	perspective_browser_active.png\
+	perspective_browser_disabled.png\
+	perspective_browser.png\
+	perspective_cmd_active.png\
+	perspective_cmd_disabled.png\
+	perspective_cmd.png\
+	perspective_scripts_active.png\
+	perspective_scripts_disabled.png\
+	perspective_scripts.png\
+	perspective_storedproc_active.png\
+	perspective_storedproc_disabled.png\
+	perspective_storedproc.png\
+	rs_apply_disabled.png\
+	rs_apply.png\
+	rs_discard_disabled.png\
+	rs_discard.png\
+	rs_edit_active.png\
+	rs_edit_disabled.png\
+	rs_edit.png\
+	rs_error.png\
+	rs_first_disabled.png\
+	rs_first.png\
+	rs_last_disabled.png\
+	rs_last.png\
+	rs_search_disabled.png\
+	rs_search.png\
+	rs_warning.png\
+	rs_notice.png\
+	sakila.png\
+	tabsheet_icon_close1.png\
+	tabsheet_icon_close2.png\
+	tabsheet_icon_close3.png\
+	tabsheet_icon_inlinehelp.png\
+	tabsheet_icon_resultset.png\
+	tabsheet_icon_script.png\
+	trans_commited.png\
+	trans_rolledback.png\
+	trans_started.png\
+	TabSheetPopup_AddRS.png\
+	TabSheetPopup_AddScript.png\
+	TabSheetPopup_DelSplit.png\
+	TabSheetPopup_DelTab.png\
+	TabSheetPopup_SplitHorizont.png\
+	TabSheetPopup_SplitVertical.png\
+	sql_create_view.png
+

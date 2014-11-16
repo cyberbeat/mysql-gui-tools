@@ -1,0 +1,86 @@
+query : ****************************
+  sql : ----------------------------
+select 1, User, Host
+from mysql.user
+where User='root'
+group by Host
+order by Host;
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "system"."mysql"."user" ()
+     fullname= "mysql.user"
+     charset= "(null)"
+     columns(31) : 
+       column "Host", cs((null)) is     pk
+       column "User", cs((null)) is     pk
+       column "Password", cs((null)) is not pk
+       column "Select_priv", cs((null)) is not pk
+       column "Insert_priv", cs((null)) is not pk
+       column "Update_priv", cs((null)) is not pk
+       column "Delete_priv", cs((null)) is not pk
+       column "Create_priv", cs((null)) is not pk
+       column "Drop_priv", cs((null)) is not pk
+       column "Reload_priv", cs((null)) is not pk
+       column "Shutdown_priv", cs((null)) is not pk
+       column "Process_priv", cs((null)) is not pk
+       column "File_priv", cs((null)) is not pk
+       column "Grant_priv", cs((null)) is not pk
+       column "References_priv", cs((null)) is not pk
+       column "Index_priv", cs((null)) is not pk
+       column "Alter_priv", cs((null)) is not pk
+       column "Show_db_priv", cs((null)) is not pk
+       column "Super_priv", cs((null)) is not pk
+       column "Create_tmp_table_priv", cs((null)) is not pk
+       column "Lock_tables_priv", cs((null)) is not pk
+       column "Execute_priv", cs((null)) is not pk
+       column "Repl_slave_priv", cs((null)) is not pk
+       column "Repl_client_priv", cs((null)) is not pk
+       column "ssl_type", cs((null)) is not pk
+       column "ssl_cipher", cs((null)) is not pk
+       column "x509_issuer", cs((null)) is not pk
+       column "x509_subject", cs((null)) is not pk
+       column "max_questions", cs((null)) is not pk
+       column "max_updates", cs((null)) is not pk
+       column "max_connections", cs((null)) is not pk
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(3)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."1" (alias: 1, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."User" (alias: User, is_pk: 0)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."Host" (alias: Host, is_pk: 0)
+  clauses(5)
+    clause (7,22) ends with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+1, User, Host
+      ------------------------------------
+    clause (27,39) ends with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+mysql.user
+      ------------------------------------
+    clause (45,58) ends with linebreak
+      clause_type MYX_QCT_WHERE_CLAUSE
+      clause : -------------------------
+User='root'
+      ------------------------------------
+    clause (67,73) ends with linebreak
+      clause_type MYX_QCT_GROUP_CLAUSE
+      clause : -------------------------
+Host
+      ------------------------------------
+    clause (82,87) doesn't end with linebreak
+      clause_type MYX_QCT_ORDER_CLAUSE
+      clause : -------------------------
+Host;
+      ------------------------------------
+  subqueries(0)
+  params_num 0

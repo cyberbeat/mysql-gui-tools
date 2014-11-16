@@ -1,0 +1,1 @@
+..\..\..\output\FilelistConvertTool.exe --mode=dump --proj-file=MySQLAdministratorTest.bdsproj --list-file=filelist

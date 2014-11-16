@@ -1,0 +1,49 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; removeRS = id; splitH = id; splitV = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MAccessoryScrollView; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }, 
+        {CLASS = MQRSView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                addRow = id; 
+                clearField = id; 
+                clearMessages = id; 
+                commitRS = id; 
+                copyField = id; 
+                copyMessage = id; 
+                deleteRow = id; 
+                discardRS = id; 
+                editField = id; 
+                editRS = id; 
+                goFirst = id; 
+                goLast = id; 
+                loadField = id; 
+                saveField = id; 
+                splitH = id; 
+                splitV = id; 
+                unsplit = id; 
+                viewField = id; 
+            }; 
+            CLASS = MQResultSetView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                messageTable = NSTableView; 
+                splitView = MSplitView; 
+                statusLabel = NSTextField; 
+                sview = MAccessoryScrollView; 
+                table = MQTableView; 
+                view = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MQTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = MSplitView; LANGUAGE = ObjC; SUPERCLASS = NSSplitView; }, 
+        {CLASS = MTextImageCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,1586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B166EBE08C42FE900CB1DC0 /* MGRTConnectionPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B166BB708C38EAA00CB1DC0 /* MGRTConnectionPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B166EBF08C42FE900CB1DC0 /* MGRTConnectionPanel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B166BB808C38EAA00CB1DC0 /* MGRTConnectionPanel.mm */; };
+		2B16701008C4EF5700CB1DC0 /* MGRTRevEngFilterPane.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B16700E08C4EF5700CB1DC0 /* MGRTRevEngFilterPane.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B16701108C4EF5700CB1DC0 /* MGRTRevEngFilterPane.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B16700F08C4EF5700CB1DC0 /* MGRTRevEngFilterPane.mm */; };
+		2B16701408C4EF7500CB1DC0 /* ReverseEngineeringFilter.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B16701208C4EF7500CB1DC0 /* ReverseEngineeringFilter.nib */; };
+		2B1672B308C5FBB100CB1DC0 /* GRTConnectPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1672B108C5FBB100CB1DC0 /* GRTConnectPanel.nib */; };
+		2B16837208CEC0EE00CB1DC0 /* MGRTTreeDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B16836E08CEC0EE00CB1DC0 /* MGRTTreeDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B16837308CEC0EE00CB1DC0 /* MGRTTreeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B16836F08CEC0EE00CB1DC0 /* MGRTTreeDataSource.m */; };
+		2B16837408CEC0EE00CB1DC0 /* MGRTValueTreeDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B16837008CEC0EE00CB1DC0 /* MGRTValueTreeDataSource.h */; };
+		2B16837508CEC0EE00CB1DC0 /* MGRTValueTreeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B16837108CEC0EE00CB1DC0 /* MGRTValueTreeDataSource.m */; };
+		2B1BCA4C093CD6FB00946E36 /* myx_grt_python_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BCA4A093CD6FB00946E36 /* myx_grt_python_common.c */; };
+		2B1BCA4D093CD6FB00946E36 /* myx_grt_python_shell.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BCA4B093CD6FB00946E36 /* myx_grt_python_shell.c */; };
+		2B1BCA4F093CD70600946E36 /* myx_grt_shell.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BCA4E093CD70600946E36 /* myx_grt_shell.c */; };
+		2B1BCA78093CDF5500946E36 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1BCA77093CDF5500946E36 /* Python.framework */; };
+		2B1F330408836AFD00455FC3 /* MNServerSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F32FA08836AFD00455FC3 /* MNServerSocket.h */; };
+		2B1F330508836AFD00455FC3 /* MNSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F32FB08836AFD00455FC3 /* MNSocket.h */; };
+		2B1F330608836AFD00455FC3 /* myx_grt_agent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F32FC08836AFD00455FC3 /* myx_grt_agent.h */; };
+		2B1F330708836AFD00455FC3 /* myx_grt_java.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F32FD08836AFD00455FC3 /* myx_grt_java.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1F330808836AFD00455FC3 /* myx_grt_lua_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F32FE08836AFD00455FC3 /* myx_grt_lua_private.h */; };
+		2B1F330908836AFD00455FC3 /* myx_grt_lua.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F32FF08836AFD00455FC3 /* myx_grt_lua.h */; };
+		2B1F330A08836AFD00455FC3 /* myx_grt_php.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F330008836AFD00455FC3 /* myx_grt_php.h */; };
+		2B1F330B08836AFD00455FC3 /* myx_grt_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F330108836AFD00455FC3 /* myx_grt_private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1F330C08836AFD00455FC3 /* myx_grt_public_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F330208836AFD00455FC3 /* myx_grt_public_interface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1F330D08836AFD00455FC3 /* myx_grt_python.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F330308836AFD00455FC3 /* myx_grt_python.h */; };
+		2B1F331F08836B6A00455FC3 /* MNServerSocket.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F330F08836B6900455FC3 /* MNServerSocket.cc */; };
+		2B1F332008836B6A00455FC3 /* MNSocket.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331008836B6900455FC3 /* MNSocket.cc */; };
+		2B1F332108836B6A00455FC3 /* myx_grt_agent.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331108836B6900455FC3 /* myx_grt_agent.cc */; };
+		2B1F332208836B6A00455FC3 /* myx_grt_builtin.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331208836B6900455FC3 /* myx_grt_builtin.c */; };
+		2B1F332308836B6A00455FC3 /* myx_grt_java.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331308836B6900455FC3 /* myx_grt_java.c */; };
+		2B1F332408836B6A00455FC3 /* myx_grt_lua_shell_help.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331408836B6900455FC3 /* myx_grt_lua_shell_help.c */; };
+		2B1F332508836B6A00455FC3 /* myx_grt_lua_shell.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331508836B6900455FC3 /* myx_grt_lua_shell.c */; };
+		2B1F332608836B6A00455FC3 /* myx_grt_lua.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331608836B6900455FC3 /* myx_grt_lua.c */; };
+		2B1F332808836B6A00455FC3 /* myx_grt_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331808836B6900455FC3 /* myx_grt_module.c */; };
+		2B1F332908836B6A00455FC3 /* myx_grt_php.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331908836B6A00455FC3 /* myx_grt_php.c */; };
+		2B1F332A08836B6A00455FC3 /* myx_grt_private.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331A08836B6A00455FC3 /* myx_grt_private.c */; };
+		2B1F332B08836B6A00455FC3 /* myx_grt_python.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331B08836B6A00455FC3 /* myx_grt_python.c */; };
+		2B1F332C08836B6A00455FC3 /* myx_grt_struct.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331C08836B6A00455FC3 /* myx_grt_struct.c */; };
+		2B1F332D08836B6A00455FC3 /* myx_grt_value.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331D08836B6A00455FC3 /* myx_grt_value.c */; };
+		2B1F332E08836B6A00455FC3 /* myx_grt.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331E08836B6A00455FC3 /* myx_grt.c */; };
+		2B1F333008836BFE00455FC3 /* JavaVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1F332F08836BFE00455FC3 /* JavaVM.framework */; };
+		2B1F33F608836E5400455FC3 /* MySQLToolsCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1F33F508836E5400455FC3 /* MySQLToolsCommon.framework */; };
+		2B1F33FA08836E8600455FC3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1F33F908836E8600455FC3 /* libxml2.dylib */; };
+		2B1F34E0088431FC00455FC3 /* com_mysql_grt_GrtCallbackNative.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F34DF088431FC00455FC3 /* com_mysql_grt_GrtCallbackNative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1F34E8088432FE00455FC3 /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1F34E7088432FE00455FC3 /* liblua.a */; };
+		2B1F34EA0884330400455FC3 /* liblualib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1F34E90884330400455FC3 /* liblualib.a */; };
+		2B58688508B43CD700E38573 /* column_pk.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B58688308B43CD700E38573 /* column_pk.png */; };
+		2B58688608B43CD700E38573 /* column.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B58688408B43CD700E38573 /* column.png */; };
+		2B5869F508B45B5E00E38573 /* DbUtils.lua in Resources */ = {isa = PBXBuildFile; fileRef = 2B5869F408B45B5E00E38573 /* DbUtils.lua */; };
+		2B586A1008B45B8000E38573 /* DbUtils.lua in Copy Lua Files */ = {isa = PBXBuildFile; fileRef = 2B5869F408B45B5E00E38573 /* DbUtils.lua */; };
+		2B58716F08B6916D00E38573 /* libgthread-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B58716E08B6916D00E38573 /* libgthread-2.0.0.dylib */; };
+		2B58717208B6919200E38573 /* libgthread-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B58716E08B6916D00E38573 /* libgthread-2.0.0.dylib */; };
+		2B801152088C8D600048405B /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B801151088C8D600048405B /* libglib-2.0.0.dylib */; };
+		2B8011A4088C92F90048405B /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B801151088C8D600048405B /* libglib-2.0.0.dylib */; };
+		2B801596088E10D90048405B /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B801595088E10D90048405B /* refresh.png */; };
+		2B8015F5088ED0230048405B /* structs.model.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B8015F4088ED0230048405B /* structs.model.xml */; };
+		2B8015F7088ED02D0048405B /* structs.db.workbench.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B8015F6088ED02D0048405B /* structs.db.workbench.xml */; };
+		2B80C88B08BAE03D00BA69BE /* MGRTModuleLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B80C88908BAE03D00BA69BE /* MGRTModuleLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B80C88C08BAE03D00BA69BE /* MGRTModuleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B80C88A08BAE03D00BA69BE /* MGRTModuleLoader.m */; };
+		2B8C17C90885965C0017DFD4 /* GRTShell.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C17C70885965C0017DFD4 /* GRTShell.nib */; };
+		2B8C17CD0885968F0017DFD4 /* MGRTShell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C17CB0885968F0017DFD4 /* MGRTShell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C17CE0885968F0017DFD4 /* MGRTShell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C17CC0885968F0017DFD4 /* MGRTShell.m */; };
+		2B8C180508859F590017DFD4 /* MShellTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C180308859F590017DFD4 /* MShellTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C180608859F590017DFD4 /* MShellTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C180408859F590017DFD4 /* MShellTextView.m */; };
+		2B8C195D0885B9880017DFD4 /* MGRT.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C195B0885B9880017DFD4 /* MGRT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C195E0885B9880017DFD4 /* MGRT.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C195C0885B9880017DFD4 /* MGRT.m */; };
+		2B8C19E80886198D0017DFD4 /* myx_grt_base.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C19E20886198D0017DFD4 /* myx_grt_base.h */; };
+		2B8C19E90886198D0017DFD4 /* myx_grt_builtin_module_public_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C19E30886198D0017DFD4 /* myx_grt_builtin_module_public_interface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C19EA0886198D0017DFD4 /* myx_grt_forms.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C19E40886198D0017DFD4 /* myx_grt_forms.h */; };
+		2B8C19EB0886198D0017DFD4 /* myx_grt_mysql_reveng.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C19E50886198D0017DFD4 /* myx_grt_mysql_reveng.h */; };
+		2B8C19EC0886198D0017DFD4 /* myx_grt_mysql_transformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C19E60886198D0017DFD4 /* myx_grt_mysql_transformation.h */; };
+		2B8C19ED0886198D0017DFD4 /* myx_grt_mysql.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C19E70886198D0017DFD4 /* myx_grt_mysql.h */; };
+		2B8C19F20886199C0017DFD4 /* myx_grt_base.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C19EE0886199C0017DFD4 /* myx_grt_base.c */; };
+		2B8C19F30886199C0017DFD4 /* myx_grt_mysql_reveng.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C19EF0886199C0017DFD4 /* myx_grt_mysql_reveng.c */; };
+		2B8C19F40886199C0017DFD4 /* myx_grt_mysql_transformation.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C19F00886199C0017DFD4 /* myx_grt_mysql_transformation.c */; };
+		2B8C19F50886199C0017DFD4 /* myx_grt_mysql.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C19F10886199C0017DFD4 /* myx_grt_mysql.c */; };
+		2B8C1B1F08862E970017DFD4 /* structs.base.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B0208862E5C0017DFD4 /* structs.base.xml */; };
+		2B8C1B2008862E970017DFD4 /* structs.canvas.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B0308862E5C0017DFD4 /* structs.canvas.xml */; };
+		2B8C1B2108862E970017DFD4 /* structs.db.mgmt.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B0408862E5C0017DFD4 /* structs.db.mgmt.xml */; };
+		2B8C1B2208862E970017DFD4 /* structs.db.migration.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B0508862E5C0017DFD4 /* structs.db.migration.xml */; };
+		2B8C1B2408862E970017DFD4 /* structs.db.mssql.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B0708862E5C0017DFD4 /* structs.db.mssql.xml */; };
+		2B8C1B2508862E970017DFD4 /* structs.db.mysql.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B0808862E5C0017DFD4 /* structs.db.mysql.xml */; };
+		2B8C1B2608862E970017DFD4 /* structs.db.oracle.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B0908862E5C0017DFD4 /* structs.db.oracle.xml */; };
+		2B8C1B2708862E970017DFD4 /* structs.db.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B0A08862E5C0017DFD4 /* structs.db.xml */; };
+		2B8C1B2808862E970017DFD4 /* structs.forms.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B0B08862E5C0017DFD4 /* structs.forms.xml */; };
+		2B8C1B2908862E970017DFD4 /* structs.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B0C08862E5C0017DFD4 /* structs.xml */; };
+		2B8C1B7F08862F340017DFD4 /* _library.lua in Copy Lua Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B3008862ED90017DFD4 /* _library.lua */; };
+		2B8C1B8008862F340017DFD4 /* BaseLua.lua in Copy Lua Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B3108862ED90017DFD4 /* BaseLua.lua */; };
+		2B8C1B8108862F340017DFD4 /* RdbmsInfo.lua in Copy Lua Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B3208862ED90017DFD4 /* RdbmsInfo.lua */; };
+		2B8C1B8208862F340017DFD4 /* RdbmsInfoAccess.lua in Copy Lua Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B3308862ED90017DFD4 /* RdbmsInfoAccess.lua */; };
+		2B8C1B8308862F340017DFD4 /* RdbmsInfoGeneric.lua in Copy Lua Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B3408862ED90017DFD4 /* RdbmsInfoGeneric.lua */; };
+		2B8C1B8408862F340017DFD4 /* RdbmsInfoMssql.lua in Copy Lua Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B3508862ED90017DFD4 /* RdbmsInfoMssql.lua */; };
+		2B8C1B8508862F340017DFD4 /* RdbmsInfoMysql.lua in Copy Lua Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B3608862ED90017DFD4 /* RdbmsInfoMysql.lua */; };
+		2B8C1B8608862F340017DFD4 /* RdbmsInfoOracle.lua in Copy Lua Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B3708862ED90017DFD4 /* RdbmsInfoOracle.lua */; };
+		2B8C1B8708862F340017DFD4 /* RdbmsManagement.lua in Copy Lua Files */ = {isa = PBXBuildFile; fileRef = 2B8C1B3808862ED90017DFD4 /* RdbmsManagement.lua */; };
+		2B8C1B9508862F920017DFD4 /* jtds-1.2.jar in Copy Java Libraries */ = {isa = PBXBuildFile; fileRef = 2B8C1B8F08862F800017DFD4 /* jtds-1.2.jar */; };
+		2B8C1B9608862F920017DFD4 /* junit.jar in Copy Java Libraries */ = {isa = PBXBuildFile; fileRef = 2B8C1B9008862F800017DFD4 /* junit.jar */; };
+		2B8C1B9708862F920017DFD4 /* mysql-connector-java-3.1.11a-bin.jar in Copy Java Libraries */ = {isa = PBXBuildFile; fileRef = 2B8C1B9108862F800017DFD4 /* mysql-connector-java-3.1.11a-bin.jar */; };
+		2B8C1D9508877EA60017DFD4 /* grt_function.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1D8F08877EA60017DFD4 /* grt_function.png */; };
+		2B8C1D9608877EA60017DFD4 /* grt_module.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1D9008877EA60017DFD4 /* grt_module.png */; };
+		2B8C1D9708877EA60017DFD4 /* grt_value_dict.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1D9108877EA60017DFD4 /* grt_value_dict.png */; };
+		2B8C1D9808877EA60017DFD4 /* grt_value_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1D9208877EA60017DFD4 /* grt_value_list.png */; };
+		2B8C1D9908877EA60017DFD4 /* grt_value_simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1D9308877EA60017DFD4 /* grt_value_simple.png */; };
+		2B8C1D9A08877EA60017DFD4 /* grt_value_struct.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1D9408877EA60017DFD4 /* grt_value_struct.png */; };
+		2B8C1DAF08877ECB0017DFD4 /* db.Schema.16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1D9F08877ECB0017DFD4 /* db.Schema.16x16.png */; };
+		2B8C1DB008877ECB0017DFD4 /* db.Schema.24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1DA008877ECB0017DFD4 /* db.Schema.24x24.png */; };
+		2B8C1DB108877ECB0017DFD4 /* db.Schema.many_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1DA108877ECB0017DFD4 /* db.Schema.many_32x32.png */; };
+		2B8C1DB208877ECB0017DFD4 /* db.Table.16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1DA208877ECB0017DFD4 /* db.Table.16x16.png */; };
+		2B8C1DB308877ECB0017DFD4 /* db.Table.24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1DA308877ECB0017DFD4 /* db.Table.24x24.png */; };
+		2B8C1DB408877ECB0017DFD4 /* db.Table.many_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1DA408877ECB0017DFD4 /* db.Table.many_32x32.png */; };
+		2B8C1DB508877ECB0017DFD4 /* db.View.16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1DA508877ECB0017DFD4 /* db.View.16x16.png */; };
+		2B8C1DB608877ECB0017DFD4 /* db.View.24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1DA608877ECB0017DFD4 /* db.View.24x24.png */; };
+		2B8C1DB708877ECB0017DFD4 /* db.View.many_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1DA708877ECB0017DFD4 /* db.View.many_32x32.png */; };
+		2B8C1DB808877ECB0017DFD4 /* GrtObject.16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1DA808877ECB0017DFD4 /* GrtObject.16x16.png */; };
+		2B8C1DB908877ECB0017DFD4 /* GrtObject.24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1DA908877ECB0017DFD4 /* GrtObject.24x24.png */; };
+		2B8C1DBA08877ECB0017DFD4 /* GrtObject.many_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1DAA08877ECB0017DFD4 /* GrtObject.many_32x32.png */; };
+		2B8C1E56088786170017DFD4 /* mysql-grt-java-1.0.0-bin.jar in Copy Java Libraries */ = {isa = PBXBuildFile; fileRef = 2B8C1E2A088785980017DFD4 /* mysql-grt-java-1.0.0-bin.jar */; };
+		2B8C1E5B088786560017DFD4 /* BaseJava.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E2C088785F50017DFD4 /* BaseJava.class */; };
+		2B8C1E5C088786560017DFD4 /* JavaTestModule.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E2D088785F50017DFD4 /* JavaTestModule.class */; };
+		2B8C1E5D088786560017DFD4 /* JavaTestModuleTest.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E2E088785F50017DFD4 /* JavaTestModuleTest.class */; };
+		2B8C1E5E088786560017DFD4 /* MigrationAccess.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E2F088785F50017DFD4 /* MigrationAccess.class */; };
+		2B8C1E5F088786560017DFD4 /* MigrationGeneric.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E30088785F50017DFD4 /* MigrationGeneric.class */; };
+		2B8C1E60088786560017DFD4 /* MigrationMssql.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E31088785F50017DFD4 /* MigrationMssql.class */; };
+		2B8C1E61088786560017DFD4 /* MigrationMysql.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E32088785F50017DFD4 /* MigrationMysql.class */; };
+		2B8C1E62088786560017DFD4 /* MigrationOracle.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E33088785F50017DFD4 /* MigrationOracle.class */; };
+		2B8C1E63088786560017DFD4 /* MigrationOracleTest.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E34088785F50017DFD4 /* MigrationOracleTest.class */; };
+		2B8C1E64088786560017DFD4 /* MigrationUtils.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E35088785F50017DFD4 /* MigrationUtils.class */; };
+		2B8C1E65088786560017DFD4 /* ReverseEngineeringAccess.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E36088785F50017DFD4 /* ReverseEngineeringAccess.class */; };
+		2B8C1E66088786560017DFD4 /* ReverseEngineeringAccessTest.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E37088785F50017DFD4 /* ReverseEngineeringAccessTest.class */; };
+		2B8C1E67088786560017DFD4 /* ReverseEngineeringGeneric.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E38088785F50017DFD4 /* ReverseEngineeringGeneric.class */; };
+		2B8C1E68088786560017DFD4 /* ReverseEngineeringMssql.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E39088785F50017DFD4 /* ReverseEngineeringMssql.class */; };
+		2B8C1E69088786560017DFD4 /* ReverseEngineeringMssqlTest.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E3A088785F50017DFD4 /* ReverseEngineeringMssqlTest.class */; };
+		2B8C1E6A088786560017DFD4 /* ReverseEngineeringMysqlJdbc.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E3B088785F50017DFD4 /* ReverseEngineeringMysqlJdbc.class */; };
+		2B8C1E6B088786560017DFD4 /* ReverseEngineeringOracle.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E3C088785F50017DFD4 /* ReverseEngineeringOracle.class */; };
+		2B8C1E6C088786560017DFD4 /* ReverseEngineeringOracleTest.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E3D088785F50017DFD4 /* ReverseEngineeringOracleTest.class */; };
+		2B8C1E6D088786560017DFD4 /* TransformationMysqlJdbc.class in Copy Java Modules */ = {isa = PBXBuildFile; fileRef = 2B8C1E3E088785F50017DFD4 /* TransformationMysqlJdbc.class */; };
+		2B8C1EF208882F520017DFD4 /* MNServerSocket.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F330F08836B6900455FC3 /* MNServerSocket.cc */; };
+		2B8C1EF308882F520017DFD4 /* MNSocket.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331008836B6900455FC3 /* MNSocket.cc */; };
+		2B8C1EF408882F520017DFD4 /* myx_grt_agent.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331108836B6900455FC3 /* myx_grt_agent.cc */; };
+		2B8C1EF508882F520017DFD4 /* myx_grt_builtin.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331208836B6900455FC3 /* myx_grt_builtin.c */; };
+		2B8C1EF608882F520017DFD4 /* myx_grt_java.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331308836B6900455FC3 /* myx_grt_java.c */; };
+		2B8C1EFB08882F520017DFD4 /* myx_grt_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331808836B6900455FC3 /* myx_grt_module.c */; };
+		2B8C1EFC08882F520017DFD4 /* myx_grt_php.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331908836B6A00455FC3 /* myx_grt_php.c */; };
+		2B8C1EFD08882F520017DFD4 /* myx_grt_private.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331A08836B6A00455FC3 /* myx_grt_private.c */; };
+		2B8C1EFF08882F520017DFD4 /* myx_grt_struct.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331C08836B6A00455FC3 /* myx_grt_struct.c */; };
+		2B8C1F0008882F520017DFD4 /* myx_grt_value.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331D08836B6A00455FC3 /* myx_grt_value.c */; };
+		2B8C1F0108882F520017DFD4 /* myx_grt.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F331E08836B6A00455FC3 /* myx_grt.c */; };
+		2B8C1F0D08882F990017DFD4 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1F33F908836E8600455FC3 /* libxml2.dylib */; };
+		2B8C1F360888300A0017DFD4 /* JavaVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1F332F08836BFE00455FC3 /* JavaVM.framework */; };
+		2B8C1F730888309B0017DFD4 /* MySQLToolsCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1F33F508836E5400455FC3 /* MySQLToolsCommon.framework */; };
+		2B8C1F7D088830F40017DFD4 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C1F7C088830F40017DFD4 /* libiconv.dylib */; };
+		2B8C1F90088832130017DFD4 /* myx_grt_java.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C1EE208882ED70017DFD4 /* myx_grt_java.dylib */; };
+		2B8C270E088C4A2F0017DFD4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C270D088C4A2F0017DFD4 /* CoreFoundation.framework */; };
+		2BB95F240A045782008C9EEF /* storage_engines.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2BB95F230A045782008C9EEF /* storage_engines.xml */; };
+		2BBB078708B2416900A0C0A9 /* MGRTTableEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBF9E408A41C2F00A0C0A9 /* MGRTTableEditor.mm */; };
+		2BBB087D08B28DBF00A0C0A9 /* MGRTValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBB087C08B28DBF00A0C0A9 /* MGRTValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBB088208B28DFB00A0C0A9 /* MGRTTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBB088008B28DFB00A0C0A9 /* MGRTTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBB088308B28DFB00A0C0A9 /* MGRTTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB088108B28DFB00A0C0A9 /* MGRTTable.cpp */; };
+		2BBB0B7808B300C500A0C0A9 /* MGRTObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBB0B7608B300C500A0C0A9 /* MGRTObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBB0B7908B300C500A0C0A9 /* MGRTObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB0B7708B300C500A0C0A9 /* MGRTObject.cpp */; };
+		2BBB0DAF08B42C6700A0C0A9 /* editor_table_auto_inc.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DAD08B42C6700A0C0A9 /* editor_table_auto_inc.png */; };
+		2BBB0DB008B42C6700A0C0A9 /* editor_table_not_null.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DAE08B42C6700A0C0A9 /* editor_table_not_null.png */; };
+		2BBB0DB208B42C6F00A0C0A9 /* field_overlay_null.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DB108B42C6F00A0C0A9 /* field_overlay_null.png */; };
+		2BBB0DB908B42C8900A0C0A9 /* datatype_blob.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DB308B42C8900A0C0A9 /* datatype_blob.png */; };
+		2BBB0DBA08B42C8900A0C0A9 /* datatype_datetime.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DB408B42C8900A0C0A9 /* datatype_datetime.png */; };
+		2BBB0DBB08B42C8900A0C0A9 /* datatype_numeric.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DB508B42C8900A0C0A9 /* datatype_numeric.png */; };
+		2BBB0DBC08B42C8900A0C0A9 /* datatype_spatial.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DB608B42C8900A0C0A9 /* datatype_spatial.png */; };
+		2BBB0DBD08B42C8900A0C0A9 /* datatype_string.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DB708B42C8900A0C0A9 /* datatype_string.png */; };
+		2BBB0DBE08B42C8900A0C0A9 /* datatype_userdefined.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DB808B42C8900A0C0A9 /* datatype_userdefined.png */; };
+		2BBB0DC708B42CEF00A0C0A9 /* mini_add_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DBF08B42CEF00A0C0A9 /* mini_add_12.png */; };
+		2BBB0DC808B42CEF00A0C0A9 /* mini_add_pressed_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DC008B42CEF00A0C0A9 /* mini_add_pressed_12.png */; };
+		2BBB0DC908B42CEF00A0C0A9 /* mini_add_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DC108B42CEF00A0C0A9 /* mini_add_pressed.png */; };
+		2BBB0DCA08B42CEF00A0C0A9 /* mini_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DC208B42CEF00A0C0A9 /* mini_add.png */; };
+		2BBB0DCB08B42CEF00A0C0A9 /* mini_del_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DC308B42CEF00A0C0A9 /* mini_del_12.png */; };
+		2BBB0DCC08B42CEF00A0C0A9 /* mini_del_pressed_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DC408B42CEF00A0C0A9 /* mini_del_pressed_12.png */; };
+		2BBB0DCD08B42CEF00A0C0A9 /* mini_del_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DC508B42CEF00A0C0A9 /* mini_del_pressed.png */; };
+		2BBB0DCE08B42CEF00A0C0A9 /* mini_del.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0DC608B42CEF00A0C0A9 /* mini_del.png */; };
+		2BBBF9E508A41C2F00A0C0A9 /* MGRTTableEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBBF9E308A41C2F00A0C0A9 /* MGRTTableEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBE448B08D3F48100BB50E6 /* MGRTViewEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBE448908D3F48100BB50E6 /* MGRTViewEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBE448C08D3F48100BB50E6 /* MGRTViewEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE448A08D3F48100BB50E6 /* MGRTViewEditor.mm */; };
+		2BBE44AC08D3F5B400BB50E6 /* MGRTObjectEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBE44AA08D3F5B400BB50E6 /* MGRTObjectEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBE44AD08D3F5B400BB50E6 /* MGRTObjectEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE44AB08D3F5B400BB50E6 /* MGRTObjectEditor.mm */; };
+		2BBE459608D3FBB400BB50E6 /* MGRTView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBE459408D3FBB400BB50E6 /* MGRTView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBE459708D3FBB400BB50E6 /* MGRTView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE459508D3FBB400BB50E6 /* MGRTView.cpp */; };
+		2BBE45BB08D402BA00BB50E6 /* MGRTRoutineGroupEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBE45B908D402BA00BB50E6 /* MGRTRoutineGroupEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBE45BC08D402BA00BB50E6 /* MGRTRoutineGroupEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE45BA08D402BA00BB50E6 /* MGRTRoutineGroupEditor.mm */; };
+		2BBE45FD08D4046800BB50E6 /* MGRTRoutineEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBE45FB08D4046800BB50E6 /* MGRTRoutineEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBE45FE08D4046800BB50E6 /* MGRTRoutineEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE45FC08D4046800BB50E6 /* MGRTRoutineEditor.mm */; };
+		2BBE470208D4AEBA00BB50E6 /* GRTViewEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE470008D4AEBA00BB50E6 /* GRTViewEditor.nib */; };
+		2BBE48A508D4F8A300BB50E6 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE48A308D4F8A300BB50E6 /* minus.png */; };
+		2BBE48A608D4F8A300BB50E6 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE48A408D4F8A300BB50E6 /* plus.png */; };
+		2BBE49C608D52D5500BB50E6 /* MGRTRoutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBE49C408D52D5500BB50E6 /* MGRTRoutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBE49C708D52D5500BB50E6 /* MGRTRoutine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE49C508D52D5500BB50E6 /* MGRTRoutine.cpp */; };
+		2BBE4A9708D5381B00BB50E6 /* GRTRoutineEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE4A9508D5381B00BB50E6 /* GRTRoutineEditor.nib */; };
+		2BBE4A9C08D538B300BB50E6 /* GRTTableEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE4A9A08D538B300BB50E6 /* GRTTableEditor.nib */; };
+		2BBE4B1A08D5405D00BB50E6 /* GRTRoutineGroupEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE4B1808D5405D00BB50E6 /* GRTRoutineGroupEditor.nib */; };
+		2BCC12D8088EE68900EF833F /* structs.db.workbench.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8015F6088ED02D0048405B /* structs.db.workbench.xml */; };
+		2BCC12D9088EE68900EF833F /* structs.model.xml in Copy Struct Files */ = {isa = PBXBuildFile; fileRef = 2B8015F4088ED0230048405B /* structs.model.xml */; };
+		2BD2B68109C6C90600A015E9 /* libintl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2B68009C6C90600A015E9 /* libintl.dylib */; };
+		2BD2B68209C6C90600A015E9 /* libintl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD2B68009C6C90600A015E9 /* libintl.dylib */; };
+		2BDCABB8098A7D2C0034C2C2 /* libmysqlparser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDCABB7098A7D2C0034C2C2 /* libmysqlparser.a */; };
+		2BDCABC5098A7D8E0034C2C2 /* myx_grt_mysql_reveng_script.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDCABC4098A7D8E0034C2C2 /* myx_grt_mysql_reveng_script.h */; };
+		2BDCABC7098A7D970034C2C2 /* myx_grt_mysql_reveng_script.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCABC6098A7D970034C2C2 /* myx_grt_mysql_reveng_script.c */; };
+		2BDCABCA098A7DC50034C2C2 /* myx_grt_mysql_reveng_script_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDCABC9098A7DC50034C2C2 /* myx_grt_mysql_reveng_script_helper.h */; };
+		2BDCABCC098A7DCD0034C2C2 /* myx_grt_mysql_reveng_script_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCABCB098A7DCD0034C2C2 /* myx_grt_mysql_reveng_script_helper.cpp */; };
+		2BDF6F2608DA734100088236 /* MGRTSchemaEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDF6F2408DA734000088236 /* MGRTSchemaEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BDF6F2708DA734100088236 /* MGRTSchemaEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF6F2508DA734000088236 /* MGRTSchemaEditor.mm */; };
+		2BDF6F3108DA75A100088236 /* MGRTSchema.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF6F2F08DA75A100088236 /* MGRTSchema.cpp */; };
+		2BDF6F3208DA75A100088236 /* MGRTSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDF6F3008DA75A100088236 /* MGRTSchema.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BDF6F9908DA7B6500088236 /* GRTSchemaEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF6F9708DA7B6500088236 /* GRTSchemaEditor.nib */; };
+		2BEE9DBF09BCE0A9005DCD25 /* lxplib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE9DBD09BCE0A8005DCD25 /* lxplib.c */; };
+		2BEE9DC009BCE0A9005DCD25 /* lxplib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BEE9DBE09BCE0A9005DCD25 /* lxplib.h */; };
+		2BEE9DD209BCE14A005DCD25 /* libexpat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEE9DD109BCE14A005DCD25 /* libexpat.a */; };
+		2BEE9E8509BCF619005DCD25 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEE9E8409BCF619005DCD25 /* libz.dylib */; };
+		2BEE9E8609BCF619005DCD25 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEE9E8409BCF619005DCD25 /* libz.dylib */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B8C1EEE08882F2E0017DFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8C1EE108882ED70017DFD4;
+			remoteInfo = myx_grt_java;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B8C1AFA08862E1C0017DFD4 /* Copy Lua Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = lua;
+			dstSubfolderSpec = 7;
+			files = (
+				2B8C1B7F08862F340017DFD4 /* _library.lua in Copy Lua Files */,
+				2B8C1B8008862F340017DFD4 /* BaseLua.lua in Copy Lua Files */,
+				2B586A1008B45B8000E38573 /* DbUtils.lua in Copy Lua Files */,
+				2B8C1B8108862F340017DFD4 /* RdbmsInfo.lua in Copy Lua Files */,
+				2B8C1B8208862F340017DFD4 /* RdbmsInfoAccess.lua in Copy Lua Files */,
+				2B8C1B8308862F340017DFD4 /* RdbmsInfoGeneric.lua in Copy Lua Files */,
+				2B8C1B8408862F340017DFD4 /* RdbmsInfoMssql.lua in Copy Lua Files */,
+				2B8C1B8508862F340017DFD4 /* RdbmsInfoMysql.lua in Copy Lua Files */,
+				2B8C1B8608862F340017DFD4 /* RdbmsInfoOracle.lua in Copy Lua Files */,
+				2B8C1B8708862F340017DFD4 /* RdbmsManagement.lua in Copy Lua Files */,
+			);
+			name = "Copy Lua Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C1B1908862E7D0017DFD4 /* Copy Struct Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = xml;
+			dstSubfolderSpec = 7;
+			files = (
+				2BCC12D8088EE68900EF833F /* structs.db.workbench.xml in Copy Struct Files */,
+				2BCC12D9088EE68900EF833F /* structs.model.xml in Copy Struct Files */,
+				2B8C1B1F08862E970017DFD4 /* structs.base.xml in Copy Struct Files */,
+				2B8C1B2008862E970017DFD4 /* structs.canvas.xml in Copy Struct Files */,
+				2B8C1B2108862E970017DFD4 /* structs.db.mgmt.xml in Copy Struct Files */,
+				2B8C1B2208862E970017DFD4 /* structs.db.migration.xml in Copy Struct Files */,
+				2B8C1B2408862E970017DFD4 /* structs.db.mssql.xml in Copy Struct Files */,
+				2B8C1B2508862E970017DFD4 /* structs.db.mysql.xml in Copy Struct Files */,
+				2B8C1B2608862E970017DFD4 /* structs.db.oracle.xml in Copy Struct Files */,
+				2B8C1B2708862E970017DFD4 /* structs.db.xml in Copy Struct Files */,
+				2B8C1B2808862E970017DFD4 /* structs.forms.xml in Copy Struct Files */,
+				2B8C1B2908862E970017DFD4 /* structs.xml in Copy Struct Files */,
+			);
+			name = "Copy Struct Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C1B8808862F410017DFD4 /* Copy Java Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = java/lib;
+			dstSubfolderSpec = 7;
+			files = (
+				2B8C1E56088786170017DFD4 /* mysql-grt-java-1.0.0-bin.jar in Copy Java Libraries */,
+				2B8C1B9508862F920017DFD4 /* jtds-1.2.jar in Copy Java Libraries */,
+				2B8C1B9608862F920017DFD4 /* junit.jar in Copy Java Libraries */,
+				2B8C1B9708862F920017DFD4 /* mysql-connector-java-3.1.11a-bin.jar in Copy Java Libraries */,
+			);
+			name = "Copy Java Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C1E57088786310017DFD4 /* Copy Java Modules */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = java/com/mysql/grt/modules;
+			dstSubfolderSpec = 7;
+			files = (
+				2B8C1E5B088786560017DFD4 /* BaseJava.class in Copy Java Modules */,
+				2B8C1E5C088786560017DFD4 /* JavaTestModule.class in Copy Java Modules */,
+				2B8C1E5D088786560017DFD4 /* JavaTestModuleTest.class in Copy Java Modules */,
+				2B8C1E5E088786560017DFD4 /* MigrationAccess.class in Copy Java Modules */,
+				2B8C1E5F088786560017DFD4 /* MigrationGeneric.class in Copy Java Modules */,
+				2B8C1E60088786560017DFD4 /* MigrationMssql.class in Copy Java Modules */,
+				2B8C1E61088786560017DFD4 /* MigrationMysql.class in Copy Java Modules */,
+				2B8C1E62088786560017DFD4 /* MigrationOracle.class in Copy Java Modules */,
+				2B8C1E63088786560017DFD4 /* MigrationOracleTest.class in Copy Java Modules */,
+				2B8C1E64088786560017DFD4 /* MigrationUtils.class in Copy Java Modules */,
+				2B8C1E65088786560017DFD4 /* ReverseEngineeringAccess.class in Copy Java Modules */,
+				2B8C1E66088786560017DFD4 /* ReverseEngineeringAccessTest.class in Copy Java Modules */,
+				2B8C1E67088786560017DFD4 /* ReverseEngineeringGeneric.class in Copy Java Modules */,
+				2B8C1E68088786560017DFD4 /* ReverseEngineeringMssql.class in Copy Java Modules */,
+				2B8C1E69088786560017DFD4 /* ReverseEngineeringMssqlTest.class in Copy Java Modules */,
+				2B8C1E6A088786560017DFD4 /* ReverseEngineeringMysqlJdbc.class in Copy Java Modules */,
+				2B8C1E6B088786560017DFD4 /* ReverseEngineeringOracle.class in Copy Java Modules */,
+				2B8C1E6C088786560017DFD4 /* ReverseEngineeringOracleTest.class in Copy Java Modules */,
+				2B8C1E6D088786560017DFD4 /* TransformationMysqlJdbc.class in Copy Java Modules */,
+			);
+			name = "Copy Java Modules";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2B166BB708C38EAA00CB1DC0 /* MGRTConnectionPanel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MGRTConnectionPanel.h; sourceTree = "<group>"; };
+		2B166BB808C38EAA00CB1DC0 /* MGRTConnectionPanel.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = MGRTConnectionPanel.mm; sourceTree = "<group>"; };
+		2B16700E08C4EF5700CB1DC0 /* MGRTRevEngFilterPane.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MGRTRevEngFilterPane.h; sourceTree = "<group>"; };
+		2B16700F08C4EF5700CB1DC0 /* MGRTRevEngFilterPane.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = MGRTRevEngFilterPane.mm; sourceTree = "<group>"; };
+		2B16701308C4EF7500CB1DC0 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../../../res/mac/English.lproj/ReverseEngineeringFilter.nib; sourceTree = SOURCE_ROOT; };
+		2B1672B208C5FBB100CB1DC0 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../../../res/mac/English.lproj/GRTConnectPanel.nib; sourceTree = SOURCE_ROOT; };
+		2B16836E08CEC0EE00CB1DC0 /* MGRTTreeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MGRTTreeDataSource.h; sourceTree = "<group>"; };
+		2B16836F08CEC0EE00CB1DC0 /* MGRTTreeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MGRTTreeDataSource.m; sourceTree = "<group>"; };
+		2B16837008CEC0EE00CB1DC0 /* MGRTValueTreeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MGRTValueTreeDataSource.h; sourceTree = "<group>"; };
+		2B16837108CEC0EE00CB1DC0 /* MGRTValueTreeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MGRTValueTreeDataSource.m; sourceTree = "<group>"; };
+		2B1BCA4A093CD6FB00946E36 /* myx_grt_python_common.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_python_common.c; path = "../../../library/generic-runtime/source/myx_grt_python_common.c"; sourceTree = SOURCE_ROOT; };
+		2B1BCA4B093CD6FB00946E36 /* myx_grt_python_shell.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_python_shell.c; path = "../../../library/generic-runtime/source/myx_grt_python_shell.c"; sourceTree = SOURCE_ROOT; };
+		2B1BCA4E093CD70600946E36 /* myx_grt_shell.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_shell.c; path = "../../../library/generic-runtime/source/myx_grt_shell.c"; sourceTree = SOURCE_ROOT; };
+		2B1BCA77093CDF5500946E36 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
+		2B1F32FA08836AFD00455FC3 /* MNServerSocket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MNServerSocket.h; path = "../../../library/generic-runtime/include/MNServerSocket.h"; sourceTree = SOURCE_ROOT; };
+		2B1F32FB08836AFD00455FC3 /* MNSocket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MNSocket.h; path = "../../../library/generic-runtime/include/MNSocket.h"; sourceTree = SOURCE_ROOT; };
+		2B1F32FC08836AFD00455FC3 /* myx_grt_agent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_agent.h; path = "../../../library/generic-runtime/include/myx_grt_agent.h"; sourceTree = SOURCE_ROOT; };
+		2B1F32FD08836AFD00455FC3 /* myx_grt_java.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_java.h; path = "../../../library/generic-runtime/include/myx_grt_java.h"; sourceTree = SOURCE_ROOT; };
+		2B1F32FE08836AFD00455FC3 /* myx_grt_lua_private.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_lua_private.h; path = "../../../library/generic-runtime/include/myx_grt_lua_private.h"; sourceTree = SOURCE_ROOT; };
+		2B1F32FF08836AFD00455FC3 /* myx_grt_lua.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_lua.h; path = "../../../library/generic-runtime/include/myx_grt_lua.h"; sourceTree = SOURCE_ROOT; };
+		2B1F330008836AFD00455FC3 /* myx_grt_php.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_php.h; path = "../../../library/generic-runtime/include/myx_grt_php.h"; sourceTree = SOURCE_ROOT; };
+		2B1F330108836AFD00455FC3 /* myx_grt_private.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_private.h; path = "../../../library/generic-runtime/include/myx_grt_private.h"; sourceTree = SOURCE_ROOT; };
+		2B1F330208836AFD00455FC3 /* myx_grt_public_interface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_public_interface.h; path = "../../../library/generic-runtime/include/myx_grt_public_interface.h"; sourceTree = SOURCE_ROOT; };
+		2B1F330308836AFD00455FC3 /* myx_grt_python.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_python.h; path = "../../../library/generic-runtime/include/myx_grt_python.h"; sourceTree = SOURCE_ROOT; };
+		2B1F330F08836B6900455FC3 /* MNServerSocket.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MNServerSocket.cc; path = "../../../library/generic-runtime/source/MNServerSocket.cc"; sourceTree = SOURCE_ROOT; };
+		2B1F331008836B6900455FC3 /* MNSocket.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MNSocket.cc; path = "../../../library/generic-runtime/source/MNSocket.cc"; sourceTree = SOURCE_ROOT; };
+		2B1F331108836B6900455FC3 /* myx_grt_agent.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_grt_agent.cc; path = "../../../library/generic-runtime/source/myx_grt_agent.cc"; sourceTree = SOURCE_ROOT; };
+		2B1F331208836B6900455FC3 /* myx_grt_builtin.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_builtin.c; path = "../../../library/generic-runtime/source/myx_grt_builtin.c"; sourceTree = SOURCE_ROOT; };
+		2B1F331308836B6900455FC3 /* myx_grt_java.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_java.c; path = "../../../library/generic-runtime/source/myx_grt_java.c"; sourceTree = SOURCE_ROOT; };
+		2B1F331408836B6900455FC3 /* myx_grt_lua_shell_help.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_lua_shell_help.c; path = "../../../library/generic-runtime/source/myx_grt_lua_shell_help.c"; sourceTree = SOURCE_ROOT; };
+		2B1F331508836B6900455FC3 /* myx_grt_lua_shell.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_lua_shell.c; path = "../../../library/generic-runtime/source/myx_grt_lua_shell.c"; sourceTree = SOURCE_ROOT; };
+		2B1F331608836B6900455FC3 /* myx_grt_lua.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_lua.c; path = "../../../library/generic-runtime/source/myx_grt_lua.c"; sourceTree = SOURCE_ROOT; };
+		2B1F331808836B6900455FC3 /* myx_grt_module.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_module.c; path = "../../../library/generic-runtime/source/myx_grt_module.c"; sourceTree = SOURCE_ROOT; };
+		2B1F331908836B6A00455FC3 /* myx_grt_php.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_php.c; path = "../../../library/generic-runtime/source/myx_grt_php.c"; sourceTree = SOURCE_ROOT; };
+		2B1F331A08836B6A00455FC3 /* myx_grt_private.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_private.c; path = "../../../library/generic-runtime/source/myx_grt_private.c"; sourceTree = SOURCE_ROOT; };
+		2B1F331B08836B6A00455FC3 /* myx_grt_python.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_python.c; path = "../../../library/generic-runtime/source/myx_grt_python.c"; sourceTree = SOURCE_ROOT; };
+		2B1F331C08836B6A00455FC3 /* myx_grt_struct.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_struct.c; path = "../../../library/generic-runtime/source/myx_grt_struct.c"; sourceTree = SOURCE_ROOT; };
+		2B1F331D08836B6A00455FC3 /* myx_grt_value.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_value.c; path = "../../../library/generic-runtime/source/myx_grt_value.c"; sourceTree = SOURCE_ROOT; };
+		2B1F331E08836B6A00455FC3 /* myx_grt.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt.c; path = "../../../library/generic-runtime/source/myx_grt.c"; sourceTree = SOURCE_ROOT; };
+		2B1F332F08836BFE00455FC3 /* JavaVM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaVM.framework; path = /System/Library/Frameworks/JavaVM.framework; sourceTree = "<absolute>"; };
+		2B1F33F508836E5400455FC3 /* MySQLToolsCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MySQLToolsCommon.framework; path = ../../../../../guibuild/Development/MySQLToolsCommon.framework; sourceTree = SOURCE_ROOT; };
+		2B1F33F908836E8600455FC3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = /usr/lib/libxml2.2.dylib; sourceTree = "<absolute>"; };
+		2B1F34DF088431FC00455FC3 /* com_mysql_grt_GrtCallbackNative.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = com_mysql_grt_GrtCallbackNative.h; path = "../../../library/generic-runtime/include/com_mysql_grt_GrtCallbackNative.h"; sourceTree = SOURCE_ROOT; };
+		2B1F34E7088432FE00455FC3 /* liblua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblua.a; path = /sw/lib/liblua.a; sourceTree = "<absolute>"; };
+		2B1F34E90884330400455FC3 /* liblualib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblualib.a; path = /sw/lib/liblualib.a; sourceTree = "<absolute>"; };
+		2B58688308B43CD700E38573 /* column_pk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_pk.png; path = ../../../images/icons/png/column_pk.png; sourceTree = SOURCE_ROOT; };
+		2B58688408B43CD700E38573 /* column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column.png; path = ../../../images/icons/png/column.png; sourceTree = SOURCE_ROOT; };
+		2B5869F408B45B5E00E38573 /* DbUtils.lua */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = DbUtils.lua; path = ../../lua/DbUtils.lua; sourceTree = SOURCE_ROOT; };
+		2B58716E08B6916D00E38573 /* libgthread-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgthread-2.0.0.dylib"; path = "/uni/lib/libgthread-2.0.0.dylib"; sourceTree = "<absolute>"; };
+		2B801151088C8D600048405B /* libglib-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.0.dylib"; path = "/uni/lib/libglib-2.0.0.dylib"; sourceTree = "<absolute>"; };
+		2B801595088E10D90048405B /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = ../../../images/buttons/png/refresh.png; sourceTree = SOURCE_ROOT; };
+		2B8015F4088ED0230048405B /* structs.model.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.model.xml; path = ../../../res/grt/structs.model.xml; sourceTree = SOURCE_ROOT; };
+		2B8015F6088ED02D0048405B /* structs.db.workbench.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.db.workbench.xml; path = ../../../res/grt/structs.db.workbench.xml; sourceTree = SOURCE_ROOT; };
+		2B80C88908BAE03D00BA69BE /* MGRTModuleLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRTModuleLoader.h; sourceTree = "<group>"; };
+		2B80C88A08BAE03D00BA69BE /* MGRTModuleLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRTModuleLoader.m; sourceTree = "<group>"; };
+		2B8C17C80885965C0017DFD4 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../../../res/mac/English.lproj/GRTShell.nib; sourceTree = SOURCE_ROOT; };
+		2B8C17CB0885968F0017DFD4 /* MGRTShell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRTShell.h; sourceTree = "<group>"; };
+		2B8C17CC0885968F0017DFD4 /* MGRTShell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRTShell.m; sourceTree = "<group>"; };
+		2B8C180308859F590017DFD4 /* MShellTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MShellTextView.h; sourceTree = "<group>"; };
+		2B8C180408859F590017DFD4 /* MShellTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MShellTextView.m; sourceTree = "<group>"; };
+		2B8C195B0885B9880017DFD4 /* MGRT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRT.h; sourceTree = "<group>"; };
+		2B8C195C0885B9880017DFD4 /* MGRT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRT.m; sourceTree = "<group>"; };
+		2B8C19E20886198D0017DFD4 /* myx_grt_base.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_base.h; path = "../../../library/grt-modules/include/myx_grt_base.h"; sourceTree = SOURCE_ROOT; };
+		2B8C19E30886198D0017DFD4 /* myx_grt_builtin_module_public_interface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_builtin_module_public_interface.h; path = "../../../library/grt-modules/include/myx_grt_builtin_module_public_interface.h"; sourceTree = SOURCE_ROOT; };
+		2B8C19E40886198D0017DFD4 /* myx_grt_forms.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_forms.h; path = "../../../library/grt-modules/include/myx_grt_forms.h"; sourceTree = SOURCE_ROOT; };
+		2B8C19E50886198D0017DFD4 /* myx_grt_mysql_reveng.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_mysql_reveng.h; path = "../../../library/grt-modules/include/myx_grt_mysql_reveng.h"; sourceTree = SOURCE_ROOT; };
+		2B8C19E60886198D0017DFD4 /* myx_grt_mysql_transformation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_mysql_transformation.h; path = "../../../library/grt-modules/include/myx_grt_mysql_transformation.h"; sourceTree = SOURCE_ROOT; };
+		2B8C19E70886198D0017DFD4 /* myx_grt_mysql.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_mysql.h; path = "../../../library/grt-modules/include/myx_grt_mysql.h"; sourceTree = SOURCE_ROOT; };
+		2B8C19EE0886199C0017DFD4 /* myx_grt_base.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_base.c; path = "../../../library/grt-modules/source/myx_grt_base.c"; sourceTree = SOURCE_ROOT; };
+		2B8C19EF0886199C0017DFD4 /* myx_grt_mysql_reveng.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_mysql_reveng.c; path = "../../../library/grt-modules/source/myx_grt_mysql_reveng.c"; sourceTree = SOURCE_ROOT; };
+		2B8C19F00886199C0017DFD4 /* myx_grt_mysql_transformation.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_mysql_transformation.c; path = "../../../library/grt-modules/source/myx_grt_mysql_transformation.c"; sourceTree = SOURCE_ROOT; };
+		2B8C19F10886199C0017DFD4 /* myx_grt_mysql.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_mysql.c; path = "../../../library/grt-modules/source/myx_grt_mysql.c"; sourceTree = SOURCE_ROOT; };
+		2B8C1B0208862E5C0017DFD4 /* structs.base.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.base.xml; path = ../../../res/grt/structs.base.xml; sourceTree = SOURCE_ROOT; };
+		2B8C1B0308862E5C0017DFD4 /* structs.canvas.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.canvas.xml; path = ../../../res/grt/structs.canvas.xml; sourceTree = SOURCE_ROOT; };
+		2B8C1B0408862E5C0017DFD4 /* structs.db.mgmt.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.db.mgmt.xml; path = ../../../res/grt/structs.db.mgmt.xml; sourceTree = SOURCE_ROOT; };
+		2B8C1B0508862E5C0017DFD4 /* structs.db.migration.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.db.migration.xml; path = ../../../res/grt/structs.db.migration.xml; sourceTree = SOURCE_ROOT; };
+		2B8C1B0708862E5C0017DFD4 /* structs.db.mssql.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.db.mssql.xml; path = ../../../res/grt/structs.db.mssql.xml; sourceTree = SOURCE_ROOT; };
+		2B8C1B0808862E5C0017DFD4 /* structs.db.mysql.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.db.mysql.xml; path = ../../../res/grt/structs.db.mysql.xml; sourceTree = SOURCE_ROOT; };
+		2B8C1B0908862E5C0017DFD4 /* structs.db.oracle.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.db.oracle.xml; path = ../../../res/grt/structs.db.oracle.xml; sourceTree = SOURCE_ROOT; };
+		2B8C1B0A08862E5C0017DFD4 /* structs.db.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.db.xml; path = ../../../res/grt/structs.db.xml; sourceTree = SOURCE_ROOT; };
+		2B8C1B0B08862E5C0017DFD4 /* structs.forms.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.forms.xml; path = ../../../res/grt/structs.forms.xml; sourceTree = SOURCE_ROOT; };
+		2B8C1B0C08862E5C0017DFD4 /* structs.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = structs.xml; path = ../../../res/grt/structs.xml; sourceTree = SOURCE_ROOT; };
+		2B8C1B3008862ED90017DFD4 /* _library.lua */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = _library.lua; path = ../../lua/_library.lua; sourceTree = SOURCE_ROOT; };
+		2B8C1B3108862ED90017DFD4 /* BaseLua.lua */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = BaseLua.lua; path = ../../lua/BaseLua.lua; sourceTree = SOURCE_ROOT; };
+		2B8C1B3208862ED90017DFD4 /* RdbmsInfo.lua */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = RdbmsInfo.lua; path = ../../lua/RdbmsInfo.lua; sourceTree = SOURCE_ROOT; };
+		2B8C1B3308862ED90017DFD4 /* RdbmsInfoAccess.lua */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = RdbmsInfoAccess.lua; path = ../../lua/RdbmsInfoAccess.lua; sourceTree = SOURCE_ROOT; };
+		2B8C1B3408862ED90017DFD4 /* RdbmsInfoGeneric.lua */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = RdbmsInfoGeneric.lua; path = ../../lua/RdbmsInfoGeneric.lua; sourceTree = SOURCE_ROOT; };
+		2B8C1B3508862ED90017DFD4 /* RdbmsInfoMssql.lua */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = RdbmsInfoMssql.lua; path = ../../lua/RdbmsInfoMssql.lua; sourceTree = SOURCE_ROOT; };
+		2B8C1B3608862ED90017DFD4 /* RdbmsInfoMysql.lua */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = RdbmsInfoMysql.lua; path = ../../lua/RdbmsInfoMysql.lua; sourceTree = SOURCE_ROOT; };
+		2B8C1B3708862ED90017DFD4 /* RdbmsInfoOracle.lua */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = RdbmsInfoOracle.lua; path = ../../lua/RdbmsInfoOracle.lua; sourceTree = SOURCE_ROOT; };
+		2B8C1B3808862ED90017DFD4 /* RdbmsManagement.lua */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = RdbmsManagement.lua; path = ../../lua/RdbmsManagement.lua; sourceTree = SOURCE_ROOT; };
+		2B8C1B8F08862F800017DFD4 /* jtds-1.2.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = "jtds-1.2.jar"; path = "../../../res/java/jtds-1.2.jar"; sourceTree = SOURCE_ROOT; };
+		2B8C1B9008862F800017DFD4 /* junit.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = junit.jar; path = ../../../res/java/junit.jar; sourceTree = SOURCE_ROOT; };
+		2B8C1B9108862F800017DFD4 /* mysql-connector-java-3.1.11a-bin.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = "mysql-connector-java-3.1.11a-bin.jar"; path = "../../../res/java/mysql-connector-java-3.1.11a-bin.jar"; sourceTree = SOURCE_ROOT; };
+		2B8C1C5B088757A90017DFD4 /* GRTShell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "GRTShell-Info.plist"; sourceTree = "<group>"; };
+		2B8C1D8F08877EA60017DFD4 /* grt_function.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grt_function.png; path = ../../../images/grt/grt_function.png; sourceTree = SOURCE_ROOT; };
+		2B8C1D9008877EA60017DFD4 /* grt_module.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grt_module.png; path = ../../../images/grt/grt_module.png; sourceTree = SOURCE_ROOT; };
+		2B8C1D9108877EA60017DFD4 /* grt_value_dict.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grt_value_dict.png; path = ../../../images/grt/grt_value_dict.png; sourceTree = SOURCE_ROOT; };
+		2B8C1D9208877EA60017DFD4 /* grt_value_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grt_value_list.png; path = ../../../images/grt/grt_value_list.png; sourceTree = SOURCE_ROOT; };
+		2B8C1D9308877EA60017DFD4 /* grt_value_simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grt_value_simple.png; path = ../../../images/grt/grt_value_simple.png; sourceTree = SOURCE_ROOT; };
+		2B8C1D9408877EA60017DFD4 /* grt_value_struct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grt_value_struct.png; path = ../../../images/grt/grt_value_struct.png; sourceTree = SOURCE_ROOT; };
+		2B8C1D9F08877ECB0017DFD4 /* db.Schema.16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.Schema.16x16.png; path = ../../../images/grt/structs/db.Schema.16x16.png; sourceTree = SOURCE_ROOT; };
+		2B8C1DA008877ECB0017DFD4 /* db.Schema.24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.Schema.24x24.png; path = ../../../images/grt/structs/db.Schema.24x24.png; sourceTree = SOURCE_ROOT; };
+		2B8C1DA108877ECB0017DFD4 /* db.Schema.many_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.Schema.many_32x32.png; path = ../../../images/grt/structs/db.Schema.many_32x32.png; sourceTree = SOURCE_ROOT; };
+		2B8C1DA208877ECB0017DFD4 /* db.Table.16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.Table.16x16.png; path = ../../../images/grt/structs/db.Table.16x16.png; sourceTree = SOURCE_ROOT; };
+		2B8C1DA308877ECB0017DFD4 /* db.Table.24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.Table.24x24.png; path = ../../../images/grt/structs/db.Table.24x24.png; sourceTree = SOURCE_ROOT; };
+		2B8C1DA408877ECB0017DFD4 /* db.Table.many_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.Table.many_32x32.png; path = ../../../images/grt/structs/db.Table.many_32x32.png; sourceTree = SOURCE_ROOT; };
+		2B8C1DA508877ECB0017DFD4 /* db.View.16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.View.16x16.png; path = ../../../images/grt/structs/db.View.16x16.png; sourceTree = SOURCE_ROOT; };
+		2B8C1DA608877ECB0017DFD4 /* db.View.24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.View.24x24.png; path = ../../../images/grt/structs/db.View.24x24.png; sourceTree = SOURCE_ROOT; };
+		2B8C1DA708877ECB0017DFD4 /* db.View.many_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.View.many_32x32.png; path = ../../../images/grt/structs/db.View.many_32x32.png; sourceTree = SOURCE_ROOT; };
+		2B8C1DA808877ECB0017DFD4 /* GrtObject.16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GrtObject.16x16.png; path = ../../../images/grt/structs/GrtObject.16x16.png; sourceTree = SOURCE_ROOT; };
+		2B8C1DA908877ECB0017DFD4 /* GrtObject.24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GrtObject.24x24.png; path = ../../../images/grt/structs/GrtObject.24x24.png; sourceTree = SOURCE_ROOT; };
+		2B8C1DAA08877ECB0017DFD4 /* GrtObject.many_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GrtObject.many_32x32.png; path = ../../../images/grt/structs/GrtObject.many_32x32.png; sourceTree = SOURCE_ROOT; };
+		2B8C1E2A088785980017DFD4 /* mysql-grt-java-1.0.0-bin.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = "mysql-grt-java-1.0.0-bin.jar"; path = "../../../../mysql-migration-tool/mysql-grt-java-1.0.0-bin.jar"; sourceTree = SOURCE_ROOT; };
+		2B8C1E2C088785F50017DFD4 /* BaseJava.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = BaseJava.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/BaseJava.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E2D088785F50017DFD4 /* JavaTestModule.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = JavaTestModule.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/JavaTestModule.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E2E088785F50017DFD4 /* JavaTestModuleTest.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = JavaTestModuleTest.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/JavaTestModuleTest.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E2F088785F50017DFD4 /* MigrationAccess.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = MigrationAccess.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/MigrationAccess.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E30088785F50017DFD4 /* MigrationGeneric.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = MigrationGeneric.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/MigrationGeneric.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E31088785F50017DFD4 /* MigrationMssql.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = MigrationMssql.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/MigrationMssql.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E32088785F50017DFD4 /* MigrationMysql.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = MigrationMysql.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/MigrationMysql.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E33088785F50017DFD4 /* MigrationOracle.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = MigrationOracle.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/MigrationOracle.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E34088785F50017DFD4 /* MigrationOracleTest.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = MigrationOracleTest.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/MigrationOracleTest.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E35088785F50017DFD4 /* MigrationUtils.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = MigrationUtils.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/MigrationUtils.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E36088785F50017DFD4 /* ReverseEngineeringAccess.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = ReverseEngineeringAccess.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/ReverseEngineeringAccess.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E37088785F50017DFD4 /* ReverseEngineeringAccessTest.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = ReverseEngineeringAccessTest.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/ReverseEngineeringAccessTest.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E38088785F50017DFD4 /* ReverseEngineeringGeneric.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = ReverseEngineeringGeneric.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/ReverseEngineeringGeneric.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E39088785F50017DFD4 /* ReverseEngineeringMssql.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = ReverseEngineeringMssql.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/ReverseEngineeringMssql.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E3A088785F50017DFD4 /* ReverseEngineeringMssqlTest.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = ReverseEngineeringMssqlTest.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/ReverseEngineeringMssqlTest.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E3B088785F50017DFD4 /* ReverseEngineeringMysqlJdbc.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = ReverseEngineeringMysqlJdbc.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/ReverseEngineeringMysqlJdbc.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E3C088785F50017DFD4 /* ReverseEngineeringOracle.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = ReverseEngineeringOracle.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/ReverseEngineeringOracle.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E3D088785F50017DFD4 /* ReverseEngineeringOracleTest.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = ReverseEngineeringOracleTest.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/ReverseEngineeringOracleTest.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1E3E088785F50017DFD4 /* TransformationMysqlJdbc.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = TransformationMysqlJdbc.class; path = "../../../../mysql-migration-tool/jbuild/com/mysql/grt/modules/TransformationMysqlJdbc.class"; sourceTree = SOURCE_ROOT; };
+		2B8C1EE208882ED70017DFD4 /* myx_grt_java.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = myx_grt_java.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8C1F7C088830F40017DFD4 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = /usr/lib/libiconv.2.dylib; sourceTree = "<absolute>"; };
+		2B8C2625088C1FE30017DFD4 /* db.Routine.16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.Routine.16x16.png; path = ../../../images/grt/structs/db.Routine.16x16.png; sourceTree = SOURCE_ROOT; };
+		2B8C2626088C1FE30017DFD4 /* db.Routine.24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.Routine.24x24.png; path = ../../../images/grt/structs/db.Routine.24x24.png; sourceTree = SOURCE_ROOT; };
+		2B8C2627088C1FE30017DFD4 /* db.Routine.64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.Routine.64x64.png; path = ../../../images/grt/structs/db.Routine.64x64.png; sourceTree = SOURCE_ROOT; };
+		2B8C2628088C1FE30017DFD4 /* db.Routine.many_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = db.Routine.many_32x32.png; path = ../../../images/grt/structs/db.Routine.many_32x32.png; sourceTree = SOURCE_ROOT; };
+		2B8C270D088C4A2F0017DFD4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		2BB95F230A045782008C9EEF /* storage_engines.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = storage_engines.xml; path = ../../../res/grt/storage_engines.xml; sourceTree = SOURCE_ROOT; };
+		2BBB087C08B28DBF00A0C0A9 /* MGRTValue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MGRTValue.h; sourceTree = "<group>"; };
+		2BBB088008B28DFB00A0C0A9 /* MGRTTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRTTable.h; sourceTree = "<group>"; };
+		2BBB088108B28DFB00A0C0A9 /* MGRTTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGRTTable.cpp; sourceTree = "<group>"; };
+		2BBB0B7608B300C500A0C0A9 /* MGRTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRTObject.h; sourceTree = "<group>"; };
+		2BBB0B7708B300C500A0C0A9 /* MGRTObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGRTObject.cpp; sourceTree = "<group>"; };
+		2BBB0DAD08B42C6700A0C0A9 /* editor_table_auto_inc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = editor_table_auto_inc.png; path = ../../../images/png/editor_table_auto_inc.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DAE08B42C6700A0C0A9 /* editor_table_not_null.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = editor_table_not_null.png; path = ../../../images/png/editor_table_not_null.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DB108B42C6F00A0C0A9 /* field_overlay_null.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = field_overlay_null.png; path = ../../../images/png/field_overlay_null.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DB308B42C8900A0C0A9 /* datatype_blob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_blob.png; path = ../../../images/icons/png/datatype_blob.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DB408B42C8900A0C0A9 /* datatype_datetime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_datetime.png; path = ../../../images/icons/png/datatype_datetime.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DB508B42C8900A0C0A9 /* datatype_numeric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_numeric.png; path = ../../../images/icons/png/datatype_numeric.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DB608B42C8900A0C0A9 /* datatype_spatial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_spatial.png; path = ../../../images/icons/png/datatype_spatial.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DB708B42C8900A0C0A9 /* datatype_string.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_string.png; path = ../../../images/icons/png/datatype_string.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DB808B42C8900A0C0A9 /* datatype_userdefined.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_userdefined.png; path = ../../../images/icons/png/datatype_userdefined.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DBF08B42CEF00A0C0A9 /* mini_add_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_add_12.png; path = ../../../images/icons/png/mini_add_12.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DC008B42CEF00A0C0A9 /* mini_add_pressed_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_add_pressed_12.png; path = ../../../images/icons/png/mini_add_pressed_12.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DC108B42CEF00A0C0A9 /* mini_add_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_add_pressed.png; path = ../../../images/icons/png/mini_add_pressed.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DC208B42CEF00A0C0A9 /* mini_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_add.png; path = ../../../images/icons/png/mini_add.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DC308B42CEF00A0C0A9 /* mini_del_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_del_12.png; path = ../../../images/icons/png/mini_del_12.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DC408B42CEF00A0C0A9 /* mini_del_pressed_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_del_pressed_12.png; path = ../../../images/icons/png/mini_del_pressed_12.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DC508B42CEF00A0C0A9 /* mini_del_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_del_pressed.png; path = ../../../images/icons/png/mini_del_pressed.png; sourceTree = SOURCE_ROOT; };
+		2BBB0DC608B42CEF00A0C0A9 /* mini_del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_del.png; path = ../../../images/icons/png/mini_del.png; sourceTree = SOURCE_ROOT; };
+		2BBBF9E308A41C2F00A0C0A9 /* MGRTTableEditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MGRTTableEditor.h; sourceTree = "<group>"; };
+		2BBBF9E408A41C2F00A0C0A9 /* MGRTTableEditor.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = MGRTTableEditor.mm; sourceTree = "<group>"; };
+		2BBE448908D3F48100BB50E6 /* MGRTViewEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRTViewEditor.h; sourceTree = "<group>"; };
+		2BBE448A08D3F48100BB50E6 /* MGRTViewEditor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MGRTViewEditor.mm; sourceTree = "<group>"; };
+		2BBE44AA08D3F5B400BB50E6 /* MGRTObjectEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRTObjectEditor.h; sourceTree = "<group>"; };
+		2BBE44AB08D3F5B400BB50E6 /* MGRTObjectEditor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MGRTObjectEditor.mm; sourceTree = "<group>"; };
+		2BBE459408D3FBB400BB50E6 /* MGRTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRTView.h; sourceTree = "<group>"; };
+		2BBE459508D3FBB400BB50E6 /* MGRTView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGRTView.cpp; sourceTree = "<group>"; };
+		2BBE45B908D402BA00BB50E6 /* MGRTRoutineGroupEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRTRoutineGroupEditor.h; sourceTree = "<group>"; };
+		2BBE45BA08D402BA00BB50E6 /* MGRTRoutineGroupEditor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MGRTRoutineGroupEditor.mm; sourceTree = "<group>"; };
+		2BBE45FB08D4046800BB50E6 /* MGRTRoutineEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRTRoutineEditor.h; sourceTree = "<group>"; };
+		2BBE45FC08D4046800BB50E6 /* MGRTRoutineEditor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MGRTRoutineEditor.mm; sourceTree = "<group>"; };
+		2BBE470108D4AEBA00BB50E6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../../../res/mac/English.lproj/GRTViewEditor.nib; sourceTree = SOURCE_ROOT; };
+		2BBE48A308D4F8A300BB50E6 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minus.png; path = ../../../images/icons/png/minus.png; sourceTree = SOURCE_ROOT; };
+		2BBE48A408D4F8A300BB50E6 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = ../../../images/icons/png/plus.png; sourceTree = SOURCE_ROOT; };
+		2BBE49C408D52D5500BB50E6 /* MGRTRoutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRTRoutine.h; sourceTree = "<group>"; };
+		2BBE49C508D52D5500BB50E6 /* MGRTRoutine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGRTRoutine.cpp; sourceTree = "<group>"; };
+		2BBE4A9608D5381B00BB50E6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../../../res/mac/English.lproj/GRTRoutineEditor.nib; sourceTree = SOURCE_ROOT; };
+		2BBE4A9B08D538B300BB50E6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../../../res/mac/English.lproj/GRTTableEditor.nib; sourceTree = SOURCE_ROOT; };
+		2BBE4B1908D5405D00BB50E6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../../../res/mac/English.lproj/GRTRoutineGroupEditor.nib; sourceTree = SOURCE_ROOT; };
+		2BD2B68009C6C90600A015E9 /* libintl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.dylib; path = /uni/lib/libintl.dylib; sourceTree = "<absolute>"; };
+		2BDCABB7098A7D2C0034C2C2 /* libmysqlparser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmysqlparser.a; path = ../../../../../guibuild/Development/libmysqlparser.a; sourceTree = SOURCE_ROOT; };
+		2BDCABC4098A7D8E0034C2C2 /* myx_grt_mysql_reveng_script.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_mysql_reveng_script.h; path = "../../../library/grt-modules/include/myx_grt_mysql_reveng_script.h"; sourceTree = SOURCE_ROOT; };
+		2BDCABC6098A7D970034C2C2 /* myx_grt_mysql_reveng_script.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_grt_mysql_reveng_script.c; path = "../../../library/grt-modules/source/myx_grt_mysql_reveng_script.c"; sourceTree = SOURCE_ROOT; };
+		2BDCABC9098A7DC50034C2C2 /* myx_grt_mysql_reveng_script_helper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_mysql_reveng_script_helper.h; path = "../../../library/grt-modules/include/myx_grt_mysql_reveng_script_helper.h"; sourceTree = SOURCE_ROOT; };
+		2BDCABCB098A7DCD0034C2C2 /* myx_grt_mysql_reveng_script_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_grt_mysql_reveng_script_helper.cpp; path = "../../../library/grt-modules/source/myx_grt_mysql_reveng_script_helper.cpp"; sourceTree = SOURCE_ROOT; };
+		2BDF6F2408DA734000088236 /* MGRTSchemaEditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MGRTSchemaEditor.h; sourceTree = "<group>"; };
+		2BDF6F2508DA734000088236 /* MGRTSchemaEditor.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = MGRTSchemaEditor.mm; sourceTree = "<group>"; };
+		2BDF6F2F08DA75A100088236 /* MGRTSchema.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = MGRTSchema.cpp; sourceTree = "<group>"; };
+		2BDF6F3008DA75A100088236 /* MGRTSchema.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MGRTSchema.h; sourceTree = "<group>"; };
+		2BDF6F9808DA7B6500088236 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../../../res/mac/English.lproj/GRTSchemaEditor.nib; sourceTree = SOURCE_ROOT; };
+		2BEE9DBD09BCE0A8005DCD25 /* lxplib.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = lxplib.c; path = "../../../library/generic-runtime/source/lxp/lxplib.c"; sourceTree = SOURCE_ROOT; };
+		2BEE9DBE09BCE0A9005DCD25 /* lxplib.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = lxplib.h; path = "../../../library/generic-runtime/source/lxp/lxplib.h"; sourceTree = SOURCE_ROOT; };
+		2BEE9DD109BCE14A005DCD25 /* libexpat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libexpat.a; path = /sw/lib/libexpat.a; sourceTree = "<absolute>"; };
+		2BEE9E8409BCF619005DCD25 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = /usr/lib/libz.dylib; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* MySQLGRT_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySQLGRT_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* MySQLGRT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MySQLGRT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8C1EE008882ED70017DFD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8C1F7D088830F40017DFD4 /* libiconv.dylib in Frameworks */,
+				2B8C1F0D08882F990017DFD4 /* libxml2.dylib in Frameworks */,
+				2B58717208B6919200E38573 /* libgthread-2.0.0.dylib in Frameworks */,
+				2B801152088C8D600048405B /* libglib-2.0.0.dylib in Frameworks */,
+				2B8C270E088C4A2F0017DFD4 /* CoreFoundation.framework in Frameworks */,
+				2B8C1F360888300A0017DFD4 /* JavaVM.framework in Frameworks */,
+				2B8C1F730888309B0017DFD4 /* MySQLToolsCommon.framework in Frameworks */,
+				2BEE9E8509BCF619005DCD25 /* libz.dylib in Frameworks */,
+				2BD2B68109C6C90600A015E9 /* libintl.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				2B1F333008836BFE00455FC3 /* JavaVM.framework in Frameworks */,
+				2B1F33F608836E5400455FC3 /* MySQLToolsCommon.framework in Frameworks */,
+				2B1F33FA08836E8600455FC3 /* libxml2.dylib in Frameworks */,
+				2B1F34E8088432FE00455FC3 /* liblua.a in Frameworks */,
+				2B1F34EA0884330400455FC3 /* liblualib.a in Frameworks */,
+				2B8011A4088C92F90048405B /* libglib-2.0.0.dylib in Frameworks */,
+				2B58716F08B6916D00E38573 /* libgthread-2.0.0.dylib in Frameworks */,
+				2B1BCA78093CDF5500946E36 /* Python.framework in Frameworks */,
+				2BDCABB8098A7D2C0034C2C2 /* libmysqlparser.a in Frameworks */,
+				2BEE9DD209BCE14A005DCD25 /* libexpat.a in Frameworks */,
+				2BEE9E8609BCF619005DCD25 /* libz.dylib in Frameworks */,
+				2BD2B68209C6C90600A015E9 /* libintl.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C1EE208882ED70017DFD4 /* myx_grt_java.dylib */,
+				8DC2EF5B0486A6940098B216 /* MySQLGRT.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* MySQLGRT */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C17D3088596980017DFD4 /* Classes */,
+				2B8C19F6088619C80017DFD4 /* Builtin Modules */,
+				08FB77AEFE84172EC02AAC07 /* GRT Library */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				2B8C1B2A08862EB30017DFD4 /* Lua Modules */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				2B8C1C5B088757A90017DFD4 /* GRTShell-Info.plist */,
+			);
+			name = MySQLGRT;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B80C882089ACBEF00B33C30 /* Icons */,
+				2B8C1B8F08862F800017DFD4 /* jtds-1.2.jar */,
+				2B8C1B9008862F800017DFD4 /* junit.jar */,
+				2B8C1B9108862F800017DFD4 /* mysql-connector-java-3.1.11a-bin.jar */,
+				2B8C1E2A088785980017DFD4 /* mysql-grt-java-1.0.0-bin.jar */,
+				2B8C1E52088785FA0017DFD4 /* Compiled Java Modules */,
+				2B8C1B1808862E5F0017DFD4 /* GRT Structs */,
+				2B16701208C4EF7500CB1DC0 /* ReverseEngineeringFilter.nib */,
+				2BBE4A9508D5381B00BB50E6 /* GRTRoutineEditor.nib */,
+				2BBE4B1808D5405D00BB50E6 /* GRTRoutineGroupEditor.nib */,
+				2B8C17C70885965C0017DFD4 /* GRTShell.nib */,
+				2BBE470008D4AEBA00BB50E6 /* GRTViewEditor.nib */,
+				2B1672B108C5FBB100CB1DC0 /* GRTConnectPanel.nib */,
+				2BBE4A9A08D538B300BB50E6 /* GRTTableEditor.nib */,
+				2BDF6F9708DA7B6500088236 /* GRTSchemaEditor.nib */,
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* GRT Library */ = {
+			isa = PBXGroup;
+			children = (
+				2B1F32FA08836AFD00455FC3 /* MNServerSocket.h */,
+				2B1F32FB08836AFD00455FC3 /* MNSocket.h */,
+				2B1F34DF088431FC00455FC3 /* com_mysql_grt_GrtCallbackNative.h */,
+				2B1F32FC08836AFD00455FC3 /* myx_grt_agent.h */,
+				2B1F32FD08836AFD00455FC3 /* myx_grt_java.h */,
+				2B1F32FE08836AFD00455FC3 /* myx_grt_lua_private.h */,
+				2B1F32FF08836AFD00455FC3 /* myx_grt_lua.h */,
+				2B1F330008836AFD00455FC3 /* myx_grt_php.h */,
+				2B1F330108836AFD00455FC3 /* myx_grt_private.h */,
+				2B1F330208836AFD00455FC3 /* myx_grt_public_interface.h */,
+				2B1F330308836AFD00455FC3 /* myx_grt_python.h */,
+				2B1F330F08836B6900455FC3 /* MNServerSocket.cc */,
+				2B1F331008836B6900455FC3 /* MNSocket.cc */,
+				2B1F331408836B6900455FC3 /* myx_grt_lua_shell_help.c */,
+				2B1F331508836B6900455FC3 /* myx_grt_lua_shell.c */,
+				2B1F331E08836B6A00455FC3 /* myx_grt.c */,
+				2B1F331108836B6900455FC3 /* myx_grt_agent.cc */,
+				2B1F331208836B6900455FC3 /* myx_grt_builtin.c */,
+				2B1F331308836B6900455FC3 /* myx_grt_java.c */,
+				2B1F331608836B6900455FC3 /* myx_grt_lua.c */,
+				2B1F331808836B6900455FC3 /* myx_grt_module.c */,
+				2B1F331908836B6A00455FC3 /* myx_grt_php.c */,
+				2B1F331A08836B6A00455FC3 /* myx_grt_private.c */,
+				2B1BCA4A093CD6FB00946E36 /* myx_grt_python_common.c */,
+				2B1BCA4B093CD6FB00946E36 /* myx_grt_python_shell.c */,
+				2B1BCA4E093CD70600946E36 /* myx_grt_shell.c */,
+				2B1F331B08836B6A00455FC3 /* myx_grt_python.c */,
+				2B1F331C08836B6A00455FC3 /* myx_grt_struct.c */,
+				2B1F331D08836B6A00455FC3 /* myx_grt_value.c */,
+				2BEE9DBD09BCE0A8005DCD25 /* lxplib.c */,
+				2BEE9DBE09BCE0A9005DCD25 /* lxplib.h */,
+			);
+			name = "GRT Library";
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B1F34E90884330400455FC3 /* liblualib.a */,
+				2B1F34E7088432FE00455FC3 /* liblua.a */,
+				2B58716E08B6916D00E38573 /* libgthread-2.0.0.dylib */,
+				2B801151088C8D600048405B /* libglib-2.0.0.dylib */,
+				2BD2B68009C6C90600A015E9 /* libintl.dylib */,
+				2B1F33F908836E8600455FC3 /* libxml2.dylib */,
+				2BEE9DD109BCE14A005DCD25 /* libexpat.a */,
+				2B8C1F7C088830F40017DFD4 /* libiconv.dylib */,
+				2BDCABB7098A7D2C0034C2C2 /* libmysqlparser.a */,
+				2BEE9E8409BCF619005DCD25 /* libz.dylib */,
+				2B1BCA77093CDF5500946E36 /* Python.framework */,
+				2B1F33F508836E5400455FC3 /* MySQLToolsCommon.framework */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				2B8C270D088C4A2F0017DFD4 /* CoreFoundation.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+				2B1F332F08836BFE00455FC3 /* JavaVM.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2B16825E08CEAD2700CB1DC0 /* GRT Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				2BBB087C08B28DBF00A0C0A9 /* MGRTValue.h */,
+				2BBB0B7608B300C500A0C0A9 /* MGRTObject.h */,
+				2BBB0B7708B300C500A0C0A9 /* MGRTObject.cpp */,
+				2BBB088008B28DFB00A0C0A9 /* MGRTTable.h */,
+				2BBB088108B28DFB00A0C0A9 /* MGRTTable.cpp */,
+				2BBE459408D3FBB400BB50E6 /* MGRTView.h */,
+				2BBE459508D3FBB400BB50E6 /* MGRTView.cpp */,
+				2BDF6F2F08DA75A100088236 /* MGRTSchema.cpp */,
+				2BDF6F3008DA75A100088236 /* MGRTSchema.h */,
+				2BBE49C408D52D5500BB50E6 /* MGRTRoutine.h */,
+				2BBE49C508D52D5500BB50E6 /* MGRTRoutine.cpp */,
+			);
+			name = "GRT Wrappers";
+			path = ../../linux/MySQLGRT;
+			sourceTree = "<group>";
+		};
+		2B80C882089ACBEF00B33C30 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE48A308D4F8A300BB50E6 /* minus.png */,
+				2BBE48A408D4F8A300BB50E6 /* plus.png */,
+				2BBB0DAD08B42C6700A0C0A9 /* editor_table_auto_inc.png */,
+				2BBB0DAE08B42C6700A0C0A9 /* editor_table_not_null.png */,
+				2BBB0DB108B42C6F00A0C0A9 /* field_overlay_null.png */,
+				2BBB0DB308B42C8900A0C0A9 /* datatype_blob.png */,
+				2BBB0DB408B42C8900A0C0A9 /* datatype_datetime.png */,
+				2BBB0DB508B42C8900A0C0A9 /* datatype_numeric.png */,
+				2BBB0DB608B42C8900A0C0A9 /* datatype_spatial.png */,
+				2BBB0DB708B42C8900A0C0A9 /* datatype_string.png */,
+				2BBB0DB808B42C8900A0C0A9 /* datatype_userdefined.png */,
+				2BBB0DBF08B42CEF00A0C0A9 /* mini_add_12.png */,
+				2BBB0DC008B42CEF00A0C0A9 /* mini_add_pressed_12.png */,
+				2BBB0DC108B42CEF00A0C0A9 /* mini_add_pressed.png */,
+				2BBB0DC208B42CEF00A0C0A9 /* mini_add.png */,
+				2BBB0DC308B42CEF00A0C0A9 /* mini_del_12.png */,
+				2BBB0DC408B42CEF00A0C0A9 /* mini_del_pressed_12.png */,
+				2BBB0DC508B42CEF00A0C0A9 /* mini_del_pressed.png */,
+				2BBB0DC608B42CEF00A0C0A9 /* mini_del.png */,
+				2B58688308B43CD700E38573 /* column_pk.png */,
+				2B58688408B43CD700E38573 /* column.png */,
+				2B801595088E10D90048405B /* refresh.png */,
+				2B8C1D8F08877EA60017DFD4 /* grt_function.png */,
+				2B8C1D9008877EA60017DFD4 /* grt_module.png */,
+				2B8C1D9108877EA60017DFD4 /* grt_value_dict.png */,
+				2B8C1D9208877EA60017DFD4 /* grt_value_list.png */,
+				2B8C1D9308877EA60017DFD4 /* grt_value_simple.png */,
+				2B8C1D9408877EA60017DFD4 /* grt_value_struct.png */,
+				2B8C2625088C1FE30017DFD4 /* db.Routine.16x16.png */,
+				2B8C2626088C1FE30017DFD4 /* db.Routine.24x24.png */,
+				2B8C2627088C1FE30017DFD4 /* db.Routine.64x64.png */,
+				2B8C2628088C1FE30017DFD4 /* db.Routine.many_32x32.png */,
+				2B8C1D9F08877ECB0017DFD4 /* db.Schema.16x16.png */,
+				2B8C1DA008877ECB0017DFD4 /* db.Schema.24x24.png */,
+				2B8C1DA108877ECB0017DFD4 /* db.Schema.many_32x32.png */,
+				2B8C1DA208877ECB0017DFD4 /* db.Table.16x16.png */,
+				2B8C1DA308877ECB0017DFD4 /* db.Table.24x24.png */,
+				2B8C1DA408877ECB0017DFD4 /* db.Table.many_32x32.png */,
+				2B8C1DA508877ECB0017DFD4 /* db.View.16x16.png */,
+				2B8C1DA608877ECB0017DFD4 /* db.View.24x24.png */,
+				2B8C1DA708877ECB0017DFD4 /* db.View.many_32x32.png */,
+				2B8C1DA808877ECB0017DFD4 /* GrtObject.16x16.png */,
+				2B8C1DA908877ECB0017DFD4 /* GrtObject.24x24.png */,
+				2B8C1DAA08877ECB0017DFD4 /* GrtObject.many_32x32.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		2B8C17D3088596980017DFD4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C195B0885B9880017DFD4 /* MGRT.h */,
+				2B8C195C0885B9880017DFD4 /* MGRT.m */,
+				2B80C88908BAE03D00BA69BE /* MGRTModuleLoader.h */,
+				2B80C88A08BAE03D00BA69BE /* MGRTModuleLoader.m */,
+				2BBE470508D4AF3900BB50E6 /* Shell */,
+				2B16825E08CEAD2700CB1DC0 /* GRT Wrappers */,
+				2BBE460008D4047300BB50E6 /* Editors */,
+				2BBBF9DC08A41BA900A0C0A9 /* Components */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2B8C19F6088619C80017DFD4 /* Builtin Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C19E20886198D0017DFD4 /* myx_grt_base.h */,
+				2B8C19E30886198D0017DFD4 /* myx_grt_builtin_module_public_interface.h */,
+				2B8C19E40886198D0017DFD4 /* myx_grt_forms.h */,
+				2B8C19E50886198D0017DFD4 /* myx_grt_mysql_reveng.h */,
+				2B8C19E60886198D0017DFD4 /* myx_grt_mysql_transformation.h */,
+				2B8C19E70886198D0017DFD4 /* myx_grt_mysql.h */,
+				2BDCABC4098A7D8E0034C2C2 /* myx_grt_mysql_reveng_script.h */,
+				2BDCABC9098A7DC50034C2C2 /* myx_grt_mysql_reveng_script_helper.h */,
+				2B8C19EE0886199C0017DFD4 /* myx_grt_base.c */,
+				2B8C19EF0886199C0017DFD4 /* myx_grt_mysql_reveng.c */,
+				2B8C19F00886199C0017DFD4 /* myx_grt_mysql_transformation.c */,
+				2B8C19F10886199C0017DFD4 /* myx_grt_mysql.c */,
+				2BDCABC6098A7D970034C2C2 /* myx_grt_mysql_reveng_script.c */,
+				2BDCABCB098A7DCD0034C2C2 /* myx_grt_mysql_reveng_script_helper.cpp */,
+			);
+			name = "Builtin Modules";
+			sourceTree = "<group>";
+		};
+		2B8C1B1808862E5F0017DFD4 /* GRT Structs */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C1B0208862E5C0017DFD4 /* structs.base.xml */,
+				2B8C1B0308862E5C0017DFD4 /* structs.canvas.xml */,
+				2B8015F6088ED02D0048405B /* structs.db.workbench.xml */,
+				2B8015F4088ED0230048405B /* structs.model.xml */,
+				2B8C1B0408862E5C0017DFD4 /* structs.db.mgmt.xml */,
+				2B8C1B0508862E5C0017DFD4 /* structs.db.migration.xml */,
+				2B8C1B0708862E5C0017DFD4 /* structs.db.mssql.xml */,
+				2B8C1B0808862E5C0017DFD4 /* structs.db.mysql.xml */,
+				2B8C1B0908862E5C0017DFD4 /* structs.db.oracle.xml */,
+				2B8C1B0A08862E5C0017DFD4 /* structs.db.xml */,
+				2B8C1B0B08862E5C0017DFD4 /* structs.forms.xml */,
+				2B8C1B0C08862E5C0017DFD4 /* structs.xml */,
+				2BB95F230A045782008C9EEF /* storage_engines.xml */,
+			);
+			name = "GRT Structs";
+			sourceTree = "<group>";
+		};
+		2B8C1B2A08862EB30017DFD4 /* Lua Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C1B3008862ED90017DFD4 /* _library.lua */,
+				2B8C1B3108862ED90017DFD4 /* BaseLua.lua */,
+				2B5869F408B45B5E00E38573 /* DbUtils.lua */,
+				2B8C1B3208862ED90017DFD4 /* RdbmsInfo.lua */,
+				2B8C1B3308862ED90017DFD4 /* RdbmsInfoAccess.lua */,
+				2B8C1B3408862ED90017DFD4 /* RdbmsInfoGeneric.lua */,
+				2B8C1B3508862ED90017DFD4 /* RdbmsInfoMssql.lua */,
+				2B8C1B3608862ED90017DFD4 /* RdbmsInfoMysql.lua */,
+				2B8C1B3708862ED90017DFD4 /* RdbmsInfoOracle.lua */,
+				2B8C1B3808862ED90017DFD4 /* RdbmsManagement.lua */,
+			);
+			name = "Lua Modules";
+			sourceTree = "<group>";
+		};
+		2B8C1E52088785FA0017DFD4 /* Compiled Java Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C1E2C088785F50017DFD4 /* BaseJava.class */,
+				2B8C1E2D088785F50017DFD4 /* JavaTestModule.class */,
+				2B8C1E2E088785F50017DFD4 /* JavaTestModuleTest.class */,
+				2B8C1E2F088785F50017DFD4 /* MigrationAccess.class */,
+				2B8C1E30088785F50017DFD4 /* MigrationGeneric.class */,
+				2B8C1E31088785F50017DFD4 /* MigrationMssql.class */,
+				2B8C1E32088785F50017DFD4 /* MigrationMysql.class */,
+				2B8C1E33088785F50017DFD4 /* MigrationOracle.class */,
+				2B8C1E34088785F50017DFD4 /* MigrationOracleTest.class */,
+				2B8C1E35088785F50017DFD4 /* MigrationUtils.class */,
+				2B8C1E36088785F50017DFD4 /* ReverseEngineeringAccess.class */,
+				2B8C1E37088785F50017DFD4 /* ReverseEngineeringAccessTest.class */,
+				2B8C1E38088785F50017DFD4 /* ReverseEngineeringGeneric.class */,
+				2B8C1E39088785F50017DFD4 /* ReverseEngineeringMssql.class */,
+				2B8C1E3A088785F50017DFD4 /* ReverseEngineeringMssqlTest.class */,
+				2B8C1E3B088785F50017DFD4 /* ReverseEngineeringMysqlJdbc.class */,
+				2B8C1E3C088785F50017DFD4 /* ReverseEngineeringOracle.class */,
+				2B8C1E3D088785F50017DFD4 /* ReverseEngineeringOracleTest.class */,
+				2B8C1E3E088785F50017DFD4 /* TransformationMysqlJdbc.class */,
+			);
+			name = "Compiled Java Modules";
+			sourceTree = "<group>";
+		};
+		2BBBF9DC08A41BA900A0C0A9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2B16836E08CEC0EE00CB1DC0 /* MGRTTreeDataSource.h */,
+				2B16836F08CEC0EE00CB1DC0 /* MGRTTreeDataSource.m */,
+				2B16837008CEC0EE00CB1DC0 /* MGRTValueTreeDataSource.h */,
+				2B16837108CEC0EE00CB1DC0 /* MGRTValueTreeDataSource.m */,
+				2B166BB708C38EAA00CB1DC0 /* MGRTConnectionPanel.h */,
+				2B166BB808C38EAA00CB1DC0 /* MGRTConnectionPanel.mm */,
+				2B16700E08C4EF5700CB1DC0 /* MGRTRevEngFilterPane.h */,
+				2B16700F08C4EF5700CB1DC0 /* MGRTRevEngFilterPane.mm */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		2BBE460008D4047300BB50E6 /* Editors */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE44AA08D3F5B400BB50E6 /* MGRTObjectEditor.h */,
+				2BBE44AB08D3F5B400BB50E6 /* MGRTObjectEditor.mm */,
+				2BBBF9E308A41C2F00A0C0A9 /* MGRTTableEditor.h */,
+				2BBBF9E408A41C2F00A0C0A9 /* MGRTTableEditor.mm */,
+				2BBE448908D3F48100BB50E6 /* MGRTViewEditor.h */,
+				2BBE448A08D3F48100BB50E6 /* MGRTViewEditor.mm */,
+				2BBE45FB08D4046800BB50E6 /* MGRTRoutineEditor.h */,
+				2BBE45FC08D4046800BB50E6 /* MGRTRoutineEditor.mm */,
+				2BBE45B908D402BA00BB50E6 /* MGRTRoutineGroupEditor.h */,
+				2BBE45BA08D402BA00BB50E6 /* MGRTRoutineGroupEditor.mm */,
+				2BDF6F2408DA734000088236 /* MGRTSchemaEditor.h */,
+				2BDF6F2508DA734000088236 /* MGRTSchemaEditor.mm */,
+			);
+			name = Editors;
+			sourceTree = "<group>";
+		};
+		2BBE470508D4AF3900BB50E6 /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C180308859F590017DFD4 /* MShellTextView.h */,
+				2B8C180408859F590017DFD4 /* MShellTextView.m */,
+				2B8C17CB0885968F0017DFD4 /* MGRTShell.h */,
+				2B8C17CC0885968F0017DFD4 /* MGRTShell.m */,
+			);
+			name = Shell;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* MySQLGRT_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B8C1EDE08882ED70017DFD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1F330408836AFD00455FC3 /* MNServerSocket.h in Headers */,
+				2B1F330508836AFD00455FC3 /* MNSocket.h in Headers */,
+				2B1F330608836AFD00455FC3 /* myx_grt_agent.h in Headers */,
+				2B1F330708836AFD00455FC3 /* myx_grt_java.h in Headers */,
+				2B1F330808836AFD00455FC3 /* myx_grt_lua_private.h in Headers */,
+				2B1F330908836AFD00455FC3 /* myx_grt_lua.h in Headers */,
+				2B1F330A08836AFD00455FC3 /* myx_grt_php.h in Headers */,
+				2B1F330B08836AFD00455FC3 /* myx_grt_private.h in Headers */,
+				2B1F330C08836AFD00455FC3 /* myx_grt_public_interface.h in Headers */,
+				2B1F330D08836AFD00455FC3 /* myx_grt_python.h in Headers */,
+				2B1F34E0088431FC00455FC3 /* com_mysql_grt_GrtCallbackNative.h in Headers */,
+				2B8C17CD0885968F0017DFD4 /* MGRTShell.h in Headers */,
+				2B8C180508859F590017DFD4 /* MShellTextView.h in Headers */,
+				2B8C195D0885B9880017DFD4 /* MGRT.h in Headers */,
+				2B8C19E80886198D0017DFD4 /* myx_grt_base.h in Headers */,
+				2B8C19E90886198D0017DFD4 /* myx_grt_builtin_module_public_interface.h in Headers */,
+				2B8C19EA0886198D0017DFD4 /* myx_grt_forms.h in Headers */,
+				2B8C19EB0886198D0017DFD4 /* myx_grt_mysql_reveng.h in Headers */,
+				2B8C19EC0886198D0017DFD4 /* myx_grt_mysql_transformation.h in Headers */,
+				2B8C19ED0886198D0017DFD4 /* myx_grt_mysql.h in Headers */,
+				2BBBF9E508A41C2F00A0C0A9 /* MGRTTableEditor.h in Headers */,
+				2BBB087D08B28DBF00A0C0A9 /* MGRTValue.h in Headers */,
+				2BBB088208B28DFB00A0C0A9 /* MGRTTable.h in Headers */,
+				2BBB0B7808B300C500A0C0A9 /* MGRTObject.h in Headers */,
+				2B80C88B08BAE03D00BA69BE /* MGRTModuleLoader.h in Headers */,
+				2B166EBE08C42FE900CB1DC0 /* MGRTConnectionPanel.h in Headers */,
+				2B16701008C4EF5700CB1DC0 /* MGRTRevEngFilterPane.h in Headers */,
+				2B16837208CEC0EE00CB1DC0 /* MGRTTreeDataSource.h in Headers */,
+				2B16837408CEC0EE00CB1DC0 /* MGRTValueTreeDataSource.h in Headers */,
+				2BBE448B08D3F48100BB50E6 /* MGRTViewEditor.h in Headers */,
+				2BBE44AC08D3F5B400BB50E6 /* MGRTObjectEditor.h in Headers */,
+				2BBE459608D3FBB400BB50E6 /* MGRTView.h in Headers */,
+				2BBE45BB08D402BA00BB50E6 /* MGRTRoutineGroupEditor.h in Headers */,
+				2BBE45FD08D4046800BB50E6 /* MGRTRoutineEditor.h in Headers */,
+				2BBE49C608D52D5500BB50E6 /* MGRTRoutine.h in Headers */,
+				2BDF6F2608DA734100088236 /* MGRTSchemaEditor.h in Headers */,
+				2BDF6F3208DA75A100088236 /* MGRTSchema.h in Headers */,
+				2BDCABC5098A7D8E0034C2C2 /* myx_grt_mysql_reveng_script.h in Headers */,
+				2BDCABCA098A7DC50034C2C2 /* myx_grt_mysql_reveng_script_helper.h in Headers */,
+				2BEE9DC009BCE0A9005DCD25 /* lxplib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B8C1EE108882ED70017DFD4 /* myx_grt_java */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8C1EE908882EE60017DFD4 /* Build configuration list for PBXNativeTarget "myx_grt_java" */;
+			buildPhases = (
+				2B8C1EDE08882ED70017DFD4 /* Headers */,
+				2B8C1EDF08882ED70017DFD4 /* Sources */,
+				2B8C1EE008882ED70017DFD4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myx_grt_java;
+			productName = myx_grt_java;
+			productReference = 2B8C1EE208882ED70017DFD4 /* myx_grt_java.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		8DC2EF4F0486A6940098B216 /* MySQLGRT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1F32E908836A9D00455FC3 /* Build configuration list for PBXNativeTarget "MySQLGRT" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+				2B8C1E13088783F60017DFD4 /* Build Java Stuff */,
+				2B8C1AFA08862E1C0017DFD4 /* Copy Lua Files */,
+				2B8C1B8808862F410017DFD4 /* Copy Java Libraries */,
+				2B8C1E57088786310017DFD4 /* Copy Java Modules */,
+				2B8C1B1908862E7D0017DFD4 /* Copy Struct Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8C1EEF08882F2E0017DFD4 /* PBXTargetDependency */,
+			);
+			name = MySQLGRT;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = MySQLGRT;
+			productReference = 8DC2EF5B0486A6940098B216 /* MySQLGRT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2B1F32ED08836A9D00455FC3 /* Build configuration list for PBXProject "MySQLGRT" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* MySQLGRT */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			targets = (
+				2B8C1EE108882ED70017DFD4 /* myx_grt_java */,
+				8DC2EF4F0486A6940098B216 /* MySQLGRT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8C1F90088832130017DFD4 /* myx_grt_java.dylib in Resources */,
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				2B8C17C90885965C0017DFD4 /* GRTShell.nib in Resources */,
+				2B8C1D9508877EA60017DFD4 /* grt_function.png in Resources */,
+				2B8C1D9608877EA60017DFD4 /* grt_module.png in Resources */,
+				2B8C1D9708877EA60017DFD4 /* grt_value_dict.png in Resources */,
+				2B8C1D9808877EA60017DFD4 /* grt_value_list.png in Resources */,
+				2B8C1D9908877EA60017DFD4 /* grt_value_simple.png in Resources */,
+				2B8C1D9A08877EA60017DFD4 /* grt_value_struct.png in Resources */,
+				2B8C1DAF08877ECB0017DFD4 /* db.Schema.16x16.png in Resources */,
+				2B8C1DB008877ECB0017DFD4 /* db.Schema.24x24.png in Resources */,
+				2B8C1DB108877ECB0017DFD4 /* db.Schema.many_32x32.png in Resources */,
+				2B8C1DB208877ECB0017DFD4 /* db.Table.16x16.png in Resources */,
+				2B8C1DB308877ECB0017DFD4 /* db.Table.24x24.png in Resources */,
+				2B8C1DB408877ECB0017DFD4 /* db.Table.many_32x32.png in Resources */,
+				2B8C1DB508877ECB0017DFD4 /* db.View.16x16.png in Resources */,
+				2B8C1DB608877ECB0017DFD4 /* db.View.24x24.png in Resources */,
+				2B8C1DB708877ECB0017DFD4 /* db.View.many_32x32.png in Resources */,
+				2B8C1DB808877ECB0017DFD4 /* GrtObject.16x16.png in Resources */,
+				2B8C1DB908877ECB0017DFD4 /* GrtObject.24x24.png in Resources */,
+				2B8C1DBA08877ECB0017DFD4 /* GrtObject.many_32x32.png in Resources */,
+				2B801596088E10D90048405B /* refresh.png in Resources */,
+				2B8015F5088ED0230048405B /* structs.model.xml in Resources */,
+				2B8015F7088ED02D0048405B /* structs.db.workbench.xml in Resources */,
+				2BBB0DAF08B42C6700A0C0A9 /* editor_table_auto_inc.png in Resources */,
+				2BBB0DB008B42C6700A0C0A9 /* editor_table_not_null.png in Resources */,
+				2BBB0DB208B42C6F00A0C0A9 /* field_overlay_null.png in Resources */,
+				2BBB0DB908B42C8900A0C0A9 /* datatype_blob.png in Resources */,
+				2BBB0DBA08B42C8900A0C0A9 /* datatype_datetime.png in Resources */,
+				2BBB0DBB08B42C8900A0C0A9 /* datatype_numeric.png in Resources */,
+				2BBB0DBC08B42C8900A0C0A9 /* datatype_spatial.png in Resources */,
+				2BBB0DBD08B42C8900A0C0A9 /* datatype_string.png in Resources */,
+				2BBB0DBE08B42C8900A0C0A9 /* datatype_userdefined.png in Resources */,
+				2BBB0DC708B42CEF00A0C0A9 /* mini_add_12.png in Resources */,
+				2BBB0DC808B42CEF00A0C0A9 /* mini_add_pressed_12.png in Resources */,
+				2BBB0DC908B42CEF00A0C0A9 /* mini_add_pressed.png in Resources */,
+				2BBB0DCA08B42CEF00A0C0A9 /* mini_add.png in Resources */,
+				2BBB0DCB08B42CEF00A0C0A9 /* mini_del_12.png in Resources */,
+				2BBB0DCC08B42CEF00A0C0A9 /* mini_del_pressed_12.png in Resources */,
+				2BBB0DCD08B42CEF00A0C0A9 /* mini_del_pressed.png in Resources */,
+				2BBB0DCE08B42CEF00A0C0A9 /* mini_del.png in Resources */,
+				2B58688508B43CD700E38573 /* column_pk.png in Resources */,
+				2B58688608B43CD700E38573 /* column.png in Resources */,
+				2B5869F508B45B5E00E38573 /* DbUtils.lua in Resources */,
+				2B16701408C4EF7500CB1DC0 /* ReverseEngineeringFilter.nib in Resources */,
+				2B1672B308C5FBB100CB1DC0 /* GRTConnectPanel.nib in Resources */,
+				2BBE470208D4AEBA00BB50E6 /* GRTViewEditor.nib in Resources */,
+				2BBE48A508D4F8A300BB50E6 /* minus.png in Resources */,
+				2BBE48A608D4F8A300BB50E6 /* plus.png in Resources */,
+				2BBE4A9708D5381B00BB50E6 /* GRTRoutineEditor.nib in Resources */,
+				2BBE4A9C08D538B300BB50E6 /* GRTTableEditor.nib in Resources */,
+				2BBE4B1A08D5405D00BB50E6 /* GRTRoutineGroupEditor.nib in Resources */,
+				2BDF6F9908DA7B6500088236 /* GRTSchemaEditor.nib in Resources */,
+				2BB95F240A045782008C9EEF /* storage_engines.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B8C1E13088783F60017DFD4 /* Build Java Stuff */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Java Stuff";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "cd ../../../../mysql-migration-tool\nsh ./make_grtjar.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8C1EDF08882ED70017DFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8C1EF208882F520017DFD4 /* MNServerSocket.cc in Sources */,
+				2B8C1EF308882F520017DFD4 /* MNSocket.cc in Sources */,
+				2B8C1EF408882F520017DFD4 /* myx_grt_agent.cc in Sources */,
+				2B8C1EF508882F520017DFD4 /* myx_grt_builtin.c in Sources */,
+				2B8C1EF608882F520017DFD4 /* myx_grt_java.c in Sources */,
+				2B8C1EFB08882F520017DFD4 /* myx_grt_module.c in Sources */,
+				2B8C1EFC08882F520017DFD4 /* myx_grt_php.c in Sources */,
+				2B8C1EFD08882F520017DFD4 /* myx_grt_private.c in Sources */,
+				2B8C1EFF08882F520017DFD4 /* myx_grt_struct.c in Sources */,
+				2B8C1F0008882F520017DFD4 /* myx_grt_value.c in Sources */,
+				2B8C1F0108882F520017DFD4 /* myx_grt.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1F331F08836B6A00455FC3 /* MNServerSocket.cc in Sources */,
+				2B1F332008836B6A00455FC3 /* MNSocket.cc in Sources */,
+				2B1F332108836B6A00455FC3 /* myx_grt_agent.cc in Sources */,
+				2B1F332208836B6A00455FC3 /* myx_grt_builtin.c in Sources */,
+				2B1F332308836B6A00455FC3 /* myx_grt_java.c in Sources */,
+				2B1F332408836B6A00455FC3 /* myx_grt_lua_shell_help.c in Sources */,
+				2B1F332508836B6A00455FC3 /* myx_grt_lua_shell.c in Sources */,
+				2B1F332608836B6A00455FC3 /* myx_grt_lua.c in Sources */,
+				2B1F332808836B6A00455FC3 /* myx_grt_module.c in Sources */,
+				2B1F332908836B6A00455FC3 /* myx_grt_php.c in Sources */,
+				2B1F332A08836B6A00455FC3 /* myx_grt_private.c in Sources */,
+				2B1F332B08836B6A00455FC3 /* myx_grt_python.c in Sources */,
+				2B1F332C08836B6A00455FC3 /* myx_grt_struct.c in Sources */,
+				2B1F332D08836B6A00455FC3 /* myx_grt_value.c in Sources */,
+				2B1F332E08836B6A00455FC3 /* myx_grt.c in Sources */,
+				2B8C17CE0885968F0017DFD4 /* MGRTShell.m in Sources */,
+				2B8C180608859F590017DFD4 /* MShellTextView.m in Sources */,
+				2B8C195E0885B9880017DFD4 /* MGRT.m in Sources */,
+				2B8C19F20886199C0017DFD4 /* myx_grt_base.c in Sources */,
+				2B8C19F30886199C0017DFD4 /* myx_grt_mysql_reveng.c in Sources */,
+				2B8C19F40886199C0017DFD4 /* myx_grt_mysql_transformation.c in Sources */,
+				2B8C19F50886199C0017DFD4 /* myx_grt_mysql.c in Sources */,
+				2BBB078708B2416900A0C0A9 /* MGRTTableEditor.mm in Sources */,
+				2BBB088308B28DFB00A0C0A9 /* MGRTTable.cpp in Sources */,
+				2BBB0B7908B300C500A0C0A9 /* MGRTObject.cpp in Sources */,
+				2B80C88C08BAE03D00BA69BE /* MGRTModuleLoader.m in Sources */,
+				2B166EBF08C42FE900CB1DC0 /* MGRTConnectionPanel.mm in Sources */,
+				2B16701108C4EF5700CB1DC0 /* MGRTRevEngFilterPane.mm in Sources */,
+				2B16837308CEC0EE00CB1DC0 /* MGRTTreeDataSource.m in Sources */,
+				2B16837508CEC0EE00CB1DC0 /* MGRTValueTreeDataSource.m in Sources */,
+				2BBE448C08D3F48100BB50E6 /* MGRTViewEditor.mm in Sources */,
+				2BBE44AD08D3F5B400BB50E6 /* MGRTObjectEditor.mm in Sources */,
+				2BBE459708D3FBB400BB50E6 /* MGRTView.cpp in Sources */,
+				2BBE45BC08D402BA00BB50E6 /* MGRTRoutineGroupEditor.mm in Sources */,
+				2BBE45FE08D4046800BB50E6 /* MGRTRoutineEditor.mm in Sources */,
+				2BBE49C708D52D5500BB50E6 /* MGRTRoutine.cpp in Sources */,
+				2BDF6F2708DA734100088236 /* MGRTSchemaEditor.mm in Sources */,
+				2BDF6F3108DA75A100088236 /* MGRTSchema.cpp in Sources */,
+				2B1BCA4C093CD6FB00946E36 /* myx_grt_python_common.c in Sources */,
+				2B1BCA4D093CD6FB00946E36 /* myx_grt_python_shell.c in Sources */,
+				2B1BCA4F093CD70600946E36 /* myx_grt_shell.c in Sources */,
+				2BDCABC7098A7D970034C2C2 /* myx_grt_mysql_reveng_script.c in Sources */,
+				2BDCABCC098A7DCD0034C2C2 /* myx_grt_mysql_reveng_script_helper.cpp in Sources */,
+				2BEE9DBF09BCE0A9005DCD25 /* lxplib.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B8C1EEF08882F2E0017DFD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8C1EE108882ED70017DFD4 /* myx_grt_java */;
+			targetProxy = 2B8C1EEE08882F2E0017DFD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B16701208C4EF7500CB1DC0 /* ReverseEngineeringFilter.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B16701308C4EF7500CB1DC0 /* English */,
+			);
+			name = ReverseEngineeringFilter.nib;
+			sourceTree = "<group>";
+		};
+		2B1672B108C5FBB100CB1DC0 /* GRTConnectPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1672B208C5FBB100CB1DC0 /* English */,
+			);
+			name = GRTConnectPanel.nib;
+			sourceTree = "<group>";
+		};
+		2B8C17C70885965C0017DFD4 /* GRTShell.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8C17C80885965C0017DFD4 /* English */,
+			);
+			name = GRTShell.nib;
+			sourceTree = "<group>";
+		};
+		2BBE470008D4AEBA00BB50E6 /* GRTViewEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBE470108D4AEBA00BB50E6 /* English */,
+			);
+			name = GRTViewEditor.nib;
+			sourceTree = "<group>";
+		};
+		2BBE4A9508D5381B00BB50E6 /* GRTRoutineEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBE4A9608D5381B00BB50E6 /* English */,
+			);
+			name = GRTRoutineEditor.nib;
+			sourceTree = "<group>";
+		};
+		2BBE4A9A08D538B300BB50E6 /* GRTTableEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBE4A9B08D538B300BB50E6 /* English */,
+			);
+			name = GRTTableEditor.nib;
+			sourceTree = "<group>";
+		};
+		2BBE4B1808D5405D00BB50E6 /* GRTRoutineGroupEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBE4B1908D5405D00BB50E6 /* English */,
+			);
+			name = GRTRoutineGroupEditor.nib;
+			sourceTree = "<group>";
+		};
+		2BDF6F9708DA7B6500088236 /* GRTSchemaEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDF6F9808DA7B6500088236 /* English */,
+			);
+			name = GRTSchemaEditor.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B1F32EC08836A9D00455FC3 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MySQLGRT_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				PREBINDING = NO;
+				PRODUCT_NAME = MySQLGRT;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Deployment;
+		};
+		2B1F32F008836A9D00455FC3 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(TARGET_BUILD_DIR)\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					FROM_XCODE,
+					ENABLE_JAVA_MODULES,
+					ENABLE_LUA_MODULES,
+					ENABLE_PYTHON_MODULES,
+					ENABLE_GRT,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SOURCE_ROOT)/../../../library/grt-modules/include",
+					"$(SOURCE_ROOT)/../../../library/generic-runtime/include",
+					/usr/local/include,
+					"/sw/lib/glib-2.0/include",
+					"/sw/include/glib-2.0",
+					/sw/include,
+					"$(TARGET_BUILD_DIR)/usr/local/include",
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/sw/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Deployment;
+		};
+		2B1F33DC08836C6600455FC3 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MySQLGRT_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				PREBINDING = NO;
+				PRODUCT_NAME = MySQLGRT;
+				SYMROOT = "~/guibuild";
+				USER_HEADER_SEARCH_PATHS = "/sw/include/glib-2.0";
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		2B1F33DD08836C6600455FC3 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(TARGET_BUILD_DIR)\"";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					FROM_XCODE,
+					ENABLE_JAVA_MODULES,
+					ENABLE_LUA_MODULES,
+					ENABLE_PYTHON_MODULES,
+					ENABLE_GRT,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SOURCE_ROOT)/../../../library/grt-modules/include",
+					"$(SOURCE_ROOT)/../../../library/generic-runtime/include",
+					/usr/local/include,
+					"/uni/lib/glib-2.0/include",
+					"/uni/include/glib-2.0",
+					/sw/include,
+					"$(TARGET_BUILD_DIR)/usr/local/include",
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+				);
+				LIBRARY_SEARCH_PATHS = /uni/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		2B8C1EEA08882EE60017DFD4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					/sw/lib,
+					/usr/local/lib,
+					"$(TARGET_BUILD_DIR)",
+					/uni/lib,
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = myx_grt_java;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		2B8C1EEB08882EE60017DFD4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = myx_grt_java;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "~/guibuild";
+				USER_HEADER_SEARCH_PATHS = "/sw/include/glib-2.0";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		2BB5681F09E74CBF00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					/sw/lib,
+					/usr/local/lib,
+					"$(TARGET_BUILD_DIR)",
+					/uni/lib,
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = myx_grt_java;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = DeploymentU;
+		};
+		2BB5682009E74CBF00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MySQLGRT_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				PREBINDING = NO;
+				PRODUCT_NAME = MySQLGRT;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = DeploymentU;
+		};
+		2BB5682109E74CBF00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(TARGET_BUILD_DIR)\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					FROM_XCODE,
+					ENABLE_JAVA_MODULES,
+					ENABLE_LUA_MODULES,
+					ENABLE_PYTHON_MODULES,
+					ENABLE_GRT,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SOURCE_ROOT)/../../../library/grt-modules/include",
+					"$(SOURCE_ROOT)/../../../library/generic-runtime/include",
+					/usr/local/include,
+					"/sw/lib/glib-2.0/include",
+					"/sw/include/glib-2.0",
+					/sw/include,
+					"$(TARGET_BUILD_DIR)/usr/local/include",
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/sw/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = DeploymentU;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B1F32E908836A9D00455FC3 /* Build configuration list for PBXNativeTarget "MySQLGRT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1F32EC08836A9D00455FC3 /* Deployment */,
+				2BB5682009E74CBF00FC03E1 /* DeploymentU */,
+				2B1F33DC08836C6600455FC3 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DeploymentU;
+		};
+		2B1F32ED08836A9D00455FC3 /* Build configuration list for PBXProject "MySQLGRT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1F32F008836A9D00455FC3 /* Deployment */,
+				2BB5682109E74CBF00FC03E1 /* DeploymentU */,
+				2B1F33DD08836C6600455FC3 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DeploymentU;
+		};
+		2B8C1EE908882EE60017DFD4 /* Build configuration list for PBXNativeTarget "myx_grt_java" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8C1EEA08882EE60017DFD4 /* Deployment */,
+				2BB5681F09E74CBF00FC03E1 /* DeploymentU */,
+				2B8C1EEB08882EE60017DFD4 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DeploymentU;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

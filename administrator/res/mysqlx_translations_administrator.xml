@@ -1,0 +1,1541 @@
+﻿<?xml version="1.0"?>
+<messages>
+ <textgroup id="MySQLVariables">
+  <!-- Status Variables -->
+  <!-- Group (Category) Names -->
+  <text id="status_var_group_Commands_executed">
+   <trans xml:lang="en">Commands executed</trans>
+   <trans xml:lang="de">Ausgeführte Befehle</trans>
+  </text>
+  <text id="status_var_group_Connections">
+   <trans xml:lang="en">Connections</trans>
+   <trans xml:lang="de">Verbindungen</trans>
+  </text>
+  <text id="status_var_group_DDL">
+   <trans xml:lang="en">DDL</trans>
+   <trans xml:lang="de">DDL</trans>
+  </text>
+  <text id="status_var_group_Delayed">
+   <trans xml:lang="en">Delayed</trans>
+   <trans xml:lang="de">Verzögert</trans>
+  </text>
+  <text id="status_var_group_DML">
+   <trans xml:lang="en">DML</trans>
+   <trans xml:lang="de">DML</trans>
+  </text>
+  <text id="status_var_group_General">
+   <trans xml:lang="en">General</trans>
+   <trans xml:lang="de">Allgemein</trans>
+  </text>
+  <text id="status_var_group_Handler">
+   <trans xml:lang="en">Handler</trans>
+   <trans xml:lang="de">Handler</trans>
+  </text>
+  <text id="status_var_group_Keys">
+   <trans xml:lang="en">Keys</trans>
+   <trans xml:lang="de">Schlüssel</trans>
+  </text>
+  <text id="status_var_group_Locks">
+   <trans xml:lang="en">Locks</trans>
+   <trans xml:lang="de">Sperren</trans>
+  </text>
+  <text id="status_var_group_Miscellaneous">
+   <trans xml:lang="en">Miscellaneous</trans>
+   <trans xml:lang="de">Verschiedenes</trans>
+  </text>
+  <text id="status_var_group_Networking">
+   <trans xml:lang="en">Networking</trans>
+   <trans xml:lang="de">Netzwerk</trans>
+  </text>
+  <text id="status_var_group_Query_cache">
+   <trans xml:lang="en">Query cache</trans>
+   <trans xml:lang="de">Abfragen-Cache</trans>
+  </text>
+  <text id="status_var_group_Replication">
+   <trans xml:lang="en">Replication</trans>
+   <trans xml:lang="de">Replikation</trans>
+  </text>
+  <text id="status_var_group_Selects">
+   <trans xml:lang="en">Selects</trans>
+   <trans xml:lang="de">Selects</trans>
+  </text>
+  <text id="status_var_group_Show">
+   <trans xml:lang="en">Show</trans>
+   <trans xml:lang="de">Show</trans>
+  </text>
+  <text id="status_var_group_Sort">
+   <trans xml:lang="en">Sort</trans>
+   <trans xml:lang="de">Sort</trans>
+  </text>
+  <text id="status_var_group_Threads">
+   <trans xml:lang="en">Threads</trans>
+   <trans xml:lang="de">Threads</trans>
+  </text>
+  <text id="status_var_group_Temporary">
+   <trans xml:lang="en">Temporary</trans>
+   <trans xml:lang="de">Temporary</trans>
+  </text>
+  <text id="status_var_group_Traffic">
+   <trans xml:lang="en">Traffic</trans>
+   <trans xml:lang="de">Traffic</trans>
+  </text>
+  <!-- Variables -->
+  <text id="status_var_Uptime">
+   <trans xml:lang="en">How many seconds the server has been up.</trans>
+   <trans xml:lang="de">Anzahl der Sekunden, die der Server bereits läuft.</trans>
+  </text>
+  <text id="status_var_Open_tables">
+   <trans xml:lang="en">Number of tables that are currently open.</trans>
+   <trans xml:lang="de">Anzahl der momentan offenen Tabellen.</trans>
+  </text>
+  <text id="status_var_Open_files">
+   <trans xml:lang="en">Number of files that are open.</trans>
+   <trans xml:lang="de">Anzahl der offenen Dateien.</trans>
+  </text>
+  <text id="status_var_Open_streams">
+   <trans xml:lang="en">Number of streams that are open (used mainly for logging).</trans>
+   <trans xml:lang="de">Anzahl der offenen Streams (hauptsächlich verwendet zum Loggen).</trans>
+  </text>
+  <text id="status_var_Opened_tables">
+   <trans xml:lang="en">Number of tables that have been opened since server start.</trans>
+   <trans xml:lang="de">Anzahl der Tabellen, die seit Serverstart geöffnet wurden.</trans>
+  </text>
+  <text id="status_var_Questions">
+   <trans xml:lang="en">Number of queries sent to the server.</trans>
+   <trans xml:lang="de">Anzahl der zum Server gesendeten Abfragen.</trans>
+  </text>
+  <text id="status_var_Threads_cached">
+   <trans xml:lang="en">Number of threads in the thread cache.</trans>
+   <trans xml:lang="de">Anzahl der Threads im Thread-Cache.</trans>
+  </text>
+  <text id="status_var_Threads_created">
+   <trans xml:lang="en">Number of threads created to handle connections.</trans>
+   <trans xml:lang="de">Anzahl der Threads, die zur Handhabung von Verbindungen erzeugt wurden.</trans>
+  </text>
+  <text id="status_var_Threads_connected">
+   <trans xml:lang="en">Number of currently open connections.</trans>
+   <trans xml:lang="de">Anzahl der momentan offenen Verbindungen.</trans>
+  </text>
+  <text id="status_var_Threads_running">
+   <trans xml:lang="en">Number of threads that are not sleeping.</trans>
+   <trans xml:lang="de">Anzahl der Threads, die nicht schlafen.</trans>
+  </text>
+  <text id="status_var_Created_tmp_disk_tables">
+   <trans xml:lang="en">Number of implicit temporary tables on disk created while executing statements.</trans>
+   <trans xml:lang="de">Anzahl der bei der Ausführung von Statements implizit auf der Platte erzeugten temporären Tabellen.</trans>
+  </text>
+  <text id="status_var_Created_tmp_tables">
+   <trans xml:lang="en">Number of implicit temporary tables in memory created while executing statements.</trans>
+   <trans xml:lang="de">Anzahl der bei der Ausführung von Statements implizit im Arbeitsspeicher erzeugten temporären Tabellen.</trans>
+  </text>
+  <text id="status_var_Created_tmp_files">
+   <trans xml:lang="en">Number of temporary files the MySQL server has created.</trans>
+   <trans xml:lang="de">Anzahl der temporären Dateien, die der MySQL-Server erzeugt hat.</trans>
+  </text>
+  <text id="status_var_Slow_launch_threads">
+   <trans xml:lang="en">Number of threads that have taken more than slow_launch_time to create.</trans>
+   <trans xml:lang="de">Anzahl der Threads, die länger als slow_launch_time brauchten, um erzeugt zu werden.</trans>
+  </text>
+  <text id="status_var_Slow_queries">
+   <trans xml:lang="en">Number of queries that have taken more than long_query_time seconds.</trans>
+   <trans xml:lang="de">Anzahl der Abfragen, die länger als long_query_time benötigten.</trans>
+  </text>
+  <text id="status_var_Qcache_queries_in_cache">
+   <trans xml:lang="en">Number of queries registered in the query cache.</trans>
+   <trans xml:lang="de">Anzahl der Abfragen, die im Abfragen-Cache registriert sind.</trans>
+  </text>
+  <text id="status_var_Qcache_inserts">
+   <trans xml:lang="en">Number of queries added to the query cache.</trans>
+   <trans xml:lang="de">Anzahl der Abfragen, die zum Abfragen-Cache hinzugefügt wurden.</trans>
+  </text>
+  <text id="status_var_Qcache_hits">
+   <trans xml:lang="en">Number of query cache hits.</trans>
+   <trans xml:lang="de">Anzahl von Hits auf den Abfragen-Cache.</trans>
+  </text>
+  <text id="status_var_Qcache_lowmem_prunes">
+   <trans xml:lang="en">Number of queries that were deleted from query cache because of low memory. </trans>
+   <trans xml:lang="de">Anzahl der Abfragen, die wegen zu geringem Speicher aus dem Abfragen-Cache gelöscht wurden.</trans>
+  </text>
+  <text id="status_var_Qcache_not_cached">
+   <trans xml:lang="en">Number of non-cached queries (not cachable, or due to QUERY_CACHE_TYPE).</trans>
+   <trans xml:lang="de">Anzahl von nicht gecacheten Abfragen (nicht cachebar oder aufgrund von SQL_QUERY_CACHE_TYPE).</trans>
+  </text>
+  <text id="status_var_Qcache_free_memory">
+   <trans xml:lang="en">Amount of free memory for query cache.</trans>
+   <trans xml:lang="de">Menge des freien Speichers für den Abfragen-Cache.</trans>
+  </text>
+  <text id="status_var_Qcache_free_blocks">
+   <trans xml:lang="en">Number of free memory blocks in query cache.</trans>
+   <trans xml:lang="de">Anzahl freier Speicherblöcke im Abfragen-Cache.</trans>
+  </text>
+  <text id="status_var_Qcache_total_blocks">
+   <trans xml:lang="en">Total number of blocks in query cache.</trans>
+   <trans xml:lang="de">Gesamtzahl von Blöcken im Abfragen-Cache.</trans>
+  </text>
+  <text id="status_var_Key_blocks_not_flushed">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Key_blocks_used">
+   <trans xml:lang="en">Number of used blocks in the key cache.</trans>
+   <trans xml:lang="de">Anzahl der benutzten Blocks im Schlüssel-Cache.</trans>
+  </text>
+  <text id="status_var_Key_read_requests">
+   <trans xml:lang="en">Number of requests to read a key block from the cache.</trans>
+   <trans xml:lang="de">Anzahl der Anforderungen, einen Schlüssel-Block aus dem Cache zu lesen.</trans>
+  </text>
+  <text id="status_var_Key_reads">
+   <trans xml:lang="en">The number of physical reads of a key block from disk.</trans>
+   <trans xml:lang="de">Die Anzahl physikalischer Lesezugriffe eines Schlüssel-Blocks von der Platte.</trans>
+  </text>
+  <text id="status_var_Key_write_requests">
+   <trans xml:lang="en">The number of requests to write a key block to the cache.</trans>
+   <trans xml:lang="de">Die Anzahl der Anforderungen, einen Schlüssel-Block in den Cache zu schreiben.</trans>
+  </text>
+  <text id="status_var_Key_writes">
+   <trans xml:lang="en">The number of physical writes of a key block to disk.</trans>
+   <trans xml:lang="de">Die Anzahl physikalischer Schreibvorgänge eines Schlüssel-Blocks auf Platte. </trans>
+  </text>
+  <text id="status_var_Not_flushed_key_blocks">
+   <trans xml:lang="en">Keys blocks in the key cache that has changed but hasn't yet been flushed to disk. </trans>
+   <trans xml:lang="de">Schlüssel-Blöcke im Schlüssel-Cache, die verändert wurden, aber noch nicht auf die Platte zurück geschrieben (flush).</trans>
+  </text>
+  <text id="status_var_Sort_merge_passes">
+   <trans xml:lang="en">Number of merge passes the sort algorithm have had to do. If this value is large you should consider increasing sort_buffer.</trans>
+   <trans xml:lang="de">Anzahl der Merge-Durchgänge, die der Sortieralgorithmus durchführen musste. Wenn dieser Wert hoch ist, sollten Sie eventuell den sort_buffer vergrößern.</trans>
+  </text>
+  <text id="status_var_Sort_range">
+   <trans xml:lang="en">Number of sorts that were done with ranges.</trans>
+   <trans xml:lang="de">Anzahl der Sortiervorgänge, die mit Bereichen durchgeführt wurden.</trans>
+  </text>
+  <text id="status_var_Sort_rows">
+   <trans xml:lang="en">Number of sorted rows.</trans>
+   <trans xml:lang="de">Anzahl der sortierten Zeilen.</trans>
+  </text>
+  <text id="status_var_Sort_scan">
+   <trans xml:lang="en">Number of sorts that were done by scanning the table.</trans>
+   <trans xml:lang="de">Anzahl der Sortiervorgänge, die durchgeführt wurden, indem die Tabelle gescannt wurde.</trans>
+  </text>
+  <text id="status_var_Delayed_insert_threads">
+   <trans xml:lang="en">Number of delayed insert handler threads in use.</trans>
+   <trans xml:lang="de">Anzahl der verzögerten Insert-Handler-Threads, die in Benutzung sind.</trans>
+  </text>
+  <text id="status_var_Delayed_writes">
+   <trans xml:lang="en">Number of rows written with INSERT DELAYED.</trans>
+   <trans xml:lang="de">Anzahl der Zeilen, die mit INSERT DELAYED geschrieben wurden.</trans>
+  </text>
+  <text id="status_var_Delayed_errors">
+   <trans xml:lang="en">Number of rows written with INSERT DELAYED for which some error occurred (probably duplicate key).</trans>
+   <trans xml:lang="de">Anzahl der Zeilen, die mit INSERT DELAYED geschrieben wurden, und bei denen irgend ein Fehler auftrat (wahrscheinlich duplicate key).</trans>
+  </text>
+  <text id="status_var_Not_flushed_delayed_rows">
+   <trans xml:lang="en">Number of rows waiting to be written in INSERT DELAY queues.</trans>
+   <trans xml:lang="de">Anzahl der Zeilen, die in INSERT DELAY-Warteschleifen darauf warten, geschrieben zu werden.</trans>
+  </text>
+  <text id="status_var_Select_full_join">
+   <trans xml:lang="en">Number of joins without keys. If this is not 0, you should carefully check the indexes of your tables.</trans>
+   <trans xml:lang="de">Anzahl der Joins ohne Schlüssel. Wenn dieser Wert nicht 0 ist, sollten Sie die Indizes Ihrer Tabellen sorgfältig überprüfen.</trans>
+  </text>
+  <text id="status_var_Select_full_range_join">
+   <trans xml:lang="en">Number of joins where a range search on the reference table was used.</trans>
+   <trans xml:lang="de">Anzahl der Joins, bei denen eine Bereichssuche auf die Referenztabelle stattfand.</trans>
+  </text>
+  <text id="status_var_Select_range">
+   <trans xml:lang="en">Number of joins where ranges on the first table were used. It's normally not critical even if this is big.</trans>
+   <trans xml:lang="de">Anzahl der Joins, bei denen Bereiche auf der ersten Tabelle benutzt wurden. Es ist normalerweise unkritisch, wenn dieser Wert hoch ist.</trans>
+  </text>
+  <text id="status_var_Select_range_check">
+   <trans xml:lang="en">Number of joins without keys where we check for key usage after each row. If this is not 0, you should carefully check the indexes of your tables.</trans>
+   <trans xml:lang="de">Anzahl der Joins ohne Schlüssel, bei denen nach jeder Zeile auf Schlüsselbenutzung geprüft wurde. Wenn dieser Wert nicht 0 ist, sollten Sie die Indizes Ihrer Tabellen sorgfältig überprüfen.</trans>
+  </text>
+  <text id="status_var_Select_scan">
+   <trans xml:lang="en">Number of joins where a full scan of the first table was done.</trans>
+   <trans xml:lang="de">Anzahl der Joins, bei denen die erste Tabelle komplett gescannt wurde.</trans>
+  </text>
+  <text id="status_var_Table_locks_immediate">
+   <trans xml:lang="en">Number of times a table lock was acquired immediately.</trans>
+   <trans xml:lang="de">Anzahl der Tabellensperren, die sofort erlangt wurden.</trans>
+  </text>
+  <text id="status_var_Table_locks_waited">
+   <trans xml:lang="en">Number of times a table lock could not be acquired immediately and a wait was needed. If this is high, and you have performance problems, you should first optimize your queries, and then either split your table or tables or use replication.</trans>
+   <trans xml:lang="de">Wie oft eine Tabellensperre nicht sofort erlangt werden konnte und gewartet werden musst. Wenn dieser Wert hoch ist und Sie Performance-Probleme haben, sollten Sie zunächst Ihre Anfragen optimieren und dann entweder Ihre Tabelle(n) zerteilen oder Replikation benutzen.</trans>
+  </text>
+  <text id="status_var_Aborted_clients">
+   <trans xml:lang="en">Number of connections aborted because the client died without closing the connection properly.</trans>
+   <trans xml:lang="de">Anzahl der Verbindungen, die abgebrochen wurden, weil der Client beendet wurde, ohne die Verbindung ordnungsgemäß zu schließen.</trans>
+  </text>
+  <text id="status_var_Aborted_connects">
+   <trans xml:lang="en">Number of tries to connect to the MySQL server that failed.</trans>
+   <trans xml:lang="de">Anzahl der fehlgeschlagenen Versuche, sich mit dem MySQL-Server zu verbinden.</trans>
+  </text>
+  <text id="status_var_Connections">
+   <trans xml:lang="en">Number of connection attempts to the MySQL server.</trans>
+   <trans xml:lang="de">Anzahl der Verbindungsversuche zum MySQL-Server.</trans>
+  </text>
+  <text id="status_var_Max_used_connections">
+   <trans xml:lang="en">Maximum number of connections in use simultaneously.</trans>
+   <trans xml:lang="de">Maximale Anzahl gleichzeitiger Verbindungen.</trans>
+  </text>
+  <text id="status_var_Bytes_received">
+   <trans xml:lang="en">Number of bytes received from all clients.</trans>
+   <trans xml:lang="de">Anzahl der Bytes, die von allen Clients empfangen wurden.</trans>
+  </text>
+  <text id="status_var_Bytes_sent">
+   <trans xml:lang="en">Number of bytes sent to all clients.</trans>
+   <trans xml:lang="de">Anzahl der Bytes, die an alle Clients gesendet wurden.</trans>
+  </text>
+  <text id="status_var_Rpl_status">
+   <trans xml:lang="en">Status of failsafe replication.</trans>
+   <trans xml:lang="de">Status des ausfallsicheren Replikation.</trans>
+  </text>
+  <text id="status_var_Slave_open_temp_tables">
+   <trans xml:lang="en">Number of temporary tables currently open by the slave thread.</trans>
+   <trans xml:lang="de">Anzahl der temporären Tabellen, die momentan vom Slave-Thread geöffnet sind.</trans>
+  </text>
+  <text id="status_var_Slave_running">
+   <trans xml:lang="en">Is ON if this server is a slave that is connected to a master.</trans>
+   <trans xml:lang="de">Ist ON, wenn dieser Server ein Slave ist, der mit einem Master verbunden ist.</trans>
+  </text>
+  <text id="status_var_Com_admin_commands">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_begin">
+   <trans xml:lang="en">Number of BEGIN transactional commands performed since server start.</trans>
+   <trans xml:lang="de">Anzahl der transaktionalen BEGIN-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_change_db">
+   <trans xml:lang="en">Number of USE &lt;database&gt; commands performed that actually changed the default database, since server start.</trans>
+   <trans xml:lang="de">Anzahl der USE &lt;datenbank&gt;-Befehle, bei denen die vorgabemäßige Datenbank tatsächlich geändert wurde, seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_change_master">
+   <trans xml:lang="en">Number of CHANGE MASTER TO replication commands performed since server start.</trans>
+   <trans xml:lang="de">Anzahl der CHANGE MASTER TO-Replikationsbefehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_do">
+   <trans xml:lang="en">Number of DO commands performed since server start.</trans>
+   <trans xml:lang="de">Anzahl der DO-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_drop_user">
+   <trans xml:lang="en">Number of DROP USER commands performed since server start.</trans>
+   <trans xml:lang="de">Anzahl der DROP USER-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_flush">
+   <trans xml:lang="en">Number of FLUSH (LOGS, PRIVILEGES, etc.) commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der FLUSH (LOGS, PRIVILEGES usw.)-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_grant">
+   <trans xml:lang="en">Number of GRANT &lt;privileges&gt; commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der GRANT &lt;berechtigungen&gt;-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_ha_close">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_ha_open">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_ha_read">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_help">
+   <trans xml:lang="en">Number of HELP commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der HELP-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_kill">
+   <trans xml:lang="en">Number of KILL &lt;connection_id&gt; commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der KILL &lt;verbindungskennung&gt;-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_lock_tables">
+   <trans xml:lang="en">Number of LOCK TABLES commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der LOCK TABLES-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_preload_keys">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_purge">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_purge_before_date">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_reset">
+   <trans xml:lang="en">Number of RESET (MASTER | SLAVE) replication commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der RESET (MASTER | SLAVE)-Replikationsbefehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_revoke">
+   <trans xml:lang="en">Number of REVOKE &lt;privileges&gt; commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der REVOKE &lt;berechtigungen&gt;-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_revoke_all">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_savepoint">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_set_option">
+   <trans xml:lang="en">Number of SET (GLOBAL | LOCAL) VARIABLE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SET (GLOBAL | LOCAL) VARIABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_slave_start">
+   <trans xml:lang="en">Number of START SLAVE replication commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der START SLAVE-Replikationsbefehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_slave_stop">
+   <trans xml:lang="en">Number of STOP SLAVE replication commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der STOP SLAVE-Replikationsbefehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_unlock_tables">
+   <trans xml:lang="en">Number of UNLOCK TABLES commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der UNLOCK TABLES-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Flush_commands">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_alter_db">
+   <trans xml:lang="en">Number of ALTER DATABASE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der ALTER DATABASE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_alter_table">
+   <trans xml:lang="en">Number of ALTER TABLE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der ALTER TABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_analyze">
+   <trans xml:lang="en">Number of ANALYZE TABLE commands performed since server start.</trans>
+   <trans xml:lang="de">Anzahl der ANALYZE TABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_backup_table">
+   <trans xml:lang="en">Number of BACKUP TABLE commands performed since server start.</trans>
+   <trans xml:lang="de">Anzahl der BACKUP TABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_check">
+   <trans xml:lang="en">Number of CHECK TABLE commands performed since server start.</trans>
+   <trans xml:lang="de">Anzahl der CHECK TABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_checksum">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_create_db">
+   <trans xml:lang="en">Number of CREATE DB commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der ALTER DB-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_create_function">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_create_index">
+   <trans xml:lang="en">Number of CREATE INDEX commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der CREATE INDEX-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_create_table">
+   <trans xml:lang="en">Number of CREATE TABLE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der CREATE TABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_delete">
+   <trans xml:lang="en">Number of DELETE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der DELETE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_delete_multi">
+   <trans xml:lang="en">Number of DELETE commands with more than one table involved since server start.</trans>
+   <trans xml:lang="de">Anzahl der DELETE-Befehle, die mehr als eine Tabelle umfassen, seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_drop_db">
+   <trans xml:lang="en">Number of DROP DATABASE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der DROP DATABASE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_drop_function">
+   <trans xml:lang="en">Number of DROP FUNCTION commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der DROP FUNCTION-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_drop_index">
+   <trans xml:lang="en">Number of DROP INDEX commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der DROP INDEX-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_drop_table">
+   <trans xml:lang="en">Number of DROP TABLE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der DROP TABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_optimize">
+   <trans xml:lang="en">Number of OPTIMIZE TABLE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der OPTIMIZE TABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_rename_table">
+   <trans xml:lang="en">Number of RENAME TABLE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der RENAME TABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_repair">
+   <trans xml:lang="en">Number of REPAIR TABLE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der REPAIR TABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_restore_table">
+   <trans xml:lang="en">Number of RESTORE TABLE commands since server start (regardless whether or not those were successful).</trans>
+   <trans xml:lang="de">Anzahl der RESTORE TABLE-Befehle seit Serverstart (unabhängig davon, ob diese erfolgreich waren oder nicht).</trans>
+  </text>
+  <text id="status_var_Com_truncate">
+   <trans xml:lang="en">Number of TRUNCATE TABLE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der TRUNCATE TABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_commit">
+   <trans xml:lang="en">Number of COMMIT transactional commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der transaktionalen COMMIT-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_insert">
+   <trans xml:lang="en">Number of INSERT commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der INSERT-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_insert_select">
+   <trans xml:lang="en">Number of INSERT ... SELECT FROM &lt;tbl&gt; commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der INSERT ... SELECT FROM &lt;tbl&gt;-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_load">
+   <trans xml:lang="en">Number of LOAD DATA INFILE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der LOAD DATA INFILE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_load_master_data">
+   <trans xml:lang="en">Number of LOAD DATA FROM MASTER replication commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der LOAD DATA FROM MASTER-Replikationsbefehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_load_master_table">
+   <trans xml:lang="en">Number of LOAD TABLE FROM MASTER replication commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der LOAD TABLE FROM MASTER-Replikationsbefehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_replace">
+   <trans xml:lang="en">Number of REPLACE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der REPLACE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_replace_select">
+   <trans xml:lang="en">Number of REPLACE ... SELECT FROM &lt;tbl&gt; commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der REPLACE ... SELECT FROM &lt;tbl&gt;-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_rollback">
+   <trans xml:lang="en">Number of ROLLBACK transactional commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der transaktionalen ROLLBACK-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_select">
+   <trans xml:lang="en">Number of SELECT commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SELECT-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_update">
+   <trans xml:lang="en">Number of UPDATE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der UPDATE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_update_multi">
+   <trans xml:lang="en">Number of UPDATE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der UPDATE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_binlog_events">
+   <trans xml:lang="en">Number of SHOW BINLOG EVENTS commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW BINLOG EVENTS-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_binlogs">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_show_charsets">
+   <trans xml:lang="en">Number of SHOW CHARACTER SET commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW CHARACTER SET-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_collations">
+   <trans xml:lang="en">Number of SHOW COLLATION commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW COLLATION-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_column_types">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_show_create_db">
+   <trans xml:lang="en">Number of SHOW CREATE DATABASE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW CREATE DATABASE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_create_table">
+   <trans xml:lang="en">Number of SHOW CREATE TABLE commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW CREATE TABLE-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_databases">
+   <trans xml:lang="en">Number of SHOW DATABASES commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW DATABASES-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_errors">
+   <trans xml:lang="en">Number of SHOW ERRORS commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW ERRORS-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_fields">
+   <trans xml:lang="en">Number of SHOW (FIELDS | COLUMNS) FROM &lt;tbl&gt; or DESCRIBE &lt;tbl&gt; commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW (FIELDS | COLUMNS) FROM &lt;tbl&gt; or DESCRIBE &lt;tbl&gt;-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_grants">
+   <trans xml:lang="en">Number of SHOW GRANTS commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW GRANTS-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_keys">
+   <trans xml:lang="en">Number of SHOW (INDEX | KEYS) commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW (INDEX | KEYS)-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_logs">
+   <trans xml:lang="en">Number of SHOW LOGS commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW LOGS-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_master_status">
+   <trans xml:lang="en">Number of SHOW MASTER STATUS replication commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW MASTER STATUS-Replikationsbefehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_new_master">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_Com_show_open_tables">
+   <trans xml:lang="en">Number of SHOW OPEN TABLES commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW OPEN TABLES-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_privileges">
+   <trans xml:lang="en">Number of SHOW PRIVILEGES commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW PRIVILEGES-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_processlist">
+   <trans xml:lang="en">Number of SHOW PROCESSLIST commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW PROCESSLIST-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_slave_hosts">
+   <trans xml:lang="en">Number of SHOW SLAVE HOSTS replication commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW SLAVE HOSTS-Replikationsbefehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_slave_status">
+   <trans xml:lang="en">Number of SHOW SLAVE STATUS replication commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW SLAVE STATUS Replikationsbefehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_status">
+   <trans xml:lang="en">Number of SHOW STATUS commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW STATUS-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_storage_engines">
+   <trans xml:lang="en">Number of SHOW STORAGE ENGINES commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW STORAGE ENGINES-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_innodb_status">
+   <trans xml:lang="en">Number of SHOW INNODB STATUS commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW INNODB STATUS-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_tables">
+   <trans xml:lang="en">Number of SHOW TABLES commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW TABLES-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_variables">
+   <trans xml:lang="en">Number of SHOW VARIABLES commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW VARIABLES-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Com_show_warnings">
+   <trans xml:lang="en">Number of SHOW WARNINGS commands since server start.</trans>
+   <trans xml:lang="de">Anzahl der SHOW WARNINGS-Befehle seit Serverstart.</trans>
+  </text>
+  <text id="status_var_Handler_commit">
+   <trans xml:lang="en">Number of internal COMMIT commands.</trans>
+   <trans xml:lang="de">Anzahl der internen COMMIT Befehle.</trans>
+  </text>
+  <text id="status_var_Handler_delete">
+   <trans xml:lang="en">Number of times a row was deleted from a table.</trans>
+   <trans xml:lang="de">Wie oft eine Zeile aus einer Tabelle gelöscht wurde.</trans>
+  </text>
+  <text id="status_var_Handler_read_first">
+   <trans xml:lang="en">Number of times the first entry was read from an index. If this is high, it suggests that the server is doing a lot of full index scans, for example, SELECT col1 FROM foo, assuming that col1 is indexed.</trans>
+   <trans xml:lang="de">Wie oft der erste Eintrag aus einem Index gelesen wurde. Wenn dieser Wert hoch ist, legt das nahe, dass der Server viele komplette Index-Scans macht (zum Beispiel SELECT spalte1 FROM foo, unter der Annahme, dass spalte1 indiziert ist).</trans>
+  </text>
+  <text id="status_var_Handler_read_key">
+   <trans xml:lang="en">Number of requests to read a row based on a key. If this is high, it is a good indication that your queries and tables are properly indexed.</trans>
+   <trans xml:lang="de">Anzahl der Anfragen, eine Zeile basierend auf einem Schlüssel zu lesen. Wenn dieser Wert hoch ist, ist das ein gutes Indiz dafür, dass Ihre Anfragen und Tabellen korrekt indiziert sind.</trans>
+  </text>
+  <text id="status_var_Handler_read_next">
+   <trans xml:lang="en">Number of requests to read next row in key order. This will be incremented if you are querying an index column with a range constraint. This also will be incremented if you are doing an index scan.</trans>
+   <trans xml:lang="de">Anzahl der Anfragen, die nächste Zeile in der Reihenfolge des Schlüssels zu lesen. Dieser Wert wird herauf gezählt, wenn Sie eine Index-Spalte mit einer Bereichsbeschränkung (Limit) abfragen. Er wird ebenfalls herauf gezählt, wenn Sie einen Index-Scan durchführen.</trans>
+  </text>
+  <text id="status_var_Handler_read_prev">
+   <trans xml:lang="en">Number of requests to read previous row in key order. This is mainly used to optimize ORDER BY ... DESC.</trans>
+   <trans xml:lang="de">Anzahl der Anfragen, die vorhergehende Zeile in der Reihenfolge des Schlüssels zu lesen.</trans>
+  </text>
+  <text id="status_var_Handler_read_rnd">
+   <trans xml:lang="en">Number of requests to read a row based on a fixed position. This will be high if you are doing a lot of queries that require sorting of the result.</trans>
+   <trans xml:lang="de">Anzahl der Anfragen, eine Zeile basierend auf einer festen Position zu lesen. Dieser Wert wird hoch sein, wenn Sie viele Anfragen ausführen, die erfordern, dass das Ergebnis sortiert wird.</trans>
+  </text>
+  <text id="status_var_Handler_read_rnd_next">
+   <trans xml:lang="en">Number of requests to read the next row in the datafile. This will be high if you are doing a lot of table scans. Generally this suggests that your tables are not properly indexed or that your queries are not written to take advantage of the indexes you have. </trans>
+   <trans xml:lang="de">Anzahl der Anfragen, die nächste Zeile in der Daten-Datei zu lesen. Dieser Wert wird hoch sein, wenn Sie viele Tabellen-Scans durchführen. Im Allgemeinen weist das darauf hin, dass Ihre Tabellen nicht korrekt indiziert sind, oder dass Ihre Anfragen nicht so geschrieben sind, dass Sie Vorteile aus den Indexen ziehen, die Sie haben.</trans>
+  </text>
+  <text id="status_var_Handler_rollback">
+   <trans xml:lang="en">Number of internal ROLLBACK commands.</trans>
+   <trans xml:lang="de">Anzahl der Threads, die nicht schlafen.</trans>
+  </text>
+  <text id="status_var_Handler_update">
+   <trans xml:lang="en">Number of requests to update a row in a table.</trans>
+   <trans xml:lang="de">Anzahl der Anfragen, eine Zeile in einer Tabelle zu aktualisieren.</trans>
+  </text>
+  <text id="status_var_Handler_write">
+   <trans xml:lang="en">Number of requests to insert a row in a table.</trans>
+   <trans xml:lang="de">Anzahl der Anfragen, eine Zeile in eine Tabelle einzufügen.</trans>
+  </text>
+  <text id="status_var_innodb_buffer_free_buffers">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_innodb_buffer_pages_created">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_innodb_buffer_pages_read">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="status_var_innodb_buffer_pages_written">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <!-- System Variables -->
+  <!-- Group (Category) Names -->
+  <text id="system_var_group_BDB">
+   <trans xml:lang="en">BDB</trans>
+   <trans xml:lang="de">BDB</trans>
+  </text>
+  <text id="system_var_group_Buffers">
+   <trans xml:lang="en">Buffers</trans>
+   <trans xml:lang="de">Buffers</trans>
+  </text>
+  <text id="system_var_group_Caches">
+   <trans xml:lang="en">Caches</trans>
+   <trans xml:lang="de">Caches</trans>
+  </text>
+  <text id="system_var_group_General">
+   <trans xml:lang="en">General</trans>
+   <trans xml:lang="de">Allgemein</trans>
+  </text>
+  <text id="system_var_group_Features">
+   <trans xml:lang="en">Features</trans>
+   <trans xml:lang="de">Features</trans>
+  </text>
+  <text id="system_var_group_Charsets_Formats">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_group_Connections">
+   <trans xml:lang="en">Connections</trans>
+   <trans xml:lang="de">Verbindungen</trans>
+  </text>
+  <text id="system_var_group_DirectoriesFiles">
+   <trans xml:lang="en">Directories/Files</trans>
+   <trans xml:lang="de">Verzeichnisse/Dateien</trans>
+  </text>
+  <text id="system_var_group_Full_Text_Search">
+   <trans xml:lang="en">Full Text Search</trans>
+   <trans xml:lang="de">Volltext-Suche</trans>
+  </text>
+  <text id="system_var_group_InnoDB">
+   <trans xml:lang="en">InnoDB</trans>
+   <trans xml:lang="de">InnoDB</trans>
+  </text>
+  <text id="system_var_group_Logs">
+   <trans xml:lang="en">Logs</trans>
+   <trans xml:lang="de">Logs</trans>
+  </text>
+  <text id="system_var_group_Memory">
+   <trans xml:lang="en">Memory</trans>
+   <trans xml:lang="de">Speicher</trans>
+  </text>
+  <text id="system_var_group_MyIsam">
+   <trans xml:lang="en">MyISAM</trans>
+   <trans xml:lang="de">MyISAM</trans>
+  </text>
+  <text id="system_var_group_Networking">
+   <trans xml:lang="en">Networking</trans>
+   <trans xml:lang="de">Netzwerk</trans>
+  </text>
+  <text id="system_var_group_Performance">
+   <trans xml:lang="en">Performance</trans>
+   <trans xml:lang="de">Performanz</trans>
+  </text>
+  <text id="system_var_group_SQL">
+   <trans xml:lang="en">SQL</trans>
+   <trans xml:lang="de">SQL</trans>
+  </text>
+  <text id="system_var_group_Table_Types">
+   <trans xml:lang="en">Storage Engines</trans>
+   <trans xml:lang="de">Speicher-Engines</trans>
+  </text>
+  <!-- Variables -->
+  <text id="system_var_version">
+   <trans xml:lang="en">Version number of the MySQL server.</trans>
+   <trans xml:lang="de">Versionsnummer des MySQL-Servers.</trans>
+  </text>
+  <text id="system_var_language">
+   <trans xml:lang="en">Language used for error messages.</trans>
+   <trans xml:lang="de">Sprache, in der Fehlermeldungen ausgegeben werden.</trans>
+  </text>
+  <text id="system_var_timezone">
+   <trans xml:lang="en">Timezone for the server. This is set from the TZ environment variable when the MySQL server is started.</trans>
+   <trans xml:lang="de">Zeitzone für den Server. Diese wird durch Auslesen der Umgebungsvariablen TZ gesetzt, wenn der MySQL-Server gestartet wird.</trans>
+  </text>
+  <text id="system_var_protocol_version">
+   <trans xml:lang="en">Protocol version used by the MySQL server.</trans>
+   <trans xml:lang="de">Protokoll-Version, die vom MySQL-Server benutzt wird.</trans>
+  </text>
+  <text id="system_var_server_id">
+   <trans xml:lang="en">Value of the --server-id option.</trans>
+   <trans xml:lang="de">Wert der Option --server-id.</trans>
+  </text>
+  <text id="system_var_port">
+   <trans xml:lang="en">Port on which the MySQL server listens. Value of the --port option.</trans>
+   <trans xml:lang="de">Port, auf dem der MySQL-Server lauscht. Wert der Option --port.</trans>
+  </text>
+  <text id="system_var_log_error">
+   <trans xml:lang="en">Name of the error log file.</trans>
+   <trans xml:lang="de">Name der Fehler-Logdatei.</trans>
+  </text>
+  <text id="system_var_init_file">
+   <trans xml:lang="en">The name of the file specified with the --init-file option when you start the server. This is a file of SQL statements you want the server to execute when it starts.</trans>
+   <trans xml:lang="de">Der Name der Datei, die mit der Option --init-file angegeben wurde, als Sie den Server starteten. Das ist eine Datei mit SQL-Statements, die der Server beim Start ausführen soll.</trans>
+  </text>
+  <text id="system_var_have_innodb">
+   <trans xml:lang="en">Indicates if the MySQL server supports InnoDB tables.</trans>
+   <trans xml:lang="de">Gibt an, ob der MySQL-Server InnoDB-Tabellen unterstützt.</trans>
+  </text>
+  <text id="system_var_have_bdb">
+   <trans xml:lang="en">Indicates if the MySQL server supports Berkeley DB tables.</trans>
+   <trans xml:lang="de">Gibt an, ob der MySQL-Server Berkeley-DB-Tabellen unterstützt.</trans>
+  </text>
+  <text id="system_var_have_crypt">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_have_isam">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_have_raid">
+   <trans xml:lang="en">Indicates if the MySQL server supports the RAID option.</trans>
+   <trans xml:lang="de">Gibt an, ob der MySQL-Server die RAID-Option unterstützt.</trans>
+  </text>
+  <text id="system_var_have_symlink">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_have_openssl">
+   <trans xml:lang="en">Indicates if the MySQL server supports SSL (encryption) on the client/server protocol.</trans>
+   <trans xml:lang="de">Gibt an, ob der MySQL-Server SSL (Verschlüsselung) auf dem Client-/Server-Protokoll unterstützt. </trans>
+  </text>
+  <text id="system_var_have_query_cache">
+   <trans xml:lang="en">Indicates if the MySQL server supports caching queries.</trans>
+   <trans xml:lang="de">Gibt an, ob der MySQL-Server das Cachen von Abfragen unterstützt.</trans>
+  </text>
+  <text id="system_var_concurrent_insert">
+   <trans xml:lang="en">If ON (the default), MySQL will allow you to use INSERT on MyISAM tables at the same time as you run SELECT queries on them.</trans>
+   <trans xml:lang="de">Falls ON (Vorgabe), läßt MySQL INSERT auf MyISAM-Tabellen zu, auf die zur gleichen Zeit SELECT-Anfragen laufen.</trans>
+  </text>
+  <text id="system_var_named_pipe">
+   <trans xml:lang="en">Indicates whether the MySQL server uses named pipes for local connections under Windows.</trans>
+   <trans xml:lang="de">Gibt an, ob der MySQL-Server Named Pipes für lokale Verbindungen unter Windows benutzt.</trans>
+  </text>
+  <text id="system_var_skip_networking">
+   <trans xml:lang="en">ON if the MySQL server allows local connections only.</trans>
+   <trans xml:lang="de">ON, wenn der MySQL-Server nur lokale Verbindungen zulässt.</trans>
+  </text>
+  <text id="system_var_low_priority_updates">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_lower_case_table_names">
+   <trans xml:lang="en">If set to 1, table names are stored in lowercase on disk and table name comparisons will be case-insensitive. From version 4.0.2, this option also applies to database names. From 4.1.1 this option also applies to table alias.</trans>
+   <trans xml:lang="de">Wenn auf 1 gesetzt, werden Tabellennamen in Kleinschreibung auf Platte gespeichert. Tabellennamen sind dann unabhängig von der verwendeten Groß-/Kleinschreibung. Ab Version 4.0.2 betrifft dies auch Datenbank-Namen. Ab Version 4.1.1 betrifft diese Option auch Tabellen-Aliase.</trans>
+  </text>
+  <text id="system_var_large_files_support">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_large_local_infile">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_new">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_read_only">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_datadir">
+   <trans xml:lang="en">Directory for database files. The value of the --datadir option.</trans>
+   <trans xml:lang="de">Verzeichnis für Datenbank-Dateien. Wert der Option --datadir.</trans>
+  </text>
+  <text id="system_var_tmpdir">
+   <trans xml:lang="en">Directory for temporary files. The value of the --tmpdir option.</trans>
+   <trans xml:lang="de">verzeichnis für temporäre Dateien. Wert der Option --tmpdir.</trans>
+  </text>
+  <text id="system_var_pid_file">
+   <trans xml:lang="en">PID file of the MySQL server process. The value of the --pid-file option.</trans>
+   <trans xml:lang="de">PID-Datei des MySQL-Server-Prozesses. Wert der Option --pid-file.</trans>
+  </text>  
+  <text id="system_var_bdb_home">
+   <trans xml:lang="en">BDB home directory. The value of the --bdb-home option</trans>
+   <trans xml:lang="de">BDB-Stammverzeichnis. Wert der Option --bdb-home.</trans>
+  </text>
+  <text id="system_var_bdb_logdir">
+   <trans xml:lang="en">BDB log file directory. The value of the --bdb-logdir option.</trans>
+   <trans xml:lang="de">BDB-Logdateien-Verzeichnis. Wert der Option --bdb-logdir.</trans>
+  </text>
+  <text id="system_var_bdb_tmpdir">
+   <trans xml:lang="en">BDB temporary files directory. The value of the --bdb_tmpdir option.</trans>
+   <trans xml:lang="de">BDB-Verzeichnis für temporäre Dateien. Wert der Option --bdb_tmpdir.</trans>
+  </text>
+  <text id="innodb_data_home_dir" desc_id="system_var_innodb_data_home_dir">
+   <trans xml:lang="en">Common part of the directory path for all InnoDB datafiles. Default is the MySQL datadir.</trans>
+   <trans xml:lang="de">Allgemeiner Teil des Verzeichnispfads für alle InnoDB-Daten-Dateien. Die Vorgabe für diesen Parameter ist das datadir von MySQL. </trans>
+  </text>
+  <text id="system_var_innodb_data_file_path">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_innodb_log_arch_dir">
+   <trans xml:lang="en">Directory where fully written log files would be archived if log archiving is used.</trans>
+   <trans xml:lang="de">Verzeichnis, in dem komplett geschriebene Log-Dateien archiviert werden, wenn Archivierung benutzt wird.</trans>
+  </text>
+  <text id="system_var_innodb_log_group_home_dir">
+   <trans xml:lang="en">Directory path to InnoDB log files. The default is the datadir of MySQL.</trans>
+   <trans xml:lang="de">Verzeichnispfad zu den InnoDB-Log-Dateien. Vorgabe ist das datadir von MySQL.</trans>
+  </text>
+  <text id="system_var_open_files_limit">
+   <trans xml:lang="en">Number of files the system allows the MySQL server to open.</trans>
+   <trans xml:lang="de">Anzahl der Dateien, die der MySQL-Server auf dem System öffnen kann.</trans>
+  </text>
+  <text id="system_var_log">
+   <trans xml:lang="en">Indicates if the general query log is enabled.</trans>
+   <trans xml:lang="de">Gibt an, ob die allgemeine Abfragen-Logdatei angeschaltet ist.</trans>
+  </text>
+  <text id="system_var_log_update">
+   <trans xml:lang="en">Indicates if the update log is enabled.</trans>
+   <trans xml:lang="de">Gibt an, ob die Update-Logdatei angeschaltet ist.</trans>
+  </text>
+  <text id="system_var_log_bin">
+   <trans xml:lang="en">Indicates if the binary update log is enabled.</trans>
+   <trans xml:lang="de">Gibt an, ob die binäre Update-Logdatei angeschaltet ist.</trans>
+  </text>  
+  <text id="system_var_log_slave_updates">
+   <trans xml:lang="en">Indicates if updates from the slave should be logged.</trans>
+   <trans xml:lang="de">Gibt an, ob Aktualisierungen vom Slave geloggt werden sollen.</trans>
+  </text>
+  <text id="system_var_log_slow_queries">
+   <trans xml:lang="en">Indicates if the slow query log is enabled.</trans>
+   <trans xml:lang="de">Gibt an, ob die Logdatei für langsame Abfragen angeschaltet ist.</trans>
+  </text>
+  <text id="system_var_rpl_recovery_rank">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_max_binlog_cache_size">
+   <trans xml:lang="en">If a multiple-statement transaction requires more than this amount of memory, one will get the error "Multi-statement transaction required more than 'max_binlog_cache_size' bytes of storage".</trans>
+   <trans xml:lang="de">Wenn eine aus mehreren Statements bestehende Transaktion mehr als diese Menge an Speicher benötigt, erhalten Sie den Fehler "Multi-statement transaction required more than 'max_binlog_cache_size' bytes of storage".</trans>
+  </text>
+  <text id="system_var_max_binlog_size">
+   <trans xml:lang="en">If a write to the binary update log exceeds the given value, rotate the logs.</trans>
+   <trans xml:lang="de">Wenn ein Schreibvorgang auf die binäre Update-Logdatei den angegebenen Wert überschreitet, werden die Logdateien rotiert.</trans>
+  </text>
+  <text id="system_var_max_relay_log_size">
+   <trans xml:lang="en">If a write to the relay log exceeds the given value, rotate the relay log.</trans>
+   <trans xml:lang="de">Wenn ein Schreibvorgang auf die Relay-Logdatei den angegebenen Wert überschreitet, werden die Logdateien rotiert.</trans>
+  </text>
+  <text id="system_var_innodb_log_file_size">
+   <trans xml:lang="en">Size of each log file in a log group in megabytes. Sensible values range from 1M to 1/n-th of the size of the buffer pool, where n is the number of log files in the group. The larger the value, the less checkpoint flush activity is needed in the buffer pool, saving disk I/O. But larger log files also mean that recovery will be slower in case of a crash. The combined size of log files must be less than 4 GB on 32-bit computers. The default is 5M.</trans>
+   <trans xml:lang="de">Größe jeder Logdatei in einer Log-Gruppe in Megabytes. Sinnvolle Werte reichen von 1 MB bis 1/n-tel der Größe des Puffer-Pools, wobei n die Anzahl der Log-Dateien in der Gruppe ist. Je größer der Wert, desto weniger Checkpoint-Flush-Aktivität wird im Puffer benötigt, was Festplatten-Ein- und -Ausgaben erspart. Größere Logdateien bedeutet jedoch auch, dass die Wiederherstellung im Fall eines Absturzes langsamer ist. Die Gesamtgröße aller Log-Dateien muss auf 32-Bit-Computern kleiner als 4 GB sein. Der Vorgabewert beträgt 5M.</trans>
+  </text>
+  <text id="system_var_innodb_log_files_in_group">
+   <trans xml:lang="en">Number of log files in the log group. InnoDB writes to the files in a circular fashion. Value 2 is recommended here. The default is 2.</trans>
+   <trans xml:lang="de">Anzahl von Logdateien in der Log-Gruppe. InnoDB schreibt in zirkulärer Weise in die Dateien. Hier wird ein Wert 2 empfohlen. Die Vorgabe ist 2.</trans>
+  </text>
+  <text id="system_var_bdb_log_buffer_size">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_long_query_time">
+   <trans xml:lang="en">If a query takes longer than this time (in seconds), the Slow_queries counter will be incremented.</trans>
+   <trans xml:lang="de">Wenn eine Anfrage länger als diese Zeit (in Sekunden) benötigt, wird der Slow_queries-Zähler hoch gezählt.</trans>
+  </text>
+  <text id="system_var_low_priority_updates">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_thread_cache_size">
+   <trans xml:lang="en">Indicates how many threads should be kept in a cache for reuse.</trans>
+   <trans xml:lang="de">Gibt an, wie viele Threads in einem Cache für die weitere Benutzung offen gehalten werden sollen.</trans>
+  </text>
+  <text id="system_var_slow_launch_time">
+   <trans xml:lang="en">If creating the thread takes longer than this time (in seconds), the Slow_launch_threads counter will be incremented.</trans>
+   <trans xml:lang="de">Wenn das Erzeugen des Threads länger als diese Zeit (in Sekunden) dauert, word der Slow_launch_threads-Zähler herauf gezählt.</trans>
+  </text>
+  <text id="system_var_delay_key_write">
+   <trans xml:lang="en">Option for MyISAM tables. Can have one of the following values: ON, OFF, ALL.</trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_delayed_insert_limit">
+   <trans xml:lang="en">After inserting delayed_insert_limit rows, the INSERT DELAYED handler will check if there are any SELECT statements pending. If so, it allows these to execute before continuing.</trans>
+   <trans xml:lang="de">Nachdem delayed_insert_limit Zeilen eingefügt wurden, prüft der INSERT DELAYED-Handler, ob noch irgendwelche SELECT-Statements anhängig sind. Falls ja, wird deren Ausführung zugelassen, bevor weiter gemacht wird.</trans>
+  </text>
+  <text id="system_var_delayed_insert_timeout">
+   <trans xml:lang="en">Indicates how long a INSERT DELAYED thread should wait for INSERT statements before terminating.</trans>
+   <trans xml:lang="de">Gibt an, wie lange ein INSERT DELAYED-Thread auf INSERT-Statements warten soll, bevor abgebrochen wird.</trans>
+  </text>
+  <text id="system_var_delayed_queue_size">
+   <trans xml:lang="en">Indicates what size queue (in rows) should be allocated for handling INSERT DELAYED. If the queue becomes full, any client that does INSERT DELAYED will wait until there is room in the queue again.</trans>
+   <trans xml:lang="de">Gibt an, welche Warteschleifen-(Queue)-Speichergröße (in Zeilen) für die Handhabung von INSERT DELAYED zugewiesen werden soll. Wenn die Queue voll ist, wartet jeder Client, der INSERT DELAYED ausführt, bis es wieder Platz in der Queue gibt.</trans>
+  </text>
+  <text id="system_var_flush">
+   <trans xml:lang="en">ON if you have started the MySQL server with the --flush option.</trans>
+   <trans xml:lang="de">ON, wenn Sie den MySQL-Server mit der Option --flush gestartet haben.</trans>
+  </text>
+  <text id="system_var_flush_time">
+   <trans xml:lang="en">If this is set to a non-zero value, then every flush_time seconds all tables will be closed (to free up resources and sync unflushed data to disk). We only recommend this option on Windows 95, 98, or Me, or on systems where you have very little resources.</trans>
+   <trans xml:lang="de">Wenn diese Variable auf einen Wert ungleich 0 gesetzt wird, dann werden alle flush_time Sekunden alle Tabelle geschlossen (um Ressourcen frei zu geben und Dinge auf Platte zurück zu schreiben). Diese Option empfehlen wir nur auf Windows 95, 98 und ME oder auf Systemen, auf denen Sie sehr wenige Ressourcen haben.</trans>
+  </text>
+  <text id="system_var_max_delayed_threads">
+   <trans xml:lang="en">Don't start more than this number of threads to handle INSERT DELAYED statements.</trans>
+   <trans xml:lang="de">Nicht mehr als diese Anzahl von Threads zulassen, um INSERT DELAYED-Statements abzuarbeiten.</trans>
+  </text>
+  <text id="system_var_max_seeks_for_key">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_max_write_lock_count">
+   <trans xml:lang="en">After this many write locks, allow some read locks to run in between.</trans>
+   <trans xml:lang="de">Nach dieser Anzahl Schreibsperren wird einigen Lesesperren erlaubt, zwischendurch zu laufen.</trans>
+  </text>
+  <text id="system_var_max_join_size">
+   <trans xml:lang="en">Joins that are probably going to read more than max_join_size records return an error. Set this value if your users tend to perform joins that lack a WHERE clause, that take a long time, and that return millions of rows.</trans>
+   <trans xml:lang="de">Joins, die wahrscheinlich mehr als max_join_size Datensätze lesen werden, geben einen Fehler zurück. Setzen Sie diesen Wert, wenn Ihre Benutzer dazu neigen, Joins auszuführen, denen eine WHERE-Klausel fehlt und die daher lange Zeit benötigen und womöglich Millionen von Zeilen zurück geben.</trans>
+  </text>
+  <text id="system_var_max_sort_length">
+   <trans xml:lang="en">Number of bytes to use when sorting BLOB or TEXT values. Only the first max_sort_length bytes of each value are used; the rest are ignored.</trans>
+   <trans xml:lang="de">Anzahl von Bytes, die beim Sortieren von BLOB- oder TEXT-Werten benutzt werden. Nur die ersten max_sort_length Bytes jedes Werts werden benutzt, der Rest wird ignoriert.</trans>
+  </text>
+  <text id="system_var_connect_timeout">
+   <trans xml:lang="en">Number of seconds the MySQL server is waiting for a connect packet before responding with "Bad handshake".</trans>
+   <trans xml:lang="de">Anzahl von Sekunden, die der MySQL-Server auf ein Verbindungspaket wartet, bevor er mit "Bad handshake" antwortet.</trans>
+  </text>
+  <text id="system_var_interactive_timeout">
+   <trans xml:lang="en">Number of seconds the server waits for activity on an interactive connection before closing it. An interactive client is defined as a client that uses the CLIENT_INTERACTIVE option to mysql_real_connect().</trans>
+   <trans xml:lang="de">Anzahl von Sekunden, die der Server bei einer interaktiven Verbindung wartet, bevor er sie schließt. Ein interaktiver Client ist definiert als Client, der die Option CLIENT_INTERACTIVE für mysql_real_connect() benutzt.</trans>
+  </text>
+  <text id="system_var_wait_timeout">
+   <trans xml:lang="en">Number of seconds the server waits for activity on a not interactive connection before closing it.</trans>
+   <trans xml:lang="de">Anzahl von Sekunden, die der Server auf Aktivität auf einer nicht interaktiven Verbindung wartet, bevor er sie schließt.</trans>
+  </text>
+  <text id="system_var_back_log">
+   <trans xml:lang="en">Number of outstanding connection requests MySQL can have.</trans>
+   <trans xml:lang="de">Anzahl unerledigter Verbindungsanforderung, die MySQL haben kann.</trans>
+  </text>
+  <text id="system_var_max_connections">
+   <trans xml:lang="en">Number of simultaneous clients allowed. Increasing this value increases the number of file descriptors that MySQL server requires.</trans>
+   <trans xml:lang="de">Anzahl von Clients, die gleichzeitig verbunden sind. Wenn Sie diesen Wert hoch setzen, wird die Anzahl der Datei-Deskriptoren heraufgesetzt, die der MySQL-Server benötigt.</trans>
+  </text>
+  <text id="system_var_max_connect_errors">
+   <trans xml:lang="en">If there is more than this number of interrupted connections from a host this host will be blocked from further connections. You can unblock a host with the command FLUSH HOSTS.</trans>
+   <trans xml:lang="de">Wenn es mehr als diese Anzahl unterbrochener Verbindungen von einem Host gibt, wird dieser Host von weiteren Verbindungen abgeschnitten. Sie können diese Sperre mit dem FLUSH HOSTS-Befehl aufheben.</trans>
+  </text>
+  <text id="system_var_max_user_connections">
+   <trans xml:lang="en">Maximum number of active connections for a single user (0 = no limit).</trans>
+   <trans xml:lang="de">Maximale Anzahl aktiver Verbindungen für einen einzelnen Benutzer (0 = keine Beschränkung).</trans>
+  </text>
+  <text id="system_var_skip_show_database">
+   <trans xml:lang="en">This prevents users from doing SHOW DATABASES if they don't have the PROCESS privilege, or, as of version 4.0.2, the SHOW DATABASES privilege.</trans>
+   <trans xml:lang="de">Hält Benutzer davon ab, SHOW DATABASES zu benutzen, wenn sie keine PROCESS-Berechtigung haben, beziehungsweise (ab Version 4.0.2), keine SHOW DATABASES-Berechtigung.</trans>
+  </text>
+  <text id="system_var_net_read_timeout">
+   <trans xml:lang="en">Number of seconds to wait for more data from a connection before aborting the read. Note that when the MySQL server doesn't expect data from a connection, the timeout is defined by write_timeout.</trans>
+   <trans xml:lang="de">Anzahl von Sekunden, die auf weitere Daten von einer Verbindung gewartet wird, bevor das Lesen abgebrochen wird. Beachten Sie: Wenn keine Daten von einer Verbindung erwartet werden, ist der Timeout durch write_timeout definiert.</trans>
+  </text>
+  <text id="system_var_net_retry_count">
+   <trans xml:lang="en">If a read on a communication port is interrupted, retry as many times as specified before giving up. This value should be quite high on FreeBSD as internal interrupts are sent to all threads.</trans>
+   <trans xml:lang="de">Wenn ein Lesevorgang auf einem Kommunikationsport unterbrochen wird, wird so oft wie angegeben neu versucht, bevor aufgegeben wird. Dieser Wert sollte auf FreeBSD recht hoch sein, weil interne Unterbrechungsanforderungen (Interrupts) an alle Threads gesendet werden.</trans>
+  </text>
+  <text id="system_var_net_write_timeout">
+   <trans xml:lang="en">Number of seconds to wait for a block to be written to a connection before aborting the write.</trans>
+   <trans xml:lang="de">Anzahl von Sekunden, die auf das Schreiben eines Blocks über eine Verbindung gewartet wird, bis das Schreiben abgebrochen wird.</trans>
+  </text>
+  <text id="system_var_connect_timeout">
+   <trans xml:lang="en">Number of seconds the MySQL server is waiting for a connect packet before responding with "Bad handshake".</trans>
+   <trans xml:lang="de">Anzahl von Sekunden, die der MySQL-Server auf ein Verbindungspaket wartet, bevor er mit "Bad handshake" antwortet.</trans>
+  </text>
+  <text id="system_var_wait_timeout">
+   <trans xml:lang="en">Number of seconds the MySQL server waits for activity on a not interactive connection before closing it.</trans>
+   <trans xml:lang="de">Anzahl von Sekunden, die der MySQL-Server auf Aktivität auf einer Verbindung wartet, bevor er sie schließt.</trans>
+  </text>
+  <text id="system_var_slave_net_timeout">
+   <trans xml:lang="en">Number of seconds to wait for more data from a master/slave connection before aborting the read.</trans>
+   <trans xml:lang="de">Anzahl von Sekunden, die auf mehr Daten von einer Master-Slave-Verbindung gewartet wird, bevor der Lesevorgang abgebrochen wird.</trans>
+  </text>
+  <text id="system_var_max_allowed_packet">
+   <trans xml:lang="en">Maximum size of one packet. The message buffer is initialized to net_buffer_length bytes, but can grow up to max_allowed_packet bytes when needed.</trans>
+   <trans xml:lang="de">Maximale Größe eine Pakets. Der Nachrichtenpuffer wird auf net_buffer_length Bytes Länge initialisiert, kann aber wenn nötig bis zu max_allowed_packet Bytes groß werden.</trans>
+  </text>
+  <text id="system_var_lower_case_table_names">
+   <trans xml:lang="en">If set to 1 table names are stored in lowercase on disk and table name comparisons will be case-insensitive.</trans>
+   <trans xml:lang="de">Wenn auf 1 gesetzt, werden Tabellennamen in Kleinschreibung auf Platte gespeichert. Tabellennamen-Vergleiche sind dann unabhängig von der verwendeten Groß-/Kleinschreibung.</trans>
+  </text>
+  <text id="system_var_tx_isolation">
+   <trans xml:lang="en">The transaction isolation level the InnoDB storage engine uses. This can be either READ-UNCOMMITTED, READ-COMMITTED, REPEATABLE-READ, or SERIALIZABLE.</trans>
+   <trans xml:lang="de">Die von der InnoDB-Speicher-Engine verwendete Transaktionsisolationsebene. Kann eine der folgenden Werte sein: READ-UNCOMMITTED, READ-COMMITTED, REPEATABLE-READ oder SERIALIZABLE.</trans>
+  </text>
+  <text id="system_var_sql_mode">
+   <trans xml:lang="en">The SQL mode define what SQL syntax MySQL should support and what kind of validation checks it should perform on the data. As of version 4.1.1, the following modes are supported: ANSI, DB2, MAXDB, MSSQL, MYSQL323, MYSQL40, ORACLE, and POSTGRESQL.</trans>
+   <trans xml:lang="de">Der SQL-Modus legt fest, welche SQL-Syntax MySQL unterstützen soll und welche Art von Gültigkeitsprüfungen in Bezug auf die Daten durchgeführt werden sollen. Ab Version 4.1.1 werden folgende Modi unterstützt: ANSI, DB2, MAXDB, MSSQL, MYSQL323, MYSQL40, ORACLE und POSTGRESQL.</trans>
+  </text>
+  <text id="system_var_skip_external_locking">
+   <trans xml:lang="en">If the MySQL server uses external locking, this value is ON; otherwise, it's OFF.</trans>
+   <trans xml:lang="de">Wenn der MySQL-Server externe Sperren verwendet, is dieser Wert ON, ansonsten OFF.</trans>
+  </text>
+  <text id="system_var_max_sort_length">
+   <trans xml:lang="en">Number of bytes to use when sorting BLOB or TEXT values. Only the first max_sort_length bytes of each value are used; the rest are ignored.</trans>
+   <trans xml:lang="de">Anzahl von Bytes, die beim Sortieren von BLOB- oder TEXT-Werten benutzt werden. Nur die ersten max_sort_length Bytes jedes Werts werden benutzt, der Rest wird ignoriert.</trans>
+  </text>
+  <text id="system_var_character_set">
+   <trans xml:lang="en">The default character set.</trans>
+   <trans xml:lang="de">Der vorgabemäßige Zeichensatz.</trans>
+  </text>
+  <text id="system_var_character_sets">
+   <trans xml:lang="en">The supported character sets.</trans>
+   <trans xml:lang="de">Die unterstützten Zeichensätze.</trans>
+  </text>
+  <text id="system_var_convert_character_set">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_log_default_week_format">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_ft_boolean_syntax">
+   <trans xml:lang="en">List of operators supported by MATCH ... AGAINST(... IN BOOLEAN MODE).</trans>
+   <trans xml:lang="de">Liste von Operatoren, die von MATCH  ... AGAINST(... IN BOOLEAN MODE) unterstützt werden.</trans>
+  </text>
+  <text id="system_var_ft_min_word_len">
+   <trans xml:lang="en">Minimum length of a word to be included in a FULLTEXT index.</trans>
+   <trans xml:lang="de">Minimale Länge eines Worts, das in einen FULLTEXT-Index aufgenommen wird.</trans>
+  </text>
+  <text id="system_var_ft_max_word_len">
+   <trans xml:lang="en">Maximum length of a word to be included in a FULLTEXT index.</trans>
+   <trans xml:lang="de">Maximale Länge eines Worts, das in einen FULLTEXT-Index aufgenommen wird.</trans>
+  </text>
+  <text id="system_var_ft_max_word_len_for_sort">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_ft_stopword_file">
+   <trans xml:lang="en">The file from which the list of stopwords for full-text searches should be read from. All the words from the file will be used; comments are not honored.</trans>
+   <trans xml:lang="de">Die Datei, aus der die Liste der Stopp-Wörter für Volltext-Suchen gelesen wird. Alle Wörter in der Datei werden benutzt; Kommentare werden nicht berücksichtigt.</trans>
+  </text>
+  <text id="system_var_tmp_table_size">
+   <trans xml:lang="en">If an in-memory temporary table exceeds this size, MySQL will automatically convert it to an on-disk MyISAM table.</trans>
+   <trans xml:lang="de">Wenn eine temporäre Tabelle im Arbeitsspeicher diese Größe überschreitet, wandelt MySQL sie automatisch in eine MyISAM-Tabelle auf der Platte um.</trans>
+  </text>
+  <text id="system_var_max_tmp_tables">
+   <trans xml:lang="en">Maximum number of temporary tables a client can keep open at the same time.</trans>
+   <trans xml:lang="de">Maximale Anzahl von temporären Tabellen, die ein Client zur selben Zeit offen halten darf.</trans>
+  </text>
+  <text id="system_var_thread_stack">
+   <trans xml:lang="en">The stack size for each thread. Many of the limits detected by the crash-me test are dependent on this value. The default is large enough for normal operation.</trans>
+   <trans xml:lang="de">General</trans>
+  </text>
+  <text id="system_var_max_heap_table_size">
+   <trans xml:lang="en">Maximum size to which subsequently created HEAP tables are allowed to grow. The value of this variable is used to calculate a HEAP table's MAX_ROWS value. Setting this variable has no effect on any existing HEAP table, unless the table is recreated with a statement such as CREATE TABLE or TRUNCATE TABLE, or altered with ALTER TABLE.</trans>
+   <trans xml:lang="de">Maximaler Wert, bis zu dem nachfolgend erzeugte HEAP-Tabellen anwachsen dürfen. Der Wert dieser Variablen wird für die Berechnung des MAX_ROWS-Werts einer HEAP-Tabelle benutzt. Das Setzen dieser Variablen betrifft keine bereits bestehenden HEAP-Tabellen, es sei denn, die Tabelle wird mit einem Statement wie CREATE TABLE oder TRUNCATE TABLE neu erzeugt oder mit ALTER TABLE geändert.</trans>
+  </text>
+  <text id="system_var_bulk_insert_buffer_size">
+   <trans xml:lang="en">MyISAM uses special tree-like cache to make bulk inserts (that is, INSERT ... SELECT, INSERT ... VALUES (...), (...), (...), and LOAD DATA INFILE) faster. This variable limits the size of the cache tree in bytes per thread. Setting it to 0 will disable this optimization. Note: This cache is only used when adding data to a non-empty table. Default value is 8 MB.</trans>
+   <trans xml:lang="de">MyISAM benutzt einen speziellen, baumähnlichen Cache, um Massen-Einfügeoperationen (das heißt INSERT ... SELECT, INSERT ... VALUES (...), (...), (...) und LOAD DATA INFILE) zu beschleunigen. Wird diese Variable auf 0 gesetzt, wird diese Optimierung abgeschaltet. Beachten Sie, dass dieser Cache nur benutzt wird, wenn Daten in eine nicht leere Tabelle eingefügt werden. Der Vorgabewert ist 8 MB.</trans>
+  </text>
+  <text id="system_var_join_buffer_size">
+   <trans xml:lang="en">Size of the buffer that is used for full joins (joins that do not use indexes). The buffer is allocated one time for each full join between two tables. Increase this value to get a faster full join when adding indexes is not possible. (Normally the best way to get fast joins is to add indexes.)</trans>
+   <trans xml:lang="de">Größe des Puffers, der für volle Joins benutzt wird (Joins, die keine Indizes benutzen). Der Puffer wird einmal pro vollem Join zwischen zwei Tabellen zugewiesen. Setzen Sie diesen Wert herauf, um einen schnelleren vollen Join zu erhalten, wenn das Hinzufügen von Indizes nicht möglich ist. (Normalerweise ist die beste Art, schnelle Joins zu erhalten, das Hinzufügen von Indexen.)</trans>
+  </text>
+  <text id="system_var_key_buffer_size">
+   <trans xml:lang="en">Size of the buffer used for index blocks. Index blocks are buffered and are shared by all threads. Increase this value to get better index handling (for all reads and multiple writes) to as much as you can afford.</trans>
+   <trans xml:lang="de">Größe des für Index-Blöcke benutzten Puffers. Index-Blöcke werden gepuffert und von allen Threads gemeinsam benutzt. Machen Sie diesen Wert so groß wie möglich, um bessere Index-Handhabung zu erhalten (für alle Lese- sowie mehrfache Schreibvorgänge).</trans>
+  </text>
+  <text id="system_var_read_buffer_size">
+   <trans xml:lang="en">Each thread that does a sequential scan allocates a buffer of this size for each table it scans. If you do many sequential scans, you may want to increase this value.</trans>
+   <trans xml:lang="de">Jeder Thread, der ein sequenzielles Scannen durchführt, alloziert für jede Tabelle, die er scannt, einen Puffer dieser Größe. Wenn Sie viele sequenzielle Scans durchführen, sollten Sie diesen Wert heraufsetzen.</trans>
+  </text>
+  <text id="system_var_net_buffer_length">
+   <trans xml:lang="en">The communication buffer is reset to this size between queries. This should not normally be changed, but if you have very little memory, you can set it to the expected size of a query. (That is, the expected length of SQL statements sent by clients. If statements exceed this length, the buffer is automatically enlarged, up to max_allowed_packet bytes.)</trans>
+   <trans xml:lang="de">Der Kommunikationspuffer wird zwischen Abfragen auf diesen Wert zurückgesetzt. Normalerweise brauchen Sie das nicht ändern, doch wenn Sie sehr wenig Speicher zur Verfügung haben, können Sie ihn auf die erwartete Größe einer Abfrage setzen. (Das heißt, die erwartete Länge von SQL-Statements, die Clients schicken. Wenn Statements diese Länge überschreiten, wird der Puffer automatisch bis zu max_allowed_packet Bytes vergrößert.)</trans>
+  </text>
+  <text id="system_var_read_rnd_buffer_size">
+   <trans xml:lang="en">When reading rows in sorted order after a sort, the rows are read through this buffer to avoid disk seeks. Can improve ORDER BY by a lot if set to a high value. As this is a thread-specific variable, one should not set this big globally, but just change this when running some specific big queries.</trans>
+   <trans xml:lang="de">Wenn nach einem Sortiervorgang Zeilen in sortierter Reihenfolge gelesen werden, werden die Zeilen aus diesem Puffer gelesen, um Plattenzugriffe zu vermeiden. Da dies eine Thread-spezifische Variable ist, sollte sie nicht global groß gesetzt werden, sondern lediglich für den Ablauf großer Abfragen.</trans>
+  </text>
+  <text id="system_var_sort_buffer_size">
+   <trans xml:lang="en">Each thread that needs to do a sort allocates a buffer of this size. Increase this value for faster ORDER BY or GROUP BY operations.</trans>
+   <trans xml:lang="de">Jeder Thread, der einen Sortiergang durchführen muss, alloziert einen Puffer dieser Größe. Setzen Sie diesen Wert herauf, um schnellere ORDER BY- und GROUP BY-Operationen zu erhalten.</trans>
+  </text>
+  <text id="system_var_myisam_sort_buffer_size">
+   <trans xml:lang="en">The buffer that is allocated when sorting the index when doing a REPAIR or when creating indexes with CREATE INDEX or ALTER TABLE.</trans>
+   <trans xml:lang="de">Der Puffer, der beim Sortieren des Indizes zugewiesen wird, wenn man ein REPAIR ausführt oder Indizes mit CREATE INDEX oder ALTER TABLE erzeugt.</trans>
+  </text>
+  <text id="system_var_innodb_buffer_pool_size">
+   <trans xml:lang="en">Size of the memory buffer InnoDB uses to cache data and indexes of its tables. The larger you set this, the less disk I/O is needed to access data in tables. On a dedicated database server you may set this parameter up to 80% of the machine physical memory size. Do not set it too large, though, because competition of the physical memory might cause paging in the operating system.</trans>
+   <trans xml:lang="de">Größe des Speicherpuffers, den InnoDB benutzt, um Daten und Indizes seiner Tabellen zu cachen. Je größer Sie diesen Wert setzen, desto weniger Festplatten-Ein- und -Ausgaben werden für den Zugriff auf Daten in Tabellen benötigt. Auf einem dedizierten Datenbank-Server können Sie diesen Parameter auf bis zu 80% des physikalischen Arbeitsspeichers der Maschine setzen. Setzen Sie ihn allerdings nicht zu hoch, weil bei Betriebssystemen der Wettbewerb um Arbeitsspeicher zu Paging führt.</trans>
+  </text>
+  <text id="system_var_innodb_log_buffer_size">
+   <trans xml:lang="en">Size of the buffer which InnoDB uses to write log to the log files on disk. Sensible values range from 1M to 8M. A big log buffer allows large transactions to run without a need to write the log to disk until the transaction commit. Thus, if you have big transactions, making the log buffer big will save disk I/O.</trans>
+   <trans xml:lang="de">Größe des Puffers, den InnoDB benutzt, um in die Log-Dateien auf Platte zu schreiben. Sinnvolle Werte liegen im Bereich von 1 MB bis zur Hälfte der Gesamtgröße der Log-Dateien. Ein großer Log-Puffer erlaubt, dass große Transaktionen laufen können, ohne dass die Notwendigkeit besteht, das Log auf Platte zu schreiben, bis die Transaktion abgeschickt (commit) wird. Wenn Sie daher große Transaktionen haben, sparen Sie Festplatten-Ein- und Ausgaben, wenn Sie den Log-Puffer Groß machen.</trans>
+  </text>
+  <text id="system_var_table_cache">
+   <trans xml:lang="en">Number of open tables for all threads. Increasing this value increases the number of file descriptors that the MySQL server requires. You can check if you need to increase the table cache by checking the Opened_tables variable.</trans>
+   <trans xml:lang="de">Anzahl offener Tabellen für alle Threads. Wenn dieser Wert herauf gesetzt wird, erhöht sich die Anzahl von Datei-Deskriptoren, die der MySQL-Server benötigt. Sie können prüfen, ob Sie den Tabellen-Cache vergrößern müssen, indem Sie die Variable Opened_tables prüfen.</trans>
+  </text>
+  <text id="system_var_binlog_cache_size">
+   <trans xml:lang="en">Size of the cache to hold the SQL statements for the binary log during a transaction. If you often use big, multi-statement transactions you can increase this to get more performance.</trans>
+   <trans xml:lang="de">Größe des Caches, in dem SQL-Statements für die binäre Update-Logdatei während einer Transaktion vorgehalten werden. Wenn Sie oft große, aus vielen Statements bestehende Transaktionen durchführen, können Sie diesen Wert herauf setzen, um mehr Leistung zu erzielen.</trans>
+  </text>
+  <text id="system_var_query_cache_limit">
+   <trans xml:lang="en">Don't cache results that are bigger than this. (Default 1M). </trans>
+   <trans xml:lang="de">Keine Ergebnisse cachen, die größer als dieser Wert sind (Vorgabe: 1M).</trans>
+  </text>
+  <text id="system_var_query_cache_size">
+   <trans xml:lang="en">Memory allocated to store results from old queries. If this is 0, the query cache is disabled (default).</trans>
+   <trans xml:lang="de">Allozierter Speicher für die Speicherung alter Abfragen. Wenn dieser Wert 0 ist, ist der Cache deaktiviert (Vorgabe).</trans>
+  </text>
+  <text id="system_var_query_cache_type">
+   <trans xml:lang="en">This may be set (only numeric) to 0 (OFF), 1 (ON), 2 (DEMAND).</trans>
+   <trans xml:lang="de">Dieser Wert ist numerisch und kann 0 (OFF, abgeschaltet), 1 (ON, angeschaltet) und 2 (DEMAND) sein.</trans>
+  </text>
+  <text id="system_var_bdb_cache_size">
+   <trans xml:lang="en">Buffer that is allocated to cache index and rows for BDB tables. If you don't use BDB tables, you should start the MySQL server with --skip-bdb to not waste memory for this cache.</trans>
+   <trans xml:lang="de">Puffer, der zum Cachen von Index und Zeilen bei BDB-Tabellen alloziert wird. Wenn Sie keine BDB-Tabellen benutzen, sollten Sie den MySQL-Server mit --skip-bdb starten, um für diesen Cache keinen Arbeitsspeicher zu verschwenden.</trans>
+  </text>
+  <text id="system_var_table_type">
+   <trans xml:lang="en">The default table type (storage engine).</trans>
+   <trans xml:lang="de">Der vorgabemäßige Tabellentyp (Speicher-Engine).</trans>
+  </text>
+  <text id="system_var_innodb_additional_mem_pool_size">
+   <trans xml:lang="en">Size of a memory pool InnoDB uses to store data dictionary information and other internal data structures. A sensible value for this might be 2M, but the more tables you have in your application the more you will need to allocate here. If InnoDB runs out of memory in this pool, it will start to allocate memory from the operating system, and write warning messages to the MySQL error log.</trans>
+   <trans xml:lang="de">Größe des Speicher-Pools, den InnoDB für die Speicherung von Daten-Wörterbuchinformationen und anderen internen Datenstrukturen benutzt. Ein sinnvoller Wert hierfür könnte 2 MB sein. Je mehr Tabellen Sie jedoch in Ihrer Applikation haben, desto mehr müssen Sie hier zuweisen. Wenn InnoDB in diesem Pool keinen Speicherplatz mehr hat, läßt es sich Speicherplatz vom Betriebssystem zuweisen und schreibt Warnmeldungen in die MySQL-Fehler-Logdatei.</trans>
+  </text>
+  <text id="system_var_innodb_data_file_path">
+   <trans xml:lang="en">Paths to individual datafiles and their sizes. The full directory path to each datafile is acquired by concatenating innodb_data_home_dir to the paths specified here. The file sizes are specified in megabytes, hence the 'M' after the size specification above. InnoDB also understands the abbreviation 'G', 1 G meaning 1024 MB. Starting from 3.23.44 you can set the file-size bigger than 4 GB on those operating systems which support big files. On some operating systems files must be &lt; 2 GB. If you do not specify innodb_data_file_path, the default behavior starting from 4.0 is to create a 10 MB auto-extending datafile `ibdata1'. The sum of the sizes of the files must be at least 10 MB.</trans>
+   <trans xml:lang="de">Pfade zu individuellen Daten-Dateien und ihre Größen. Der volle Verzeichnispfad zu jeder Daten-Datei wird durch Verkettung von innodb_data_home_dir mit den hier angegebenen Pfaden hergestellt. Die Dateigrößen werden in Megabytes angegeben, daher das 'M' nach der obigen Angabe. InnoDB versteht auch die Abkürzung 'G', 1G bedeutet 1024M. Ab 3.23.44 können Sie die Dateigröße auf mehr als 4 GB setzen, wenn das Betriebssystem große Dateien unterstützt. Auf einige Betriebssystemen müssen Dateien kleiner als 2 GB sein. Die Summe der Dateigrößen muss mindestens 10 MB betragen.</trans>
+  </text>
+  <text id="system_var_innodb_data_home_dir">
+   <trans xml:lang="en">Common part of the directory path for all InnoDB datafiles. If you do not mentioned this option in `my.cnf' the default is the datadir of MySQL. You can specify this also as an empty string, in which case you can use absolute file paths in innodb_data_file_path.</trans>
+   <trans xml:lang="de">Allgemeiner Teil des Verzeichnispfads für alle InnoDB-Daten-Dateien. Die Vorgabe für diesen Parameter ist das datadir von MySQL.</trans>
+  </text>
+  <text id="system_var_innodb_file_io_threads">
+   <trans xml:lang="en">Number of file I/O threads in InnoDB. Normally, this should be 4, but on Windows disk I/O may benefit from a larger number.</trans>
+   <trans xml:lang="de">Anzahl der Datei-Ein- und -Ausgabe-Threads in InnoDB. Normalerweise sollte dieser Wert 4 sein, aber Windows-Festplatten könnten von einer höheren Zahl profitieren.</trans>
+  </text>
+  <text id="system_var_innodb_file_per_table">
+   <trans xml:lang="en">Makes InnoDB store each created table in its own `.ibd' file (multiple tablespaces).</trans>
+   <trans xml:lang="de">Veranlasst InnoDB, jede erzeugte Tabelle in ihrer eigenen '.ibd'-Datei zu speichern (mehrfache Tablespaces).</trans>
+  </text>
+  <text id="system_var_innodb_force_recovery">
+   <trans xml:lang="en">Warning: This option should be defined only in an emergency situation when you want to dump your tables from a corrupt database! Possible values are 1 through 6.</trans>
+   <trans xml:lang="de">Achtung: Diese Option sollte nur in Notfällen angegeben werden, wenn Sie Tabellen aus einer beschädigten Datenbank sichern wollen! Mögliche Werte liegen zwischen 1 und 6.</trans>
+  </text>
+  <text id="system_var_innodb_thread_concurrency">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_innodb_flush_log_at_trx_commit">
+   <trans xml:lang="en">Normally you set this to 1, meaning that at a transaction commit, the log is flushed to disk, and the modifications made by the transaction become permanent, and survive a database crash. If you are willing to compromise this safety, and you are running small transactions, you may set this to 0 or 2 to reduce disk I/O to the logs. Value 0 means that the log is only written to the log file and the log file flushed to disk approximately once per second. Value 2 means the log is written to the log file at each commit, but the log file is only flushed to disk approximately once per second. The default value is 1 starting from MySQL-4.0.13; previously it was 0.</trans>
+   <trans xml:lang="de">Normalerweise wird dieser Parameter auf 1 gesetzt, was bedeutet, dass beim Abschicken (commit) einer Transaktion das Log auf Platte geschrieben wird (flush) und die durch die Transaktion gemachten Änderungen permanent werden und einen Datenbankabsturz überleben. Wenn Sie willens sind, in Bezug auf diese Sicherheit Kompromisse einzugeben und eher kleine Transaktionen laufen lassen, können Sie diesen Wert auf 0 setzen, um Festplatten-Ein- und -Ausgaben in Bezug auf die Log-Dateien zu verringern.</trans>
+  </text>
+  <text id="system_var_innodb_fast_shutdown">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_innodb_flush_method">
+   <trans xml:lang="en">Default value for this is fdatasync. Another option is O_DSYNC.</trans>
+   <trans xml:lang="de">Vorgabewert hierfür ist fdatasync. Ein andere Option ist O_DSYNC.</trans>
+  </text>
+  <text id="system_var_innodb_lock_wait_timeout">
+   <trans xml:lang="en">Timeout in seconds an InnoDB transaction may wait for a lock before being rolled back. InnoDB automatically detects transaction deadlocks in its own lock table and rolls back the transaction. If you use the LOCK TABLES command, or other transaction-safe storage engines than InnoDB in the same transaction, then a deadlock may arise which InnoDB cannot notice. In cases like this the timeout is useful to resolve the situation.</trans>
+   <trans xml:lang="de">Timeout in Sekunden. Solange wartet eine InnoDB-Transaktion auf eine Sperre, bevor sie abgebrochen (Rollback) wird. InnoDB erkennt automatisch Transaktionsblockierungen in seiner eigenen Sperr-Tabelle und bricht die Transaktion ab (Rollback). Wenn Sie den LOCK TABLES-Befehl oder andere transaktionssichere Tabellen-Handler als InnoDB in derselben Transaktion benutzen, kann eine Blockierung auftreten, die InnoDB nicht erkennen kann. In solchen Fällen ist ein Timeout nützlich, um die Situation zu bereinigen.</trans>
+  </text>
+  <text id="system_var_innodb_log_archive">
+   <trans xml:lang="en">This value should currently be set to 0. As recovery from a backup is done by MySQL using its own log files, there is currently no need to archive InnoDB log files.</trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_innodb_mirrored_log_groups">
+   <trans xml:lang="en">Number of identical copies of log groups that are kept for the database. Currently this should be set to 1.</trans>
+   <trans xml:lang="de">Anzahl identischer Kopien der Log-Gruppen, die für die Datenbank vorgehalten werden. Momentan sollte dieser Wert 1 sein.</trans>
+  </text>
+  <text id="system_var_innodb_max_dirty_pages_pct">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_bdb_max_lock">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_bdb_shared_data">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_bdb_version">
+   <trans xml:lang="en">Berkeley DataBase (BDB) version.</trans>
+   <trans xml:lang="de">Berkeley DataBase (BDB)-Version.</trans>
+  </text>
+  <text id="system_var_myisam_max_extra_sort_file_size">
+   <trans xml:lang="en">If the temporary file used for fast index creation would be bigger than using the key cache by the amount specified here, then prefer the key cache method. This is mainly used to force long character keys in large tables to use the slower key cache method to create the index. Note that this parameter is given in megabytes before 4.0.3 and in bytes beginning with this version.</trans>
+   <trans xml:lang="de">Wenn das Erzeugen der temporären Datei für schnelle Index-Erzeugung um diesen Wert größer sein würde als die Benutzung des Schlüssel-Caches, wird die Schlüssel-Cache-Methode bevorzugt. Wird hauptsächlich benutzt, um lange Zeichen-Schlüssel in großen Tabellen zu zwingen, die langsamere Schlüssel-Cache-Methode zu benutzen, um den Index zu erzeugen. Beachten Sie, dass dieser Parameter bis Version 4.0.3 in Megabytes angegeben wurde, ab dieser Version in Bytes.</trans>
+  </text>
+  <text id="system_var_myisam_max_sort_file_size">
+   <trans xml:lang="en">Maximum size of the temporary file MySQL is allowed to use while recreating the index (during REPAIR, ALTER TABLE or LOAD DATA INFILE. If the file-size would be bigger than this, the index will be created through the key cache (which is slower). Note that this parameter is given in megabytes before 4.0.3 and in bytes beginning with this version.</trans>
+   <trans xml:lang="de">Maximale Größe der temporären Datei, die MySQL benutzen darf, während es den Index erzeugt (während REPAIR, ALTER TABLE oder LOAD DATA INFILE). Wenn die Datei größer als dieser Wert würde, wird der Index über den Schlüssel-Cache erzeugt (was langsamer ist). Beachten Sie, dass dieser Parameter bis Version 4.0.3 in Megabytes angegeben wurde, ab dieser Version in Bytes.</trans>
+  </text>
+  <text id="system_var_myisam_repair_threads">
+   <trans xml:lang="en">If this value is greater than 1, MyISAM table indexes during REPAIR by sorting process will be created in parallel - each index in its own thread.</trans>
+   <trans xml:lang="de">Wenn dieser Wert größer als 1 ist, werden MyISAM Tabellenindizes beim Sortieren während eines REPAIR-Prozesses parallel erzeugt - jeder Index in seinem eigenen Thread.</trans>
+  </text>
+  <text id="system_var_old_passwords">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_version_comment">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_version_compile_machine">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_version_compile_os">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_have_compress">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_basedir">
+   <trans xml:lang="en">MySQL installation directory. Value of the --basedir option.</trans>
+   <trans xml:lang="de">MySQL Installationsverzeichnis. Wert der Option --basedir.</trans>
+  </text>
+  <text id="system_var_log_warnings">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_query_alloc_block_size">
+   <trans xml:lang="en">Size of memory allocation blocks that are allocated for objects created during query parsing and execution. If you have problem with memory fragmentation, it may help to increase this a bit. This variable was added in MySQL 4.0.16.</trans>
+   <trans xml:lang="de">Größe von Speicherzuordnungsblöcken, die während des Parsens und der Ausführung von Abfragen für Objekte erzeugt werden. Wenn Sie Probleme mit Speicherfragmentierung bekommen, kann es helfen, diesen Wert etwas heraufzusetzen. Diese Variable wurde in MySQL 4.0.16 hinzugefügt.</trans>
+  </text>
+  <text id="system_var_query_prealloc_size">
+   <trans xml:lang="en">Size of the persistent buffer used for query parsing and execution. This buffer is not freed between queries. If you are running complex queries, a larger query_prealloc_size value may be helpful in improving performance, because it can reduce the need for the server to perform memory allocation during query execution operations. This variable was added in MySQL 4.0.16.</trans>
+   <trans xml:lang="de">Größe des dauerhaften Puffers, der zum Parsen und zur Ausführung von Abfragen verwendet wird. Der Puffer wird zwischen Abfragen nicht geleert. Wenn Sie komplexe Abfragen verwenden, kann ein höherer Wert von query_prealloc_size zur Leistungsverbesserung hilfreich sein, weil er die Notwendigkeit des Servers reduziert, während der Ausführung von Abfragen Speicherallokationen vorzunehmen. Diese Variable wurde in MySQL 4.0.16 hinzugefügt.</trans>
+  </text>
+  <text id="system_var_range_alloc_block_size">
+   <trans xml:lang="en">Size of blocks that are allocated when doing range optimization. This variable was added in MySQL 4.0.16.</trans>
+   <trans xml:lang="de">Größe von Blocks, die bei Bereichsoptimierungen alloziert werden. Diese Variable wurde in MySQL 4.0.16 hinzugefügt.</trans>
+  </text>
+  <text id="system_var_expire_logs_days">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_max_error_count">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_max_length_for_sort_data">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_preload_buffer_size">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_pseudo_thread_id">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_relay_log_purge">
+   <trans xml:lang="en">Disables (0) / enables (1) automatic purging of relay logs as soon as they are not needed any more. The default value is 1. This option is available as of MySQL 4.1.1.</trans>
+   <trans xml:lang="de">Schaltet das automatische Bereinigen von Relay-Logs, sobald diese nicht mehr benötigt werden, ab (0) oder an (1). Vorgabe ist 1. Diese Variable ist ab MySQL 4.1.1 verfügbar.</trans>
+  </text>
+  <text id="system_var_secure_auth">
+   <trans xml:lang="en">If the MySQL server has been started with the --secure-auth option, it will block all connections from users with passwords stored in old (pre-4.1) format. In that case, the value of the variable is ON, otherwise it is OFF. Note, that the server start will fail with an error if this option has been enabled and the privilege tables are in pre-4.1 format. You should enable this option if you want to prevent all usage  of passwords in old format (and hence insecure communication over the network). Available as of MySQL 4.1.1.</trans>
+   <trans xml:lang="de">Wenn der MySQL-Server mit der Option --secure-auth gestartet wurde, weist er Verbindungen von Benutzern ab, die Passwörter im alten Format (vor 4.1) verwenden. In diesem Fall ist der Wert der Variablen ON, ansonsten OFF. Beachten Sie, dass der Serverstart mit einer Fehlermeldung fehlschlägt, wenn diese Option aktiviert wurde, ohne vorher die Berechtigungstabellen zu aktualisieren. Sie sollten diese Option aktivieren, wenn Sie die Benutzung von Passwörtern im alten Format (und folglich unsichere Kommunikation über das Netzwerk) vermeiden wollen. Verfügbar ab MySQL 4.1.1.</trans>
+  </text>
+  <text id="system_var_shared_memory">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_shared_memory_base_name">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_storage_engine">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_init_connect">
+   <trans xml:lang="en">A string to be executed by the server for each client that connects. The string consists of one or more SQL statements. To specify multiple statements, separate them by semicolon characters. This variable was added in MySQL 4.1.2.</trans>
+   <trans xml:lang="de">Eine Zeichenkette, die für jeden Client, der sich verbindet, vom Server ausgeführt werden soll. Die Zeichenkette besteht aus einem oder mehreren SQL-Statements. Um mehrere Statements anzugeben, werden diese durch Semikolons getrennt. Diese Variable wurde in MySQL 4.1.2 hinzugefügt.</trans>
+  </text>
+  <text id="system_var_init_slave">
+   <trans xml:lang="en">String to be executed by a slave server each time the SQL thread starts (similar to init_connect). The format of the string is the same as for the init_connect variable. This variable was added in MySQL 4.1.2.</trans>
+   <trans xml:lang="de">Zeichenkette, die von einem Slave-Server ausgeführt werden soll, wenn ein SQL-Thread startet (ähnlich wie init_connect). Das Format der Zeichenkette ist identisch mit dem der Variablen init_connect. Die Variable wurde in MySQL 4.1.2 hinzugefügt.</trans>
+  </text>
+  <text id="system_var_transaction_alloc_block_size">
+   <trans xml:lang="en">Size of memory allocation blocks that are allocated for storing queries that are part of a transaction that are to be stored in the binary log when doing a commit. This variable was added in MySQL 4.0.16.</trans>
+   <trans xml:lang="de">Größe von Speicher-Allokationsblocks, die zum Speichern von Abfragen alloziert werden, die Teil einer Transaktion sind, die beim Abschicken eines Commit im binären Update-Log gespeichert wird. Die Variable wurde in MySQL 4.1.2 hinzugefügt.</trans>
+  </text>
+  <text id="system_var_transaction_prealloc_size">
+   <trans xml:lang="en">Persistent buffer for transaction_alloc_blocks that is not freed between queries. By making this big enough to fit all queries in a common transaction you can avoid a lot of malloc() calls. This variable was added in MySQL 4.0.16.</trans>
+   <trans xml:lang="de">Dauerhafter Puffer für transaction_alloc_blocks, der zwischen Abfragen nicht geleert wird. Indem man diesen groß genug macht, so dass alle Abfragen einer gewöhnlichen Transaktion hineinpassen, kann man viele Aufrufe von malloc() vermeiden. Die Variable wurde in MySQL 4.0.16 hinzugefügt.</trans>
+  </text>
+  <text id="system_var_character_set_client">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_character_set_connection">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_character_set_database">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_character_set_results">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_character_set_server">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_character_set_system">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_character-sets-dir">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_collation_connection">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_collation_database">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_collation_server">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_date_format">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_datetime_format">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_time_format">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_ft_query_expansion_limit">
+   <trans xml:lang="en">Number of top matches to use for query expansion (in MATCH ... AGAINST (... WITH QUERY EXPANSION). This variable is available as of MySQL 4.1.1.</trans>
+   <trans xml:lang="de">Anzahl der besten Übereinstimmungen, die für die Abfragen-Erweiterung benutzt werden sollen (in MATCH ... AGAINST (... WITH QUERY EXPANSION). Diese Variable is ab MySQL 4.1.1 verfügbar.</trans>
+  </text>
+  <text id="system_var_innodb_buffer_pool_awe_mem_mb">
+   <trans xml:lang="en">Size of the buffer pool in MB, if it is placed in the AWE memory of 32-bit Windows. Available starting from 4.1.0 and only relevant in 32-bit Windows. If your 32-bit Windows operating system supports more than 4 GB memory, so-called Address Windowing Extensions, you can allocate the InnoDB buffer pool into the AWE physical memory using this parameter. The maximum possible value for this is 64000. If this parameter is specified, then innodb_buffer_pool_size is the window in the 32-bit address space of the MySQL server where InnoDB maps that AWE memory. A good value for innodb_buffer_pool_size is then 500 MB.</trans>
+   <trans xml:lang="de">Größe des Puffer-Pools in MB, wenn dieser in den AWE-Speicher eines 32-Bit-Windows-Systems gelegt wird. Ab Version 4.1.0 verfügbar und nur relevant für 32-Bit-Windows. Wenn Ihr Windows-Betriebssystem mehr als 4 GB Speicher unterstützt (so genannte Address Windowing Extensions), können Sie den InnoDB Puffer-Pool mit diesem Parameter in den physikalischen AWE-Speicher verlegen. Der größtmögliche Wert hierfür ist 64000. Wenn dieser Parameter angegeben wird, ist innodb_buffer_pool_size das Fenster im 32-Bit-Adressraum des MySQL-Servers, wohin InnoDB diesen AWE-Speicher verlegt. Ein guter Wert für innodb_buffer_pool_size ist dann 500 MB.</trans>
+  </text>
+  <text id="system_var_key_cache_age_threshold">
+   <trans xml:lang="en">Controls the demotion of buffers from the hot sub-chain of a key cache to the warm sub-chain. Lower values cause demotion to happen more quickly. The minimum value is 100. The default value is 300. This variable was added in MySQL 4.1.1.</trans>
+   <trans xml:lang="de">Steuert die Herabstufung von Puffern aus der heißen Unterkette eines Schlüssel-Caches in eine warme Unterkette. Niedrige Werte führen dazu, dass diese Herabstufung schneller geschieht. Der minimale Wert ist 100, der Vorgabewert 300. Diese Variable wurde in MySQL 4.1.1 hinzugefügt.</trans>
+  </text>
+  <text id="system_var_key_cache_block_size">
+   <trans xml:lang="en">Size in bytes of blocks in the key buffer. The default value is 1024. This variable was added in MySQL 4.1.1. </trans>
+   <trans xml:lang="de">Größe der Blocks im Schlüssel-Puffer in Bytes. Vorgabewert ist 1024. Die Variable wurde in MySQL 4.1.1 hinzugefügt.</trans>
+  </text>
+  <text id="system_var_key_cache_division_limit">
+   <trans xml:lang="en">Division point between the hot and warm sub-chains of the key cache buffer chain. The value is the percentage of the buffer chain to use for the warm sub-chain. Allowable values range from 1 to 100. The default value is 100. This variable was added in MySQL 4.1.1.</trans>
+   <trans xml:lang="de">Trennpunkt zwischen heißen und warmen Unterketten der Schlüssel-Cache-Pufferkette. Der Wert ist ein Prozentsatz der Pufferkette, die für die warme Unterkette benutzt wird. Erlaubte Werte liegen zwischen 1 und 100, Vorgabewert ist 100. Die Variable wurde in MySQL 4.1.1 hinzugefügt.</trans>
+  </text>
+  <text id="system_var_query_cache_min_res_unit">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_innodb_open_files">
+   <trans xml:lang="en">This is relevant only if you use multiple tablespaces in InnoDB. This specifies the maximum how many `.ibd' files InnoDB can keep open at one time. The minimum value for this is 10. The default is 300. Numeric `my.cnf' parameter format. Available starting from 4.1.1.</trans>
+   <trans xml:lang="de">Nur relevant, wenn in InnoDB mehrfache Tablespaces verwendet werden. Legt fest, wie vile '.ibd'-Dateien InnoDB gleichzeitig offen halten kann. Der minimale Wert is 10, der Vorgabewert 300. Numerisches 'my.cnf'-Parameter-Format. Verfügbar ab Version 4.1.1.</trans>
+  </text>
+  <text id="system_var_version_bdb">
+   <trans xml:lang="en"> </trans>
+   <trans xml:lang="de"> </trans>
+  </text>
+  <text id="system_var_myisam_recover_options">
+   <trans xml:lang="en">Value of the --myisam-recover option.</trans>
+   <trans xml:lang="de">Wert der Option --myisam-recover.</trans>
+  </text>
+</textgroup> <!-- MySQL Variables -->
+<textgroup id="ResourceStrings">
+  <text id="FetchCatalogs">
+   <trans xml:lang="en">Fetching Catalogs/Schemata ...</trans>
+   <trans xml:lang="de">Kataloge/Schmata holen ...</trans>
+  </text>
+  <text id="FetchUsernames">
+   <trans xml:lang="en">Fetching Usernames ...</trans>
+   <trans xml:lang="de">Benutzernamen holen ...</trans>
+  </text>
+</textgroup>
+<textgroup id="Form_InstanceForm">
+  <text id="FileMI">
+   <trans xml:lang="en">&amp;File</trans>
+   <trans xml:lang="de">&amp;Datei</trans>
+  </text>
+  <text id="NewConnectionMI">
+   <trans xml:lang="en">&amp;New Connection ...</trans>
+   <trans xml:lang="de">&amp;Neue Verbindung ...</trans>
+  </text>
+  <text id="SaveConnectionMI">
+   <trans xml:lang="en">&amp;Save Connection ...</trans>
+   <trans xml:lang="de">Verbindung &amp;speichern ...</trans>
+  </text>
+  <text id="CloseMI">
+   <trans xml:lang="en">Clos&amp;e</trans>
+   <trans xml:lang="de">Be&amp;enden</trans>
+  </text>
+</textgroup>
+<textgroup id="ErrorMessages">
+  <text id="no_privs">
+   <trans xml:lang="en">You do not have enough privileges to administer this instance.</trans>
+   <trans xml:lang="de">Sie haben nicht die erforderlichen Berechtigungen, um diese Instanz zu verwalten.</trans>
+  </text>
+</textgroup>
+<textgroup id="Form_AdminUsersForm">
+  <text id="UsersAccountsLbl">
+   <trans xml:lang="en">Users Accounts</trans>
+   <trans xml:lang="de">Benutzerkonten</trans>
+  </text>
+  <text id="UsersAccountsLbl_Hint">
+   <trans xml:lang="en">To filter user accounts, enter a search string into the search box.</trans>
+   <trans xml:lang="de">Um Benutzerkonten zu filtern, geben Sie in das Suchfeld einen Suchbegriff ein.</trans>
+  </text>
+</textgroup>
+<textgroup id="ResourceStrings_AdminUsersForm">
+  <text id="Select_priv">
+   <trans xml:lang="en">SELECT</trans>
+   <trans xml:lang="de">SELECT</trans>
+  </text>
+  <text id="Select_priv_desc">
+   <trans xml:lang="en">Grants the SELECT privilege to the user.</trans>
+   <trans xml:lang="de">Erteilt dem Benutzer die SELECT-Berechtigung.</trans>
+  </text>
+</textgroup>
+</messages>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{687286DD-0200-46C3-B628-4DB8E010C16F}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  
+    
+    <Projects>
+      <Projects Name="libmysqlutil_static.lib">..\common\library\utilities\libmysqlutil_static.bdsproj</Projects>
+      <Projects Name="libmysqlutil.dll">..\common\library\utilities\libmysqlutil.bdsproj</Projects>
+      <Projects Name="libmysqlx_static.lib">..\common\library\base-library\libmysqlx_static.bdsproj</Projects>
+      <Projects Name="libmysqlx.dll">..\common\library\base-library\libmysqlx.bdsproj</Projects>
+      <Projects Name="libmysqladmin_static.lib">library\libmysqladmin_static.bdsproj</Projects>
+      <Projects Name="libmysqladmin.dll">library\libmysqladmin.bdsproj</Projects>
+      <Projects Name="libmysqlsqlparser_static.lib">..\common\library\sql-parser\libmysqlsqlparser_static.bdsproj</Projects>
+      <Projects Name="libmysqlsqlparser.dll">..\common\library\sql-parser\libmysqlsqlparser.bdsproj</Projects>
+      <Projects Name="MySQLAdministrator.exe">source\windows\MySQLAdministrator.bdsproj</Projects>
+      <Projects Name="MySQLSystemTrayMonitor.exe">source\windows\systemtraymonitor\MySQLSystemTrayMonitor.bdsproj</Projects>
+      <Projects Name="MySQLAdministratorTest.exe">testing\test-application\MySQLAdministratorTest.bdsproj</Projects>
+      <Projects Name="GeneralDUnitTest.exe">..\common\source\windows\testing\General\GeneralDUnitTest.bdsproj</Projects>
+      <Projects Name="CommonTest.exe">..\common\library\testing\CommonTest.bdsproj</Projects>
+      <Projects Name="Targets">libmysqlutil_static.lib libmysqlutil.dll libmysqlx_static.lib libmysqlx.dll libmysqladmin_static.lib libmysqladmin.dll libmysqlsqlparser_static.lib libmysqlsqlparser.dll MySQLAdministrator.exe MySQLSystemTrayMonitor.exe MySQLAdministratorTest.exe GeneralDUnitTest.exe CommonTest.exe</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+        <Dependency GUID="{DC18529B-0888-4BB4-9C2B-F785C697AA4C}"/>
+      </Dependency>
+      <Dependency GUID="{C6C88BDD-5B15-4E08-94E4-04D56B2115F3}">
+        <Dependency GUID="{DC18529B-0888-4BB4-9C2B-F785C697AA4C}"/>
+      </Dependency>
+      <Dependency GUID="{DAFDBFDA-E08D-42F5-8B6A-24F7FD317F00}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+        <Dependency GUID="{699E9A5D-873D-46D3-8661-4989E58D1832}"/>
+        <Dependency GUID="{C6C88BDD-5B15-4E08-94E4-04D56B2115F3}"/>
+        <Dependency GUID="{DC18529B-0888-4BB4-9C2B-F785C697AA4C}"/>
+      </Dependency>
+      <Dependency GUID="{D6431127-436F-47C2-85CC-BDA43B644FD8}">
+        <Dependency GUID="{DAFDBFDA-E08D-42F5-8B6A-24F7FD317F00}"/>
+      </Dependency>
+      <Dependency GUID="{3DA9EA4B-1790-43AD-8B1D-0EFF2AD7BD9D}">
+        <Dependency GUID="{E8843A5A-2D65-40A5-A02A-77C356881335}"/>
+        <Dependency GUID="{30A7F377-5BE8-4264-B25A-FEAF2F6B9824}"/>
+        <Dependency GUID="{CCD4C674-0938-4A07-8073-564A8C31288B}"/>
+        <Dependency GUID="{04F0572F-B91F-4F7C-A440-4442AA0FB11E}"/>
+      </Dependency>
+      <Dependency GUID="{05B8F435-1869-47BB-8643-D9E5B8A9C7DD}">
+        <Dependency GUID="{E8843A5A-2D65-40A5-A02A-77C356881335}"/>
+        <Dependency GUID="{30A7F377-5BE8-4264-B25A-FEAF2F6B9824}"/>
+        <Dependency GUID="{CCD4C674-0938-4A07-8073-564A8C31288B}"/>
+        <Dependency GUID="{DC18529B-0888-4BB4-9C2B-F785C697AA4C}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+	<StarTeamAssociation></StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

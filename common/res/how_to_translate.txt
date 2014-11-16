@@ -1,0 +1,228 @@
+************************************************************************
+ Translating the MySQL GUI Tools
+ Author            : Michael G. Zinner <mzinner@mysql.com>
+ Revision by     : Mike Lischke <mikel@mysql.com>
+ Created          : 2005-11-04
+ Last edited     : 2008-07-31
+************************************************************************
+
+This text explains how to translate the MySQL GUI tools. To add a new
+language to one of the tools please follow this procedure.
+
+Before you start the translation, please note that we can no longer accept
+your translations to be included into the main line for our tools. So any
+translation you do is just for you.
+
+Once translated, the GUI tool will "speak" another language on all
+supported platforms (at the moment, Windows, Linux/Gnome, and Mac OS).
+The translation, however, should be done on Windows because part of the
+process is to make sure that text lengths do not exceed the maximum
+display width and get clipped. On Linux, some display elements have a
+tendency of automatically adapting their size to the text they contain;
+thus, things might be properly displayed on Linux but not on Windows.
+
+If you cannot use Windows, please find instructions further below.
+
+
+STEP-BY-STEP INSTRUCTIONS FOR WINDOWS
+-------------------------------------
+
+1) Make sure you have a recent version of the GUI tool you're about to
+   translate installed.
+
+2) Create the proper subdirectories. To add the new translation you have
+   to create a subdirectory in the installation directory of the GUI
+   tool you're about to translate:
+
+   [InstallDir]\locale\[lang]
+
+   The name of the [lang] directory indicates the language and can be
+   found in the translation_list.txt file that you can find in the
+   locale subdirectory, or online:
+
+   http://www.us.debian.org/international/l10n/po/
+
+   For some languages, you have to use the 5-digit code, for example
+   to specify Simplified Chinese (zh_CN) or Traditional Chinese (zh_TW).
+   For other languages, you have a choice; for German, for example,
+   you may use either the 2-digit code de or the 5-digit code de_DE,
+   de_AT, etc.
+
+   If you want to translate a language that is not in that list, simply
+   add the language to the file [InstallDir]\locale\languages_list.txt
+
+   Under the [lang] directory you need to create a subdirectory named
+   LC_MESSAGES:
+
+   [InstallDir]\locale\[lang]\LC_MESSAGES\
+
+   Example: To translate MySQL Administrator into German, you would
+   have this directory layout (assuming Administrator is installed in
+   the default location):
+
+   C:\Program Files\MySQL\MySQL Administrator 1.1\
+                                                  locale\
+                                                         de\
+                                                            LC_MESSAGES
+
+3) Get the .po files from our public repositories that you can access
+   using a web browser. Each GUI tool has two associated .po files:
+
+   a) mysql-gui-common-template.po
+      This file is shared amoung all GUI tools. It can be obtained from
+      http://svn.mysql.com/svnpublic/mysql-gui-common/trunk/po/
+
+   b) The .po file of the specific tool.
+
+      For MySQL Administrator, this would be
+      mysql-administrator-template.po, which can be obtained from
+      http://svn.mysql.com/svnpublic/mysql-administrator/trunk/po/
+
+      For MySQL Query Browser, this would be
+      mysql-query-browser-template.po, which can be obtained from
+      http://svn.mysql.com/svnpublic/mysql-query-browser/trunk/po/
+
+   Download the files and place them in the LC_MESSAGES directory
+   created in step 1.
+
+4) Download the GNU gettext binaries and dependencies for Windows from
+   http://gnuwin32.sourceforge.net/packages/gettext.htm
+
+   Make sure *not* to download the "complete package" which contains
+   an installer for windows, but doesn't allow you to place the files
+   where MakeMo.bat needs them (see below). Here are the download links:
+   http://gnuwin32.sourceforge.net/downlinks/gettext-bin-zip.php
+   http://gnuwin32.sourceforge.net/downlinks/gettext-dep-zip.php
+
+   After downloading, extract the .zip files under [InstallDir]\locale\.
+   Make sure you have the file [InstallDir]\locale\bin\msgcat.exe.
+
+5) Install poEdit. It is best to use the 1.2.5 release which can be
+   downloaded from
+   http://prdownloads.sourceforge.net/poedit/poedit-1.2.5-setup.exe
+
+
+6) Doubleclick a .po file to open it. For example, open this file:
+   C:\Program Files\MySQL\MySQL Administrator 1.1\locale\de\LC_MESSAGES\mysql-gui-common-template.po
+
+   6.1) From the menu, select Catalog > Settings... fill in "Project
+        info", and save the file:
+        - project name and version (e.g. MySQL Administrator 1.1.5),
+        - team name (e.g. MA translation team),
+        - mail address (e.g. stefan@mysql.com),
+        - language (e.g. German),
+        - country (e.g. Germany),
+        - character set (utf-8),
+        - source code character set (utf-8).
+        Make sure to use UTF-8, not any other character set!
+        Unless you want to change the Project info, this step has to be
+        performed only once, right before you start the translation.
+
+   6.2) Now start the translation by selecting a word in the upper list
+        and entering the translation in the lower area.
+
+   To search for a specific word, click the upper list and start typing
+   the word. For more information how to use the poEdit interface, see
+   the documentation shipped with the product.
+
+!! Things to notice.
+
+   ! The translated text needs to have about the same length as the
+     original English text. Use abbreviations if necessary.
+
+   ! The translation needs to be verified in the GUI. If the translation
+     results in a messed up display it has to be corrected. See the
+     next step for information about how to prepare translated files
+     for the application.
+
+   ! In the translation, preserve special characters that indicate a
+     tab (\t) or a new line (\n).
+
+   ! In the translation, preserve spaces, as in the following string:
+       -h,--host=name        Connect to host.\n
+     This example contains two spaces preceding the string, and 8 spaces
+     in the middle. It's command-line output, which is the reason why
+     it uses space characters, rather than tabs.
+
+   ! In the translation, preserve variables like these:
+     %s: could not connect to MySQL:\n
+     %s (%i)\n
+     In that example, don't touch %s and %i.
+     Here's a more complex example:
+     %d row%s fetched in %.4fs (%.4fs)
+     In that example, you should not touch %d, %s, and %.4fs.
+
+   ! When you start a translation, poEdit will report "xx bad tokens"
+     in the status bar. Don't worry, here's the explanation: poEdit
+     checks whether C style placeholders ("%1.3f" and the like) match
+     between the untranslated original and the translation. Initially,
+     with empty translations, there are many mismatches, of course,
+     but these get fewer and fewer as the translation proceeds. When
+     you're done with the translation, no "bad tokens" should be left.
+
+7) To make the translations available to the application you have to
+   compile the .po files using this batch file:
+
+   [InstallDir]\locale\MakeMo.bat
+
+   That file takes one parameter: [lang] (see step 1)
+
+   Open a command-line window, change into [InstallDir]\locale, and
+   invoke the batch file with the appropriate language parameter.
+
+   Example for the German translation: MakeMo.bat de
+
+   The batch file creates a default.mo file in the
+   [InstallDir]\locale\[lang]\LC_MESSAGES directory.
+
+   Now the application can be (re)started, and the new language can be
+   selected (Tools > Options > General Options).
+
+   Note that after switching the interface language the application
+   has to be restarted once again for that change to take effect.
+   This is a limitation we hope to remove some day.
+
+8) Please send an email to gui-tools@lists.mysql.com once you have
+   finished a translation and want to have it included in the standard
+   distribution.
+
+
+INSTRUCTIONS FOR LINUX
+----------------------
+
+1) Read the instructions for Windows (above). They contain many hints
+   about the translation process.
+
+2) Under KDE or similar window managers, you can use KBabel to translate
+   the .po files. Read above (particular item #6) to see why we prefer
+   translations to be done on Windows.
+
+3) Create binary .mo files. You need to have gettext installed. See
+   instructions given on this page:
+   http://www.gnu.org/software/gettext/manual/html_mono/gettext.html#SEC119
+
+4) Rename the created .mo file to match the application. For example,
+   the .mo file for MySQL Administrator must be called:
+   mysql-administrator.mo
+
+5) To test it within the application, copy the .mo file to its proper
+   location. Normally, this is a directory under /usr/share/locale or
+   /usr/local/share/locale.
+   - First, identify the language directory. For German, for example,
+     this would be "de". For more information, refer to item #2 in the
+     instructions for Windows.
+   - Copy the .mo file to the "LC_MESSAGES" subdirectory of the
+     language directory.
+   - If the target language of your translation differs from the
+     language setting of your operating system (for example, you're
+     running an English Linux but want to test your German translation),
+     you could either change the language settings in Preferences or
+     Administration permanently. To change the language temporarily,
+     change the language from the shell, by invoking:
+     shell> export LANG=de_DE
+     shell> export LC_ALL=de_DE
+     This would change the language to German for any program invoked
+     from that command-line session. You can then invoke the GUI tool
+     of your choice by specifying the executable. The following would,
+     for example, start MySQL Administrator:
+     shell> mysql-administrator &

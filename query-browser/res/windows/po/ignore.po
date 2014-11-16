@@ -1,0 +1,180 @@
+#  Doesn't have any letters
+#. MainForm..MainMenu..FileMI..N5..Caption
+#: Main.dfm:66
+#. MainForm..MainMenu..FileMI..N2..Caption
+#: Main.dfm:95
+#. MainForm..MainMenu..FileMI..N3..Caption
+#: Main.dfm:120
+#. MainForm..MainMenu..FileMI..N4..Caption
+#: Main.dfm:129
+#. MainForm..MainMenu..FileMI..N10..Caption
+#: Main.dfm:148
+#. MainForm..MainMenu..Edit1..N15..Caption
+#: Main.dfm:167
+#. MainForm..MainMenu..Edit1..N1..Caption
+#: Main.dfm:182
+#. MainForm..MainMenu..ToolsMI..N11..Caption
+#: Main.dfm:205
+#. MainForm..MainMenu..ToolsMI..N12..Caption
+#: Main.dfm:212
+#. MainForm..MainMenu..ToolsMI..N9..Caption
+#: Main.dfm:221
+#. MainForm..MainMenu..ToolsMI..N14..Caption
+#: Main.dfm:235
+#. MainForm..MainMenu..HelpMI..N8..Caption
+#: Main.dfm:263
+#. MainForm..MainMenu..HelpMI..N6..Caption
+#: Main.dfm:278
+#. MainForm..MainMenu..HelpMI..N13..Caption
+#: Main.dfm:285
+#. MainForm..MainMenu..HelpMI..N7..Caption
+#: Main.dfm:296
+#. QueryBrowserForm..QueryPopupMenu..N25..Caption
+#: QueryBrowser.dfm:864
+#. QueryBrowserForm..QueryPopupMenu..N5..Caption
+#: QueryBrowser.dfm:883
+#. QueryBrowserForm..QueryPopupMenu..N15..Caption
+#: QueryBrowser.dfm:894
+#. QueryBrowserForm..QueryPopupMenu..N16..Caption
+#: QueryBrowser.dfm:905
+#. QueryBrowserForm..BookmarkPopupMenu..N1..Caption
+#: QueryBrowser.dfm:1243
+#. QueryBrowserForm..RSGridPopupMenu..N2..Caption
+#: QueryBrowser.dfm:1266
+#. QueryBrowserForm..RSGridPopupMenu..N3..Caption
+#: QueryBrowser.dfm:1279
+#. QueryBrowserForm..RSGridPopupMenu..N4..Caption
+#: QueryBrowser.dfm:1292
+#. QueryBrowserForm..RSGridPopupMenu..N7..Caption
+#: QueryBrowser.dfm:1298
+#. QueryBrowserForm..RSGridPopupMenu..N13..Caption
+#: QueryBrowser.dfm:1313
+#. QueryBrowserForm..RSGridPopupMenu..N17..Caption
+#: QueryBrowser.dfm:1332
+#. QueryBrowserForm..MainMenu..ViewMI..N14..Caption
+#: QueryBrowser.dfm:1361
+#. QueryBrowserForm..MainMenu..QueryMI..N8..Caption
+#: QueryBrowser.dfm:1378
+#. QueryBrowserForm..MainMenu..QueryMI..N6..Caption
+#: QueryBrowser.dfm:1401
+#. QueryBrowserForm..MainMenu..QueryMI..N12..Caption
+#: QueryBrowser.dfm:1412
+#. QueryBrowserForm..MainMenu..QueryMI..N24..Caption
+#: QueryBrowser.dfm:1419
+#. QueryBrowserForm..MainMenu..ScriptMI..N22..Caption
+#: QueryBrowser.dfm:1436
+#. QueryBrowserForm..MainMenu..ScriptMI..N9..Caption
+#: QueryBrowser.dfm:1449
+#. QueryBrowserForm..MainMenu..ScriptMI..N11..Caption
+#: QueryBrowser.dfm:1458
+#. QueryBrowserForm..MainMenu..ScriptMI..N10..Caption
+#: QueryBrowser.dfm:1471
+#. QueryBrowserForm..ScriptMemoPopupMenu..N19..Caption
+#: QueryBrowser.dfm:1537
+#. QueryBrowserForm..ScriptMemoPopupMenu..TntMenuItem2..Caption
+#: QueryBrowser.dfm:1545
+#. QueryBrowserForm..ScriptMemoPopupMenu..N18..Caption
+#: QueryBrowser.dfm:1560
+#. QueryBrowserForm..HistoryPopupMenu..N21..Caption
+#: QueryBrowser.dfm:1576
+#. QueryBrowserForm..HistoryPopupMenu..N20..Caption
+#: QueryBrowser.dfm:1583
+#. QueryBrowserForm..ParamPopupMenu..N23..Caption
+#: QueryBrowser.dfm:1882
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..N1..Caption
+#: RegExTextImporter.dfm:566
+#. RegExTextImporterForm..StructureVTPopupMenu..N2..Caption
+#: RegExTextImporter.dfm:595
+msgid "-"
+msgstr ""
+
+#  Doesn't have any letters
+#. QueryBrowserForm..HistoryPopupMenu..AddHistoryItemasBookmarkMI..Caption
+#: QueryBrowser.dfm:1710
+msgid "^"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..ContentPnl..TntPanel3..SourceMemo..Font.Name
+#: RegExTextImporter.dfm:124
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..RegExMemo..Font.Name
+#: RegExTextImporter.dfm:193
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..InsertTemplateMemo..Font.Name
+#: RegExTextImporter.dfm:324
+msgid "Bitstream Vera Sans Mono"
+msgstr ""
+
+#  Doesn't look like text
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet3..HistoryPanel..HistoryVT......WideText
+#: QueryBrowser.dfm:589
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..SynSheet..SyntaxPnl..SyntaxVT......WideText
+#: QueryBrowser.dfm:653
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..FuncSheet..FunctionPanel..FunctionsVT......WideText
+#: QueryBrowser.dfm:707
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..TrxTabSheet..TrxPnl..TransactionDisplay......WideText
+#: QueryBrowser.dfm:829
+msgid "Col1"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. QueryBrowserForm..DockPnl..ToolbarPnl..QueryToolbarPnl..SQLMemo..Font.Name
+#: QueryBrowser.dfm:140
+msgid "Courier New"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. MainForm..Font.Name
+#: Main.dfm:13
+#. QueryBrowserForm..Font.Name
+#: QueryBrowser.dfm:11
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet2..BookmarksPnl..BookmarkVT..Header.Font.Name
+#: QueryBrowser.dfm:479
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet3..HistoryPanel..HistoryVT..Header.Font.Name
+#: QueryBrowser.dfm:565
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..SynSheet..SyntaxPnl..SyntaxVT..Header.Font.Name
+#: QueryBrowser.dfm:636
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..FuncSheet..FunctionPanel..FunctionsVT..Header.Font.Name
+#: QueryBrowser.dfm:690
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..ParamPnl..ParamVT..Header.Font.Name
+#: QueryBrowser.dfm:744
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..TrxTabSheet..TrxPnl..TransactionDisplay..Header.Font.Name
+#: QueryBrowser.dfm:807
+#. QueryBrowserOptionPagesForm..Font.Name
+#: QueryBrowserOptionPages.dfm:12
+#. RegExTextImporterForm..Font.Name
+#: RegExTextImporter.dfm:11
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel7..RegExErrorLbl..Font.Name
+#: RegExTextImporter.dfm:230
+#. RegExTextImporterForm..StructureTreePnl..StructureVT..Header.Font.Name
+#: RegExTextImporter.dfm:415
+#. TableDragForm..Font.Name
+#: TableDrag.dfm:14
+msgid "MS Sans Serif"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. AboutForm..Font.Name
+#: About.dfm:13
+#. QueryBrowserForm..DockPnl..ToolbarPnl..Font.Name
+#: QueryBrowser.dfm:53
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet2..BookmarksPnl..BookmarkVT..Font.Name
+#: QueryBrowser.dfm:473
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet3..HistoryPanel..HistoryVT..Font.Name
+#: QueryBrowser.dfm:559
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..SynSheet..SyntaxPnl..SyntaxVT..Font.Name
+#: QueryBrowser.dfm:630
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..FuncSheet..FunctionPanel..FunctionsVT..Font.Name
+#: QueryBrowser.dfm:684
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..ParamPnl..ParamVT..Font.Name
+#: QueryBrowser.dfm:738
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..TrxTabSheet..TrxPnl..TransactionDisplay..Font.Name
+#: QueryBrowser.dfm:801
+msgid "Tahoma"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. QueryBrowserForm..DockPnl..ToolbarPnl..QueryToolbarPnl..SQLMemo..LineNumberFont.Name
+#: QueryBrowser.dfm:446
+msgid "Terminal"
+msgstr ""
+

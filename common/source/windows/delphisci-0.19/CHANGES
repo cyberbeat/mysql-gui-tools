@@ -1,0 +1,246 @@
+Changelog for Delphi Scintilla Interface Components 0.17
+Released under LGPL 2.1
+Copyright © 2004-2005, Jan Martin Pettersen (hdalis)
+
+NOTE: This changelog is not complete by no means, some fixes and changes has been added,
+      but forgotten to make a note of it.
+
+  29/09/2004 Extended and customized the optionsbox
+             No longer accepts enums, now it accepts strings.
+             Color,Caret,Hotspot etc properties added.
+             (hdalis@users.sourceforge.net)
+
+  05/10/2004 Removed the typedef for TSciLangName (no longer needed)
+             Renamed the SetLLanguage procedure to SetLanguageStr
+             (hdalis@users.sourceforge.net)
+
+  13/10/2004 Added help using ClassExplorer 6.0, Use the helpgenerator to
+             generate the help.
+             Changed the ViewWSpace from boolean to sciWSMode, to allow all settings.
+             The TExtensionMapper is moved to SciPropertyMgr.pas
+             (hdalis@users.sourceforge.net)
+
+  15/10/2004 BUGFIX:
+             Fixed a bug in GetStyleListStr. Didn't set the LanguageStr when
+             nullitm didn't exits, and it was created. Caused
+             TScintillaOptionsDlg to throw an exception with list error
+             when you tried to add a style and no nullstyles existed.
+             (hdalis@users.sourceforge.net)
+
+  17/10/2004 Removed TScintillaBase.LoadSettingsFromStream and TScintillaBase.SaveSettingsToStream, unnessecary now.
+             Added property editor for the Lexer property of TSciLangItem
+             (hdalis@users.sourceforge.net)
+
+  24/10/2004 Removed the TLexerNamesMap class, and the LexerMapper function
+             these are now part of the TSciSynLexer class (functions AddLanguage,
+             DupLanguage,RemoveLanguage,FillListWithLanguages)
+             (hdalis@users.sourceforge.net)
+
+  25/10/2004 Redesigned the whole OptionsForm. Added add,copy,remove languages buttons.
+             Added Active Hotspot options.
+             The Keywords page doesn't exist anymore, it is now a part of the
+             Highlighter page.
+             (hdalis@users.sourceforge.net)
+
+  26/10/2004 Moved the GetLexerMapperProps function to TSciSynLexer.GetLexerProps (ScintillaSynLexer.Pas)
+             (hdalis@users.sourceforge.net)
+
+  27/10/2004 Renamed the TSciSynLexer.LanguageStr to SelectedLanguage,
+             and the SetLanguageStr to SetSelectedLanguage.
+             Renamed TSciLangList.GetStyleListStr to GetStyleList.
+             (hdalis@users.sourceforge.net)
+
+  29/10/2004 Added The TSciHotSpot subclass to manage Active hotspot settings (TScintilla.ActiveHotspotOpts).
+             Changed the shortcuts for Paraup/Paradown/Wordpartleft/wordpartright * commands 'cause it didn't work with
+             []/\ in all languages. Seemed more logical also.
+             removed the commenting of the stuttered commands.. Don't know if these work, but..
+             Removed the opKeywords from the TSciOptionPage enum. No longer needed.
+             Renamed the opOptions2 to opColors
+             Changed the TSciSearchReplace.Editor property from TScintilla to TScintillaBase class.
+             Wasn't any need for the extra properties to use this dialog.
+             (hdalis@users.sourceforge.net)
+
+  30/10/2004 Added Comment* properties to TSciLangItem, used by
+             CommentBox/CommentBlock functions in TScintilla.
+             Added CommentBox and CommentBlock functions.
+             Added TSciLangSettings definitions for a number of languages.
+             Added TSciLangSettings record, and the AddIt function has a new parameter of
+             this type to define the commenting style and other things for the languages.
+             (hdalis@users.sourceforge.net)
+
+  02/11/2004 Refreshed against version 1.62 of scintilla.iface
+             No longer displays a list of all lexers in the OptionsForm, now only defined languages
+             are displayed, i.e those defined in the Highlighter.LanguageList.
+             If you want to add a language, click Add and set the languagename and
+             the lexer to use for it. You can have as many languages defined as you wish.
+             Added the Asn1 and Vhdl lexer styles (Scintilla v1.62).
+             (hdalis@users.sourceforge.net)
+
+  03/11/2004 Added the protected properties CallTipStartChars and CallTipEndChars to TScintillaAuto.
+             Changed the packages to not include the .dcr files in the scite.bpl or scited7.bpl when
+             compiled. Wasted diskspace.
+             (hdalis@users.sourceforge.net)
+
+  04/11/2004 BUGFIX: When a new keylist was added, and you typed a description then the text
+             in the listbox wasn't updated. Fixed.
+
+  07/11/2004 Reintroduced the ExportToHTML function originally found in the DelphiWrapper
+             to TScintilla as requested by Kiriakos Vlahos,
+             some changes was needed to fit with the new layout of the components.
+             a bug in the function was also fixed (didn't use the correct styles,
+             was lagging a style behind).
+             Made the Lines property published as requested by Kiriakos Vlahos.
+             Exposed the OnClick event as Published.
+             The SelectedLanguage property is made into a selectionlist of the defined languages,
+             no need to remember the languagenames you'd created anymore.
+             The TSciLexerPropertyEditor was fixed to get the list of lexers from the FillListWithLanguages
+             function in the proper way, instead of creating a temporary TSciSynLexer first.
+             BUGS/Features:
+             AutoCompleteOps.AStrings wasn't searched when autocompleting,
+             changed the code to search AutoCompleteOps.AStrings when AutoCompleteOps.CompleteWord is False.
+             (hdalis@users.sourceforge.net)
+  08/11/2004 Added ActiveDocument property to TSciDocumentTabControl to make it easier to retrieve
+             the saved settings for the currently active document.
+  09/11/2004 SelectionFileName added two extra bytes (nullbytes), Fixed.
+             A bug was found in RangeIsAllWhiteSpace. It did exactly the opposite
+             of what it should do.
+             Added EdgeColumn,EdgeType,EdgeColor etc to TSciOptionsDlg
+             Some redesign of the Options page to make it fit.. To be adjusted later.
+             Moved the CharPos function to SciLexer.Pas. Was needed more places now.
+  10/11/2004 CommentBox and CommentStream now takes a boolean parameter 'includecommentcharsinselection'
+             that if it's True it selects the commenting strings also, if not then the commenting
+             strings are not selected.
+  11/11/2004 Added the FlipVars function.
+             Removed the IsDirty property. Modified did just the same actually.
+             Added per tab hinting for TSciDocumentTabControl. Displays the full pathname of the file when ShowHint is True.
+  18/11/2004 Removed the TScintillaAuto component, this is now replaced with TSciAutoComplete.
+             Added three new components TSciCallTips, TSciAutoComplete, TSciMacroRecorder.
+             Now you can select exactly what predefined languages to add, not just all or nothing.
+
+  26/11/2004 Added the property DefaultExt for setting the default file extension in TSciDocumentTabControl.
+             Added calls to the OnDetectHighlighter when we're attached to
+             a TScintilla component, and we're attaching ourself.
+             Introduced the TSciAbbrevManager component.
+  30/11/2004 Added TScintillaDB and TScintillaMemoDB (database components).
+  01/12/2004- 
+	04/01/2005 Helpdescriptions.txt: Added assorted new items.
+	           Added extra help to the gutter0-2 for how to set colors.
+  02/12/2004 TSciPropertyLoader: Moved all standalone functions to sciUtils.pas. They can, and probably will be used
+             by other units also.
+             Changed the format of the expected properties file.. The new one somewhat resembles
+             ini files, but with at least one distinction: You can continue the line with the '\' character,
+             as in C++..                      
+             
+  05/01/2005 TSciDocumentTabControl: Changed some of the calling to FOnDetectHighlighter, tried to minimize number of calls.
+             Added the OnOpenedAndInited event, this is fired only when Open is called, and is called just
+             before the function exits when successful.. May be the ideal place to add updatingcode which
+             is dependent on the current highlighter, as it's not completely loaded until just at this time.
+  08/01/2005 TScintillaMemo: Removed CharAddedAutocomplete.. no longer used.
+             Added AutoCloseBraces,AutoCloseQuotes.
+             
+  09/01/2005 TSciAbbrevManager: Added expansion of a template inside another (if AllowTemplateMacros is True)
+             Use <^nameoftemplate> to include one template inside another.. It keeps
+             expanding until no more expansion are possible.. If a templatename isn't found
+             it just removes the templateinclusion i.e <^whatever>, and continues expanding the rest..
+  10/01/2005 TSciAbbrevManager: Added the event OnTemplateMacro to match a templatemacro with something builtin.. All of these
+             starts with <^- instead.. Two is implemented here.. PROMPT prompt|caption  and ROW (Returns linenumber).
+  24/01/2005 TSciDocumentTabControl: Fixed the Close function so that when the last document is closed, the OnChange is called correctly and,
+             in Remove the Modified is sat to False when we're closing the last document..
+  25/01/2005 Fixed the styledefinition for XML. It seems it wasn't too fond
+             of no keywordlists at all.
+  25/01/2005 TSciPropertyLoader: Added the functions AddBool,AddInt,GetBool,GetInt.
+             Renamed the GetOtherSetting to GetOther, and the SetOtherSetting to SetOther.
+             
+  26/01/2005 TSciDocumentTabControl: Found a somewhat serious bug. When the character '\' is the last in the file,
+             and there's no following line, then an exception was thrown 'cause a while statement
+             did the walkin one too many times. Fixed.
+  29/01/2005 Added PHP as a language in it's own right, it is almost exactly the same as
+             the HTML languagedefinition, but for some of the other components it's an
+             advantage to have the PHP separated somewhat.
+
+	12/04/2005 SciLangFiller.Pas:
+	           Now when we add languages we check if the style/keywordlist exists, and if so
+						 then don't overwrite/or add double up.
+
+	12/04/2005 SciCallTips.Pas:
+	           Added the OnBeforeShow event
+	12/04/2005 SciAutoComplete.Pas:
+	           Added the OnBeforeShow event
+	12/04/2005 SciPropertyMgr.Pas:
+	           Corrected the .dpk and .dpr to map to the Pascal language.
+	15/04/2005 SciLexerMemo.Pas:
+	           Removed the Add*Handler and Remove*Handler, and replaced them
+						 with AddHandler and RemoveHandler wich takes a enum parameter
+						 to tell which type handler it is.
+	
+						 Fixed the doSci* functions to no longer call Execute*Handler
+						 as the inherited TScintillaBase calls it via the events..
+						 Earlier it caused the handlers to be called twice (or more), if there
+						 was any handlers assigned via TSciController. A bug..
+						 
+  15/04/2005 SciAutoComplete.Pas:
+	           Added MaxWidth,MaxHeight properties and the OnAutoCSelection event
+						 to conform to Scintilla 1.63.
+
+	15/04/2005 SciControllerHander.Pas:
+	           Changed the connection to the ownerclass to wait until the
+						 class calls TSciController.Connect, cause it didn't get the
+						 initialized events of the owner when the owner created TSciController
+						 in the Create constructor.
+
+	18/04/2005 SciFileExtensionsManager.Pas:
+ 	           Moved the ExtMapper from SciPropertyMgr to SciFileExtensionsManager.Pas, and
+						 changed the way the extensions are stored.. Now it's a collection of items,
+						 with two properties. Language, and Extensions. Use ExtMapper.Add to add new extensions.
+						 - FillExtensionsMap is not called automatically because if the language isn't
+						 in the languagemanager, then it's possible it is created on the fly (with the NULL
+						 settings), and that may not be what you wished for.
+						 
+						 You CAN use the old extensionmapper, but then you need to comment out the {$Define USENEWEXTENSIONMAPPER}
+						 in SciCommonDef.Inc.
+						 
+	           First release
+	18/04/2005 SciPropertyMgr.Pas:
+	           Changed the implementation of ExtensionManager, and moved it to SciFileExtensionsManager.pas,
+						 and deprecated the old version which still is here when you uncomment
+						 USENEWEXTENSIONMAPPER in SciCommonDef.Inc
+						 The new propertyformat for fileextensions is now:
+						 [Extensions]
+						 C++/C=.cpp;.c;.cxx
+						 
+						 if the propetyloader encounters old style, then it's those are converted
+						 to the new style when that propertyfile is saved again.
+						 
+	19/04/2005 SciKeyBindings.Pas:
+	           Added the TSciCommandRecHeader, TSciCommandRec records.
+						 Added the StickyCaret to the command list. (v1.63)
+						 Added VCStyle property..
+	20/04/2005 SciLexerMemo.Pas:
+	           Added LocateIndicator, LengthOfIndicator, RemoveIndicator,ShowIndicatorAt.
+	04/05/2005 BUGFIX 01:
+						 Fixed a bug which caused that if any char keys pressed triggered
+						 the mnemoniced control when the key matched the mnemonics without ALT.
+						 hdalis@users.sourceforge.net
+	04/05/2005 SciLexer.Pas:
+	           Added the GetDelphiSciVersion,GetDelphiSciVersionStr,GetDelphiSciURL,
+						 for easy use in an aboutbox.
+
+	15/05/2005 SciPropertyMgr.Pas:
+	           Removed all references to ValueExtract, as it was unneccesary.
+	15/05/2005 SciUtils.Pas:
+	           Renamed StrToken to WordBefore, and ReplaceChar to ReplaceAChar because the old names clashed
+						 with JVCL. Added ToBool, and ToIntAndCheck.
+						 Removed all references to ValueExtract, as it was unneccesary.
+  18/05/2005 SciPropertyMgr.Pas:
+	           The property StoreMinimal was added. When true, the propertyloaded
+						 saves only the miniumum. i.e extensions,styles,keywords etc.
+						 but only the style property under the [default] tag.
+						 This is to ease the use if most of the config is saved
+						 to the registry.
+  20/05/2005 SciKeyBindings.Pas:
+	           Added LoadKeyCommands and SaveKeyCommands (both stream and file).
+	27/05/2005 EdOptionsWin.pas:
+	           Swapped the columns in the KeyBindings listview. Added sort.
+	           Fixed a couple of memoryleaks, as suggested by Mak.
+  28/05/2005 Added the TSciPrinter component. This component is not very much tested
+	           yet.. But seems to work.

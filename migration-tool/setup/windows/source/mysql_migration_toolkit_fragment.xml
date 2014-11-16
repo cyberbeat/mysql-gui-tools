@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Wix xmlns='http://schemas.microsoft.com/wix/2003/01/wi'>
+  <Fragment>
+
+    <!-- *****************************************************************************************
+      Icons
+    -->
+
+    <Icon Id="MAIcon.exe" src="resources/MySQLMigrationTool.ico" />
+    
+    <!-- *****************************************************************************************
+      Directories / Files
+    -->
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder" Name="." src=".">
+        <Directory Id="MYSQL" Name="MySQL">
+          <Directory Id="Mysql_Migration_Toolkit_Dir" Name="MySQL_A" LongName="MySQL Migration Toolkit 1.0" src=".\">
+            <Directory Id="INSTALLDIR" Name=".">
+              <Directory Id="DesktopFolder" Name="." />
+              <Directory Id="ProgramMenuFolder" Name=".">
+                <Directory Id="MysqlProgramMenuFolder" Name="MySQL" />
+              </Directory>
+
+        <Component DiskId="1" Id="Third_Party_Libraries" Guid="53C8EDBA-32D8-42D9-B429-D89D4808CB34"
+          Location="either">
+          <File Id="libglib_2.0_0.dll" Name="LIBGLI~1.DLL" LongName="libglib-2.0-0.dll" KeyPath="yes" />
+          <File Id="zlib.dll" Name="zlib.dll" Vital="yes" />
+          <File Id="iconv.dll" Name="iconv.dll" />
+          <File Id="intl.dll" Name="intl.dll" />
+          <File Id="libgmodule_2.0_0.dll" Name="LIBGMO~1.DLL" LongName="libgmodule-2.0-0.dll" />
+          <File Id="libgobject_2.0_0.dll" Name="LIBGOB~1.DLL" LongName="libgobject-2.0-0.dll" />
+          <File Id="libgthread_2.0_0.dll" Name="LIBGTH~1.DLL" LongName="libgthread-2.0-0.dll" />
+          <File Id="libmySQL.dll" Name="libmySQL.dll" />
+          <File Id="libxml2.dll" Name="libxml2.dll" />
+          <File Id="msvcr71.dll" Name="msvcr71.dll" />
+          <File Id="msvcp71.dll" Name="msvcp71.dll" />
+          <File Id="php5ts.dll" Name="php5ts.dll" />
+          <File Id="zlib1.dll" Name="zlib1.dll" />
+          <File Id="python24.dll" Name="python24.dll" />
+          <File Id="file18a" Name="LIBEXP~1.DLL" LongName="libexpat.dll" />          
+        </Component>
+        
+        <Component DiskId="1" Id="Gui_Libraries" Guid="08023FE1-72CE-4680-8C02-D9FC0B18C85E" Location="either">
+          <File Id="libmysqlx.dll" Name="LIBMYS~1.DLL" LongName="libmysqlx.dll" />
+          <File Id="libmysqlutil.dll" Name="LIBMYS~2.DLL" LongName="libmysqlutil.dll" />
+          <File Id="libmysqlsqlparser.dll" Name="LIBMYS~5.DLL" LongName="libmysqlsqlparser.dll" />
+          <File Id="libmysqlresultset.dll" Name="LIBMYS~6.DLL" LongName="libmysqlresultset.dll" />
+          <File Id="libmysqlgrt.dll" Name="LIBMYS~3.DLL" LongName="libmysqlgrt.dll" />
+          <File Id="libmysqlgrtbuiltinmodule.dll" Name="LIBMYS~4.DLL" LongName="libmysqlgrtbuiltinmodule.dll" />
+        </Component>
+        
+        <Component DiskId="1" Id="MySQLMigrationToolkit.exe" Guid="A5A6CE76-19D0-4EE5-8CCE-8B3D2154EA4D"
+          Location="either">
+          <File Id="MySQLMigrationTool.exe" Name="MYSQLM~1.EXE" LongName="MySQLMigrationTool.exe"
+            KeyPath="yes">
+            
+            <!-- <Shortcut Id="AdminDesktopShortcut" Directory="DesktopFolder" Name="MYSQLA~1" LongName="MySQL Migration Toolkit"
+              Target="MysqlMigrationToolkit" Icon="MAIcon.exe" IconIndex="0" Show="normal" WorkingDirectory="Mysql_Migration_Toolkit_Dir" /> -->
+            <Shortcut Id="AdminProgramShortcut" Directory="MysqlProgramMenuFolder" Name="MYSQLA~2" LongName="MySQL Migration Toolkit"
+              Target="MysqlMigrationToolkit" Icon="MAIcon.exe" IconIndex="0" Show="normal" WorkingDirectory="INSTALLDIR" />
+              
+          </File>
+          
+          <?if $(var.LICENSE_TYPE) = "gpl"?>
+          <File Id="COPYING" Name="COPYING" />
+          <?elseif $(var.LICENSE_TYPE) = "commercial"?>
+          <File Id="MySQLEULA.txt" Name="EULA.txt" LongName="MySQLEULA.txt" />
+          <?else?>
+          <File Id="COPYING" Name="COPYING" />          
+          <?endif?>
+                      
+          <RemoveFolder Directory="MysqlProgramMenuFolder" On="uninstall" Id="RemoveProgramMenuFolder" />
+        </Component>
+
+        <Component DiskId="1" Id="grtsh.exe" Guid="08023FE1-72CE-4680-8C02-D9FC0B18CEAC" Location="either">
+          <File Id="grtsh.exe" Name="grtsh.exe" LongName="grtsh.exe" />
+        </Component>
+
+        <Component DiskId="1" Id="xgrtsh.exe" Guid="01555C2F-381D-48E0-881C-85869C4210A1" Location="either">
+          <File Id="xgrtsh.exe" Name="xgrtsh.exe" LongName="XGrtSh.exe" />
+        </Component>
+
+        <Component DiskId="1" Id="MySQLMigrationToolkit.chm" Guid="08023FE1-72CE-4680-8C02-D9FC0B18CABC" Location="either">
+          <File Id="MySQLMigrationTool.chm" Name="help.chm" LongName="MySQLMigrationTool.chm" />
+        </Component>
+
+        <Directory Id="FontsFolder" Name="Fonts">
+                
+                  <!-- each font sits in its own component because reference
+                       counting only works on a component-level
+                  -->
+                
+                  <Component Id="Font1" Guid="35C740F5-7529-4CB2-96C4-39F01B280C6B" SharedDllRefCount="yes" Location="either" DiskId="1">
+                    <File Id="VeraMoIt.ttf" Name="VeraMoIt.ttf" KeyPath="yes" TrueType="yes" />
+                  </Component>
+                  
+                  <Component Id="Font2" Guid="1D2BA166-B25B-41A2-8361-DEFA8CCEAF5C" SharedDllRefCount="yes" Location="either" DiskId="1">
+                    <File Id="VeraMono.ttf" Name="VeraMono.ttf" KeyPath="yes" TrueType="yes" />
+                  </Component>
+                  
+                  <Component Id="Font3" Guid="7EC24C03-589C-42B4-BE15-9FA84529DD08" SharedDllRefCount="yes" Location="either" DiskId="1">
+                    <File Id="VeraMoBI.ttf" Name="VeraMoBI.ttf" KeyPath="yes" TrueType="yes" />
+                  </Component>
+                  
+                  <Component Id="Font4" Guid="A8579156-D9C1-43B3-BD2E-27A965A2DB31" SharedDllRefCount="yes" Location="either" DiskId="1">
+                    <File Id="VeraMoBd.ttf" Name="VeraMoBd.ttf" KeyPath="yes" TrueType="yes" />
+                  </Component>
+        </Directory>
+        
+        <Directory Id="XML" Name="xml">
+          <Component DiskId="1" Id="XML_Files" Guid="3D7A9C75-7411-49FF-80D4-CA75CBB0FD47" KeyPath="yes"
+            Location="either">            
+            <File Id="GenericDatatypeMapping.xml" Name="Gener~1.xml" LongName="GenericDatatypeMapping.xml" />
+            <File Id="structs.base.xml" Name="struc~10.xml" LongName="structs.base.xml" />
+            <File Id="structs.canvas.xml" Name="struct~1.xml" LongName="structs.canvas.xml" />
+            <File Id="structs.forms.xml" Name="struc~11.xml" LongName="structs.forms.xml" />
+            <File Id="structs.db.mgmt.xml" Name="struc~12.xml" LongName="structs.db.mgmt.xml" />
+            <File Id="structs.db.migration.xml" Name="struct~2.xml" LongName="structs.db.migration.xml" />
+            <File Id="structs.db.mssql.xml" Name="struct~4.xml" LongName="structs.db.mssql.xml" />
+            <File Id="structs.db.mysql.xml" Name="struct~5.xml" LongName="structs.db.mysql.xml" />
+            <File Id="structs.db.oracle.xml" Name="struct~6.xml" LongName="structs.db.oracle.xml" />
+            <File Id="structs.db.xml" Name="struct~7.xml" LongName="structs.db.xml" />
+            <File Id="structs.xml" Name="struct~9.xml" LongName="structs.xml" />
+          </Component>
+        </Directory>
+
+        <Directory Id="images" Name="images">
+          <Directory Id="img_structs" Name="structs">
+          <Component DiskId="1" Id="Struct_Images" Guid="557ADB04-E968-446D-9A1C-A7AA0253B861" KeyPath="yes"
+            Location="either">
+            <File Id="db.oracle.sequence.16x16.png" Name="image~2.xml" LongName="db.oracle.sequence.16x16.png" />
+            <File Id="db.oracle.sequence.24x24.png" Name="image~3.xml" LongName="db.oracle.sequence.24x24.png" />
+            <File Id="db.oracle.sequence.many_32x32.png" Name="image~4.xml" LongName="db.oracle.sequence.many_32x32.png" />
+            <File Id="db.Routine.16x16.png" Name="image~5.xml" LongName="db.Routine.16x16.png" />
+            <File Id="db.Routine.24x24.png" Name="image~6.xml" LongName="db.Routine.24x24.png" />
+            <File Id="db.Routine.many_32x32.png" Name="image~7.xml" LongName="db.Routine.many_32x32.png" />
+            <File Id="db.Schema.16x16.png" Name="image~9.xml" LongName="db.Schema.16x16.png" />
+            <File Id="db.Schema.24x24.png" Name="image~11.xml" LongName="db.Schema.24x24.png" />
+            <File Id="db.Schema.many_32x32.png" Name="image~12.xml" LongName="db.Schema.many_32x32.png" />
+            <File Id="db.Table.16x16.png" Name="image~13.xml" LongName="db.Table.16x16.png" />
+            <File Id="db.Table.24x24.png" Name="image~14.xml" LongName="db.Table.24x24.png" />
+            <File Id="db.Table.many_32x32.png" Name="image~15.xml" LongName="db.Table.many_32x32.png" />
+            <File Id="db.View.16x16.png" Name="image~16.xml" LongName="db.View.16x16.png" />
+            <File Id="db.View.24x24.png" Name="image~17.xml" LongName="db.View.24x24.png" />
+            <File Id="db.View.many_32x32.png" Name="image~18.xml" LongName="db.View.many_32x32.png" />
+            <File Id="GrtObject.16x16.png" Name="image~19.xml" LongName="GrtObject.16x16.png" />
+            <File Id="GrtObject.24x24.png" Name="image~21.xml" LongName="GrtObject.24x24.png" />
+            <File Id="GrtObject.many_32x32.png" Name="image~22.xml" LongName="GrtObject.many_32x32.png" />
+          </Component>
+          </Directory>
+        </Directory>
+
+        <Directory Id="lua" Name="lua">
+        <Component DiskId="1" Id="Grt_Lua" Guid="A0E2BD50-6945-4EED-ADB2-492EFCB24ABD" KeyPath="yes"
+          Location="either">
+          <File Id="_library.lua" Name="_library.lua" LongName="_library.lua" />
+          <File Id="BaseLua.lua" Name="BaseLua.lua" LongName="BaseLua.lua" />
+          <File Id="Migration.lua" Name="Migra~1.lua" LongName="Migration.lua" />
+          <File Id="RdbmsInfo.lua" Name="Rdbms~1.lua" LongName="RdbmsInfo.lua" />
+          <File Id="RdbmsInfoAccess.lua" Name="Rdbms~2.lua" LongName="RdbmsInfoAccess.lua" />
+          <File Id="RdbmsInfoGeneric.lua" Name="Rdbms~3.lua" LongName="RdbmsInfoGeneric.lua" />
+          <File Id="RdbmsInfoMssql.lua" Name="Rdbms~4.lua" LongName="RdbmsInfoMssql.lua" />
+          <File Id="RdbmsInfoMysql.lua" Name="Rdbms~5.lua" LongName="RdbmsInfoMysql.lua" />
+          <File Id="RdbmsInfoOracle.lua" Name="Rdbms~6.lua" LongName="RdbmsInfoOracle.lua" />
+          <File Id="RdbmsManagement.lua" Name="Rdbma~1.lua" LongName="RdbmsManagement.lua" />
+        </Component>
+        </Directory>
+
+        <Directory Id="scripts" Name="scripts">
+        <Component DiskId="1" Id="Grt_Res" Guid="A0E2BD50-6945-4EED-ADB2-492EFCB24ABE" KeyPath="yes"
+          Location="either">
+          <File Id="migration_script_template.lua" Name="migrtemp.lua" LongName="migration_script_template.lua" />
+          <File Id="MigrationScript.lua" Name="migrate.lua" LongName="MigrationScript.lua" />
+        </Component>
+        </Directory>
+
+        <Directory Id="java" Name="java">
+        <Component DiskId="1" Id="Grt_Java_Eclipse_Project" Guid="A0E2BD50-6945-4EED-ADB2-492EFCB24ABC" KeyPath="yes"
+          Location="either">
+          <File Id="classpath" Name="classpa.cla" LongName=".classpath" />
+          <File Id="project" Name="project.pro" LongName=".project" />
+        </Component>
+
+          <Directory Id="lib" Name="lib">
+          <Component DiskId="1" Id="Grt_Java_Lib" Guid="DCE5BB5B-3F18-4D10-87FD-8F0E5ACCAD49" KeyPath="yes"
+            Location="either">
+            <File Id="mysqlgrt.jar" Name="grt~4.jar" LongName="mysql-grt-java-1.0.0-bin.jar" />
+            <File Id="mysqlconn.jar" Name="mysql~3.jar" LongName="mysql-connector-java-3.1.11a-bin.jar" />
+            <File Id="junit.jar" Name="junit.jar" LongName="junit.jar" />
+            <File Id="jtds.jar" Name="jtds~1.jar" LongName="jtds-1.1.jar" />
+          </Component>
+          </Directory>
+
+          <Directory Id="com" Name="com">
+            <Directory Id="mysql" Name="mysql">
+              <Directory Id="grt" Name="grt">
+                <Directory Id="modules" Name="modules">
+          <Component DiskId="1" Id="Grt_Java_Modules" Guid="29738A09-7CB9-41C4-B5C7-4FA5F13530A1" KeyPath="yes"
+            Location="either">
+            <File Id="BaseJava.class" Name="Mig~1a.xml" LongName="BaseJava.class" />
+            <File Id="BaseJava.java" Name="Mig~1b.xml" LongName="BaseJava.java" />
+            <File Id="JavaTestModule.class" Name="Mig~2a.xml" LongName="JavaTestModule.class" />
+            <File Id="JavaTestModule.java" Name="Mig~2b.xml" LongName="JavaTestModule.java" />
+            <File Id="JavaTestModuleTest.class" Name="Mig~3a.xml" LongName="JavaTestModuleTest.class" />
+            <File Id="JavaTestModuleTest.java" Name="Mig~3b.xml" LongName="JavaTestModule.java" />
+            <File Id="MigrationAccess.class" Name="Mig~4a.xml" LongName="MigrationAccess.class" />
+            <File Id="MigrationAccess.java" Name="Mig~4b.xml" LongName="MigrationAccess.java" />
+            <File Id="MigrationGeneric.class" Name="Mig~5a.xml" LongName="MigrationGeneric.class" />
+            <File Id="MigrationGeneric.java" Name="Mig~5b.xml" LongName="MigrationGeneric.java" />
+            <File Id="MigrationOracle.class" Name="Mig~6a.xml" LongName="MigrationOracle.class" />
+            <File Id="MigrationOracle.java" Name="Mig~6b.xml" LongName="MigrationOracle.java" />
+            <File Id="MigrationOracleTest.class" Name="Mig~7a.xml" LongName="MigrationOracleTest.class" />
+            <File Id="MigrationOracleTest.java" Name="Mig~7b.xml" LongName="MigrationOracleTest.java" />
+            <File Id="MigrationMssql.class" Name="Mig~6a.xml" LongName="MigrationMssql.class" />
+            <File Id="MigrationMssql.java" Name="Mig~6b.xml" LongName="MigrationMssql.java" />
+            <File Id="MigrationMysql.class" Name="Mig~6a.xml" LongName="MigrationMysql.class" />
+            <File Id="MigrationMysql.java" Name="Mig~6b.xml" LongName="MigrationMysql.java" />
+            <File Id="MigrationUtils.class" Name="Mig~8a.xml" LongName="MigrationUtils.class" />
+            <File Id="MigrationUtils.java" Name="Mig~8b.xml" LongName="MigrationUtils.java" />
+            <File Id="ReverseEngineeringAccess.class" Name="Rev~9a.xml" LongName="ReverseEngineeringAccess.class" />
+            <File Id="ReverseEngineeringAccess.java" Name="Rev~9b.xml" LongName="ReverseEngineeringAccess.java" />
+            <File Id="ReverseEngineeringAccessTest.class" Name="Rev~10a.xml" LongName="ReverseEngineeringAccessTest.class" />
+            <File Id="ReverseEngineeringAccessTest.java" Name="Rev~10b.xml" LongName="ReverseEngineeringAccessTest.java" />
+            <File Id="ReverseEngineeringMysqlJdbc.class" Name="Rev~11a.xml" LongName="ReverseEngineeringMysqlJdbc.class" />
+            <File Id="ReverseEngineeringMysqlJdbc.java" Name="Rev~11b.xml" LongName="ReverseEngineeringMysqlJdbc.java" />
+            <File Id="ReverseEngineeringGeneric.class" Name="Rev~12a.xml" LongName="ReverseEngineeringGeneric.class" />
+            <File Id="ReverseEngineeringGeneric.java" Name="Rev~12b.xml" LongName="ReverseEngineeringGeneric.java" />
+            <File Id="ReverseEngineeringOracle.class" Name="Rev~13a.xml" LongName="ReverseEngineeringOracle.class" />
+            <File Id="ReverseEngineeringOracle.java" Name="Rev~13b.xml" LongName="ReverseEngineeringOracle.java" />
+            <File Id="ReverseEngineeringOracleTest.class" Name="Rev~14a.xml" LongName="ReverseEngineeringOracleTest.class" />
+            <File Id="ReverseEngineeringOracleTest.java" Name="Rev~14b.xml" LongName="ReverseEngineeringOracleTest.java" />
+            <File Id="ReverseEngineeringMssql.class" Name="Rev~16a.xml" LongName="ReverseEngineeringMssql.class" />
+            <File Id="ReverseEngineeringMssql.java" Name="Rev~16b.xml" LongName="ReverseEngineeringMssql.java" />
+            <File Id="TransformationMysqlJdbc.class" Name="tra~15a.xml" LongName="TransformationMysqlJdbc.class" />
+            <File Id="TransformationMysqlJdbc.java" Name="tra~15b.xml" LongName="TransformationMysqlJdbc.java" />
+          </Component>
+                </Directory>
+              </Directory>
+            </Directory>
+          </Directory>
+        </Directory>
+  
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>  
+    
+  </Fragment>
+</Wix>

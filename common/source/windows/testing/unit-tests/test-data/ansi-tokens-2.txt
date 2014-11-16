@@ -1,0 +1,17 @@
+
+ (6914049,'VT-9300','Check all screw at conveyor and tighten if it\'s necessary','','-'),
+ (6946817,'VT-9300','Check the pressure within the range of 4.5-5.5 bar & clean the filter','','4.5-5.5'),
+
+identifier "quoted'identifier" 123 -456.789e-12 -- single line comment
+/*
+
+
+                multi line comment
+
+
+                */
+@uservar @@sysvar /*!12345 embedded command */
+
+`quoted`@`identifier` 'multi line
+string constant'
+

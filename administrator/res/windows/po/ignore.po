@@ -1,0 +1,590 @@
+#  Doesn't have any letters
+#. AdminBackupForm..ProfilesPopupMenu..N1..Caption
+#: AdminBackup.dfm:1281
+#. AdminBackupProgressForm..ProgressGBox..CurrentTableNameLbl..Caption
+#: AdminBackupProgress.dfm:88
+#. AdminBackupProgressForm..ProgressGBox..ProjectLbl..Caption
+#: AdminBackupProgress.dfm:149
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..TableTimeGBox..TblCheckTimeLbl..Caption
+#: AdminCatalog.dfm:776
+#. AdminCatalogForm..TablesPopupMenu..N1..Caption
+#: AdminCatalog.dfm:3927
+#. AdminCatalogForm..TablesPopupMenu..N2..Caption
+#: AdminCatalog.dfm:3944
+#. AdminServerConnectionsForm..UserPopupMenu..N1..Caption
+#: AdminServerConnections.dfm:345
+#. AdminServerHealthForm..PageControlPopupMenu..N1..Caption
+#: AdminServerHealth.dfm:6217
+#. AdminServerHealthForm..PageControlPopupMenu..N7..Caption
+#: AdminServerHealth.dfm:6230
+#. AdminServerHealthForm..GroupBoxPopupMenu..N9..Caption
+#: AdminServerHealth.dfm:6247
+#. AdminServerHealthForm..GroupBoxPopupMenu..N2..Caption
+#: AdminServerHealth.dfm:6260
+#. AdminServerHealthForm..GroupBoxPopupMenu..N4..Caption
+#: AdminServerHealth.dfm:6273
+#. AdminServerHealthForm..GraphPopupMenu..N5..Caption
+#: AdminServerHealth.dfm:6300
+#. AdminServerHealthForm..GraphPopupMenu..N8..Caption
+#: AdminServerHealth.dfm:6313
+#. AdminServerHealthForm..GraphPopupMenu..N3..Caption
+#: AdminServerHealth.dfm:6326
+#. AdminServerHealthForm..GraphPopupMenu..N6..Caption
+#: AdminServerHealth.dfm:6339
+#. AdminServerInfoForm..ServerInfoPnl..ClientInfoGBox..ClientNetworkNameLbl..Caption
+#: AdminServerInfo.dfm:120
+#. AdminServerInfoForm..ServerInfoPnl..ClientInfoGBox..ClientOSLbl..Caption
+#: AdminServerInfo.dfm:128
+#. AdminServerInfoForm..ServerInfoPnl..ClientInfoGBox..ClientHardwareLabel..Caption
+#: AdminServerInfo.dfm:136
+#. AdminServerInfoForm..ServerInfoPnl..ClientInfoGBox..ClientVersionLbl..Caption
+#: AdminServerInfo.dfm:144
+#. AdminServerInfoForm..ServerInfoPnl..ClientInfoGBox..ClientIPLbl..Caption
+#: AdminServerInfo.dfm:160
+#. AdminServerInfoForm..ServerInfoPnl..ConnectionGBox..UserLbl..Caption
+#: AdminServerInfo.dfm:176
+#. AdminServerInfoForm..ServerInfoPnl..ConnectionGBox..HostLbl..Caption
+#: AdminServerInfo.dfm:184
+#. AdminServerInfoForm..ServerInfoPnl..ConnectionGBox..PortLbl..Caption
+#: AdminServerInfo.dfm:216
+#. AdminServerInfoForm..ServerInfoPnl..ConnectionGBox..InstanceNameLbl..Caption
+#: AdminServerInfo.dfm:232
+#. AdminServerInfoForm..ServerInfoPnl..ServerInfoGBox..ServerNetworkNameLbl..Caption
+#: AdminServerInfo.dfm:280
+#. AdminServerInfoForm..ServerInfoPnl..ServerInfoGBox..ServerOSLbl..Caption
+#: AdminServerInfo.dfm:288
+#. AdminServerInfoForm..ServerInfoPnl..ServerInfoGBox..ServerHardwareLbl..Caption
+#: AdminServerInfo.dfm:296
+#. AdminServerInfoForm..ServerInfoPnl..ServerInfoGBox..ServerVersionLbl..Caption
+#: AdminServerInfo.dfm:304
+#. AdminServerInfoForm..ServerInfoPnl..ServerInfoGBox..ServerIPLbl..Caption
+#: AdminServerInfo.dfm:320
+#. AdminServerLogsForm..MemoPopupMenu..N1..Caption
+#: AdminServerLogs.dfm:710
+#. AdminServiceControlForm..PopupMenu..N1..Caption
+#: AdminServiceControl.dfm:722
+#. AdminStartupVariablesForm..StartupParametersPnl..ButtonPnl..SectionLbl..Caption
+#: AdminStartupVariables.dfm:1849
+#. AdminUsersForm..UserSubTreePopupMenu..N1..Caption
+#: AdminUsers.dfm:1046
+#. AdminUsersForm..UserSubTreePopupMenu..N3..Caption
+#: AdminUsers.dfm:1066
+#. AdminUsersForm..CatalogTreePopup..N4..Caption
+#: AdminUsers.dfm:1087
+#. MainForm..MainMenu..FileMI..N3..Caption
+#: Main.dfm:88
+#. MainForm..MainMenu..FileMI..N2..Caption
+#: Main.dfm:96
+#. MainForm..MainMenu..ToolsMI..N1..Caption
+#: Main.dfm:144
+#. MainForm..MainMenu..ToolsMI..N9..Caption
+#: Main.dfm:151
+#. MainForm..MainMenu..ToolsMI..N4..Caption
+#: Main.dfm:162
+#. MainForm..MainMenu..HelpMI..N6..Caption
+#: Main.dfm:182
+#. MainForm..MainMenu..HelpMI..N5..Caption
+#: Main.dfm:189
+#. MainForm..MainMenu..HelpMI..N7..Caption
+#: Main.dfm:200
+#. MainForm..PopupMenu..N2..Caption
+#: Main.dfm:43
+#. MainForm..PopupMenu..N1..Caption
+#: Main.dfm:128
+msgid "-"
+msgstr ""
+
+#  Doesn't have any letters
+#. AdminUsersForm..UserPnl..UserPageControl..UserInfoSheet..UserInfoScrollBox..UserInfoLoginGBox..PasswordEd..PasswordChar
+#: AdminUsers.dfm:172
+#. AdminUsersForm..UserPnl..UserPageControl..UserInfoSheet..UserInfoScrollBox..UserInfoLoginGBox..PasswordConfirmationEd..PasswordChar
+#: AdminUsers.dfm:181
+msgid "*"
+msgstr ""
+
+#  Doesn't have any letters
+#. AdminRestoreProgressForm..ProgressGBox..BackupFileLbl..Caption
+#: AdminRestoreProgress.dfm:100
+msgid "."
+msgstr ""
+
+#  Doesn't have any letters
+#. AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..ScheduleTabSheet..ScheduleGBox..ScheduleBrowseTargetDirBtn..Caption
+#: AdminBackup.dfm:827
+#. AdminOptionPagesForm..OptionPageControl..AdminGeneralTabSheet..GroupBox2..BackupLogFileBrowseBtn..Caption
+#: AdminOptionPages.dfm:190
+#. AdminRestoreProgressForm..StatusLbl..Caption
+#: AdminRestoreProgress.dfm:31
+#. AdminServiceControlForm..ServiceControlPnl..PageControl..ServiceConfigSheet..SettingsScrollBox..ServiceFeaturesGBox..PathToBinaryBrowseBtn..Caption
+#: AdminServiceControl.dfm:458
+#. AdminStartupVariablesOptionFileForm..GroupBox1..ChooseCnfFile..Caption
+#: AdminStartupVariablesOptionFile.dfm:105
+msgid "..."
+msgstr ""
+
+#  Doesn't have any letters
+#. AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..BackupContentTabSheet..Panel2..RemoveSchemaFromBackup..Caption
+#: AdminBackup.dfm:253
+#. AdminUsersForm..UserPnl..UserPageControl..GlobalPrivSheet..AssignGlobalPrivBtn..Caption
+#: AdminUsers.dfm:407
+#. AdminUsersForm..UserPnl..UserPageControl..SchemataPrivSheet..AssignSchemaPrivBtn..Caption
+#: AdminUsers.dfm:544
+#. AdminUsersForm..UserPnl..UserPageControl..TablePrivSheet..AssignTblColPrivBtn..Caption
+#: AdminUsers.dfm:729
+msgid "<"
+msgstr ""
+
+#  Doesn't have any letters
+#. AdminUsersForm..UserPnl..UserPageControl..GlobalPrivSheet..AssignAllGlobalPrivBtn..Caption
+#: AdminUsers.dfm:466
+#. AdminUsersForm..UserPnl..UserPageControl..SchemataPrivSheet..AssignAllSchemaPrivBtn..Caption
+#: AdminUsers.dfm:651
+#. AdminUsersForm..UserPnl..UserPageControl..TablePrivSheet..AssignAllTblColPrivBtn..Caption
+#: AdminUsers.dfm:834
+msgid "<<"
+msgstr ""
+
+#  Doesn't have any letters
+#. AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..BackupContentTabSheet..Panel2..AddSchemaToBackupBtn..Caption
+#: AdminBackup.dfm:244
+#. AdminUsersForm..UserPnl..UserPageControl..GlobalPrivSheet..RemoveGlobalPrivBtn..Caption
+#: AdminUsers.dfm:416
+#. AdminUsersForm..UserPnl..UserPageControl..SchemataPrivSheet..RemoveSchemaPrivBtn..Caption
+#: AdminUsers.dfm:553
+#. AdminUsersForm..UserPnl..UserPageControl..TablePrivSheet..RemoveTblColPrivBtn..Caption
+#: AdminUsers.dfm:738
+msgid ">"
+msgstr ""
+
+#  Doesn't have any letters
+#. AdminUsersForm..UserPnl..UserPageControl..GlobalPrivSheet..RemoveAllGlobalPrivBtn..Caption
+#: AdminUsers.dfm:475
+#. AdminUsersForm..UserPnl..UserPageControl..SchemataPrivSheet..RemoveAllSchemaPrivBtn..Caption
+#: AdminUsers.dfm:660
+#. AdminUsersForm..UserPnl..UserPageControl..TablePrivSheet..RemoveAllTblColPrivBtn..Caption
+#: AdminUsers.dfm:843
+msgid ">>"
+msgstr ""
+
+#  Doesn't have any letters
+#. AdminRestoreProgressForm..ProgressGBox..ElapsedTimeLabel..Caption
+#: AdminRestoreProgress.dfm:134
+#. AdminRestoreProgressForm..ProgressGBox..RemainingTimeLabel..Caption
+#: AdminRestoreProgress.dfm:141
+msgid "00:00:00"
+msgstr ""
+
+#  Doesn't have any letters
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..TableTimeGBox..TblCreateTimeLbl..Caption
+#: AdminCatalog.dfm:734
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..TableTimeGBox..TblUpdateTimeLbl..Caption
+#: AdminCatalog.dfm:755
+msgid "2003-10-08 15:46:50"
+msgstr ""
+
+#  Doesn't have any letters
+#. AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..ScheduleTabSheet..ExecutionTimeGBox..TimePnl..ScheduleTimeEd..Text
+#: AdminBackup.dfm:1116
+msgid "23:00"
+msgstr ""
+
+#  Doesn't have any letters
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..GroupBox3..MaxDataLenLbl..Caption
+#: AdminCatalog.dfm:661
+msgid "4294967295"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:247
+msgid "ARMSCII-8"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:222
+msgid "big5"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet2..GroupBox2..CreateOptionsLbl..Caption
+#: AdminCatalog.dfm:510
+msgid "checksum=1"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:235
+msgid "cp1250"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:239
+msgid "cp1251"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:240
+msgid "cp1256"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:241
+msgid "cp1257"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:224
+msgid "cp850"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:225
+msgid "cp866"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:233
+msgid "gb2312"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:242
+msgid "HP-ROMAN8"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:243
+msgid "KOI8-R"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:246
+msgid "KOI8-U"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:226
+msgid "latin1"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:227
+msgid "latin2"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:228
+msgid "latin5"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:229
+msgid "latin7"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. AdminBackupForm..Font.Name
+#: AdminBackup.dfm:11
+#. AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..BackupContentTabSheet..Panel1..Label2..Font.Name
+#: AdminBackup.dfm:89
+#. AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..AdvancedOptionsTabSheet..Panel5..Label15..Font.Name
+#: AdminBackup.dfm:436
+#. AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..ScheduleTabSheet..Panel6..Label6..Font.Name
+#: AdminBackup.dfm:878
+#. AdminBackupProgressForm..Font.Name
+#: AdminBackupProgress.dfm:13
+#. AdminBackupProgressForm..ProgressGBox..TablesLbl..Font.Name
+#: AdminBackupProgress.dfm:52
+#. AdminBackupProgressForm..ProgressGBox..CurrentTableLbl..Font.Name
+#: AdminBackupProgress.dfm:79
+#. AdminBackupProgressForm..ProgressGBox..CurrentTableNameLbl..Font.Name
+#: AdminBackupProgress.dfm:92
+#. AdminBackupProgressForm..ProgressGBox..TotalRowsLbl..Font.Name
+#: AdminBackupProgress.dfm:112
+#. AdminBackupProgressForm..ProgressGBox..CurrentRowLbl..Font.Name
+#: AdminBackupProgress.dfm:132
+#. AdminBackupProgressForm..ProgressGBox..ProjectLbl..Font.Name
+#: AdminBackupProgress.dfm:153
+#. AdminCatalogForm..Font.Name
+#: AdminCatalog.dfm:11
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..CatalogSheet..SelectSchemaLbl..Font.Name
+#: AdminCatalog.dfm:205
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..Panel5..TablesSchemaLbl..Font.Name
+#: AdminCatalog.dfm:391
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet2..GroupBox2..RowFormatLbl..Font.Name
+#: AdminCatalog.dfm:451
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet2..GroupBox2..TableTypeLbl..Font.Name
+#: AdminCatalog.dfm:465
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet2..GroupBox2..AutoIncLbl..Font.Name
+#: AdminCatalog.dfm:493
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet2..GroupBox2..CreateOptionsLbl..Font.Name
+#: AdminCatalog.dfm:514
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet2..GroupBox2..TableCommentLbl..Font.Name
+#: AdminCatalog.dfm:529
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet2..TablenamePnl..TablenameLbl..Font.Name
+#: AdminCatalog.dfm:557
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..GroupBox3..RowsLbl..Font.Name
+#: AdminCatalog.dfm:605
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..GroupBox3..AvgRowLengthLbl..Font.Name
+#: AdminCatalog.dfm:618
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..GroupBox3..DataLengthLbl..Font.Name
+#: AdminCatalog.dfm:645
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..GroupBox3..MaxDataLenLbl..Font.Name
+#: AdminCatalog.dfm:665
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..GroupBox3..IndexLenLbl..Font.Name
+#: AdminCatalog.dfm:685
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..GroupBox3..DataFreeLbl..Font.Name
+#: AdminCatalog.dfm:705
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..TableTimeGBox..TblCreateTimeLbl..Font.Name
+#: AdminCatalog.dfm:738
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..TableTimeGBox..TblUpdateTimeLbl..Font.Name
+#: AdminCatalog.dfm:759
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesOptionsPageControl..TabSheet3..TableTimeGBox..TblCheckTimeLbl..Font.Name
+#: AdminCatalog.dfm:780
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TablesVST..Header.Font.Name
+#: AdminCatalog.dfm:798
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TableSumPnl..NumberOfTablesLbl..Font.Name
+#: AdminCatalog.dfm:1499
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TableSumPnl..NumberOfTablesCaptionLbl..Font.Name
+#: AdminCatalog.dfm:1514
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TableSumPnl..RowsCountLbl..Font.Name
+#: AdminCatalog.dfm:1532
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TableSumPnl..RowsCountCaptionLbl..Font.Name
+#: AdminCatalog.dfm:1548
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TableSumPnl..TableDataLenCaptionLbl..Font.Name
+#: AdminCatalog.dfm:1772
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TableSumPnl..TableDataLenLbl..Font.Name
+#: AdminCatalog.dfm:1790
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TableSumPnl..TableIndexLenCaptionLbl..Font.Name
+#: AdminCatalog.dfm:1806
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..TableSumPnl..TableIndexLenLbl..Font.Name
+#: AdminCatalog.dfm:1824
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..IndicesTabSheet..Panel1..IndicesSchemaLbl..Font.Name
+#: AdminCatalog.dfm:1927
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..IndicesTabSheet..IndicesVST..Header.Font.Name
+#: AdminCatalog.dfm:1973
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..IndicesTabSheet..Panel8..NumberOfIndicesLbl..Font.Name
+#: AdminCatalog.dfm:2662
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..IndicesTabSheet..Panel8..NumberOfIndicesCaptionLbl..Font.Name
+#: AdminCatalog.dfm:2677
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..IndicesTabSheet..Panel8..IndexColCountLbl..Font.Name
+#: AdminCatalog.dfm:2694
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..IndicesTabSheet..Panel8..Label10..Font.Name
+#: AdminCatalog.dfm:2709
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..IndicesTabSheet..Panel8..Label11..Font.Name
+#: AdminCatalog.dfm:2933
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..IndicesTabSheet..Panel8..IndexUniqueCountLbl..Font.Name
+#: AdminCatalog.dfm:2951
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..IndicesTabSheet..Panel8..Label13..Font.Name
+#: AdminCatalog.dfm:2967
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..IndicesTabSheet..Panel8..IndexNotNullCountLbl..Font.Name
+#: AdminCatalog.dfm:2985
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..ViewsTabSheet..Panel14..ViewsSchemaLbl..Font.Name
+#: AdminCatalog.dfm:3188
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..StoredProcTabSheet..Panel2..StoredProcSchemaLbl..Font.Name
+#: AdminCatalog.dfm:3293
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..EventsTabSheet..TntLabel2..Font.Name
+#: AdminCatalog.dfm:3424
+#. AdminCatalogTableCheckForm..Font.Name
+#: AdminCatalogTableCheck.dfm:12
+#. AdminCatalogTableCheckForm..PageControl..SelectTabSheet..Label21..Font.Name
+#: AdminCatalogTableCheck.dfm:58
+#. AdminCatalogTableCheckForm..PageControl..OptimizeTabSheet..Label5..Font.Name
+#: AdminCatalogTableCheck.dfm:177
+#. AdminCatalogTableCheckForm..PageControl..OptionsTabSheet..Label4..Font.Name
+#: AdminCatalogTableCheck.dfm:241
+#. AdminCatalogTableCheckForm..PageControl..RepairTabSheet..Label13..Font.Name
+#: AdminCatalogTableCheck.dfm:372
+#. AdminCatalogTableCheckForm..PageControl..RepairTabSheet..Label19..Font.Name
+#: AdminCatalogTableCheck.dfm:400
+#. AdminCatalogTableCheckForm..PageControl..ResultTabSheet..HeaderLbl..Font.Name
+#: AdminCatalogTableCheck.dfm:537
+#. AdminOptionPagesForm..Font.Name
+#: AdminOptionPages.dfm:11
+#. AdminReplicationForm..Font.Name
+#: AdminReplication.dfm:11
+#. AdminRestoreForm..Font.Name
+#: AdminRestore.dfm:11
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..Panel6..Label6..Font.Name
+#: AdminRestore.dfm:72
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..ContentSheet..Panel1..Label1..Font.Name
+#: AdminRestore.dfm:328
+#. AdminRestoreProgressForm..Font.Name
+#: AdminRestoreProgress.dfm:13
+#. AdminRestoreProgressForm..ProgressGBox..TotalBytesLbl..Font.Name
+#: AdminRestoreProgress.dfm:69
+#. AdminRestoreProgressForm..ProgressGBox..ProcBytesLbl..Font.Name
+#: AdminRestoreProgress.dfm:89
+#. AdminRestoreProgressForm..ProgressGBox..BackupFileLbl..Font.Name
+#: AdminRestoreProgress.dfm:104
+#. AdminServerConnectionsForm..Font.Name
+#: AdminServerConnections.dfm:11
+#. AdminServerConnectionsForm..ServerProcessesPnl..ServerProcessesPageControl..ThreadsTabSheet..Panel5..Label2..Font.Name
+#: AdminServerConnections.dfm:177
+#. AdminServerConnectionsForm..ServerProcessesPnl..ServerProcessesPageControl..UserConnTabSheet..Panel1..Label3..Font.Name
+#: AdminServerConnections.dfm:328
+#. AdminServerHealthForm..Font.Name
+#: AdminServerHealth.dfm:11
+#. AdminServerHealthForm..ServerStatusPnl..HeaderPnl..HeaderLbl..Font.Name
+#: AdminServerHealth.dfm:6064
+#. AdminServerHealthBarGraphFrame..MainPnl..ValueLbl..Font.Name
+#: AdminServerHealthBarGraph.dfm:49
+#. AdminServerHealthBarGraphFrame..MainPnl..MaxLbl..Font.Name
+#: AdminServerHealthBarGraph.dfm:66
+#. AdminServerHealthGraphSettingsForm..Font.Name
+#: AdminServerHealthGraphSettings.dfm:15
+#. AdminServerHealthLineGraphFrame..QueryCacheHitrateBarPnl..BarLbl..Font.Name
+#: AdminServerHealthLineGraph.dfm:468
+#. AdminServerHealthLineGraphFrame..QryCacheHitratePnl..QryCacheTotalSizeLbl..Font.Name
+#: AdminServerHealthLineGraph.dfm:626
+#. AdminServerHealthLineGraphFrame..DetailPnl..CurrentCaptionLbl..Font.Name
+#: AdminServerHealthLineGraph.dfm:690
+#. AdminServerHealthLineGraphFrame..DetailPnl..CurrentLbl..Font.Name
+#: AdminServerHealthLineGraph.dfm:708
+#. AdminServerHealthLineGraphFrame..DetailPnl..MinCaptionLbl..Font.Name
+#: AdminServerHealthLineGraph.dfm:724
+#. AdminServerHealthLineGraphFrame..DetailPnl..MinLbl..Font.Name
+#: AdminServerHealthLineGraph.dfm:742
+#. AdminServerHealthLineGraphFrame..DetailPnl..MaxLbl..Font.Name
+#: AdminServerHealthLineGraph.dfm:759
+#. AdminServerHealthLineGraphFrame..DetailPnl..MaxCaptionLbl..Font.Name
+#: AdminServerHealthLineGraph.dfm:775
+#. AdminServerHealthLineGraphFrame..DetailPnl..AvgCaptionLbl..Font.Name
+#: AdminServerHealthLineGraph.dfm:792
+#. AdminServerHealthLineGraphFrame..DetailPnl..AvgLbl..Font.Name
+#: AdminServerHealthLineGraph.dfm:810
+#. AdminServerInfoForm..Font.Name
+#: AdminServerInfo.dfm:11
+#. AdminServerInfoForm..ServerInfoPnl..ServerStatusLbl..Font.Name
+#: AdminServerInfo.dfm:54
+#. AdminServerLogsForm..Font.Name
+#: AdminServerLogs.dfm:11
+#. AdminServerLogsForm..ServerLogsPnl..ServerLogPageControl..ErrorLogTabSheet..HeaderPnl..HeaderLbl..Font.Name
+#: AdminServerLogs.dfm:76
+#. AdminServerLogsForm..ServerLogsPnl..LocalhostOnlyPnl..Label3..Font.Name
+#: AdminServerLogs.dfm:284
+#. AdminServerProcessesForm..Font.Name
+#: AdminServerProcesses.dfm:11
+#. AdminServerStatusForm..Font.Name
+#: AdminServerStatus.dfm:11
+#. AdminServiceControlForm..Font.Name
+#: AdminServiceControl.dfm:11
+#. AdminServiceControlForm..ServiceControlPnl..PageControl..StartStopServiceSheet..Panel1..ServiceNameHeaderLbl..Font.Name
+#: AdminServiceControl.dfm:104
+#. AdminServiceControlForm..ServiceControlPnl..PageControl..StartStopServiceSheet..ServiceStatusGBox..ServerStatusLbl..Font.Name
+#: AdminServiceControl.dfm:148
+#. AdminServiceControlForm..ServiceControlPnl..PageControl..ServiceConfigSheet..Panel4..ServiceNameHeader2Lbl..Font.Name
+#: AdminServiceControl.dfm:618
+#. AdminServiceControlForm..ServiceControlPnl..LocalhostOnlyPnl..LocalhostWarningLbl..Font.Name
+#: AdminServiceControl.dfm:663
+#. AdminStartupVariablesForm..Font.Name
+#: AdminStartupVariables.dfm:11
+#. AdminStartupVariablesForm..StartupParametersPnl..LocalhostOnlyPnl..Label4..Font.Name
+#: AdminStartupVariables.dfm:1819
+#. AdminStartupVariablesForm..StartupParametersPnl..ButtonPnl..SectionLbl..Font.Name
+#: AdminStartupVariables.dfm:1853
+#. AdminStartupVariablesForm..SheetHeaderPnl..SheetHeaderLbl..Font.Name
+#: AdminStartupVariables.dfm:1975
+#. AdminStartupVariablesInnoDBDatafilesForm..Font.Name
+#: AdminStartupVariablesInnoDBDatafiles.dfm:12
+#. AdminStartupVariablesInnoDBDatafilesForm..DriveInfoCBox..VolumeNameLbl..Font.Name
+#: AdminStartupVariablesInnoDBDatafiles.dfm:57
+#. AdminStartupVariablesInnoDBDatafilesForm..DriveInfoCBox..FileSystemLbl..Font.Name
+#: AdminStartupVariablesInnoDBDatafiles.dfm:70
+#. AdminStartupVariablesInnoDBDatafilesForm..DriveInfoCBox..FreeSpaceLbl..Font.Name
+#: AdminStartupVariablesInnoDBDatafiles.dfm:90
+#. AdminStartupVariablesInnoDBDatafilesForm..DriveInfoCBox..TotalSizeLbl..Font.Name
+#: AdminStartupVariablesInnoDBDatafiles.dfm:110
+#. AdminStartupVariablesOptionFileForm..Font.Name
+#: AdminStartupVariablesOptionFile.dfm:11
+#. AdminStartupVariablesOptionFileForm..SheetHeaderLbl..Font.Name
+#: AdminStartupVariablesOptionFile.dfm:38
+#. AdminUsersForm..Font.Name
+#: AdminUsers.dfm:11
+#. AdminUsersForm..UserPnl..UserPageControl..UserInfoSheet..Panel1..UserInfoNameLbl..Font.Name
+#: AdminUsers.dfm:73
+#. AdminUsersForm..UserPnl..UserPageControl..GlobalPrivSheet..Panel9..GlobalPrivNameLbl..Font.Name
+#: AdminUsers.dfm:384
+#. AdminUsersForm..UserPnl..UserPageControl..SchemataPrivSheet..Panel2..SchemaPrivNameLbl..Font.Name
+#: AdminUsers.dfm:521
+#. AdminUsersForm..UserPnl..UserPageControl..TablePrivSheet..Panel5..TableColumnPrivNameLbl..Font.Name
+#: AdminUsers.dfm:706
+#. AdminUsersForm..UserPnl..UserPageControl..ResourceSheet..Panel6..ResourceNameLbl..Font.Name
+#: AdminUsers.dfm:876
+#. MainForm..Font.Name
+#: Main.dfm:13
+#. NameEditorForm..Font.Name
+#: NameEditor.dfm:12
+#. PasswordDialog..Font.Name
+#: Password.dfm:12
+#. PasswordDialog..TntLabel1..Font.Name
+#: Password.dfm:32
+#. MainForm..Font.Name
+#: Main.dfm:14
+msgid "MS Sans Serif"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..ViewsTabSheet..ViewsVST..Header.Font.Name
+#: AdminCatalog.dfm:3058
+#. AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..StoredProcTabSheet..StoredProcsVST..Header.Font.Name
+#: AdminCatalog.dfm:3361
+msgid "MS Shell Dlg 2"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..ScheduleTabSheet..ExecutionTimeGBox..SchedulePageControl..TabSheet3..Caption
+#: AdminBackup.dfm:779
+msgid "TabSheet3"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..BackupContentTabSheet..Panel3..BackupTreeView..Header.Font.Name
+#: AdminBackup.dfm:294
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..ContentSheet..RestoreTreeView..Header.Font.Name
+#: AdminRestore.dfm:345
+#. AdminServerHealthForm..ServerStatusPnl..HealthPageControl..MultiInstanceMonitoringSheet..MerlinScrollBox..Font.Name
+#: AdminServerHealth.dfm:258
+#. AdminServerHealthForm..ServerStatusPnl..HealthPageControl..MultiInstanceMonitoringSheet..MerlinScrollBox..TntLabel1..Font.Name
+#: AdminServerHealth.dfm:5742
+#. AdminStartupVariablesForm..StartupParametersPnl..StartupParamsPageControl..MerlinSheet..MerlinScrollBox..Font.Name
+#: AdminStartupVariables.dfm:69
+#. AdminStartupVariablesForm..StartupParametersPnl..StartupParamsPageControl..MerlinSheet..MerlinScrollBox..TntLabel1..Font.Name
+#: AdminStartupVariables.dfm:1538
+msgid "Tahoma"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:231
+msgid "tis620"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:248
+msgid "UCS-2"
+msgstr ""
+
+#  Doesn't look like text
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox..Text
+#: AdminRestore.dfm:220
+#. AdminRestoreForm..ServerBackupRestorePnl..BackupRestorePageControl..GeneralSheet..GroupBox2..CharsetCBox....Items.Strings
+#: AdminRestore.dfm:237
+msgid "utf8"
+msgstr ""
+

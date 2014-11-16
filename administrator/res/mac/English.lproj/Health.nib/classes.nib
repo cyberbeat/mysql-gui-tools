@@ -1,0 +1,44 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                editGraph = id; 
+                editOK = id; 
+                moreInfo = id; 
+                newGraph = id; 
+                newGroup = id; 
+                newPage = id; 
+                refreshServerVariables = id; 
+                refreshStatusVariables = id; 
+                removeGraph = id; 
+                removeGroup = id; 
+                removePage = id; 
+                renameGroup = id; 
+                renamePage = id; 
+                revertToFactory = id; 
+            }; 
+            CLASS = MAHealth; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                editMenu = NSMenu; 
+                pageMenu = NSMenu; 
+                serverIndex = NSOutlineView; 
+                serverTable = NSTableView; 
+                statusIndex = NSOutlineView; 
+                statusTable = NSTableView; 
+                tabView = NSTabView; 
+            }; 
+            SUPERCLASS = MAPanel; 
+        }, 
+        {
+            CLASS = MAPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {topBox = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MATimeGraph; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = MTextImageCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }
+    ); 
+    IBVersion = 1; 
+}

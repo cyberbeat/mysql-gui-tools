@@ -1,0 +1,49 @@
+#!/bin/sh
+#
+# Files that need to be moved out of /usr/lib to hide dynamic libraries them from the linker.
+#
+
+#libart_lgpl.so
+#libaudiofile.so
+#libbonobo-2.so
+#libbonobo-activation.so
+#libbonobo-print.so
+#libbonobo.so
+#libbonoboui-2.so
+#libesd.so
+#libgailutil.so
+#libgal-2.0.so
+#libgal-a11y-2.0.so
+#libgal.so
+#libglade.so
+#libgnome-2.so
+#libgnomecanvas-2.so
+#libgnomecanvaspixbuf.so
+#libgnomeprint-2-2.so
+#libgnomeprint.so
+#libgnomeprintui-2-2.so
+#libgnomeui-2.so
+#libgnomevfs-2.so
+#libgtkhtml-3.0.so
+#libgtkhtml-a11y-3.0.so
+#libgtksourceview-1.0.so
+#libORBit-2.so
+#libORBitCosNaming-2.so
+#libORBitCosNaming.so
+#libORBit-imodule-2.so
+#libORBit.so
+#libORBitutil.so
+#libpopt.so
+
+
+# This needs to be dynamic, because some paths are hardcoded in the 
+# library. (bug #5009)
+#libgconf-2.so
+
+
+# for debian
+#make LIBS='-lXft -lpangoft2-1.0 -lfontconfig -lfreetype -lpng -ltiff -ljpeg -lexpat -L/usr/X11R6/lib -lX11 -lXext -lXinerama -lXi -lXrender -L/usr/lib -lgal-2.0 -lgailutil -lgnutls -lORBitCosNaming-2 -lesd -lXcursor -lXrandr '
+
+# for fc1
+make LIBS='-lXft -lpango-1.0 -lfontconfig -lfreetype -lpng -ltiff -ljpeg -lexpat -L/usr/X11R6/lib -lX11 -lXext -lXinerama -lXi -lXrender -L/usr/lib -lgailutil -lORBitCosNaming-2 -lXcursor -lXrandr -laudiofile '
+

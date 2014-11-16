@@ -1,0 +1,64 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                changeIMAutoStart = id; 
+                newAccountClose = id; 
+                setIMPassword = id; 
+                setServerPassword = id; 
+                showHelp = id; 
+                toggleCreateAccount = id; 
+                toggleIM = id; 
+                toggleServer = id; 
+            }; 
+            CLASS = MySQLStartupPref; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                imButton = NSButton; 
+                imCheck = NSButton; 
+                imLoginWindow = NSWindow; 
+                imNewAccountWindow = NSWindow; 
+                imPasswordButton = NSButton; 
+                imPasswordText = NSTextField; 
+                imStateImage = NSImageView; 
+                imStateText = NSTextField; 
+                imWarningText = NSTextField; 
+                imlessButton = NSButton; 
+                imlessCheck = NSButton; 
+                imlessEnableButton = NSButton; 
+                imlessNotFoundText = NSTextField; 
+                imlessStateText = NSTextField; 
+                imlessWarningText = NSTextField; 
+                instanceList = NSTableView; 
+                serverBasePathText = NSTextField; 
+                serverButton = NSButton; 
+                serverDataPathText = NSTextField; 
+                serverVersionText = NSTextField; 
+                singleAddInstanceButton = NSButton; 
+                singleBasePathText = NSTextField; 
+                singleButton = NSButton; 
+                singleDataPathText = NSTextField; 
+                singlePortText = NSTextField; 
+                singleSocketPathText = NSTextField; 
+                singleStatusText = NSTextField; 
+                singleVersionText = NSTextField; 
+                singleWarningText = NSTextField; 
+                tabview = NSTabView; 
+            }; 
+            SUPERCLASS = NSPreferencePane; 
+        }, 
+        {
+            CLASS = NSPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_firstKeyView" = NSView; 
+                "_initialKeyView" = NSView; 
+                "_lastKeyView" = NSView; 
+                "_window" = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

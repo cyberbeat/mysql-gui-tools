@@ -1,0 +1,39 @@
+package VirtualShellToolsD4D;
+
+{$R *.RES}
+{$R '..\Design\VirtualShellToolsReg.dcr'}
+{$ALIGN ON}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $00400000}
+{$DESCRIPTION 'Virtual Shell Tools DesignTime Package'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  VirtualTreesD4,
+  VirtualShellToolsD4,
+  dclstd40,
+  vcl40;
+
+contains
+  VirtualShellToolsReg in '..\Design\VirtualShellToolsReg.pas';
+
+end.

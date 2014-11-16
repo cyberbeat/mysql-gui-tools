@@ -1,0 +1,6 @@
+mysqladministrator -clocalhost -bpForumBackup -btc:\backups -bxForumBackup
+
+-c ... connection
+-bp .. backup profile
+-bt .. backup target
+-bx .. backup prefix

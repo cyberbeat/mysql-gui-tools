@@ -1,0 +1,65 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MAccessoryScrollView; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }, 
+        {
+            ACTIONS = {applyChanges = id; close = id; discardChanges = id; }; 
+            CLASS = MGRTObjectEditor; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                chooseFile = id; 
+                handleColumnValueChange = id; 
+                handleValueChange = id; 
+                toggleAdvanced = id; 
+                toggleColumnPK = id; 
+            }; 
+            CLASS = MGRTTableEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                advancedButton = NSButton; 
+                colCollationPop = NSPopUpButton; 
+                colCommentText = NSTextView; 
+                colDefaultNull = NSButton; 
+                colDefaultText = NSTextField; 
+                colFlagsMatrix = NSMatrix; 
+                colGroup = NSView; 
+                colNameText = NSTextField; 
+                colTypeCombo = NSComboBox; 
+                columnList = NSTableView; 
+                descrText = NSTextView; 
+                engine2Pop = NSPopUpButton; 
+                enginePop = NSPopUpButton; 
+                fkColumnList = NSTableView; 
+                fkList = NSTableView; 
+                indColumnList = NSTableView; 
+                indexList = NSTableView; 
+                mergeOpView = NSView; 
+                miscOpView = NSView; 
+                raidOpView = NSView; 
+                rowOpView = NSView; 
+                stdInsertList = NSTableView; 
+                stoOpView = NSView; 
+                storEnginePop = NSPopUpButton; 
+                storEngineText = NSTextField; 
+                tabView = NSTabView; 
+                tableName2Text = NSTextField; 
+                tableNameText = NSTextField; 
+                tblCharset2Pop = NSPopUpButton; 
+                tblCollation2Pop = NSPopUpButton; 
+                tblCollationPop = NSPopUpButton; 
+            }; 
+            SUPERCLASS = MGRTObjectEditor; 
+        }, 
+        {CLASS = MTextImageCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

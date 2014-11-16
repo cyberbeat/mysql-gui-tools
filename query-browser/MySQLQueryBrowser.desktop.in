@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MySQL Query Browser
+Comment=MySQL Query Tool
+Exec=#bindir#/mysql-query-browser
+Terminal=false
+Type=Application
+Icon=#mydatadir#/MySQLIcon_QueryBrowser_48x48.png
+Categories=GTK;Database;Development;Application

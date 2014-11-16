@@ -1,0 +1,2136 @@
+# #-#-#-#-#  mysql-administrator-template.po (MySQL Administrator 1.1.5)  #-#-#-#-#
+# Common text for MySQL Administrator, QueryBrowser and Migration Toolkit.
+# Copyright (C) 2005 MySQL ab
+# This file is distributed under the same license as the MySQL Administrator package.
+# Gisbert W. Selke <gwselke@gmx.net>, 2005.
+# $Id: mysql-query-browser-de.po 330 2006-02-18 23:50:11Z gisbert $
+#
+# #-#-#-#-#  mysql-gui-common-template.po (MySQL GUI Common 1.1.5)  #-#-#-#-#
+# Common text for MySQL Administrator, QueryBrowser and Migration Toolkit.
+# Copyright (C) 2005 MySQL ab
+# This file is distributed under the same license as the MySQL Administrator package.
+# Gisbert W. Selke <gwselke@gmx.net>, 2005.
+# $Id: mysql-query-browser-de.po 330 2006-02-18 23:50:11Z gisbert $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MySQL Query Browser 1.1.20\n"
+"POT-Creation-Date: 2005-11-03 12:03\n"
+"PO-Revision-Date: 2007-02-05 12:28+0100\n"
+"Last-Translator: Mike Lischke <mikel@mysql.com>\n"
+"Language-Team: MySQL GUI Team <gui-tools@lists.mysql.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: QueryBrowser.pas:5504  QueryBrowser.pas:5536
+msgid " Progress"
+msgstr "Fortschritt"
+
+#: RegExTextImporter.pas:1377 
+msgid "%d row(s) processed."
+msgstr "%d Zeile(n) verarbeitet"
+
+#: QueryBrowser.pas:4636  QueryBrowser.pas:4656
+msgid "&Cancel"
+msgstr "Ab&brechen"
+
+#  MainForm..MainMenu..FileMI..CloseTabMI..Caption
+#. MainForm..MainMenu..FileMI..CloseTabMI..Caption
+#: Main.dfm:115 
+msgid "&Close Tab"
+msgstr "Tab s&chließen"
+
+#. MainForm..MainActionManager..EditCopy1..Caption
+#: Main.dfm:319 
+msgid "&Copy"
+msgstr "&Kopieren"
+
+#: QueryBrowser.pas:4636 
+msgid "&Discard"
+msgstr "&Verwerfen"
+
+#  MainForm..MainMenu..Edit1..Caption
+#. MainForm..MainMenu..Edit1..Caption
+#: Main.dfm:158 
+msgid "&Edit"
+msgstr "&Bearbeiten"
+
+#  MainForm..MainMenu..FileMI..Caption
+#. MainForm..MainMenu..FileMI..Caption
+#: Main.dfm:53 
+msgid "&File"
+msgstr "&Datei"
+
+#  MainForm..MainMenu..HelpMI..Caption
+#. MainForm..MainMenu..HelpMI..Caption
+#: Main.dfm:252 
+msgid "&Help"
+msgstr "&Hilfe"
+
+#  MainForm..MainMenu..FileMI..NewInstanceConnectionMI..Caption
+#. MainForm..MainMenu..FileMI..NewInstanceConnectionMI..Caption
+#: Main.dfm:56 
+msgid "&New Instance Connection ..."
+msgstr "&Neue Instanz-Verbindung..."
+
+#. MainForm..MainMenu..FileMI..NewResultsetTabMI..Caption
+#: Main.dfm:70 
+msgid "&New Resultset Tab"
+msgstr "&Neue Ergebnisseite"
+
+#: QueryBrowser.pas:4656 
+msgid "&No"
+msgstr "&Nein"
+
+#  MainForm..MainMenu..FileMI..OpenQueryMI..Caption
+#. MainForm..MainMenu..FileMI..OpenQueryMI..Caption
+#: Main.dfm:80 
+msgid "&Open Query ..."
+msgstr "Abfrage ö&ffnen..."
+
+#. MainForm..MainActionManager..EditPaste1..Caption
+#: Main.dfm:327 
+msgid "&Paste"
+msgstr "&Einfügen"
+
+#. MainForm..MainActionManager..EditRedo1..Caption
+#: Main.dfm:350 
+msgid "&Redo"
+msgstr "Erneut &ausführen"
+
+#  MainForm..MainMenu..FileMI..SaveMI..Caption
+#. MainForm..MainMenu..FileMI..SaveMI..Caption
+#: Main.dfm:99 
+msgid "&Save"
+msgstr "&Speichern"
+
+#  MainForm..MainMenu..ToolsMI..Caption
+#. MainForm..MainMenu..ToolsMI..Caption
+#: Main.dfm:194 
+msgid "&Tools"
+msgstr "&Tools"
+
+#. MainForm..MainActionManager..EditUndo1..Caption
+#: Main.dfm:342 
+msgid "&Undo"
+msgstr "&Zurück nehmen"
+
+#  MainForm..MainMenu..ViewMenuItem..Caption
+#. MainForm..MainMenu..ViewMenuItem..Caption
+#: Main.dfm:190 
+msgid "&View"
+msgstr "&Ansicht"
+
+#  MainForm..MainMenu..WindowMI..Caption
+#. MainForm..MainMenu..WindowMI..Caption
+#: Main.dfm:245 
+msgid "&Window"
+msgstr "&Fenster"
+
+#: QueryBrowser.pas:4656 
+msgid "&Yes"
+msgstr "&Ja"
+
+#  AboutForm..Label2..Caption
+#. AboutForm..Label2..Caption
+#: About.dfm:1251 
+msgid "(C) Copyright 2004 by MySQL AB. All rights reserved."
+msgstr "(C) Copyright 2004 by MySQL AB. Alle Rechte vorbehalten."
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:168 
+msgid "+AKY"
+msgstr "+AKY"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:167  QueryBrowserOptionPages.dfm:185
+msgid "+AKw"
+msgstr "+AKw"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstLFLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:166 
+msgid "+ALY"
+msgstr "+ALY"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:184 
+msgid "+ALc"
+msgstr "+ALc"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..SubstCRLU....Items.WideStrings_UTF7
+#: QueryBrowserOptionPages.dfm:186 
+msgid "+ALs"
+msgstr "+ALs"
+
+#: QueryBrowser.pas:7326 
+msgid "A view can only be created from a active resultset of SELECT command."
+msgstr ""
+"Eine View kann nur aus der aktiven Ergebnismenge einer SELECT-Anweisung "
+"erzeugt werden."
+
+#  MainForm..MainMenu..HelpMI..AboutMI..Caption
+#. MainForm..MainMenu..HelpMI..AboutMI..Caption
+#: Main.dfm:299 
+msgid "About"
+msgstr "Über..."
+
+#  AboutForm..Caption
+#  AboutForm..Caption
+#  AboutForm..Caption
+#. AboutForm..Caption
+#: About.dfm:6 
+msgid "About MySQL Administrator"
+msgstr "Über MySQL Administrator"
+
+#  QueryBrowserForm..MainMenu..QueryMI..AddBookmarkMI..Caption
+#. QueryBrowserForm..MainMenu..QueryMI..AddBookmarkMI..Caption
+#: QueryBrowser.dfm:1374 
+msgid "Add Bookmark (Ctrl+B)"
+msgstr "Lesezeichen hinzufügen (Strg+B)"
+
+#. QueryBrowserForm..HistoryPopupMenu..AddHistoryItemasBookmarkMI..Caption
+#: QueryBrowser.dfm:1572 
+msgid "Add History Item as Bookmark"
+msgstr "Füge Chronikeintrag als Lesezeichen hinzu"
+
+#  QueryBrowserForm..RSGridPopupMenu..AddNewRSTabMI..Caption
+#  QueryBrowserForm..ScriptMemoPopupMenu..ScriptAddNewResultsetTabMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..AddNewRSTabMI..Caption
+#. QueryBrowserForm..ScriptMemoPopupMenu..ScriptAddNewResultsetTabMI..Caption
+#: QueryBrowser.dfm:1256  QueryBrowser.dfm:1527
+msgid "Add New Resultset Tab (Ctrl+T) "
+msgstr "Neuen Ergebnis-Tab hinzufügen (Strg+T)"
+
+#  QueryBrowserForm..RSGridPopupMenu..RSAddNewScriptTabMI..Caption
+#  QueryBrowserForm..ScriptMemoPopupMenu..AddNewScriptTabMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..RSAddNewScriptTabMI..Caption
+#. QueryBrowserForm..ScriptMemoPopupMenu..AddNewScriptTabMI..Caption
+#: QueryBrowser.dfm:1261  QueryBrowser.dfm:1532
+msgid "Add New Script Tab (Ctrl+Shift+T)"
+msgstr "Neuen Skript-Tab hinzufügen (Strg+Umsch+T)"
+
+#  QueryBrowserForm..ParamPopupMenu..AddParameterMI..Caption
+#. QueryBrowserForm..ParamPopupMenu..AddParameterMI..Caption
+#: QueryBrowser.dfm:1870 
+msgid "Add Parameter"
+msgstr "Parameter hinzufügen"
+
+#  QueryBrowserForm..RSGridPopupMenu..AddRowMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..AddRowMI..Caption
+#: QueryBrowser.dfm:1301 
+msgid "Add Row"
+msgstr "Zeile hinzufügen"
+
+#: TableDrag.pas:135 
+msgid "Add Table(s)"
+msgstr "Tabelle(n) hinzufügen"
+
+#  AboutForm..InfoMemo....Lines.Strings
+#. AboutForm..InfoMemo....Lines.Strings
+#: About.dfm:1280 
+msgid "Alfredo Kengi Kojima | Linux development, library coding"
+msgstr "Alfredo Kengi Kojima | Linux-Entwicklung, Bibliotheksprogrammierung"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..AlignNumericColsRightCBox..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..AlignNumericColsRightCBox..Caption
+#: QueryBrowserOptionPages.dfm:202 
+msgid "Align numeric columns to the right"
+msgstr "Zahlenspalten rechtsbündig"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..AllowEmptyMatchesMI..Caption
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..AllowEmptyMatchesMI..Caption
+#: RegExTextImporter.dfm:575 
+msgid "Allow Empty Matches"
+msgstr "Leere Übereinstimmungen zulassen"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..AlwaysAssumeMoreThanOneCharMI..Caption
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..AlwaysAssumeMoreThanOneCharMI..Caption
+#: RegExTextImporter.dfm:569 
+msgid "Always Assume More Than One Char"
+msgstr "Stets mehr als ein Zeichen annehmen"
+
+#: QueryBrowser.pas:5898  QueryBrowser.pas:5965 QueryBrowser.pas:6089
+#: QueryBrowser.pas:6138 QueryBrowser.pas:6340 RegExTextImporter.pas:1135
+#: RegExTextImporter.pas:1169 RegExTextImporter.pas:1403
+#: RegExTextImporter.pas:1490
+msgid "Any File"
+msgstr "Beliebige Datei"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractStopwordMI..Caption
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractStopwordMI..Caption
+#: RegExTextImporter.dfm:562 
+msgid "Anything But Selected Chars"
+msgstr "Alles außer ausgewählten Zeichen"
+
+#: QueryBrowser.pas:1249  QueryBrowser.pas:1495
+msgid "Apply the last undone action again"
+msgstr "Zuletzt rückgängig gemachte Aktion neu ausführen"
+
+#: QueryBrowser.pas:6751 
+msgid "Are you sure you want to clear the complete history?"
+msgstr "Wollen Sie wirklich die gesamte Historie löschen?"
+
+#: QueryBrowser.pas:3223 
+msgid "Are you sure you want to delete the bookmark \"%s\"?"
+msgstr "Wollen Sie das Lesezeichen \"%s\" wirklich löschen?"
+
+#: QueryBrowser.pas:3260 
+msgid "Are you sure you want to delete the bookmark folder \"%s\"?"
+msgstr "Wollen Sie den Lesezeichenordner \"%s\" wirklich löschen?"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox2..AssociateFileExtensionsCBox..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox2..AssociateFileExtensionsCBox..Caption
+#: QueryBrowserOptionPages.dfm:220 
+msgid "Associate sql/query files with Query Browser"
+msgstr "SQL-/Abfragedateien mit dem Query Browser verknüpfen"
+
+#: QueryBrowser.pas:3510 
+msgid "Before Last Week"
+msgstr "Vor letzter Woche"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet2..Caption
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet2..Caption
+#: QueryBrowser.dfm:424  QueryBrowser.pas:888 QueryBrowser.pas:2716
+msgid "Bookmarks"
+msgstr "Lesezeichen"
+
+#  AboutForm..InfoMemo....Lines.Strings
+#. AboutForm..InfoMemo....Lines.Strings
+#: About.dfm:1282 
+msgid "Brian Aker | Main concept, supervising"
+msgstr "Brian Aker | Hauptkonzeption, Aufsicht"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..Caption
+#: QueryBrowserOptionPages.dfm:35 
+msgid "Browser"
+msgstr "Browser"
+
+#: QueryBrowser.pas:1413 
+msgid "Calls the explain command to examine the query"
+msgstr "Ruft die EXPLAIN-Anweisung zur Analyse der Abfrage auf"
+
+# #-#-#-#-#  mysql-administrator-template.po (MySQL Administrator 1.1.5)  #-#-#-#-#
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  ConnectToInstanceForm..BottomPnl..CancelBtn..Caption
+#  SchemaSelectionForm..BottomPnl..CancelBtn..Caption
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  ConnectToInstanceForm..BottomPnl..CancelBtn..Caption
+#  EditorSqlForm..BottomPnl..CancelBtn..Caption
+#  ExOpenDialog..MainPanel..FilesPnl..CancelButton..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..TextSheet..TextSheetBtnPnl..CancelBtn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..ImageSheet..ImageSheetBtnPnl..Cancel2Btn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..BinarySheet..TntPanel1..Cancel3Btn..Caption
+#  MyxConnectionDialogForm..BottomPnl..CancelBtn..Caption
+#  SchemaSelectionForm..BottomPnl..CancelBtn..Caption
+#  AdminServerHealthGraphSettingsForm..CancelBtn..Caption
+#  AdminStartupVariablesInnoDBDatafilesForm..CancelBtn..Caption
+#  AdminStartupVariablesOptionFileForm..CancelBtn..Caption
+#  NameEditorForm..TntButton2..Caption
+#  PasswordDialog..CancelButton..Caption
+# #-#-#-#-#  mysql-gui-common-template.po (MySQL GUI Common 1.1.5)  #-#-#-#-#
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  ConnectToInstanceForm..BottomPnl..CancelBtn..Caption
+#  SchemaSelectionForm..BottomPnl..CancelBtn..Caption
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  ConnectToInstanceForm..BottomPnl..CancelBtn..Caption
+#  EditorSqlForm..BottomPnl..CancelBtn..Caption
+#  ExOpenDialog..MainPanel..FilesPnl..CancelButton..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..TextSheet..TextSheetBtnPnl..CancelBtn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..ImageSheet..ImageSheetBtnPnl..Cancel2Btn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..BinarySheet..TntPanel1..Cancel3Btn..Caption
+#  MyxConnectionDialogForm..BottomPnl..CancelBtn..Caption
+#  SchemaSelectionForm..BottomPnl..CancelBtn..Caption
+#: QueryBrowser.pas:3224  QueryBrowser.pas:7087 QueryBrowser.pas:7170
+#: QueryBrowser.pas:7318 QueryBrowser.pas:7556
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: QueryBrowser.pas:7545 
+msgid "Cannot add dynamic parameter"
+msgstr "Kann dynamischen Parameter nicht hinzufügen"
+
+#: QueryBrowser.pas:3277 
+msgid "Cannot delete Bookmark Folder"
+msgstr "Kann Lesezeichenordner ncht entfernen"
+
+#: QueryBrowser.pas:7631 
+msgid "Cannot delete dynamic parameter"
+msgstr "Kann dynamischen Parameter nicht entfernen"
+
+#  AdminServerHealthGraphSettingsForm..GeneralGBox..CaptionLbl..Caption
+#: QueryBrowser.pas:2944  QueryBrowser.pas:3010 QueryBrowser.pas:3311
+msgid "Caption:"
+msgstr "Beschriftung:"
+
+#  RegExTextImporterForm..TntPanel8..CaseInsensitiveCBox..Caption
+#. RegExTextImporterForm..TntPanel8..CaseInsensitiveCBox..Caption
+#: RegExTextImporter.dfm:526 
+msgid "Case Insensitve"
+msgstr "Groß/Klein unabh."
+
+#  MainForm..MainMenu..FileMI..ChangeDefaultSchemaMI..Caption
+#. MainForm..MainMenu..FileMI..ChangeDefaultSchemaMI..Caption
+#: Main.dfm:124 
+msgid "Change &Default Schema ..."
+msgstr "&Vorgabeschema ändern..."
+
+#  ConnectToInstanceForm..BottomPnl..ClearFieldsBtn..Caption
+#  ConnectToInstanceForm..BottomPnl..ClearFieldsBtn..Caption
+#  MyxConnectionDialogForm..BottomPnl..ClearFieldsBtn..Caption
+#  ConnectToInstanceForm..BottomPnl..ClearFieldsBtn..Caption
+#  MyxConnectionDialogForm..BottomPnl..ClearFieldsBtn..Caption
+#. QueryBrowserForm..QueryPopupMenu..ClearQueryEditorMI..Caption
+#. RegExTextImporterForm..TntPanel8..ClearBtn..Caption
+#: QueryBrowser.dfm:879  RegExTextImporter.dfm:502
+msgid "Clear"
+msgstr "Löschen"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..ClearAllBreakpointsMI..Caption
+#. QueryBrowserForm..MainMenu..ScriptMI..ClearAllBreakpointsMI..Caption
+#: QueryBrowser.dfm:1467 
+msgid "Clear All Breakpoints"
+msgstr "Alle Breakpoints löschen"
+
+#  QueryBrowserForm..RSGridPopupMenu..ClearFieldContentMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..ClearFieldContentMI..Caption
+#: QueryBrowser.dfm:1328 
+msgid "Clear Field Content"
+msgstr "Feldinhalt löschen"
+
+#  QueryBrowserForm..HistoryPopupMenu..ClearHistoryMI..Caption
+#. QueryBrowserForm..HistoryPopupMenu..ClearHistoryMI..Caption
+#: QueryBrowser.dfm:1586 
+msgid "Clear History"
+msgstr "Historie löschen"
+
+#: ScriptPanel.pas:1635 
+msgid "Clear Messages"
+msgstr "Meldungen löschen"
+
+#: QueryBrowser.pas:6750 
+msgid "Clear history"
+msgstr "Historie löschen"
+
+#  EditorTableForm..TableEditorPnl..BottomPnl..CloseBtn..Caption
+#  MyxRoutineGroupEditorForm..BottomPnl..CancelBtn..Caption
+#  MyxSchemaEditorForm..BottomPnl..CancelBtn..Caption
+#  MyxTableEditorForm..DockPanel..BottomPnl..CancelBtn..Caption
+#  MyxViewEditorForm..BottomPnl..CancelBtn..Caption
+#  OptionsForm..CloseBtn..Caption
+#  TextSearchForm..PageControl..SearchTabSheet..CloseBtn..Caption
+#  TextSearchForm..PageControl..ReplaceTabSheet..Close2Btn..Caption
+#. AboutForm..CloseBtn..Caption
+#: About.dfm:1292 
+msgid "Close"
+msgstr "Schließen"
+
+#: QueryBrowser.pas:1374 
+msgid "Commit the transaction"
+msgstr "Transaktion vollenden"
+
+#: QueryBrowser.pas:1418 
+msgid "Compare"
+msgstr "Vergleichen"
+
+#  QueryBrowserForm..MainMenu..QueryMI..CompareResultsetsMI..Caption
+#. QueryBrowserForm..MainMenu..QueryMI..CompareResultsetsMI..Caption
+#: QueryBrowser.dfm:1408 
+msgid "Compare Resultsets"
+msgstr "Ergebnismengen vergleichen"
+
+#: QueryBrowser.pas:4655 
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: QueryBrowser.pas:3223  QueryBrowser.pas:3259
+msgid "Confirm Deletion"
+msgstr "Löschen bestätigen"
+
+#: ScriptPanel.pas:950 
+msgid "Connection problem. Could not execute command."
+msgstr "Verbindungsproblem. Konnte Befehl nicht ausführen."
+
+#. QueryBrowserForm..MainMenu..ScriptMI..ScriptContinueMI..Caption
+#: QueryBrowser.dfm:1440  QueryBrowser.pas:1297 QueryBrowser.pas:1529
+msgid "Continue"
+msgstr "Fortfahren"
+
+#  QueryBrowserForm..RSGridPopupMenu..CopyFieldContentMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..CopyFieldContentMI..Caption
+#: QueryBrowser.dfm:1324 
+msgid "Copy Field Content"
+msgstr "Feldinhalt kopieren"
+
+#  QueryBrowserForm..QueryPopupMenu..CopySQLasJavaCodeMI..Caption
+#. QueryBrowserForm..QueryPopupMenu..CopySQLasJavaCodeMI..Caption
+#: QueryBrowser.dfm:912 
+msgid "Copy Query as Java Code"
+msgstr "Abfrage als Java-Code kopieren"
+
+#  QueryBrowserForm..QueryPopupMenu..CopySQLasPHPcodeMI..Caption
+#. QueryBrowserForm..QueryPopupMenu..CopySQLasPHPcodeMI..Caption
+#: QueryBrowser.dfm:908 
+msgid "Copy Query as PHP code"
+msgstr "Abfrage als PHP-Code kopieren"
+
+#  QueryBrowserForm..RSGridPopupMenu..CopyRowValuesMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..CopyRowValuesMI..Caption
+#: QueryBrowser.dfm:1309 
+msgid "Copy Row Values"
+msgstr "Zeilenwerte kopieren"
+
+#  SchemataFrame..SchemaTreeViewPopupMenu..CopyAssetSQLMI..Caption
+#. QueryBrowserForm..TrxPopupMenu..TrxCopySQLMI..Caption
+#: QueryBrowser.dfm:2036 
+msgid "Copy SQL to Clipboard"
+msgstr "SQL in Zwischenablage kopieren"
+
+#  RegExTextImporterForm..RegExPopupMenu..CopyforCcodeMI..Caption
+#. RegExTextImporterForm..RegExPopupMenu..CopyforCcodeMI..Caption
+#: RegExTextImporter.dfm:606 
+msgid "Copy for C code"
+msgstr "Für C-Code kopieren"
+
+#. MainForm..MainActionManager..EditCopy1..Hint
+#: Main.dfm:320 
+msgid "Copy|Copies the selection and puts it on the Clipboard"
+msgstr "Kopieren|Kopiert die Auswahl in das Clipboard"
+
+#: QueryBrowser.pas:7123  QueryBrowser.pas:7203
+msgid "Could not fetch data for `%s`.`%s`Error code: %d%s"
+msgstr "Konnte Daten für `%s`.`%s` nicht holen. Fehlercode: %d%s"
+
+#: QueryBrowser.pas:7556 
+msgid "Create"
+msgstr "Erzeugen"
+
+#  QueryBrowserForm..BookmarkPopupMenu..CreateBookmarkFolderMI..Caption
+#. QueryBrowserForm..BookmarkPopupMenu..CreateBookmarkFolderMI..Caption
+#: QueryBrowser.dfm:1239 
+msgid "Create Bookmark Folder"
+msgstr "Lesezeichenordner anlegen"
+
+#: QueryBrowser.pas:7086 
+msgid "Create FUNCTION"
+msgstr "Funktion anlegen"
+
+#  RegExTextImporterForm..StructureTreePnl..FoundFuncPnl..CreateNestedExpBtn..Caption
+#  RegExTextImporterForm..StructureVTPopupMenu..CreateNestedExpressionMI..Caption
+#. RegExTextImporterForm..StructureTreePnl..FoundFuncPnl..CreateNestedExpBtn..Caption
+#. RegExTextImporterForm..StructureVTPopupMenu..CreateNestedExpressionMI..Caption
+#: RegExTextImporter.dfm:466  RegExTextImporter.dfm:598
+msgid "Create Nested Expression"
+msgstr "Geschachtelten Ausdruck erzeugen"
+
+#: QueryBrowser.pas:7086 
+msgid "Create PROCEDURE"
+msgstr "Prozedur anlegen"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..CreateStoredProcedureFunctionMI..Caption
+#. QueryBrowserForm..MainMenu..ScriptMI..CreateStoredProcedureFunctionMI..Caption
+#: QueryBrowser.dfm:1474 
+msgid "Create Stored Procedure / Function"
+msgstr "Gespeicherte Prozedur/Funktion anlegen"
+
+#  AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..ViewsTabSheet..Panel15..Panel16..CreateViewBtn..Caption
+#: QueryBrowser.pas:7170  QueryBrowser.pas:7318
+msgid "Create View"
+msgstr "View anlegen"
+
+#  QueryBrowserForm..MainMenu..QueryMI..CreateViewfromSelectMI..Caption
+#. QueryBrowserForm..MainMenu..QueryMI..CreateViewfromSelectMI..Caption
+#: QueryBrowser.dfm:1415 
+msgid "Create View from Select"
+msgstr "View aus SELECT erzeugen"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..CreateWindowsStyleLineBreaksCBox..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..CreateWindowsStyleLineBreaksCBox..Caption
+#: QueryBrowserOptionPages.dfm:193 
+msgid "Create Windows style line breaks (LF CR)"
+msgstr "Windows-Zeilenenden (CR LF) erzeugen"
+
+#: QueryBrowser.pas:1479 
+msgid "Create a view from the current select"
+msgstr "Eine View aus dem aktuellen SELECT erzeugen"
+
+#. MainForm..MainActionManager..EditCut1..Caption
+#: Main.dfm:311 
+msgid "Cu&t"
+msgstr "A&usschneiden"
+
+#. MainForm..MainActionManager..EditCut1..Hint
+#: Main.dfm:312 
+msgid "Cut|Cuts the selection and puts it on the Clipboard"
+msgstr "Ausschneiden|Entfernt die Auswahl und legt sie ins Clipboard"
+
+#: TableDrag.pas:125 
+msgid "DELETE"
+msgstr "DELETE"
+
+#  QueryBrowserForm..BookmarkPopupMenu..DeleteBookmarkMI..Caption
+#. QueryBrowserForm..BookmarkPopupMenu..DeleteBookmarkMI..Caption
+#: QueryBrowser.dfm:1246 
+msgid "Delete Items"
+msgstr "Elemente löschen"
+
+#  QueryBrowserForm..ParamPopupMenu..DeleteParameterMI..Caption
+#. QueryBrowserForm..ParamPopupMenu..DeleteParameterMI..Caption
+#: QueryBrowser.dfm:1874 
+msgid "Delete Parameter"
+msgstr "Parameter löschen"
+
+#  QueryBrowserForm..RSGridPopupMenu..DeleteRowMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..DeleteRowMI..Caption
+#: QueryBrowser.dfm:1305 
+msgid "Delete Row(s)"
+msgstr "Zeile(n) löschen"
+
+#  QueryBrowserForm..HistoryPopupMenu..DeleteSelectedHistoryEntriesMI..Caption
+#. QueryBrowserForm..HistoryPopupMenu..DeleteSelectedHistoryEntriesMI..Caption
+#: QueryBrowser.dfm:1579 
+msgid "Delete Selected History Entries"
+msgstr "Ausgewählte Historieneinträge löschen"
+
+#  EditorTableForm..TableEditorPnl..BottomPnl..DiscardChangesBtn..Caption
+#: QueryBrowser.pas:4632 
+msgid "Discard Changes"
+msgstr "Verwerfen"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..Caption
+#: QueryBrowserOptionPages.dfm:46 
+msgid "Display Options"
+msgstr "Anzeige-Optionen"
+
+#: QueryBrowser.pas:2999 
+msgid "Do you want to overwrite this bookmark?"
+msgstr "Wollen Sie dieses Lesezeichen überschreiben?"
+
+#: TableDrag.pas:164  TableDrag.pas:165
+msgid "Drop the column(s) on one of the buttons."
+msgstr "Ziehen Sie die Spalte(n) auf einen der Buttons."
+
+#: TableDrag.pas:146  TableDrag.pas:147
+msgid "Drop the table(s) on one of the buttons."
+msgstr "Ziehen Sie die Tabelle(n) auf einen der Buttons."
+
+#: QueryBrowser.pas:2509 
+msgid "Dynamic Params"
+msgstr "Dynamische Parameter"
+
+#  MainForm..MainMenu..FileMI..ExportResultsetMI..Caption
+#. MainForm..MainMenu..FileMI..ExportResultsetMI..Caption
+#: Main.dfm:111 
+msgid "E&xport Resultset"
+msgstr "Ergebnismenge e&xportieren"
+
+# #-#-#-#-#  mysql-administrator-template.po (MySQL Administrator 1.1.5)  #-#-#-#-#
+#  SchemataFrame..SchemaTreeViewPopupMenu..EditMI..Caption
+#  MainForm..MainMenu..Edit1..Caption
+# #-#-#-#-#  mysql-gui-common-template.po (MySQL GUI Common 1.1.5)  #-#-#-#-#
+#  SchemataFrame..SchemaTreeViewPopupMenu..EditMI..Caption
+#. MainForm..MainActionManager..EditCut1..Category
+#. MainForm..MainActionManager..EditCopy1..Category
+#. MainForm..MainActionManager..EditPaste1..Category
+#. MainForm..MainActionManager..EditSelectAll1..Category
+#. MainForm..MainActionManager..EditUndo1..Category
+#. MainForm..MainActionManager..EditRedo1..Category
+#: Main.dfm:310  Main.dfm:318 Main.dfm:326 Main.dfm:334 Main.dfm:341
+#: Main.dfm:349
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..EditAllStoredProceduresFunctionsMI..Caption
+#. QueryBrowserForm..MainMenu..ScriptMI..EditAllStoredProceduresFunctionsMI..Caption
+#: QueryBrowser.dfm:1478 
+msgid "Edit All Stored Procedures / Functions"
+msgstr "Alle gespeicherten Prozeduren/Funktionen bearbeiten"
+
+#  QueryBrowserForm..RSGridPopupMenu..EditFieldinPopupEditorMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..EditFieldinPopupEditorMI..Caption
+#: QueryBrowser.dfm:1339 
+msgid "Edit Field in Popup Editor"
+msgstr "Feld im Popup-Editor bearbeiten"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..EnableFriendlyLineBreaksCBox..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..EnableFriendlyLineBreaksCBox..Caption
+#: QueryBrowserOptionPages.dfm:148 
+msgid "Enable friendly line breaks"
+msgstr "Nette Zeilenenden aktivieren"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..EnforceEditableQueriesCBox....Height
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..EnforceEditableQueriesCBox....Height
+#: QueryBrowserOptionPages.dfm:130 
+msgid ""
+"Enforce queries to be editable by adding primary key columns to the select"
+msgstr ""
+"Abfragen bearbeitbar machen, indem Primärschlüsselspalten dem SELECT "
+"hinzugefügt werden"
+
+#: QueryBrowser.pas:2941  QueryBrowser.pas:3009
+msgid "Enter Bookmark Caption"
+msgstr "Lesezeichenbeschriftung eingeben"
+
+#: QueryBrowser.pas:3310 
+msgid "Enter Bookmark Folder Caption"
+msgstr "Lesezeichenordner-Beschriftung eingeben"
+
+#. If there is no object given, a new one has to be created.
+#: QueryBrowser.pas:7083 
+msgid "Enter Stored Procedure / Function Name"
+msgstr "Geben Sie den Namen der gespeicherten Prozedur/Funktion an."
+
+#. If there is no object given, a new one has to be created.
+#: QueryBrowser.pas:7169  QueryBrowser.pas:7315
+msgid "Enter View Name"
+msgstr "Geben Sie den Namen der View an."
+
+#: QueryBrowser.pas:2695 
+msgid "Error while loading bookmarks."
+msgstr "Fehler beim Laden der Lesezeichen."
+
+#: QueryBrowser.pas:3365 
+msgid "Error while loading history."
+msgstr "Fehler beim Laden der Historie."
+
+#: QueryBrowser.pas:3556 
+msgid "Error while loading sql function index."
+msgstr "Fehler beim Laden des SQL-Funktionsverzeichnisses."
+
+#: QueryBrowser.pas:2738 
+msgid "Error while storing bookmarks."
+msgstr "Fehler beim Speichern der Lesezeichen."
+
+#: QueryBrowser.pas:3390 
+msgid "Error while storing history."
+msgstr "Fehler beim Speichern der Historie."
+
+#  MainForm..MainMenu..FileMI..CloseMI..Caption
+#. MainForm..MainMenu..FileMI..CloseMI..Caption
+#: Main.dfm:152 
+msgid "Ex&it"
+msgstr "&Ende"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..ScriptExecuteMI..Caption
+#. QueryBrowserForm..MainMenu..ScriptMI..ScriptExecuteMI..Caption
+#: QueryBrowser.dfm:1427  QueryBrowser.pas:1225 QueryBrowser.pas:1276
+#: QueryBrowser.pas:1351 QueryBrowser.pas:1557
+msgid "Execute"
+msgstr "Ausführen"
+
+#  QueryBrowserForm..QueryExecutePopupMenu..ExecuteFromToolbarMI..Caption
+#  QueryBrowserForm..MainMenu..QueryMI..QueryExecuteMI..Caption
+#. QueryBrowserForm..QueryExecutePopupMenu..ExecuteFromToolbarMI..Caption
+#. QueryBrowserForm..MainMenu..QueryMI..QueryExecuteMI..Caption
+#: QueryBrowser.dfm:841  QueryBrowser.dfm:1381
+msgid "Execute (Ctrl+Enter)"
+msgstr "Ausführen (Strg+Eingabetaste)"
+
+#  RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel1..ExecuteNextRegExBtn..Caption
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel1..ExecuteNextRegExBtn..Caption
+#: RegExTextImporter.dfm:264 
+msgid "Execute Next"
+msgstr "Nächstes ausführen"
+
+#  RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel1..ExecuteRegExBtn..Caption
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel1..ExecuteRegExBtn..Caption
+#: RegExTextImporter.dfm:254 
+msgid "Execute RegEx"
+msgstr "RegEx ausführen"
+
+#  EditorSqlForm..BottomPnl..ExecuteSQLBtn..Caption
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..ExecuteSQLBtn..Caption
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..ExecuteSQLBtn..Caption
+#: RegExTextImporter.dfm:386 
+msgid "Execute SQL"
+msgstr "SQL ausführen"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..ScriptRunSelectionMI..Caption
+#. QueryBrowserForm..MainMenu..ScriptMI..ScriptRunSelectionMI..Caption
+#: QueryBrowser.dfm:1431 
+msgid "Execute Selection"
+msgstr "Auswahl ausführen"
+
+#  QueryBrowserForm..MainMenu..QueryMI..QueryExecuteInNewTabMI..Caption
+#. QueryBrowserForm..MainMenu..QueryMI..QueryExecuteInNewTabMI..Caption
+#: QueryBrowser.dfm:1385 
+msgid "Execute in New Tab  (Ctrl+Shift+Enter)"
+msgstr "In neuem Tab ausführen (Strg+Umsch+Eingabetaste)"
+
+#  QueryBrowserForm..QueryExecutePopupMenu..ExecuteInNewTabFromToolbarMI..Caption
+#. QueryBrowserForm..QueryExecutePopupMenu..ExecuteInNewTabFromToolbarMI..Caption
+#: QueryBrowser.dfm:845 
+msgid "Execute in New Tab (Ctrl+Shift+Enter)"
+msgstr "In neuem Tab ausführen (Strg+Umsch+Eingabetaste)."
+
+#: QueryBrowser.pas:1225  QueryBrowser.pas:1351
+msgid "Execute the entered query"
+msgstr "Die eingegebene Abfrage ausführen"
+
+#: QueryBrowser.pas:1276 
+msgid "Execute the script"
+msgstr "Das Skript ausführen"
+
+#: QueryBrowser.pas:1303  QueryBrowser.pas:1535
+msgid "Executes the next statement but steps over functions"
+msgstr ""
+"Führt die nächste Anweisung aus, Funktionen jedoch in einem einzigen Schritt."
+
+#: QueryBrowser.pas:1418 
+msgid "Executes the query and compares it with the current resultset"
+msgstr ""
+"Führt die Abfrage aus und vergleicht sie mit der aktuelen Ergebnismenge."
+
+#: QueryBrowser.pas:1297 
+msgid "Executes the script and stops on errors"
+msgstr "Führt das Skript aus, hält bei Fehlern an."
+
+#: QueryBrowser.pas:1529 
+msgid "Executes the script and stops on errors and breakpoints"
+msgstr "Führt das Skript aus, hält bei Fehlern und Breakpoints an."
+
+#: QueryBrowser.pas:1557 
+msgid "Executes the script without stopping on errors and breakpoints"
+msgstr "Führt das Skript aus, ohne bei Fehlern und Breakpoints anzuhalten."
+
+#  QueryBrowserForm..MainMenu..QueryMI..ExplainMI..Caption
+#  Special
+#. QueryBrowserForm..MainMenu..QueryMI..ExplainMI..Caption
+#. Special
+#: QueryBrowser.dfm:1404  QueryBrowser.pas:1413
+msgid "Explain"
+msgstr "Erläutern"
+
+#: QueryBrowser.pas:6245 
+msgid "Export As %s File..."
+msgstr "Als %s-Datei exportieren..."
+
+#  QueryBrowserForm..RSGridPopupMenu..ExportResultsetMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..ExportResultsetMI..Caption
+#: QueryBrowser.dfm:1295 
+msgid "Export Resultset"
+msgstr "Ergebnismenge exportieren"
+
+#: RegExTextImporter.pas:495 
+msgid "Expression found."
+msgstr "Ausdruck gefunden"
+
+#: RegExTextImporter.pas:518 
+msgid "Expression not found."
+msgstr "Ausdruck nicht gefunden"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractNumbersMI..Caption
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractNumbersMI..Caption
+#: RegExTextImporter.dfm:554 
+msgid "Extract Numbers"
+msgstr "Zahlen extrahieren"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..Caption
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..Caption
+#: RegExTextImporter.dfm:548 
+msgid "Extract RegEx"
+msgstr "RegEx extrahieren"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractTextMI..Caption
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractTextMI..Caption
+#: RegExTextImporter.dfm:558 
+msgid "Extract Text"
+msgstr "Text extrahieren"
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractTextandNumbersMI..Caption
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..ExtractTextandNumbersMI..Caption
+#: RegExTextImporter.dfm:550 
+msgid "Extract Text and Numbers"
+msgstr "Text und Zahlen extrahieren"
+
+#: TableDrag.pas:158 
+msgid "FROM"
+msgstr "FROM"
+
+# #-#-#-#-#  mysql-administrator-template.po (MySQL Administrator 1.1.5)  #-#-#-#-#
+#  SchemaSelectionForm..SchemataFrame..CatalogVST..WideDefaultText
+#  SchemataFrame..CatalogVST..WideDefaultText
+#  AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..BackupContentTabSheet..SchemataFrame..CatalogVST..WideDefaultText
+#  AdminCatalogForm..SubTreePnl..SchemataFrame..CatalogVST..WideDefaultText
+#  AdminUsersForm..UserPnl..UserPageControl..SchemataPrivSheet..SchemaPrivSchemataFrame..CatalogVST..WideDefaultText
+#  AdminUsersForm..UserPnl..UserPageControl..TablePrivSheet..TblColSchemataFrame..CatalogVST..WideDefaultText
+# #-#-#-#-#  mysql-gui-common-template.po (MySQL GUI Common 1.1.5)  #-#-#-#-#
+#  SchemaSelectionForm..SchemataFrame..CatalogVST..WideDefaultText
+#  SchemataFrame..CatalogVST..WideDefaultText
+#  QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet1..SchemataPnl..SchemataFrame..CatalogVST..WideDefaultText
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet1..SchemataPnl..SchemataFrame..CatalogVST..WideDefaultText
+#: QueryBrowser.dfm:393 
+msgid "Fetching Data ..."
+msgstr "Hole Daten..."
+
+#  MainForm..MainMenu..Edit1..FindMI..Caption
+#  QueryBrowserForm..ScriptMemoPopupMenu..FindMI..Caption
+#. MainForm..MainMenu..Edit1..FindMI..Caption
+#. QueryBrowserForm..ScriptMemoPopupMenu..FindMI..Caption
+#: Main.dfm:185  QueryBrowser.dfm:1563
+msgid "Find ..."
+msgstr "Suchen..."
+
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..ScheduleTabSheet..ExecutionTimeGBox..SchedulePageControl..WeeklyTabSheet..ScheduleFridayCBox..Caption
+#: QueryBrowser.pas:3502 
+msgid "Friday"
+msgstr "Freitag"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..FuncSheet..Caption
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..FuncSheet..Caption
+#: QueryBrowser.dfm:659 
+msgid "Functions"
+msgstr "Funktionen"
+
+#: TableDrag.pas:156 
+msgid "GROUP"
+msgstr "GROUP"
+
+#: QueryBrowser.pas:2503 
+msgid "Global Params"
+msgstr "Globale Parameter"
+
+#: QueryBrowser.pas:1204  QueryBrowser.pas:1331
+msgid "Go back"
+msgstr "Zurück"
+
+#: QueryBrowser.pas:1204  QueryBrowser.pas:1331
+msgid "Go back in query history"
+msgstr "In der Abfragehistorie zurückgehen"
+
+#: QueryBrowser.pas:1210  QueryBrowser.pas:1337
+msgid "Go forward in query history"
+msgstr "In der Abfragehistorie nach vorne gehen"
+
+#: TableDrag.pas:155 
+msgid "HAVING"
+msgstr "HAVING"
+
+#  MainForm..MainMenu..HelpMI..Caption
+#  MainForm..MainMenu..HelpMI..OnlineHelpMI..Caption
+#  MainForm..MainMenu..HelpMI..Caption
+#  MainForm..MainMenu..HelpMI..OnlineHelpMI..Caption
+#. MainForm..MainMenu..HelpMI..LaunchHelpMI..Caption
+#: Main.dfm:255 
+msgid "Help"
+msgstr "Hilfe"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..HideTabWhenOneOpenCBox..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..HideTabWhenOneOpenCBox..Caption
+#: QueryBrowserOptionPages.dfm:62 
+msgid "Hide the tab when only one page is open"
+msgstr "Tab verstecken, wenn nur ein Blatt geöffnet ist"
+
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet3..Caption
+#: QueryBrowser.dfm:509  QueryBrowser.pas:889
+msgid "History"
+msgstr "Chronik"
+
+#: TableDrag.pas:126 
+msgid "INSERT"
+msgstr "INSERT"
+
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..InsertTemplateMemo....Lines.Strings
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..InsertTemplateMemo....Lines.Strings
+#: RegExTextImporter.dfm:328 
+msgid "INSERT INTO foo"
+msgstr "INSERT INTO dummy"
+
+#: QueryBrowser.pas:3703 
+msgid "Inline Help"
+msgstr "Inline-Hilfe"
+
+#: QueryBrowser.pas:1735 
+msgid ""
+"It looks like the thread executing your query hangs on the server. This "
+"makes it impossible to tell it to stop working. If you continue now then the "
+"thread itself will be killed and a new one is created next time you issue a "
+"query. Do you want this?"
+msgstr ""
+"Es scheint, als ob der Thread, der die Abfrage ausführt auf dem Server "
+"hängt. Das macht es unmöglich ihn zu stoppen. Wenn Sie jetzt weitermachen, "
+"wird der Thread zerstört und eine neue Instanz erstellt, sobald Sie eine "
+"neue Abfrage starten. Möchten Sie das?"
+
+#: TableDrag.pas:134 
+msgid "JOIN Table(s)"
+msgstr "Tabelle(n) JOINen"
+
+#: TableDrag.pas:133 
+msgid "LEFT OUTER JOIN"
+msgstr "LEFT OUTER JOIN"
+
+#: QueryBrowser.pas:3508 
+msgid "Last Week"
+msgstr "Letzte Woche"
+
+#  MainForm..MainMenu..HelpMI..VisitMySQLcomMI..Caption
+#. MainForm..MainMenu..HelpMI..VisitMySQLcomMI..Caption
+#: Main.dfm:281 
+msgid "Launch MySQL.com Site"
+msgstr "MySQL.com-Site öffnen"
+
+#  MainForm..MainMenu..HelpMI..ListreportedBugsMI..Caption
+#. MainForm..MainMenu..HelpMI..ListreportedBugsMI..Caption
+#: Main.dfm:288 
+msgid "List Reported Bugs"
+msgstr "Berichtete Fehler auflisten"
+
+#  RegExTextImporterForm..TntPanel8..LoadBtn..Caption
+#. RegExTextImporterForm..TntPanel8..LoadBtn..Caption
+#: RegExTextImporter.dfm:518  QueryBrowser.pas:1258 QueryBrowser.pas:1504
+msgid "Load"
+msgstr "Laden"
+
+#  QueryBrowserForm..RSGridPopupMenu..LoadFieldContentMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..LoadFieldContentMI..Caption
+#: QueryBrowser.dfm:1316 
+msgid "Load Field Content"
+msgstr "Feldinhalt laden"
+
+#  RegExTextImporterForm..TntPanel8..LoadFileBtn..Caption
+#. RegExTextImporterForm..TntPanel8..LoadFileBtn..Caption
+#: RegExTextImporter.dfm:494 
+msgid "Load Source Text"
+msgstr "Quelltext laden"
+
+#: QueryBrowser.pas:1258  QueryBrowser.pas:1504
+msgid "Load a script"
+msgstr "Ein Skript laden"
+
+#: QueryBrowser.pas:2506 
+msgid "Local Params"
+msgstr "Lokale Parameter"
+
+#: QueryBrowser.pas:1128 
+msgid "Make Default Schema"
+msgstr "Zum Vorgabeschema machen"
+
+#  MainForm..MainMenu..ToolsMI..ManageConnectionsMI..Caption
+#  MainForm..MainMenu..ToolsMI..ManageConnectionsMI..Caption
+#. MainForm..MainMenu..ToolsMI..ManageConnectionsMI..Caption
+#: Main.dfm:225 
+msgid "Manage Connections ..."
+msgstr "Verbindungen verwalten..."
+
+#: RegExTextImporter.pas:1295 
+msgid "Match %s not found in %s."
+msgstr "Übereinstimmung %s nicht in %s gefunden."
+
+#  RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..MatchExactCountMI..Caption
+#. RegExTextImporterForm..SourceTextPopupMenu..ExtractRegExMI..MatchExactCountMI..Caption
+#: RegExTextImporter.dfm:580 
+msgid "Match Exact Count"
+msgstr "Genaue Anzahl erreichen"
+
+#: RegExTextImporter.pas:435 
+msgid "Matches"
+msgstr "Treffer"
+
+#  QueryBrowserForm..MainMenu..ViewMI..MaximizeQueryEditMI..Caption
+#. QueryBrowserForm..MainMenu..ViewMI..MaximizeQueryEditMI..Caption
+#: QueryBrowser.dfm:1352 
+msgid "Maximize Query Edit (F11)"
+msgstr "Abfrageeditor maximieren (F11)"
+
+#  QueryBrowserForm..MainMenu..ViewMI..OnlyTabsheetsMI..Caption
+#. QueryBrowserForm..MainMenu..ViewMI..OnlyTabsheetsMI..Caption
+#: QueryBrowser.dfm:1357 
+msgid "Maximize Tabsheets (F12)"
+msgstr "Tabellenblätter maximieren (F12)"
+
+#  AboutForm..InfoMemo......Lines.Strings
+#. AboutForm..InfoMemo......Lines.Strings
+#: About.dfm:1279 
+msgid ""
+"Michael G. Zinner | Graphical design, Windows development, library coding"
+msgstr ""
+"Michael G. Zinner | Grafikentwurf, Windows-Entwicklung, "
+"Bibliotheksprogrammierung"
+
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..ScheduleTabSheet..ExecutionTimeGBox..SchedulePageControl..WeeklyTabSheet..ScheduleMondayCBox..Caption
+#: QueryBrowser.pas:3494 
+msgid "Monday"
+msgstr "Montag"
+
+#  QueryBrowserForm..ParamPopupMenu..MoveParametertoGlobalParametersMI..Caption
+#. QueryBrowserForm..ParamPopupMenu..MoveParametertoGlobalParametersMI..Caption
+#: QueryBrowser.dfm:1878 
+msgid "Move Parameter to Global Parameters"
+msgstr "Parameter zu den globalen Parametern verschieben"
+
+#  RegExTextImporterForm..TntPanel8..MultilineStringCBox..Caption
+#. RegExTextImporterForm..TntPanel8..MultilineStringCBox..Caption
+#: RegExTextImporter.dfm:537 
+msgid "Multiline String"
+msgstr "Mehrzeilig"
+
+#. Warn about multiple commands on one line.
+#: QueryBrowser.pas:5030 
+msgid "Multiple commands"
+msgstr "Mehrere Kommandos"
+
+#  ConnectToInstanceForm..Caption
+#. MainForm..MainMenu..ToolsMI..MySQLAdministratorMI..Caption
+#: Main.dfm:197 
+msgid "MySQL Administrator"
+msgstr "MySQL Administrator"
+
+#  MainForm..MainMenu..ToolsMI..MySQLCommandlineclientMI..Caption
+#. MainForm..MainMenu..ToolsMI..MySQLCommandLineClientMI..Caption
+#: Main.dfm:201 
+msgid "MySQL Command Line Client"
+msgstr "MySQL-Befehlszeilen-Client"
+
+#  MainForm..MainMenu..ToolsMI..MySQLQueryBrowserMI..Caption
+#  MainForm..PopupMenu..MySQLQueryBrowserMI..Caption
+#. MainForm..Caption
+#: Main.dfm:4  Main.pas:215 Main.pas:343 Main.pas:1119 Main.pas:1182
+#: Main.pas:1184
+msgid "MySQL Query Browser"
+msgstr "MySQL Query Browser"
+
+#: QueryBrowser.pas:7557 
+msgid "Name"
+msgstr "Name"
+
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntLabel4..Caption
+#  MyxTableEditorForm..DockPanel..TablePageControl..ColumnSheet..ColumnsDetailsPnl..ColumnDetailsGroupBox..TntLabel4..Caption
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntLabel4..Caption
+#  MyxTableEditorForm..DockPanel..TablePageControl..ColumnSheet..ColumnsDetailsPnl..ColumnDetailsGroupBox..TntLabel4..Caption
+#: QueryBrowser.pas:7087  QueryBrowser.pas:7170 QueryBrowser.pas:7318
+msgid "Name:"
+msgstr "Name:"
+
+#  MainForm..MainMenu..FileMI..NewSQLScriptTabMI..Caption
+#. MainForm..MainMenu..FileMI..NewSQLScriptTabMI..Caption
+#: Main.dfm:75 
+msgid "Ne&w Script Tab"
+msgstr "Ne&uer Skript-Tab"
+
+#: RegExTextImporter.pas:438 
+msgid "Nested RegEx"
+msgstr "Geschachtelter RegEx"
+
+#: QueryBrowser.pas:7554 
+msgid "New Parameter"
+msgstr "Neuer Parameter"
+
+#: QueryBrowser.pas:1210  QueryBrowser.pas:1337
+msgid "Next"
+msgstr "Nächster"
+
+#: QueryBrowser.pas:1736  QueryBrowser.pas:4748 QueryBrowser.pas:6752
+#: ScriptPanel.pas:688
+msgid "No"
+msgstr "Nein"
+
+#: RegExTextImporter.pas:537  RegExTextImporter.pas:579
+msgid "No Error."
+msgstr "Kein Fehler"
+
+#  RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel7..RegExErrorLbl..Caption
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel7..RegExErrorLbl..Caption
+#: RegExTextImporter.dfm:226 
+msgid "No error."
+msgstr "Kein Fehler"
+
+#: ScriptPanel.pas:687 
+msgid "No server connection"
+msgstr "Keine Serververbindung"
+
+#: QueryBrowser.pas:5031 
+msgid "Note that only the first complete command is executed."
+msgstr ""
+"Beachten Sie, dass nur das erste vollständige Kommando ausgeführt wird."
+
+#  MainForm..MainMenu..FileMI..OpenSQLScriptMI..Caption
+#. MainForm..MainMenu..FileMI..OpenSQLScriptMI..Caption
+#: Main.dfm:85 
+msgid "O&pen Script ..."
+msgstr "Skript ö&ffnen..."
+
+# #-#-#-#-#  mysql-administrator-template.po (MySQL Administrator 1.1.5)  #-#-#-#-#
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  AboutForm..CloseBtn..Caption
+#  ConnectToInstanceForm..BottomPnl..OKBtn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..TextSheet..TextSheetBtnPnl..OKBtn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..ImageSheet..ImageSheetBtnPnl..Ok2Btn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..BinarySheet..TntPanel1..OK3Btn..Caption
+#  MyxConnectionDialogForm..BottomPnl..OKBtn..Caption
+#  SchemaSelectionForm..BottomPnl..OKBtn..Caption
+#  AdminStartupVariablesInnoDBDatafilesForm..OKBtn..Caption
+#  PasswordDialog..OKButton..Caption
+# #-#-#-#-#  mysql-gui-common-template.po (MySQL GUI Common 1.1.5)  #-#-#-#-#
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  AboutForm..CloseBtn..Caption
+#  ConnectToInstanceForm..BottomPnl..OKBtn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..TextSheet..TextSheetBtnPnl..OKBtn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..ImageSheet..ImageSheetBtnPnl..Ok2Btn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..BinarySheet..TntPanel1..OK3Btn..Caption
+#  MyxConnectionDialogForm..BottomPnl..OKBtn..Caption
+#  SchemaSelectionForm..BottomPnl..OKBtn..Caption
+#: QueryBrowser.pas:5031  QueryBrowser.pas:5609 QueryBrowser.pas:6371
+msgid "OK"
+msgstr "OK"
+
+#: QueryBrowser.pas:2943  QueryBrowser.pas:3010 QueryBrowser.pas:3311
+msgid ""
+"OK\n"
+"Cancel"
+msgstr ""
+"OK\n"
+"Abbrechen"
+
+#: TableDrag.pas:154 
+msgid "ORDER"
+msgstr "ORDER"
+
+#  MainForm..MainMenu..HelpMI..OnlineDocsMI..Caption
+#. MainForm..MainMenu..HelpMI..OnlineDocsMI..Caption
+#: Main.dfm:266 
+msgid "Online Docs"
+msgstr "Online-Dokumentation"
+
+#  MainForm..MainMenu..HelpMI..OnlineReferenceCAPIMI..Caption
+#. MainForm..MainMenu..HelpMI..OnlineReferenceCAPIMI..Caption
+#: Main.dfm:270 
+msgid "Online Docs - C API"
+msgstr "Online-Dokumentation -- C-API"
+
+#  MainForm..MainMenu..HelpMI..OnlineDocsPHPAPIMI..Caption
+#. MainForm..MainMenu..HelpMI..OnlineDocsPHPAPIMI..Caption
+#: Main.dfm:274 
+msgid "Online Docs - PHP API"
+msgstr "Online-Dokumentation -- PHP-API"
+
+#  QueryBrowserForm..QueryPopupMenu..OpenQueryMI..Caption
+#. QueryBrowserForm..QueryPopupMenu..OpenQueryMI..Caption
+#: QueryBrowser.dfm:886 
+msgid "Open Query ..."
+msgstr "Abfrage öffnen..."
+
+#  QueryBrowserForm..ScriptMemoPopupMenu..OpenScriptMI..Caption
+#. QueryBrowserForm..ScriptMemoPopupMenu..OpenScriptMI..Caption
+#: QueryBrowser.dfm:1548 
+msgid "Open Script ... (Ctrl+O)"
+msgstr "Skript öffnen... (Strg+O)"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..OpenExportedResultsetCBox..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..OpenExportedResultsetCBox..Caption
+#: QueryBrowserOptionPages.dfm:139 
+msgid "Open resultset in associated application after export"
+msgstr "Ergebnismenge nach Export in verknüpfter Anwendung öffnen"
+
+#  MainForm..MainMenu..ToolsMI..OptionsMI..Caption
+#  MainForm..MainMenu..ToolsMI..OptionsMI..Caption
+#. MainForm..MainMenu..ToolsMI..OptionsMI..Caption
+#: Main.dfm:239 
+msgid "Options ..."
+msgstr "Einstellungen..."
+
+#: QueryBrowser.pas:2999 
+msgid "Overwrite Bookmark"
+msgstr "Lesezeichen überschreiben"
+
+#  MainForm..MainMenu..FileMI..PageSetupMI..Caption
+#. MainForm..MainMenu..FileMI..PageSetupMI..Caption
+#: Main.dfm:133 
+msgid "Page Setup ..."
+msgstr "Seiteneinrichtung..."
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..ParamPnl..ParamVT......WideText
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..ParamPnl..ParamVT......WideText
+#: QueryBrowser.dfm:766 
+msgid "Param"
+msgstr "Param"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..Caption
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..Caption
+#: QueryBrowser.dfm:713  QueryBrowser.pas:916
+msgid "Params"
+msgstr "Params"
+
+#  RegExTextImporterForm..StructureTreePnl..StructureVT......WideText
+#  RegExTextImporterForm..StructureTreePnl..TntPanel4..Caption
+#. RegExTextImporterForm..StructureTreePnl..StructureVT......WideText
+#. RegExTextImporterForm..StructureTreePnl..TntPanel4..Caption
+#: RegExTextImporter.dfm:435  RegExTextImporter.dfm:446
+msgid "Parse Structure"
+msgstr "Struktur analysieren"
+
+#  RegExTextImporterForm..RegExPopupMenu..PasteCcodeMI..Caption
+#. RegExTextImporterForm..RegExPopupMenu..PasteCcodeMI..Caption
+#: RegExTextImporter.dfm:610 
+msgid "Paste C code"
+msgstr "C-Code einfügen"
+
+#  QueryBrowserForm..QueryPopupMenu..PasteClipboardContentasJavaCodeMI..Caption
+#. QueryBrowserForm..QueryPopupMenu..PasteClipboardContentasJavaCodeMI..Caption
+#: QueryBrowser.dfm:901 
+msgid "Paste Clipboard Content as Java Code"
+msgstr "Inhalt der Zwischenablage als Java-Code einfügen"
+
+#  QueryBrowserForm..QueryPopupMenu..PasteClipboardContentasPHPcodeMI..Caption
+#. QueryBrowserForm..QueryPopupMenu..PasteClipboardContentasPHPcodeMI..Caption
+#: QueryBrowser.dfm:897 
+msgid "Paste Clipboard Content as PHP Code"
+msgstr "Inhalt der Zwischenablage als PHP-Code einfügen"
+
+#. MainForm..MainActionManager..EditPaste1..Hint
+#: Main.dfm:328 
+msgid "Paste|Inserts Clipboard contents"
+msgstr "Einfügen|Fügt den Inhalt des Clipboards ein"
+
+#: QueryBrowser.pas:1290  QueryBrowser.pas:1522
+msgid "Pause"
+msgstr "Pause"
+
+#: QueryBrowser.pas:1522 
+msgid "Pauses the execution"
+msgstr "Unterbricht die Ausführung"
+
+#: QueryBrowser.pas:1290 
+msgid "Pauses the execution of the script"
+msgstr "Unterbricht die Ausführung des Skripts"
+
+#: QueryBrowser.pas:5311 
+msgid "Please enter a SELECT statment before you use the EXPLAIN function."
+msgstr ""
+"Bitte geben Sie eine SELECT-Anweisung ein, bevor Sie die EXPLAIN-Funktion "
+"verwenden."
+
+#: QueryBrowser.pas:7555 
+msgid "Please enter a name for the new parameter."
+msgstr "Bitte geben Sie einen Namen für den neuen Parameter ein."
+
+#: QueryBrowser.pas:2942  QueryBrowser.pas:3009
+msgid "Please enter the caption for this bookmark"
+msgstr "Bitte geben Sie die Beschriftung für dieses Lesezeichen ein."
+
+#: QueryBrowser.pas:3310 
+msgid "Please enter the caption for this bookmark folder."
+msgstr "Bitte geben Sie die Beschriftung für diesen Lesezeichenordner ein."
+
+#: QueryBrowser.pas:7085 
+msgid ""
+"Please enter the name of the PROCEDURE / FUNCTION you want to create. A code "
+"template will be created."
+msgstr ""
+"Bitte geben sie den Namen der PROCEDURE/FUNCTION ein, die sie anlegen "
+"wollen. Dann wird eine Codevorlage erzeugt."
+
+#: QueryBrowser.pas:7317 
+msgid "Please enter the name of the VIEW you want to create."
+msgstr "Bitte geben Sie den Namen der VIEW ein, die Sie anlegen wollen."
+
+#: QueryBrowser.pas:7170 
+msgid ""
+"Please enter the name of the VIEW you want to create. A code template will "
+"be created."
+msgstr ""
+"Bitte geben sie den Namen der VIEW ein, die Sie anlegen wollen. Dann wird "
+"eine Codevorlage erzeugt."
+
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..PreviewBtn..Caption
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..PreviewBtn..Caption
+#: RegExTextImporter.dfm:364 
+msgid "Preview"
+msgstr "Vorschau"
+
+#  MainForm..MainMenu..FileMI..PrintMI..Caption
+#. MainForm..MainMenu..FileMI..PrintMI..Caption
+#: Main.dfm:143 
+msgid "Print ..."
+msgstr "Drucken..."
+
+#  MainForm..MainMenu..FileMI..PrinttoPDFMI..Caption
+#. MainForm..MainMenu..FileMI..PrinttoPDFMI..Caption
+#: Main.dfm:138 
+msgid "Print to PDF ..."
+msgstr "Nach PDF drucken..."
+
+#  row[_columns._icon]= _stop_icon;
+#. QueryBrowserForm..MainMenu..QueryMI..Caption
+#: QueryBrowser.dfm:1370 
+msgid "Query"
+msgstr "Abfrage"
+
+#: Main.pas:364 
+msgid "Query Browser"
+msgstr "Query Browser"
+
+#: QueryBrowser.pas:5959  QueryBrowser.pas:5960 QueryBrowser.pas:5961
+#: QueryBrowser.pas:6132 QueryBrowser.pas:6133 QueryBrowser.pas:6134
+msgid "Query File"
+msgstr "Abfragedatei"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..Caption
+#: QueryBrowserOptionPages.dfm:100 
+msgid "Query Options"
+msgstr "Abfrageoptionen"
+
+#. and did not come back to the application so that the thread could be stopped normally.
+#: QueryBrowser.pas:1733 
+msgid "Query thread does not respond"
+msgstr "Abfrage antwortet nicht mehr"
+
+#  QueryBrowserForm..Caption
+#. QueryBrowserForm..Caption
+#: QueryBrowser.dfm:4 
+msgid "QueryBrowser"
+msgstr "QueryBrowser"
+
+#  QueryBrowserOptionPagesForm..Caption
+#. QueryBrowserOptionPagesForm..Caption
+#: QueryBrowserOptionPages.dfm:5 
+msgid "QueryBrowserOptionPagesForm"
+msgstr "QueryBrowserOptionPagesForm"
+
+#  MainForm..MainMenu..HelpMI..QuickStartGuideMI..Caption
+#. MainForm..MainMenu..HelpMI..QuickStartGuideMI..Caption
+#: Main.dfm:259 
+msgid "Quick Start Guide"
+msgstr "Schnellstarthilfe"
+
+#: QueryBrowser.pas:1249  QueryBrowser.pas:1495
+msgid "Redo"
+msgstr "Wiederholen"
+
+#. MainForm..MainActionManager..EditRedo1..Hint
+#: Main.dfm:351 
+msgid "Redo|Redoes the last undone action"
+msgstr "Erneut ausführen|Führt die zuletzt zurückgenommene Aktion erneut aus"
+
+# #-#-#-#-#  mysql-administrator-template.po (MySQL Administrator 1.1.5)  #-#-#-#-#
+#  SchemataFrame..SchemaTreeViewPopupMenu..RefreshCatalogsSchemataListMI..Caption
+#  AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..TablesTabSheet..Panel3..RefreshBtn..Caption
+#  AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..IndicesTabSheet..Panel7..RefreshIndicesBtn..Caption
+#  AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..ViewsTabSheet..Panel15..Panel16..RefreshViewsBtn..Caption
+#  AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..StoredProcTabSheet..Panel10..Panel11..RefreshSPBtn..Caption
+#  AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..DevDocTabSheet..Panel12..Panel13..Button13..Caption
+#  AdminCatalogForm..CatalogPnl..CatalogPageControl..SchemaSheet..SchemaPageControl..UsersTabSheet..Button1..Caption
+#  AdminCatalogForm..TablesPopupMenu..RefreshMI..Caption
+#  AdminReplicationForm..ReplicationPnl..ReplicationPageControl..OverviewTabSheet..Panel3..BottomBtnPnl..Button1..Caption
+#  AdminReplicationForm..ReplicationPnl..ReplicationPageControl..ServerInformationTabSheet..Panel2..RefreshBtn..Caption
+#  AdminServerConnectionsForm..ServerProcessesPnl..BottomPnl..RefreshBtn..Caption
+#  AdminServerHealthForm..ServerStatusPnl..HealthPageControl..ServerStatusTabSheet..BottomPnl..RefreshBtn..Caption
+#  AdminServerHealthForm..ServerStatusPnl..HealthPageControl..ServerVariablesTabSheet..Panel1..Button1..Caption
+#  AdminServerLogsForm..ServerLogsPnl..ServerLogPageControl..ErrorLogTabSheet..BottomPnl..RefreshBtn..Caption
+#  AdminServerProcessesForm..ServerProcessesPnl..BottomPnl..BottomBtnPnl..Button4..Caption
+#  AdminServerStatusForm..ServerStatusPnl..BottomPnl..BottomBtnPnl..Button4..Caption
+# #-#-#-#-#  mysql-gui-common-template.po (MySQL GUI Common 1.1.5)  #-#-#-#-#
+#  SchemataFrame..SchemaTreeViewPopupMenu..RefreshCatalogsSchemataListMI..Caption
+#. QueryBrowserForm..MainMenu..QueryMI..QueryRefreshMI..Caption
+#: QueryBrowser.dfm:1393  QueryBrowser.pas:1216 QueryBrowser.pas:1343
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#  QueryBrowserForm..ParamPopupMenu..RefreshParametersMI..Caption
+#. QueryBrowserForm..ParamPopupMenu..RefreshParametersMI..Caption
+#: QueryBrowser.dfm:1885 
+msgid "Refresh Parameters"
+msgstr "Parameter aktualisieren"
+
+#: QueryBrowser.pas:1216  QueryBrowser.pas:1343
+msgid "Refresh the result grid"
+msgstr "Die Ergebnisansicht aktualisieren"
+
+#  RegExTextImporterForm..Caption
+#. RegExTextImporterForm..Caption
+#: RegExTextImporter.dfm:6 
+msgid "RegEx Text Importer"
+msgstr "RegEx-Text-Import"
+
+#  MainForm..MainMenu..ToolsMI..RegExTextImporterMI..Caption
+#. MainForm..MainMenu..ToolsMI..RegExTextImporterMI..Caption
+#: Main.dfm:216 
+msgid "RegEx Text Importer ..."
+msgstr "RegEx-Text-Import..."
+
+#: RegExTextImporter.pas:648 
+msgid "RegEx%d"
+msgstr "RegEx%d"
+
+#: RegExTextImporter.pas:1402  RegExTextImporter.pas:1489
+msgid "RegExes File"
+msgstr "RegEx-Datei"
+
+#  RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel2..Caption
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..RegExPnl..TntPanel2..Caption
+#: RegExTextImporter.dfm:181 
+msgid "Regular Expression"
+msgstr "Regulärer Ausdruck"
+
+#  RegExTextImporterForm..StructureVTPopupMenu..RemoveRegExMI..Caption
+#. RegExTextImporterForm..StructureVTPopupMenu..RemoveRegExMI..Caption
+#: RegExTextImporter.dfm:591 
+msgid "Remove RegEx"
+msgstr "RegEx entfernen"
+
+#  QueryBrowserForm..RSGridPopupMenu..RemoveResultSetMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..RemoveResultSetMI..Caption
+#: QueryBrowser.dfm:1287 
+msgid "Remove Resultset"
+msgstr "Ergebnismenge entfernen"
+
+#  QueryBrowserForm..RSGridPopupMenu..RemoveTabsheetMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..RemoveTabsheetMI..Caption
+#: QueryBrowser.dfm:1282 
+msgid "Remove Tab"
+msgstr "Tab entfernen"
+
+#  MainForm..MainMenu..FileMI..ReopenMI..Caption
+#. MainForm..MainMenu..FileMI..ReopenMI..Caption
+#: Main.dfm:90 
+msgid "Reopen"
+msgstr "Neu öffnen"
+
+#  MainForm..MainMenu..HelpMI..ReportBugMI..Caption
+#. MainForm..MainMenu..HelpMI..ReportBugMI..Caption
+#: Main.dfm:292 
+msgid "Report a New Bug to MySQL"
+msgstr "Einen neuen Fehler an MySQL melden"
+
+#: QueryBrowser.pas:1987 
+msgid "Resultset %d"
+msgstr "Ergebnismenge %d"
+
+#: QueryBrowser.pas:6369 
+msgid "Resultset Exported Successfully."
+msgstr "Ergebnismenge erfolgreich exportiert."
+
+#: QueryBrowser.pas:1380 
+msgid "Rollback the transaction"
+msgstr "Transaktion zurückrollen"
+
+#: TableDrag.pas:141  TableDrag.pas:159
+msgid "SELECT"
+msgstr "SELECT"
+
+#: QueryBrowser.pas:5311 
+msgid "SQL Error"
+msgstr "SQL-Fehler"
+
+#  Determine correct size of the query area header bar.
+#. Determine correct size of the query area header bar.
+#: QueryBrowser.pas:5399  QueryBrowser.pas:7291
+msgid "SQL Query Area"
+msgstr "SQLAbfragebereich"
+
+#: QueryBrowser.pas:5895  QueryBrowser.pas:5896 QueryBrowser.pas:5897
+#: QueryBrowser.pas:5962 QueryBrowser.pas:5963 QueryBrowser.pas:5964
+#: QueryBrowser.pas:6086 QueryBrowser.pas:6087 QueryBrowser.pas:6088
+#: QueryBrowser.pas:6135 QueryBrowser.pas:6136 QueryBrowser.pas:6137
+msgid "SQL Script File"
+msgstr "SQL-Skriptdatei"
+
+#: QueryBrowser.pas:7123  QueryBrowser.pas:7203
+msgid "SQL error"
+msgstr "SQL-Fehler"
+
+#  EditorSqlForm..UCESQLHighlighter..DefaultFilter
+#  RoutineFrame..UCESQLHighlighter..DefaultFilter
+#  MyxViewEditorForm..UCESQLHighlighter..DefaultFilter
+#. QueryBrowserForm..UCESQLHighlighter..DefaultFilter
+#: QueryBrowser.dfm:1484 
+msgid "SQL script files (*.sql)|*.sql"
+msgstr "SQL-Skriptdateien (*.sql)|*.sql"
+
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..ScheduleTabSheet..ExecutionTimeGBox..SchedulePageControl..WeeklyTabSheet..ScheduleSaturdayCBox..Caption
+#: QueryBrowser.pas:3504 
+msgid "Saturday"
+msgstr "Samstag"
+
+#  RegExTextImporterForm..TntPanel8..SaveBtn..Caption
+#. RegExTextImporterForm..TntPanel8..SaveBtn..Caption
+#: RegExTextImporter.dfm:510  QueryBrowser.pas:1263 QueryBrowser.pas:1509
+msgid "Save"
+msgstr "Speichern"
+
+#  MainForm..MainMenu..FileMI..SaveAsMI..Caption
+#. MainForm..MainMenu..FileMI..SaveAsMI..Caption
+#: Main.dfm:105 
+msgid "Save &As ..."
+msgstr "Speichern &als..."
+
+#  MainForm..MainMenu..ToolsMI..SavecurrentConnectionMI..Caption
+#. MainForm..MainMenu..ToolsMI..SavecurrentConnectionMI..Caption
+#: Main.dfm:230 
+msgid "Save Current Connection ..."
+msgstr "Aktuelle Verbindung speichern..."
+
+#  QueryBrowserForm..RSGridPopupMenu..SaveFieldContentMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..SaveFieldContentMI..Caption
+#: QueryBrowser.dfm:1320 
+msgid "Save Field Content"
+msgstr "Feldinhalt speichern"
+
+#  QueryBrowserForm..QueryPopupMenu..SaveQueryAsMI..Caption
+#. QueryBrowserForm..QueryPopupMenu..SaveQueryAsMI..Caption
+#: QueryBrowser.dfm:890 
+msgid "Save Query As ..."
+msgstr "Abfrage speichern als..."
+
+#: QueryBrowser.pas:6130 
+msgid "Save Query to File ..."
+msgstr "Abfrage in Datei speichern..."
+
+#. QueryBrowserForm..ScriptMemoPopupMenu..SaveScriptMI..Caption
+#: QueryBrowser.dfm:1552 
+msgid "Save Script"
+msgstr "Skript speichern"
+
+#  QueryBrowserForm..ScriptMemoPopupMenu..SaveScriptAsMI..Caption
+#. QueryBrowserForm..ScriptMemoPopupMenu..SaveScriptAsMI..Caption
+#: QueryBrowser.dfm:1556 
+msgid "Save Script As ..."
+msgstr "Skript speichern als..."
+
+#: QueryBrowser.pas:6083 
+msgid "Save Script to File ..."
+msgstr "Skript in Datei speichern..."
+
+#: QueryBrowser.pas:4655 
+msgid "Save changes to %s?"
+msgstr "Änderungen an %s speichern?"
+
+#  if Exporter is found
+#. if Exporter is found
+#: QueryBrowser.pas:6333 
+msgid "Save result set to file ..."
+msgstr "Ergebnismenge in Datei speichern..."
+
+#: QueryBrowser.pas:1263  QueryBrowser.pas:1509
+msgid "Save the script"
+msgstr "Das Skript speichern"
+
+#  SchemataFrame..TopPnl..SchemataLbl..Caption
+#  SchemataFrame..SchemaSearchPopupMenu..SearchSchemataMI..Caption
+#  SchemataFrame..SchemaSearchPopupMenu..CustomMI..SchemataSubMI..Caption
+#. QueryBrowserForm..DockPnl..SidebarPnl..UpperPageControl..TntTabSheet1..Caption
+#. Set properties of upper sidebar Tabcontrol
+#: QueryBrowser.dfm:361  QueryBrowser.pas:887
+msgid "Schemata"
+msgstr "Schemata"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..Caption
+#. QueryBrowserForm..MainMenu..ScriptMI..Caption
+#: QueryBrowser.dfm:1423 
+msgid "Script"
+msgstr "Skript"
+
+#  TextSearchForm..PageControl..SearchTabSheet..Caption
+#  TextSearchForm..PageControl..SearchTabSheet..SearchBtn..Caption
+#: QueryBrowser.pas:1268  QueryBrowser.pas:1514
+msgid "Search"
+msgstr "Suchen"
+
+#: QueryBrowser.pas:1268  QueryBrowser.pas:1514
+msgid "Search and replace text"
+msgstr "Text suchen und ersetzen"
+
+#. MainForm..MainActionManager..EditSelectAll1..Caption
+#: Main.dfm:335 
+msgid "Select &All"
+msgstr "Alles Aus&wählen"
+
+#. MainForm..MainActionManager..EditSelectAll1..Hint
+#: Main.dfm:336 
+msgid "Select All|Selects the entire document"
+msgstr "Alles auswählen|Selektiert das gesammte Dokument"
+
+#: QueryBrowser.pas:1440 
+msgid "Sets the FROM clause mouse cursor"
+msgstr "Setzt den FROM-Klausel-Mauscursor"
+
+#: QueryBrowser.pas:1452 
+msgid "Sets the GROUP clause mouse cursor"
+msgstr "Setzt den GROUP-Klausel-Mauscursor"
+
+#: QueryBrowser.pas:1458 
+msgid "Sets the HAVING clause mouse cursor"
+msgstr "Setzt den HAVING-Klausel-Mauscursor"
+
+#: QueryBrowser.pas:1464 
+msgid "Sets the ORDER clause mouse cursor"
+msgstr "Setzt den ORDER-Klausel-Mauscursor"
+
+#: QueryBrowser.pas:1434 
+msgid "Sets the SELECT clause mouse cursor"
+msgstr "Setzt den SELECT-Klausel-Mauscursor"
+
+#: QueryBrowser.pas:1470 
+msgid "Sets the SET clause mouse cursor"
+msgstr "Setzt den SET-Klausel-Mauscursor"
+
+#: QueryBrowser.pas:1446 
+msgid "Sets the WHERE clause mouse cursor"
+msgstr "Setzt den WHERE-Klausel-Mauscursor"
+
+#: QueryBrowser.pas:1427 
+msgid "Sets the standard mouse cursor"
+msgstr "Setzt den Standard-Mauscursor"
+
+#. MainForm..MainActionManager..EditRedo1....SecondaryShortCuts.Strings
+#: Main.dfm:355 
+msgid "Shift+Ctrl+Z"
+msgstr "Umsch+Strg+Z"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowAdvancedToolbarMI..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowAdvancedToolbarMI..Caption
+#: QueryBrowserOptionPages.dfm:53 
+msgid "Show advanced toolbars"
+msgstr "Fortgeschrittene Toolbars anzeigen"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowMouseCursorToolbarGroupCBox..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowMouseCursorToolbarGroupCBox..Caption
+#: QueryBrowserOptionPages.dfm:89 
+msgid "Show composer buttons toolbar"
+msgstr "Composer-Buttons-Toolbar anzeigen"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowFieldOverlayImagesCBox..Caption
+# What does this refer to?
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ShowFieldOverlayImagesCBox..Caption
+#: QueryBrowserOptionPages.dfm:80 
+msgid "Show field overlay images for BLOB fields"
+msgstr "Zeige Überlagerungsbilder für BLOB-Felder"
+
+#  QueryBrowserForm..MainMenu..ViewMI..ShowSidebarMI..Caption
+#. QueryBrowserForm..MainMenu..ViewMI..ShowSidebarMI..Caption
+#: QueryBrowser.dfm:1364 
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#  RegExTextImporterForm..ScrollBox..ExtractPnl..ContentPnl..TntPanel3..TntPanel5..Caption
+#. RegExTextImporterForm..ScrollBox..ExtractPnl..ContentPnl..TntPanel3..TntPanel5..Caption
+#: RegExTextImporter.dfm:143 
+msgid "Source Text"
+msgstr "Quelltext"
+
+#  QueryBrowserForm..RSGridPopupMenu..SplitTabHorizontallyMI..Caption
+#  QueryBrowserForm..ScriptMemoPopupMenu..SplitScriptTabHorizontallyMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..SplitTabHorizontallyMI..Caption
+#. QueryBrowserForm..ScriptMemoPopupMenu..SplitScriptTabHorizontallyMI..Caption
+#: QueryBrowser.dfm:1274  QueryBrowser.dfm:1540
+msgid "Split Tab Horizontally"
+msgstr "Tab waagerecht teilen"
+
+#  QueryBrowserForm..RSGridPopupMenu..SplitResultsetTabVerticallyMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..SplitResultsetTabVerticallyMI..Caption
+#: QueryBrowser.dfm:1269 
+msgid "Split Tab Vertically"
+msgstr "Tab senkrecht teilen"
+
+#  QueryBrowserForm..MainMenu..QueryMI..SplitTabandExecuteMI..Caption
+#. QueryBrowserForm..MainMenu..QueryMI..SplitTabandExecuteMI..Caption
+#: QueryBrowser.dfm:1389 
+msgid "Split Tab and Execute  (Ctrl+Alt+Enter)"
+msgstr "Tab teilen und ausführen (Strg+Alt+Eingabetaste)"
+
+#  QueryBrowserForm..QueryExecutePopupMenu..SplitTabAndExecuteFromToolbarMI..Caption
+#. QueryBrowserForm..QueryExecutePopupMenu..SplitTabAndExecuteFromToolbarMI..Caption
+#: QueryBrowser.dfm:849 
+msgid "Split Tab and Execute (Ctrl+Alt+Enter)"
+msgstr "Tab teilen und ausführen (Strg+Alt+Eingabetaste)"
+
+#: QueryBrowser.pas:1369 
+msgid "Start a new transaction"
+msgstr "Neue Transaktion beginnen"
+
+#: QueryBrowser.pas:1303  QueryBrowser.pas:1535
+msgid "Step"
+msgstr "Schritt"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..ScriptStepOverMI..Caption
+#. QueryBrowserForm..MainMenu..ScriptMI..ScriptStepOverMI..Caption
+#: QueryBrowser.dfm:1445 
+msgid "Step Over"
+msgstr "In einem Schritt ausführen"
+
+# #-#-#-#-#  mysql-administrator-template.po (MySQL Administrator 1.1.5)  #-#-#-#-#
+#  ProgressForm..StopBtn..Caption
+#  ProgressForm..StopBtn..Caption
+#  AdminBackupProgressForm..StopBtn..Caption
+#  AdminRestoreProgressForm..StopBtn..Caption
+# #-#-#-#-#  mysql-gui-common-template.po (MySQL GUI Common 1.1.5)  #-#-#-#-#
+#  ProgressForm..StopBtn..Caption
+#  ProgressForm..StopBtn..Caption
+#. QueryBrowserForm..MainMenu..QueryMI..QueryStopMI..Caption
+#. QueryBrowserForm..MainMenu..ScriptMI..ScriptStopMI..Caption
+#: QueryBrowser.dfm:1397  QueryBrowser.dfm:1453 QueryBrowser.pas:1230
+#: QueryBrowser.pas:1281 QueryBrowser.pas:1356 QueryBrowser.pas:1562
+msgid "Stop"
+msgstr "Stopp"
+
+#: QueryBrowser.pas:1230  QueryBrowser.pas:1356
+msgid "Stop the execution of the query"
+msgstr "Ausführung der Abfrage beenden"
+
+#: QueryBrowser.pas:1281 
+msgid "Stop the execution of the script"
+msgstr "Ausführung des Skripts beenden"
+
+#: QueryBrowser.pas:1562 
+msgid "Stops the execution of the script"
+msgstr "Beendet die Ausführung des Skripts"
+
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..StoreSQLBtn..Caption
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel9..StoreSQLBtn..Caption
+#: RegExTextImporter.dfm:375 
+msgid "Store SQL to Script"
+msgstr "SQL->Skript speichern"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..TntLabel2..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..TntLabel2..Caption
+#: QueryBrowserOptionPages.dfm:121 
+msgid "Substitude CR:"
+msgstr "CR ersetzen:"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..TntLabel1..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox1..TntLabel1..Caption
+#: QueryBrowserOptionPages.dfm:112 
+msgid "Substitude LF:"
+msgstr "LF ersetzen:"
+
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..ScheduleTabSheet..ExecutionTimeGBox..SchedulePageControl..WeeklyTabSheet..ScheduleSundayCBox..Caption
+#: QueryBrowser.pas:3506 
+msgid "Sunday"
+msgstr "Sonntag"
+
+#. MainForm..MainMenu..FileMI..SwitchMI..Caption
+#: Main.dfm:61 
+msgid "Switch Connection"
+msgstr "Verbindung umschalten"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..SynSheet..Caption
+#  Set properties of lower sidebar Tabcontrol
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..SynSheet..Caption
+#. Set properties of lower sidebar Tabcontrol
+#: QueryBrowser.dfm:605  QueryBrowser.pas:914
+msgid "Syntax"
+msgstr "Syntax"
+
+#  TableDragForm..Caption
+#. TableDragForm..Caption
+#: TableDrag.dfm:7 
+msgid "TableDragForm"
+msgstr "TableDragForm"
+
+#: Main.pas:975 
+msgid ""
+"The Bitstream Vera Sans Mono fonts cannot be found. Please download the font "
+"files from http://www.gnome.org/fonts and copy them into the fonts directory "
+"%s. The following files are needed: VeraMoBd.ttf, VeraMoBI.ttf, VeraMoIt."
+"ttf, VeraMono.ttf."
+msgstr ""
+"Die Bitstream-Vera-Sans-Mono-Schriften wurden nicht gefunden. Bitte "
+"downloaden Sie die Schriftdateien von http://www.gnome.org/fonts und "
+"kopieren Sie sie in das Schriftenverzeichnis %s. Die folgenden Dateien "
+"werden benötigt: VeraMoBd.ttf, VeraMoBI.ttf, VeraMoIt.ttf, VeraMono.ttf."
+
+# What does this refer to?
+#: RegExTextImporter.pas:310 
+msgid "The Matches Group Node cannot be found"
+msgstr "Der Übereinstimmungs-Gruppen-Knoten wurde nicht gefunden."
+
+#: RegExTextImporter.pas:333 
+msgid "The Nested Group Node cannot be found"
+msgstr "Der Schachtelungs-Gruppen-Knoten wurde nicht gefunden."
+
+#: ScriptPanel.pas:688 
+msgid "The connection to the server was lost.  Reconnect?"
+msgstr "Die Verbindung zum Server ist verlorengegangen. Neu verbinden?"
+
+#: QueryBrowser.pas:6376 
+msgid "The file %s cannot be written."
+msgstr "Die Datei %s kann nicht geschrieben werden."
+
+#: QueryBrowser.pas:6370 
+msgid "The resultset has been exported to %s successfully."
+msgstr "Die Ergebnismenge wurde erfolgreich nach %s exportiert."
+
+#: QueryBrowser.pas:5030 
+msgid "There are more than one commands on this line. "
+msgstr "Es gibt mehr als ein Kommando auf dieser Zeile."
+
+#  DLL Version check
+#  DLL Version check
+#. DLL Version check
+#: ApplicationDataModule.pas:122  ApplicationDataModule.pas:128
+msgid ""
+"There is a incompatible version of the library %s installed (Version %s). "
+"Please update the library to version %s."
+msgstr ""
+"Eine inkompatible Version der Bibliothek %s (Version %s) ist installiert. "
+"Bitte aktualisieren Sie die Bibliothek auf Version %s."
+
+#  AboutForm..LicenceLbl....AutoSize
+#. AboutForm..LicenceLbl....AutoSize
+#: About.dfm:1264 
+msgid ""
+"This software is released under the GNU General Public License (GPL), which "
+"is probably the best known Open Source license. The formal terms of the GPL "
+"license can be found at http://www.fsf.org/licenses/."
+msgstr ""
+"Diese Software steht unter der GNU General Public License (GPL), die wohl "
+"die bekannteste Open-Source-Lizenz ist. Die formalen Bedingungen der GPL "
+"können unter http://www.fsf.org/licenses/ eingesehen werden."
+
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..ScheduleTabSheet..ExecutionTimeGBox..SchedulePageControl..WeeklyTabSheet..ScheduleThursdayCBox..Caption
+#: QueryBrowser.pas:3500 
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: QueryBrowser.pas:3492 
+msgid "Today"
+msgstr "Heute"
+
+#  QueryBrowserForm..MainMenu..ScriptMI..ToggleBreakpointMI..Caption
+#. QueryBrowserForm..MainMenu..ScriptMI..ToggleBreakpointMI..Caption
+#: QueryBrowser.dfm:1462 
+msgid "Toggle Breakpoint"
+msgstr "Breakpoint umschalten"
+
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ToolbarGradientCBox..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..GroupBox4..ToolbarGradientCBox..Caption
+#: QueryBrowserOptionPages.dfm:71 
+msgid "Toolbars use a gradient background"
+msgstr "Toolbars verwenden Verlaufshintergrund"
+
+#: QueryBrowser.pas:1364 
+msgid "Transaction"
+msgstr "Transaktion"
+
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel6..TriggerInsertCBox..Caption
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..TntPanel6..TriggerInsertCBox..Caption
+#: RegExTextImporter.dfm:310 
+msgid "Trigger Insert Statement"
+msgstr "INSERT-Anweisung triggern"
+
+#  QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..TrxTabSheet..Caption
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..TrxTabSheet..Caption
+#: QueryBrowser.dfm:777  QueryBrowser.pas:917
+msgid "Trx"
+msgstr "Trx"
+
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..ScheduleTabSheet..ExecutionTimeGBox..SchedulePageControl..WeeklyTabSheet..ScheduleTuesdayCBox..Caption
+#: QueryBrowser.pas:3496 
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: SqlCmdPanel.pas:362 
+msgid "Type '%s' or '%s' for help. Type '%s' to clear the screen."
+msgstr "'%s' oder '%s' liefert Hilfe. '%s' löscht den Bildschirm."
+
+#: TableDrag.pas:127 
+msgid "UPDATE"
+msgstr "UPDATE"
+
+#  AboutForm..InfoMemo....Lines.Strings
+#. AboutForm..InfoMemo....Lines.Strings
+#: About.dfm:1281 
+msgid "Ulrich Bayer | Library coding"
+msgstr "Ulrich Bayer | Bibliotheksprogrammierung"
+
+#: QueryBrowser.pas:1243  QueryBrowser.pas:1489
+msgid "Undo"
+msgstr "Rückgängig"
+
+#: QueryBrowser.pas:1243  QueryBrowser.pas:1489
+msgid "Undo the last change"
+msgstr "Die letzte Änderung rückgängig machen"
+
+#. MainForm..MainActionManager..EditUndo1..Hint
+#: Main.dfm:343 
+msgid "Undo|Reverts the last action"
+msgstr "Zurücknehmen|Kehrt zum Zustand nach der letzten Aktion zurück"
+
+#: QueryBrowser.pas:4747 
+msgid "User Confirmation"
+msgstr "Bestätigung durch Benutzer"
+
+#  RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..InsertTemplateMemo....Lines.Strings
+#. RegExTextImporterForm..ScrollBox..InsertPnl..InsertMemoPnl..InsertTemplateMemo....Lines.Strings
+#: RegExTextImporter.dfm:329 
+msgid "VALUES ();"
+msgstr "VALUES ();"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnAdvTabSheet..ConnValueListEditor....TitleCaptions.Strings
+#. QueryBrowserForm..DockPnl..SidebarPnl..LowerPageControl..ParamSheet..ParamPnl..ParamVT......WideText
+#: QueryBrowser.dfm:771 
+msgid "Value"
+msgstr "Wert"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..VariousGBox..Caption
+# Check translation!
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..VariousGBox..Caption
+#  QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox2..Caption
+#. QueryBrowserOptionPagesForm..OptionPageControl..BrowserTabSheet..TntGroupBox2..Caption
+#: QueryBrowserOptionPages.dfm:213 
+msgid "Various"
+msgstr "Verschiedenes"
+
+#  AboutForm..VersionLbl..Caption
+#. AboutForm..VersionLbl..Caption
+#: About.dfm:1243 
+msgid "Version 1.0.3 ALPHA"
+msgstr "Version 1.0.3 ALPHA"
+
+#  SchemataFrame..SchemaSearchPopupMenu..CustomMI..ViewsSubMI..Caption
+#  grt_view_editor.glade:GtkLabel:label147
+#. QueryBrowserForm..MainMenu..ViewMI..Caption
+#: QueryBrowser.dfm:1348 
+msgid "View"
+msgstr "Ansicht"
+
+#  QueryBrowserForm..RSGridPopupMenu..ViewFieldinPopupEditorMI..Caption
+#. QueryBrowserForm..RSGridPopupMenu..ViewFieldinPopupEditorMI..Caption
+#: QueryBrowser.dfm:1335 
+msgid "View Field in Popup Editor"
+msgstr "Feld im Popup-Editor betrachten"
+
+#: TableDrag.pas:157 
+msgid "WHERE"
+msgstr "WHERE"
+
+#  #-#-#-#-#  ..\res\windows\po\default.po (PACKAGE VERSION)  #-#-#-#-#
+#  AdminBackupForm..ServerBackupRestorePnl..BackupRestorePageControl..ScheduleTabSheet..ExecutionTimeGBox..SchedulePageControl..WeeklyTabSheet..ScheduleWednesdayCBox..Caption
+#: QueryBrowser.pas:3498 
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#  MainForm..MainMenu..ToolsMI..WindowsCommandLineMI..Caption
+#. MainForm..MainMenu..ToolsMI..WindowsCommandLineMI..Caption
+#: Main.dfm:208 
+msgid "Windows Command Line"
+msgstr "Windows-Befehlszeile"
+
+#. MainForm..MainActionManager..StyleName
+#: Main.dfm:308 
+msgid "XP Style"
+msgstr "XP Stil"
+
+#: QueryBrowser.pas:1736  QueryBrowser.pas:3224 QueryBrowser.pas:4748
+#: QueryBrowser.pas:6752 ScriptPanel.pas:688
+msgid "Yes"
+msgstr "Ja"
+
+#: QueryBrowser.pas:3262 
+msgid ""
+"Yes\n"
+"Cancel"
+msgstr ""
+"Ja\n"
+"Abbrechen"
+
+#: QueryBrowser.pas:3000 
+msgid ""
+"Yes\n"
+"No"
+msgstr ""
+"Ja\n"
+"Nein"
+
+#: QueryBrowser.pas:3512 
+msgid "Yesterday"
+msgstr "Gestern"
+
+#: QueryBrowser.pas:7548 
+msgid ""
+"You cannot add a dynamic parameter manually. The dynamic paramteters are "
+"defined automatically by the columns of a master resultset."
+msgstr ""
+"Dynamische Parameter können nicht von Hand hinzugefügt werden. Die "
+"dynamischen Parameter werden durch die Spalten einer Master-Ergebnismenge "
+"automatisch festgelegt."
+
+#: QueryBrowser.pas:7631 
+msgid "You cannot delete a dynamic parameter."
+msgstr "Dynamische Parameter können nicht gelöscht werden."
+
+#: QueryBrowser.pas:3277 
+msgid "You cannot delete the root folder."
+msgstr "Der Wurzelordner kann nicht gelöscht werden."
+
+#: QueryBrowser.pas:4634 
+msgid ""
+"You have made changes to a resultset. Are you sure you want to discard your "
+"changes?"
+msgstr ""
+"Sie haben eine Ergebnismenge geändert. Sind Sie sicher, dass Sie Ihre "
+"Änderungen verwerfen wollen?"
+
+#: SqlCmdPanel.pas:357 
+msgid "Your MySQL connection id is %d to server version : %s"
+msgstr "Ihre MySQL-Verbindungs-Id lautet %d zur Server-Version %s"
+
+#  MainForm..MainMenu..FileMI..NewQueryTabMI..Caption
+#~ msgid "&New Query Tab"
+#~ msgstr "&Neuer Abfrage-Tab"
+
+# #-#-#-#-#  mysql-administrator-template.po (MySQL Administrator 1.1.5)  #-#-#-#-#
+#  EditorTableForm..TableEditorPnl..BottomPnl..ApplyChangesBtn..Caption
+#  MyxRoutineGroupEditorForm..BottomPnl..ApplyChangesBtn..Caption
+#  MyxSchemaEditorForm..BottomPnl..ApplyChangesBtn..Caption
+#  MyxTableEditorForm..DockPanel..BottomPnl..ApplyChangesBtn..Caption
+#  MyxViewEditorForm..BottomPnl..ApplyChangesBtn..Caption
+#  AdminServiceControlForm..ServiceControlPnl..PageControl..ServiceConfigSheet..SettingsScrollBox..Panel3..ApplyChangesBtn..Caption
+#  AdminServiceControlForm..ServiceControlPnl..PageControl..ServiceConfigSheet..SettingsScrollBox..Panel3..ApplyChangesBtn..Caption
+# #-#-#-#-#  mysql-gui-common-template.po (MySQL GUI Common 1.1.5)  #-#-#-#-#
+#  EditorTableForm..TableEditorPnl..BottomPnl..ApplyChangesBtn..Caption
+#  MyxRoutineGroupEditorForm..BottomPnl..ApplyChangesBtn..Caption
+#  MyxSchemaEditorForm..BottomPnl..ApplyChangesBtn..Caption
+#  MyxTableEditorForm..DockPanel..BottomPnl..ApplyChangesBtn..Caption
+#  MyxViewEditorForm..BottomPnl..ApplyChangesBtn..Caption
+#~ msgid "Apply Changes"
+#~ msgstr "Übernehmen"
+
+#~ msgid "Cannot open the file %s"
+#~ msgstr "Kann die Datei %s nicht öffnen"
+
+#~ msgid "Connect"
+#~ msgstr "Verbinden"
+
+#  MainForm..MainMenu..Edit1..CopyMI..Caption
+#  MainForm..MainMenu..Edit1..CopyMI..Caption
+#~ msgid "Copy"
+#~ msgstr "Kopieren"
+
+#  MainForm..MainMenu..Edit1..CutMI..Caption
+#  MainForm..MainMenu..Edit1..CutMI..Caption
+#  MainForm..MainMenu..Edit1..CutMI..Caption
+#  QueryBrowserForm..QueryPopupMenu..SQLEditCutMI..Caption
+#~ msgid "Cut"
+#~ msgstr "Ausschneiden"
+
+#~ msgid "Enter the WideString you are searching for."
+#~ msgstr "Geben Sie den Widestring ein, nach dem Sie suchen."
+
+# Check case and gender
+#, fuzzy
+#~ msgid "First"
+#~ msgstr "Erster"
+
+# Check case and gender
+#, fuzzy
+#~ msgid "Last"
+#~ msgstr "Letzter"

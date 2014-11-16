@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MNibOwner; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {controller = id; view = id; view1 = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {modifyFont = id; resetHistory = id; }; 
+            CLASS = MQPreferences; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {fontText = NSTextField; view = id; }; 
+            SUPERCLASS = NSResponder; 
+        }
+    ); 
+    IBVersion = 1; 
+}

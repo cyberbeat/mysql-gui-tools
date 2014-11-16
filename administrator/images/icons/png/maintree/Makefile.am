@@ -1,0 +1,60 @@
+appdatadir= $(madatadir)
+
+appdata_DATA=\
+	16x16_Backup.png\
+	16x16_CatalogOnTreeBG.png\
+	16x16_Catalog.png\
+	16x16_CatalogTreeBG.png\
+	16x16_Database.png\
+	16x16_DBConfig.png\
+	16x16_DBModel.png\
+	16x16_DBServer.png\
+	16x16_Field.png\
+	16x16_Health.png\
+	16x16_Index.png\
+	16x16_KeyColumn.png\
+	16x16_Logs.png\
+	16x16_Replication.png\
+	16x16_Right.png\
+	16x16_ServerConfig.png\
+	16x16_ServerParams.png\
+	16x16_ServerStartupParams.png\
+	16x16_ServerThreads.png\
+	16x16_StartStopService.png\
+	16x16_Statistics.png\
+	16x16_StoredInDB.png\
+	16x16_StoredProc.png\
+	16x16_Table.png\
+	16x16_View.png\
+	16x16_Thread.png\
+	16x16_UserAdmin.png\
+	16x16_User.png\
+	16x16_Users.png\
+	24x24_Backup.png\
+	24x24_Catalog.png\
+	24x24_Database.png\
+	24x24_DBConfig.png\
+	24x24_DBModel.png\
+	24x24_DBServer.png\
+	24x24_Field.png\
+	24x24_Health.png\
+	24x24_Index.png\
+	24x24_Logs.png\
+	24x24_Replication.png\
+	24x24_Right.png\
+	24x24_ServerConfig.png\
+	24x24_ServerParams.png\
+	24x24_ServerStartupParams.png\
+	24x24_ServerThreads.png\
+	24x24_StartStopService.png\
+	24x24_Statistics.png\
+	24x24_StoredInDB.png\
+	24x24_StoredProc.png\
+	24x24_Table.png\
+	24x24_Thread.png\
+	24x24_UserAdmin.png\
+	24x24_User.png\
+	24x24_Users.png
+
+EXTRA_DIR=$(appdata_DATA)
+

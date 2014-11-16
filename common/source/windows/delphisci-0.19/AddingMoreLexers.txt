@@ -1,0 +1,24 @@
+If you wish to add those lexers at runtime, use AddLexer
+(the function above this).
+That function checks whether a lexer already exists,
+and if not, adds it to the list.
+
+These will show up in the OptionsDialog (when you use Add language)
+when the dialog is called after they are added.
+
+NOTE: As the scintilla control treats the lexers casesensitive, 
+this is also casesensitive.
+
+If you want to show them at designtime, instead of the above do this:
+
+Open the file MoreLexers.inc and add a statement like this:
+Add('lexername');
+
+Recompile, and you're done.. (BUILD, as delphi doesn't check dates on
+includes it seems)
+
+Add more lexernames there, if there are more lexers in your version
+of 'SciLexer.Dll', i.e new version, custombuilt or other..
+
+All lexers which are added there is also selectable from within the IDE.
+

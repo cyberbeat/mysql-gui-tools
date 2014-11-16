@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="db.oracle.Catalog" parent="db.Catalog" caption="Oracle Catalog" desc="an Oracle database catalog">
+    <members>
+      <member name="schemata" type="list" content-type="dict" content-struct-name="db.oracle.Schema" overrides="db.Schema" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.oracle.Schema" parent="db.Schema" caption="Oracle Schema" desc="an Oracle database schema">
+    <members>
+      <member name="tables" type="list" content-type="dict" content-struct-name="db.oracle.Table" overrides="db.Table" />
+      <member name="views" type="list" content-type="dict" content-struct-name="db.oracle.View" overrides="db.View" />
+      <member name="routines" type="list" content-type="dict" content-struct-name="db.oracle.Routine" overrides="db.Routine" />
+      <member name="routineGroups" type="list" content-type="dict" content-struct-name="db.oracle.RoutineGroup" overrides="db.RoutineGroup" />
+      <member name="synonyms" type="list" content-type="dict" content-struct-name="db.oracle.Synonym" overrides="db.Synonym" />
+      <member name="structuredTypes" type="list" content-type="dict" content-struct-name="db.oracle.StructuredDatatype" overrides="db.StructuredDatatype" />
+      <member name="sequences" type="list" content-type="dict" content-struct-name="db.oracle.Sequence" overrides="db.Sequence" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.oracle.Table" parent="db.Table" caption="Oracle Table" desc="an Oracle database table object with all specific options and required for a Oracle 8i/9i/10i database">
+    <members>
+      <member name="tablespaceName" type="string" />
+      <member name="clusterName" type="string" />
+      <member name="pctFreeBlockSpace" type="int" />
+      <member name="pctUsedBlockSpace" type="int" />
+      <member name="initialTrans" type="int" />
+      <member name="maxTrans" type="int" />
+      <member name="initialExtent" type="int" />
+      <member name="nextExtent" type="int" />
+      <member name="minExtents" type="int" />
+      <member name="maxExtents" type="int" />
+      <member name="pctIncrease" type="int" />
+      <member name="numRows" type="int" />
+      <member name="blocks" type="int" />
+      <member name="emptyBlocks" type="int" />
+      <member name="avgSpace" type="int" />
+      <member name="avgRowLen" type="int" />
+      <member name="isNestedTable" type="int" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.oracle.Column" parent="db.Column">
+    <members>
+      <member name="datatypeModifier" type="string" />
+      <member name="defaultLength" type="int" />
+      <member name="density" type="real" />
+      <member name="numberOfNulls" type="int" />
+      <member name="numberOfBuckets" type="int" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.oracle.SimpleDatatype" parent="db.SimpleDatatype" />
+
+  <gstruct name="db.oracle.StructuredDatatype" parent="db.StructuredDatatype" />
+
+  <gstruct name="db.oracle.Index" parent="db.Index">
+    <members>
+      <member name="compression" type="int" />
+      <member name="prefixLength" type="int" />
+      <member name="tablespace" type="string" />
+      <member name="initialTrans" type="int" />
+      <member name="maxTrans" type="int" />
+      <member name="initialExtent" type="int" />
+      <member name="nextExtent" type="int" />
+      <member name="minExtents" type="int" />
+      <member name="maxExtents" type="int" />
+      <member name="pctIncrease" type="int" />
+      <member name="pctTreshold" type="int" />
+      <member name="blevel" type="int" />
+      <member name="leafBlocks" type="int" />
+      <member name="distinctKeys" type="int" />
+      <member name="avgLeafBlocksPerKey" type="int" />
+      <member name="avgDataBlocksPerKey" type="int" />
+      <member name="clusteringFactor" type="int" />
+      <member name="numRows" type="int" />
+      <member name="generated" type="int" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.oracle.IndexColumn" parent="db.IndexColumn" />
+
+  <gstruct name="db.oracle.ForeignKey" parent="db.ForeignKey" />
+  
+  <gstruct name="db.oracle.Trigger" parent="db.Trigger" />
+
+  <gstruct name="db.oracle.View" parent="db.View" caption="Oracle View" desc="an Oracle database view object">
+    <members>
+      <member name="typedText" type="string" />
+      <member name="oidText" type="string" />
+      <member name="viewTypeOwner" type="string" />
+      <member name="viewType" type="string" />
+      <member name="superViewName" type="string" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.oracle.RoutineGroup" parent="db.RoutineGroup" caption="Oracle Routine Group" />
+
+  <gstruct name="db.oracle.Routine" parent="db.Routine" caption="Oracle Routine" desc="an Oracle database routine object">
+    <members>
+      <member name="aggregate" type="int" />
+      <member name="pipelined" type="int" />
+      <member name="implTypeOwner" type="string" />
+      <member name="implTypeName" type="string" />
+      <member name="parallel" type="int" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.oracle.Synonym" parent="db.Synonym" caption="Oracle Synonym" desc="an Oracle synonym object" />
+
+  <gstruct name="db.oracle.Sequence" parent="db.Sequence" caption="Oracle Sequence" desc="an Oracle database sequence object" />
+
+</gstructs>

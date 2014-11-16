@@ -1,0 +1,122 @@
+query : ****************************
+  sql : ----------------------------
+select /* test comment */ * 
+from /* xx */t1/* yy */, /* cc */t2/* dd */ -- test comment returns
+where a=10  # test comment forever
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(2) : 
+    -------------------------------
+    table "def"."test"."t1" ()
+     fullname= "t1"
+     charset= "latin1"
+     columns(1) : 
+       column "t1_id", cs((null)) is     pk
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+    -------------------------------
+    table "def"."test"."t2" ()
+     fullname= "t2"
+     charset= "latin1"
+     columns(2) : 
+       column "t2_id", cs((null)) is     pk
+       column "t1_id", cs((null)) is not pk
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(3)
+     column "def"."test"."t1" ."t1_id" (alias: t1_id, is_pk: 1)
+     column "def"."test"."t2" ."t2_id" (alias: t2_id, is_pk: 1)
+     column "def"."test"."t2" ."t1_id" (alias: t1_id, is_pk: 0)
+  clauses(3)
+    clause (7,30) ends with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+*
+      ------------------------------------
+    clause (35,99) ends with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+t1        ,         t2
+      ------------------------------------
+    clause (105,133) doesn't end with linebreak
+      clause_type MYX_QCT_WHERE_CLAUSE
+      clause : -------------------------
+a=10
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+select /* test comment */ * 
+from t1 -- test comment returns
+where a=10  # test comment forever
+------------------------------------
+query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "def"."test"."t1" ()
+     fullname= "t1"
+     charset= "latin1"
+     columns(1) : 
+       column "t1_id", cs((null)) is     pk
+     pk_columns_num(1) : 
+    |t1_id|
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(1)
+     column "def"."test"."t1" ."t1_id" (alias: t1_id, is_pk: 1)
+  clauses(3)
+    clause (7,30) ends with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+*
+      ------------------------------------
+    clause (35,63) ends with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+t1
+      ------------------------------------
+    clause (69,97) doesn't end with linebreak
+      clause_type MYX_QCT_WHERE_CLAUSE
+      clause : -------------------------
+a=10
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+# Connection: dba on faster
+# Host: faster
+# Saved: 2004-09-16 22:02:16
+#
+select 1
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(0) : 
+  pk_columns_added_num 0
+  columns(1)
+     column "<<nil>>"."<<nil>>"."<<nil>>" ."" (alias: , is_pk: 0)
+  clauses(1)
+    clause (85,86) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+1
+      ------------------------------------
+  subqueries(0)
+  params_num 0

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MySQL Administrator
+Comment=MySQL Administration Tool
+Exec=#bindir#/mysql-administrator
+Terminal=false
+Type=Application
+Icon=#mydatadir#/MySQLIcon_Admin_48x48.png
+Categories=GTK;Database;Development;Application

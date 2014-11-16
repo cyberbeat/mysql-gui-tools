@@ -1,0 +1,245 @@
+query : ****************************
+  sql : ----------------------------
+UPDATE "mysql"."db" SET "db"."name"='new'
+------------------------------------
+  query_type : MYX_QT_UPDATE
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "system"."mysql"."db" ()
+     fullname= ""mysql"."db""
+     charset= "latin1"
+     columns(17) : 
+       column "Host", cs(latin1_bin) is     pk
+       column "Db", cs(latin1_bin) is     pk
+       column "User", cs(latin1_bin) is     pk
+       column "Select_priv", cs(latin1_swedish_ci) is not pk
+       column "Insert_priv", cs(latin1_swedish_ci) is not pk
+       column "Update_priv", cs(latin1_swedish_ci) is not pk
+       column "Delete_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_priv", cs(latin1_swedish_ci) is not pk
+       column "Drop_priv", cs(latin1_swedish_ci) is not pk
+       column "Grant_priv", cs(latin1_swedish_ci) is not pk
+       column "References_priv", cs(latin1_swedish_ci) is not pk
+       column "Index_priv", cs(latin1_swedish_ci) is not pk
+       column "Alter_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_tmp_table_priv", cs(latin1_swedish_ci) is not pk
+       column "Lock_tables_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_view_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_view_priv", cs(latin1_swedish_ci) is not pk
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(0)
+  clauses(2)
+    clause (7,20) doesn't end with linebreak
+      clause_type MYX_QCT_UPDATE_CLAUSE
+      clause : -------------------------
+"mysql"."db"
+      ------------------------------------
+    clause (24,41) doesn't end with linebreak
+      clause_type MYX_QCT_SET_CLAUSE
+      clause : -------------------------
+"db"."name"='new'
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+UPDATE "mysql"."db" SET "db"."name"='a' WHERE "db"."host"='b'
+------------------------------------
+  query_type : MYX_QT_UPDATE
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "system"."mysql"."db" ()
+     fullname= ""mysql"."db""
+     charset= "latin1"
+     columns(17) : 
+       column "Host", cs(latin1_bin) is     pk
+       column "Db", cs(latin1_bin) is     pk
+       column "User", cs(latin1_bin) is     pk
+       column "Select_priv", cs(latin1_swedish_ci) is not pk
+       column "Insert_priv", cs(latin1_swedish_ci) is not pk
+       column "Update_priv", cs(latin1_swedish_ci) is not pk
+       column "Delete_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_priv", cs(latin1_swedish_ci) is not pk
+       column "Drop_priv", cs(latin1_swedish_ci) is not pk
+       column "Grant_priv", cs(latin1_swedish_ci) is not pk
+       column "References_priv", cs(latin1_swedish_ci) is not pk
+       column "Index_priv", cs(latin1_swedish_ci) is not pk
+       column "Alter_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_tmp_table_priv", cs(latin1_swedish_ci) is not pk
+       column "Lock_tables_priv", cs(latin1_swedish_ci) is not pk
+       column "Create_view_priv", cs(latin1_swedish_ci) is not pk
+       column "Show_view_priv", cs(latin1_swedish_ci) is not pk
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(0)
+  clauses(3)
+    clause (7,20) doesn't end with linebreak
+      clause_type MYX_QCT_UPDATE_CLAUSE
+      clause : -------------------------
+"mysql"."db"
+      ------------------------------------
+    clause (24,40) doesn't end with linebreak
+      clause_type MYX_QCT_SET_CLAUSE
+      clause : -------------------------
+"db"."name"='a'
+      ------------------------------------
+    clause (46,61) doesn't end with linebreak
+      clause_type MYX_QCT_WHERE_CLAUSE
+      clause : -------------------------
+"db"."host"='b'
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+UPDATE "table with space" SET "table with space"."name"='a' WHERE "table with space"."host"='b'
+------------------------------------
+  query_type : MYX_QT_UPDATE
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "def"."test"."table with space" ()
+     fullname= ""table with space""
+     charset= "(null)"
+     columns(0) : 
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(0)
+  clauses(3)
+    clause (7,26) doesn't end with linebreak
+      clause_type MYX_QCT_UPDATE_CLAUSE
+      clause : -------------------------
+"table with space"
+      ------------------------------------
+    clause (30,60) doesn't end with linebreak
+      clause_type MYX_QCT_SET_CLAUSE
+      clause : -------------------------
+"table with space"."name"='a'
+      ------------------------------------
+    clause (66,95) doesn't end with linebreak
+      clause_type MYX_QCT_WHERE_CLAUSE
+      clause : -------------------------
+"table with space"."host"='b'
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+UPDATE "`" SET "`"."name"='a' WHERE "`"."host"='b'
+------------------------------------
+  query_type : MYX_QT_UPDATE
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "def"."test"."`" ()
+     fullname= ""`""
+     charset= "(null)"
+     columns(0) : 
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(0)
+  clauses(3)
+    clause (7,11) doesn't end with linebreak
+      clause_type MYX_QCT_UPDATE_CLAUSE
+      clause : -------------------------
+"`"
+      ------------------------------------
+    clause (15,30) doesn't end with linebreak
+      clause_type MYX_QCT_SET_CLAUSE
+      clause : -------------------------
+"`"."name"='a'
+      ------------------------------------
+    clause (36,50) doesn't end with linebreak
+      clause_type MYX_QCT_WHERE_CLAUSE
+      clause : -------------------------
+"`"."host"='b'
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+UPDATE "'" SET "'"."name"='a' WHERE "'"."host"='b'
+------------------------------------
+  query_type : MYX_QT_UPDATE
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "def"."test"."'" ()
+     fullname= ""'""
+     charset= "(null)"
+     columns(0) : 
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(0)
+  clauses(3)
+    clause (7,11) doesn't end with linebreak
+      clause_type MYX_QCT_UPDATE_CLAUSE
+      clause : -------------------------
+"'"
+      ------------------------------------
+    clause (15,30) doesn't end with linebreak
+      clause_type MYX_QCT_SET_CLAUSE
+      clause : -------------------------
+"'"."name"='a'
+      ------------------------------------
+    clause (36,50) doesn't end with linebreak
+      clause_type MYX_QCT_WHERE_CLAUSE
+      clause : -------------------------
+"'"."host"='b'
+      ------------------------------------
+  subqueries(0)
+  params_num 0
+query : ****************************
+  sql : ----------------------------
+UPDATE "'" SET "'"."name"='a' WHERE "'"."host"='b'
+------------------------------------
+  query_type : MYX_QT_UPDATE
+  options(0) : 
+  tables(1) : 
+    -------------------------------
+    table "def"."test"."'" ()
+     fullname= ""'""
+     charset= "(null)"
+     columns(0) : 
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(0)
+  clauses(3)
+    clause (7,11) doesn't end with linebreak
+      clause_type MYX_QCT_UPDATE_CLAUSE
+      clause : -------------------------
+"'"
+      ------------------------------------
+    clause (15,30) doesn't end with linebreak
+      clause_type MYX_QCT_SET_CLAUSE
+      clause : -------------------------
+"'"."name"='a'
+      ------------------------------------
+    clause (36,50) doesn't end with linebreak
+      clause_type MYX_QCT_WHERE_CLAUSE
+      clause : -------------------------
+"'"."host"='b'
+      ------------------------------------
+  subqueries(0)
+  params_num 0

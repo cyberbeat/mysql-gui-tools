@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                addConnection = id; 
+                load = id; 
+                removeConnection = id; 
+                save = id; 
+                toggleOption = id; 
+            }; 
+            CLASS = MConnectionEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                compress = NSButton; 
+                hostname = NSTextField; 
+                list = NSOutlineView; 
+                name = NSTextField; 
+                notes = NSTextView; 
+                password = NSTextField; 
+                port = NSTextField; 
+                schema = NSTextField; 
+                socket = NSTextField; 
+                tabview = NSTabView; 
+                topView = NSView; 
+                username = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

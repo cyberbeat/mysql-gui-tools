@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{64F735CB-A025-4BB3-9B88-483F08F509C0}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="ftgl_static_lib.lib">..\..\..\library_gc\ftgl\ftgl_static_lib.bdsproj</Projects>
+      <Projects Name="libmysqlgc.dll">..\..\..\library_gc\libmysqlgc.bdsproj</Projects>
+      <Projects Name="CanvasTest.exe">CanvasTest.bdsproj</Projects>
+      <Projects Name="Targets">ftgl_static_lib.lib libmysqlgc.dll CanvasTest.exe</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{333E03FE-5991-410E-AA33-3228289557B2}">
+        <Dependency GUID="{E368FC88-24DF-44C6-91D7-9582C9638C8D}"/>
+      </Dependency>
+      <Dependency GUID="{3CEE7BD9-948E-4FDF-B419-F066B5822E50}">
+        <Dependency GUID="{333E03FE-5991-410E-AA33-3228289557B2}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+	<StarTeamAssociation></StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

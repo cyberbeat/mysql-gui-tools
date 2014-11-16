@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<data>
+  <classmapping platform="windows">
+    <class name="TTntLabel" value="TControl"/>
+    <class name="TTntCheckBox" value="TControl"/>
+    <class name="TTntBevel" value="TControl"/>
+    <class name="TTntButton" value="TControl"/>
+    <class name="TTntPageControl" value="TControl"/>
+    <class name="TTntStringGrid" value="TControl"/>
+    <class name="TTntPanel" value="TControl"/>
+    <class name="TUniCodeEdit" value="TControl"/>
+    <class name="TTntBitBtn" value="TControl"/>
+    <class name="TTntEdit" value="TControl"/>
+    <class name="TTntImage" value="TControl"/>
+    <class name="TTntSplitter" value="TControl"/>
+    <class name="TSectionPanel" value="TControl"/>
+    <class name="TVirtualStringTree" value="TControl"/>
+    <class name="TTntListView" value="TControl"/>
+    <class name="TTntStatusBar" value="TControl"/>
+    <class name="TTntUpDown" value="TControl"/>
+    <class name="TTntMemo" value="TControl"/>
+    <class name="TTntScrollBox" value="TControl"/>
+    <class name="TAdvancedEditFrame" value="TControl"/>
+    <class name="THeaderControl" value="TControl"/>
+    <class name="TTntTreeView" value="TControl"/>
+    <class name="TTntGroupBox" value="TControl"/>
+    <class name="TTntShape" value="TControl"/>
+    <class name="TTntTabSheet" value="TControl"/>
+    <class name="TAnimate" value="TControl"/>
+    <class name="TTntListBox" value="TControl"/>
+    <class name="TTabSheet" value="TControl"/>
+    <class name="TTntSpeedButton" value="TControl"/>
+    <class name="TSchemataFrame" value="TControl"/>
+    <class name="TTntCheckListBox" value="TControl"/>
+    <class name="TTntComboBox" value="TControl"/>
+  </classmapping>
+</data>

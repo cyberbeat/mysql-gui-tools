@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MAPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {topBox = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {toggleServer = id; toggleServerStartup = id; }; 
+            CLASS = MAServiceControl; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                messageText = NSTextView; 
+                progress = NSProgressIndicator; 
+                startOnBootCheck = NSButton; 
+                statusImage = NSImageView; 
+                statusLabel = NSTextField; 
+                toggleButton = NSButton; 
+            }; 
+            SUPERCLASS = MAPanel; 
+        }
+    ); 
+    IBVersion = 1; 
+}

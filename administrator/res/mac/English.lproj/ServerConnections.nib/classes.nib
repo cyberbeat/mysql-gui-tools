@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MAPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {topBox = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {killConnection = id; killUser = id; refresh = id; }; 
+            CLASS = MAServerConnections; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                connectionsTable = NSTableView; 
+                fullTable = NSTableView; 
+                killButton = NSButton; 
+                killUserButton = NSButton; 
+                tabView = NSTabView; 
+                userTable = NSTableView; 
+            }; 
+            SUPERCLASS = MAPanel; 
+        }
+    ); 
+    IBVersion = 1; 
+}

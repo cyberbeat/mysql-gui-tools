@@ -1,0 +1,14 @@
+The following function/routines are not 100% WideString implemented:
+
+//////
+ShellUtilities.pas
+/////
+
+  function ConvertLocalStrToTFileTime(LocalStr: WideString; var FileTime: TFileTime): Boolean;
+
+  function ConvertTFileTimeToLocalStr(AFileTime: TFILETIME): WideString;
+
+  Format
+
+
+

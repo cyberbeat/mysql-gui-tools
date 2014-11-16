@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2003/01/wi'>
+
+  <!--
+    Please note that all occurrences of Guid='xxx' are substituted with the same GUID and
+    every Guid="xxx" is substituted with a different GUID
+    -->
+  <Module Id="MAModule" Guid="D49C0466-1817-4D2E-8B89-44CE3141B63D" Language="1033" Version="1.0.12.2">    
+    <Package InstallerVersion="200" Manufacturer="MySQL AB" Compressed="yes"
+     Id="????????-????-????-????-????????????" />
+
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="Mysql_Administrator_Dir" LongName= "MySQL Administrator" Name="MySQL_A">
+ 
+        <Component Id="Third_Party_Libraries" Guid="5077ACB7-3222-4783-8B36-7A9E7C41EB12" Location="either">
+          <File Id="libglib_2.0_0.dll" Name="LIBGLI~1.DLL" LongName="libglib-2.0-0.dll" 
+            KeyPath="yes" />
+          <File Id="zlib.dll" Name="zlib.dll"  Vital="yes" />
+          <File Id="iconv.dll" Name="iconv.dll"  />
+          <File Id="intl.dll" Name="intl.dll"  />
+          <File Id="libgmodule_2.0_0.dll" Name="LIBGMO~1.DLL" LongName="libgmodule-2.0-0.dll"  />
+          <File Id="libgobject_2.0_0.dll" Name="LIBGOB~1.DLL" LongName="libgobject-2.0-0.dll"  />
+          <File Id="libgthread_2.0_0.dll" Name="LIBGTH~1.DLL" LongName="libgthread-2.0-0.dll"  />
+          <File Id="libmySQL.dll" Name="libmySQL.dll"  />
+          <File Id="libxml2.dll" Name="libxml2.dll"  />
+          <File Id="msvcr71.dll" Name="msvcr71.dll"  /> <!-- really needed? -->
+        </Component>
+        
+        <Component Id="Gui_Libraries" Guid="E60BD4B4-C95F-41C4-829E-AEFCD8E6CE21" Location="either">
+          <File Id="libmysqladmin.dll" Name="LIBMYS~2.DLL" LongName="libmysqladmin.dll" 
+            KeyPath="yes" />
+          <File Id="libmysqladminmsg.dll" Name="LIBMYS~3.DLL" LongName="libmysqladminmsg.dll"  />
+          <File Id="libmysqlx.dll" Name="LIBMYS~1.DLL" LongName="libmysqlx.dll"  />
+        </Component>
+
+        <Component Id="RegEntries" Guid="A5D731DA-346D-4B3D-BDB8-4FBA22B5FA51" Location="either">
+          <Registry Id="MARegVersion" Root="HKLM" Key="SOFTWARE\MySQL AB\MySQL Administrator" Name="Version" 
+            Type="string" Value="[Pversion]" KeyPath="yes" />
+          <Registry Id="MARegLocation" Root="HKLM" Key="SOFTWARE\MySQL AB\MySQL Administrator" Name="Location" 
+            Type="string" Value="[Mysql_Administrator_Dir]" />
+        </Component>
+        
+        <Directory Id="DesktopFolder" Name="." />
+        <Directory Id="ProgramMenuFolder" Name=".">
+          <Directory Id="MysqlProgramMenuFolder" Name="MySQL" />
+        </Directory>
+        
+        <Component Id="MySQLAdministrator.exe" Guid="DF7941E0-548E-4E85-B698-1F2A7BBB224B" Location="either">
+          <File Id="MySQLAdministrator.exe" Name="MYSQLA~1.EXE" LongName="MySQLAdministrator.exe"
+             KeyPath="yes" />
+          <?if $(var.LICENSE_TYPE) = "gpl"?>
+          <File Id="COPYING" Name="COPYING" />
+          <?elseif $(var.LICENSE_TYPE) = "commercial"?>
+          <File Id="MySQLEULA.txt" Name="EULA.txt" LongName="MySQLEULA.txt" />
+          <?endif?>
+        </Component>
+        
+
+        <Component Id="MySQLSystemTrayMonitor.exe" Guid="0F6CC0A3-4D8C-4CFA-9050-F4B01371107E" Location="either">
+          <File Id="MySQLSystemTrayMonitor.exe" Name="tray.EXE" LongName="MySQLSystemTrayMonitor.exe"
+             KeyPath="yes" />
+        </Component>
+        
+        <!-- Help file is an extra component because we might want to have a shortcut pointing to it -->
+        <Component Id="mysqladministrator.chm" Guid="0864D2BF-C4F4-4AA6-9A34-AC5F21F3379F" Location="either">
+          <File Id="mysqladministrator.chm" Name="MYSQLA~1.CHM" LongName="mysqladministrator.chm"
+             KeyPath="yes" />
+        </Component>
+        
+        <Directory Id="XML" Name="XML">
+          <Component Id="XML_Files" Guid="DD29D247-D370-491B-A820-0D87BCE3BFC0" KeyPath="yes" Location="either">         
+            <File Id="mysqladmin_health.xml" Name="health.xml" LongName="mysqladmin_health.xml" />
+            <File Id="start_variables_description.dtd" Name="var_desc.dtd" LongName="mysqladmin_startup_variables_description.dtd" />
+            <File Id="start_variables_description.xml" Name="var_desc.xml" LongName="mysqladmin_startup_variables_description.xml" />          
+            <File Id="mysqladmin_system_variables.xml" Name="MYSQLA~2.XML" LongName="mysqladmin_system_variables.xml" />
+            <File Id="mysqladmin_status_variables.xml" Name="MYSQLA~4.XML" LongName="mysqladmin_status_variables.xml" />
+            <File Id="mysqlx_dbm_charsets.xml" Name="dbm_char.xml" LongName="mysqlx_dbm_charsets.xml" />
+            <File Id="mysqlx_dbm_datatypes.xml" Name="dbm_data.xml" LongName="mysqlx_dbm_datatypes.xml" />            
+            <File Id="translations_administrator.xml" Name="MYSQLX~5.XML" LongName="mysqlx_translations_administrator.xml" />            
+            <File Id="translations_general.xml" Name="MYSQLX~1.XML" LongName="mysqlx_translations_general.xml" />
+          </Component>
+        </Directory>
+      </Directory>
+    </Directory>
+
+  </Module>
+</Wix>
+
+

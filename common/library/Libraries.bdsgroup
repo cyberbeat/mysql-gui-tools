@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{90ED4762-A0EA-4C4F-A0EF-31F1E68CFD02}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="libmysqlutil_static.lib">utilities\libmysqlutil_static.bdsproj</Projects>
+      <Projects Name="libmysqlutil.dll">utilities\libmysqlutil.bdsproj</Projects>
+      <Projects Name="libmysqlx_static.lib">base-library\libmysqlx_static.bdsproj</Projects>
+      <Projects Name="libmysqlx.dll">base-library\libmysqlx.bdsproj</Projects>
+      <Projects Name="ftgl_static_lib.lib">generic-canvas\ftgl\ftgl_static_lib.bdsproj</Projects>
+      <Projects Name="libmysqlgc.dll">generic-canvas\libmysqlgc.bdsproj</Projects>
+      <Projects Name="libmysqlgrt.dll">generic-runtime\libmysqlgrt.bdsproj</Projects>
+      <Projects Name="libmysqlsqlparser.dll">sql-parser\libmysqlsqlparser.bdsproj</Projects>
+      <Projects Name="libmysqlgrtbuiltinmodule.dll">grt-modules\libmysqlgrtbuiltinmodule.bdsproj</Projects>
+      <Projects Name="libmysqlgrtwbmodule.dll">grt-wb-controller\libmysqlgrtwbmodule.bdsproj</Projects>
+      <Projects Name="CommonTest.exe">testing\CommonTest.bdsproj</Projects>
+      <Projects Name="Targets">libmysqlutil_static.lib libmysqlutil.dll libmysqlx_static.lib libmysqlx.dll ftgl_static_lib.lib libmysqlgc.dll libmysqlgrt.dll libmysqlsqlparser.dll libmysqlgrtbuiltinmodule.dll libmysqlgrtwbmodule.dll CommonTest.exe</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{333E03FE-5991-410E-AA33-3228289557B2}">
+        <Dependency GUID="{E368FC88-24DF-44C6-91D7-9582C9638C8D}"/>
+      </Dependency>
+      <Dependency GUID="{F82A5DBA-FE1F-4458-AEBC-2313D3B317F8}">
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+      </Dependency>
+      <Dependency GUID="{0A0EB82A-BD79-45A8-9B75-8782D343F216}">
+        <Dependency GUID="{F82A5DBA-FE1F-4458-AEBC-2313D3B317F8}"/>
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+      </Dependency>
+      <Dependency GUID="{CD6F49F5-CF2F-4BF6-ABDE-80125A37B639}">
+        <Dependency GUID="{0A0EB82A-BD79-45A8-9B75-8782D343F216}"/>
+        <Dependency GUID="{DC18529B-0888-4BB4-9C2B-F785C697AA4C}"/>
+        <Dependency GUID="{F82A5DBA-FE1F-4458-AEBC-2313D3B317F8}"/>
+        <Dependency GUID="{333E03FE-5991-410E-AA33-3228289557B2}"/>
+        <Dependency GUID="{2A7FC28D-ED5B-4C01-810C-522067BB8DCA}"/>
+      </Dependency>
+      <Dependency GUID="{05B8F435-1869-47BB-8643-D9E5B8A9C7DD}">
+        <Dependency GUID="{30A7F377-5BE8-4264-B25A-FEAF2F6B9824}"/>
+        <Dependency GUID="{CCD4C674-0938-4A07-8073-564A8C31288B}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+	<StarTeamAssociation></StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

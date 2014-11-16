@@ -1,0 +1,29 @@
+about PNG "..\..\images\about.png"
+
+connection_dialog_header PNG "..\..\images\connect_header_mt.png"
+
+dolphin_loop AVI "..\dolphin_loop.avi"
+
+migrationplan_sourcetarget PNG "..\..\images\icons\png\migrationplan_sourcetarget.png"
+migrationplan_objectselection PNG "..\..\images\icons\png\migrationplan_objectselection.png"
+migrationplan_overview PNG "..\..\images\png\migrationplan_overview.png"
+
+migrationplan_bg PNG "..\..\images\png\migrationplan_bg.png"
+migrationplan_bg_sel PNG "..\..\images\png\migrationplan_bg_sel.png"
+migrationplan_bg_done PNG "..\..\images\png\migrationplan_bg_done.png"
+
+setup_three_way PNG "..\..\images\png\setup_three_way.png"
+setup_two_way PNG "..\..\images\png\setup_two_way.png"
+
+sheet_background PNG "..\..\images\png\sheet_background.png"
+
+folder_closed_14x14 PNG "..\..\images\icons\png\folder_closed_14x14.png"
+folder_open_14x14 PNG "..\..\images\icons\png\folder_open_14x14.png"
+
+red_x PNG "..\..\images\red_x.png"
+
+log_error_12x12 PNG "..\..\images\png\log_error_12x12.png"
+log_error_16x16 PNG "..\..\images\png\log_error_16x16.png"
+
+log_warning_12x12 PNG "..\..\images\png\log_warning_12x12.png"
+log_warning_16x16 PNG "..\..\images\png\log_warning_16x16.png"

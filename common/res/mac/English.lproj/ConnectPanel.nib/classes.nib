@@ -1,0 +1,42 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                advancedOptionChanged = id; 
+                cancel = id; 
+                closeErrorPanel = id; 
+                connect = id; 
+                connectionChanged = id; 
+                pingHost = id; 
+                toggleDetails = id; 
+            }; 
+            CLASS = MConnectionPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                ansiQuotes = NSButton; 
+                compress = NSButton; 
+                connectButton = NSButton; 
+                connectionPopUp = NSPopUpButton; 
+                detailsButton = NSButton; 
+                errorPanel = NSPanel; 
+                errorText = NSTextField; 
+                extraView = NSView; 
+                hostname = NSTextField; 
+                password = NSSecureTextField; 
+                pingButton = NSButton; 
+                pingText = NSTextView; 
+                pingTextContainer = id; 
+                port = NSTextField; 
+                portSpin = NSStepper; 
+                progressIndicator = NSProgressIndicator; 
+                schema = NSTextField; 
+                socketText = NSTextField; 
+                topImage = NSImageView; 
+                username = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

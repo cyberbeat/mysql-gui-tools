@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+			<Option Name="ProjectType">CppDynamicLibrary</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{C6C88BDD-5B15-4E08-94E4-04D56B2115F3}</Option>
+		</Option>
+	</PersonalityInfo>
+	<CPlusPlusBuilder.Personality>
+		<Source>
+			<Source Name="MainSource">libmysqladmin.bpf</Source>
+		</Source>
+		<BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="0"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="Debug_Build"/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
+        <property category="build.node" name="name" value="libmysqladmin.dll"/>
+        <property category="build.node" name="packages" value="vcl;rtl;vclx;xmlrtl;vclactnband;bcbsmp;vclie;bcbie;dbrtl;vcldb"/>
+        <property category="build.node" name="use_packages" value="0"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.Od.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.k.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.v.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.vi.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.y.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$C.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$I.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$Q.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$R.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$W.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.DEFINITIONINFO.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.REFERENCEINFO.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="container.SelectedWarnings.containerenabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="..\..\win-external-libs\lib\mysql\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.2" value="$(BDS)\lib\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.n.arg.1" value="..\..\release\intermediate"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.n.arg.merge" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.n.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.vi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.brcc32" name="option.outputdir.arg.1" value="..\..\release\intermediate"/>
+        <property category="win32.Release_Build.win32b.brcc32" name="option.outputdir.arg.merge" value="0"/>
+        <property category="win32.Release_Build.win32b.brcc32" name="option.outputdir.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$O.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="container.SelectedWarnings.containerenabled" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.I.arg.1" value="..\..\release\intermediate"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.I.arg.merge" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.I.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="..\..\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.2" value="..\..\release\intermediate"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.3" value="..\..\win-external-libs\lib\mysql\opt"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.4" value="$(BDS)\lib\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.l.arg.1" value="..\..\release\intermediate"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.l.arg.merge" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.l.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.outputdir.arg.1" value="..\..\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.outputdir.arg.merge" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.outputdir.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="All Configurations"/>
+          <property category="win32.*.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.3.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.4.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.5.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.6.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.A.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.AK.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.AU.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.1" value="MAKEDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.2" value="G_IMPLEMENT_INLINES"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="$(BDS)\lib\vcl100.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hc.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.He.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hs.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.10" value="..\..\win-external-libs\include\pcre"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.11" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.12" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.13" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="source"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="..\..\win-external-libs\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.4" value="..\..\common\library\utilities\shared_include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.5" value="..\..\common\library\utilities\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.6" value="..\..\common\library\base-library\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.7" value="..\..\win-external-libs\include\mysql"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.8" value="..\..\win-external-libs\include\glib-2.0"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.9" value="..\..\win-external-libs\include\libxml"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Jgi.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Jgx.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.O1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.O2.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Od.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Q.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.V0.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.V1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.VM.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Ve.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vmd.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vmm.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vms.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-2.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-3.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-5.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.d.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.disablewarns.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.infomsgs.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.arg.1" value="intermediate"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.arg.merge" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.noregistervars.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.p.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.pc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.pm.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.pr.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.ps.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.q.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.rd.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="_NO_VCL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tW.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWC.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWD.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.w.enabled" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.arg.1" value="intermediate"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.arg.merge" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$A1.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$A2.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$A4.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$C.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$D.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$I.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$L.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$Q.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$R.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$T.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$W.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$Z2.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$Z4.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.DEFINITIONINFO.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.GD.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.GP.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.GS.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.1" value="..\..\administrator-1.1\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.2" value="source"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.3" value="V:\MySQL\administrator-1.2\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.4" value="V:\MySQL\mysql-gui-common\source\grtsh"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.J.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.JP.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.JPH.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.JPHN.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.arg.1" value="intermediate"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.arg.merge" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.NH.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.NH.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.arg.1" value="intermediate"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.arg.merge" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.1" value="..\..\administrator-1.1\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.2" value="source"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.3" value="V:\MySQL\administrator-1.2\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.4" value="V:\MySQL\mysql-gui-common\source\grtsh"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.1" value="..\..\administrator-1.1\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.2" value="source"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.3" value="V:\MySQL\administrator-1.2\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.4" value="V:\MySQL\mysql-gui-common\source\grtsh"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value="..\..\administrator-1.1\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value="source"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="V:\MySQL\administrator-1.2\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.4" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.5" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="..\..\administrator-1.1\library\source"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.2" value="source"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.3" value="V:\MySQL\administrator-1.2\library\source"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.4" value="V:\MySQL\mysql-gui-common\source\grtsh"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="container.SelectedWarnings.containerenabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.-w-.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gpd.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gpr.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.arg.1" value="intermediate"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="source"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.10" value="$(BDS)\lib\psdk"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="..\..\win-external-libs\lib\glib-2.0"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="..\..\win-external-libs\lib\libxml"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.4" value="..\..\win-external-libs\lib\windows"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.5" value="..\..\win-external-libs\lib\pcre"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.6" value="..\..\common\library\base-library\intermediate"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.7" value="..\..\common\library\utilities\intermediate"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.8" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.9" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpd.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpe.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpp.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.additional_switches.arg" value="glib-2.0-bcc.lib iconv-bcc.lib libxml-bcc.lib pcre3-bcc.lib libmysql-bcc.lib icmp-bcc.lib libmysqlutil.lib libmysqlx.lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.additional_switches.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.additional_switches.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.ap.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.b:xxxx.arg" value="0x00405000"/>
+          <property category="win32.*.win32b.ilink32" name="option.b:xxxx.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.b:xxxx.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.1" value="..\..\administrator-1.1\library\source"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.2" value="source"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.3" value="V:\MySQL\administrator-1.2\library\source"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.4" value="V:\MySQL\mysql-gui-common\source\grtsh"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.arg.1" value="intermediate"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.m.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.map_segments.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.1" value="..\..\Output"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.q.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.s.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.w.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="cw32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.3" value="cw32mti.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0d32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="libmysqladmin.bpf" CONTAINERID="BPF" LOCALCOMMAND="" UNITNAME="libmysqladmin" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="libmysqladmin.res" CONTAINERID="ResTool" LOCALCOMMAND="" UNITNAME="libmysqladmin.res" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\dllmain.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="dllmain" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\myx_admin_library.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_admin_library" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\myx_backup.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_backup" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\myx_log_files.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_log_files" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\myx_process_mysql_cnf_file.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_process_mysql_cnf_file" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\myx_processlist.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_processlist" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\myx_replication.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_replication" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\myx_user_management.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_user_management" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\myx_xml_gui_description.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_xml_gui_description" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\myx_xml_health.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_xml_health" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\myx_xml_variables_listing.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_xml_variables_listing" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="include\myx_admin_library.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="include\myx_admin_public_interface.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">1</VersionInfo>
+          <VersionInfo Name="MinorVer">0</VersionInfo>
+          <VersionInfo Name="Release">0</VersionInfo>
+          <VersionInfo Name="Build">0</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">1031</VersionInfo>
+          <VersionInfo Name="CodePage">1252</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+        </VersionInfoKeys>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs"></Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams"></Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">False</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication"></Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+		<buildevents>
+      <buildevent file="libmysqladmin.bdsproj">
+        <postcompile mode="0" cancancel="-1" capture="-1" showconsole="0">@echo off
+
+..\..\common\tools\LibInterfaceMapper\bin\MySQLLibInterfaceMapper -hinclude\myx_admin_public_interface.h -u"..\source\windows\myx_admin_public_interface.pas"
+
+echo Copying needed DLLs
+if not exist ..\..\Output\libmysql.dll copy ..\..\win-external-libs\lib\mysql\debug\libmysql.dll ..\..\Output\
+
+if not exist ..\..\Output\libglib-2.0-0.dll copy ..\..\win-external-libs\lib\glib-2.0\libglib-2.0-0.dll ..\..\Output\
+
+if not exist ..\..\Output\intl.dll copy ..\..\win-external-libs\lib\glib-2.0\intl.dll ..\..\Output\
+
+if not exist ..\..\Output\libgthread-2.0-0.dll copy ..\..\win-external-libs\lib\glib-2.0\libgthread-2.0-0.dll ..\..\Output\
+
+if not exist ..\..\Output\libxml2.dll copy ..\..\win-external-libs\lib\libxml\libxml2.dll ..\..\Output\
+
+if not exist ..\..\Output\iconv.dll copy ..\..\win-external-libs\lib\libxml\iconv.dll ..\..\Output\
+
+if not exist ..\..\Output\pcre3.dll copy ..\..\win-external-libs\lib\pcre\pcre3.dll ..\..\Output\
+
+if not exist ..\..\Output\zlib1.dll copy ..\..\win-external-libs\lib\zlib\zlib1.dll ..\..\Output\
+</postcompile>
+      </buildevent>
+    </buildevents>
+	</CPlusPlusBuilder.Personality>
+</BorlandProject>

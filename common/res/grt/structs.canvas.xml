@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<gstructs>
+    <gstruct name="canvas.Canvas" parent="GrtObject" caption="Generic Canvas" desc="The GRT proxy object to the Generic Canvas" bridge="GenericCanvas">
+        <members>
+            <member name="views" type="list" content-type="dict" content-struct-name="canvas.View" desc="List of views that belong to this canvas" />
+            <member name="layers" type="list" content-type="dict" content-struct-name="canvas.Layer" desc="List of layers that belong to this canvas" />
+            <member name="model" type="dict" content-struct-name="canvas.Model" desc="The model of the canvas" />
+        </members>
+    </gstruct>
+    <gstruct name="canvas.View" parent="GrtObject" caption="View" desc="used to display different views of the same Canvas" bridge="GenericCanvas">
+        <members>
+            <member name="description" type="string" desc="Description of the view" />
+            <member name="color" type="string" default="#ffffff" desc="Background color of the view. Allowed formats are described in the SVG specification (color references are not supported, though)" />
+            <member name="zoomX" type="real" default="1" desc="Current horizontal zoom factor of the visible area" />
+            <member name="zoomY" type="real" default="1" desc="Current vertical zoom factor of the visible area" />
+            <member name="x" type="real" desc="Current x offset of the visible area" />
+            <member name="y" type="real" desc="Current y offset of the visible area" />
+            <member name="jitter" type="real" default="0" desc="A small viewport offset value used to enhance display quality on certain graphic boards" />
+            <member name="layers" type="list" content-type="dict" content-struct-name="canvas.Layer" desc="The list of layers comprising this view" />
+        </members>
+    </gstruct>
+    <gstruct name="canvas.Layer" parent="GrtObject" caption="Layer" desc="Used to organize objects on different layers on a Canvas" bridge="GenericCanvas">
+        <members>
+            <member name="scaling" type="list" content-type="real" desc="A scale transformation" />
+            <member name="translation" type="list" content-type="real" desc="A translation transformation" />
+            <member name="visible" type="int" desc="Indicates whether the layer is displayed or not" />
+            <member name="enabled" type="int" desc="Indicates whether the layer takes part in feedback actions or not" />
+            <member name="groups" type="list" content-type="dict" content-struct-name="canvas.Group" desc="Reference list of top-level groups defined for this layer" />
+            <member name="figureInstances" type="list" content-type="dict" content-struct-name="canvas.FigureInstance" desc="All layout instances that are placed on this layer" />
+        </members>
+    </gstruct>
+    <gstruct name="canvas.Group" parent="GrtObject" caption="Group" desc="Used to organize the hierachie of grouped objects on a Canvas Layer" bridge="GenericCanvas" />
+    <gstruct name="canvas.FigureInstance" parent="GrtObject" caption="Figure instance" desc="Used to store the current layout state of an Layout Object" bridge="GenericCanvas">
+        <members>
+            <member name="figure" option="ref" type="string" content-struct-name="canvas.Figure" desc="The figure to which the instance belongs" />
+            <member name="selected" type="int" desc="Indicates whether the figure instance is selected or not" />
+            <member name="scaling" type="list" content-type="real" desc="A scale transformation" />
+            <member name="translation" type="list" content-type="real" desc="A translation transformation" />
+            <member name="rotation" type="list" content-type="real" desc="A rotation transformation" />
+        </members>
+    </gstruct>
+    <gstruct name="canvas.Figure" parent="GrtObject" caption="Figure" desc="The visual representation of an element" bridge="GenericCanvas">
+        <members>
+            <member name="scaling" type="list" content-type="real" desc="A scale transformation" />
+            <member name="translation" type="list" content-type="real" desc="A translation transformation" />
+            <member name="rotation" type="list" content-type="real" desc="A rotation transformation" />
+            <member name="content" type="dict" content-struct-name="canvas.FigureElement" desc="The actual content of the figure" />
+        </members>
+    </gstruct>
+    <gstruct name="canvas.FigureElement" parent="GrtObject" caption="Figure element" desc="The visual representation of an element" bridge="GenericCanvas">
+        <members>
+            <member name="layout" type="string" desc="The orientation of child elements" />
+            <member name="resizable" type="int" desc="Resizable or not" />
+            <member name="expanded" type="int" desc="Determines child element visibility" />
+            <member name="constraintMaxHeight" type="real" desc="The maximum allowed height." />
+            <member name="constraintMaxWidth" type="real" desc="The maximum allowed width." />
+            <member name="constraintMinHeight" type="real" desc="The minimum allowed height." />
+            <member name="constraintMinWidth" type="real" desc="The minimum allowed height." />
+            <member name="style" type="string" content-struct-name="canvas.Style" desc="Determines how this figure element looks like" />
+            <member name="caption" type="dict" content-struct-name="canvas.Caption" desc="An optional text for this element" />
+            <member name="children" type="list" content-type="dict" content-struct-name="canvas.FigureElement" desc="Child elements of this figure element" />
+        </members>
+    </gstruct>
+    <gstruct name="canvas.Caption" parent="GrtObject" caption="Element caption" desc="Text for a figure element" bridge="GenericCanvas">
+        <members>
+            <member name="text" type="string" desc="The text of the caption" />
+            <member name="fontFamily" type="string" desc="The font used for this caption" />
+            <member name="fontSize" type="int" desc="The size used for this caption" />
+            <member name="fontWeight" type="int" desc="The thickness of this caption" />
+            <member name="fontStyle" type="string" desc="The style of the caption" />
+            <member name="horizontalAlignment" type="string" desc="The horizontal alignemt of the caption" />
+            <member name="verticalAlignment" type="string" desc="The vertical alignment of the caption" />
+            <member name="color" type="string" default="#000000" desc="Text color of the caption" />
+            <member name="constraintMaxHeight" type="real" desc="The maximum allowed height." />
+            <member name="constraintMaxWidth" type="real" desc="The maximum allowed width." />
+            <member name="constraintMinHeight" type="real" desc="The minimum allowed height." />
+            <member name="constraintMinWidth" type="real" desc="The minimum allowed height." />
+            <member name="bidiMode" type="string" desc="Directionality the caption" />
+        </members>
+    </gstruct>
+    <gstruct name="canvas.GroupArea" parent="GrtObject" caption="Group area" desc="A rectangluar object that groups all objects that are placed withing it's boundaries" bridge="GenericCanvas" />
+    <gstruct name="canvas.Note" parent="GrtObject" caption="Note" desc="An object that displays it's description text on the Canvas" bridge="GenericCanvas" />
+    <gstruct name="canvas.Image" parent="GrtObject" caption="Image" desc="An object that displays an image on the Canvas" bridge="GenericCanvas">
+        <members>
+            <member name="image" type="string" desc="The file name of the image to display" />
+        </members>
+    </gstruct>
+    <gstruct name="canvas.Model" parent="GrtObject" caption="Model" desc="The model of the Generic Canvas" bridge="GenericCanvas">
+        <members>
+            <member name="figures" type="list" content-type="dict" content-struct-name="canvas.Figure" desc="The list of all figures defined in this canvas" />
+            <member name="layouts" type="list" content-type="dict" content-struct-name="canvas.Layout" desc="A list of all layouts defined in this canvas" />
+            <member name="styles" type="list" content-type="dict" content-struct-name="canvas.Style" desc="A list of all styles defined in this canvas" />
+        </members>
+    </gstruct>
+    <gstruct name="canvas.Style" parent="GrtObject" caption="Element style" desc="Visual properties of a figure element" bridge="GenericCanvas">
+        <members>
+        </members>
+    </gstruct>
+    <gstruct name="canvas.Layout" parent="GrtObject" caption="Element layout" desc="Structure of a figure element" bridge="GenericCanvas">
+        <members>
+        </members>
+    </gstruct>
+</gstructs>

@@ -1,0 +1,949 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1F28EC087E3DC100455FC3 /* MCanvasUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F28EA087E3DC100455FC3 /* MCanvasUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1F28ED087E3DC100455FC3 /* MCanvasUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F28EB087E3DC100455FC3 /* MCanvasUtils.mm */; };
+		2B1F2A89087EF5BC00455FC3 /* myx_gc_connection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F2A88087EF5BC00455FC3 /* myx_gc_connection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1F2A8B087EF5C700455FC3 /* myx_gc_connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F2A8A087EF5C700455FC3 /* myx_gc_connection.cpp */; };
+		2B1F2B26087F0BCD00455FC3 /* column.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B02087F0BCD00455FC3 /* column.png */; };
+		2B1F2B27087F0BCD00455FC3 /* column_256.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B03087F0BCD00455FC3 /* column_256.png */; };
+		2B1F2B28087F0BCD00455FC3 /* column_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B04087F0BCD00455FC3 /* column_64.png */; };
+		2B1F2B29087F0BCD00455FC3 /* column_fk_256.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B05087F0BCD00455FC3 /* column_fk_256.png */; };
+		2B1F2B2A087F0BCD00455FC3 /* column_fk_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B06087F0BCD00455FC3 /* column_fk_64.png */; };
+		2B1F2B2B087F0BCD00455FC3 /* column_pk.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B07087F0BCD00455FC3 /* column_pk.png */; };
+		2B1F2B2C087F0BCD00455FC3 /* column_pk_256.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B08087F0BCD00455FC3 /* column_pk_256.png */; };
+		2B1F2B2D087F0BCD00455FC3 /* column_pk_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B09087F0BCD00455FC3 /* column_pk_64.png */; };
+		2B1F2B2E087F0BCD00455FC3 /* index_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B0A087F0BCD00455FC3 /* index_64.png */; };
+		2B1F2B2F087F0BCD00455FC3 /* table_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B0B087F0BCD00455FC3 /* table_64.png */; };
+		2B1F2B30087F0BCD00455FC3 /* table_func_edit_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B0C087F0BCD00455FC3 /* table_func_edit_64.png */; };
+		2B1F2B31087F0BCD00455FC3 /* table_func_lock_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B0D087F0BCD00455FC3 /* table_func_lock_64.png */; };
+		2B1F2B32087F0BCD00455FC3 /* table_func_menu_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B1F2B0E087F0BCD00455FC3 /* table_func_menu_64.png */; };
+		2B1F2C5B087F513700455FC3 /* paper_b.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = 2B1F2C47087F511600455FC3 /* paper_b.png */; };
+		2B1F2C5C087F513700455FC3 /* paper_l.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = 2B1F2C48087F511600455FC3 /* paper_l.png */; };
+		2B1F2C5D087F513700455FC3 /* paper_lb.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = 2B1F2C49087F511600455FC3 /* paper_lb.png */; };
+		2B1F2C5E087F513700455FC3 /* paper_lt.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = 2B1F2C4A087F511600455FC3 /* paper_lt.png */; };
+		2B1F2C5F087F513700455FC3 /* paper_r.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = 2B1F2C4B087F511600455FC3 /* paper_r.png */; };
+		2B1F2C60087F513700455FC3 /* paper_rb.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = 2B1F2C4C087F511600455FC3 /* paper_rb.png */; };
+		2B1F2C61087F513700455FC3 /* paper_rt.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = 2B1F2C4D087F511600455FC3 /* paper_rt.png */; };
+		2B1F2C62087F513700455FC3 /* paper_t.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = 2B1F2C4E087F511600455FC3 /* paper_t.png */; };
+		2B586ECB08B6363F00E38573 /* routine_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B586EC908B6363F00E38573 /* routine_64.png */; };
+		2B586ECC08B6363F00E38573 /* routine.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B586ECA08B6363F00E38573 /* routine.png */; };
+		2B58700408B65F3900E38573 /* routine_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B586EC908B6363F00E38573 /* routine_64.png */; };
+		2B58700508B65F3900E38573 /* routine.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2B586ECA08B6363F00E38573 /* routine.png */; };
+		2B63A05C0A4DE675007EBE0A /* libgthread-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B63A05B0A4DE674007EBE0A /* libgthread-2.0.0.dylib */; };
+		2B63A1630A4DF2F5007EBE0A /* gl2ps.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B8B73A7093217AB001C28EE /* gl2ps.c */; };
+		2B832ADE0861D30F00D8BEB0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832ADD0861D30F00D8BEB0 /* OpenGL.framework */; };
+		2B832BC20861DA7C00D8BEB0 /* myx_gc_base.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BB10861DA7C00D8BEB0 /* myx_gc_base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BC30861DA7C00D8BEB0 /* myx_gc_canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BB20861DA7C00D8BEB0 /* myx_gc_canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BC50861DA7C00D8BEB0 /* myx_gc_datatypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BB40861DA7C00D8BEB0 /* myx_gc_datatypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BC60861DA7C00D8BEB0 /* myx_gc_figure_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BB50861DA7C00D8BEB0 /* myx_gc_figure_parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BC70861DA7C00D8BEB0 /* myx_gc_figure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BB60861DA7C00D8BEB0 /* myx_gc_figure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BC80861DA7C00D8BEB0 /* myx_gc_font_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BB70861DA7C00D8BEB0 /* myx_gc_font_manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BC90861DA7C00D8BEB0 /* myx_gc_gl_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BB80861DA7C00D8BEB0 /* myx_gc_gl_helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BCA0861DA7D00D8BEB0 /* myx_gc_layer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BB90861DA7C00D8BEB0 /* myx_gc_layer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BCB0861DA7D00D8BEB0 /* myx_gc_layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BBA0861DA7C00D8BEB0 /* myx_gc_layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BCC0861DA7D00D8BEB0 /* myx_gc_model.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BBB0861DA7C00D8BEB0 /* myx_gc_model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BCD0861DA7D00D8BEB0 /* myx_gc_style.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BBC0861DA7C00D8BEB0 /* myx_gc_style.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BCE0861DA7D00D8BEB0 /* myx_gc_svgparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BBD0861DA7C00D8BEB0 /* myx_gc_svgparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BCF0861DA7D00D8BEB0 /* myx_gc_texture.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BBE0861DA7C00D8BEB0 /* myx_gc_texture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BD00861DA7D00D8BEB0 /* myx_gc_utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BBF0861DA7C00D8BEB0 /* myx_gc_utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BD10861DA7D00D8BEB0 /* myx_gc_view.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BC00861DA7C00D8BEB0 /* myx_gc_view.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BD20861DA7D00D8BEB0 /* myx_gc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B832BC10861DA7C00D8BEB0 /* myx_gc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B832BE10861DA9300D8BEB0 /* myx_gc_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BD30861DA9300D8BEB0 /* myx_gc_base.cpp */; };
+		2B832BE20861DA9300D8BEB0 /* myx_gc_canvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BD40861DA9300D8BEB0 /* myx_gc_canvas.cpp */; };
+		2B832BE30861DA9300D8BEB0 /* myx_gc_figure_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BD50861DA9300D8BEB0 /* myx_gc_figure_parser.cpp */; };
+		2B832BE40861DA9300D8BEB0 /* myx_gc_figure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BD60861DA9300D8BEB0 /* myx_gc_figure.cpp */; };
+		2B832BE50861DA9300D8BEB0 /* myx_gc_font_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BD70861DA9300D8BEB0 /* myx_gc_font_manager.cpp */; };
+		2B832BE60861DA9300D8BEB0 /* myx_gc_gl_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BD80861DA9300D8BEB0 /* myx_gc_gl_helper.cpp */; };
+		2B832BE70861DA9300D8BEB0 /* myx_gc_layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BD90861DA9300D8BEB0 /* myx_gc_layer.cpp */; };
+		2B832BE80861DA9300D8BEB0 /* myx_gc_layout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BDA0861DA9300D8BEB0 /* myx_gc_layout.cpp */; };
+		2B832BE90861DA9300D8BEB0 /* myx_gc_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BDB0861DA9300D8BEB0 /* myx_gc_model.cpp */; };
+		2B832BEA0861DA9300D8BEB0 /* myx_gc_style.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BDC0861DA9300D8BEB0 /* myx_gc_style.cpp */; };
+		2B832BEB0861DA9300D8BEB0 /* myx_gc_svgparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BDD0861DA9300D8BEB0 /* myx_gc_svgparser.cpp */; };
+		2B832BEC0861DA9300D8BEB0 /* myx_gc_texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BDE0861DA9300D8BEB0 /* myx_gc_texture.cpp */; };
+		2B832BED0861DA9300D8BEB0 /* myx_gc_utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BDF0861DA9300D8BEB0 /* myx_gc_utilities.cpp */; };
+		2B832BEE0861DA9300D8BEB0 /* myx_gc_view.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B832BE00861DA9300D8BEB0 /* myx_gc_view.cpp */; };
+		2B832E32086207B100D8BEB0 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832E31086207B100D8BEB0 /* libpng.a */; };
+		2B832E37086207D900D8BEB0 /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832E36086207D900D8BEB0 /* libglib-2.0.0.dylib */; };
+		2B832E3B0862082200D8BEB0 /* libintl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832E3A0862082200D8BEB0 /* libintl.dylib */; };
+		2B832E3D0862083C00D8BEB0 /* libftgl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832E3C0862083C00D8BEB0 /* libftgl.a */; };
+		2B832E3F086208D200D8BEB0 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B832E3E086208D200D8BEB0 /* libfreetype.a */; };
+		2B8331A40862787B00D8BEB0 /* MCanvasScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8331A20862787B00D8BEB0 /* MCanvasScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8331A50862787B00D8BEB0 /* MCanvasScrollView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B8331A30862787B00D8BEB0 /* MCanvasScrollView.mm */; };
+		2B8B73AA093217B6001C28EE /* gl2ps.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8B73A9093217B6001C28EE /* gl2ps.h */; };
+		2B8C2675088C265B0017DFD4 /* myx_gc_bsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C2674088C265B0017DFD4 /* myx_gc_bsp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C2677088C26660017DFD4 /* myx_gc_bsp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C2676088C26660017DFD4 /* myx_gc_bsp.cpp */; };
+		2B8C26AE088C39800017DFD4 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C26AD088C39800017DFD4 /* libxml2.dylib */; };
+		2B8C26B4088C399C0017DFD4 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C26B3088C399C0017DFD4 /* libiconv.dylib */; };
+		2B9C03D308CFE0B20042BAFD /* myx_gc_feedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9C03D208CFE0B20042BAFD /* myx_gc_feedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9C03D508CFE0C80042BAFD /* myx_gc_feedback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C03D408CFE0C80042BAFD /* myx_gc_feedback.cpp */; };
+		2B9C03D708CFE0EC0042BAFD /* myx_gc_primitives.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9C03D608CFE0EC0042BAFD /* myx_gc_primitives.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9C03D908CFE1010042BAFD /* myx_gc_primitives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C03D808CFE1010042BAFD /* myx_gc_primitives.cpp */; };
+		2B9C051808CFFADD0042BAFD /* MWCanvasView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9C051608CFFADD0042BAFD /* MWCanvasView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9C051908CFFADD0042BAFD /* MWCanvasView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C051708CFFADD0042BAFD /* MWCanvasView.mm */; };
+		2BB5683D09E74FCF00FC03E1 /* myx_gc_animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB5683C09E74FCF00FC03E1 /* myx_gc_animation.cpp */; };
+		2BB5687F09E7522600FC03E1 /* myx_gc_animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5687E09E7522600FC03E1 /* myx_gc_animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB572B609F84A1600FC03E1 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB572B509F84A1600FC03E1 /* ApplicationServices.framework */; };
+		2BBB052008ACF61300A0C0A9 /* gc_glext.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBB051F08ACF61300A0C0A9 /* gc_glext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BCC11EB088ED50900EF833F /* MGenericCanvasView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC11E9088ED50900EF833F /* MGenericCanvasView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BCC11EC088ED50900EF833F /* MGenericCanvasView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC11EA088ED50900EF833F /* MGenericCanvasView.mm */; };
+		2BCC11FC088ED55400EF833F /* MySQLGRT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC11FB088ED55400EF833F /* MySQLGRT.framework */; };
+		2BCC120A088ED60C00EF833F /* MySQLToolsCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC1209088ED60C00EF833F /* MySQLToolsCommon.framework */; };
+		2BCC1332088EF32200EF833F /* myx_grt_wb_public_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC1330088EF32200EF833F /* myx_grt_wb_public_interface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BCC1335088EF3A700EF833F /* myx_grt_wb_controller.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC1334088EF3A700EF833F /* myx_grt_wb_controller.cc */; };
+		2BCC1337088EF3AD00EF833F /* myx_grt_wb_controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC1336088EF3AD00EF833F /* myx_grt_wb_controller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BCC16970890096F00EF833F /* myx_grt_wb_bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC16950890096F00EF833F /* myx_grt_wb_bridge.h */; };
+		2BCC16980890096F00EF833F /* myx_grt_wb_bridge.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC16960890096F00EF833F /* myx_grt_wb_bridge.cc */; };
+		2BCC197F0890CC8700EF833F /* myx_gc_variant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC197E0890CC8700EF833F /* myx_gc_variant.cpp */; };
+		2BCC19810890CC9300EF833F /* myx_gc_variant.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC19800890CC9300EF833F /* myx_gc_variant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BCC1FB10891561200EF833F /* connection_part.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2BCC1FB00891561200EF833F /* connection_part.png */; };
+		2BDCAB3E0989DEC20034C2C2 /* GraphRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCAB3D0989DEC20034C2C2 /* GraphRenderer.cpp */; };
+		2BDCAB400989DECC0034C2C2 /* GraphRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDCAB3F0989DECC0034C2C2 /* GraphRenderer.h */; };
+		2BDF688208D79A8900088236 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDF688108D79A8900088236 /* libz.dylib */; };
+		2BDF6D7608D9E96200088236 /* view_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF6D7508D9E96200088236 /* view_64.png */; };
+		2BDF6D8108D9E9E500088236 /* view_64.png in Copy GRT Images */ = {isa = PBXBuildFile; fileRef = 2BDF6D7508D9E96200088236 /* view_64.png */; };
+		2BDF6D8508D9EAD000088236 /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BDF6D8408D9EAD000088236 /* view.png */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B9A58860A182097009BE1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BDF67F008D6743100088236 /* FTGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA63B0DE06D1C6D900CD5F16;
+			remoteInfo = ftgl;
+		};
+		2B9A58880A182097009BE1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BDF67F008D6743100088236 /* FTGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA63B16E06D1C8FD00CD5F16;
+			remoteInfo = "Unit Tests";
+		};
+		2B9A588A0A182097009BE1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BDF67F008D6743100088236 /* FTGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA4DCB1F06D8494E0090441D;
+			remoteInfo = "FTGL Demo";
+		};
+		2B9A588C0A182097009BE1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BDF67F008D6743100088236 /* FTGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA4DCBAD06D84BA70090441D;
+			remoteInfo = "FTGL Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B1F2C2F087F4FE300455FC3 /* Copy GRT Images */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = images/grt/db;
+			dstSubfolderSpec = 7;
+			files = (
+				2BDF6D8108D9E9E500088236 /* view_64.png in Copy GRT Images */,
+				2B58700408B65F3900E38573 /* routine_64.png in Copy GRT Images */,
+				2B58700508B65F3900E38573 /* routine.png in Copy GRT Images */,
+				2BCC1FB10891561200EF833F /* connection_part.png in Copy GRT Images */,
+				2B1F2B26087F0BCD00455FC3 /* column.png in Copy GRT Images */,
+				2B1F2B27087F0BCD00455FC3 /* column_256.png in Copy GRT Images */,
+				2B1F2B28087F0BCD00455FC3 /* column_64.png in Copy GRT Images */,
+				2B1F2B29087F0BCD00455FC3 /* column_fk_256.png in Copy GRT Images */,
+				2B1F2B2A087F0BCD00455FC3 /* column_fk_64.png in Copy GRT Images */,
+				2B1F2B2B087F0BCD00455FC3 /* column_pk.png in Copy GRT Images */,
+				2B1F2B2C087F0BCD00455FC3 /* column_pk_256.png in Copy GRT Images */,
+				2B1F2B2D087F0BCD00455FC3 /* column_pk_64.png in Copy GRT Images */,
+				2B1F2B2E087F0BCD00455FC3 /* index_64.png in Copy GRT Images */,
+				2B1F2B2F087F0BCD00455FC3 /* table_64.png in Copy GRT Images */,
+				2B1F2B30087F0BCD00455FC3 /* table_func_edit_64.png in Copy GRT Images */,
+				2B1F2B31087F0BCD00455FC3 /* table_func_lock_64.png in Copy GRT Images */,
+				2B1F2B32087F0BCD00455FC3 /* table_func_menu_64.png in Copy GRT Images */,
+			);
+			name = "Copy GRT Images";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1F2C57087F511F00455FC3 /* Copy Textures */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = images/textures;
+			dstSubfolderSpec = 7;
+			files = (
+				2B1F2C5B087F513700455FC3 /* paper_b.png in Copy Textures */,
+				2B1F2C5C087F513700455FC3 /* paper_l.png in Copy Textures */,
+				2B1F2C5D087F513700455FC3 /* paper_lb.png in Copy Textures */,
+				2B1F2C5E087F513700455FC3 /* paper_lt.png in Copy Textures */,
+				2B1F2C5F087F513700455FC3 /* paper_r.png in Copy Textures */,
+				2B1F2C60087F513700455FC3 /* paper_rb.png in Copy Textures */,
+				2B1F2C61087F513700455FC3 /* paper_rt.png in Copy Textures */,
+				2B1F2C62087F513700455FC3 /* paper_t.png in Copy Textures */,
+			);
+			name = "Copy Textures";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2B1F28EA087E3DC100455FC3 /* MCanvasUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCanvasUtils.h; path = ../GenericCanvas/MCanvasUtils.h; sourceTree = "<group>"; };
+		2B1F28EB087E3DC100455FC3 /* MCanvasUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MCanvasUtils.mm; path = ../GenericCanvas/MCanvasUtils.mm; sourceTree = "<group>"; };
+		2B1F2A88087EF5BC00455FC3 /* myx_gc_connection.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_connection.h; path = include/myx_gc_connection.h; sourceTree = "<group>"; };
+		2B1F2A8A087EF5C700455FC3 /* myx_gc_connection.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_connection.cpp; path = source/myx_gc_connection.cpp; sourceTree = "<group>"; };
+		2B1F2B02087F0BCD00455FC3 /* column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column.png; path = ../../../images/grt/icons/db/column.png; sourceTree = "<group>"; };
+		2B1F2B03087F0BCD00455FC3 /* column_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_256.png; path = ../../../images/grt/icons/db/column_256.png; sourceTree = "<group>"; };
+		2B1F2B04087F0BCD00455FC3 /* column_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_64.png; path = ../../../images/grt/icons/db/column_64.png; sourceTree = "<group>"; };
+		2B1F2B05087F0BCD00455FC3 /* column_fk_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_fk_256.png; path = ../../../images/grt/icons/db/column_fk_256.png; sourceTree = "<group>"; };
+		2B1F2B06087F0BCD00455FC3 /* column_fk_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_fk_64.png; path = ../../../images/grt/icons/db/column_fk_64.png; sourceTree = "<group>"; };
+		2B1F2B07087F0BCD00455FC3 /* column_pk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_pk.png; path = ../../../images/grt/icons/db/column_pk.png; sourceTree = "<group>"; };
+		2B1F2B08087F0BCD00455FC3 /* column_pk_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_pk_256.png; path = ../../../images/grt/icons/db/column_pk_256.png; sourceTree = "<group>"; };
+		2B1F2B09087F0BCD00455FC3 /* column_pk_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_pk_64.png; path = ../../../images/grt/icons/db/column_pk_64.png; sourceTree = "<group>"; };
+		2B1F2B0A087F0BCD00455FC3 /* index_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = index_64.png; path = ../../../images/grt/icons/db/index_64.png; sourceTree = "<group>"; };
+		2B1F2B0B087F0BCD00455FC3 /* table_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_64.png; path = ../../../images/grt/icons/db/table_64.png; sourceTree = "<group>"; };
+		2B1F2B0C087F0BCD00455FC3 /* table_func_edit_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_func_edit_64.png; path = ../../../images/grt/icons/db/table_func_edit_64.png; sourceTree = "<group>"; };
+		2B1F2B0D087F0BCD00455FC3 /* table_func_lock_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_func_lock_64.png; path = ../../../images/grt/icons/db/table_func_lock_64.png; sourceTree = "<group>"; };
+		2B1F2B0E087F0BCD00455FC3 /* table_func_menu_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_func_menu_64.png; path = ../../../images/grt/icons/db/table_func_menu_64.png; sourceTree = "<group>"; };
+		2B1F2C47087F511600455FC3 /* paper_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper_b.png; path = ../../../images/textures/paper_b.png; sourceTree = SOURCE_ROOT; };
+		2B1F2C48087F511600455FC3 /* paper_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper_l.png; path = ../../../images/textures/paper_l.png; sourceTree = SOURCE_ROOT; };
+		2B1F2C49087F511600455FC3 /* paper_lb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper_lb.png; path = ../../../images/textures/paper_lb.png; sourceTree = SOURCE_ROOT; };
+		2B1F2C4A087F511600455FC3 /* paper_lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper_lt.png; path = ../../../images/textures/paper_lt.png; sourceTree = SOURCE_ROOT; };
+		2B1F2C4B087F511600455FC3 /* paper_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper_r.png; path = ../../../images/textures/paper_r.png; sourceTree = SOURCE_ROOT; };
+		2B1F2C4C087F511600455FC3 /* paper_rb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper_rb.png; path = ../../../images/textures/paper_rb.png; sourceTree = SOURCE_ROOT; };
+		2B1F2C4D087F511600455FC3 /* paper_rt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper_rt.png; path = ../../../images/textures/paper_rt.png; sourceTree = SOURCE_ROOT; };
+		2B1F2C4E087F511600455FC3 /* paper_t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper_t.png; path = ../../../images/textures/paper_t.png; sourceTree = SOURCE_ROOT; };
+		2B586EC908B6363F00E38573 /* routine_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = routine_64.png; path = ../../../images/grt/icons/db/routine_64.png; sourceTree = SOURCE_ROOT; };
+		2B586ECA08B6363F00E38573 /* routine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = routine.png; path = ../../../images/grt/icons/db/routine.png; sourceTree = SOURCE_ROOT; };
+		2B63A05B0A4DE674007EBE0A /* libgthread-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgthread-2.0.0.dylib"; path = "/sw/lib/libgthread-2.0.0.dylib"; sourceTree = "<absolute>"; };
+		2B832ADD0861D30F00D8BEB0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		2B832BB10861DA7C00D8BEB0 /* myx_gc_base.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_base.h; path = include/myx_gc_base.h; sourceTree = "<group>"; };
+		2B832BB20861DA7C00D8BEB0 /* myx_gc_canvas.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_canvas.h; path = include/myx_gc_canvas.h; sourceTree = "<group>"; };
+		2B832BB40861DA7C00D8BEB0 /* myx_gc_datatypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_datatypes.h; path = include/myx_gc_datatypes.h; sourceTree = "<group>"; };
+		2B832BB50861DA7C00D8BEB0 /* myx_gc_figure_parser.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_figure_parser.h; path = include/myx_gc_figure_parser.h; sourceTree = "<group>"; };
+		2B832BB60861DA7C00D8BEB0 /* myx_gc_figure.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_figure.h; path = include/myx_gc_figure.h; sourceTree = "<group>"; };
+		2B832BB70861DA7C00D8BEB0 /* myx_gc_font_manager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_font_manager.h; path = include/myx_gc_font_manager.h; sourceTree = "<group>"; };
+		2B832BB80861DA7C00D8BEB0 /* myx_gc_gl_helper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_gl_helper.h; path = include/myx_gc_gl_helper.h; sourceTree = "<group>"; };
+		2B832BB90861DA7C00D8BEB0 /* myx_gc_layer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_layer.h; path = include/myx_gc_layer.h; sourceTree = "<group>"; };
+		2B832BBA0861DA7C00D8BEB0 /* myx_gc_layout.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_layout.h; path = include/myx_gc_layout.h; sourceTree = "<group>"; };
+		2B832BBB0861DA7C00D8BEB0 /* myx_gc_model.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_model.h; path = include/myx_gc_model.h; sourceTree = "<group>"; };
+		2B832BBC0861DA7C00D8BEB0 /* myx_gc_style.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_style.h; path = include/myx_gc_style.h; sourceTree = "<group>"; };
+		2B832BBD0861DA7C00D8BEB0 /* myx_gc_svgparser.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_svgparser.h; path = include/myx_gc_svgparser.h; sourceTree = "<group>"; };
+		2B832BBE0861DA7C00D8BEB0 /* myx_gc_texture.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_texture.h; path = include/myx_gc_texture.h; sourceTree = "<group>"; };
+		2B832BBF0861DA7C00D8BEB0 /* myx_gc_utilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_utilities.h; path = include/myx_gc_utilities.h; sourceTree = "<group>"; };
+		2B832BC00861DA7C00D8BEB0 /* myx_gc_view.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc_view.h; path = include/myx_gc_view.h; sourceTree = "<group>"; };
+		2B832BC10861DA7C00D8BEB0 /* myx_gc.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = myx_gc.h; path = include/myx_gc.h; sourceTree = "<group>"; };
+		2B832BD30861DA9300D8BEB0 /* myx_gc_base.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_base.cpp; path = source/myx_gc_base.cpp; sourceTree = "<group>"; };
+		2B832BD40861DA9300D8BEB0 /* myx_gc_canvas.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_canvas.cpp; path = source/myx_gc_canvas.cpp; sourceTree = "<group>"; };
+		2B832BD50861DA9300D8BEB0 /* myx_gc_figure_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_figure_parser.cpp; path = source/myx_gc_figure_parser.cpp; sourceTree = "<group>"; };
+		2B832BD60861DA9300D8BEB0 /* myx_gc_figure.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_figure.cpp; path = source/myx_gc_figure.cpp; sourceTree = "<group>"; };
+		2B832BD70861DA9300D8BEB0 /* myx_gc_font_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_font_manager.cpp; path = source/myx_gc_font_manager.cpp; sourceTree = "<group>"; };
+		2B832BD80861DA9300D8BEB0 /* myx_gc_gl_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_gl_helper.cpp; path = source/myx_gc_gl_helper.cpp; sourceTree = "<group>"; };
+		2B832BD90861DA9300D8BEB0 /* myx_gc_layer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_layer.cpp; path = source/myx_gc_layer.cpp; sourceTree = "<group>"; };
+		2B832BDA0861DA9300D8BEB0 /* myx_gc_layout.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_layout.cpp; path = source/myx_gc_layout.cpp; sourceTree = "<group>"; };
+		2B832BDB0861DA9300D8BEB0 /* myx_gc_model.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_model.cpp; path = source/myx_gc_model.cpp; sourceTree = "<group>"; };
+		2B832BDC0861DA9300D8BEB0 /* myx_gc_style.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_style.cpp; path = source/myx_gc_style.cpp; sourceTree = "<group>"; };
+		2B832BDD0861DA9300D8BEB0 /* myx_gc_svgparser.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_svgparser.cpp; path = source/myx_gc_svgparser.cpp; sourceTree = "<group>"; };
+		2B832BDE0861DA9300D8BEB0 /* myx_gc_texture.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_texture.cpp; path = source/myx_gc_texture.cpp; sourceTree = "<group>"; };
+		2B832BDF0861DA9300D8BEB0 /* myx_gc_utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_utilities.cpp; path = source/myx_gc_utilities.cpp; sourceTree = "<group>"; };
+		2B832BE00861DA9300D8BEB0 /* myx_gc_view.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = myx_gc_view.cpp; path = source/myx_gc_view.cpp; sourceTree = "<group>"; };
+		2B832E31086207B100D8BEB0 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = /uni/lib/libpng.a; sourceTree = "<absolute>"; };
+		2B832E36086207D900D8BEB0 /* libglib-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.0.dylib"; path = "/sw/lib/libglib-2.0.0.dylib"; sourceTree = "<absolute>"; };
+		2B832E3A0862082200D8BEB0 /* libintl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.dylib; path = /sw/lib/libintl.dylib; sourceTree = "<absolute>"; };
+		2B832E3C0862083C00D8BEB0 /* libftgl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libftgl.a; path = ../../../../../guibuild/Development/libftgl.a; sourceTree = SOURCE_ROOT; };
+		2B832E3E086208D200D8BEB0 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = /Users/vlad/sw/lib/libfreetype.a; sourceTree = "<absolute>"; };
+		2B8331A20862787B00D8BEB0 /* MCanvasScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCanvasScrollView.h; path = ../GenericCanvas/MCanvasScrollView.h; sourceTree = "<group>"; };
+		2B8331A30862787B00D8BEB0 /* MCanvasScrollView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MCanvasScrollView.mm; path = ../GenericCanvas/MCanvasScrollView.mm; sourceTree = "<group>"; };
+		2B8B73A7093217AB001C28EE /* gl2ps.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = gl2ps.c; path = source/gl2ps/gl2ps.c; sourceTree = "<group>"; };
+		2B8B73A9093217B6001C28EE /* gl2ps.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = gl2ps.h; path = include/gl2ps/gl2ps.h; sourceTree = "<group>"; };
+		2B8C2674088C265B0017DFD4 /* myx_gc_bsp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_bsp.h; path = include/myx_gc_bsp.h; sourceTree = "<group>"; };
+		2B8C2676088C26660017DFD4 /* myx_gc_bsp.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_bsp.cpp; path = source/myx_gc_bsp.cpp; sourceTree = "<group>"; };
+		2B8C26AD088C39800017DFD4 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = /usr/lib/libxml2.2.dylib; sourceTree = "<absolute>"; };
+		2B8C26B3088C399C0017DFD4 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = /usr/lib/libiconv.2.dylib; sourceTree = "<absolute>"; };
+		2B9C03D208CFE0B20042BAFD /* myx_gc_feedback.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_feedback.h; path = include/myx_gc_feedback.h; sourceTree = "<group>"; };
+		2B9C03D408CFE0C80042BAFD /* myx_gc_feedback.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_feedback.cpp; path = source/myx_gc_feedback.cpp; sourceTree = "<group>"; };
+		2B9C03D608CFE0EC0042BAFD /* myx_gc_primitives.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_primitives.h; path = include/myx_gc_primitives.h; sourceTree = "<group>"; };
+		2B9C03D808CFE1010042BAFD /* myx_gc_primitives.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_primitives.cpp; path = source/myx_gc_primitives.cpp; sourceTree = "<group>"; };
+		2B9C051608CFFADD0042BAFD /* MWCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWCanvasView.h; sourceTree = "<group>"; };
+		2B9C051708CFFADD0042BAFD /* MWCanvasView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MWCanvasView.mm; sourceTree = "<group>"; };
+		2BB5683C09E74FCF00FC03E1 /* myx_gc_animation.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_animation.cpp; path = source/myx_gc_animation.cpp; sourceTree = "<group>"; };
+		2BB5687E09E7522600FC03E1 /* myx_gc_animation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_animation.h; path = include/myx_gc_animation.h; sourceTree = "<group>"; };
+		2BB572B509F84A1600FC03E1 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		2BBB051F08ACF61300A0C0A9 /* gc_glext.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = gc_glext.h; path = include/gc_glext.h; sourceTree = "<group>"; };
+		2BCC11E9088ED50900EF833F /* MGenericCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MGenericCanvasView.h; path = ../GenericCanvas/MGenericCanvasView.h; sourceTree = SOURCE_ROOT; };
+		2BCC11EA088ED50900EF833F /* MGenericCanvasView.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; name = MGenericCanvasView.mm; path = ../GenericCanvas/MGenericCanvasView.mm; sourceTree = SOURCE_ROOT; };
+		2BCC11FB088ED55400EF833F /* MySQLGRT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MySQLGRT.framework; path = ../../../../../guibuild/Development/MySQLGRT.framework; sourceTree = SOURCE_ROOT; };
+		2BCC1209088ED60C00EF833F /* MySQLToolsCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MySQLToolsCommon.framework; path = ../../../../../guibuild/Development/MySQLToolsCommon.framework; sourceTree = SOURCE_ROOT; };
+		2BCC1330088EF32200EF833F /* myx_grt_wb_public_interface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_wb_public_interface.h; path = "../../../library/grt-wb-controller/include/myx_grt_wb_public_interface.h"; sourceTree = SOURCE_ROOT; };
+		2BCC1334088EF3A700EF833F /* myx_grt_wb_controller.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_grt_wb_controller.cc; path = "../../../library/grt-wb-controller/source/myx_grt_wb_controller.cc"; sourceTree = SOURCE_ROOT; };
+		2BCC1336088EF3AD00EF833F /* myx_grt_wb_controller.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_grt_wb_controller.h; path = "../../../library/grt-wb-controller/include/myx_grt_wb_controller.h"; sourceTree = SOURCE_ROOT; };
+		2BCC16950890096F00EF833F /* myx_grt_wb_bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myx_grt_wb_bridge.h; path = "../../../library/grt-wb-controller/include/myx_grt_wb_bridge.h"; sourceTree = "<group>"; };
+		2BCC16960890096F00EF833F /* myx_grt_wb_bridge.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = myx_grt_wb_bridge.cc; path = "../../../library/grt-wb-controller/source/myx_grt_wb_bridge.cc"; sourceTree = "<group>"; };
+		2BCC197E0890CC8700EF833F /* myx_gc_variant.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_gc_variant.cpp; path = source/myx_gc_variant.cpp; sourceTree = "<group>"; };
+		2BCC19800890CC9300EF833F /* myx_gc_variant.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_gc_variant.h; path = include/myx_gc_variant.h; sourceTree = "<group>"; };
+		2BCC1FB00891561200EF833F /* connection_part.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = connection_part.png; path = ../../../images/grt/icons/db/connection_part.png; sourceTree = SOURCE_ROOT; };
+		2BDCAB3D0989DEC20034C2C2 /* GraphRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GraphRenderer.cpp; path = "../../../library/grt-wb-controller/source/GraphRenderer.cpp"; sourceTree = SOURCE_ROOT; };
+		2BDCAB3F0989DECC0034C2C2 /* GraphRenderer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GraphRenderer.h; path = "../../../library/grt-wb-controller/include/GraphRenderer.h"; sourceTree = SOURCE_ROOT; };
+		2BDF67F008D6743100088236 /* FTGL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FTGL.xcodeproj; path = "../../../library/generic-canvas/ftgl/mac/FTGL.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		2BDF688108D79A8900088236 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = /usr/lib/libz.dylib; sourceTree = "<absolute>"; };
+		2BDF6D7508D9E96200088236 /* view_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = view_64.png; path = ../../../images/grt/icons/db/view_64.png; sourceTree = SOURCE_ROOT; };
+		2BDF6D8408D9EAD000088236 /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = view.png; path = ../../../images/grt/icons/db/view.png; sourceTree = SOURCE_ROOT; };
+		32DBCF5E0370ADEE00C91783 /* WBCanvas_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBCanvas_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* WBCanvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WBCanvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				2B832ADE0861D30F00D8BEB0 /* OpenGL.framework in Frameworks */,
+				2B832E32086207B100D8BEB0 /* libpng.a in Frameworks */,
+				2B832E37086207D900D8BEB0 /* libglib-2.0.0.dylib in Frameworks */,
+				2B832E3B0862082200D8BEB0 /* libintl.dylib in Frameworks */,
+				2B832E3D0862083C00D8BEB0 /* libftgl.a in Frameworks */,
+				2B832E3F086208D200D8BEB0 /* libfreetype.a in Frameworks */,
+				2B8C26AE088C39800017DFD4 /* libxml2.dylib in Frameworks */,
+				2B8C26B4088C399C0017DFD4 /* libiconv.dylib in Frameworks */,
+				2BCC11FC088ED55400EF833F /* MySQLGRT.framework in Frameworks */,
+				2BCC120A088ED60C00EF833F /* MySQLToolsCommon.framework in Frameworks */,
+				2BDF688208D79A8900088236 /* libz.dylib in Frameworks */,
+				2BB572B609F84A1600FC03E1 /* ApplicationServices.framework in Frameworks */,
+				2B63A05C0A4DE675007EBE0A /* libgthread-2.0.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* WBCanvas.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* WBCanvas */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF67F008D6743100088236 /* FTGL.xcodeproj */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				2BCC11EE088ED51000EF833F /* WB Controller */,
+				2B832ACF0861D29100D8BEB0 /* generic-canvas */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = WBCanvas;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B1F2AEF087F0BAF00455FC3 /* images */,
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B8331A20862787B00D8BEB0 /* MCanvasScrollView.h */,
+				2B8331A30862787B00D8BEB0 /* MCanvasScrollView.mm */,
+				2B1F28EA087E3DC100455FC3 /* MCanvasUtils.h */,
+				2B1F28EB087E3DC100455FC3 /* MCanvasUtils.mm */,
+				2BCC11E9088ED50900EF833F /* MGenericCanvasView.h */,
+				2BCC11EA088ED50900EF833F /* MGenericCanvasView.mm */,
+				2B9C051608CFFADD0042BAFD /* MWCanvasView.h */,
+				2B9C051708CFFADD0042BAFD /* MWCanvasView.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B63A05B0A4DE674007EBE0A /* libgthread-2.0.0.dylib */,
+				2B832E36086207D900D8BEB0 /* libglib-2.0.0.dylib */,
+				2B832E31086207B100D8BEB0 /* libpng.a */,
+				2BDF688108D79A8900088236 /* libz.dylib */,
+				2B832E3A0862082200D8BEB0 /* libintl.dylib */,
+				2B832E3E086208D200D8BEB0 /* libfreetype.a */,
+				2B832E3C0862083C00D8BEB0 /* libftgl.a */,
+				2B8C26B3088C399C0017DFD4 /* libiconv.dylib */,
+				2B8C26AD088C39800017DFD4 /* libxml2.dylib */,
+				2BB572B509F84A1600FC03E1 /* ApplicationServices.framework */,
+				2BCC1209088ED60C00EF833F /* MySQLToolsCommon.framework */,
+				2BCC11FB088ED55400EF833F /* MySQLGRT.framework */,
+				2B832ADD0861D30F00D8BEB0 /* OpenGL.framework */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2B1F2AEF087F0BAF00455FC3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2B1F2B02087F0BCD00455FC3 /* column.png */,
+				2B1F2B03087F0BCD00455FC3 /* column_256.png */,
+				2B1F2B04087F0BCD00455FC3 /* column_64.png */,
+				2B1F2B05087F0BCD00455FC3 /* column_fk_256.png */,
+				2B1F2B06087F0BCD00455FC3 /* column_fk_64.png */,
+				2B1F2B07087F0BCD00455FC3 /* column_pk.png */,
+				2B1F2B08087F0BCD00455FC3 /* column_pk_256.png */,
+				2B1F2B09087F0BCD00455FC3 /* column_pk_64.png */,
+				2BCC1FB00891561200EF833F /* connection_part.png */,
+				2B1F2B0A087F0BCD00455FC3 /* index_64.png */,
+				2B1F2B0B087F0BCD00455FC3 /* table_64.png */,
+				2B1F2B0C087F0BCD00455FC3 /* table_func_edit_64.png */,
+				2B1F2B0D087F0BCD00455FC3 /* table_func_lock_64.png */,
+				2B1F2B0E087F0BCD00455FC3 /* table_func_menu_64.png */,
+				2B586EC908B6363F00E38573 /* routine_64.png */,
+				2BDF6D7508D9E96200088236 /* view_64.png */,
+				2BDF6D8408D9EAD000088236 /* view.png */,
+				2B586ECA08B6363F00E38573 /* routine.png */,
+				2B1F2C47087F511600455FC3 /* paper_b.png */,
+				2B1F2C48087F511600455FC3 /* paper_l.png */,
+				2B1F2C49087F511600455FC3 /* paper_lb.png */,
+				2B1F2C4A087F511600455FC3 /* paper_lt.png */,
+				2B1F2C4B087F511600455FC3 /* paper_r.png */,
+				2B1F2C4C087F511600455FC3 /* paper_rb.png */,
+				2B1F2C4D087F511600455FC3 /* paper_rt.png */,
+				2B1F2C4E087F511600455FC3 /* paper_t.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		2B832ACF0861D29100D8BEB0 /* generic-canvas */ = {
+			isa = PBXGroup;
+			children = (
+				2B8B73A7093217AB001C28EE /* gl2ps.c */,
+				2B8B73A9093217B6001C28EE /* gl2ps.h */,
+				2BBB051F08ACF61300A0C0A9 /* gc_glext.h */,
+				2BB5687E09E7522600FC03E1 /* myx_gc_animation.h */,
+				2BCC19800890CC9300EF833F /* myx_gc_variant.h */,
+				2B832BB10861DA7C00D8BEB0 /* myx_gc_base.h */,
+				2B8C2674088C265B0017DFD4 /* myx_gc_bsp.h */,
+				2B832BB20861DA7C00D8BEB0 /* myx_gc_canvas.h */,
+				2B1F2A88087EF5BC00455FC3 /* myx_gc_connection.h */,
+				2B832BB40861DA7C00D8BEB0 /* myx_gc_datatypes.h */,
+				2B9C03D208CFE0B20042BAFD /* myx_gc_feedback.h */,
+				2B832BB50861DA7C00D8BEB0 /* myx_gc_figure_parser.h */,
+				2B832BB60861DA7C00D8BEB0 /* myx_gc_figure.h */,
+				2B832BB70861DA7C00D8BEB0 /* myx_gc_font_manager.h */,
+				2B832BB80861DA7C00D8BEB0 /* myx_gc_gl_helper.h */,
+				2B832BB90861DA7C00D8BEB0 /* myx_gc_layer.h */,
+				2B832BBA0861DA7C00D8BEB0 /* myx_gc_layout.h */,
+				2B832BBB0861DA7C00D8BEB0 /* myx_gc_model.h */,
+				2B9C03D608CFE0EC0042BAFD /* myx_gc_primitives.h */,
+				2B832BBC0861DA7C00D8BEB0 /* myx_gc_style.h */,
+				2B832BBD0861DA7C00D8BEB0 /* myx_gc_svgparser.h */,
+				2B832BBE0861DA7C00D8BEB0 /* myx_gc_texture.h */,
+				2B832BBF0861DA7C00D8BEB0 /* myx_gc_utilities.h */,
+				2B832BC00861DA7C00D8BEB0 /* myx_gc_view.h */,
+				2B832BC10861DA7C00D8BEB0 /* myx_gc.h */,
+				2BB5683C09E74FCF00FC03E1 /* myx_gc_animation.cpp */,
+				2B832BD30861DA9300D8BEB0 /* myx_gc_base.cpp */,
+				2B8C2676088C26660017DFD4 /* myx_gc_bsp.cpp */,
+				2B832BD40861DA9300D8BEB0 /* myx_gc_canvas.cpp */,
+				2B1F2A8A087EF5C700455FC3 /* myx_gc_connection.cpp */,
+				2B9C03D408CFE0C80042BAFD /* myx_gc_feedback.cpp */,
+				2B832BD50861DA9300D8BEB0 /* myx_gc_figure_parser.cpp */,
+				2B832BD60861DA9300D8BEB0 /* myx_gc_figure.cpp */,
+				2B832BD70861DA9300D8BEB0 /* myx_gc_font_manager.cpp */,
+				2B832BD80861DA9300D8BEB0 /* myx_gc_gl_helper.cpp */,
+				2B832BD90861DA9300D8BEB0 /* myx_gc_layer.cpp */,
+				2B832BDA0861DA9300D8BEB0 /* myx_gc_layout.cpp */,
+				2B832BDB0861DA9300D8BEB0 /* myx_gc_model.cpp */,
+				2B9C03D808CFE1010042BAFD /* myx_gc_primitives.cpp */,
+				2B832BDC0861DA9300D8BEB0 /* myx_gc_style.cpp */,
+				2B832BDD0861DA9300D8BEB0 /* myx_gc_svgparser.cpp */,
+				2B832BDE0861DA9300D8BEB0 /* myx_gc_texture.cpp */,
+				2B832BDF0861DA9300D8BEB0 /* myx_gc_utilities.cpp */,
+				2B832BE00861DA9300D8BEB0 /* myx_gc_view.cpp */,
+				2BCC197E0890CC8700EF833F /* myx_gc_variant.cpp */,
+			);
+			name = "generic-canvas";
+			path = "../../../library/generic-canvas";
+			sourceTree = "<group>";
+		};
+		2B9A58800A182097009BE1FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B9A58870A182097009BE1FF /* libftgl.a */,
+				2B9A58890A182097009BE1FF /* UnitTests */,
+				2B9A588B0A182097009BE1FF /* FTGLDemo */,
+				2B9A588D0A182097009BE1FF /* FTGLTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BCC11EE088ED51000EF833F /* WB Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC1330088EF32200EF833F /* myx_grt_wb_public_interface.h */,
+				2BCC1336088EF3AD00EF833F /* myx_grt_wb_controller.h */,
+				2BCC16950890096F00EF833F /* myx_grt_wb_bridge.h */,
+				2BCC1334088EF3A700EF833F /* myx_grt_wb_controller.cc */,
+				2BCC16960890096F00EF833F /* myx_grt_wb_bridge.cc */,
+			);
+			name = "WB Controller";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* WBCanvas_Prefix.pch */,
+				2BDCAB3D0989DEC20034C2C2 /* GraphRenderer.cpp */,
+				2BDCAB3F0989DECC0034C2C2 /* GraphRenderer.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B832BC20861DA7C00D8BEB0 /* myx_gc_base.h in Headers */,
+				2B832BC30861DA7C00D8BEB0 /* myx_gc_canvas.h in Headers */,
+				2B832BC50861DA7C00D8BEB0 /* myx_gc_datatypes.h in Headers */,
+				2B832BC60861DA7C00D8BEB0 /* myx_gc_figure_parser.h in Headers */,
+				2B832BC70861DA7C00D8BEB0 /* myx_gc_figure.h in Headers */,
+				2B832BC80861DA7C00D8BEB0 /* myx_gc_font_manager.h in Headers */,
+				2B832BC90861DA7C00D8BEB0 /* myx_gc_gl_helper.h in Headers */,
+				2B832BCA0861DA7D00D8BEB0 /* myx_gc_layer.h in Headers */,
+				2B832BCB0861DA7D00D8BEB0 /* myx_gc_layout.h in Headers */,
+				2B832BCC0861DA7D00D8BEB0 /* myx_gc_model.h in Headers */,
+				2B832BCD0861DA7D00D8BEB0 /* myx_gc_style.h in Headers */,
+				2B832BCE0861DA7D00D8BEB0 /* myx_gc_svgparser.h in Headers */,
+				2B832BCF0861DA7D00D8BEB0 /* myx_gc_texture.h in Headers */,
+				2B832BD00861DA7D00D8BEB0 /* myx_gc_utilities.h in Headers */,
+				2B832BD10861DA7D00D8BEB0 /* myx_gc_view.h in Headers */,
+				2B832BD20861DA7D00D8BEB0 /* myx_gc.h in Headers */,
+				2B8331A40862787B00D8BEB0 /* MCanvasScrollView.h in Headers */,
+				2B1F28EC087E3DC100455FC3 /* MCanvasUtils.h in Headers */,
+				2B1F2A89087EF5BC00455FC3 /* myx_gc_connection.h in Headers */,
+				2B8C2675088C265B0017DFD4 /* myx_gc_bsp.h in Headers */,
+				2BCC11EB088ED50900EF833F /* MGenericCanvasView.h in Headers */,
+				2BCC1332088EF32200EF833F /* myx_grt_wb_public_interface.h in Headers */,
+				2BCC1337088EF3AD00EF833F /* myx_grt_wb_controller.h in Headers */,
+				2BCC16970890096F00EF833F /* myx_grt_wb_bridge.h in Headers */,
+				2BCC19810890CC9300EF833F /* myx_gc_variant.h in Headers */,
+				2BBB052008ACF61300A0C0A9 /* gc_glext.h in Headers */,
+				2B9C03D308CFE0B20042BAFD /* myx_gc_feedback.h in Headers */,
+				2B9C03D708CFE0EC0042BAFD /* myx_gc_primitives.h in Headers */,
+				2B9C051808CFFADD0042BAFD /* MWCanvasView.h in Headers */,
+				2B8B73AA093217B6001C28EE /* gl2ps.h in Headers */,
+				2BDCAB400989DECC0034C2C2 /* GraphRenderer.h in Headers */,
+				2BB5687F09E7522600FC03E1 /* myx_gc_animation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* WBCanvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B832AAC0861D23F00D8BEB0 /* Build configuration list for PBXNativeTarget "WBCanvas" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				2B1F2C2F087F4FE300455FC3 /* Copy GRT Images */,
+				2B1F2C57087F511F00455FC3 /* Copy Textures */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBCanvas;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = WBCanvas;
+			productReference = 8DC2EF5B0486A6940098B216 /* WBCanvas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2B832AB00861D23F00D8BEB0 /* Build configuration list for PBXProject "WBCanvas" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* WBCanvas */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2B9A58800A182097009BE1FF /* Products */;
+					ProjectRef = 2BDF67F008D6743100088236 /* FTGL.xcodeproj */;
+				},
+			);
+			targets = (
+				8DC2EF4F0486A6940098B216 /* WBCanvas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2B9A58870A182097009BE1FF /* libftgl.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libftgl.a;
+			remoteRef = 2B9A58860A182097009BE1FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B9A58890A182097009BE1FF /* UnitTests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = UnitTests;
+			remoteRef = 2B9A58880A182097009BE1FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B9A588B0A182097009BE1FF /* FTGLDemo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FTGLDemo;
+			remoteRef = 2B9A588A0A182097009BE1FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2B9A588D0A182097009BE1FF /* FTGLTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FTGLTest;
+			remoteRef = 2B9A588C0A182097009BE1FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				2B586ECB08B6363F00E38573 /* routine_64.png in Resources */,
+				2B586ECC08B6363F00E38573 /* routine.png in Resources */,
+				2BDF6D7608D9E96200088236 /* view_64.png in Resources */,
+				2BDF6D8508D9EAD000088236 /* view.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B832BE10861DA9300D8BEB0 /* myx_gc_base.cpp in Sources */,
+				2B832BE20861DA9300D8BEB0 /* myx_gc_canvas.cpp in Sources */,
+				2B832BE30861DA9300D8BEB0 /* myx_gc_figure_parser.cpp in Sources */,
+				2B832BE40861DA9300D8BEB0 /* myx_gc_figure.cpp in Sources */,
+				2B832BE50861DA9300D8BEB0 /* myx_gc_font_manager.cpp in Sources */,
+				2B832BE60861DA9300D8BEB0 /* myx_gc_gl_helper.cpp in Sources */,
+				2B832BE70861DA9300D8BEB0 /* myx_gc_layer.cpp in Sources */,
+				2B832BE80861DA9300D8BEB0 /* myx_gc_layout.cpp in Sources */,
+				2B832BE90861DA9300D8BEB0 /* myx_gc_model.cpp in Sources */,
+				2B832BEA0861DA9300D8BEB0 /* myx_gc_style.cpp in Sources */,
+				2B832BEB0861DA9300D8BEB0 /* myx_gc_svgparser.cpp in Sources */,
+				2B832BEC0861DA9300D8BEB0 /* myx_gc_texture.cpp in Sources */,
+				2B832BED0861DA9300D8BEB0 /* myx_gc_utilities.cpp in Sources */,
+				2B832BEE0861DA9300D8BEB0 /* myx_gc_view.cpp in Sources */,
+				2B8331A50862787B00D8BEB0 /* MCanvasScrollView.mm in Sources */,
+				2B1F28ED087E3DC100455FC3 /* MCanvasUtils.mm in Sources */,
+				2B1F2A8B087EF5C700455FC3 /* myx_gc_connection.cpp in Sources */,
+				2B8C2677088C26660017DFD4 /* myx_gc_bsp.cpp in Sources */,
+				2BCC11EC088ED50900EF833F /* MGenericCanvasView.mm in Sources */,
+				2BCC1335088EF3A700EF833F /* myx_grt_wb_controller.cc in Sources */,
+				2BCC16980890096F00EF833F /* myx_grt_wb_bridge.cc in Sources */,
+				2BCC197F0890CC8700EF833F /* myx_gc_variant.cpp in Sources */,
+				2B9C03D508CFE0C80042BAFD /* myx_gc_feedback.cpp in Sources */,
+				2B9C03D908CFE1010042BAFD /* myx_gc_primitives.cpp in Sources */,
+				2B9C051908CFFADD0042BAFD /* MWCanvasView.mm in Sources */,
+				2BDCAB3E0989DEC20034C2C2 /* GraphRenderer.cpp in Sources */,
+				2BB5683D09E74FCF00FC03E1 /* myx_gc_animation.cpp in Sources */,
+				2B63A1630A4DF2F5007EBE0A /* gl2ps.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B832AAD0861D23F00D8BEB0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WBCanvas_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/FTGL",
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include",
+					/sw/include,
+					/sw/include/cairo,
+					"/uni/include/glib-2.0",
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+					"/uni/lib/glib-2.0/include",
+					/usr/include/libxml2,
+					/sw/lib/freetype2/include,
+					/sw/lib/freetype2/include/freetype2,
+					/usr/local/mysql/include,
+					"$(PROJECT_DIR)/../../../library/grt-wb-canvas/include",
+					"$(PROJECT_DIR)/../../../library/generic-canvas/include",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/uni/lib,
+					"$(SYMROOT)/$(CONFIGURATION)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				PREBINDING = NO;
+				PRODUCT_NAME = WBCanvas;
+				SYMROOT = "~/guibuild";
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		2B832AAE0861D23F00D8BEB0 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SYMROOT)/Deployment\"";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WBCanvas_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/sw/lib/freetype2/lib,
+					"$(SYMROOT)/Deployment",
+					/sw/lib,
+					/uni/lib,
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				PREBINDING = NO;
+				PRODUCT_NAME = WBCanvas;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2B832AB10861D23F00D8BEB0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SYMROOT)/$(CONFIGURATION)";
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/FTGL",
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include",
+					/sw/include,
+					/sw/include/cairo,
+					"/uni/include/glib-2.0",
+					"/uni/lib/glib-2.0/include",
+					/usr/include/libxml2,
+					/sw/lib/freetype2/include,
+					/sw/lib/freetype2/include/freetype2,
+					/usr/local/mysql/include,
+					"$(PROJECT_DIR)/../../../library/grt-wb-canvas/include",
+					"$(PROJECT_DIR)/../../../library/generic-canvas/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/uni/lib,
+					/sw/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Development;
+		};
+		2B832AB20861D23F00D8BEB0 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = "$(SYMROOT)/$(CONFIGURATION)";
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/FTGL",
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include",
+					/sw/include,
+					/sw/include/cairo,
+					"/uni/include/glib-2.0",
+					"/uni/lib/glib-2.0/include",
+					/usr/include/libxml2,
+					/sw/lib/freetype2/include,
+					/sw/lib/freetype2/include/freetype2,
+					/usr/local/mysql/include,
+					"$(PROJECT_DIR)/../../../library/grt-wb-canvas/include",
+					"$(PROJECT_DIR)/../../../library/generic-canvas/include",
+				);
+				LIBRARY_SEARCH_PATHS = /sw/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+		2BB5673509E746FF00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WBCanvas_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/uni/lib,
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				PREBINDING = NO;
+				PRODUCT_NAME = WBCanvas;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = DeploymentU;
+		};
+		2BB5673609E746FF00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = "$(SYMROOT)/$(CONFIGURATION)";
+				HEADER_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/FTGL",
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include",
+					/sw/include,
+					/sw/include/cairo,
+					"/uni/include/glib-2.0",
+					"/uni/lib/glib-2.0/include",
+					/usr/include/libxml2,
+					/sw/lib/freetype2/include,
+					/sw/lib/freetype2/include/freetype2,
+					/usr/local/mysql/include,
+					"$(PROJECT_DIR)/../../../library/grt-wb-canvas/include",
+					"$(PROJECT_DIR)/../../../library/generic-canvas/include",
+				);
+				LIBRARY_SEARCH_PATHS = /sw/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = DeploymentU;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B832AAC0861D23F00D8BEB0 /* Build configuration list for PBXNativeTarget "WBCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B832AAD0861D23F00D8BEB0 /* Development */,
+				2B832AAE0861D23F00D8BEB0 /* Deployment */,
+				2BB5673509E746FF00FC03E1 /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2B832AB00861D23F00D8BEB0 /* Build configuration list for PBXProject "WBCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B832AB10861D23F00D8BEB0 /* Development */,
+				2B832AB20861D23F00D8BEB0 /* Deployment */,
+				2BB5673609E746FF00FC03E1 /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

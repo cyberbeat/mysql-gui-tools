@@ -1,0 +1,231 @@
+
+body {
+        margin: 0;
+} 
+
+#mycanvas {
+        position: absolute;
+        left: 24px;
+        top: 35px;
+}
+
+.canvasText {
+        font: 8px "Lucida Grande";
+        color: #AAAAAA;
+}
+
+#scaleTop {
+        position: absolute;
+        left: 17px;
+        top: 30px;
+}
+
+#scaleMid {
+        position: absolute;
+        left: 17px;
+        top: 70px;
+}
+
+#scaleBot {
+        position: absolute;
+        left: 17px;
+        top: 110px;
+}
+
+
+.backgroundImage {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+}
+
+.headerText {
+        font: 12px "Optima";
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: 15px;
+        left: 25px;
+}
+
+.infoText {
+        font: 10px "Lucida Grande";
+        color: white;
+        text-align: right;
+        position: absolute;
+        top: 17px;
+        right: 25px;
+}
+
+.valueText {
+        font: 9px "Lucida Grande";
+        color: white;
+}
+
+#curValue {
+        position: absolute;
+        top: 120px;
+        left: 25px;
+}
+
+#minValue {
+        position: absolute;
+        top: 120px;
+        left: 110px;
+}
+
+#maxValue {
+        position: absolute;
+        top: 120px;
+        left: 195px;
+}
+
+#medValue {
+        position: absolute;
+        top: 120px;
+        left: 280px;
+}
+
+#hostLabel {
+        font: 10px "Lucida Grande";
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: 18px;
+        left: 30px;
+}
+
+#host {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 110px;
+}
+
+#userLabel {
+        font: 10px "Lucida Grande";
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: 18px;
+        left: 159px;
+}
+
+#user {
+        position: absolute;
+        top: 30px;
+        left: 159px;
+        width: 100px;
+}
+
+#passLabel {
+        font: 10px "Lucida Grande";
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: 18px;
+        left: 267px;
+}
+
+#pass {
+        position: absolute;
+        top: 30px;
+        left: 267px;
+        width: 90px;
+}
+
+#error {
+        font: 12px "Lucida Grande";
+        font-weight: bold;
+        color: red;
+        position: absolute;
+        top: 65px;
+        left: 80px;
+}
+
+#delayLabel {
+        font: 10px "Lucida Grande";
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: 75px;
+        left: 240px;
+}
+
+#delay {
+        position: absolute;
+        top: 70px;
+        left: 315px;
+        width: 40px;
+}
+
+.graphLabel {
+        font: 10px "Lucida Grande";
+        font-weight: bold;
+        color: white;
+}
+
+#graphLabel {
+        position: absolute;
+        top: 75px;
+        left: 30px;
+}
+
+#graphType1 {
+        position: absolute;
+        top: 60px;
+        left: 105px;
+        width: 120px;
+}
+#graphType2 {
+        position: absolute;
+        top: 80px;
+        left: 105px;
+        width: 120px;
+}
+
+.flip {
+        position:absolute;
+        bottom: 18px;
+        right: 18px;
+        width:13px;
+        height:13px;
+}
+
+#flip {
+        opacity:0;
+        background: url(file:///System/Library/WidgetResources/ibutton/white_i.png) no-repeat top left;
+        z-index:8000;
+}
+
+#fliprollie {
+        display:none;
+        opacity:0.25;
+        background: url(file:///System/Library/WidgetResources/ibutton/white_rollie.png) no-repeat top left;
+        z-index:7999;
+
+}
+
+.doneButton {
+        position: absolute;
+        bottom: 25px;
+        right: 30px;
+}
+
+#testButton {
+        position: absolute;
+        bottom: 25px;
+        left: 30px;
+}
+
+#testResult {
+        font: 10px "Lucida Grande";
+        position: absolute;
+        bottom: 30px;
+        left: 150px;
+}
+
+#back {
+        display: none;
+}
+

@@ -1,0 +1,12 @@
+-----------------
+SELECT * FROM mysql.help_relation hr 
+GROUP BY hr.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT * FROM mysql.help_relation hr
+GROUP BY hr.help_keyword_id, hr.help_topic_id
+-----------------
+
+-----------------

@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancel = id; goNext = id; }; 
+            CLASS = MATableMaintenanceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                checkMatrix = NSMatrix; 
+                continueButton = NSButton; 
+                operationMatrix = NSMatrix; 
+                optimizeLocalCheck = NSButton; 
+                progress = NSProgressIndicator; 
+                repairLocalCheck = NSButton; 
+                repairMatrix = NSMatrix; 
+                resultDescription = NSTextField; 
+                resultLabel = NSTextField; 
+                resultLabel2 = NSTextField; 
+                resultText = NSTextView; 
+                selectionText = NSTextView; 
+                tabView = NSTabView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

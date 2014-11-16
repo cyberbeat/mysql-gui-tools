@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancelClicked = id; chooseFile = id; okClicked = id; }; 
+            CLASS = MADataFileEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                filename = NSTextField; 
+                fstable = NSTableView; 
+                size = NSTextField; 
+                sizeUnit = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

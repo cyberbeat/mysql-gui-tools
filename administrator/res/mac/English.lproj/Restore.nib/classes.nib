@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MAPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {topBox = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {abortRestore = id; chooseFile = id; detectCharset = id; startRestore = id; }; 
+            CLASS = MARestore; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                accessoryView = NSView; 
+                charsetPopUp = NSPopUpButton; 
+                createCheck = NSButton; 
+                ignoreErrorCheck = NSButton; 
+                informationText = NSTextField; 
+                parseProgress = NSProgressIndicator; 
+                progressPanel = NSPanel; 
+                progressText = NSTextField; 
+                restoreButton = NSButton; 
+                restoreProgress = NSProgressIndicator; 
+                restoreTargetCombo = NSComboBox; 
+                selectionOutline = NSOutlineView; 
+                warningText = NSTextView; 
+            }; 
+            SUPERCLASS = MAPanel; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,28 @@
+These components has only been tested with Delphi 7,Delphi 2005,
+and C++ Builder 6, and some testing is being done on C++ Builder 5
+by Udo.
+
+In Delphi 2005 it only works as an Win32 component.
+
+If you get them to work with other versions of those compilers
+then let me know.. I'm interested in the packagefiles you've created,
+and/or other adjustments that needed to be done.
+
+Some of these components are inspired and in some parts
+inherited from the relatively basic DelphiWrapper v1.4 at
+http://www.pnotepad.org/scintilla/
+by Simon Steele (ss@pnotepad.org), and later improved by
+(kvlahos@london.edu).
+
+The TscFontComboBox (by Stefan Cruysberghs http://www.scip.be)
+(renamed to TtcFontComboBox) with some fixes etc are used by the
+TScintillaOptionsDlg component, and is also exposed on the
+componentbar itself.
+
+The ConfirmReplaceDlg and ReplaceTextDlg from the
+SynEdit project (http://SynEdit.SourceForge.net) are also used.
+
+These parts are licensed as MPL (Mozilla Public License) or GPL
+
+The rest of the project are released under the LGPL licence and is
+Copyright © 2004, Jan Martin Pettersen (hdalis@users.sourceforge.net)

@@ -1,0 +1,90 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLQueryBrowserLibrary", "MySQLQueryBrowserLibrary.vcproj", "{6FBC86A7-892F-47C5-B62E-7304AB98DA29}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29} = {6FBC86A7-892F-47C5-B62E-7304AB98DA29}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLXLibrary", "..\..\mysql-gui-common\library\MySQLXLibrary.vcproj", "{6FBC86A7-892F-47C5-B62E-7304AB98DA29}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_strip_sql", "tests\test_strip_sql\test_strip_sql.vcproj", "{9FD52619-974B-4D09-B818-E4F02CAFCDA0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29} = {6FBC86A7-892F-47C5-B62E-7304AB98DA29}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_query_analyze", "tests\test_query_analyze\test_query_analyze.vcproj", "{B0FAF110-2568-475C-BCCA-C67D0069D05E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29} = {6FBC86A7-892F-47C5-B62E-7304AB98DA29}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_query_composition", "tests\test_query_composition\test_query_composition.vcproj", "{3A32E54E-6292-4C9A-8608-3B2F962B710E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29} = {6FBC86A7-892F-47C5-B62E-7304AB98DA29}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Lib_Commercial = Lib_Commercial
+		Lib_Debug = Lib_Debug
+		Lib_Release = Lib_Release
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Debug.ActiveCfg = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Debug.Build.0 = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Commercial.ActiveCfg = Lib_Commercial|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Commercial.Build.0 = Lib_Commercial|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Release.Build.0 = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Release.ActiveCfg = Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Release.Build.0 = Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Debug.ActiveCfg = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Debug.Build.0 = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Commercial.ActiveCfg = Lib_Commercial|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Commercial.Build.0 = Lib_Commercial|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Release.Build.0 = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Release.ActiveCfg = Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Release.Build.0 = Release|Win32
+		{9FD52619-974B-4D09-B818-E4F02CAFCDA0}.Debug.ActiveCfg = Debug|Win32
+		{9FD52619-974B-4D09-B818-E4F02CAFCDA0}.Debug.Build.0 = Debug|Win32
+		{9FD52619-974B-4D09-B818-E4F02CAFCDA0}.Lib_Commercial.ActiveCfg = Release|Win32
+		{9FD52619-974B-4D09-B818-E4F02CAFCDA0}.Lib_Commercial.Build.0 = Release|Win32
+		{9FD52619-974B-4D09-B818-E4F02CAFCDA0}.Lib_Debug.ActiveCfg = Debug|Win32
+		{9FD52619-974B-4D09-B818-E4F02CAFCDA0}.Lib_Debug.Build.0 = Debug|Win32
+		{9FD52619-974B-4D09-B818-E4F02CAFCDA0}.Lib_Release.ActiveCfg = Release|Win32
+		{9FD52619-974B-4D09-B818-E4F02CAFCDA0}.Lib_Release.Build.0 = Release|Win32
+		{9FD52619-974B-4D09-B818-E4F02CAFCDA0}.Release.ActiveCfg = Release|Win32
+		{9FD52619-974B-4D09-B818-E4F02CAFCDA0}.Release.Build.0 = Release|Win32
+		{B0FAF110-2568-475C-BCCA-C67D0069D05E}.Debug.ActiveCfg = Debug|Win32
+		{B0FAF110-2568-475C-BCCA-C67D0069D05E}.Debug.Build.0 = Debug|Win32
+		{B0FAF110-2568-475C-BCCA-C67D0069D05E}.Lib_Commercial.ActiveCfg = Release|Win32
+		{B0FAF110-2568-475C-BCCA-C67D0069D05E}.Lib_Commercial.Build.0 = Release|Win32
+		{B0FAF110-2568-475C-BCCA-C67D0069D05E}.Lib_Debug.ActiveCfg = Debug|Win32
+		{B0FAF110-2568-475C-BCCA-C67D0069D05E}.Lib_Debug.Build.0 = Debug|Win32
+		{B0FAF110-2568-475C-BCCA-C67D0069D05E}.Lib_Release.ActiveCfg = Release|Win32
+		{B0FAF110-2568-475C-BCCA-C67D0069D05E}.Lib_Release.Build.0 = Release|Win32
+		{B0FAF110-2568-475C-BCCA-C67D0069D05E}.Release.ActiveCfg = Release|Win32
+		{B0FAF110-2568-475C-BCCA-C67D0069D05E}.Release.Build.0 = Release|Win32
+		{3A32E54E-6292-4C9A-8608-3B2F962B710E}.Debug.ActiveCfg = Debug|Win32
+		{3A32E54E-6292-4C9A-8608-3B2F962B710E}.Debug.Build.0 = Debug|Win32
+		{3A32E54E-6292-4C9A-8608-3B2F962B710E}.Lib_Commercial.ActiveCfg = Release|Win32
+		{3A32E54E-6292-4C9A-8608-3B2F962B710E}.Lib_Commercial.Build.0 = Release|Win32
+		{3A32E54E-6292-4C9A-8608-3B2F962B710E}.Lib_Debug.ActiveCfg = Debug|Win32
+		{3A32E54E-6292-4C9A-8608-3B2F962B710E}.Lib_Debug.Build.0 = Debug|Win32
+		{3A32E54E-6292-4C9A-8608-3B2F962B710E}.Lib_Release.ActiveCfg = Release|Win32
+		{3A32E54E-6292-4C9A-8608-3B2F962B710E}.Lib_Release.Build.0 = Release|Win32
+		{3A32E54E-6292-4C9A-8608-3B2F962B710E}.Release.ActiveCfg = Release|Win32
+		{3A32E54E-6292-4C9A-8608-3B2F962B710E}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

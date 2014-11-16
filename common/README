@@ -1,0 +1,14 @@
+TAG:bundle-5.0-r6-win32
+TAG:bundle-5.0-r10-linux
+TAG:bundle-5.0-r10-osx
+
+MySQL GUI Common
+----------------
+
+This contains several common libraries and data shared among the
+MySQL GUI Suites in all platforms.
+
+
+For Linux build instructions, refer to:
+http://forge.mysql.com/wiki/Building_MySQL_GUI_Tools_on_Linux
+

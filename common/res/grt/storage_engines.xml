@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<data>
+  <value type="list" content-type="dict" content-struct-name="db.mysql.StorageEngine">
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql._</value>
+      <value type="string" key="name"></value>
+      <value type="string" key="caption"></value>
+      <value type="string" key="description"></value>
+      <value type="int" key="supportsForeignKeys">0</value>
+      <value type="list" key="options" content-type="dict" content-struct-name="db.mysql.StorageEngineOption">
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql._/0</value>
+          <value type="string" key="name">AVG_ROW_LENGTH</value>
+          <value type="string" key="caption">Avg.Row Length</value>
+          <value type="string" key="description">An approximation of the average row length for your table. You need to set this only for large tables with variable-size records.</value>
+          <value type="string" key="type">integer</value>
+        </value>
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql._/1</value>
+          <value type="string" key="name">MIN_ROWS</value>
+          <value type="string" key="caption">Min. Rows</value>
+          <value type="string" key="description">The minimum number of rows you plan to store in the table.</value>
+          <value type="string" key="type">integer</value>
+        </value>        
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql._/2</value>
+          <value type="string" key="name">MAX_ROWS</value>
+          <value type="string" key="caption">Max. Rows</value>
+          <value type="string" key="description">The maximum number of rows you plan to store in the table.</value>
+          <value type="string" key="type">integer</value>
+        </value>
+      </value>
+    </value>
+  
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.myisam</value>
+      <value type="string" key="name">myisam</value>
+      <value type="string" key="caption">MyISAM</value>
+      <value type="string" key="description">Very fast, disk based storage engine without support for transactions. Offers fulltext search, packed keys, and is the default storage engine.</value>
+      <value type="int" key="supportsForeignKeys">0</value>
+      <value type="list" key="options" content-type="dict" content-struct-name="db.mysql.StorageEngineOption">
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql.myisam/0</value>
+          <value type="string" key="name">AUTO_INCREMENT</value>
+          <value type="string" key="caption">Auto Increment</value>
+          <value type="string" key="description">The initial AUTO_INCREMENT value for the table.</value>
+          <value type="string" key="type">integer</value>
+        </value>
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql.myisam/2</value>
+          <value type="string" key="name">CHECKSUM</value>
+          <value type="string" key="caption">Use Checksum</value>
+          <value type="string" key="description">Activate this option if you want MySQL to maintain a live checksum for all rows. This makes the table a little slower to update, but also makes it easier to find corrupted tables.</value>
+          <value type="string" key="type">bool</value>
+        </value>
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql.myisam/3</value>
+          <value type="string" key="name">PACK_KEYS</value>
+          <value type="string" key="caption"></value>
+          <value type="string" key="description">Set to 1 if you want to have smaller indexes. The default will pack only strings (long CHAR or VARCHAR columns), setting to 0 disables packing and 1 will pack strings and numbers.</value>
+          <value type="string" key="type">enum:,DEFAULT,1,0</value>
+        </value>
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql.myisam/4</value>
+          <value type="string" key="name">DELAY_KEY_WRITE</value>
+          <value type="string" key="caption">Delay Key Updates Until Table is Closed</value>
+          <value type="string" key="description"></value>
+          <value type="string" key="type">bool</value>
+        </value>
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql.myisam/5</value>
+          <value type="string" key="name">ROW_FORMAT</value>
+          <value type="string" key="caption">Row Format</value>
+          <value type="string" key="description">Defines how the rows should be stored. The option value can be Fixed or Dynamic for static or variable-length row format. The utility myisampack will set it to Compressed.</value>
+          <value type="string" key="type">enum:fixed,dynamic,compressed</value>
+        </value>
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql.myisam/6</value>
+          <value type="string" key="name">DATA DIRECTORY</value>
+          <value type="string" key="caption">Data Directory</value>
+          <value type="string" key="description">Directory where to put the tables data file. Does not work on some operating systems (Windows).</value>
+          <value type="string" key="type">directory</value>
+        </value>
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql.myisam/7</value>
+          <value type="string" key="name">INDEX DIRECTORY</value>
+          <value type="string" key="caption">Index Directory</value>
+          <value type="string" key="description">Directory where to put the table indexes file. Does not work on some operating systems (Windows).</value>
+          <value type="string" key="type">directory</value>
+        </value>
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql.myisam/8</value>
+          <value type="string" key="name">PASSWORD</value>
+          <value type="string" key="caption">Password</value>
+          <value type="string" key="description">Encrypt the .frm file with a password. This option does nothing in the standard MySQL version</value>
+          <value type="string" key="type">string</value>
+        </value>
+      </value>
+    </value>
+
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.innodb</value>
+      <value type="string" key="name">innodb</value>
+      <value type="string" key="caption">InnoDB</value>
+      <value type="string" key="description">Transaction safe, disk based storage engine with row locking. Recommended engine for tables that need support for transactions.</value>
+      <value type="int" key="supportsForeignKeys">1</value>
+      <value type="list" key="options" content-type="dict" content-struct-name="db.mysql.StorageEngineOption">
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql.innodb/0</value>
+          <value type="string" key="name">AUTO_INCREMENT</value>
+          <value type="string" key="caption">Auto Increment</value>
+          <value type="string" key="description">The initial AUTO_INCREMENT value for the table. This works in MySQL 5.1 or later only.</value>
+          <value type="string" key="type">integer</value>
+        </value>
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql.innodb/1</value>
+          <value type="string" key="name">ROW_FORMAT</value>
+          <value type="string" key="caption">Row Format</value>
+          <value type="string" key="description">For InnoDB tables, rows are stored in compact format by default. Redundant is the non-compact format used in MySQL pre-5.0.3.</value>
+          <value type="string" key="type">enum:,compact,redundant</value>
+        </value>
+      </value>
+    </value>
+    
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.falcon</value>
+      <value type="string" key="name">jstar</value>
+      <value type="string" key="caption">Falcon</value>
+      <value type="string" key="description">Transactional engine for modern scale-out applications. Uses MVCC (multi-version concurrency control).</value>
+      <value type="int" key="supportsForeignKeys">0</value>
+    </value>
+
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.csv</value>
+      <value type="string" key="name">csv</value>
+      <value type="string" key="caption">CSV</value>
+      <value type="string" key="description">Engine that stores data as a comma separated values list, suited for data export. Note that this engine does not support indices.</value>
+      <value type="int" key="supportsForeignKeys">0</value>
+    </value>
+
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.memory</value>
+      <value type="string" key="name">memory</value>
+      <value type="string" key="caption">MEMORY</value>
+      <value type="string" key="description">Extremly fast memory based storage engine that uses hash indices. Recommended storage engine for temporary data that can be lost in case of a server shutdown.</value>
+      <value type="int" key="supportsForeignKeys">0</value>
+    </value>
+    
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.bdb</value>
+      <value type="string" key="name">berkeleydb</value>
+      <value type="string" key="caption">BerkeleyDB</value>
+      <value type="string" key="description">Transaction safe storage engine with page locking. Also called BDB.</value>
+      <value type="int" key="supportsForeignKeys">0</value>
+    </value>
+
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.blackhole</value>
+      <value type="string" key="name">blackhole</value>
+      <value type="string" key="caption">BLACKHOLE</value>
+      <value type="string" key="description">The BLACKHOLE storage engine acts as a "black hole" that accepts data but throws it away and does not store it.</value>
+      <value type="int" key="supportsForeignKeys">0</value>
+    </value>
+
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.archive</value>
+      <value type="string" key="name">archive</value>
+      <value type="string" key="caption">ARCHIVE</value>
+      <value type="string" key="description">Archive engine storing data in a compressed form to save storage space. Note that SELECTs require a full table scan.</value>
+      <value type="int" key="supportsForeignKeys">0</value>
+    </value>
+
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.ndb</value>
+      <value type="string" key="name">ndbcluster</value>
+      <value type="string" key="caption">NDB</value>
+      <value type="string" key="description">MySQL Cluster storage engine. Transaction safe, memory based with row locking. Recommended storage engine for high performance, real time critical applications.</value>
+      <value type="int" key="supportsForeignKeys">0</value>
+    </value>
+
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.federated</value>
+      <value type="string" key="name">federated</value>
+      <value type="string" key="caption">Federated</value>
+      <value type="string" key="description">The FEDERATED storage engine accesses data in tables of remote databases rather than in local tables.</value>
+      <value type="int" key="supportsForeignKeys">0</value>
+      <value type="list" key="options" content-type="dict" content-struct-name="db.mysql.StorageEngineOption">
+        <value type="dict" struct-name="db.mysql.StorageEngineOption">
+          <value type="string" key="_id">engine:com.mysql.federated/0</value>
+          <value type="string" key="name">connection</value>
+          <value type="string" key="caption">Connection</value>
+          <value type="string" key="description">Connection string for the table's remote data source.</value>
+          <value type="string" key="type">string</value>
+        </value>
+      </value>
+    </value>
+
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.mrg_myisam</value>
+      <value type="string" key="name">mrg_myisam</value>
+      <value type="string" key="caption">MyISAM Merge</value>
+      <value type="string" key="description">Collection of MyISAM tables with identical column and index information. Recommended storage engine for log tables or tables with archived data. Note that the list of union tables and insert method has to be defined.</value>
+      <value type="int" key="supportsForeignKeys">0</value>
+    </value>
+
+    <value type="dict" struct-name="db.mysql.StorageEngine">
+      <value type="string" key="_id">engine:com.mysql.isam</value>
+      <value type="string" key="name">isam</value>
+      <value type="string" key="caption">ISAM</value>
+      <value type="string" key="description">Deprecated. This storage engine was replaced by the MyISAM storage engine.</value>
+      <value type="int" key="supportsForeignKeys">0</value>
+    </value>
+
+  </value>
+</data>

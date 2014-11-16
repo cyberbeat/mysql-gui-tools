@@ -1,0 +1,1 @@
+SOURCES=source\main.cpp ..\unit-tests\myx_backup_test.cpp ..\unit-tests\common.cpp ..\..\..\common\library\testing\source\test_helpers.cpp ..\unit-tests\myx_restore_test.cpp ..\unit-tests\myx_catalog_test.cpp ..\unit-tests\myx_admin_library_test.cpp 

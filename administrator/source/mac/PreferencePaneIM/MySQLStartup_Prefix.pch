@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'MySQLStartup' target in the 'MySQLStartup' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <AppKit/AppKit.h>
+#endif

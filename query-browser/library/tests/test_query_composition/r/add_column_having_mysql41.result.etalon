@@ -1,0 +1,39 @@
+-----------------
+SELECT * FROM mysql.help_relation hr
+GROUP BY hr.help_topic_id 
+HAVING hr.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT help_relation.help_keyword_id 
+FROM mysql.help_relation hr, mysql.help_keyword hk
+GROUP BY hr.help_topic_id
+HAVING hr.help_keyword_id=hk.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT help_relation.help_keyword_id 
+FROM mysql.help_relation hr, mysql.help_keyword hk
+GROUP BY hr.help_topic_id
+HAVING hr.help_keyword_id<hk.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT help_relation.help_keyword_id 
+FROM mysql.help_relation hr, mysql.help_keyword hk
+GROUP BY hr.help_topic_id
+HAVING hr.help_keyword_id>hk.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT help_relation.help_keyword_id 
+FROM mysql.help_relation hr, mysql.help_keyword hk
+GROUP BY hr.help_topic_id
+HAVING hr.help_keyword_id=hk.help_keyword_id AND hk.name
+-----------------
+
+-----------------

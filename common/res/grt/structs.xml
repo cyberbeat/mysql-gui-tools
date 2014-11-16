@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="GrtObject" caption="GRT Object" desc="the parent of all other objects">
+    <members>
+      <member name="name" type="string" desc="the object's name" />
+      <member name="_id" type="string" desc="the identifier of the object that is globally unique" />
+      <member name="owner" type="string" option="ref" content-struct-name="GrtObject" />
+    </members>
+  </gstruct>
+
+  <gstruct name="GrtMessage" caption="GRT Message" desc="a dictionary containing a GRT message">
+    <members>
+      <member name="msgType" type="int" desc="The type of the message" />
+      <member name="msg" type="string" desc="The message string" />
+      <member name="details" type="list" content-type="string" 
+        desc="A list of detail information strings belonging to the message" />
+    </members>
+  </gstruct>
+
+</gstructs>

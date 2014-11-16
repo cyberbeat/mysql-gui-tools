@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MySQL Administrator' target in the 'MySQL Administrator' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

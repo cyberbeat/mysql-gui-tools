@@ -1,0 +1,48 @@
+query : ****************************
+  sql : ----------------------------
+select * from t1, t2 
+where a=10;
+------------------------------------
+!query_is_editable(query,1)
+------------------------------------
+  query_type : MYX_QT_SELECT
+  options(0) : 
+  tables(2) : 
+    -------------------------------
+    table "def"."test"."t1" ()
+     fullname= "t1"
+     charset= "(null)"
+     columns(0) : 
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+    -------------------------------
+    table "def"."test"."t2" ()
+     fullname= "t2"
+     charset= "(null)"
+     columns(0) : 
+     pk_columns_num(0) : 
+     relationship_type=MYX_QTRT_NONE
+       null relation 
+    -------------------------------
+  pk_columns_added_num 0
+  columns(0)
+  clauses(3)
+    clause (7,9) doesn't end with linebreak
+      clause_type MYX_QCT_SELECT_CLAUSE
+      clause : -------------------------
+*
+      ------------------------------------
+    clause (14,23) ends with linebreak
+      clause_type MYX_QCT_FROM_CLAUSE
+      clause : -------------------------
+t1, t2
+      ------------------------------------
+    clause (29,34) doesn't end with linebreak
+      clause_type MYX_QCT_WHERE_CLAUSE
+      clause : -------------------------
+a=10;
+      ------------------------------------
+  subqueries(0)
+  params_num 0

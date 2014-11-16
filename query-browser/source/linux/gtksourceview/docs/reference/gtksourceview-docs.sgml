@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version SYSTEM "version.xml">
+]>
+<book id="index" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <bookinfo>
+    <title>GtkSourceView Reference Manual</title>
+    <releaseinfo>for GtkSourceView &version;</releaseinfo>
+  </bookinfo>
+
+  <reference>
+    <title>API reference</title>
+
+    <xi:include href="xml/buffer.xml"/>
+    <xi:include href="xml/iter.xml"/>
+    <xi:include href="xml/marker.xml"/>
+    <xi:include href="xml/view.xml"/>
+
+    <xi:include href="xml/language.xml"/>
+    <xi:include href="xml/languagesmanager.xml"/>
+    <xi:include href="xml/stylescheme.xml"/>
+
+    <xi:include href="xml/tag.xml"/>
+    <xi:include href="xml/tagtable.xml"/>
+    <xi:include href="xml/tagstyle.xml"/>
+
+    <xi:include href="xml/printjob.xml"/>
+  </reference>
+</book>

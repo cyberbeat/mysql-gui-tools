@@ -1,0 +1,2944 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-07-28 13:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: po/glade_files.c:1 po/glade_files.c:84 po/glade_files.c:210
+#: po/glade_files.c:304 po/glade_files.c:312 po/glade_files.c:335
+#: po/glade_files.c:342 po/glade_files.c:359 po/glade_files.c:371
+#: po/glade_files.c:380 po/glade_files.c:390
+msgid "window1"
+msgstr ""
+
+#: po/glade_files.c:2
+msgid ""
+"<b>Backup Project</b>\n"
+"Define the project name and the content of the backup."
+msgstr ""
+
+#: po/glade_files.c:4
+msgid "Project Name"
+msgstr ""
+
+#: po/glade_files.c:5 po/glade_files.c:216 po/glade_files.c:272
+#: po/glade_files.c:324 po/glade_files.c:388 po/glade_files.c:398
+msgid "*"
+msgstr ""
+
+#: po/glade_files.c:6
+msgid "Name for this backup project"
+msgstr ""
+
+#: po/glade_files.c:7
+msgid "Databases"
+msgstr ""
+
+#: po/glade_files.c:8
+msgid "Backup Content"
+msgstr ""
+
+#: po/glade_files.c:9
+msgid "Add selected database to backup list"
+msgstr ""
+
+#: po/glade_files.c:10
+msgid "Remove selected database from backup list"
+msgstr ""
+
+#: po/glade_files.c:11
+msgid "Backup Project"
+msgstr ""
+
+#: po/glade_files.c:12
+msgid ""
+"<b>Advanced Options</b>\n"
+"Specify detailed settings of how your backup should be performed"
+msgstr ""
+
+#: po/glade_files.c:14
+msgid ""
+"The backup will be executed in a single transaction. \n"
+"This option is necessary for a consistent snapshot \n"
+"of InnoDB tables."
+msgstr ""
+
+#: po/glade_files.c:17
+msgid ""
+"Each selected table will be backed up independently. \n"
+"This may lead to inconsistent backups and should be\n"
+"avoided if possible."
+msgstr ""
+
+#: po/glade_files.c:20
+msgid ""
+"Backup all tables of the selected databases. Use this option if tables are "
+"added to databases frequently. Note that your backup content table selection "
+"will be ignored."
+msgstr ""
+
+#: po/glade_files.c:21
+msgid ""
+"All tables are locked with FLUSH READ LOCKS. \n"
+"This option is necessary for a consistent snapshot\n"
+"of your MyISAM tables."
+msgstr ""
+
+#: po/glade_files.c:24
+msgid "Backup Selected Database Completely"
+msgstr ""
+
+#: po/glade_files.c:25
+msgid "Normal Backup"
+msgstr ""
+
+#: po/glade_files.c:26
+msgid "Single Transaction"
+msgstr ""
+
+#: po/glade_files.c:27
+msgid "Lock All Tables"
+msgstr ""
+
+#: po/glade_files.c:28
+msgid "Backup Execution"
+msgstr ""
+
+#: po/glade_files.c:29
+msgid "No EXTENDED INSERT"
+msgstr ""
+
+#: po/glade_files.c:30
+msgid "Don't write full path"
+msgstr ""
+
+#: po/glade_files.c:31
+msgid "No CREATEs"
+msgstr ""
+
+#: po/glade_files.c:32
+msgid "Comment"
+msgstr ""
+
+#: po/glade_files.c:33
+msgid "Add DROP TABLE"
+msgstr ""
+
+#: po/glade_files.c:34
+msgid "ANSI quotes"
+msgstr ""
+
+#: po/glade_files.c:35
+msgid "Complete INSERTs"
+msgstr ""
+
+#: po/glade_files.c:36
+msgid "Disable keys"
+msgstr ""
+
+#: po/glade_files.c:37
+msgid "Backup Type"
+msgstr ""
+
+#: po/glade_files.c:38
+msgid "SQL Files"
+msgstr ""
+
+#: po/glade_files.c:39
+msgid "Type of generated backup file."
+msgstr ""
+
+#: po/glade_files.c:40
+msgid "Output File Options"
+msgstr ""
+
+#: po/glade_files.c:41
+msgid "Advanced Options"
+msgstr ""
+
+#: po/glade_files.c:42
+msgid ""
+"<b>Schedule Project</b>\n"
+"Specify whether the backup project should be executed regularly."
+msgstr ""
+
+#: po/glade_files.c:44
+msgid "label60"
+msgstr ""
+
+#: po/glade_files.c:45
+msgid "Every Day at Time:"
+msgstr ""
+
+#: po/glade_files.c:46
+msgid ":"
+msgstr ""
+
+#: po/glade_files.c:47
+msgid "label61"
+msgstr ""
+
+#: po/glade_files.c:48
+msgid "At Time:"
+msgstr ""
+
+#: po/glade_files.c:49
+msgid "Every Week in: "
+msgstr ""
+
+#: po/glade_files.c:50
+msgid "Sunday"
+msgstr ""
+
+#: po/glade_files.c:51
+msgid "Monday"
+msgstr ""
+
+#: po/glade_files.c:52
+msgid "Tuesday"
+msgstr ""
+
+#: po/glade_files.c:53
+msgid "Wednesday"
+msgstr ""
+
+#: po/glade_files.c:54
+msgid "Thursday"
+msgstr ""
+
+#: po/glade_files.c:55
+msgid "Friday"
+msgstr ""
+
+#: po/glade_files.c:56
+msgid "Saturday"
+msgstr ""
+
+#: po/glade_files.c:57
+msgid "label62"
+msgstr ""
+
+#: po/glade_files.c:58
+msgid "Every Month in Day: "
+msgstr ""
+
+#: po/glade_files.c:59
+msgid "Separate multiple days with a comma."
+msgstr ""
+
+#: po/glade_files.c:60
+msgid "label63"
+msgstr ""
+
+#: po/glade_files.c:61
+msgid "Do Not Schedule Backups"
+msgstr ""
+
+#: po/glade_files.c:62
+msgid "Execute this Project Daily"
+msgstr ""
+
+#: po/glade_files.c:63
+msgid "Execute this Project Weekly"
+msgstr ""
+
+#: po/glade_files.c:64
+msgid "Execute this Project Monthly"
+msgstr ""
+
+#: po/glade_files.c:65
+msgid "Target Directory"
+msgstr ""
+
+#: po/glade_files.c:66
+msgid "File Name Prefix"
+msgstr ""
+
+#: po/glade_files.c:67
+msgid "Set..."
+msgstr ""
+
+#: po/glade_files.c:68
+msgid "Prefix for backup file names. "
+msgstr ""
+
+#: po/glade_files.c:69
+msgid "Directory where backup files should be stored"
+msgstr ""
+
+#: po/glade_files.c:70
+msgid "Connection Name"
+msgstr ""
+
+#: po/glade_files.c:71
+msgid ""
+"Name of the connection to use when the backup\n"
+"is executed. Please create one in Preferences\n"
+"if there aren't any. "
+msgstr ""
+
+#: po/glade_files.c:74 po/glade_files.c:315
+msgid "Options"
+msgstr ""
+
+#: po/glade_files.c:75
+msgid "Backups Are Currently <b>Scheduled</b> for this Project."
+msgstr ""
+
+#: po/glade_files.c:76 source/linux/MABackupPanel.cc:1398
+msgid "Schedule Backup"
+msgstr ""
+
+#: po/glade_files.c:77
+msgid "Uninstall Schedule"
+msgstr ""
+
+#: po/glade_files.c:78
+msgid "Note: Backups are scheduled using the standard cron system."
+msgstr ""
+
+#: po/glade_files.c:79
+msgid "New Project"
+msgstr ""
+
+#: po/glade_files.c:80
+msgid "Import Project..."
+msgstr ""
+
+#: po/glade_files.c:81
+msgid "Save Project"
+msgstr ""
+
+#: po/glade_files.c:82
+msgid "Start Backup"
+msgstr ""
+
+#: po/glade_files.c:83 source/linux/MAdministrator.cc:85
+msgid "Backup"
+msgstr ""
+
+#: po/glade_files.c:85
+msgid ""
+"<b>Test</b>\n"
+"All tables stored in schema test"
+msgstr ""
+
+#: po/glade_files.c:87
+msgid "Number of Tables:"
+msgstr ""
+
+#: po/glade_files.c:88
+msgid "Rows: "
+msgstr ""
+
+#: po/glade_files.c:89
+msgid "Data Len.:"
+msgstr ""
+
+#: po/glade_files.c:90
+msgid "Index Len.:"
+msgstr ""
+
+#: po/glade_files.c:91
+msgid "Columns"
+msgstr ""
+
+#: po/glade_files.c:92
+msgid "Indices"
+msgstr ""
+
+#: po/glade_files.c:93
+msgid ""
+"Table Type:\n"
+"Row Format:\n"
+"Auto Increment:\n"
+"Create Options:"
+msgstr ""
+
+#: po/glade_files.c:97
+msgid "Comment:"
+msgstr ""
+
+#: po/glade_files.c:98 po/glade_files.c:238 po/glade_files.c:326
+msgid "General"
+msgstr ""
+
+#: po/glade_files.c:99
+msgid "Table Status"
+msgstr ""
+
+#: po/glade_files.c:100
+msgid ""
+"Rows:\n"
+"Avg.Row Length:\n"
+"Data Length:\n"
+"Max Data Length:\n"
+"Index Length:\n"
+"Data Free:"
+msgstr ""
+
+#: po/glade_files.c:106
+msgid "Data"
+msgstr ""
+
+#: po/glade_files.c:107
+msgid ""
+"Create Time:\n"
+"Update Time:\n"
+"Check Time:"
+msgstr ""
+
+#: po/glade_files.c:110 source/linux/MACatalogsPanel.cc:260
+#: source/linux/MAServerConnectionsPanel.cc:60
+#: source/linux/MAServerLogsPanel.cc:47
+msgid "Time"
+msgstr ""
+
+#: po/glade_files.c:111
+msgid "Row Status"
+msgstr ""
+
+#: po/glade_files.c:112 source/linux/MACatalogsPanel.cc:888
+msgid "Details >>"
+msgstr ""
+
+#: po/glade_files.c:113
+msgid "Create Table"
+msgstr ""
+
+#: po/glade_files.c:114
+msgid "Performs a check for errors in the selected tables."
+msgstr ""
+
+#: po/glade_files.c:115
+msgid "Edit Table"
+msgstr ""
+
+#: po/glade_files.c:116
+msgid ""
+"Optimizes selected tables. You can use OPTIMIZE TABLE to reclaim the unused "
+"space and to defragment the datafile.\n"
+"In most cases, it is not necessary to run OPTIMIZE TABLE."
+msgstr ""
+
+#: po/glade_files.c:117
+msgid "Maintenance"
+msgstr ""
+
+#: po/glade_files.c:118 source/linux/MACatalogsPanel.cc:259
+msgid "Tables"
+msgstr ""
+
+#: po/glade_files.c:119
+msgid ""
+"<b>Test</b>\n"
+"All indices in schema test"
+msgstr ""
+
+#: po/glade_files.c:121
+msgid ""
+"<b>Views</b>\n"
+"All views in schema test"
+msgstr ""
+
+#: po/glade_files.c:123
+msgid "Views"
+msgstr ""
+
+#: po/glade_files.c:124
+msgid ""
+"<b>Test</b>\n"
+"All stored procedures in schema test"
+msgstr ""
+
+#: po/glade_files.c:126
+msgid "Add Procedure"
+msgstr ""
+
+#: po/glade_files.c:127
+msgid "Edit Procedure"
+msgstr ""
+
+#: po/glade_files.c:128
+msgid "Drop Procedure"
+msgstr ""
+
+#: po/glade_files.c:129
+msgid "Stored Procedures"
+msgstr ""
+
+#: po/glade_files.c:130
+msgid "Events"
+msgstr ""
+
+#: po/glade_files.c:131
+msgid ""
+"<b>Test</b>\n"
+"Developer documents stored in schema test"
+msgstr ""
+
+#: po/glade_files.c:133
+msgid "Add Document"
+msgstr ""
+
+#: po/glade_files.c:134
+msgid "Edit Document"
+msgstr ""
+
+#: po/glade_files.c:135
+msgid "Drop Document"
+msgstr ""
+
+#: po/glade_files.c:136
+msgid "Developer Docs"
+msgstr ""
+
+#: po/glade_files.c:137
+msgid ""
+"<b>Test</b>\n"
+"User with privileges to connect to test"
+msgstr ""
+
+#: po/glade_files.c:139
+msgid "Users"
+msgstr ""
+
+#: po/glade_files.c:140
+msgid "Table Maintenance"
+msgstr ""
+
+#: po/glade_files.c:141
+msgid ""
+"<big><b>Table Maintenance</b></big>\n"
+"Please select the task you want to perform on the selected tables."
+msgstr ""
+
+#: po/glade_files.c:143
+msgid "Optimize Tables"
+msgstr ""
+
+#: po/glade_files.c:144
+msgid "Check Tables"
+msgstr ""
+
+#: po/glade_files.c:145
+msgid "Repair Tables"
+msgstr ""
+
+#: po/glade_files.c:146
+msgid ""
+"If appropriate this will repair the table, sort the index pages\n"
+"and update the statistics."
+msgstr ""
+
+#: po/glade_files.c:148
+msgid ""
+"This will check whether the selected tables are corrupted or \n"
+"have other errors."
+msgstr ""
+
+#: po/glade_files.c:150
+msgid "This will repair the selected tables."
+msgstr ""
+
+#: po/glade_files.c:151
+msgid "List of Tables"
+msgstr ""
+
+#: po/glade_files.c:152
+msgid ""
+"<big><b>Optimize Tables</b></big>\n"
+"If appropriate, this will repair the table, sort the index pages and update "
+"the statistics."
+msgstr ""
+
+#: po/glade_files.c:154
+msgid "Do not write the command to the binary log file."
+msgstr ""
+
+#: po/glade_files.c:155
+msgid "Local"
+msgstr ""
+
+#: po/glade_files.c:156
+msgid ""
+"<big><b>Check Tables</b></big>\n"
+"This will check whether the selected tables are corrupted or have other "
+"errors.\n"
+"Please note that the tables might be changed during this operation in case "
+"of \n"
+"some errors and inconsistencies. \n"
+"For more information, please consult  the MySQL manual."
+msgstr ""
+
+#: po/glade_files.c:161
+msgid "Don't scan the rows to check for incorrect links."
+msgstr ""
+
+#: po/glade_files.c:162
+msgid "Only check tables that haven'#39't been closed properly."
+msgstr ""
+
+#: po/glade_files.c:163
+msgid ""
+"Only check tables that have been changed since the last check \n"
+"or haven't been closed properly."
+msgstr ""
+
+#: po/glade_files.c:165
+msgid ""
+"Scan rows to verify that deleted links are okay. This also calculates\n"
+"a key checksum for the rows and verifies this with a calculated \n"
+"checksum for the keys."
+msgstr ""
+
+#: po/glade_files.c:168
+#, c-format
+msgid ""
+"Do a full key lookup for all keys for each row. This ensures that\n"
+"the table is 100% conistent, but will take a long time."
+msgstr ""
+
+#: po/glade_files.c:170
+msgid "Quick"
+msgstr ""
+
+#: po/glade_files.c:171
+msgid "Fast"
+msgstr ""
+
+#: po/glade_files.c:172
+msgid "Medium"
+msgstr ""
+
+#: po/glade_files.c:173
+msgid "Extended"
+msgstr ""
+
+#: po/glade_files.c:174
+msgid "Changed"
+msgstr ""
+
+#: po/glade_files.c:175
+msgid "Check Method"
+msgstr ""
+
+#: po/glade_files.c:176
+msgid ""
+"<big><b>Repair Tables</b></big>\n"
+"This will repair a possibly corrupted table.\n"
+"Normally you should never have to run this command, but if disaster strikes, "
+"you are very likely \n"
+"to get back all your data from a MyISAM table with it. If your tables get "
+"corrupted often, you should \n"
+"try to find the reason for it, to eliminate the need to use this command.\n"
+"For more information, please consult  the MySQL manual."
+msgstr ""
+
+#: po/glade_files.c:182
+msgid "Repair Option"
+msgstr ""
+
+#: po/glade_files.c:183
+msgid "Only the index tree is repaired."
+msgstr ""
+
+#: po/glade_files.c:184
+msgid ""
+"The index will be created row by row instead of creating the index\n"
+"at a time with sorting. This may be better than sorting on fixed-length\n"
+"keys if you have long CHAR keys that comress very well."
+msgstr ""
+
+#: po/glade_files.c:187
+msgid ""
+"A new index file will be created. This can be used if the first 16K block\n"
+"of the index file is destroyed or contains incorrect information or if the \n"
+"index file is missing."
+msgstr ""
+
+#: po/glade_files.c:190
+msgid "Use FRM"
+msgstr ""
+
+#: po/glade_files.c:191
+msgid "Repair Method"
+msgstr ""
+
+#: po/glade_files.c:192
+msgid ""
+"<b>WARNING:</b> If the MySQL Server dies during a table repair, it's "
+"essential that you do at once \n"
+"another REPAIR on the table before executing any other commands on it. If "
+"that happens, \n"
+"do NOT use MySQL Administrator until the tables are properly repaired. Use "
+"the REPAIR TABLE\n"
+"command from the console client. (It's always good to start by making a "
+"backup). In the worst case \n"
+"you can have a new clean index file without information about the datafile "
+"and when the next \n"
+"command you do may overwrite the datafile. This is not a likely, but "
+"possible scenario."
+msgstr ""
+
+#: po/glade_files.c:198
+msgid "-"
+msgstr ""
+
+#: po/glade_files.c:199 source/linux/MACatalogsPanel.cc:1244
+msgid ""
+"<big><b>Check Tables</b></big>\n"
+"The selected tables were checked.\n"
+"\n"
+"Results:"
+msgstr ""
+
+#: po/glade_files.c:203
+msgid "_Cancel"
+msgstr ""
+
+#: po/glade_files.c:204
+msgid "Finish"
+msgstr ""
+
+#: po/glade_files.c:205 source/linux/MACatalogsPanel.cc:386
+msgid "_Edit Table"
+msgstr ""
+
+#: po/glade_files.c:206 source/linux/MACatalogsPanel.cc:391
+msgid "_Check Table"
+msgstr ""
+
+#: po/glade_files.c:207 source/linux/MACatalogsPanel.cc:393
+msgid "_Repair Table"
+msgstr ""
+
+#: po/glade_files.c:208 source/linux/MACatalogsPanel.cc:395
+msgid "_Optimize Table"
+msgstr ""
+
+#: po/glade_files.c:209 source/linux/MACatalogsPanel.cc:398
+msgid "Drop Table"
+msgstr ""
+
+#: po/glade_files.c:211
+msgid "Status Variables"
+msgstr ""
+
+#: po/glade_files.c:212
+msgid "Server Variables"
+msgstr ""
+
+#: po/glade_files.c:213 source/linux/MAHealthPanel.cc:1467
+msgid "Create a New Graph Page"
+msgstr ""
+
+#: po/glade_files.c:214
+msgid "Page Caption"
+msgstr ""
+
+#: po/glade_files.c:215
+msgid "Page Description"
+msgstr ""
+
+#: po/glade_files.c:217
+msgid "Enter a name for this page."
+msgstr ""
+
+#: po/glade_files.c:218
+msgid ""
+"Enter a text describing\n"
+" the contents of this page."
+msgstr ""
+
+#: po/glade_files.c:220
+msgid "Create a Graph Page"
+msgstr ""
+
+#: po/glade_files.c:221
+msgid "Group Name"
+msgstr ""
+
+#: po/glade_files.c:222
+msgid ""
+"Enter a name for the\n"
+" graph grouping to be created."
+msgstr ""
+
+#: po/glade_files.c:224 source/linux/MAHealthPanel.cc:1255
+msgid "Create a New Graph"
+msgstr ""
+
+#: po/glade_files.c:225
+msgid "Caption"
+msgstr ""
+
+#: po/glade_files.c:226
+msgid "Graph Type"
+msgstr ""
+
+#: po/glade_files.c:227
+msgid "Refresh Time"
+msgstr ""
+
+#: po/glade_files.c:228
+msgid "The caption for the graph."
+msgstr ""
+
+#: po/glade_files.c:229
+msgid ""
+"The type of visual representation\n"
+"of the data over time."
+msgstr ""
+
+#: po/glade_files.c:231
+msgid ""
+"How long to wait\n"
+"before displaying a new value."
+msgstr ""
+
+#: po/glade_files.c:233
+msgid "Display caption"
+msgstr ""
+
+#: po/glade_files.c:234
+msgid ""
+"Whether the caption should\n"
+"be displayed or not."
+msgstr ""
+
+#: po/glade_files.c:236
+msgid "Line Graph"
+msgstr ""
+
+#: po/glade_files.c:237
+msgid "Bar Graph"
+msgstr ""
+
+#: po/glade_files.c:239
+msgid "Value Unit"
+msgstr ""
+
+#: po/glade_files.c:240
+msgid "Value Caption"
+msgstr ""
+
+#: po/glade_files.c:241
+msgid "Value Formula"
+msgstr ""
+
+#: po/glade_files.c:242
+msgid "Percentage"
+msgstr ""
+
+#: po/glade_files.c:243
+msgid "Count"
+msgstr ""
+
+#: po/glade_files.c:244
+msgid "Byte"
+msgstr ""
+
+#: po/glade_files.c:245
+msgid "Seconds"
+msgstr ""
+
+#: po/glade_files.c:246
+msgid "Type of unit for the value."
+msgstr ""
+
+#: po/glade_files.c:247
+msgid "A caption to be displayed with the value."
+msgstr ""
+
+#: po/glade_files.c:248
+msgid ""
+"Formula to calculate the value to display. \n"
+"Use [variable] to get values from Status and Server Variables and\n"
+"^[variable] for relative variable values.\n"
+"Ex.: 100-(^[Key_reads]/^[Key_read_requests])*100"
+msgstr ""
+
+#: po/glade_files.c:252
+msgid "Value Settings"
+msgstr ""
+
+#: po/glade_files.c:253
+msgid "Minimal Value"
+msgstr ""
+
+#: po/glade_files.c:254
+msgid "Maximal Value"
+msgstr ""
+
+#: po/glade_files.c:255
+msgid ""
+"Lowest possible value. \n"
+"Lower values will be capped to this."
+msgstr ""
+
+#: po/glade_files.c:257
+msgid ""
+"Automatically adjust the graph,\n"
+"increasing the max. value to the highest \n"
+"registered value."
+msgstr ""
+
+#: po/glade_files.c:260
+msgid ""
+"Highest possible value. \n"
+"Higher values will be capped to this."
+msgstr ""
+
+#: po/glade_files.c:262
+msgid "Auto-extend Max. Value"
+msgstr ""
+
+#: po/glade_files.c:263
+msgid "Max. Formula"
+msgstr ""
+
+#: po/glade_files.c:264
+msgid "Max. Caption"
+msgstr ""
+
+#: po/glade_files.c:265
+msgid ""
+"The maximal value is calculated\n"
+" by this formula. See Value Formula."
+msgstr ""
+
+#: po/glade_files.c:267
+msgid "The caption of the maximal value."
+msgstr ""
+
+#: po/glade_files.c:268
+msgid "Min. / Max. Values"
+msgstr ""
+
+#: po/glade_files.c:269
+msgid "InnoDB Data File"
+msgstr ""
+
+#: po/glade_files.c:270
+msgid "Data file:"
+msgstr ""
+
+#: po/glade_files.c:271
+msgid "Size:"
+msgstr ""
+
+#: po/glade_files.c:273
+msgid ""
+"Data file name with optional path information.\n"
+"If you include path information, make sure to leave the Data Directory "
+"parameter blank."
+msgstr ""
+
+#: po/glade_files.c:275
+msgid "k"
+msgstr ""
+
+#: po/glade_files.c:276
+msgid "M"
+msgstr ""
+
+#: po/glade_files.c:277
+msgid "G"
+msgstr ""
+
+#: po/glade_files.c:278
+msgid ""
+"Size of the data file.\n"
+"Remember you may  select to auto-extend the last data file."
+msgstr ""
+
+#: po/glade_files.c:280
+msgid "Data File"
+msgstr ""
+
+#: po/glade_files.c:281
+msgid "File System Info"
+msgstr ""
+
+#: po/glade_files.c:282
+msgid "MySQL Administrator"
+msgstr ""
+
+#: po/glade_files.c:283
+msgid "_File"
+msgstr ""
+
+#: po/glade_files.c:284
+msgid "_New Connection"
+msgstr ""
+
+#: po/glade_files.c:285
+msgid "_Close Connection"
+msgstr ""
+
+#: po/glade_files.c:286
+msgid "_Preferences"
+msgstr ""
+
+#: po/glade_files.c:287
+msgid "_Edit"
+msgstr ""
+
+#: po/glade_files.c:288
+msgid "_View"
+msgstr ""
+
+#: po/glade_files.c:289
+msgid "Server _Information"
+msgstr ""
+
+#: po/glade_files.c:290
+msgid "Ser_vice Control"
+msgstr ""
+
+#: po/glade_files.c:291
+msgid "Startup _Parameters"
+msgstr ""
+
+#: po/glade_files.c:292
+msgid "_User Administration"
+msgstr ""
+
+#: po/glade_files.c:293
+msgid "Server _Connections"
+msgstr ""
+
+#: po/glade_files.c:294
+msgid "_Health"
+msgstr ""
+
+#: po/glade_files.c:295
+msgid "Server _Logs"
+msgstr ""
+
+#: po/glade_files.c:296
+msgid "_Backup"
+msgstr ""
+
+#: po/glade_files.c:297
+msgid "_Restore Backup"
+msgstr ""
+
+#: po/glade_files.c:298
+msgid "Replication _Status"
+msgstr ""
+
+#: po/glade_files.c:299
+msgid "Ca_talogs"
+msgstr ""
+
+#: po/glade_files.c:300
+msgid "_Help"
+msgstr ""
+
+#: po/glade_files.c:301
+msgid "_Contents"
+msgstr ""
+
+#: po/glade_files.c:302
+msgid "_About"
+msgstr ""
+
+#: po/glade_files.c:303
+msgid "_Stop"
+msgstr ""
+
+#: po/glade_files.c:305
+msgid "Replication Overview"
+msgstr ""
+
+#: po/glade_files.c:306
+msgid "Replication overview"
+msgstr ""
+
+#: po/glade_files.c:307
+msgid "Replication server information"
+msgstr ""
+
+#: po/glade_files.c:308
+msgid ""
+"Note: for servers to appear in this list, the <i>Report Host</i> option in "
+"Startup Variables/Replication must be set."
+msgstr ""
+
+#: po/glade_files.c:309
+msgid "_Add Host to Monitoring List"
+msgstr ""
+
+#: po/glade_files.c:310
+msgid "_Remove from Monitoring List"
+msgstr ""
+
+#: po/glade_files.c:311 po/glade_files.c:352 source/linux/MAdministrator.cc:64
+msgid "Server Information"
+msgstr ""
+
+#: po/glade_files.c:313
+msgid "Ignore SQL errors"
+msgstr ""
+
+#: po/glade_files.c:314
+msgid "Do not create catalogs and schemas if they don't already exist"
+msgstr ""
+
+#: po/glade_files.c:316
+msgid "Restore selected tables in:"
+msgstr ""
+
+#: po/glade_files.c:317
+msgid "Restore backup"
+msgstr ""
+
+#: po/glade_files.c:318
+msgid ""
+"File:\n"
+"Character Set:\n"
+"Total Schemas:\n"
+"Total Tables:\n"
+"Total Data Length:"
+msgstr ""
+
+#: po/glade_files.c:323
+msgid "Information"
+msgstr ""
+
+#: po/glade_files.c:325
+msgid "*Original Catalog.Table*"
+msgstr ""
+
+#: po/glade_files.c:327
+msgid ""
+"Table Selection\n"
+"Select catalogs/databases/tables to restore"
+msgstr ""
+
+#: po/glade_files.c:329
+msgid "Selection"
+msgstr ""
+
+#: po/glade_files.c:330 source/linux/MAdministrator.cc:88
+msgid "Restore Backup"
+msgstr ""
+
+#: po/glade_files.c:331 source/linux/MARestorePanel.cc:570
+msgid "Reading backup file..."
+msgstr ""
+
+#: po/glade_files.c:332
+msgid "Select File Character Set"
+msgstr ""
+
+#: po/glade_files.c:333
+msgid "Please select the character set used in the file."
+msgstr ""
+
+#: po/glade_files.c:334
+msgid "Detect..."
+msgstr ""
+
+#: po/glade_files.c:336
+msgid "All active threads"
+msgstr ""
+
+#: po/glade_files.c:337 source/linux/MAServerConnectionsPanel.cc:85
+msgid "Threads"
+msgstr ""
+
+#: po/glade_files.c:338
+msgid "All active threads sorted by users"
+msgstr ""
+
+#: po/glade_files.c:339
+msgid "User Connections"
+msgstr ""
+
+#: po/glade_files.c:340
+msgid "Kill Thread"
+msgstr ""
+
+#: po/glade_files.c:341
+msgid "Kill User"
+msgstr ""
+
+#: po/glade_files.c:343 po/glade_files.c:372
+msgid ""
+"Server Status:\n"
+"    <b>Status unknown</b>"
+msgstr ""
+
+#: po/glade_files.c:345
+msgid ""
+"User:\n"
+"Host:\n"
+"Port:"
+msgstr ""
+
+#: po/glade_files.c:348
+msgid "Connected to MySQL Server Instance"
+msgstr ""
+
+#: po/glade_files.c:349
+msgid ""
+"MySQL Version:\n"
+"Network Name:\n"
+"IP:"
+msgstr ""
+
+#: po/glade_files.c:353
+msgid ""
+"Version:\n"
+"Network Name:\n"
+"IP:\n"
+"Operating System:\n"
+"Hardware:"
+msgstr ""
+
+#: po/glade_files.c:358
+msgid "Client Information"
+msgstr ""
+
+#: po/glade_files.c:360 source/linux/MAServerLogsPanel.cc:254
+msgid "Error Log"
+msgstr ""
+
+#: po/glade_files.c:361 source/linux/MDynamicInterface.cc:1129
+msgid "Select File"
+msgstr ""
+
+#: po/glade_files.c:362
+msgid "_Search"
+msgstr ""
+
+#: po/glade_files.c:363
+msgid "S_ave Log"
+msgstr ""
+
+#: po/glade_files.c:364
+msgid "Rotate Log"
+msgstr ""
+
+#: po/glade_files.c:365
+msgid "Pages:"
+msgstr ""
+
+#: po/glade_files.c:366 source/linux/MAServerLogsPanel.cc:254
+msgid "Binary Log"
+msgstr ""
+
+#: po/glade_files.c:367 source/linux/MAServerLogsPanel.cc:254
+msgid "Slow Log"
+msgstr ""
+
+#: po/glade_files.c:368
+msgid "_Save Log"
+msgstr ""
+
+#: po/glade_files.c:369 source/linux/MAServerLogsPanel.cc:254
+msgid "General Log"
+msgstr ""
+
+#: po/glade_files.c:370 source/linux/MAServerLogsPanel.cc:254
+msgid "InnoDB Log"
+msgstr ""
+
+#: po/glade_files.c:374
+msgid ""
+"Click this button to stop the MySQL Server. \n"
+"<small>Be aware that all connected users will be disconnected!</small>"
+msgstr ""
+
+#: po/glade_files.c:376 source/linux/MAServiceControlPanel.cc:143
+msgid "Stop the Server"
+msgstr ""
+
+#: po/glade_files.c:377
+msgid "Server Control"
+msgstr ""
+
+#: po/glade_files.c:378
+msgid "This log shows all messages during server startup."
+msgstr ""
+
+#: po/glade_files.c:379
+msgid "Startup Log Messages"
+msgstr ""
+
+#: po/glade_files.c:381 po/glade_files.c:434
+msgid "_Apply Changes"
+msgstr ""
+
+#: po/glade_files.c:382
+msgid "_Discard Changes"
+msgstr ""
+
+#: po/glade_files.c:383
+msgid "Select Configuration File"
+msgstr ""
+
+#: po/glade_files.c:384
+msgid "Configuration File"
+msgstr ""
+
+#: po/glade_files.c:385
+msgid "File Section"
+msgstr ""
+
+#: po/glade_files.c:386
+msgid "label14"
+msgstr ""
+
+#: po/glade_files.c:387
+msgid "label15"
+msgstr ""
+
+#: po/glade_files.c:389 po/glade_files.c:412
+#: source/linux/MDynamicInterface.cc:1105
+msgid "Change..."
+msgstr ""
+
+#: po/glade_files.c:391
+msgid "New Password:"
+msgstr ""
+
+#: po/glade_files.c:392
+msgid "Confirm Password:"
+msgstr ""
+
+#: po/glade_files.c:393
+msgid ""
+"The user will have to enter this MySQL\n"
+"username to connect to the MySQL server."
+msgstr ""
+
+#: po/glade_files.c:395
+msgid ""
+"Type in a new password if you want \n"
+"to set a new value."
+msgstr ""
+
+#: po/glade_files.c:397
+msgid "Type the new password again to confirm."
+msgstr ""
+
+#: po/glade_files.c:399
+msgid "MySQL User:"
+msgstr ""
+
+#: po/glade_files.c:400
+msgid "Login Information"
+msgstr ""
+
+#: po/glade_files.c:401
+msgid "Full Name:"
+msgstr ""
+
+#: po/glade_files.c:402
+msgid "Description:"
+msgstr ""
+
+#: po/glade_files.c:403
+msgid "Email:"
+msgstr ""
+
+#: po/glade_files.c:404
+msgid "Contact Information:"
+msgstr ""
+
+#: po/glade_files.c:405
+msgid "Icon:"
+msgstr ""
+
+#: po/glade_files.c:406
+msgid "The user's full name"
+msgstr ""
+
+#: po/glade_files.c:407
+msgid "Additional description of the user"
+msgstr ""
+
+#: po/glade_files.c:408
+msgid "The user's email address"
+msgstr ""
+
+#: po/glade_files.c:409
+msgid ""
+"Optional messager information\n"
+"(tel., fax, ICQ etc)"
+msgstr ""
+
+#: po/glade_files.c:411
+msgid "Icon assigned to the user"
+msgstr ""
+
+#: po/glade_files.c:413
+msgid "Additional Information"
+msgstr ""
+
+#: po/glade_files.c:414
+msgid "User Information"
+msgstr ""
+
+#: po/glade_files.c:415
+msgid "Assigned Privileges"
+msgstr ""
+
+#: po/glade_files.c:416
+msgid "Available Privileges"
+msgstr ""
+
+#: po/glade_files.c:417
+msgid "Revoke privilege"
+msgstr ""
+
+#: po/glade_files.c:418
+msgid "Grant privilege"
+msgstr ""
+
+#: po/glade_files.c:419
+msgid "Global Privileges"
+msgstr ""
+
+#: po/glade_files.c:420
+msgid "Schema"
+msgstr ""
+
+#: po/glade_files.c:421
+msgid ""
+"Note: grayed privileges mean they are provided through Global Privileges."
+msgstr ""
+
+#: po/glade_files.c:422
+msgid "Schema Privileges"
+msgstr ""
+
+#: po/glade_files.c:423
+msgid "Table/Column Privileges"
+msgstr ""
+
+#: po/glade_files.c:424
+msgid "max_questions"
+msgstr ""
+
+#: po/glade_files.c:425
+msgid "max_updates"
+msgstr ""
+
+#: po/glade_files.c:426
+msgid "max_connections"
+msgstr ""
+
+#: po/glade_files.c:427
+msgid "Number of queries the user can execute within one hour."
+msgstr ""
+
+#: po/glade_files.c:428
+msgid "Number of updates the user can execute within one hour."
+msgstr ""
+
+#: po/glade_files.c:429
+msgid "Number of connections to the server the user can open in an hour."
+msgstr ""
+
+#: po/glade_files.c:430
+msgid "Limit User Resources"
+msgstr ""
+
+#: po/glade_files.c:431
+msgid "Resource Limits"
+msgstr ""
+
+#: po/glade_files.c:432
+msgid "New User"
+msgstr ""
+
+#: po/glade_files.c:433
+msgid "Discard Changes"
+msgstr ""
+
+#: po/glade_files.c:435
+msgid "Select Icon for User"
+msgstr ""
+
+#: po/glade_files.c:436
+msgid "Add Host"
+msgstr ""
+
+#: po/glade_files.c:437
+msgid ""
+"Specify the additional host from where the user should be able to connect to "
+"the MySQL server."
+msgstr ""
+
+#: po/glade_files.c:438
+msgid "Any host"
+msgstr ""
+
+#: po/glade_files.c:439
+msgid "Local host"
+msgstr ""
+
+#: po/glade_files.c:440
+#, c-format
+msgid "Hostname or IP (use % for wildcard):"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:115 source/linux/MARestorePanel.cc:105
+msgid "Objects"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:125
+msgid "Table Type"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:126 source/linux/MACatalogsPanel.cc:150
+msgid "Rows"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:127 source/linux/MACatalogsPanel.cc:154
+msgid "Data Length"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:128 source/linux/MACatalogsPanel.cc:169
+#: source/linux/MACatalogsPanel.cc:290 source/linux/MACatalogsPanel.cc:305
+msgid "Update Time"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:153
+msgid "Could not load backup progress dialog"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:161
+msgid "Backup Profiles"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:166
+msgid "Click 'New Profile' to create a Backup Profile."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:174
+msgid "_New Profile"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:181
+msgid "_Clone Profile"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:188
+msgid "_Delete Profile"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:352
+msgid "Select Target Directory"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:496
+#, c-format
+msgid "Could not read the profile file '%s'"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:518
+msgid "Could not write the copied profile file"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:807
+msgid "Please supply a name for this profile"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:816
+msgid "Profile name cannot contain character '/'"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1008
+#, c-format
+msgid "row %i of %i"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1011
+#, c-format
+msgid "table %i of %i"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1052
+msgid "Preparing..."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1063
+msgid "Select Backup File Name"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1071
+msgid "Performing backup..."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1100
+msgid "Backup cancelled."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1102
+msgid "Backup finished."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1105
+#, c-format
+msgid "Backup written to file '%s'."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1114
+msgid "Error during backup.\n"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1170
+msgid "Please select a profile first."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1213
+msgid "Could not install new crontab."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1221 source/linux/MABackupPanel.cc:1249
+#: source/linux/MABackupPanel.cc:1265
+msgid "Could not retrieve list of currently scheduled tasks by crontab"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1241
+msgid "Could not install new crontab without the scheduled backup."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1298
+#, c-format
+msgid ""
+"Besides this, there are %i backup projects currently scheduled for the "
+"current user."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1364
+msgid "Update Schedule"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1366
+msgid "Backups Are Currently <b>Scheduled</b>"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1395
+msgid "Backups Are Currently <b>Not Scheduled</b>"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1439
+#, c-format
+msgid "Could not load backup profile '%s/%s'"
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1458
+msgid "MySQL error during backup."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1461
+msgid "Could not open file for writing backup."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1464
+msgid "Illegal option."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1467
+msgid "Internal error in PCRE call."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1470
+msgid "Memory allocation failed during backup."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1473
+msgid "Out of disk space during backup write."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1476
+msgid "Cannot flush tables with read lock."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1479
+msgid "Cannot start transaction."
+msgstr ""
+
+#: source/linux/MABackupPanel.cc:1482
+msgid "Cannot set ANSI quotes."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:144
+msgid "Table Name"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:148 source/linux/MACatalogsPanel.cc:185
+#: source/linux/MACatalogsPanel.cc:258 source/linux/MACatalogsPanel.cc:303
+#: source/linux/MACatalogsPanel.cc:318 source/linux/MDynamicInterface.cc:1252
+msgid "Type"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:149
+msgid "Row Format"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:162
+msgid "Index Length"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:181
+msgid "Column Name"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:186
+msgid "Default"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:187
+msgid "Primary"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:188 source/linux/MACatalogsPanel.cc:232
+msgid "Null Allowed"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:189
+msgid "Other"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:198
+msgid "Name/Columns"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:202 source/linux/MACatalogsPanel.cc:230
+msgid "Index Type"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:203 source/linux/MACatalogsPanel.cc:231
+msgid "Unique"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:204
+msgid "Not NULL"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:205 source/linux/MACatalogsPanel.cc:233
+msgid "Seq. in Index"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:206 source/linux/MACatalogsPanel.cc:234
+msgid "Collation"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:225
+msgid "Table Name/Column"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:229
+msgid "Name"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:254
+msgid "View Name"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:270 source/linux/MACatalogsPanel.cc:320
+#: source/linux/MAServerConnectionsPanel.cc:52
+msgid "User"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:274
+#: source/linux/MAServerConnectionsPanel.cc:86
+msgid "Full Name"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:275
+msgid "Privileges"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:284
+msgid "Function Name"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:288
+msgid "Parameters"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:289 source/linux/MACatalogsPanel.cc:304
+msgid "Create Time"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:299
+msgid "Event Name"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:314
+msgid "Developer Documents"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:319
+msgid "Version"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:321
+msgid "Checked Out"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:322 source/linux/MAHealthPanel.cc:704
+msgid "Description"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:348
+msgid "Schemata"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:388
+msgid "Show Create Script"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:443
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"All tables of the '%s' schema"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:506
+#, c-format
+msgid "Number of Tables: %i"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:507
+#, c-format
+msgid "Rows: %i"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:508
+#, c-format
+msgid "Data Len.: %s"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:509
+#, c-format
+msgid "Index Len.: %s"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:516
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"All indices in schema '%s'"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:542 source/linux/MACatalogsPanel.cc:749
+msgid "UNIQUE"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:543 source/linux/MACatalogsPanel.cc:724
+#: source/linux/MACatalogsPanel.cc:725 source/linux/MACatalogsPanel.cc:750
+msgid "Yes"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:554 source/linux/MACatalogsPanel.cc:761
+msgid "Ascending"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:565
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"All events in schema '%s'"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:574
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"All views in schema '%s'"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:583
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"All stored procedures in schema '%s'"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:595
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"Developer documents stored in schema '%s'"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:608
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"Users with privileges to connect to '%s'"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:894
+msgid "Details <<"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:907
+msgid "Save Script"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:957
+#, c-format
+msgid "CREATE Script for Table '%s'"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1044
+#, c-format
+msgid ""
+"Please confirm deletion of table '%s.%s'.\n"
+"Drop table will delete all data in the table and discard the table "
+"definition from the schema."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1058 source/linux/MACatalogsPanel.cc:1060
+#, c-format
+msgid "Could not drop table '%s.%s'."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1167
+msgid ""
+"<big><b>Optimizing Tables</b></big>\n"
+"This operation may take a few minutes, please wait..."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1172
+msgid ""
+"<big><b>Checking Tables</b></big>\n"
+"This operation may take a few minutes, please wait..."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1177
+msgid ""
+"<big><b>Repairing Tables</b></big>\n"
+"This operation may take a few minutes, please wait..."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1197
+msgid "Optimizing table(s)..."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1202
+msgid "Error executing OPTIMIZE TABLE."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1204
+msgid ""
+"<big><b>Optimize Tables</b></big>\n"
+"The selected tables were optimized.\n"
+"\n"
+"Results:"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1237
+msgid "Checking table(s)..."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1242
+msgid "Error executing CHECK TABLE."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1277
+msgid "Repairing table(s)..."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1281
+msgid "Error executing REPAIR TABLE."
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1283
+msgid ""
+"<big><b>Repair Tables</b></big>\n"
+"The selected tables were repaired.\n"
+"\n"
+"Results:"
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1314 source/linux/MACatalogsPanel.cc:1320
+#: source/linux/MACatalogsPanel.cc:1326 source/linux/MACatalogsPanel.cc:1332
+msgid "Table: "
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1316
+msgid "Status: "
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1322
+msgid "ERROR: "
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1328
+msgid "WARNING: "
+msgstr ""
+
+#: source/linux/MACatalogsPanel.cc:1334
+msgid "Info: "
+msgstr ""
+
+#: source/linux/MAdministrator.cc:67
+msgid "Service Control"
+msgstr ""
+
+#: source/linux/MAdministrator.cc:70
+msgid "Startup Variables"
+msgstr ""
+
+#: source/linux/MAdministrator.cc:73
+msgid "User Administration"
+msgstr ""
+
+#: source/linux/MAdministrator.cc:76
+msgid "Server Connections"
+msgstr ""
+
+#: source/linux/MAdministrator.cc:79
+msgid "Health"
+msgstr ""
+
+#: source/linux/MAdministrator.cc:82
+msgid "Server Logs"
+msgstr ""
+
+#: source/linux/MAdministrator.cc:91
+msgid "Replication Status"
+msgstr ""
+
+#: source/linux/MAdministrator.cc:94
+msgid "Catalogs"
+msgstr ""
+
+#: source/linux/MAdministrator.cc:211 source/linux/MAPanel.cc:49
+#, c-format
+msgid ""
+"The user interface file (%s) could not be loaded.\n"
+"%s was probably not installed correctly."
+msgstr ""
+
+#: source/linux/MAdministrator.cc:248
+msgid "Could not open translation files"
+msgstr ""
+
+#: source/linux/MAdministrator.cc:267 source/linux/MAdministrator.cc:694
+msgid "(not connected)"
+msgstr ""
+
+#: source/linux/MAdministrator.cc:629
+msgid "Please wait..."
+msgstr ""
+
+#: source/linux/MADummyPanel.cc:50
+msgid ""
+"<b>This section is currently only\n"
+"available for connections to localhost.</b>"
+msgstr ""
+
+#: source/linux/MADummyPanel.cc:56
+msgid "<b>Please connect to a MySQL server.</b>"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:138
+msgid "Current: 0"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:139
+msgid "Maximal: 0"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:140
+msgid "Minimal: 0"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:141
+msgid "Average: 0"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:262
+#, c-format
+msgid "Current: %.0f"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:263
+#, c-format
+msgid "Maximal: %.0f"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:264
+#, c-format
+msgid "Minimal: %.0f"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:265
+#, c-format
+msgid "Average: %.0f"
+msgstr ""
+
+#. setup graph menu
+#: source/linux/MAHealthPanel.cc:393 source/linux/MAHealthPanel.cc:413
+msgid "Add Graph"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:401
+msgid "Delete Graph"
+msgstr ""
+
+#. setup group menu
+#: source/linux/MAHealthPanel.cc:407 source/linux/MAHealthPanel.cc:430
+msgid "Add Group"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:410
+msgid "Rename Group"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:418
+msgid "Delete Group"
+msgstr ""
+
+#. setup page menu
+#: source/linux/MAHealthPanel.cc:424
+msgid "Add Page"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:427
+msgid "Edit Page"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:435
+msgid "Delete Page"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:440
+msgid "Restore Defaults"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:693
+msgid "Variable"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:697
+msgid "Value"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:744
+msgid ""
+"<small>Right-click in graphs, frames or elsewhere in the page for graph "
+"edition menu.</small>"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1011
+#, c-format
+msgid "Could not open health graph description '%s'"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1190
+msgid "Please fill the Value Formula field."
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1198
+msgid "The Value Formula has a syntax error."
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1208
+msgid "The Max. Formula field has a syntax error."
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1216
+msgid ""
+"Minimal and Maximal Value fields have inconsistent values (Minimal must be "
+"smaller than Maximal)."
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1305
+msgid "Please confirm graph removal."
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1320
+msgid "Edit Graph"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1358
+msgid "Create a New Graph Grouping"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1397
+msgid "Please confirm group removal. All graphs inside will be removed."
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1413
+msgid "Edit Graph Grouping Caption"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1437
+msgid "Edit Page Text"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1509
+msgid ""
+"Please confirm page removal. All groups and graphs inside will be removed."
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1607
+#, c-format
+msgid "Could not change server variable '%s' to '%s'"
+msgstr ""
+
+#: source/linux/MAHealthPanel.cc:1614
+#, c-format
+msgid "Changed server variable '%s' to '%s'"
+msgstr ""
+
+#: source/linux/main.cc:118
+#, c-format
+msgid "Bad port number value '%s' for option\n"
+msgstr ""
+
+#: source/linux/main.cc:168
+#, c-format
+msgid "Usage: %s [OPTIONS]\n"
+msgstr ""
+
+#: source/linux/main.cc:169
+msgid "  -h,--help             Display this help and exit.\n"
+msgstr ""
+
+#: source/linux/main.cc:170
+msgid "  -u,--user=name        User for login if not current user.\n"
+msgstr ""
+
+#: source/linux/main.cc:171
+msgid "  -p,--password=s       Password to use when connecting to server.\n"
+msgstr ""
+
+#: source/linux/main.cc:172
+msgid "  -h,--host=name        Connect to host.\n"
+msgstr ""
+
+#: source/linux/main.cc:173
+msgid "  -P,--port=#           Port number to use for connection.\n"
+msgstr ""
+
+#: source/linux/main.cc:174
+msgid "  -S,--socket=name      Socket file to use for connection.\n"
+msgstr ""
+
+#: source/linux/main.cc:175 source/linux/main.cc:179
+msgid "  -c,--connection=name  Specify the name of a connection to use.\n"
+msgstr ""
+
+#: source/linux/main.cc:176
+msgid "  -bp name \t\t Execute backup with named profile.\n"
+msgstr ""
+
+#: source/linux/main.cc:177
+msgid "  -bt target \t\t Target path for backup.\n"
+msgstr ""
+
+#: source/linux/main.cc:178
+msgid "  -bx prefix \t\t Prefix for backup file.\n"
+msgstr ""
+
+#: source/linux/main.cc:180
+msgid "  --dont-connect        Start without connecting to a MySQL server.\n"
+msgstr ""
+
+#: source/linux/main.cc:181
+msgid "  --mycnf=path          Path for my.cnf file.\n"
+msgstr ""
+
+#: source/linux/main.cc:186
+#, c-format
+msgid "%s: unknown option %s\n"
+msgstr ""
+
+#: source/linux/main.cc:205 source/linux/main.cc:333
+#, c-format
+msgid "%s: missing value for option %s\n"
+msgstr ""
+
+#: source/linux/main.cc:221
+#, c-format
+msgid "%s: Could not load connection list file: %s\n"
+msgstr ""
+
+#: source/linux/main.cc:310
+#, c-format
+msgid "%s: invalid connection name %s"
+msgstr ""
+
+#: source/linux/main.cc:318
+#, c-format
+msgid ""
+"%s: could not connect to MySQL:\n"
+"%s (%i)\n"
+msgstr ""
+
+#: source/linux/main.cc:346
+msgid "You must start this program using mysql-administrator.\n"
+msgstr ""
+
+#: source/linux/main.cc:416
+msgid "Error initializing GUI"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:48
+msgid "Hostname"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:52
+msgid "ID"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:53
+msgid "Port"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:54
+msgid "Kind"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:55
+msgid "Status"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:56
+msgid "Log File"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:57
+msgid "Log Pos."
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:153
+msgid "Retrieving slave status information..."
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:169
+msgid "New Instance"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:174
+msgid "Available"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:179
+msgid "Not Available"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:182
+msgid "MASTER"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:182
+msgid "SLAVE"
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:192
+msgid "Replication not enabled."
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:195
+msgid "Could not retrieve replication status information."
+msgstr ""
+
+#: source/linux/MAReplicationStatusPanel.cc:216
+msgid "Error saving replication monitoring list."
+msgstr ""
+
+#: source/linux/MARestorePanel.cc:182
+msgid "Backup Files"
+msgstr ""
+
+#: source/linux/MARestorePanel.cc:406
+msgid "Processing backup file..."
+msgstr ""
+
+#: source/linux/MARestorePanel.cc:413
+#, c-format
+msgid ""
+"Error reading backup file\n"
+"'%s'"
+msgstr ""
+
+#: source/linux/MARestorePanel.cc:421
+msgid "Backup file processing cancelled."
+msgstr ""
+
+#: source/linux/MARestorePanel.cc:428
+msgid "Backup file processed."
+msgstr ""
+
+#: source/linux/MARestorePanel.cc:491
+#, c-format
+msgid "%lli of %lli bytes"
+msgstr ""
+
+#: source/linux/MARestorePanel.cc:571
+#, c-format
+msgid "Reading backup file '%s'..."
+msgstr ""
+
+#: source/linux/MARestorePanel.cc:599 source/linux/MARestorePanel.cc:655
+msgid "Cancelled."
+msgstr ""
+
+#: source/linux/MARestorePanel.cc:601
+msgid "Backup data loaded."
+msgstr ""
+
+#: source/linux/MARestorePanel.cc:613 source/linux/MARestorePanel.cc:614
+msgid "Restoring backup..."
+msgstr ""
+
+#: source/linux/MARestorePanel.cc:657
+msgid "Backup restored."
+msgstr ""
+
+#: source/linux/MAServerConnectionsPanel.cc:47
+msgid "Id"
+msgstr ""
+
+#: source/linux/MAServerConnectionsPanel.cc:57
+msgid "Host"
+msgstr ""
+
+#: source/linux/MAServerConnectionsPanel.cc:58
+msgid "DB"
+msgstr ""
+
+#: source/linux/MAServerConnectionsPanel.cc:59
+msgid "Command"
+msgstr ""
+
+#: source/linux/MAServerConnectionsPanel.cc:61
+msgid "State"
+msgstr ""
+
+#: source/linux/MAServerConnectionsPanel.cc:62
+msgid "Info"
+msgstr ""
+
+#: source/linux/MAServerConnectionsPanel.cc:80
+msgid "Username"
+msgstr ""
+
+#: source/linux/MAServerConnectionsPanel.cc:87
+msgid "Description."
+msgstr ""
+
+#: source/linux/MAServerConnectionsPanel.cc:199
+msgid "Retrieving user info..."
+msgstr ""
+
+#: source/linux/MAServerConnectionsPanel.cc:464
+#: source/linux/MAServerConnectionsPanel.cc:490
+#, c-format
+msgid "Could not kill thread %i."
+msgstr ""
+
+#: source/linux/MAServerInformationPanel.cc:62
+msgid "User:"
+msgstr ""
+
+#: source/linux/MAServerInformationPanel.cc:63
+msgid "Host:"
+msgstr ""
+
+#: source/linux/MAServerInformationPanel.cc:64
+msgid "Socket:"
+msgstr ""
+
+#: source/linux/MAServerInformationPanel.cc:64
+msgid "Port:"
+msgstr ""
+
+#: source/linux/MAServerInformationPanel.cc:142
+#: source/linux/MAServiceControlPanel.cc:140
+msgid ""
+"Server Status:\n"
+"    <b>Server is running</b>"
+msgstr ""
+
+#: source/linux/MAServerInformationPanel.cc:147
+#: source/linux/MAServiceControlPanel.cc:151
+msgid ""
+"Server Status:\n"
+"    <b>Server is stopped</b>"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:48
+msgid "Event"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:175
+msgid "Select Log File"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:207
+msgid "Save Log"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:226
+#, c-format
+msgid "Could not save log file to '%s'"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:231
+#, c-format
+msgid "Log file saved to '%s'"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:295
+msgid "Invalid file"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:316
+msgid "Server startup"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:320
+msgid "Server shutdown"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:324
+msgid "Error"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:328
+msgid "InnoDB startup"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:332
+msgid "InnoDB shutdown"
+msgstr ""
+
+#. row[_columns._icon]= _stop_icon;
+#: source/linux/MAServerLogsPanel.cc:336
+msgid "Thread closed"
+msgstr ""
+
+#. row[_columns._icon]= _stop_icon;
+#: source/linux/MAServerLogsPanel.cc:340
+msgid "Abort"
+msgstr ""
+
+#. row[_columns._icon]= _stop_icon;
+#: source/linux/MAServerLogsPanel.cc:344
+msgid "Select"
+msgstr ""
+
+#. row[_columns._icon]= _stop_icon;
+#: source/linux/MAServerLogsPanel.cc:348
+msgid "Init DB"
+msgstr ""
+
+#. row[_columns._icon]= _stop_icon;
+#: source/linux/MAServerLogsPanel.cc:352
+msgid "Connect"
+msgstr ""
+
+#. row[_columns._icon]= _stop_icon;
+#: source/linux/MAServerLogsPanel.cc:356
+msgid "Quit"
+msgstr ""
+
+#. row[_columns._icon]= _stop_icon;
+#: source/linux/MAServerLogsPanel.cc:360
+msgid "Query"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:403
+#, c-format
+msgid "Could not open log file '%s': no permission for reading"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:406
+#, c-format
+msgid "Could not open log file '%s'"
+msgstr ""
+
+#: source/linux/MAServerLogsPanel.cc:410
+msgid "Log file not found"
+msgstr ""
+
+#: source/linux/MAServiceControlPanel.cc:144
+msgid ""
+"Click this button to stop the MySQL Server.\n"
+"<small>Be aware that all connected users will be disconnected!</small>"
+msgstr ""
+
+#: source/linux/MAServiceControlPanel.cc:154
+msgid "Start the Server"
+msgstr ""
+
+#: source/linux/MAServiceControlPanel.cc:155
+msgid "Click this button to start the MySQL Server."
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:71
+#, c-format
+msgid ""
+"Editing file '%s'\n"
+"Section '%s'"
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:99
+msgid "Reverting changes..."
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:112
+msgid "Saving configurations..."
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:118
+msgid "Configuration saved."
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:122
+msgid "Could not save configurations."
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:126
+msgid "Error updating configuration."
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:140
+#, c-format
+msgid "Could not create %s"
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:147
+#, c-format
+msgid "%s created."
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:156
+msgid "Locate my.cnf file"
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:165
+#, c-format
+msgid "File %s does not exist. Create it?"
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:180
+#, c-format
+msgid "%s is not a file."
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:215
+msgid ""
+"The my.cnf configuration file could not be found.\n"
+"Please select an action.\n"
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:221
+msgid "Specify Location"
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:222
+msgid "Create a New One"
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:223
+msgid "Ignore"
+msgstr ""
+
+#: source/linux/MAStartupParametersPanel.cc:245
+msgid "Processing configuration file..."
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:291
+msgid "_New User"
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:303
+msgid "Add _Host..."
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:307
+msgid "_Remove Host"
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:315
+msgid "R_emove User"
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:351
+msgid "User Accounts"
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:811
+msgid "<i>anonymous</i>"
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:843
+msgid "no user selected"
+msgstr ""
+
+#. user info
+#: source/linux/MAUserAdministrationPanel.cc:848
+msgid "Login and additional information on the user"
+msgstr ""
+
+#. global privileges
+#: source/linux/MAUserAdministrationPanel.cc:880
+msgid "Global privileges assigned to the user"
+msgstr ""
+
+#. schema privileges
+#: source/linux/MAUserAdministrationPanel.cc:894
+msgid "Schema (database) privileges assigned to the user"
+msgstr ""
+
+#. table privileges
+#: source/linux/MAUserAdministrationPanel.cc:913
+msgid "Table and column privileges assigned to the user"
+msgstr ""
+
+#. resource limits
+#: source/linux/MAUserAdministrationPanel.cc:934
+msgid "Various resource limits for the user"
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:1031
+#, c-format
+msgid "Grants the %s privilege to the user"
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:1149
+msgid "The icon must be in PNG format."
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:1164
+msgid "Error loading icon"
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:1483
+#, c-format
+msgid "Permanently remove account '%s' from MySQL server at %s:%i?"
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:1527
+msgid "You need to add at least one host from where the user can connect to."
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:1538
+msgid "Entered passwords do not match, please type again."
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:1645
+msgid "Error applying user changes."
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:1732
+msgid ""
+"There are unsaved changes to the currently selected user.\n"
+"Do you wish to save them?"
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:1825
+msgid ""
+"Removing the last host from the users host list will also remove user "
+"itself. Please confirm."
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:1840
+#, c-format
+msgid "Remove '%s' from the list of hosts the user can connect from?"
+msgstr ""
+
+#: source/linux/MAUserAdministrationPanel.cc:2079
+#, c-format
+msgid ""
+"There are unsaved changes to the currently selected user (%s).\n"
+"Do you wish to save them?"
+msgstr ""
+
+#: source/linux/MDataInterface.cc:84
+msgid "Could not retrieve catalogs from server"
+msgstr ""
+
+#: source/linux/MDataInterface.cc:124
+msgid "Could not retrieve schema table definitions from server"
+msgstr ""
+
+#: source/linux/MDataInterface.cc:143
+#, c-format
+msgid "Could not retrieve table status data for schema '%s.%s'"
+msgstr ""
+
+#: source/linux/MDataInterface.cc:160
+msgid "Could not retrieve user list from server"
+msgstr ""
+
+#: source/linux/MDataInterface.cc:191 source/linux/MDataInterface.cc:211
+msgid "Could not retrieve user information from server"
+msgstr ""
+
+#: source/linux/MDataInterface.cc:253
+msgid "Storing user information..."
+msgstr ""
+
+#: source/linux/MDataInterface.cc:302
+msgid "Removing user..."
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:77
+#, c-format
+msgid "error processing page %i of interface description file '%s'"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:103
+#, c-format
+msgid "There was an error backing up old configuration data to '%s'"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:122
+#, c-format
+msgid ""
+"There was an error restoring the backup '%s' for the configuration file."
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:332
+#, c-format
+msgid "Option: %s"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:362
+msgid ""
+"Click to add or remove this option from the configuration file. If this "
+"option is not set, the default or a value in a more general section in the "
+"configuration file will be used."
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:593
+#, c-format
+msgid "error processing data from page '%s' of interface description file"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:912
+#: source/linux/MDynamicInterface.cc:1254
+msgid "Free"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:915
+msgid "Used"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:918
+msgid "Tablespace"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:1129
+msgid "Select Directory"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:1211
+msgid "File name"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:1212
+#: source/linux/MDynamicInterface.cc:1253
+msgid "Size"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:1238
+msgid "Extend size of last file automatically"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:1251
+msgid "Path"
+msgstr ""
+
+#: source/linux/MDynamicInterface.cc:1255
+msgid "Filesystem"
+msgstr ""
+
+#: source/linux/MInstanceInfo.cc:227
+#, c-format
+msgid ""
+"You are connecting to a MySQL server with version %i.%i.x, but this "
+"application was designed to work with MySQL servers 4.x and newer.\n"
+"Please note that older versions are not supported and may not run well."
+msgstr ""
+
+#: source/linux/MInstanceInfo.cc:311
+msgid ""
+"The connection to the MySQL server was lost.\n"
+"Please reconnect."
+msgstr ""
+
+#: source/linux/MInstanceInfo.cc:356 source/linux/MInstanceInfo.cc:402
+#: source/linux/MInstanceInfo.cc:467 source/linux/MInstanceInfo.cc:507
+msgid "Retrieving data from MySQL..."
+msgstr ""
+
+#: source/linux/MInstanceInfo.cc:596
+msgid "Stopping service..."
+msgstr ""
+
+#: source/linux/MInstanceInfo.cc:596
+msgid "Starting service..."
+msgstr ""
+
+#: source/linux/MInstanceInfo.cc:606
+msgid "Could not execute MySQL init script\n"
+msgstr ""
+
+#: source/linux/util.cc:25
+msgid "_Discard changes"
+msgstr ""
+
+#: source/linux/util.cc:26
+msgid "_Save changes"
+msgstr ""
+
+#: source/linux/util.cc:36
+msgid "Can't open file."
+msgstr ""
+
+#: source/linux/util.cc:37
+msgid "Error parsing XML file."
+msgstr ""
+
+#: source/linux/util.cc:38
+msgid "Error parsing XML file (bad document)."
+msgstr ""
+
+#: source/linux/util.cc:39
+msgid "Error parsing XML file (empty document)."
+msgstr ""
+
+#: source/linux/util.cc:40
+msgid "Error parsing INI file."
+msgstr ""
+
+#: source/linux/util.cc:41
+msgid "General error."
+msgstr ""
+
+#: source/linux/util.cc:42
+msgid "SQL error."
+msgstr ""

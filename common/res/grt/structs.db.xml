@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="db.DatabaseObject" parent="base.NamedGrtObject">
+    <members>
+      <member name="sql" type="string" desc="the generated SQL statement(s)" />
+      <member name="commentedOut" type="int" desc="if set to 1 the sql will be commented out but e.g. still be written to the script" />
+      <member name="customData" type="dict" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.Version" parent="GrtObject" caption="Version Information">
+    <members>
+      <member name="major" type="int" desc="major version of the database" />
+      <member name="minor" type="int" desc="minor version of the database" />
+      <member name="release" type="int" desc="release number of the database" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.Catalog" parent="base.NamedGrtObject" caption="Catalog">
+    <members>
+      <member name="defaultCharacterSetName" type="string" />
+      <member name="defaultCollationName" type="string" />
+      <member name="schemata" type="list" content-type="dict" content-struct-name="db.Schema" />
+      <member name="simpleDatatypes" type="list" option="ref" content-type="string" content-struct-name="db.SimpleDatatype" />
+      <member name="characterSets" type="list" option="ref" content-type="string" content-struct-name="db.CharacterSet" />
+      <member name="version" type="dict" struct-name="db.Version" desc="version of the catalog's database" />
+      <member name="customData" type="dict" desc="a generic dictionary to hold additional information used by e.g. plugins" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.Schema" parent="db.DatabaseObject" caption="Schema">
+    <members>
+      <member name="defaultCharacterSetName" type="string" />
+      <member name="defaultCollationName" type="string" />
+      <member name="tables" type="list" content-type="dict" content-struct-name="db.Table" caption="Tables" />
+      <member name="views" type="list" content-type="dict" content-struct-name="db.View" caption="Views" />
+      <member name="routines" type="list" content-type="dict" content-struct-name="db.Routine" caption="Routines" />
+      <member name="routineGroups" type="list" content-type="dict" content-struct-name="db.RoutineGroup" caption="Routine Groups" />
+      <member name="synonyms" type="list" content-type="dict" content-struct-name="db.Synonym" caption="Synonyms" />
+      <member name="structuredTypes" type="list" content-type="dict" content-struct-name="db.StructuredDatatype" caption="Structured Types" />
+      <member name="sequences" type="list" content-type="dict" content-struct-name="db.Sequence" caption="Sequences" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.Table" parent="db.DatabaseObject" caption="Table" desc="an object that stores information about a database schema table">
+    <members>
+      <member name="isTemporary" type="int" />
+      <member name="temporaryScope" type="string" />
+      <member name="isSystem" type="int" />
+      <member name="template" type="dict" struct-name="db.StructuredDatatype" />
+      <member name="primaryKey" type="string" option="ref" content-struct-name="db.Index" caption="Primary Key" />
+      <member name="columns" type="list" content-type="dict" content-struct-name="db.Column" caption="Columns" />
+      <member name="indices" type="list" content-type="dict" content-struct-name="db.Index" caption="Indices" />
+      <member name="foreignKeys" type="list" content-type="dict" content-struct-name="db.ForeignKey" caption="Foreign Keys"/>
+      <member name="triggers" type="list" content-type="dict" content-struct-name="db.Trigger" caption="Triggers" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.Column" parent="base.NamedGrtObject">
+    <members>
+      <member name="datatypeName" type="string" desc="the name of the datatype, e.g. VARCHAR" />
+      <member name="defaultValue" type="string" />
+      <member name="defaultValueIsNull" type="int" />
+      <member name="precision" type="int" desc="for numeric types this represents the total number of digits that are stored including digits right from the decimal point" />
+      <member name="scale" type="int" desc="the number of digits right to the decimal point" />
+      <member name="isNullable" type="int" />
+      <member name="length" type="int" desc="The total length of the column. For string types this referes to the number of characters that can be stored." />
+      <member name="characterSetName" type="string" />
+      <member name="collationName" type="string" />
+      <member name="flags" type="list" content-type="string" desc="additional flags like UNSIGNED, ZEROFILL, BINARY" />
+      <member name="simpleType" type="string" option="ref" content-struct-name="db.SimpleDatatype" />
+      <member name="structuredDatatype" type="string" option="ref" content-struct-name="db.StructuredDatatype" />
+      <member name="checks" type="list" content-type="dict" content-struct-name="db.CheckConstraint" caption="Check Contraints" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.DatatypeGroup" parent="GrtObject">
+    <members>
+      <member name="caption" type="string" />
+      <member name="description" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.SimpleDatatype" parent="GrtObject">
+    <members>
+      <member name="group" type="string" option="ref" content-struct-name="db.DatatypeGroup" desc="the datatype group this datatype belongs to" />
+      <member name="characterMaximumLength" type="int" desc="maximum number of characters this datatype can store" />
+      <member name="characterOctetLength" type="int" desc="maximum number of 8 bit characters this datatype can store" />
+      <member name="numericPrecision" type="int" desc="maximum numbers of digits the datatype can store" />
+      <member name="numericPrecisionRadix" type="int" />
+      <member name="numericScale" type="int" desc="maximum numbers of digits right from the decimal point the datatype can store" />
+      <member name="dateTimePrecision" type="int" desc="the datetime precision the datatype can store" />
+      <member name="synonyms" type="list" content-type="string" desc="the list of names that can be used as synonym for the datatype" />
+      <member name="flags" type="list" content-type="string" desc="additional flags like UNSIGNED, ZEROFILL, BINARY" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.StructuredDatatype" parent="db.DatabaseObject" caption="Structured Datatype">
+    <members>
+      <member name="parentType" type="string" option="ref" content-struct-name="db.StructuredDatatype" />
+      <member name="distinctTypes" type="list" content-type="dict" content-struct-name="db.Column" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.CheckConstraint" parent="base.NamedGrtObject">
+    <members>
+      <member name="searchCondition" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.Index" parent="base.NamedGrtObject">
+    <members>
+      <member name="isPrimary" type="int" />
+      <member name="deferability" type="int" />
+      <member name="unique" type="int" />
+      <member name="indexType" type="string" desc="can be INDEX, PRIMARY, UNIQUE, FULLTEXT, SPACIAL" />
+      <member name="columns" type="list" content-type="dict" content-struct-name="db.IndexColumn" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.IndexColumn" parent="GrtObject">
+    <members>
+      <member name="columnLength" type="int" />
+      <member name="descend" type="int" />
+      <member name="referedColumn" type="string" option="ref" content-struct-name="db.Column" />
+      <member name="storedFunction" type="string" />
+      <member name="comment" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.ForeignKey" parent="base.NamedGrtObject">
+    <members>
+      <member name="deleteRule" type="string" />
+      <member name="updateRule" type="string" />
+      <member name="deferability" type="int" />
+      <member name="referedTableSchemaName" type="string" />
+      <member name="referedTableName" type="string" />
+      <member name="referedTable" type="string" option="ref" content-struct-name="db.Table" />
+      <member name="columns" type="list" option="ref" content-type="string" content-struct-name="db.Column" />
+      <member name="referedColumnNames" type="list" content-type="string" />
+      <member name="referedColumns" type="list" option="ref" content-type="string" content-struct-name="db.Column" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.View" parent="db.DatabaseObject" caption="View" desc="a object that stores information about a database schema view">
+    <members>
+      <member name="queryExpression" type="string" />
+      <member name="withCheckCondition" type="int" />
+      <member name="isReadOnly" type="int" />
+      <member name="columns" type="list" content-type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.Routine" parent="db.DatabaseObject" caption="Routine" desc="an object that stores information about a database schema routine">
+    <members>
+      <member name="routineType" type="string" />
+      <member name="routineCode" type="string" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.RoutineGroup" parent="db.DatabaseObject" caption="Routine Group" desc="a logical group of routines">
+    <members>
+      <member name="routines" type="list" option="ref" content-type="string" content-struct-name="db.Routine" />
+      <member name="routineExpandedStates" type="list" content-type="int" desc="specifies if the n-th routine is expanded in the editor, 0 if collapsed" />
+      <member name="routineExpandedHeights" type="list" content-type="int" desc="specifies the n-th routine height in the editor, 0 for automatic height" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.Trigger" parent="base.NamedGrtObject">
+    <members>
+      <member name="event" type="string" desc="the DDL(/DML) event that fires the trigger" />
+      <member name="condition" type="string" desc="the condition that must be met for the trigger to execute" />
+      <member name="statement" type="string" desc="the statements to execute" />
+      <member name="order" type="int" desc="the order in which triggers of the same event and timing are executed" />
+      <member name="orientation" type="string" desc="for which object the trigger fires, e.g. ROW" />
+      <member name="timing" type="string" desc="when the trigger fires, AFTER or BEFORE" />
+      <member name="referenceNewTable" type="string" />
+      <member name="referenceOldTable" type="string" />
+      <member name="referenceNewRow" type="string" />
+      <member name="referenceOldRow" type="string" />
+      <member name="enabled" type="int" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.CharacterSet" parent="GrtObject">
+    <members>
+      <member name="description" type="string" />
+      <member name="defaultCollation" type="string" />
+      <member name="collations" type="list" content-type="string" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.Synonym" parent="db.DatabaseObject" caption="Synonym">
+    <members>
+      <member name="isPublic" type="int" />
+      <member name="referedObject" type="string" option="ref" content-struct-name="db.DatabaseObject" />
+      <member name="referedSchemaName" type="string" />
+      <member name="referedObjectName" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.Sequence" parent="db.DatabaseObject" caption="Sequence" desc="a database sequence object">
+    <members>
+      <member name="minValue" type="string" desc="Minimum value of sequence" />
+      <member name="maxValue" type="string" desc="Maximum value of sequence" />
+      <member name="incrementBy" type="string" desc="Value by which sequence is increased" />
+      <member name="cycleFlag" type="int" desc="Does sequence begin again with minimum value once maximum value has been reached?" />
+      <member name="orderFlag" type="int" desc="Are the sequence values granted in the order of the request?" />
+      <member name="cacheSize" type="string" desc="Number of sequence values that are loaded into cache simultaneously" />
+      <member name="lastNumber" type="string" dec="Last sequence value that was saved" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.DatabaseSync" parent="GrtObject" caption="Synchronisation Managing Object" desc="an object used for synchronisation">
+    <members>
+      <member name="dbCatalog" type="dict" struct-name="db.Catalog" desc="the database's catalog" />
+      <member name="changeTree" type="dict" struct-name="db.DatabaseSyncObject" desc="the tree of changes to apply" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="db.DatabaseSyncObject" parent="GrtObject" caption="Synchronisation Object" desc="an object used for object changes">
+    <members>
+      <member name="changed" type="int" desc="if set to 1 the object has been modified" />
+      <member name="alterDirection" type="int" desc="0 to apply the change to the database, 1 to apply the change to the model" />
+      <member name="modelObject" type="string" option="ref" content-struct-name="base.NamedGrtObject" desc="reference to the model object, empty if this is a new object in the database" />
+      <member name="dbObject" type="string" option="ref" content-struct-name="base.NamedGrtObject" desc="reference to the database object, empty if this is a new object in the model" />
+      <member name="children" type="list" option="ref" content-type="string" content-struct-name="db.DatabaseSyncObject" />
+      <member name="syncLog" type="list" content-type="dict" content-struct-name="base.ObjectLog" desc="a listing of log messages generated during object synchronization" />
+    </members>
+  </gstruct>
+
+</gstructs>

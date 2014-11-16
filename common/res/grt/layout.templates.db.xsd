@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<xs:schema id="gc-templates" targetNamespace="http://dev.mysql.com/gc/templates" xmlns:mstns="http://dev.mysql.com/gc/templates"
+  xmlns="http://dev.mysql.com/gc/templates" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+  attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="gc-templates" msdata:IsDataSet="true" msdata:Locale="de-DE" msdata:EnforceConstraints="False">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="texture">
+          <xs:complexType>
+            <xs:attribute name="id" form="unqualified" type="xs:string" />
+            <xs:attribute name="location" form="unqualified" type="xs:string" />
+            <xs:attribute name="dimensions" form="unqualified" type="xs:string" />
+            <xs:attribute name="mode" form="unqualified" type="xs:string" />
+            <xs:attribute name="min-filter" form="unqualified" type="xs:string" />
+            <xs:attribute name="mag-filter" form="unqualified" type="xs:string" />
+            <xs:attribute name="wrap-mode-horizontal" form="unqualified" type="xs:string" />
+            <xs:attribute name="wrap-mode-vertical" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="template-definition">
+          <xs:complexType>
+            <xs:attribute name="id" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

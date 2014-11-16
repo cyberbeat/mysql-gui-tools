@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file contains the Generic Canvas style templates for database elements (table, trigger, column etc.). -->
+<gc-styles xmlns="http://dev.mysql.com/gc/styles" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <!-- Layer ****************************************************************************************** -->
+
+  <style-definition id="db.layer.header.left:$colorName$">
+    <svg:svg>
+      <g>
+        <polyline fill="#AAAAAA" points="214,0 0,0 0,26 214,26 "/>
+        <rect x="214" fill="$color$" width="26" height="26"/>
+        <polyline fill="#AAAAAA" points="214,26 240,0 214,0 "/>
+      </g>
+    </svg:svg>
+  </style-definition>
+
+  <style-definition id="db.layer.header.right:$colorName$">
+    <svg:svg>
+      <g>
+        <rect fill="$color$" width="60" height="26"/>
+        <line fill="none" stroke="$border$" x1="0" y1="0" x2="60" y2="0"/>
+        <line fill="none" stroke="$border$" x1="60" y1="0" x2="60" y2="26"/>
+      </g>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.layer.body:$colorName$">
+    <svg:svg>
+      <g>
+        <rect fill="$color$" width="300" height="148"/>
+        <line fill="none" stroke="$border$" x1="0" y1="0" x2="0" y2="148"/>
+        <line fill="none" stroke="$border$" x1="300" y1="0" x2="300" y2="148"/>
+      </g>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.layer.footer.left:$colorName$">
+    <svg:svg>
+      <g>
+        <rect fill="$color$" width="274" height="26"/>
+        <line fill="none" stroke="$border$" x1="0" y1="0" x2="0" y2="26"/>
+        <line fill="none" stroke="$border$" x1="0" y1="26" x2="274" y2="26"/>
+      </g>
+    </svg:svg>
+  </style-definition>
+
+  <style-definition id="db.layer.footer.right:$colorName$">
+    <svg:svg>
+      <g>
+        <rect fill="$color$" width="26" height="26"/>
+        <polyline fill="#AAAAAA" points="26,0 0,26 26,26 "/>
+        <line fill="none" stroke="#D3D3D3" x1="10" y1="23" x2="23" y2="10"/>
+        <line fill="none" stroke="#D3D3D3" x1="14" y1="23" x2="23" y2="14"/>
+        <line fill="none" stroke="#D3D3D3" x1="18" y1="23" x2="23" y2="18"/>
+      </g>
+    </svg:svg>
+  </style-definition>
+
+</gc-styles>
+

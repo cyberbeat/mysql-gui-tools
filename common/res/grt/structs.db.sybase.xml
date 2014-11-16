@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="db.sybase.Catalog" parent="db.Catalog" caption="MSSQL Catalog">
+    <members>
+      <member name="schemata" type="list" content-type="dict" content-struct-name="db.sybase.Schema" overrides="db.Schema" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.sybase.Schema" parent="db.Schema" caption="MSSQL Schema">
+    <members>
+      <member name="tables" type="list" content-type="dict" content-struct-name="db.sybase.Table" overrides="db.Table" />
+      <member name="views" type="list" content-type="dict" content-struct-name="db.sybase.View" overrides="db.View" />
+      <member name="routines" type="list" content-type="dict" content-struct-name="db.sybase.Routine" overrides="db.Routine" />
+      <member name="routineGroups" type="list" content-type="dict" content-struct-name="db.sybase.RoutineGroup" overrides="db.RoutineGroup" />
+      <member name="synonyms" type="list" content-type="dict" content-struct-name="db.sybase.Synonym" overrides="db.Synonym" />
+      <member name="structuredTypes" type="list" content-type="dict" content-struct-name="db.sybase.StructuredDatatype" overrides="db.StructuredDatatype" />
+      <member name="sequences" type="list" content-type="dict" content-struct-name="db.sybase.Sequence" overrides="db.Sequence" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.sybase.Table" parent="db.Table" caption="MSSQL Table" desc="a MSSQL database table object">
+    <members>
+      <member name="createdDatetime" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.sybase.Column" parent="db.Column">
+    <members>
+      <member name="identity" type="int" />
+      <member name="computed" type="int" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.sybase.SimpleDatatype" parent="db.SimpleDatatype" />
+
+  <gstruct name="db.sybase.StructuredDatatype" parent="db.StructuredDatatype" caption="MSSQL Structured Datatype" desc="a MSSQL structured datatype object" />
+
+  <gstruct name="db.sybase.Index" parent="db.Index">
+    <members>
+      <member name="ignoreDuplicateRows" type="int" />
+      <member name="clustered" type="int" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.sybase.IndexColumn" parent="db.IndexColumn" />
+
+  <gstruct name="db.sybase.ForeignKey" parent="db.ForeignKey" />
+  
+  <gstruct name="db.sybase.Trigger" parent="db.Trigger" />
+
+  <gstruct name="db.sybase.View" parent="db.View" caption="MSSQL View" desc="a MSSQL database view object" />
+
+  <gstruct name="db.sybase.RoutineGroup" parent="db.RoutineGroup" caption="MSSQL Routine Group" desc="a MSSQL database routine group" />
+  
+  <gstruct name="db.sybase.Routine" parent="db.Routine" caption="MSSQL Routine" desc="a MSSQL database routine object" />
+
+  <gstruct name="db.sybase.Synonym" parent="db.Synonym" caption="MSSQL Synonym" desc="a MSSQL synonym object" />
+
+  <gstruct name="db.sybase.Sequence" parent="db.Sequence" caption="MSSQL Sequence" desc="a MSSQL database sequence object" />
+
+</gstructs>

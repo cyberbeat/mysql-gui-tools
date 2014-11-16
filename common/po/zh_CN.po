@@ -1,0 +1,3359 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: MySQL GUI Common 1.2.12 汉化版\n"
+"POT-Creation-Date: 2007-02-05 15:54\n"
+"PO-Revision-Date: 2008-03-12 12:43+0800\n"
+"Last-Translator: 牛景春(xinjie) <openvfp@163.com>\n"
+"Language-Team: Trustqf Inc. <openvfp@163.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#  RoutineFrame..RoutinePanel..RoutineHeaderPanel..Caption
+#: MyxRoutineEditorFrame.dfm:25
+msgid "  New Routine"
+msgstr "  新 Routine"
+
+#: MySQLResultSet.pas:1662
+msgid "%d row%s fetched in %.4fs (%.4fs)"
+msgstr "%d 行%s 被引入，耗时 %.4fs (%.4fs)"
+
+#  Add rows.
+#: MySQLResultSet.pas:1586
+msgid "%d rows fetched so far."
+msgstr "%d 行已被读取。"
+
+#: MyxError.pas:134
+msgid ""
+"%s\n"
+" The following error occured: %s (%d)"
+msgstr ""
+"%s\n"
+" 发生下面的错误： %s (%d)"
+
+#: MySQLResultSet.pas:1673
+msgid "%s rows affected by the last command, no resultset returned."
+msgstr "%s 条记录受最后的命令影响，没有结果被返回。"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblPKAutoNamingEd....Items.Strings
+#: OptionsEditor.dfm:996
+msgid "%tablename%_id"
+msgstr "%tablename%_id"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblPKAutoNamingEd....Items.Strings
+#: OptionsEditor.dfm:995
+msgid "%tablename%id"
+msgstr "%tablename%id"
+
+#  EditorTableForm..TableEditorPnl..BottomPnl..ApplyChangesBtn..Caption
+#: EditorTable.dfm:144
+msgid "&Apply Changes"
+msgstr "应用更改&A"
+
+#  EditorTableForm..TableEditorPnl..BottomPnl..CloseBtn..Caption
+#: EditorTable.dfm:155
+msgid "&Close"
+msgstr "关闭&C"
+
+#  ConnectToInstanceForm..BottomPnl..DetailsBtn..Caption
+#  EditorTableForm..TableEditorPnl..BottomPnl..DetailsBtn..Caption
+#: ConnectToInstance.dfm:503
+msgid "&Details >>"
+msgstr "详细&D >>"
+
+#  EditorTableForm..TableEditorPnl..BottomPnl..DiscardChangesBtn..Caption
+#: EditorTable.dfm:133
+msgid "&Discard Changes"
+msgstr "放弃更改&D"
+
+#  ConnectToInstanceForm..BottomPnl..OKBtn..Caption
+#: ConnectToInstance.dfm:465
+msgid "&OK"
+msgstr "确定&O"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..PasswordLbl..Caption
+#: ConnectToInstance.dfm:548
+msgid "&Password:"
+msgstr "密码&P："
+
+#  ConnectToInstanceForm..ConnectToHostPnl..UsernameLbl..Caption
+#: ConnectToInstance.dfm:539
+msgid "&Username:"
+msgstr "用户名&U："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..IndexTabsheet..TntGroupBox1..TntLabel9..Caption
+#: EditorTable.dfm:464
+msgid "(Use Drag'n'Drop)"
+msgstr "(使用拖放)"
+
+#: MySQLResultSet.pas:1671
+msgid "1 row affected by the last command, no resultset returned."
+msgstr "1 条记录受最后命令的影响，没有结果被返回。"
+
+#: ConnectToInstance.pas:689
+msgid "<< &Details"
+msgstr "<< 详细"
+
+#: MyxConnectionDialog.pas:1087
+msgid "<< Advanced"
+msgstr "<< 高级"
+
+#: TextSearch.pas:334
+msgid "<< Details"
+msgstr "<< 详细"
+
+#  MigrationObjMapDetailFrame..ObjectSelGBox..DetailBtn..Caption
+#: MigrationObjMapDetail.dfm:137
+msgid "<< Hide Detailes"
+msgstr "<< 隐藏详细信息"
+
+#  MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterObjectBtn..Caption
+#: MigrationObjSelFilter.dfm:228
+#: MigrationObjSelFilter.pas:169
+msgid "<< Hide Details"
+msgstr "<< 隐藏详细信息"
+
+#: MyxConnectionDialog.pas:864
+msgid "<New Connection>"
+msgstr "<新建连接>"
+
+#: MyxError.pas:166
+msgid ""
+"A MySQL error was encountered. The message is:\n"
+"%s"
+msgstr ""
+"遇到一个 MySQL 错误。错误信息为：\n"
+"%s"
+
+#: MyxError.pas:211
+msgid "A connection to the server cannot be established."
+msgstr "不能建立到服务器的连接。"
+
+#: ConnectToInstance.pas:1235
+msgid ""
+"A duplicate connection name was found: \"%s\".\n"
+"Please use the connection manager and adjust your connection settings in order to avoid trouble e.g. with backup and restore."
+msgstr ""
+"存在同名连接： \"%s\".\n"
+"请使用连接管理器来调整你的连接设置以消除故障。例如，使用备份和恢复。"
+
+#: EditorTable.pas:2622
+msgid "A primary key has already been defined."
+msgstr "主键已被定义。"
+
+#: MyxTableEditor.pas:1923
+msgid "AUTO INCREMENT"
+msgstr "自增量"
+
+#: MySQLResultSet.pas:535
+msgid "Abort"
+msgstr "中止"
+
+#: About.pas:85
+msgid "About"
+msgstr "关于"
+
+#: CommonFuncs.pas:123
+msgid "About "
+msgstr "关于"
+
+#  AboutForm..Caption
+#: About.dfm:6
+msgid "About MySQL Administrator"
+msgstr "关于 MySQL Administrator"
+
+#  ProgressForm..ProgressGBox..ActionCaptionLbl..Caption
+#: Progress.dfm:43
+msgid "Action:"
+msgstr "操作："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel60....AutoSize
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel60....AutoSize
+#: EditorTable.dfm:1181
+msgid "Activate this option if you want MySQL to maintain a live checksum for all rows. This makes the table a little slower to update, but also makes it easier to find corrupted tables."
+msgstr "启用选项以使 MySQL 针对所有行维护 checksum。这可以导致表在更新时稍慢，但是可以用它来尽快找到被破坏的表。"
+
+#: EditorTable.pas:2715
+msgid "Add Foreign Key"
+msgstr "增加外键"
+
+#: MigrationObjSelFilter.pas:568
+msgid "Add Ignore Pattern"
+msgstr "增加被忽略的模式"
+
+#: EditorTable.pas:2555
+msgid "Add Index"
+msgstr "增加索引"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..AdvancedOptionsPageControl..AdvancedOptionsGeneralTabSheet..AdvancedOptionsBottomPnl..AdvancedOptionsBottomRightPnl..AdvancedOptionsAddBtn..Hint
+#  MyxConnectionDialogForm..ParamsMainPnl..ConnectGBox..StoredConnPnl..StoredConnAddBtn..Hint
+#: ConnectToInstance.dfm:800
+msgid "Add Option"
+msgstr "增加选项"
+
+#  MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..AddIgnoreListExprBtn..Hint
+#: MigrationObjSelFilter.dfm:190
+msgid "Add an ignore pattern"
+msgstr "增加一个被忽略的模式"
+
+#  MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..AddToIgnoreListBtn..Hint
+#  MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..AddAllToIgnoreListBtn..Hint
+#  MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..RemoveAllFromIgnoreListBtn..Hint
+#: MigrationObjSelFilter.dfm:134
+#: MigrationObjSelFilter.dfm:214
+msgid "Add selected objects to ignore list"
+msgstr "增加所选择的对象到被忽略的列表"
+
+#: MyxRoutineEditorFrame.pas:206
+msgid "Adding new routine"
+msgstr "增加新 routine"
+
+#: MyxRoutineEditorFrame.pas:495
+msgid "Adding new trigger"
+msgstr "增加新触发器"
+
+#  MyxConnectionDialogForm..BottomPnl..AdvancedBtn..Caption
+#  MyxTableEditorForm..BottomPnl..AdvancedBtn..Caption
+#: MyxConnectionDialog.dfm:305
+#: MyxConnectionDialog.pas:1089
+#: MyxTableEditor.pas:3340
+msgid "Advanced >>"
+msgstr "高级 >>"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..Caption
+#: ConnectToInstance.dfm:657
+msgid "Advanced Connection Options"
+msgstr "高级连接选项"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..Caption
+#: EditorTable.dfm:1035
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#  MyxConnectionDialogForm..AdvParamsMainPnl..TntGroupBox1..Caption
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnAdvTabSheet..Caption
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnAdvTabSheet..Label5..Caption
+#: MyxConnectionDialog.dfm:242
+msgid "Advanced Parameters"
+msgstr "高级参数"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..AdvancedOptionsPageControl..AdvancedOptionsGeneralTabSheet..Caption
+#: ConnectToInstance.dfm:741
+msgid "AdvancedOptionsGeneralTabSheet"
+msgstr "高级选项常规TabSheet"
+
+#  SchemataFrame..SchemaSearchPopupMenu..SearchAllMI..Caption
+#: SchemataTreeView.dfm:88
+msgid "All"
+msgstr "所有"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblAllColsNotNullCBox..Caption
+#: OptionsEditor.dfm:978
+msgid "All columns Not Null per default"
+msgstr "默认所有字段不为 Null"
+
+#: MyxConnectionDialog.pas:678
+#: MyxConnectionDialog.pas:1322
+msgid "All files"
+msgstr "所有文件"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblAllIntUnsignedCBox..Caption
+#: OptionsEditor.dfm:1004
+msgid "All integer columns unsigned per default"
+msgstr "默认所有整数字段不带正负号"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..ConnectionCBox..Hint
+#  MyxConnectionDialogForm..ParamsMainPnl..ConnectGBox..StoredConnPnl..StoredConnComboBox..Hint
+#  MyxConnectionDialogForm..ConnTypeMainPnl..ConnTypeGBox..ConnTypePnl..DriverComboBox..Hint
+#  MyxConnectionDialogForm..ConnTypeMainPnl..ConnTypeGBox..ConnTypePnl..RdbmsComboBox..Hint
+#: ConnectToInstance.dfm:589
+#: MyxConnectionDialog.dfm:359
+#: MyxConnectionDialog.dfm:374
+msgid "All stored connections"
+msgstr "所有已存储的连接"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox3..KeepRoutineEditorOnTopCBox..Caption
+#: OptionsEditor.dfm:1092
+msgid "Always keep editor windows on top"
+msgstr "保持编辑窗口在最顶端"
+
+#: MyxError.pas:219
+msgid "An SQL error occured."
+msgstr "发生一个 SQL 错误。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel61....AutoSize
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel61....AutoSize
+#: EditorTable.dfm:1193
+msgid "An approximation of the average row length for your table. You need to set this only for large tables with variable-size records."
+msgstr "表中记录的平均长度近似值。你仅仅需要针对具有变长记录的大表设置它。"
+
+#: MyxError.pas:213
+msgid "An error occured while parsing the XML file %s."
+msgstr "当分析 XML 文件 %s 时发生一个错误。"
+
+#: MyxError.pas:215
+msgid "An error occured while validating the XML file %s."
+msgstr "当确认 XML 文件 %s 时发生一个错误。."
+
+#: Grt.pas:2288
+msgid "An unknown error occured during execution of a GRT function."
+msgstr "在执行一个 GRT 函数时遇到一个未知错误。"
+
+#: MySQLResultSetControls.pas:2761
+msgid "Any File"
+msgstr "任意文件"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..Caption
+#: OptionsEditor.dfm:375
+msgid "Application Fonts"
+msgstr "应用程序字体"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox1..Caption
+#: OptionsEditor.dfm:290
+msgid "Applications Options"
+msgstr "应用程序选项"
+
+#  OptionsForm..ApplyChangesBtn..Caption
+#: OptionsEditor.dfm:1132
+msgid "Apply"
+msgstr "应用"
+
+#  MyxTableEditorForm..TntActionList..ApplyChangeAndCloseAction..Caption
+#: MyxTableEditor.dfm:1852
+msgid "Apply Change And Close"
+msgstr "应用更改并关闭"
+
+#  MyxRoutineGroupEditorForm..TntActionList1..ApplyChangesAction..Caption
+#  MyxSchemaEditorForm..BottomPnl..ApplyChangesBtn..Caption
+#  MyxTableEditorForm..TntActionList..ApplyChangesAction..Caption
+#  MyxViewEditorForm..TntActionList1..ApplyChangesAction..Caption
+#: MyxRoutineGroupEditor.dfm:514
+#: MyxTableEditor.dfm:1863
+#: MyxViewEditor.dfm:837
+#: MySQLResultSetControls.pas:3468
+#: MyxTabHeader.pas:1072
+msgid "Apply Changes"
+msgstr "应用更改"
+
+#  MyxRoutineGroupEditorForm..TntActionList1..ApplyChangesAndCloseAction..Caption
+#  MyxViewEditorForm..TntActionList1..ApplyChangesAndCloseAction..Caption
+#: MyxRoutineGroupEditor.dfm:509
+msgid "ApplyChangesAndCloseAction"
+msgstr "应用更改并关闭操作"
+
+#: OptionsEditor.pas:681
+msgid "Are you sure you want to delete the connection?"
+msgstr "你确实要删除连接吗？"
+
+#  Remove trailing new line. We don't need it here.
+#: SchemataTreeView.pas:2241
+msgid "Are you sure you want to delete the object"
+msgstr "你确实要删除对象吗？"
+
+#: EditorTable.pas:1851
+msgid "Are you sure you want to delete the selected columns?"
+msgstr "你确实要删除所选择的列吗？"
+
+#: MyxConnectionDialog.pas:1254
+msgid "Are you sure you want to delete the stored connection?"
+msgstr "你确实要删除所存储的连接吗？"
+
+#: SchemataTreeView.pas:2244
+msgid "Are you sure you want to delete these objects"
+msgstr "你确实要删除这些对象吗？"
+
+#: EditorTable.pas:717
+msgid "Are you sure you want to discard your changes?"
+msgstr "你确实要放弃更改？"
+
+#: EditorTable.pas:757
+msgid "Are you sure you want to discard your current changes?"
+msgstr "你确实要放弃当前的更改？"
+
+#: EditorTable.pas:3103
+msgid "Are you sure you want to execute the following SQL command to apply the changes to the table?"
+msgstr "你确实想执行下面的 SQL 命令来将更改应用到表中吗？"
+
+#: EditorTable.pas:3222
+msgid "Are you sure you want to quit the table editor without applying the changes?"
+msgstr "你确实想不保存改变而关闭表编辑器吗？"
+
+#: MyxRoutineEditorFrame.pas:335
+msgid "Are you sure you want to replace the current routine text?"
+msgstr "你确实要替换当前的 routine 文本吗？"
+
+#: MyxTableEditor.pas:2380
+msgid "Ascendant"
+msgstr "优势(Ascendant)"
+
+#: SchemataTreeView.pas:2247
+msgid "Attention: this action cannot be rolled back!"
+msgstr "注意：这个操作不能回滚！"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntGroupBox5..ColumnAutoIncCBox..Caption
+#: EditorTable.dfm:859
+msgid "Auto Increment"
+msgstr "自增量"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..VariousGBox..TntLabel20..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..VariousGBox..TntLabel20..Caption
+#: EditorTable.dfm:1396
+msgid "Auto Increment:"
+msgstr "自增量："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel22..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel22..Caption
+#: EditorTable.dfm:1136
+msgid "Avg Row Len:"
+msgstr "行平均长度："
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..DefaultStorageEngineLU....Items.Strings
+#: OptionsEditor.dfm:1076
+msgid "BDB"
+msgstr "BDB"
+
+#: MySQLResultSetFieldViewer.pas:197
+msgid "BMP"
+msgstr "BMP"
+
+#  MySQLResultSetFieldViewerForm..PageControl..BinarySheet..Caption
+#: MySQLResultSetFieldViewer.dfm:173
+msgid "Binary"
+msgstr "二进制"
+
+#: Grt.pas:1120
+msgid "BuildGrtParamList called with unsupported parameter type."
+msgstr "调用 BuildGrtParamList 时使用了无效参数类型。"
+
+#: MySQLResultSetFieldViewer.pas:148
+msgid "Byte"
+msgstr "字节"
+
+#: MySQLResultSetFieldViewer.pas:136
+msgid "Bytes"
+msgstr "字节"
+
+#  ConnectToInstanceForm..BottomPnl..CancelBtn..Caption
+#: ConnectToInstance.dfm:480
+msgid "C&ancel"
+msgstr "取消%a"
+
+#: MyxTableEditorFkVTEdit.pas:637
+msgid "CASCADE"
+msgstr "级联"
+
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST....ClipboardFormats.Strings
+#: MyxTableEditor.dfm:439
+msgid "CSV"
+msgstr "CSV"
+
+#  EditorSqlForm..BottomPnl..CancelBtn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..TextSheet..TextSheetBtnPnl..CancelBtn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..ImageSheet..ImageSheetBtnPnl..Cancel2Btn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..BinarySheet..TntPanel1..Cancel3Btn..Caption
+#  MyxConnectionDialogForm..BottomPnl..CancelBtn..Caption
+#  SchemaSelectionForm..BottomPnl..CancelBtn..Caption
+#: EditorSql.dfm:58
+#: MySQLResultSetFieldViewer.dfm:166
+#: MySQLResultSetFieldViewer.dfm:896
+#: MyxConnectionDialog.dfm:282
+#: SchemaSelection.dfm:111
+#: ConnectToInstance.pas:1137
+#: MigrationObjSelFilter.pas:572
+#: MyxConnectionDialog.pas:1187
+#: MyxConnectionDialog.pas:1355
+#: MyxEditor.pas:112
+#: MyxRoutineEditorFrame.pas:336
+#: MyxRoutineEditorFrame.pas:356
+#: MyxTabHeader.pas:1587
+#: OptionsEditor.pas:556
+#: SchemataTreeView.pas:1499
+#: SchemataTreeView.pas:2248
+#: SchemataTreeView.pas:2427
+#: TabHeader.pas:1319
+msgid "Cancel"
+msgstr "取消"
+
+#: SchemataTreeView.pas:2258
+msgid "Cannot Drop MySQL Schema"
+msgstr "不能删除 MySQL 库"
+
+#: EditorTable.pas:814
+msgid "Cannot fetch charset information."
+msgstr "不能读取字符集设置(charset)信息。"
+
+#  Read list of all known column datatypes.
+#: Options.pas:740
+msgid "Cannot fetch datatype information."
+msgstr "不能读取数据类型信息。"
+
+#  Get current table
+#: EditorTable.pas:3081
+msgid "Cannot fetch table information for diff."
+msgstr "针对差异(diff)不能读取表信息。"
+
+#: EditorTable.pas:829
+msgid "Cannot fetch table information."
+msgstr "不能读取表信息。"
+
+#: EditorTable.pas:3089
+msgid "Cannot generate the diff between the edited and the existing table."
+msgstr "在被编辑的表和已存在表之间不存在差异(diff)。"
+
+#: EditorTable.pas:520
+msgid "Cascade"
+msgstr "级联"
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..OptionsGBox..CaseSensitiveCBox..Caption
+#: TextSearch.dfm:252
+msgid "Case sensitive"
+msgstr "区分大小写"
+
+#  OptionsForm..Panel1..Caption
+#: OptionsEditor.dfm:1164
+msgid "Category"
+msgstr "范畴"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..TabSheet2..TableOptionScrollBox..TntGroupBox6..Caption
+#: EditorTable.dfm:935
+msgid "Character Set"
+msgstr "字符集设置"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..TabSheet2..TableOptionScrollBox..TntGroupBox6..TableCharsetCaptionLbl..Caption
+#: EditorTable.dfm:942
+msgid "Charset:"
+msgstr "字符集设置："
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..ApplicationFontBtn..Caption
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..DataFontBtn..Caption
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..CodeFontBtn..Caption
+#: OptionsEditor.dfm:462
+msgid "Choose ..."
+msgstr "选择 ..."
+
+#: MyxConnectionDialog.pas:1456
+msgid "Choose from the list of available drivers for this RDBMS"
+msgstr "针对这个 RDBMS 从列表中选择可用的驱动。"
+
+#  MigrationObjMapDetailFrame..ObjectSelGBox..DetailsPnl..TntLabel5....AutoSize
+#: MigrationObjMapDetail.dfm:88
+msgid "Choose this parameter set for tables that contain lots of data which does not need transaction safety. This method is ideal for logging information or statistical data."
+msgstr "针对不需要安全事务的包含大量记录的表选择这个参数设置。这个方法最适合于记录信息或统计数据"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RaidOptionsGBox..ChunkSizeCaptionEd..Caption
+#: EditorTable.dfm:1284
+msgid "Chunksize:"
+msgstr "块大小："
+
+#  ConnectToInstanceForm..BottomPnl..ClearFieldsBtn..Caption
+#: ConnectToInstance.dfm:492
+msgid "Clea&r"
+msgstr "清除&r"
+
+#  MyxConnectionDialogForm..BottomPnl..ClearFieldsBtn..Caption
+#: MyxConnectionDialog.dfm:294
+msgid "Clear"
+msgstr "清除"
+
+#: MySQLResultSetControls.pas:3677
+msgid "Clear Messages"
+msgstr "清除消息"
+
+#  ConnectToInstanceForm..BottomPnl..CancelBtn..Hint
+#  MyxConnectionDialogForm..BottomPnl..CancelBtn..Hint
+#: ConnectToInstance.dfm:478
+msgid "Click this button to cancel the connection"
+msgstr "点击按钮取消连接"
+
+#: ConnectToInstance.pas:1138
+msgid "Click this button to cancel the connection."
+msgstr "点击按钮取消连接。"
+
+#  ConnectToInstanceForm..BottomPnl..ClearFieldsBtn..Hint
+#  MyxConnectionDialogForm..BottomPnl..ClearFieldsBtn..Hint
+#: ConnectToInstance.dfm:491
+msgid "Click this button to clear all fields"
+msgstr "点击按钮清除所有字段"
+
+#  ConnectToInstanceForm..BottomPnl..OKBtn..Hint
+#  MyxConnectionDialogForm..BottomPnl..OKBtn..Hint
+#: ConnectToInstance.dfm:464
+msgid "Click this button to connect"
+msgstr "点击按钮以连接"
+
+#  MyxRoutineGroupEditorForm..BottomPnl..CancelBtn..Caption
+#  MyxRoutineGroupEditorForm..TntActionList1..CloseAction..Caption
+#  MyxSchemaEditorForm..BottomPnl..CancelBtn..Caption
+#  MyxTableEditorForm..TntActionList..CloseAction..Caption
+#  MyxViewEditorForm..TntActionList1..CloseAction..Caption
+#  OptionsForm..CloseBtn..Caption
+#  TextSearchForm..PageControl..SearchTabSheet..CloseBtn..Caption
+#  TextSearchForm..PageControl..ReplaceTabSheet..Close2Btn..Caption
+#: MyxRoutineGroupEditor.dfm:56
+#: MyxSchemaEditor.dfm:117
+#: MyxTableEditor.dfm:1875
+#: MyxViewEditor.dfm:849
+#: OptionsEditor.dfm:1122
+#: TextSearch.dfm:79
+#: TextSearch.dfm:149
+#: MyxConnectionDialog.pas:1355
+msgid "Close"
+msgstr "关闭"
+
+#  MyxTabHeaderFrame..TabHeaderPopupMenu..CloseTabsheetMI..Caption
+#  TabHeaderFrame..TabHeaderPopupMenu..CloseTabsheetMI..Caption
+#: MyxTabHeader.dfm:22
+msgid "Close Tabsheet"
+msgstr "关闭 Tabsheet"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..TntLabel2..Caption
+#: OptionsEditor.dfm:399
+msgid "Code Font:"
+msgstr "代码字体："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..TabSheet2..TableOptionScrollBox..TntGroupBox6..TableCollationDescLbl..Caption
+#: EditorTable.dfm:969
+msgid "Collation method that is used to compare text and sort columns."
+msgstr "用以比较文本和分类字段的校对方法。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..TabSheet2..TableOptionScrollBox..TntGroupBox6..TableCollationCaptionLbl..Caption
+#  MyxSchemaEditorForm..HeaderPnl..TntLabel1..Caption
+#  MyxTableEditorForm..TablePageControl..TableSheet..TableSheetPnl..TntLabel1..Caption
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnsDetailsPnl..ColumnDetailsGroupBox..TntLabel37..Caption
+#: EditorTable.dfm:949
+#: MyxTableEditor.dfm:321
+msgid "Collation:"
+msgstr "校对："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..FKTabsheet..TntGroupBox2..FKColsVST......WideText
+#  MyxTableEditorForm..TablePageControl..IndicesSheet..IndexContentPnl..IndexColumnVST......WideText
+#  MyxTableEditorForm..TablePageControl..ForeignKeySheet..FkSheetPnl..ForeignKeyColumnVST......WideText
+#: EditorTable.dfm:650
+msgid "Column"
+msgstr "字段"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntLabel36..Caption
+#: EditorTable.dfm:754
+msgid "Column Charset:"
+msgstr "字段字符集设置："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntLabel37..Caption
+#: EditorTable.dfm:761
+msgid "Column Collate:"
+msgstr "字段校对："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..Caption
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnsDetailsPnl..ColumnDetailsGroupBox..Caption
+#: EditorTable.dfm:710
+msgid "Column Details"
+msgstr "字段详细资料"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnVST......WideText
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST......WideText
+#: EditorTable.dfm:245
+msgid "Column Name"
+msgstr "字段名"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntGroupBox5..Caption
+#: EditorTable.dfm:834
+msgid "Column Options"
+msgstr "字段选项"
+
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..Caption
+#  SchemataFrame..SchemaSearchPopupMenu..CustomMI..ColumnsSubMI..Caption
+#: MyxTableEditor.dfm:252
+msgid "Columns"
+msgstr "字段"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..Caption
+#: EditorTable.dfm:191
+msgid "Columns and Indices"
+msgstr "字段和索引"
+
+#  SchemataFrame..SchemaSearchPopupMenu..SearchColumnsMI..Caption
+#: SchemataTreeView.dfm:120
+msgid "Columns/Indices"
+msgstr "字段/索引"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnVST......WideText
+#  MyxRoutineGroupEditorForm..RoutinePageControl..CommentSheet..Caption
+#  MyxSchemaEditorForm..PageControl..CommentTabSheet..Caption
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST......WideText
+#  MyxTableEditorForm..TablePageControl..IndicesSheet..IndexContentPnl..IndexVST......WideText
+#  MyxTableEditorForm..TablePageControl..IndicesSheet..IndexContentPnl..IndexColumnVST......WideText
+#  MyxTableEditorForm..TablePageControl..ForeignKeySheet..FkSheetPnl..ForeignKeyVST......WideText
+#  MyxViewEditorForm..ViewPageControl..CommentTabSheet..Caption
+#: EditorTable.dfm:278
+#: MyxTableEditor.dfm:522
+#: MyxTableEditor.dfm:626
+#: MyxTableEditor.dfm:680
+#: MyxTableEditor.dfm:762
+#: MyxViewEditor.dfm:621
+msgid "Comment"
+msgstr "注释"
+
+#  EditorTableForm..TableEditorPnl..HeaderPnl..TntLabel3..Caption
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntLabel8..Caption
+#  MyxRoutineGroupEditorForm..RoutinePageControl..CommentSheet..CommentSheetPnl..TntLabel2..Caption
+#  MyxTableEditorForm..TablePageControl..TableSheet..TableSheetPnl..TntLabel2..Caption
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnsDetailsPnl..ColumnDetailsGroupBox..TntLabel8..Caption
+#: EditorTable.dfm:67
+#: MyxTableEditor.dfm:165
+#: MyxTableEditor.dfm:336
+msgid "Comment:"
+msgstr "注释："
+
+#  MyxViewEditorForm..ViewPageControl..CommentTabSheet..CommentSheetPnl..TntLabel2..Caption
+#: MyxViewEditor.dfm:776
+msgid "Comments:"
+msgstr "注释："
+
+#: MyxTableEditor.pas:624
+msgid "Compact"
+msgstr "压缩"
+
+#: EditorTable.pas:512
+msgid "Compressed"
+msgstr "被压缩"
+
+#: MyxEditor.pas:111
+msgid "Confirm"
+msgstr "确认"
+
+#: EditorTable.pas:3101
+msgid "Confirm Table Edit"
+msgstr "确认表编辑"
+
+#  MyxConnectionDialogForm..Caption
+#: MyxConnectionDialog.dfm:5
+msgid "Connect to Database"
+msgstr "连接到数据库"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..Caption
+#: ConnectToInstance.dfm:513
+msgid "Connect to MySQL Server Instance"
+msgstr "连接到 MySQL 服务实例"
+
+#  Ask the user if he wants to create the given schema
+#: ConnectToInstance.pas:977
+msgid "Connection Dialog - Default Schema Does Not Exist"
+msgstr "连接对话框 - 默认数据库不存在"
+
+#: ConnectToInstance.pas:945
+msgid "Connection Dialog - MySQL 3.x Server Unsupported"
+msgstr "连接对话框 - 不支持 MySQL 3.x 服务"
+
+#: ConnectToInstance.pas:959
+msgid "Connection Dialog - No Default Schema Specified"
+msgstr "连接对话框 - 没有指定默认数据库"
+
+#  MyxConnectionDialogForm..ParamsMainPnl..ConnectGBox..Caption
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..Caption
+#: MyxConnectionDialog.dfm:126
+msgid "Connection Parameters"
+msgstr "连接参数"
+
+#  MyxConnectionDialogForm..ConnTypeMainPnl..ConnTypeGBox..Caption
+#: MyxConnectionDialog.dfm:328
+msgid "Connection Type"
+msgstr "连接类型"
+
+#: MySQLConnection.pas:456
+msgid "Connection not found"
+msgstr "没有找到连接"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..TntGroupBox3..TntLabel18..Caption
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..ConnectionLbl..Caption
+#: EditorTable.dfm:1554
+msgid "Connection:"
+msgstr "连接："
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..Caption
+#: OptionsEditor.dfm:666
+msgid "Connections"
+msgstr "连接"
+
+#: MyxError.pas:250
+msgid "Continue"
+msgstr "继续"
+
+#  SchemataFrame..SchemaTreeViewPopupMenu..CopyAssetSQLMI..Caption
+#: SchemataTreeView.dfm:225
+msgid "Copy CREATE statement to Clipboard"
+msgstr "复制 CREATE 语句到剪贴板"
+
+#: MySQLResultSetControls.pas:1076
+msgid "Copy Column Names"
+msgstr "复制字段名"
+
+#: MySQLResultSetControls.pas:3672
+msgid "Copy Message Text"
+msgstr "复制消息文本"
+
+#: OptionsEditor.pas:720
+msgid "Copy of "
+msgstr "复制"
+
+#  MyxTableEditorForm..TntActionList..CopyToClipboardAction..Caption
+#: MyxTableEditor.dfm:1880
+msgid "Copy selected columns to clipboard"
+msgstr "复制所选字段到剪贴板"
+
+#: MySQLConnection.pas:1310
+msgid "Could not connect to embedded server."
+msgstr "不能连接嵌入的服务。"
+
+#: MySQLConnection.pas:526
+msgid "Could not connect to the specified host."
+msgstr "不能连接指定的主机。"
+
+#  ignore ConnectionResult -10 after warning
+#: ConnectToInstance.pas:855
+msgid ""
+"Could not connect to the specified instance. \n"
+"\n"
+"MySQL Error Number %d\n"
+"%s\n"
+"\n"
+"If you want to check the network connection, please click the Ping button."
+msgstr ""
+"不能连接指定的实例。 \n"
+"\n"
+"MySQL 错误号 %d\n"
+"%s\n"
+"\n"
+"如果你要检查局域网连接，请点击 Ping 按钮。"
+
+#: SchemataTreeView.pas:956
+msgid "Could not fetch catalogs/schemata data."
+msgstr "不能读取目录/数据库数据。"
+
+#: SchemataTreeView.pas:1437
+msgid "Could not fetch schema indices."
+msgstr "不能读取数据库索引。"
+
+#: SchemataTreeView.pas:1229
+msgid "Could not fetch schema tables."
+msgstr "不能读取数据库中的表。"
+
+#: SchemataTreeView.pas:1232
+msgid "Could not fetch stored procedures."
+msgstr "不能读取存储过程。"
+
+#: Grt.pas:795
+msgid "Could not initialize the GRT Environment. A timeout occured during the initalization."
+msgstr "不能初始化 GRT 环境。初始化超时。"
+
+#: Grt.pas:2402
+msgid "Could not register Delphi modules."
+msgstr "不能注册 Delphi 模块。"
+
+#: Grt.pas:2428
+msgid "Could not register Java module loader."
+msgstr "不能注册 Java 模块载入程序。"
+
+#: Grt.pas:2468
+msgid "Could not register Lua module loader."
+msgstr "不能注册 Lua 模块载入程序。"
+
+#: Grt.pas:2450
+msgid "Could not register PHP module loader."
+msgstr "不能注册 PHP 模块载入程序。"
+
+#: Grt.pas:2484
+msgid "Could not register Python module loader."
+msgstr "不能注册 Python 模块载入程序。"
+
+#: ConnectToInstance.pas:723
+msgid "Could not resolve hostname"
+msgstr "不能解决主机名"
+
+#  SchemataFrame..SchemaTreeViewPopupMenu..CreateNewStoredProcedureMI..Caption
+#: SchemataTreeView.dfm:258
+msgid "Create New Procedure / Function"
+msgstr "创建新的过程/函数"
+
+#  SchemataFrame..SchemaTreeViewPopupMenu..CreateNewSchemaMI..Caption
+#: SchemataTreeView.dfm:237
+msgid "Create New Schema"
+msgstr "创建新数据库"
+
+#  SchemataFrame..SchemaTreeViewPopupMenu..CreateNewTableMI..Caption
+#: SchemataTreeView.dfm:244
+msgid "Create New Table"
+msgstr "创建新表"
+
+#  SchemataFrame..SchemaTreeViewPopupMenu..CreateNewViewMI..Caption
+#: SchemataTreeView.dfm:251
+msgid "Create New View"
+msgstr "创建新视图"
+
+#: SchemataTreeView.pas:1498
+msgid "Create new Schema"
+msgstr "创建新数据库"
+
+#  build relationships
+#: MyxTableEditor.pas:3783
+msgid "Creating relationships from foreign keys"
+msgstr "从外键创建关联"
+
+#  AboutForm..CreditsBtn..Caption
+#: About.dfm:115
+msgid "Credits"
+msgstr "信任"
+
+#: MyxError.pas:246
+msgid "Critical Error"
+msgstr "关键性错误"
+
+#  SchemataFrame..SchemaSearchPopupMenu..CustomMI..Caption
+#: SchemataTreeView.dfm:134
+msgid "Custom Selection"
+msgstr "自定义选择"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..StorageOptionsGBox..TntLabel27..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..StorageOptionsGBox..TntLabel27..Caption
+#: EditorTable.dfm:1075
+msgid "Data Directory:"
+msgstr "数据目录："
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..TntLabel1..Caption
+#: OptionsEditor.dfm:391
+msgid "Data Font:"
+msgstr "数据字体："
+
+#  MigrationObjMapDetailFrame..ObjectSelGBox..DetailsPnl..TntRadioButton1..Caption
+#: MigrationObjMapDetail.dfm:121
+msgid "Data consistancy / multilanguage"
+msgstr "数据组成/多语言"
+
+#  MyxConnectionDialogForm..ConnTypeMainPnl..ConnTypeGBox..ConnTypePnl..RdbmsLbl..Caption
+#: MyxConnectionDialog.dfm:352
+msgid "Database System:"
+msgstr "数据库系统："
+
+#  EditorTableForm..TableEditorPnl..HeaderPnl..TntLabel2..Caption
+#: EditorTable.dfm:59
+msgid "Database:"
+msgstr "数据库："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnVST......WideText
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST......WideText
+#: EditorTable.dfm:250
+msgid "Datatype"
+msgstr "数据类型"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntLabel5..Caption
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnsDetailsPnl..ColumnDetailsGroupBox..TntLabel5..Caption
+#: EditorTable.dfm:726
+msgid "Datatype:"
+msgstr "数据类型："
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..Label10..Caption
+#: OptionsEditor.dfm:951
+msgid "Def. data type:"
+msgstr "默认数据类型："
+
+#: EditorTable.pas:504
+#: EditorTable.pas:1510
+#: EditorTable.pas:1511
+#: MyxTableEditor.pas:605
+#: MyxTableEditor.pas:614
+msgid "Default"
+msgstr "默认"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..SchemataEdLbl..Caption
+#: ConnectToInstance.dfm:566
+msgid "Default &Schema:"
+msgstr "默认数据库&S："
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..Label2..Caption
+#: OptionsEditor.dfm:383
+msgid "Default Font:"
+msgstr "默认字体："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnVST......WideText
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST......WideText
+#: EditorTable.dfm:272
+msgid "Default Value"
+msgstr "默认值"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntLabel7..Caption
+#: EditorTable.dfm:740
+msgid "Default Value:"
+msgstr "默认值："
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..TntLabel11..Caption
+#: OptionsEditor.dfm:960
+msgid "Default storage engine"
+msgstr "默认存储引擎"
+
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnsDetailsPnl..ColumnDetailsGroupBox..TntLabel7..Caption
+#: MyxTableEditor.dfm:329
+msgid "Default:"
+msgstr "默认："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel39....AutoSize
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel39....AutoSize
+#: EditorTable.dfm:1169
+msgid "Defines how the rows in MyISAM tables should be stored. The option value can FIXED or DYNAMIC for static or variable-length row format. The utility myisampack can be used to set the type to COMPRESSED."
+msgstr "定义记录如何在 MyISAM 表中存储。可用选项值为 FIXED 和 DYNAMIC ，分别针对动态和变长记录格式。设置类型为 COMPRESSED 可有效的压缩 MyISAM 表。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..VariousGBox..DelayKeyUpdatesCBox..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..VariousGBox..DelayKeyUpdatesCBox..Caption
+#: EditorTable.dfm:1479
+msgid "Delay Key Updates"
+msgstr "延迟键更新"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..DeleteConnectionButton..Caption
+#: OptionsEditor.dfm:880
+msgid "Delete Connection"
+msgstr "删除连接"
+
+#  Disable the error display as the current user might not have select privilege for schema mysql.
+#: SchemataTreeView.pas:2246
+msgid "Delete Objects"
+msgstr "删除对象"
+
+#  RoutineFrame..TntActionList1..DeleteRoutineAction..Caption
+#: MyxRoutineEditorFrame.dfm:457
+msgid "Delete Routine"
+msgstr "删除 Routine"
+
+#  MyxTableEditorForm..TntActionList..DeleteSelectedColumnsAction..Caption
+#: MyxTableEditor.dfm:1846
+msgid "Delete Selected Columns"
+msgstr "删除所选字段"
+
+#  EditorTableForm..ColumnPopupMenu..DeleteTableColumnsMI..Caption
+#: EditorTable.dfm:1906
+msgid "Delete Table Columns"
+msgstr "删除表字段"
+
+#: OptionsEditor.pas:681
+msgid "Delete connection?"
+msgstr "删除连接？"
+
+#: MyxConnectionDialog.pas:1253
+msgid "Delete stored connection."
+msgstr "删除存储的连接"
+
+#  Delete nodes from TableData
+#: EditorTable.pas:1851
+msgid "Deleting Columns"
+msgstr "正在删除字段"
+
+#: MyxTableEditor.pas:2378
+#: MyxTableEditorIndexColumnVTEdit.pas:622
+msgid "Descendant"
+msgstr "子节点"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..DescTabSheet..Caption
+#: EditorTable.dfm:1603
+msgid "Description"
+msgstr "描述"
+
+#: MigrationObjSelFilter.pas:178
+msgid "Detailed selection >>"
+msgstr "详细选择 >>"
+
+#  TextSearchForm..PageControl..SearchTabSheet..DetailsBtn..Caption
+#  TextSearchForm..PageControl..ReplaceTabSheet..Details2Btn..Caption
+#: TextSearch.dfm:89
+msgid "Details >>"
+msgstr "详细资料 >>"
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..DirectionGBox..Caption
+#: TextSearch.dfm:217
+msgid "Direction"
+msgstr "方向"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..StorageOptionsGBox..TntLabel55....AutoSize
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..StorageOptionsGBox..TntLabel55....AutoSize
+#: EditorTable.dfm:1092
+msgid "Directory where to put the tables data file. This works only for MyISAM tables only and not on some operating systems (Windows)."
+msgstr "放置表数据文件的目录。仅针对 MyISAM 表，并在一些操作系统(Windows)中不能应用。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..StorageOptionsGBox..TntLabel56....AutoSize
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..StorageOptionsGBox..TntLabel56....AutoSize
+#: EditorTable.dfm:1104
+msgid "Directory where to put the tables index file. This works only for MyISAM tables only and not on some operating systems (Windows)."
+msgstr "放置表数据文件的目录。仅针对 MyISAM 表，并在一些操作系统(Windows)中不能应用。"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox1..DisableTransparencyEffectsCBox..Caption
+#: OptionsEditor.dfm:365
+msgid "Disable transparency effects"
+msgstr "禁用透明效果"
+
+#: EditorTable.pas:3619
+msgid "Disabled storage engine"
+msgstr "禁用存储引擎"
+
+#  OptionsForm..DiscardChangesBtn..Caption
+#: OptionsEditor.dfm:1143
+msgid "Discard"
+msgstr "放弃"
+
+#  MyxRoutineGroupEditorForm..TntActionList1..DiscardChangesAction..Caption
+#  MyxTableEditorForm..TntActionList..DiscardChangesAction..Caption
+#  MyxViewEditorForm..TntActionList1..DiscardChangesAction..Caption
+#: MyxRoutineGroupEditor.dfm:520
+#: MyxViewEditor.dfm:843
+#: MySQLResultSetControls.pas:3465
+#: MyxTabHeader.pas:1066
+msgid "Discard Changes"
+msgstr "放弃更改"
+
+#: EditorTable.pas:717
+msgid "Discard changes"
+msgstr "放弃更改"
+
+#: AuxFuncs.pas:2428
+msgid "Do not show this message anymore."
+msgstr "不再显示此消息。"
+
+#: MySQLResultSet.pas:1084
+msgid "Do you really want to discard all changes?"
+msgstr "你真的想放弃所有更改吗？"
+
+#: SchemataTreeView.pas:2272
+msgid "Do you want do remove the associated schema privileges?"
+msgstr "你想移除关联数据库的特性吗？"
+
+#  MyxConnectionDialogForm..ParamsMainPnl..DriverNotInstalledPnl..DownloadDriverPnl..DownloadDriverBtn..Caption
+#: MyxConnectionDialog.dfm:103
+msgid "Download Driver from the Web"
+msgstr "从 Web 下载驱动"
+
+#: MyxConnectionDialog.pas:1320
+msgid "Driver file"
+msgstr "驱动文件"
+
+#  MyxConnectionDialogForm..ParamsMainPnl..DriverNotInstalledPnl..TntLabel2..Caption
+#: MyxConnectionDialog.dfm:49
+msgid "Driver not attached"
+msgstr "驱动没有附加"
+
+#  MyxConnectionDialogForm..ConnTypeMainPnl..ConnTypeGBox..ConnTypePnl..DriverLbl..Caption
+#: MyxConnectionDialog.dfm:343
+msgid "Driver:"
+msgstr "驱动"
+
+#  SchemataFrame..SchemaTreeViewPopupMenu..DropMI..Caption
+#: SchemataTreeView.dfm:218
+msgid "Drop"
+msgstr "删除"
+
+#: SchemataTreeView.pas:1572
+msgid "Drop Function"
+msgstr "删除函数"
+
+#: SchemataTreeView.pas:1564
+msgid "Drop Procedure"
+msgstr "删除过程"
+
+#: SchemataTreeView.pas:1540
+msgid "Drop Schema"
+msgstr "删除数据库"
+
+#: SchemataTreeView.pas:1548
+msgid "Drop Table"
+msgstr "删除表"
+
+#: SchemataTreeView.pas:1556
+msgid "Drop View"
+msgstr "删除视图"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..CloneConnectionButton..Caption
+#: OptionsEditor.dfm:889
+msgid "Duplicate Connection"
+msgstr "复制连接"
+
+#: EditorTable.pas:510
+msgid "Dynamic"
+msgstr "动态"
+
+#  MyxTableEditorForm..TntActionList..DeleteSelectedColumnsAction..Category
+#  MyxTableEditorForm..TntActionList..CopyToClipboardAction..Category
+#  MyxTableEditorForm..TntActionList..PasteFromClipboardAction..Category
+#  MyxTableEditorForm..TntActionList..SelectAllAction..Category
+#  SchemataFrame..SchemaTreeViewPopupMenu..EditMI..Caption
+#: MyxTableEditor.dfm:1845
+#: MyxTableEditor.dfm:1893
+#: SchemataTreeView.dfm:203
+#: MySQLResultSetControls.pas:3471
+#: SchemataTreeView.pas:1577
+msgid "Edit"
+msgstr "编辑"
+
+#: SchemataTreeView.pas:1571
+msgid "Edit Function"
+msgstr "编辑函数"
+
+#: SchemataTreeView.pas:1563
+msgid "Edit Procedure"
+msgstr "编辑过程"
+
+#: SchemataTreeView.pas:1539
+msgid "Edit Schema"
+msgstr "编辑数据库"
+
+#: SchemataTreeView.pas:1547
+msgid "Edit Table"
+msgstr "编辑表"
+
+#: SchemataTreeView.pas:1555
+msgid "Edit View"
+msgstr "编辑视图"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..Caption
+#: OptionsEditor.dfm:895
+msgid "Editors"
+msgstr "编辑器"
+
+#  MyxTableEditorForm..TablePageControl..TableSheet..TableSheetPnl..TntLabel3..Caption
+#: MyxTableEditor.dfm:147
+msgid "Engine:"
+msgstr "引擎："
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox1..LanguageCBox..Text
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox1..LanguageCBox....Items.Strings
+#: OptionsEditor.dfm:355
+msgid "English"
+msgstr "英语"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..UsernameCBox....Height
+#: ConnectToInstance.dfm:636
+msgid "Enter a username of a user account which has privileges to connect to the instance"
+msgstr "键入用户帐户的用户名，它用于连接到实例"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..HostnameCBox....Height
+#: ConnectToInstance.dfm:577
+msgid "Enter the Hostname to connect to. Can be a network name or IP address"
+msgstr "键入要连接的主机名。可以是网络名或 IP 地址"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..AdvancedOptionsPageControl..MySQLOptionsTabSheet..PipeNameEdit....Height
+#: ConnectToInstance.dfm:733
+msgid "Enter the name to be used for the pipe. Must be the same as set for the server (see advanced networking page)"
+msgstr "键入要使用的管道名称。必须和服务器设置相同(参看高级网络设置页)"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..PasswordEd..Hint
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..PasswordEd..Hint
+#: ConnectToInstance.dfm:601
+msgid "Enter the password of the user account"
+msgstr "键入用户帐户的密码"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..SchemataEd..Hint
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..SchemataEd..Hint
+#: ConnectToInstance.dfm:623
+msgid "Enter the schema to select after the connection is established"
+msgstr "键入连接后要使用的数据库"
+
+#  Programmer's name for it: REG_USER_LOCATION
+#: AuxFuncs.pas:3090
+msgid "Environment"
+msgstr "环境"
+
+#  Connect to instance
+#: EditorTable.pas:2982
+#: MySQLConnection.pas:525
+#: MySQLConnection.pas:1309
+#: MySQLConnection.pas:1442
+#: MySQLResultSetControls.pas:577
+#: MyxError.pas:278
+#: MyxError.pas:285
+msgid "Error"
+msgstr "错误"
+
+#: OptionsEditor.pas:772
+msgid "Error Number "
+msgstr "错误编号"
+
+#: Grt.pas:2408
+msgid "Error initializing Delphi modules (%d)"
+msgstr "初始化 Delphi 模块出错 (%d)"
+
+#: Grt.pas:2435
+msgid "Error initializing Java module loader (%d). Please check the .\\java and .\\java\\lib directories."
+msgstr "初始化 Java 模块出错 (%d) 。请检查 .\\java 和 .\\java\\lib 目录。"
+
+#: Grt.pas:2474
+msgid "Error initializing Lua module loader (%d)"
+msgstr "初始化 Lua 模块出错 (%d)"
+
+#: Grt.pas:2456
+msgid "Error initializing PHP module loader (%d)"
+msgstr "初始化 PHP 模块出错 (%d)"
+
+#: Grt.pas:2490
+msgid "Error initializing Python module loader (%d)"
+msgstr "初始化 Python 模块载入程序出错 (%d)"
+
+#: MySQLResultSet.pas:1265
+msgid "Error while allocating memory for MySQL Struct in Query Execute Thread."
+msgstr "在查询执行线程为 MySQL 结构分配内存时出现错误。"
+
+#: ConnectToInstance.pas:508
+msgid "Error while allocating memory for MySQL Struct."
+msgstr "为 MySQL 结构分配内存时出现错误。"
+
+#  Apply actions.
+#: MySQLResultSet.pas:1028
+msgid "Error while applying actions."
+msgstr "应用操作时出现错误。"
+
+#  Update resultset which will clear or re-generate a action list.
+#: MySQLResultSet.pas:1053
+msgid "Error while applying changes to the result set."
+msgstr "当应用更改到结果设置时出现错误。"
+
+#: MySQLConnection.pas:911
+msgid "Error while executing query."
+msgstr "执行查询时出现错误。"
+
+#: Grt.pas:2550
+msgid "Error while loading %s modules (%d)."
+msgstr "载入 %s 模块时出现错误 (%d) 。"
+
+#  Fetch connections from library
+#  Fetch connections
+#: MySQLConnection.pas:430
+msgid "Error while loading stored connections."
+msgstr "载入存储的连接时出现错误。"
+
+#: Grt.pas:2359
+msgid "Error while loading struct definitions (%d)."
+msgstr "载入结构定义时出现错误 (%d) 。"
+
+#: MySQLResultSetControls.pas:3647
+msgid "ErrorNr."
+msgstr "错误编号"
+
+#: Grt.pas:2285
+msgid "Exception encountered while executing the shell command: \"%s\""
+msgstr "执行 shell 命令： \"%s\" 时遭遇异常。"
+
+#: EditorTable.pas:3104
+msgid ""
+"Execute\n"
+"Cancel"
+msgstr ""
+"执行\n"
+"取消"
+
+#  EditorSqlForm..BottomPnl..ExecuteSQLBtn..Caption
+#: EditorSql.dfm:48
+msgid "Execute SQL"
+msgstr "执行 SQL"
+
+#: MySQLConnection.pas:911
+msgid "Execution Error"
+msgstr "执行错误"
+
+#: Options.pas:743
+msgid "Exit"
+msgstr "退出"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..Label8..Caption
+#: OptionsEditor.dfm:933
+msgid "FK naming:"
+msgstr "FK 名："
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblFKNamingEd....Items.Strings
+#: OptionsEditor.dfm:1035
+msgid "FK%tablename%%nr%"
+msgstr "FK%tablename%%nr%"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblFKNamingEd..Text
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblFKNamingEd....Items.Strings
+#: OptionsEditor.dfm:1031
+msgid "FK_%tablename%_%nr%"
+msgstr "FK_%tablename%_%nr%"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..DefaultStorageEngineLU....Items.Strings
+#: OptionsEditor.dfm:1072
+msgid "Falcon"
+msgstr "Falcon"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..TntGroupBox3..Caption
+#: EditorTable.dfm:1547
+msgid "Federated"
+msgstr "联合"
+
+#  (Re-)load CatalogList, AllowDuplicatedKindOfData
+#: SchemataTreeView.pas:924
+msgid "Fetching Catalogs/Schemata data ..."
+msgstr "读取目录/数据库数据 ..."
+
+#  SchemaSelectionForm..SchemataFrame..CatalogVST..WideDefaultText
+#  SchemataFrame..CatalogVST..WideDefaultText
+#: SchemaSelection.dfm:37
+msgid "Fetching Data ..."
+msgstr "读取数据 ..."
+
+#  Check if the schema node's subdata has been loaded already.
+#: SchemataTreeView.pas:585
+msgid "Fetching assets ..."
+msgstr "读取 assets ..."
+
+#: MyxConnectionDialog.pas:520
+msgid "Fetching of list failed."
+msgstr "列表读取失败。"
+
+#  MySQLResultSetFieldViewerForm..Caption
+#: MySQLResultSetFieldViewer.dfm:5
+msgid "Field Viewer"
+msgstr "字段预览"
+
+#: MySQLResultSetControls.pas:3457
+msgid "First"
+msgstr "首先"
+
+#: EditorTable.pas:511
+msgid "Fixed"
+msgstr "Fixed"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnVST......WideText
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST......WideText
+#: EditorTable.dfm:267
+msgid "Flags"
+msgstr "标记"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntLabel6..Caption
+#: EditorTable.dfm:733
+msgid "Flags:"
+msgstr "标记："
+
+#: MyxError.pas:182
+msgid "Following warnings / errors have been encountered:"
+msgstr "遭遇下面的警告/错误："
+
+#  MyxTableEditorForm..TablePageControl..ForeignKeySheet..FkSheetPnl..ForeignKeyVST......WideText
+#: MyxTableEditor.dfm:742
+msgid "Foreign Key Name"
+msgstr "外键名"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..FKTabsheet..TntGroupBox2..Caption
+#: EditorTable.dfm:567
+msgid "Foreign Key Settings"
+msgstr "外键设置"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..FKTabsheet..Caption
+#  MyxTableEditorForm..TablePageControl..ForeignKeySheet..Caption
+#: EditorTable.dfm:519
+msgid "Foreign Keys"
+msgstr "外键"
+
+#: EditorTable.pas:2202
+msgid "Foreign keys are currently only supported for the InnoDB storage engine."
+msgstr "当前外键仅支持 InnoDB 存储引擎。"
+
+#  RoutineFrame..TntActionList1..SetBodyFunctionAction..Caption
+#: MyxRoutineEditorFrame.dfm:463
+msgid "Function Body"
+msgstr "函数体"
+
+#  OptionsForm..HeaderPnl..TitleLbl..Caption
+#  OptionsForm..OptionPageControl..GeneralTabSheet..Caption
+#: OptionsEditor.dfm:262
+msgid "General"
+msgstr "常规"
+
+#: OptionsEditor.pas:399
+msgid "General Options"
+msgstr "常规选项"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox3..Caption
+#: OptionsEditor.dfm:1085
+msgid "General Settings"
+msgstr "常规设置"
+
+#: MyxRoutineEditorFrame.pas:168
+msgid "Getting a routine's name"
+msgstr "得到一个 routine 名"
+
+#: MyxRoutineEditorFrame.pas:185
+msgid "Getting a routine's type"
+msgstr "得到一个 routine 的类型"
+
+#: MyxRoutineEditorFrame.pas:457
+msgid "Getting a trigger's event"
+msgstr "得到一个触发器事件"
+
+#: MyxRoutineEditorFrame.pas:427
+msgid "Getting a trigger's name"
+msgstr "得到一个触发器名"
+
+#: MyxRoutineEditorFrame.pas:444
+msgid "Getting a trigger's statement"
+msgstr "得到一个触发器语句"
+
+#: MyxRoutineEditorFrame.pas:469
+msgid "Getting a trigger's timing"
+msgstr "得到一个触发器的时间"
+
+#  MyxRoutineGroupEditorForm..RoutinePageControl..RoutineGroupSheet..RoutineGroupSheetPnl..NameLbl..Caption
+#: MyxRoutineGroupEditor.dfm:242
+msgid "Group Name:"
+msgstr "组名："
+
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST....ClipboardFormats.Strings
+#: MyxTableEditor.dfm:440
+msgid "HTML Format"
+msgstr "HTML 格式"
+
+#: OptionsEditor.pas:781
+msgid "History"
+msgstr "历史"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..HostnameLbl..Caption
+#: OptionsEditor.dfm:728
+msgid "Hostname:"
+msgstr "主机名："
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblPKDatatypeEd..Text
+#: OptionsEditor.dfm:1045
+msgid "INTEGER"
+msgstr "INTEGER"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..DefaultStorageEngineLU....Items.Strings
+#: OptionsEditor.dfm:1077
+msgid "ISAM"
+msgstr "ISAM"
+
+#: ConnectToInstance.pas:949
+msgid "Ignore"
+msgstr "忽略"
+
+#  MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..ObjIgnoreVT......WideText
+#: MigrationObjSelFilter.dfm:114
+msgid "Ignored Objects"
+msgstr "被忽略的对象"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..TntGroupBox2..TntLabel6..Caption
+#: OptionsEditor.dfm:643
+msgid "Ignorelist:"
+msgstr "忽略列表："
+
+#  MySQLResultSetFieldViewerForm..PageControl..ImageSheet..Caption
+#: MySQLResultSetFieldViewer.dfm:76
+msgid "Image"
+msgstr "图象"
+
+#  MySQLResultSetFieldViewerForm..PageControl..ImageSheet..ImageSheetBtnPnl..ImageFormatTitleLbl..Caption
+#: MySQLResultSetFieldViewer.dfm:119
+msgid "Image Format:"
+msgstr "图象格式："
+
+#: MySQLResultSet.pas:1482
+msgid "In order to keep the system responsive record set retrieval has been stopped."
+msgstr "为保持系统响应记录设置，检索已被停止。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..IndexTabsheet..TntGroupBox1..TntLabel12..Caption
+#: EditorTable.dfm:390
+msgid "Index Columns"
+msgstr "索引字段"
+
+#  MyxTableEditorForm..TablePageControl..IndicesSheet..IndexContentPnl..IndexDetailsPnl..TntGroupBox3..Caption
+#: MyxTableEditor.dfm:581
+msgid "Index Details"
+msgstr "索引资料"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..StorageOptionsGBox..TntLabel28..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..StorageOptionsGBox..TntLabel28..Caption
+#: EditorTable.dfm:1082
+msgid "Index Directory:"
+msgstr "索引目录："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..IndexTabsheet..TntGroupBox1..IndexKindLbl..Caption
+#: EditorTable.dfm:383
+msgid "Index Kind:"
+msgstr "索引种类："
+
+#  MyxTableEditorForm..TablePageControl..IndicesSheet..IndexContentPnl..IndexVST......WideText
+#: MyxTableEditor.dfm:616
+msgid "Index Name"
+msgstr "索引名"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..IndexTabsheet..TntGroupBox1..Caption
+#: EditorTable.dfm:366
+msgid "Index Settings"
+msgstr "索引设置"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..IndexTabsheet..TntGroupBox1..IndexTypeLbl..Caption
+#: EditorTable.dfm:398
+msgid "Index Type:"
+msgstr "索引类型："
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..Label7..Caption
+#: OptionsEditor.dfm:925
+msgid "Index naming:"
+msgstr "索引名："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..IndexTabsheet..Caption
+#  MyxTableEditorForm..TablePageControl..IndicesSheet..Caption
+#  SchemataFrame..SchemaSearchPopupMenu..CustomMI..IndicesSubMI..Caption
+#: EditorTable.dfm:292
+#: SchemataTreeView.pas:1778
+msgid "Indices"
+msgstr "索引"
+
+#  Init Java loader
+#: Grt.pas:2414
+msgid "Initializing Java loader..."
+msgstr "正在初始化 Java 载入程序..."
+
+#  Init lua loader
+#: Grt.pas:2462
+msgid "Initializing Lua loader..."
+msgstr "正在初始化 Lua 载入程序..."
+
+#  Init PHP loader
+#: Grt.pas:2443
+msgid "Initializing PHP loader..."
+msgstr "正在初始化 PHP 载入程序..."
+
+#  Init python loader
+#: Grt.pas:2478
+msgid "Initializing Python loader..."
+msgstr "正在初始化 Python 载入程序..."
+
+#  Init Delphi loader
+#: Grt.pas:2396
+msgid "Initializing native loader..."
+msgstr "正在初始化 ..."
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..DefaultStorageEngineLU....Items.Strings
+#: OptionsEditor.dfm:1070
+msgid "InnoDB"
+msgstr "InnoDB"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..MergeOptionGBox..MergeInsertMethodCapionLbl..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..MergeOptionGBox..MergeInsertMethodCapionLbl..Caption
+#: EditorTable.dfm:1496
+msgid "Insert Method:"
+msgstr "Insert 方法："
+
+#: EditorTable.pas:500
+msgid "Inserts into first table"
+msgstr "插入到第一个表"
+
+#: EditorTable.pas:501
+msgid "Inserts into last table"
+msgstr "插入到最后一个表"
+
+#: MySQLResultSetFieldViewer.pas:180
+msgid "JPEG"
+msgstr "JPEG"
+
+#: MySQLResultSetFieldViewer.pas:187
+msgid "JPG image corrupted."
+msgstr "JPG 图象损坏。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..FKTabsheet..TntGroupBox2..TntLabel14..Caption
+#: EditorTable.dfm:577
+msgid "Key Name:"
+msgstr "键名："
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox1..Label3..Caption
+#: OptionsEditor.dfm:298
+msgid "Language:"
+msgstr "语言："
+
+#: MySQLResultSetControls.pas:3453
+msgid "Last"
+msgstr "最后"
+
+#  MyxTableEditorForm..TablePageControl..IndicesSheet..IndexContentPnl..IndexColumnVST......WideText
+#: MyxTableEditor.dfm:670
+msgid "Length"
+msgstr "长度"
+
+#: MyxError.pas:274
+msgid "Library Error"
+msgstr "Library 错误"
+
+#: MyxError.pas:199
+msgid ""
+"Library Error Number %d\n"
+"%s"
+msgstr ""
+"Library 错误号 %d\n"
+"%s"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..MergeOptionGBox..UnionTablesDescLbl..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..MergeOptionGBox..UnionTablesDescLbl..Caption
+#: EditorTable.dfm:1511
+msgid "List of MyISAM tables that should be used by the MERGE table."
+msgstr "MyISAM 表列表将被用于 MERGE 表。"
+
+#  MyxConnectionDialogForm..ParamsMainPnl..DriverNotInstalledPnl..LocateDriverBtn..Caption
+#: MyxConnectionDialog.dfm:73
+msgid "Locate Driver on Harddisk"
+msgstr "在硬盘定位驱动"
+
+#: EditorTable.pas:1807
+msgid "Lost server connection during table manipulation. Changes will be cancelled and the editor will be closed."
+msgstr "在操作表期间连接失效。更改将被取消，编辑器将被关闭。"
+
+#  MigrationObjMapDetailFrame..ObjectSelGBox..Caption
+#: MigrationObjMapDetail.dfm:18
+msgid "Mapping of Type Oracle Table"
+msgstr "Oracle 表映射类型"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel25..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel25..Caption
+#: EditorTable.dfm:1150
+msgid "Max Rows:"
+msgstr "最大行："
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..DefaultStorageEngineLU....Items.Strings
+#: OptionsEditor.dfm:1074
+msgid "Memory"
+msgstr "内存"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..DefaultStorageEngineLU....Items.Strings
+#: OptionsEditor.dfm:1075
+msgid "Merge"
+msgstr "合并"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..MergeOptionGBox..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..MergeOptionGBox..Caption
+#: EditorTable.dfm:1489
+msgid "Merge Table Options"
+msgstr "合并表选项"
+
+#  MigrationObjSelFilterFrame..MigrateCBox..Caption
+#: MigrationObjSelFilter.dfm:238
+msgid "Migrate Objects of Type Oracle Table"
+msgstr "迁移 Oracle 表对象类型"
+
+#  MigrationObjMapDetailFrame..ObjectSelGBox..TntLabel2..Caption
+#: MigrationObjMapDetail.dfm:34
+msgid "Migration method:"
+msgstr "迁移方法："
+
+#: MigrationObjMapDetail.pas:183
+msgid "Migration of type %s"
+msgstr "迁移类型 %s"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel24..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel24..Caption
+#: EditorTable.dfm:1143
+msgid "Min Rows:"
+msgstr "最小行："
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..DefaultStorageEngineLU....Items.Strings
+#: OptionsEditor.dfm:1071
+msgid "MyISAM"
+msgstr "MyISAM"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..TypeCBox....Items.Strings
+#: OptionsEditor.dfm:790
+msgid "MySQL"
+msgstr "MySQL"
+
+#  ConnectToInstanceForm..Caption
+#: ConnectToInstance.dfm:7
+msgid "MySQL Administrator"
+msgstr "MySQL Administrator"
+
+#: MySQLConnection.pas:912
+msgid "MySQL Error Number "
+msgstr "MySQL 错误编号"
+
+#: MySQLConnection.pas:527
+msgid ""
+"MySQL Error Number %d\n"
+"%s"
+msgstr ""
+"MySQL 错误编号 %d\n"
+"%s"
+
+#  EditorSqlForm..Caption
+#: EditorSql.dfm:5
+msgid "MySQL SQL Editor"
+msgstr "MySQL SQL 编辑器"
+
+#  EditorTableForm..Caption
+#: EditorTable.dfm:5
+msgid "MySQL Table Editor"
+msgstr "MySQL 表编辑器"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..AdvancedOptionsPageControl..MySQLOptionsTabSheet..Caption
+#: ConnectToInstance.dfm:678
+msgid "MySQLOptionsTabSheet"
+msgstr "MySQL选项TabSheet"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..DefaultStorageEngineLU....Items.Strings
+#: OptionsEditor.dfm:1073
+msgid "NDB"
+msgstr "NDB"
+
+#: MyxTableEditorFkVTEdit.pas:627
+msgid "NO ACTION"
+msgstr "非活动的"
+
+#: MyxTableEditor.pas:1918
+msgid "NOT NULL"
+msgstr "非空"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntLabel4..Caption
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnsDetailsPnl..ColumnDetailsGroupBox..TntLabel4..Caption
+#: EditorTable.dfm:719
+#: MyxTabHeader.pas:1587
+#: SchemataTreeView.pas:2427
+#: TabHeader.pas:1319
+msgid "Name:"
+msgstr "名字："
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..AddConnectionButton..Caption
+#: OptionsEditor.dfm:871
+msgid "New Connection"
+msgstr "新连接"
+
+#  Fill charsets.
+#: EditorTable.pas:848
+msgid "New Table"
+msgstr "新表"
+
+#  RoutineFrame..RoutinePanel..RoutineHeaderPanel..RoutineLbl..Caption
+#: MyxRoutineEditorFrame.dfm:44
+msgid "New_Routine"
+msgstr "New_Routine"
+
+#  MyxTableEditorForm..TntActionList..NextTabsheetAction..Caption
+#: MyxTableEditor.dfm:1835
+msgid "Next Tabsheet"
+msgstr "下一个 Tabsheet"
+
+#: ConnectToInstance.pas:980
+#: EditorTable.pas:758
+#: EditorTable.pas:3223
+#: MyxConnectionDialog.pas:1255
+#: OptionsEditor.pas:556
+#: OptionsEditor.pas:683
+msgid "No"
+msgstr "否"
+
+#: EditorTable.pas:519
+msgid "No Action"
+msgstr "非活动"
+
+#  Execute Script
+#: EditorTable.pas:3115
+msgid "No Changes"
+msgstr "不更改"
+
+#: EditorTable.pas:499
+msgid "No Inserts"
+msgstr "不插入"
+
+#: MySQLResultSet.pas:554
+msgid "No SQL Command"
+msgstr "无 SQL 命令"
+
+#  TextSearchForm..NoMatchFoundPnl..Caption
+#: TextSearch.dfm:316
+msgid "No match found."
+msgstr "没有匹配的结果。"
+
+#  MigrationObjMapDetailFrame..ObjectSelGBox..DefMethodDescLbl..Caption
+#: MigrationObjMapDetail.dfm:42
+msgid "No migration method available for this source type."
+msgstr "针对此源类型无迁移方法。"
+
+#: MySQLResultSet.pas:1733
+msgid "No resultset returned."
+msgstr "没有结果被返回。"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..DefaultStorageEngineLU....Items.Strings
+#: OptionsEditor.dfm:1069
+msgid "None"
+msgstr "无"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntGroupBox5..ColumnNotNullCBox..Caption
+#: EditorTable.dfm:850
+msgid "Not Null"
+msgstr "非空"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox1..Label4....AutoSize
+#: OptionsEditor.dfm:315
+msgid "Note: a localized help for languages other than english is available from the MySQL site."
+msgstr "注意：一个非英语的本地化帮助可以从 MySQL 站点获得。"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..Label1..Caption
+#: OptionsEditor.dfm:750
+msgid "Notes:"
+msgstr "注意："
+
+#: EditorTable.pas:3613
+msgid "Nothing selected"
+msgstr "没有选择任何东西"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RaidOptionsGBox..NumberOfChunksCaptionLbl..Caption
+#: EditorTable.dfm:1277
+msgid "Number of Chunks:"
+msgstr "Chunks 的编号："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RaidOptionsGBox..NumberOfChunksDescLbl....AutoSize
+#: EditorTable.dfm:1316
+msgid "Number of chunks to create, the maximum value is 255. For each chunk there will be a subdirectory created named '00', '01', ... and a 'tbl_name.MYD' file will be created in each directory."
+msgstr "chunks 创建的最大编号是 255。针对每一个 chunk 都将创建一个子目录，例如 '00','01'...，并且在每个目录中都会创建一个 'tbl_name.MYD' 文件。"
+
+#  MigrationObjSelFilterFrame..ObjectSelGBox..ObjectsToMigrateLbl..Caption
+#: MigrationObjSelFilter.dfm:46
+msgid "Number to migrate:"
+msgstr "迁移编号："
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..TypeCBox....Items.Strings
+#: OptionsEditor.dfm:792
+msgid "ODBC"
+msgstr "ODBC"
+
+#  AboutForm..CloseBtn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..TextSheet..TextSheetBtnPnl..OKBtn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..ImageSheet..ImageSheetBtnPnl..Ok2Btn..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..BinarySheet..TntPanel1..OK3Btn..Caption
+#  MyxConnectionDialogForm..BottomPnl..OKBtn..Caption
+#  SchemaSelectionForm..BottomPnl..OKBtn..Caption
+#: About.dfm:105
+#: MySQLResultSetFieldViewer.dfm:156
+#: MySQLResultSetFieldViewer.dfm:886
+#: MyxConnectionDialog.dfm:268
+#: SchemaSelection.dfm:120
+#: ConnectToInstance.pas:856
+#: ConnectToInstance.pas:949
+#: ConnectToInstance.pas:963
+#: EditorTable.pas:1807
+#: EditorTable.pas:2203
+#: EditorTable.pas:2623
+#: EditorTable.pas:2959
+#: EditorTable.pas:2984
+#: EditorTable.pas:3117
+#: EditorTable.pas:3620
+#: EditorTable.pas:3629
+#: MigrationObjSelFilter.pas:572
+#: MySQLConnection.pas:458
+#: MySQLConnection.pas:1442
+#: MyxError.pas:264
+#: MyxError.pas:269
+#: MyxError.pas:274
+#: MyxError.pas:279
+#: SchemataTreeView.pas:1498
+#: SchemataTreeView.pas:2248
+msgid "OK"
+msgstr "确定"
+
+#  MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..ObjListVT......WideText
+#: MigrationObjSelFilter.dfm:167
+msgid "Object to Migrate"
+msgstr "迁移的对象"
+
+#: MigrationObjSelFilter.pas:212
+msgid "Objects of type %s"
+msgstr "对象类型 %s"
+
+#  MigrationObjSelFilterFrame..ObjectSelGBox..TntLabel1..Caption
+#: MigrationObjSelFilter.dfm:53
+msgid "Objects of type:"
+msgstr "对象类型："
+
+#: MySQLResultSet.pas:556
+msgid "Ok"
+msgstr "确定"
+
+#  MyxTableEditorForm..TablePageControl..ForeignKeySheet..FkSheetPnl..ForeignKeyVST......WideText
+#: MyxTableEditor.dfm:757
+msgid "On Delete"
+msgstr "On Delete"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..FKTabsheet..TntGroupBox2..TntLabel15..Caption
+#: EditorTable.dfm:584
+msgid "On Delete:"
+msgstr "On Delete:"
+
+#  MyxTableEditorForm..TablePageControl..ForeignKeySheet..FkSheetPnl..ForeignKeyVST......WideText
+#: MyxTableEditor.dfm:752
+msgid "On Update"
+msgstr "On Update"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..FKTabsheet..TntGroupBox2..TntLabel16..Caption
+#: EditorTable.dfm:591
+msgid "On Update:"
+msgstr "On Update:"
+
+#  There can only be one PRIMARY index
+#: EditorTable.pas:2621
+msgid "Only one Primary Key"
+msgstr "仅一个主键"
+
+#: MySQLResultSetControls.pas:540
+msgid "Only two resultsets can be compared. Use the [Split Tab] function in the grid's popup menu to get a second grid."
+msgstr "仅有两个结果集可用于比较。使用表格的弹出菜单中的 [拆分页面(Tab)] 功能来得到一个子表格。"
+
+#: MyxConnectionDialog.pas:673
+msgid "Open File ..."
+msgstr "打开文件 ..."
+
+#  OptionsForm..Caption
+#  TextSearchForm..PageControl..OptionsTabSheet..Caption
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..OptionsGBox..Caption
+#: OptionsEditor.dfm:5
+msgid "Options"
+msgstr "选项"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..TypeCBox....Items.Strings
+#: OptionsEditor.dfm:791
+msgid "Oracle"
+msgstr "Oracle"
+
+#  MigrationObjSelFilterFrame..ObjectSelGBox..StructTypeLbl..Caption
+#: MigrationObjSelFilter.dfm:60
+msgid "Oracle Table"
+msgstr "Oracle 表"
+
+#  MyxTableEditorForm..TablePageControl..IndicesSheet..IndexContentPnl..IndexColumnVST......WideText
+#: MyxTableEditor.dfm:665
+msgid "Order"
+msgstr "排序"
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..TntGroupBox1..Caption
+#: TextSearch.dfm:282
+msgid "Origin"
+msgstr "起点"
+
+#: MigrationObjSelFilter.pas:424
+msgid "Owner object of %s not found"
+msgstr "%s 的自身对象没有发现"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..PortLbl..Caption
+#: ConnectToInstance.dfm:557
+msgid "P&ort:"
+msgstr "端口&o："
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..Label6..Caption
+#: OptionsEditor.dfm:917
+msgid "PK Naming:"
+msgstr "PK 名："
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..Label9..Caption
+#: OptionsEditor.dfm:942
+msgid "PK datatype:"
+msgstr "PK 数据类型："
+
+#: MySQLResultSetFieldViewer.pas:163
+msgid "PNG"
+msgstr "PNG"
+
+#: MySQLResultSetFieldViewer.pas:170
+msgid "PNG image corrupted."
+msgstr "PNG 文件被破坏。"
+
+#: EditorTable.pas:506
+msgid "Pack All"
+msgstr "压缩所有"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..VariousGBox..TntLabel19..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..VariousGBox..TntLabel19..Caption
+#: EditorTable.dfm:1389
+msgid "Pack Keys:"
+msgstr "压缩键："
+
+#: EditorTable.pas:505
+msgid "Pack None"
+msgstr "不压缩"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnAdvTabSheet..ConnValueListEditor....TitleCaptions.Strings
+#: OptionsEditor.dfm:857
+msgid "Parameter"
+msgstr "参数"
+
+#  MigrationObjMapDetailFrame..ObjectSelGBox..ParameterLbl..Caption
+#: MigrationObjMapDetail.dfm:49
+msgid "Parameter:"
+msgstr "参数："
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..TntGroupBox1..Caption
+#: OptionsEditor.dfm:600
+msgid "Password Storage"
+msgstr "密码存储"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..TntGroupBox1..PasswordStorageTypeLbl..Caption
+#: OptionsEditor.dfm:608
+msgid "Password storage method:"
+msgstr "密码存储方法："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..VariousGBox..TntLabel52....AutoSize
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..VariousGBox..TntLabel52....AutoSize
+#: EditorTable.dfm:1425
+msgid "Password to encrypt the table definition file. This option doesn't do anything in the standard MySQL version."
+msgstr "密码用于加密表定义文件。在标准 MySQL 版本中这个选项无效。"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..PasswordLbl..Caption
+#: OptionsEditor.dfm:714
+msgid "Password:"
+msgstr "密码："
+
+#  MyxTableEditorForm..TntActionList..PasteFromClipboardAction..Caption
+#: MyxTableEditor.dfm:1887
+msgid "Paste column definition from clipboard"
+msgstr "从剪贴板粘贴字段定义"
+
+#: MigrationObjSelFilter.pas:573
+msgid "Pattern"
+msgstr "模式"
+
+#: ConnectToInstance.pas:856
+msgid "Ping"
+msgstr "Ping"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..AdvancedOptionsPageControl..MySQLOptionsTabSheet..PipeNameLabel..Caption
+#: ConnectToInstance.dfm:689
+msgid "Pipe name:"
+msgstr "管道名称："
+
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST....ClipboardFormats.Strings
+#: MyxTableEditor.dfm:441
+msgid "Plain text"
+msgstr "纯文本"
+
+#: MyxTableEditor.pas:3111
+msgid "Please columns to the table before adding the foreign keys."
+msgstr "在增加外键前请选择字段。"
+
+#: MyxConnectionDialog.pas:1186
+msgid "Please enter a name for the connection."
+msgstr "请键入连接名。"
+
+#: SchemataTreeView.pas:1498
+msgid "Please enter a name for the new schema."
+msgstr "请键入新数据库的名字。"
+
+#: EditorTable.pas:2716
+msgid "Please enter the name of the new foreign key."
+msgstr "请键入新的外键名。"
+
+#: EditorTable.pas:2556
+msgid "Please enter the name of the new index."
+msgstr "请键入新索引的名字。"
+
+#: SchemataTreeView.pas:2426
+msgid "Please enter the new name for the table %s."
+msgstr "请键入表 %s 的新名字。"
+
+#: MyxTabHeader.pas:1586
+msgid "Please enter the new name of the tabsheet."
+msgstr "请键入 tabsheet 的新名字。"
+
+#: MigrationObjSelFilter.pas:571
+msgid "Please enter the pattern to ignore. You can use * and ? to match the objects you would like to ignore. Please note that the string is matched case sensitive"
+msgstr "请输入忽略的模式。你可以使用 * 和 ? 来匹配你想忽略的对象。请注意字符串是区分大小写的。"
+
+#: SchemataTreeView.pas:2273
+msgid "Please note that this action cannot be rolled back."
+msgstr "请注意这个操作不能回滚。"
+
+#  SchemaSelectionForm..HeaderPnl..Label2..Caption
+#: SchemaSelection.dfm:82
+msgid "Please select a schema from the schema list "
+msgstr "请从数据库列表中选择一个数据库"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..PortLbl..Caption
+#: OptionsEditor.dfm:721
+msgid "Port:"
+msgstr "端口："
+
+#  MyxTableEditorForm..TntActionList..PreviousTabsheetAction..Caption
+#: MyxTableEditor.dfm:1840
+msgid "Previous Tabsheet"
+msgstr "前一 Tabsheet"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..TntTabSheet1..TntGroupBox5..ColumnPKCBox..Caption
+#: EditorTable.dfm:841
+msgid "Primary Key"
+msgstr "主键"
+
+#: MySQLResultSet.pas:1453
+msgid "Problem while executing query"
+msgstr "当执行查询时出现问题"
+
+#  RoutineFrame..TntActionList1..SetBodyProcedureAction..Caption
+#: MyxRoutineEditorFrame.dfm:467
+msgid "Procedure Body"
+msgstr "过程体"
+
+#  ProgressForm..ProgressGBox..Caption
+#: Progress.dfm:36
+msgid "Progress"
+msgstr "进度"
+
+#  ProgressForm..Caption
+#: Progress.dfm:6
+msgid "Progress ..."
+msgstr "进度 ..."
+
+#: MySQLResultSet.pas:1268
+msgid "Query Execute Thread cannot connect to MySQL"
+msgstr "查询不能连接 MySQL"
+
+#: MySQLResultSet.pas:1704
+msgid "Query aborted."
+msgstr "查询失败。"
+
+#: MySQLResultSet.pas:1701
+msgid "Query aborted. %d rows fetched so far in %.4fs (%.4fs)"
+msgstr "查询失败。 %d 行被读取，耗时 %.4fs (%.4fs)"
+
+#: MySQLResultSet.pas:1195
+msgid "Query is being executed..."
+msgstr "正在执行查询..."
+
+#: MySQLResultSet.pas:1164
+msgid "Query is being stopped..."
+msgstr "查询正在被停止..."
+
+#: MySQLResultSet.pas:1677
+msgid "Query returned no resultset."
+msgstr "查询无返回结果。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RaidOptionsGBox..TntLabel29..Caption
+#: EditorTable.dfm:1270
+msgid "RAID Type:"
+msgstr "RAID 类型："
+
+#: SchemataTreeView.pas:2429
+msgid "RENAME TABLE `%s`.`%s` TO `%s`.`%s`"
+msgstr "重命名表 `%s`.`%s` 为 `%s`.`%s`"
+
+#: MyxTableEditorFkVTEdit.pas:632
+msgid "RESTRICT"
+msgstr "限制(RESTRICT)"
+
+#: MyxTableEditor.pas:622
+msgid "Redundant"
+msgstr "冗余"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..FKTabsheet..TntGroupBox2..TntLabel17..Caption
+#: EditorTable.dfm:598
+msgid "Ref. Table:"
+msgstr "Ref. 表："
+
+#  MyxTableEditorForm..TablePageControl..ForeignKeySheet..FkSheetPnl..ForeignKeyColumnVST......WideText
+#: MyxTableEditor.dfm:801
+msgid "Refered Column"
+msgstr "引用字段"
+
+#  MyxTableEditorForm..TablePageControl..ForeignKeySheet..FkSheetPnl..ForeignKeyVST......WideText
+#: MyxTableEditor.dfm:747
+msgid "Refered Table"
+msgstr "引用表"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..ColumnTabSheet..ColumnsPageControl..FKTabsheet..TntGroupBox2..FKColsVST......WideText
+#: EditorTable.dfm:656
+msgid "Reference Column"
+msgstr "引用字段"
+
+#  SchemataFrame..SchemaTreeViewPopupMenu..RefreshCatalogsSchemataListMI..Caption
+#: SchemataTreeView.dfm:270
+msgid "Refresh"
+msgstr "刷新"
+
+#: Grt.pas:2559
+msgid "Registered %d %s modules."
+msgstr "已注册 %d %s 模块。"
+
+#: Grt.pas:2367
+msgid "Registered %d struct definition files."
+msgstr "已注册 %d 结构定义文件。"
+
+#: Grt.pas:2555
+msgid "Registered 1 %s module."
+msgstr "已注册 1 %s 模块。"
+
+#: Grt.pas:2364
+msgid "Registered 1 struct definition file."
+msgstr "已注册一个结构定义文件。"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..TntGroupBox2..RemoveWarningFromIgnoreListBtn..Caption
+#: OptionsEditor.dfm:659
+msgid "Remove"
+msgstr "移除"
+
+#  EditorTableForm..FKColumnPopupMenu..RemoveFKColumnMI..Caption
+#: EditorTable.dfm:1916
+msgid "Remove Column"
+msgstr "移除字段"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..AdvancedOptionsPageControl..AdvancedOptionsGeneralTabSheet..AdvancedOptionsBottomPnl..AdvancedOptionsBottomRightPnl..AdvancedOptionsDelBtn..Hint
+#  MyxConnectionDialogForm..ParamsMainPnl..ConnectGBox..StoredConnPnl..StoredConnDelBtn..Hint
+#: ConnectToInstance.dfm:781
+msgid "Remove Option"
+msgstr "移除选项"
+
+#  MigrationObjSelFilterFrame..ObjectSelGBox..DetailFilterPnl..RemoveFromIgnoreListBtn..Hint
+#: MigrationObjSelFilter.dfm:122
+msgid "Remove selected objects from the ignore list"
+msgstr "从忽略列表中移除所选定的对象"
+
+#  SchemataFrame..SchemaTreeViewPopupMenu..RenameMI..Caption
+#: SchemataTreeView.dfm:210
+#: SchemataTreeView.pas:2427
+#: TabHeader.pas:1319
+msgid "Rename"
+msgstr "重命名"
+
+#: SchemataTreeView.pas:1573
+msgid "Rename Function"
+msgstr "重命名函数"
+
+#: SchemataTreeView.pas:1565
+msgid "Rename Procedure"
+msgstr "重命名过程"
+
+#: SchemataTreeView.pas:1541
+msgid "Rename Schema"
+msgstr "重命名数据库"
+
+#: SchemataTreeView.pas:1549
+msgid "Rename Table"
+msgstr "重命名表"
+
+#  MyxTabHeaderFrame..TabHeaderPopupMenu..RenameTabsheetMI..Caption
+#  TabHeaderFrame..TabHeaderPopupMenu..RenameTabsheetMI..Caption
+#: MyxTabHeader.dfm:15
+msgid "Rename Tabsheet"
+msgstr "重命名 Tabsheet"
+
+#: SchemataTreeView.pas:1557
+msgid "Rename View"
+msgstr "重命名视图"
+
+#  TextSearchForm..PageControl..ReplaceTabSheet..Caption
+#  TextSearchForm..PageControl..ReplaceTabSheet..ReplaceBtn..Caption
+#: TextSearch.dfm:95
+#: MyxRoutineEditorFrame.pas:356
+msgid "Replace"
+msgstr "替换"
+
+#  TextSearchForm..PageControl..ReplaceTabSheet..ReplaceAllBtn..Caption
+#: TextSearch.dfm:139
+msgid "Replace All"
+msgstr "替换所有"
+
+#: MyxRoutineEditorFrame.pas:334
+msgid "Replace Text"
+msgstr "替换文本"
+
+#  TextSearchForm..PageControl..ReplaceTabSheet..ReplaceWithLbl..Caption
+#: TextSearch.dfm:113
+msgid "Replace with:"
+msgstr "替换用："
+
+#  Print result
+#: ConnectToInstance.pas:1034
+msgid "Reply from"
+msgstr "答复来自"
+
+#: ConnectToInstance.pas:1039
+msgid "Request timed out."
+msgstr "请求超时"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..AdvancedOptionsPageControl..AdvancedOptionsGeneralTabSheet..AdvancedOptionsBottomPnl..AdvancedOptionsBottomRightPnl..AdvancedOptionsResetBtn..Hint
+#: ConnectToInstance.dfm:819
+msgid "Reset Options to Defaul Values"
+msgstr "重置选项为默认值"
+
+#: MyxError.pas:250
+msgid "Restart"
+msgstr "重启"
+
+#: EditorTable.pas:522
+msgid "Restrict"
+msgstr "限制"
+
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST....ClipboardFormats.Strings
+#: MyxTableEditor.dfm:442
+msgid "Rich Text Format"
+msgstr "富文本格式"
+
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST....ClipboardFormats.Strings
+#: MyxTableEditor.dfm:443
+msgid "Rich Text Format Without Objects"
+msgstr "无对象的富文本格式"
+
+#  MyxRoutineGroupEditorForm..RoutinePageControl..RoutineGroupSheet..Caption
+#: MyxRoutineGroupEditor.dfm:89
+msgid "Routine Group"
+msgstr "Routine 组"
+
+#  MyxRoutineGroupEditorForm..Caption
+#: MyxRoutineGroupEditor.dfm:6
+msgid "Routine Group Editor"
+msgstr "Routine 组编辑器"
+
+#  MyxRoutineGroupEditorForm..RoutinePageControl..RoutineGroupSheet..RoutineGroupSheetPnl..TntLabel1..Caption
+#: MyxRoutineGroupEditor.dfm:261
+msgid "Routines:"
+msgstr "Routines:"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel26..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel26..Caption
+#: EditorTable.dfm:1157
+msgid "Row Format:"
+msgstr "记录格式："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RowOptionsGBox..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..RowOptionsGBox..Caption
+#: EditorTable.dfm:1129
+msgid "Row Options"
+msgstr "记录选项"
+
+#: MyxTableEditorFkVTEdit.pas:642
+msgid "SET NULL"
+msgstr "设置 NULL"
+
+#: MyxError.pas:264
+msgid "SQL Error"
+msgstr "SQL 错误"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..StdInsertsTabSheet..TntLabel40..Caption
+#: EditorTable.dfm:1591
+msgid "SQL Inserts"
+msgstr "SQL 插入"
+
+#  EditorSqlForm..UCESQLHighlighter..DefaultFilter
+#  RoutineFrame..UCESQLHighlighter..DefaultFilter
+#  MyxTableEditorForm..UCESQLHighlighter..DefaultFilter
+#  MyxViewEditorForm..UCESQLHighlighter..DefaultFilter
+#: EditorSql.dfm:402
+#: MyxViewEditor.dfm:791
+msgid "SQL script files (*.sql)|*.sql"
+msgstr "SQL 脚本文件 (*.sql)|*.sql"
+
+#  MyxViewEditorForm..ViewPageControl..ViewTabSheet..ViewSheetPnl..TntLabel1..Caption
+#: MyxViewEditor.dfm:265
+msgid "SQL:"
+msgstr "SQL:"
+
+#  Set DiscardingChanges so there will be no recursive calls
+#: OptionsEditor.pas:554
+msgid "Save changes?"
+msgstr "保存更改？"
+
+#  SchemataFrame..SchemaSearchPopupMenu..SearchAssetsMI..Caption
+#: SchemataTreeView.dfm:110
+msgid "Schema Assets"
+msgstr "Schema Assets"
+
+#  MyxSchemaEditorForm..Caption
+#: MyxSchemaEditor.dfm:6
+msgid "Schema Editor"
+msgstr "数据库编辑器"
+
+#  MyxSchemaEditorForm..HeaderPnl..NameLbl..Caption
+#: MyxSchemaEditor.dfm:38
+msgid "Schema Name:"
+msgstr "数据库名："
+
+#  SchemaSelectionForm..Caption
+#  SchemaSelectionForm..HeaderPnl..Label1..Caption
+#: SchemaSelection.dfm:8
+msgid "Schema Selection"
+msgstr "Schema Selection"
+
+#: SchemataTreeView.pas:1499
+msgid "Schema name:"
+msgstr "数据库名："
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..SchemataEdLbl..Caption
+#: OptionsEditor.dfm:743
+msgid "Schema:"
+msgstr "数据库："
+
+#  SchemataFrame..TopPnl..SchemataLbl..Caption
+#  SchemataFrame..SchemaSearchPopupMenu..SearchSchemataMI..Caption
+#  SchemataFrame..SchemaSearchPopupMenu..CustomMI..SchemataSubMI..Caption
+#: SchemataTreeView.dfm:54
+msgid "Schemata"
+msgstr "数据库"
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..ScopeGBox..Caption
+#: TextSearch.dfm:189
+msgid "Scope"
+msgstr "范围"
+
+#: Grt.pas:1053
+msgid "Script file not found"
+msgstr "脚本文件不存在"
+
+#  TextSearchForm..PageControl..SearchTabSheet..Caption
+#  TextSearchForm..PageControl..SearchTabSheet..SearchBtn..Caption
+#: TextSearch.dfm:42
+msgid "Search"
+msgstr "搜索"
+
+#  TextSearchForm..Caption
+#: TextSearch.dfm:7
+msgid "Search ..."
+msgstr "搜索 ..."
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..ScopeGBox..SearchAllColumnsRBtn..Caption
+#: TextSearch.dfm:205
+msgid "Search all text/columns"
+msgstr "搜索所有文本/字段"
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..DirectionGBox..SearchDownRBtn..Caption
+#: TextSearch.dfm:224
+msgid "Search down"
+msgstr "向下搜索"
+
+#  TextSearchForm..PageControl..SearchTabSheet..SearchLbl..Caption
+#  TextSearchForm..PageControl..ReplaceTabSheet..ReplacesSearchLbl..Caption
+#: TextSearch.dfm:52
+msgid "Search for:"
+msgstr "搜索："
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..TntGroupBox1..SearchFromCursorRBtn..Caption
+#: TextSearch.dfm:289
+msgid "Search from cursor"
+msgstr "在游标中搜索"
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..TntGroupBox1..SearchFromTopRBtn..Caption
+#: TextSearch.dfm:298
+msgid "Search from top"
+msgstr "从开始搜索"
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..ScopeGBox..SearchInSelectedColumnRBtn..Caption
+#: TextSearch.dfm:196
+msgid "Search only in selected text/column"
+msgstr "仅搜索所选的文本/列"
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..DirectionGBox..SearchUpRBtn..Caption
+#: TextSearch.dfm:235
+msgid "Search up"
+msgstr "向上搜索"
+
+#: MyxConnectionDialog.pas:1448
+msgid "Select a RDBMS from the list of supported systems"
+msgstr "从支持的系统列表中选择一个 RDBMS"
+
+#  MyxTableEditorForm..TntActionList..SelectAllAction..Caption
+#: MyxTableEditor.dfm:1894
+msgid "Select all columns"
+msgstr "选择所有字段"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..TypeCBox..Hint
+#: OptionsEditor.dfm:781
+msgid "Select the type of database connection"
+msgstr "选择连接的数据库类型"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..HostnameLbl..Caption
+#: ConnectToInstance.dfm:521
+msgid "Server &Host:"
+msgstr "服务器主机&H："
+
+#: EditorTable.pas:2956
+msgid "Server Messages"
+msgstr "服务器消息"
+
+#: EditorTable.pas:1806
+msgid "Server connection lost"
+msgstr "服务器连接失效"
+
+#  EditorTableForm..IndexColumnPopupMenu..SetIndexColumnLengthMI..Caption
+#: EditorTable.dfm:1896
+msgid "Set Index Column Length"
+msgstr "设置索引字段长度"
+
+#: EditorTable.pas:521
+msgid "Set Null"
+msgstr "设置 Null"
+
+#: MigrationObjMapDetail.pas:407
+msgid "Set Parameter >>"
+msgstr "设置参数 >>"
+
+#  datatype
+#: MyxTableEditor.pas:2001
+msgid "Setting column data type"
+msgstr "设置字段数据类型"
+
+#  update indices
+#: MyxTableEditor.pas:1618
+msgid "Setting column datatype"
+msgstr "设置字段数据类型"
+
+#  MyxTableEditorForm..TntActionList..ShowAdvancedAction..Caption
+#: MyxTableEditor.dfm:1858
+msgid "Show Advanced Controls"
+msgstr "显示高级控制"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblShowSQLBeforeApplyingCBox..Caption
+#: OptionsEditor.dfm:968
+msgid "Show SQL command before applying changes"
+msgstr "在应用更改前显示 SQL 命令"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox1..ShowTipOfDayCBox..Caption
+#: OptionsEditor.dfm:332
+msgid "Show Tip of Day"
+msgstr "显示日期提示"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox3..ShowSpecialCharsCheckBox..Caption
+#: OptionsEditor.dfm:1101
+msgid "Show tab and line breaks in editor"
+msgstr "在编辑器中显示标签和换行符"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..TntLabel3..Caption
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..TntLabel4..Caption
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..TntLabel5..Caption
+#: OptionsEditor.dfm:407
+msgid "Size"
+msgstr "尺寸"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RaidOptionsGBox..ChunkSizeDescLbl....AutoSize
+#: EditorTable.dfm:1327
+msgid "Size of chunk that will be written to first file, to the next file, and so on."
+msgstr "chunk 的尺寸将被写入第一个文件、下一个文件，等等"
+
+#  MySQLResultSetFieldViewerForm..PageControl..ImageSheet..ImageSheetBtnPnl..ImageSizeTitleLbl..Caption
+#  MySQLResultSetFieldViewerForm..PageControl..BinarySheet..TntPanel1..BinarySizeTitelLbl..Caption
+#: MySQLResultSetFieldViewer.dfm:134
+msgid "Size:"
+msgstr "尺寸："
+
+#: ConnectToInstance.pas:1120
+msgid "Skip"
+msgstr "跳过"
+
+#: ConnectToInstance.pas:1121
+msgid "Skip the connection dialog and open service configuration."
+msgstr "跳过连接对话框并打开服务配置"
+
+#: OptionsEditor.pas:555
+msgid "Some of the settings have changed. Do you want to apply these changes permanently?"
+msgstr "一些设置已经被更改。你想永久应用这些更改的设置吗？"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..PortEd..Hint
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..PortEd..Hint
+#: ConnectToInstance.dfm:612
+msgid "Specify the TCP/IP port to connect to"
+msgstr "指定要连接到的 TCP/IP 端口"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..StdInsertsTabSheet..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet4..Caption
+#: EditorTable.dfm:1577
+msgid "Standard Inserts"
+msgstr "标准插入"
+
+#  MigrationObjMapDetailFrame..ObjectSelGBox..MethodComboBox..Text
+#  MigrationObjMapDetailFrame..ObjectSelGBox..MethodComboBox....Items.Strings
+#: MigrationObjMapDetail.dfm:66
+msgid "Standard Migration"
+msgstr "标准迁移"
+
+#  MigrationObjMapDetailFrame..ObjectSelGBox..DetailsPnl..TntLabel3....AutoSize
+#: MigrationObjMapDetail.dfm:99
+msgid "Standard parameter set. The migrated tables will use the InnoDB storage engine to offer transactional and foreign key support."
+msgstr "标准参数设置。要迁移的表将使用 InnoDB 存储引擎来提供事务和外键支持。"
+
+#  MigrationObjMapDetailFrame..ObjectSelGBox..DetailsPnl..TntRadioButton2..Caption
+#: MigrationObjMapDetail.dfm:107
+msgid "Statistical data / latin1"
+msgstr "统计数据 / latin1"
+
+#  ProgressForm..StopBtn..Caption
+#: Progress.dfm:72
+msgid "Stop"
+msgstr "停止"
+
+#  ProgressForm..StoppingLbl..Caption
+#: Progress.dfm:28
+msgid "Stopping process ..."
+msgstr "正在停止进程 ..."
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..TabSheet2..TableOptionScrollBox..StorageEngineGBox..Caption
+#: EditorTable.dfm:998
+msgid "Storage Engine"
+msgstr "存储引擎"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..StorageOptionsGBox..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..StorageOptionsGBox..Caption
+#: EditorTable.dfm:1068
+msgid "Storage Options"
+msgstr "存储选项"
+
+#: MyxConnectionDialog.pas:1185
+msgid "Store Connection."
+msgstr "存储连接。"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox1..StoreWindowsPosCBox..Caption
+#: OptionsEditor.dfm:342
+msgid "Store Windows Positions"
+msgstr "存储窗口位置"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..TntGroupBox1..StorePasswordCBox..Caption
+#: OptionsEditor.dfm:615
+msgid "Store passwords"
+msgstr "存储密码"
+
+#  ConnectToInstanceForm..ConnectToHostPnl..ConnectionLbl..Caption
+#: ConnectToInstance.dfm:530
+msgid "Stored &Connection:"
+msgstr "已存储连接&C："
+
+#  MyxConnectionDialogForm..ParamsMainPnl..ConnectGBox..StoredConnPnl..ConnectionLbl..Caption
+#: MyxConnectionDialog.dfm:149
+msgid "Stored Connection:"
+msgstr "已存储连接："
+
+#  MyxTableEditorForm..TablePageControl..IndicesSheet..IndexContentPnl..IndexColumnVST......WideText
+#: MyxTableEditor.dfm:675
+msgid "Stored Function"
+msgstr "存储过程"
+
+#  SchemataFrame..SchemaSearchPopupMenu..CustomMI..SPSubMI..Caption
+#: SchemataTreeView.dfm:174
+msgid "Stored Procedures/Functions"
+msgstr "存储过程/函数"
+
+#: EditorTable.pas:516
+msgid "Striped"
+msgstr "Striped"
+
+#: MyxError.pas:269
+msgid "System Error"
+msgstr "系统错误"
+
+#: MyxError.pas:158
+msgid ""
+"System Error Number %d\n"
+"%s"
+msgstr ""
+"系统错误编号 %d\n"
+"%s"
+
+#  Programmer's name for it: REG_MACHINE_LOCATION
+#  Programmer's name for it: REG_MACHINE_LOCATION
+#: AuxFuncs.pas:3089
+msgid "System\\CurrentControlSet\\Control\\Session Manager\\Environment"
+msgstr "系统\\当前控制设置\\控制\\工作期管理\\环境"
+
+#  MyxTableEditorForm..TablePageControl..TableSheet..Caption
+#: MyxTableEditor.dfm:99
+msgid "Table"
+msgstr "表"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..DescTabSheet..TntLabel41..Caption
+#: EditorTable.dfm:1617
+msgid "Table Description"
+msgstr "表描述"
+
+#  EditorTableForm..TableEditorPnl..DockedHeaderPnl..TntLabel1..Caption
+#  MyxTableEditorForm..Caption
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..Caption
+#: EditorTable.dfm:1662
+msgid "Table Editor"
+msgstr "表编辑器"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..TabSheet2..TableOptionScrollBox..StorageEngineGBox..TntLabel11..Caption
+#: EditorTable.dfm:1017
+msgid "Table Engine:"
+msgstr "表引擎："
+
+#  EditorTableForm..TableEditorPnl..HeaderPnl..TableNameLbl..Caption
+#  MyxTableEditorForm..TablePageControl..TableSheet..TableSheetPnl..TableNameLbl..Caption
+#: EditorTable.dfm:51
+msgid "Table Name:"
+msgstr "表名："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..TabSheet2..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..Caption
+#: EditorTable.dfm:902
+msgid "Table Options"
+msgstr "表选项"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..VariousGBox..TntLabel21..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..VariousGBox..TntLabel21..Caption
+#: EditorTable.dfm:1403
+msgid "Table Password:"
+msgstr "表密码："
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RaidOptionsGBox..Caption
+#: EditorTable.dfm:1263
+msgid "Table RAID Settings"
+msgstr "表 RAID 设置"
+
+#  SchemataFrame..SchemaSearchPopupMenu..CustomMI..TableSubMI..Caption
+#: SchemataTreeView.dfm:150
+msgid "Tables"
+msgstr "表"
+
+#: EditorTable.pas:685
+msgid "Tables Overview"
+msgstr "表预览"
+
+#: MyxTabHeader.pas:1585
+msgid "Tabsheet Caption"
+msgstr "Tabsheet 标题"
+
+#: MyxError.pas:250
+msgid "Terminate"
+msgstr "终止"
+
+#  MySQLResultSetFieldViewerForm..PageControl..TextSheet..Caption
+#: MySQLResultSetFieldViewer.dfm:32
+msgid "Text"
+msgstr "文本"
+
+#: MySQLResultSetFieldViewer.pas:170
+#: MySQLResultSetFieldViewer.pas:201
+msgid "The BLOB field contains a corrupted image file."
+msgstr "BLOB 字段包含无效图象文件。"
+
+#  Select correct Driver
+#: MyxConnectionDialog.pas:963
+msgid "The Driver %s is not available for selection"
+msgstr "针对选择驱动 %s 无效"
+
+#: MyxError.pas:209
+msgid "The File %s cannot be opened."
+msgstr "文件 %s 不能被打开。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RaidOptionsGBox..TntLabel57....AutoSize
+#: EditorTable.dfm:1304
+msgid "The RAID functionality can be used to exceed the 2GB/4GB limit for MyISAM data files on operating systems that do not support big files (unrecommended if they do). When the RAID type is set to STRIPED the table data file will be split into a number for chunks."
+msgstr "RAID 功能可被用于超越在操作系统中针对 MyISAM 数据的 2GB/4GB 的限制，如果操作系统不支持大文件(如果是这样，推荐这样做)。当 RAID 类型被设置为 STRIPED 表数据文件时，将被分割为一组 chunks 。"
+
+#: MyxConnectionDialog.pas:968
+msgid "The RDBMS %s is not available for selection"
+msgstr "针对选择，RDBMS %s 是无效的"
+
+#: MyxError.pas:217
+msgid "The XML file %s is empty."
+msgstr "XML 文件 %s 是空的。"
+
+#: MyxConnectionDialog.pas:1352
+msgid "The application needs to be restarted."
+msgstr "应用程序需要重启。"
+
+#: MyxConnectionDialog.pas:1354
+msgid "The application needs to be restarted. Please click on [Close] to close the application."
+msgstr "应用程序需要重启。请点击 [关闭] 来关闭应用程序。"
+
+#: Grt.pas:2281
+msgid "The call to the function %s:%s returned with an exception."
+msgstr "调用函数 %s:%s 返回一个异常。"
+
+#: EditorTable.pas:3116
+msgid "The changes you made did not result in the need to alter the table."
+msgstr "你所做的更改并不需要更改表。"
+
+#  MyxTableEditorForm..TablePageControl..TableSheet..TableSheetPnl..TntLabel10....AutoSize
+#: MyxTableEditor.dfm:203
+msgid "The collation specifies which language specific characters can be stored in the table. Common choices are Latin1 or UTF8."
+msgstr "校对指定的语言和字符集可被存储在表中。常规选项是 Latin1 或 UTF8 。"
+
+#: MySQLConnection.pas:457
+msgid "The connection %s cannot be found in the list of stored connections."
+msgstr "连接 %s 在存储的连接列表中不存在。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..TntGroupBox3..TntLabel23..Caption
+#: EditorTable.dfm:1562
+msgid "The connection string for federated tables."
+msgstr "针对联结表的连接字符串"
+
+#: Options.pas:742
+msgid ""
+"The data types file `%s` could not be loaded. You won't be able to to use the table editor.\n"
+"\n"
+"Do you want to exit now or continue anyway?"
+msgstr ""
+"数据文件 `%s` 不能被载入。你将不能使用表编辑器。\n"
+"\n"
+"你想退出还是继续？"
+
+#  MyxTableEditorForm..TablePageControl..TableSheet..TableSheetPnl..TntLabel9....AutoSize
+#: MyxTableEditor.dfm:190
+msgid "The database engine that is used for the table. This option specifies the performance, data consistency and much more."
+msgstr "数据库引擎被用于表。这个选项指定参数、数据一致性和其他。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..TabSheet2..TableOptionScrollBox..TntGroupBox6..TableCharsetDescLbl....AutoSize
+#: EditorTable.dfm:960
+msgid "The default character set that is used for the table. Starting from MySQL 4.1 you can specify an individual character set for each column."
+msgstr "默认的字符集设置被用于表。从 MySQL 4.1 开始，你可以对每一列设置单独的字符集。"
+
+#: MySQLConnection.pas:1102
+msgid "The default schema cannot be changed to %s"
+msgstr "默认数据库不能被改变为 %s"
+
+#: MyxConnectionDialog.pas:939
+msgid "The driver used by the given connection is not available."
+msgstr "给定连接所使用的驱动是无效的。"
+
+#: MyxError.pas:221
+msgid "The execution was stopped."
+msgstr "执行被停止。"
+
+#: MyxError.pas:249
+msgid ""
+"The following Exception occurred:\n"
+"%s\n"
+"\n"
+"Please choose whether to continue %s, terminate the application or restart the program."
+msgstr ""
+"发生下面的以外错误：\n"
+"%s\n"
+"\n"
+"请选择是否继续 %s ，停止应用程序或重新开始。"
+
+#: MySQLConnection.pas:917
+msgid "The following error occured while executing the query."
+msgstr "当执行查询时发生下面的错误。"
+
+#: Grt.pas:1358
+msgid "The following error occured. Error Nr. %d"
+msgstr "发生错误。错误编号 %d"
+
+#: MyxError.pas:278
+msgid "The following exception occurred:"
+msgstr "发生下面的意外错误："
+
+#: Toolbar.pas:1535
+msgid "The image %s cannot be found in the attached resources"
+msgstr "图象 %s 在附加资源中不存在"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..VariousGBox..TntLabel53..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..VariousGBox..TntLabel53..Caption
+#: EditorTable.dfm:1434
+msgid "The initial AUTO_INCREMENT value for the table, only for MyISAM."
+msgstr "表的最初 AUTO_INCREMENT 值。仅用于 MyISAM 。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel63..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel63..Caption
+#: EditorTable.dfm:1211
+msgid "The maximum number of rows you plan to store in the table."
+msgstr "计划在表中存储的最大行数。"
+
+#: MySQLResultSet.pas:1479
+msgid "The memory load of the system is extremly high."
+msgstr "系统内存载入已到极限。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel62..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..RowOptionsGBox..TntLabel62..Caption
+#: EditorTable.dfm:1202
+msgid "The minimum number of rows you plan to store in the table."
+msgstr "计划在表中存储的最少行数。"
+
+#  MyxRoutineGroupEditorForm..RoutinePageControl..RoutineGroupSheet..RoutineGroupSheetPnl..TntLabel6..Caption
+#: MyxRoutineGroupEditor.dfm:251
+msgid "The name of the routine group."
+msgstr "routine 组名。"
+
+#  MyxTableEditorForm..TablePageControl..TableSheet..TableSheetPnl..TntLabel6....AutoSize
+#: MyxTableEditor.dfm:177
+msgid "The name of the table. It is recommended to use only alpha-numeric characters. Spaces should be avoided and be replaced by _"
+msgstr "表名。推荐使用字母和数字字符。空格将被消除，并被替换为 _"
+
+#  MyxViewEditorForm..ViewPageControl..ViewTabSheet..ViewSheetPnl..TntLabel6....AutoSize
+#: MyxViewEditor.dfm:255
+msgid "The name of the view. It is recommended to use only alpha-numeric characters. Spaces should be avoided and be replaced by _"
+msgstr "视图名。推荐使用字母和数字字符。空格将被消除，并被替换为 _"
+
+#: GrtForms.pas:236
+msgid "The object cannot be created at the given path %s."
+msgstr "对象不能创建到给定的路径 %s 。"
+
+#: MyxOptions.pas:395
+msgid "The option %s is a fixed option and cannot be set."
+msgstr "选项 %s 是一个固定选项，不能被设置。"
+
+#  Check if ExceptionMsg is set.
+#: MySQLResultSet.pas:1730
+msgid "The query could not be executed."
+msgstr "查询不能被执行。"
+
+#: MySQLConnection.pas:512
+msgid "The schema %s cannot be selected."
+msgstr "数据库 %s 不能被选择。"
+
+#: ConnectToInstance.pas:979
+msgid "The schema `%s` does not exist. Do you want to create the schema now?"
+msgstr "数据库 `%s` 不存在。你现在想创建它吗？"
+
+#: Grt.pas:1053
+msgid "The script file %s cannot be found."
+msgstr "不能找到脚本文件 %s 。"
+
+#  MyxConnectionDialogForm..ParamsMainPnl..DriverNotInstalledPnl..TntLabel9..Caption
+#: MyxConnectionDialog.dfm:64
+msgid "The selected driver is not attached to the application yet."
+msgstr "选择的驱动不能附加到应用程序中。"
+
+#: EditorTable.pas:3619
+msgid "The storage engine you selected is not enabled currently."
+msgstr "所选择的存储引擎当前不可用。"
+
+#: Grt.pas:1667
+msgid "The string %s cannot be converted to a float value."
+msgstr "字符串 %s 不能被转换为 float 值。"
+
+#  Check what the original value's type is and auto-convert the given string to a native type if possible.
+#  Check what the original value's type is and auto-convert the given string to a native type if possible.
+#: Grt.pas:1661
+msgid "The string %s cannot be converted to an integer value."
+msgstr "字符串 %s 不能被转换为 integer 值。"
+
+#: MySQLResultSetControls.pas:536
+msgid "The two resultsets cannot be compared. Please make sure that they have a primary key and the same column names."
+msgstr "两个结果不能比较。请确认它们具有相同的主键和同样的字段名。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..MergeOptionGBox..MergeInsertMethodDescLbl..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..MergeOptionGBox..MergeInsertMethodDescLbl..Caption
+#: EditorTable.dfm:1520
+msgid "The union table which should be used for inserts."
+msgstr "联结表将被用于插入。"
+
+#: Grt.pas:1186
+msgid "The value %s cannot be set."
+msgstr "值 %s 不能被设置。"
+
+#: Grt.pas:1234
+msgid "The value %s is not a int value."
+msgstr "值 %s 不是一个 int 值。"
+
+#: Grt.pas:1265
+msgid "The value %s is not a real value."
+msgstr "值 %s 不是一个 real 值。"
+
+#: Grt.pas:1203
+msgid "The value %s is not a string value."
+msgstr "值 %s 不是一个 string 值。."
+
+#: MyxEditor.pas:111
+msgid "There are unapplied changes. Would you like to apply them now?"
+msgstr "存在一些未应用的更改。你现在想应用这些更改吗？"
+
+#: MyxError.pas:182
+msgid "There was a problem: %s"
+msgstr "存在一个问题： %s"
+
+#: EditorTable.pas:3629
+msgid "These definitions will be ignored."
+msgstr "这些定义将被忽略。"
+
+#: MySQLResultSet.pas:1481
+msgid "This is likely because of the current result being very large."
+msgstr "可能的原因是当前的结果非常大。"
+
+#  AboutForm..LicenceLbl....AutoSize
+#: About.dfm:82
+msgid "This software is released under the GNU General Public License (GPL), which is probably the best known Open Source license. The formal terms of the GPL license can be found at http://www.fsf.org/licenses/."
+msgstr "此软件是在 GNU General Pulbic License(GPL) 下发行，它或许是已知的最好的开源协议。你可以在 http://www.fsf.org/licenses/ 找到 GPL 协议的正式条款。"
+
+#: ConnectToInstance.pas:1035
+msgid "Time ="
+msgstr "时间 ="
+
+#  MyxConnectionDialogForm..ParamsMainPnl..DriverNotInstalledPnl..DownloadDriverPnl..TntLabel12..Caption
+#: MyxConnectionDialog.dfm:94
+msgid "To download the driver from the internet press the button below."
+msgstr "点击下面的按钮从 Internet 下载驱动。"
+
+#  MyxTableEditorForm..TablePageControl..TriggersTab..Caption
+#  SchemataFrame..SchemaSearchPopupMenu..CustomMI..TriggersSubMI..Caption
+#: MyxTableEditor.dfm:809
+msgid "Triggers"
+msgstr "触发器"
+
+#  MyxTableEditorForm..TablePageControl..IndicesSheet..IndexContentPnl..IndexVST......WideText
+#: MyxTableEditor.dfm:621
+msgid "Type"
+msgstr "类型"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..TypeLbl..Caption
+#: OptionsEditor.dfm:736
+msgid "Type:"
+msgstr "类型："
+
+#: MySQLResultSet.pas:533
+msgid "Unapplied Changes"
+msgstr "没有被应用的更改"
+
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST....ClipboardFormats.Strings
+#: MyxTableEditor.dfm:444
+msgid "Unicode text"
+msgstr "Unicode 文本"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..MergeOptionGBox..UnionTablesCaptionLbl..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..MergeOptionGBox..UnionTablesCaptionLbl..Caption
+#: EditorTable.dfm:1503
+msgid "Union Tables:"
+msgstr "联结表："
+
+#: ConnectToInstance.pas:1045
+msgid "Unknown Error."
+msgstr "未知错误。"
+
+#: EditorTable.pas:2202
+msgid "Unsupported feature"
+msgstr "不受支持的特性"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..AdvancedOptionsPageControl..MySQLOptionsTabSheet..NamedPipeCBox..Caption
+#: ConnectToInstance.dfm:705
+msgid "Use &named pipe (localhost only)"
+msgstr "使用 &n命名管道 (仅用于 localhost)"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..AdvancedOptionsPageControl..MySQLOptionsTabSheet..UseAnsiQuotesCBox..Caption
+#: ConnectToInstance.dfm:714
+msgid "Use ANSI &quotes to quote identifiers"
+msgstr "使用 ANSI &q引用 来引用标识符"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RowOptionsGBox..UseChecksumCBox..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..RowOptionsGBox..UseChecksumCBox..Caption
+#: EditorTable.dfm:1243
+msgid "Use Checksum"
+msgstr "使用 Checksum"
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..OptionsGBox..UseRegExCBox..Caption
+#: TextSearch.dfm:270
+msgid "Use RegEx"
+msgstr "使用正则表达式"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..AdvancedOptionsPageControl..MySQLOptionsTabSheet..UseSSLCBox..Caption
+#: ConnectToInstance.dfm:722
+msgid "Use SSL if available (the client library needs to support it)"
+msgstr "如果可能，使用 SSL(需客户端 library 支持)"
+
+#  ConnectToInstanceForm..AdvancedOptionsGBox..AdvancedOptionsPageControl..MySQLOptionsTabSheet..UseCompressionCBox..Caption
+#: ConnectToInstance.dfm:697
+msgid "Use co&mpression protocol"
+msgstr "使用压缩协议&m"
+
+#  MigrationObjSelFilterFrame..ObjectSelGBox..TntLabel2..Caption
+#: MigrationObjSelFilter.dfm:75
+msgid "Use the [Detailed Selection] to put objects on the ignore list."
+msgstr "使用[详细选择]将对象移动到忽略列表上。"
+
+#  EditorTableForm..TableEditorPnl..DockedHeaderPnl..TntLabel10..Caption
+#: EditorTable.dfm:1675
+msgid "Use this editor to create or alter tables."
+msgstr "使用这个编辑器来创建或更改表。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..VariousGBox..TntLabel54....AutoSize
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..VariousGBox..TntLabel54....AutoSize
+#: EditorTable.dfm:1445
+msgid "Use this option to delay the key updates until the table is closed. This works for MyISAM only."
+msgstr "使用这个选项在关闭表时再更新键，以延迟键的更新。它仅用于 MyISAM 。"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..VariousGBox..TntLabel51....AutoSize
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..VariousGBox..TntLabel51....AutoSize
+#: EditorTable.dfm:1414
+msgid "Use this option to generate smaller indices. This usually makes updates slower and reads faster. Setting it to DEFAULT tells the storage engine to only pack long CHAR/VARCHAR columns."
+msgstr "使用这个选项来生成较小的索引。这通常使更新变慢，但是读取加快。设置它为 DEFAULT 可使存储引擎知道仅压缩长的 CHAR/VARCAR 列。"
+
+#  MigrationObjMapDetailFrame..ObjectSelGBox..UserDefinedParamsPnl..ParamsUserDefinedCBox..Caption
+#: MigrationObjMapDetail.dfm:154
+msgid "User defined"
+msgstr "用户定义"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnGeneralTabSheet..UsernameLbl..Caption
+#: OptionsEditor.dfm:707
+msgid "Username:"
+msgstr "用户名："
+
+#: SchemataTreeView.pas:1781
+msgid "Users"
+msgstr "用户"
+
+#  OptionsForm..OptionPageControl..ConnectionsTabSheet..ConnectionPageControl..ConnAdvTabSheet..ConnValueListEditor....TitleCaptions.Strings
+#: OptionsEditor.dfm:858
+msgid "Value"
+msgstr "值"
+
+#: GrtObjectTree.pas:399
+msgid "Values"
+msgstr "值"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..VariousGBox..Caption
+#  MyxTableEditorForm..TablePageControl..TntTabSheet1..AdvancedOptionsSheetPnl..AdvancedOptionsScrollBox..VariousGBox..Caption
+#: EditorTable.dfm:1382
+msgid "Various"
+msgstr "其他"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..TabSheet2..TableOptionScrollBox..StorageEngineGBox..TableEngineDescLbl....AutoSize
+#: EditorTable.dfm:1009
+msgid "Very fast, disk based storage engine without support for transactions. Offers fulltext search, packed keys, and is the default storage engine."
+msgstr "非常快，磁盘库存储引擎不支持事务。提供 fulltext 搜索、压缩键，并且是默认的存储引擎。"
+
+#  MyxViewEditorForm..ViewPageControl..ViewTabSheet..Caption
+#: MyxViewEditor.dfm:89
+msgid "View"
+msgstr "视图"
+
+#  MyxViewEditorForm..Caption
+#: MyxViewEditor.dfm:4
+msgid "View Editor"
+msgstr "视图编辑器"
+
+#  MyxViewEditorForm..ViewPageControl..ViewTabSheet..ViewSheetPnl..NameLbl..Caption
+#: MyxViewEditor.dfm:121
+msgid "View Name:"
+msgstr "视图名："
+
+#: EditorSql.pas:156
+msgid "View name has changed"
+msgstr "视图名已被改变"
+
+#  SchemataFrame..SchemaSearchPopupMenu..CustomMI..ViewsSubMI..Caption
+#: SchemataTreeView.dfm:182
+msgid "Views"
+msgstr "视图"
+
+#  MyxTableEditorForm..TablePageControl..ColumnSheet..ColumnsContentPnl..ColumnVST....ClipboardFormats.Strings
+#: MyxTableEditor.dfm:445
+msgid "Virtual Tree Data"
+msgstr "虚拟 Tree 数据"
+
+#: ConnectToInstance.pas:1233
+msgid "Warning"
+msgstr "警告"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..TntGroupBox2..Caption
+#: OptionsEditor.dfm:635
+msgid "Warnings and Messages"
+msgstr "警告和消息"
+
+#  TextSearchForm..PageControl..OptionsTabSheet..OptionPnl..OptionsGBox..WholeWordsOnlyCBox..Caption
+#: TextSearch.dfm:261
+msgid "Whole words only"
+msgstr "仅完整单词"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..TntLabel7..Caption
+#: OptionsEditor.dfm:431
+msgid "Width:"
+msgstr "宽度："
+
+#: EditorSql.pas:157
+msgid "Would you like to keep the original view object? "
+msgstr "你想保留原始的视图对象吗？"
+
+#: ConnectToInstance.pas:980
+#: EditorTable.pas:758
+#: EditorTable.pas:3223
+#: MyxConnectionDialog.pas:1255
+#: OptionsEditor.pas:556
+#: OptionsEditor.pas:683
+msgid "Yes"
+msgstr "是"
+
+#: EditorTable.pas:1852
+msgid ""
+"Yes\n"
+"No"
+msgstr ""
+"是\n"
+"否"
+
+#: ConnectToInstance.pas:948
+msgid "You are connecting to an MySQL 3.x server. The MySQL GUI tools only support MySQL servers 4.0 and higher. Using this tool with a 3.x server might result in unexpected behaviour."
+msgstr "不能连接到 MySQL 3.x 。这个 MySQL GUI 工具仅支持 MySQL 服务的 4.0 及更高版本。在 3.x 版本下执行这个工具会导致难以预料的结果。"
+
+#: MySQLResultSetControls.pas:578
+msgid "You can split the panel only in one direction."
+msgstr "你可以在一个方向拆分面板 。"
+
+#: SchemataTreeView.pas:2259
+msgid "You cannot drop the MySQL schema"
+msgstr "不能删除 MySQL 库"
+
+#: EditorTable.pas:3628
+msgid "You have foreign keys defined but selected a storage engine which does not support them."
+msgstr "定义的外键不受所选择的存储引擎支持。"
+
+#: MySQLResultSet.pas:534
+msgid "You have made changes to the resultset that have not been applied yet. Do you want to discard the changes?"
+msgstr "更改结果还没有被应用。你想放弃更改吗？"
+
+#: ConnectToInstance.pas:962
+msgid "You have not specified a default schema for this connection. Although it is possible to connect without specifying default schema you are highly encouraged to do so."
+msgstr "针对此连接没有指定默认的数据库。虽然这是允许的，但是你最好指定一个默认数据库。"
+
+#: EditorTable.pas:2983
+msgid "You have to add at least one column to the table"
+msgstr "在表中至少要增加一个字段"
+
+#: MySQLResultSetControls.pas:3181
+msgid "You have to enable editing first."
+msgstr "首先要可编辑。"
+
+#: MySQLResultSet.pas:555
+msgid "You tried to execute an empty string. Please type an SQL command into the SQL edit field and execute again."
+msgstr "试图执行一个空字符串。请键入一个 SQL 语句。"
+
+#: EditorTable.pas:2203
+msgid "Your foreign key definitions will be ignored."
+msgstr "外键定义将被忽略。"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblPKAutoNamingEd..Text
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblPKAutoNamingEd....Items.Strings
+#: OptionsEditor.dfm:990
+msgid "id%tablename%"
+msgstr "id%tablename%"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblPKAutoNamingEd....Items.Strings
+#: OptionsEditor.dfm:994
+msgid "id_%tablename%"
+msgstr "id_%tablename%"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblIndexNamingEd....Items.Strings
+#: OptionsEditor.dfm:1021
+msgid "ind_%tablename%_%nr%"
+msgstr "ind_%tablename%_%nr%"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblIndexNamingEd....Items.Strings
+#: OptionsEditor.dfm:1020
+msgid "index%nr%"
+msgstr "index%nr%"
+
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblIndexNamingEd..Text
+#  OptionsForm..OptionPageControl..EditorsTabSheet..GroupBox4..EdTblIndexNamingEd....Items.Strings
+#: OptionsEditor.dfm:1016
+msgid "index_%nr%"
+msgstr "index_%nr%"
+
+#  EditorTableForm..TableEditorPnl..GirdOptionPnl..MainPageControl..AdvTableOptionsSheet..AdvancedOptionsScrollBox..RaidOptionsGBox..ChunkSizeUnitLbl..Caption
+#: EditorTable.dfm:1291
+msgid "kB"
+msgstr "kB"
+
+#: ConnectToInstance.pas:1035
+msgid "ms"
+msgstr "ms"
+
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..TntLabel8..Caption
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..TntLabel9..Caption
+#  OptionsForm..OptionPageControl..GeneralTabSheet..GroupBox2..TntLabel10..Caption
+#: OptionsEditor.dfm:439
+msgid "pt"
+msgstr "pt"
+
+#  handle global root value
+#: GrtObjectTree.pas:650
+msgid "root"
+msgstr "root"
+
+#: CommonFuncs.pas:124
+msgid "version"
+msgstr "版本"
+
+#  AboutForm..VersionLbl..Caption
+#: About.dfm:48
+msgid "version 1.0.7 BETA"
+msgstr "版本 1.0.7 BETA"
+

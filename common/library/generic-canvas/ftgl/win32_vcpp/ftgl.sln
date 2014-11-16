@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ftgl_demo", "ftgl_demo\ftgl_demo.vcproj", "{8681C66A-144F-4BD6-A579-49862C7FB80B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4} = {7F40B388-AFA3-404B-89E8-CA8F8BB719A4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ftgl_static_lib", "ftgl_static_lib\ftgl_static_lib.vcproj", "{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug DLL = Debug DLL
+		Debug MT = Debug MT
+		Release = Release
+		Release DLL = Release DLL
+		Release MT = Release MT
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Debug.ActiveCfg = Debug|Win32
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Debug.Build.0 = Debug|Win32
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Debug DLL.ActiveCfg = Debug DLL|Win32
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Debug DLL.Build.0 = Debug DLL|Win32
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Debug MT.ActiveCfg = Debug|Win32
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Debug MT.Build.0 = Debug|Win32
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Release.ActiveCfg = Release|Win32
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Release.Build.0 = Release|Win32
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Release DLL.ActiveCfg = Release DLL|Win32
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Release DLL.Build.0 = Release DLL|Win32
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Release MT.ActiveCfg = Release|Win32
+		{8681C66A-144F-4BD6-A579-49862C7FB80B}.Release MT.Build.0 = Release|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Debug.ActiveCfg = Debug|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Debug.Build.0 = Debug|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Debug DLL.ActiveCfg = Debug|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Debug DLL.Build.0 = Debug|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Debug MT.ActiveCfg = Debug MT|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Debug MT.Build.0 = Debug MT|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Release.ActiveCfg = Release|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Release.Build.0 = Release|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Release DLL.ActiveCfg = Release|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Release DLL.Build.0 = Release|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Release MT.ActiveCfg = Release MT|Win32
+		{7F40B388-AFA3-404B-89E8-CA8F8BB719A4}.Release MT.Build.0 = Release MT|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

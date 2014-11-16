@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+
+<dataytypes>
+
+  <datatype>
+    <name>BOOLEAN</name>
+    <group>0</group>
+    <synonym_group>0</synonym_group>
+    <params_optional>Yes</params_optional>
+    <has_length_param>No</has_length_param>
+    <flag>UNSIGNED</flag>
+  </datatype>
+
+  <datatype>
+    <name>BOOL</name>
+    <group>0</group>
+    <synonym_group>0</synonym_group>
+    <params_optional>Yes</params_optional>
+    <has_length_param>No</has_length_param>
+    <flag>UNSIGNED</flag>
+  </datatype>
+
+  <datatype>
+	<name>BIT</name>
+	<group>0</group>
+	<synonym_group>0</synonym_group>
+	<params_optional>Yes</params_optional>
+	<has_length_param>Yes</has_length_param>
+	<flag>UNSIGNED</flag>
+  </datatype>
+
+  <datatype>
+    <name>TINYINT</name>
+    <group>0</group>
+    <synonym_group>0</synonym_group>
+    <params_optional>Yes</params_optional>
+    <has_length_param>Yes</has_length_param>
+    <flag>UNSIGNED</flag>
+    <flag>ZEROFILL</flag>
+  </datatype>
+
+  <datatype>
+    <name>SMALLINT</name>
+    <group>0</group>
+    <synonym_group>0</synonym_group>
+    <params_optional>Yes</params_optional>
+    <has_length_param>Yes</has_length_param>
+    <flag>UNSIGNED</flag>
+    <flag>ZEROFILL</flag>
+  </datatype>
+
+  <datatype>
+    <name>MEDIUMINT</name>
+    <group>0</group>
+    <synonym_group>0</synonym_group>
+    <params_optional>Yes</params_optional>
+    <has_length_param>Yes</has_length_param>
+    <flag>UNSIGNED</flag>
+    <flag>ZEROFILL</flag>
+  </datatype>
+
+  <datatype>
+    <name>INT</name>
+    <group>0</group>
+    <synonym_group>1</synonym_group>
+    <params_optional>Yes</params_optional>
+    <has_length_param>Yes</has_length_param>
+    <flag>UNSIGNED</flag>
+    <flag>ZEROFILL</flag>
+  </datatype>
+
+  <datatype>
+    <name>INTEGER</name>
+    <group>0</group>
+    <synonym_group>1</synonym_group>
+    <params_optional>Yes</params_optional>
+    <has_length_param>Yes</has_length_param>
+    <flag>UNSIGNED</flag>
+    <flag>ZEROFILL</flag>
+  </datatype>
+
+  <datatype>
+    <name>BIGINT</name>
+    <group>0</group>
+    <synonym_group>0</synonym_group>
+    <params_optional>Yes</params_optional>
+    <has_length_param>Yes</has_length_param>
+    <flag>UNSIGNED</flag>
+    <flag>ZEROFILL</flag>
+  </datatype>
+
+  <datatype>
+    <name>REAL</name>
+    <group>0</group>
+    <synonym_group>2</synonym_group>
+    <params_optional>Yes</params_optional>
+    <has_length_param>Yes</has_length_param>
+    <has_decimal_param>Yes</has_decimal_param>
+    <flag>UNSIGNED</flag>
+    <flag>ZEROFILL</flag>
+  </datatype>
+
+  <datatype>
+    <name>DOUBLE</name>
+    <group>0</group>
+    <synonym_group>2</synonym_group>
+    <params_optional>Yes</params_optional>
+    <has_length_param>Yes</has_length_param>
+    <has_decimal_param>Yes</has_decimal_param>
+    <flag>UNSIGNED</flag>
+    <flag>ZEROFILL</flag>
+  </datatype>
+
+  <datatype>
+    <name>FLOAT</name>
+    <group>0</group>
+    <synonym_group>0</synonym_group>
+    <params_optional>Yes</params_optional>
+    <has_length_param>Yes</has_length_param>
+    <has_decimal_param>Yes</has_decimal_param>
+    <flag>UNSIGNED</flag>
+    <flag>ZEROFILL</flag>
+  </datatype>
+
+  <datatype>
+    <name>DECIMAL</name>
+    <group>0</group>
+    <synonym_group>3</synonym_group>
+    <has_length_param>Yes</has_length_param>
+    <has_decimal_param>Yes</has_decimal_param>
+    <flag>UNSIGNED</flag>
+    <flag>ZEROFILL</flag>
+  </datatype>
+
+  <datatype>
+    <name>NUMERIC</name>
+    <group>0</group>
+    <synonym_group>3</synonym_group>
+    <has_length_param>Yes</has_length_param>
+    <has_decimal_param>Yes</has_decimal_param>
+    <flag>UNSIGNED</flag>
+    <flag>ZEROFILL</flag>
+  </datatype>
+
+
+
+
+  <datatype>
+    <name>DATE</name>
+    <group>1</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>TIME</name>
+    <group>1</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>TIMESTAMP</name>
+    <group>1</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>DATETIME</name>
+    <group>1</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+
+
+
+
+  <datatype>
+    <name>CHAR</name>
+    <group>2</group>
+    <synonym_group>0</synonym_group>
+    <params_optional>No</params_optional>
+    <has_length_param>Yes</has_length_param>
+    <flag>BINARY</flag>
+    <flag>ASCII</flag>
+    <flag>UNICODE</flag>
+  </datatype>
+
+  <datatype>
+    <name>VARCHAR</name>
+    <group>2</group>
+    <synonym_group>0</synonym_group>
+    <params_optional>No</params_optional>
+    <has_length_param>Yes</has_length_param>
+    <flag>BINARY</flag>
+  </datatype>
+
+  <datatype>
+    <name>TINYTEXT</name>
+    <group>2</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>TEXT</name>
+    <group>2</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>MEDIUMTEXT</name>
+    <group>2</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>LONGTEXT</name>
+    <group>2</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+
+
+
+  <datatype>
+    <name>TINYBLOB</name>
+    <group>3</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>BLOB</name>
+    <group>3</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>MEDIUMBLOB</name>
+    <group>3</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>LONGBLOB</name>
+    <group>3</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>ENUM</name>
+    <group>3</group>
+    <synonym_group>0</synonym_group>
+    <has_length_param>Yes</has_length_param>
+  </datatype>
+
+  <datatype>
+    <name>SET</name>
+    <group>3</group>
+    <synonym_group>0</synonym_group>
+    <has_length_param>Yes</has_length_param>
+  </datatype>
+
+
+
+
+  <datatype>
+    <name>GEOMETRY</name>
+    <group>4</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>POINT</name>
+    <group>4</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>LINESTRING</name>
+    <group>4</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>POLYGON</name>
+    <group>4</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>MULTIPOINT</name>
+    <group>4</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>MULTILINESTRING</name>
+    <group>4</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>MULTIPOLYGON</name>
+    <group>4</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <datatype>
+    <name>GEOMETRYCOLLECTION</name>
+    <group>4</group>
+    <synonym_group>0</synonym_group>
+  </datatype>
+
+  <substitution name="INT(11)" value="INTEGER"/>
+  <substitution name="INT(10) UNSIGNED" value="INTEGER UNSIGNED"/>
+</dataytypes>

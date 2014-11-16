@@ -1,0 +1,146 @@
+{
+    IBClasses = (
+        {CLASS = MAccessoryScrollView; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }, 
+        {CLASS = MMenuButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = MQQueryAreaEditor; LANGUAGE = ObjC; SUPERCLASS = MSourceTextEditor; }, 
+        {
+            ACTIONS = {
+                commitTransaction = id; 
+                compareQuery = id; 
+                executeQuery = id; 
+                explainQuery = id; 
+                goBack = id; 
+                goNext = id; 
+                rollbackTransaction = id; 
+                selectQueryArea = id; 
+                splitH = id; 
+                splitV = id; 
+                startTransaction = id; 
+                stopQuery = id; 
+                unsplit = id; 
+            }; 
+            CLASS = MQQueryController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                animbox = NSImageView; 
+                backButton = MMenuButton; 
+                backMenu = NSMenu; 
+                bigToolbar = NSView; 
+                executeButton = MMenuButton; 
+                executeMenu = NSMenu; 
+                nextButton = MMenuButton; 
+                nextMenu = NSMenu; 
+                owner = MQueryBrowser; 
+                queryArea = id; 
+                queryEditor = MQQueryAreaEditor; 
+                stopButton = NSButton; 
+                toolbar = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                continueScript = id; 
+                executeScript = id; 
+                openScript = id; 
+                openScriptInCurrentEditor = id; 
+                pauseScript = id; 
+                saveScript = id; 
+                stepNextScript = id; 
+                stopScript = id; 
+            }; 
+            CLASS = MQScriptController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                animbox = NSImageView; 
+                bigToolbar = NSView; 
+                continueButton = NSButton; 
+                executeButton = MMenuButton; 
+                objectsPop = NSPopUpButton; 
+                openButton = NSButton; 
+                owner = MQueryBrowser; 
+                pauseButton = NSButton; 
+                redoButton = NSButton; 
+                saveButton = NSButton; 
+                stepButton = NSButton; 
+                stopButton = NSButton; 
+                toolbar = NSView; 
+                undoButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {continueScript = id; executeScript = id; stepScript = id; stopScript = id; }; 
+            CLASS = MQScriptExecutionHelper; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MQSyntaxHelp; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                addParameter = id; 
+                addQueryTab = id; 
+                addScriptTab = id; 
+                bookmarkQuery = id; 
+                copyBookmark = id; 
+                copyHistory = id; 
+                deleteBookmarkItem = id; 
+                deleteHistory = id; 
+                deleteParameter = id; 
+                executeBookmark = id; 
+                executeHistory = id; 
+                newBookmarkGroup = id; 
+                refreshSchemata = id; 
+                renameBookmarkItem = id; 
+                schemataDoubleClicked = id; 
+                setDefaultSchema = id; 
+                switchToolbarType = id; 
+                toggleDrawer = id; 
+            }; 
+            CLASS = MQueryBrowser; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bookmarkList = NSOutlineView; 
+                bookmarkMenu = NSMenu; 
+                catalogList = NSOutlineView; 
+                catalogMenu = NSMenu; 
+                drawer = NSDrawer; 
+                functionList = NSOutlineView; 
+                historyList = NSOutlineView; 
+                historyMenu = NSMenu; 
+                parameterList = NSOutlineView; 
+                queryCtl = MQQueryController; 
+                schemaHelper = MSchemaEditHelper; 
+                scriptCtl = MQScriptController; 
+                syntaxList = NSOutlineView; 
+                tabView = MTabView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                copySelectionSQL = id; 
+                createSP = id; 
+                createSchema = id; 
+                createTable = id; 
+                createView = id; 
+                dropSelection = id; 
+                editSelection = id; 
+            }; 
+            CLASS = MSchemaEditHelper; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; outline = NSOutlineView; parentWindow = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MSourceTextEditor; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = MTabView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = MTabViewItem; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MTextImageCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }
+    ); 
+    IBVersion = 1; 
+}

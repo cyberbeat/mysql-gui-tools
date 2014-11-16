@@ -1,0 +1,17 @@
+9 widget 1
+1 widget 1
+16 WIDGET 0
+16 WIDGET 0
+16 WIDGET 0
+16 WIDGET 0
+26 %% 0
+11 setpartprice 1
+4 setpartprice 1
+11 widgetcount 1
+4 widgetcount 1
+11 simpleproc 0
+4 simpleproc 0
+11 simpleproc 1
+4 simpleproc 1
+5 hello 1
+26 ; 0

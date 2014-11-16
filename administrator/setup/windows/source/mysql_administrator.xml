@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2003/01/wi">
+
+  <!-- *****************************************************************************************
+    Product
+  -->
+  <!-- 
+    SetVersion updates: Name, Id, Version. Do not change them manually.
+  -->
+
+  <Product Id="7650E03D-AAFF-48AA-BCA5-82415F97ADAE" UpgradeCode="775BDD05-171F-4D3F-9328-4E271866A23C"
+    Language="1033" Manufacturer="MySQL AB" Name="MySQL Administrator 1.1" Version="1.0.12">
+
+  <!-- *****************************************************************************************
+    Package
+  -->
+
+    <Package Keywords="Installer,MSI,Database" Description="MySQL Administrator" Manufacturer="MySQL AB"
+      InstallerVersion="200" Platforms="Intel" Languages="1033" SummaryCodepage="1252" Compressed='yes'
+      Id="????????-????-????-????-????????????" />
+
+    <Condition Message="The operating system is not adequate for running [ProductName].">VersionNT</Condition>
+    <Condition Message="The processor is not adequate for running [ProductName].">Intel &gt;= 5</Condition>
+    <Condition Message="The amount of RAM is not adequate for running [ProductName].">PhysicalMemory &gt;= 64</Condition>
+
+    <!-- *****************************************************************************************
+      Custom Actions
+    -->
+
+    <CustomAction Id="NewerVersionInstalled" Error="A newer version of this product is already installed." />
+     
+    <!-- *****************************************************************************************
+      Upgrade Information
+    -->
+
+    <Upgrade Id="775BDD05-171F-4D3F-9328-4E271866A23C">
+      <!-- 
+        SetVersion updates: Maximum
+        -->
+      <UpgradeVersion Property="PREVIOUSVERSIONINSTALLED" Minimum="1.0.0" Maximum="1.0.12" IncludeMaximum="no"
+        IncludeMinimum="yes" />
+      <!-- 
+        SetVersion updates: Minimum
+        Don't change the Property and Minimum attributes order and values since they are used by SetVersion
+        -->
+      <UpgradeVersion Property="NEWERPRODUCTFOUND" Minimum="1.0.12" Maximum="1.0.999" OnlyDetect="yes"
+        IncludeMinimum="no" />
+    </Upgrade>
+    
+    <!-- *****************************************************************************************
+      CAB file
+    -->
+
+    <Media Id="1" Cabinet="product.cab" EmbedCab="yes" />
+
+    <!-- *****************************************************************************************
+      Registry entries
+    -->
+
+    <DirectoryRef Id="INSTALLDIR">
+      <Component Id="RegKeys" Guid="B8F721D8-95AC-48FA-BAFD-CB94646A0BC2" DiskId="1">
+        <Registry Id="MysqlKey" Root="HKLM" Key="SOFTWARE\MySQL AB\[ProductName]" 
+                  Action="createKeyAndRemoveKeyOnUninstall"/>
+                  
+        <Registry Id="Version" Root="HKLM" Key="SOFTWARE\MySQL AB\[ProductName]" 
+                  Name="Version" Type="string" 
+                  Value="[ProductVersion]"/>
+                  
+        <Registry Id="Location" Root="HKLM" Key="SOFTWARE\MySQL AB\[ProductName]" 
+                  Name="Location" Type="string" 
+                  Value="[INSTALLDIR]"/>                                
+      </Component>
+    </DirectoryRef>
+
+    <!-- *****************************************************************************************
+      Installation Features
+    -->
+
+    <!-- *****************************************************************************************
+      MySQL Administrator
+    -->
+
+    <Feature Id="MysqlAdministrator" Title="MySQL Administrator" Description="MySQL Administrator"
+      Level="1" ConfigurableDirectory="INSTALLDIR" Absent="allow" AllowAdvertise="yes">
+      <!-- <MergeRef Id="MAModule" /> -->
+      <ComponentRef Id="Third_Party_Libraries" />
+      <ComponentRef Id="Gui_Libraries" />
+      <ComponentRef Id="RegKeys" />
+      <ComponentRef Id="MySQLAdministrator.exe" />
+      <ComponentRef Id="mysqladministrator.chm" />
+      <ComponentRef Id="XML_Files" />
+      <ComponentRef Id="locale_files" />
+    </Feature>
+
+    <!-- *****************************************************************************************
+      MySQL System Tray Monitor
+    -->
+
+    <Feature Id="MysqlSystemTray" Title="MySQL System Tray Monitor" Description="This is a small application that will show up in the system tray when started. It gives you a quick overview of the status of your mysql-server(s). "
+      Level="1" ConfigurableDirectory="INSTALLDIR" Absent="allow" AllowAdvertise="yes">
+      <ComponentRef Id="MySQLSystemTrayMonitor.exe" />
+    </Feature>
+
+    <!-- *****************************************************************************************
+      End of Feature
+    -->
+
+    <!-- *****************************************************************************************
+      Include UI
+    -->
+
+    <?include ../../../mysql-gui-common/setup/windows/mysql_common_ui.inc ?>
+
+    <!-- *****************************************************************************************
+      Properties
+    -->
+
+    <!-- The properties are sorted alphabetically after their Id's -->
+    <Property Id="_IsMaintenance">Change</Property>
+    <Property Id="_IsSetupTypeMin">Complete</Property>
+        
+    <Property Id="AgreeToLicense">No</Property>
+    <Property Id="ApplicationUsers">AllUsers</Property>    
+    <Property Id="ARPPRODUCTICON">MAIcon.exe</Property>
+    <!-- <Property Id="ARPNOMODIFY">0</Property> -->
+    <Property Id="ARPURLUPDATEINFO">http://www.mysql.com/products/administrator/</Property>    
+    <Property Id="ARPURLINFOABOUT">http://www.mysql.com/products/administrator/</Property>
+    
+    <Property Id="INSTALLLEVEL">200</Property>    
+         
+    <Property Id="ProgressType3">installs</Property>
+    <Property Id="ProgressType2">installed</Property>
+    <Property Id="ProgressType1">Installing</Property>
+    <Property Id="ProgressType0">install</Property>
+                
+    <Property Id="ReinstallFileVersion">o</Property>
+    <Property Id="RebootYesNo">Yes</Property>
+    <Property Id="ReinstallModeText">omus</Property>
+    <Property Id="ReinstallRepair">r</Property>
+
+    <Property Id="SetupType">Typical</Property>
+    
+    <!-- make a per-machine installation if possible -->
+    <Property Id="ALLUSERS" Value="2" />
+
+
+    <!-- *****************************************************************************************
+      Admin UI Sequence
+    -->
+    
+    <AdminUISequence>
+      <Show Dialog="SetupCompleteErrorDialog" OnExit="error" />
+      <Show Dialog="SetupInterruptedDialog" OnExit="cancel" />
+      <Show Dialog="SetupCompleteSuccessDialog" OnExit="success" />
+          
+      <Show Dialog="SetupInitializationDialog" Before="CostInitialize" />
+      <Show Dialog="AdminWelcomeDialog" After="CostFinalize" />
+      <Show Dialog="SetupProgressDialog" After="AdminWelcomeDialog" />
+    </AdminUISequence>
+
+    <!-- *****************************************************************************************
+      Install Execute Sequence
+    -->
+
+    <InstallExecuteSequence>
+      <Custom Action="NewerVersionInstalled" After="FindRelatedProducts">NEWERPRODUCTFOUND</Custom>      
+       
+      <RemoveExistingProducts After="InstallInitialize"/>
+      <!-- <ScheduleReboot After="PublishProduct">ISSCHEDULEREBOOT</ScheduleReboot> -->
+    </InstallExecuteSequence>
+
+    <!-- *****************************************************************************************
+      Install UI Sequence
+    -->
+
+    <InstallUISequence>
+      <Show Dialog="SetupCompleteErrorDialog" OnExit="error" />
+      <Show Dialog="SetupInterruptedDialog" OnExit="cancel" />
+      <Show Dialog="SetupCompleteSuccessDialog" OnExit="success" />
+      
+      <Custom Action="NewerVersionInstalled" After="FindRelatedProducts">NEWERPRODUCTFOUND</Custom>      
+      <Show Dialog="InstallWelcomeDialog" After="CostFinalize">Not Installed And (Not PATCH Or IS_MAJOR_UPGRADE)</Show>
+      <Show Dialog="SetupResumeDialog" After="InstallWelcomeDialog">Installed And (RESUME Or Preselected) And Not PATCH</Show>
+      <Show Dialog="MaintenanceWelcomeDialog" After="SetupResumeDialog">Installed And Not RESUME And Not Preselected And Not PATCH</Show>
+      <Show Dialog="SetupProgressDialog" After="MaintenanceWelcomeDialog" />
+    </InstallUISequence>
+
+    <!-- *****************************************************************************************
+      Binary files
+    -->
+
+    <Binary Id="AdminBackground" src="resources/AdminBackground.jpg" />
+    <Binary Id="AdminHeader" src="resources/AdminHeader.jpg" />     
+    
+    <Binary Id="NewBinary2" src="../../../mysql-gui-common/setup/windows/resources/binary/binary2" />     
+    <Binary Id="NewBinary3" src="../../../mysql-gui-common/setup/windows/resources/binary/binary3" />     
+    <Binary Id="NewBinary4" src="../../../mysql-gui-common/setup/windows/resources/binary/binary4" />
+    <Binary Id="NewBinary5" src="../../../mysql-gui-common/setup/windows/resources/binary/binary5" />
+    <Binary Id="NewBinary6" src="../../../mysql-gui-common/setup/windows/resources/binary/binary6" />
+    <Binary Id="NewBinary7" src="../../../mysql-gui-common/setup/windows/resources/binary/binary7" />
+    <Binary Id="NewBinary8" src="../../../mysql-gui-common/setup/windows/resources/binary/binary8" />
+    <Binary Id="NewBinary9" src="../../../mysql-gui-common/setup/windows/resources/binary/binary9" />
+    <Binary Id="NewBinary10" src="../../../mysql-gui-common/setup/windows/resources/binary/binary10" />
+    <Binary Id="NewBinary11" src="../../../mysql-gui-common/setup/windows/resources/binary/binary11" />
+    <Binary Id="NewBinary12" src="../../../mysql-gui-common/setup/windows/resources/binary/binary12" />
+    <Binary Id="NewBinary13" src="../../../mysql-gui-common/setup/windows/resources/binary/binary13" />
+    <Binary Id="NewBinary14" src="../../../mysql-gui-common/setup/windows/resources/binary/binary14" />
+    <Binary Id="NewBinary15" src="../../../mysql-gui-common/setup/windows/resources/binary/binary15" />    
+    <Binary Id="NewBinary16" src="../../../mysql-gui-common/setup/windows/resources/binary/binary16" />
+    <Binary Id="NewBinary17" src="../../../mysql-gui-common/setup/windows/resources/binary/binary17" />
+    <Binary Id="NewBinary18" src="../../../mysql-gui-common/setup/windows/resources/binary/binary18" />
+  </Product>
+</Wix>

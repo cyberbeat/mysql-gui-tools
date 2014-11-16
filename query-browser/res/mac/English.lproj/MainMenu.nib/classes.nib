@@ -1,0 +1,45 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                addQueryTab = id; 
+                addScriptTab = id; 
+                bookmarkQuery = id; 
+                compareResultsets = id; 
+                doSchemaAction = id; 
+                executeQuery = id; 
+                explainQuery = id; 
+                exportResultset = id; 
+                myAction = id; 
+                performCloseTab = id; 
+                selectQueryArea = id; 
+                showTableRows = id; 
+                stopQuery = id; 
+                switchToolbarType = id; 
+                toggleDrawer = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                clearRecentMenu = id; 
+                enterpriseHome = id; 
+                enterpriseKB = id; 
+                enterpriseMonitoring = id; 
+                enterpriseSoftware = id; 
+                enterpriseSupport = id; 
+                enterpriseUpdate = id; 
+                newConnection = id; 
+                showAbout = id; 
+                showPreferences = id; 
+            }; 
+            CLASS = MQueryBrowserController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {aboutPanel = id; versionLabel = id; windowsMenu = id; }; 
+            SUPERCLASS = NSDocumentController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

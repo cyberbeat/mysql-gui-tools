@@ -1,0 +1,32 @@
+
+VirtualShellTools -  Version 1.2.0    
+
+23 December 2004
+    - 12-14-04 - Fixed the problem with the Toolbar Images getting messed up
+                 when a notification event occurs! Whoo-Hoo!
+                - Fixed the problem where the treeview may lose it place during
+                  a shell event and reset to no expanded nodes! Whoo-Hoo*2!
+    - 11-10-04 - Fixed the fix from Robert and the focused node <G>.  It was
+                 begin saved but not restored and it corrupted the stream.
+    - 11-28-04 - Fixed bug in text color when full row selection on
+                 and column > 1.  When selected columns > 1 text did not
+                 respect the selected text color.
+               - Added code to log shell notifications if {$DEFINE LOGSHELLEVENTS}
+                 is enabled to find long standing annoying issues with refresh.
+               - Started updating to VT 4.2.23, issues found. Talking with Mike.
+                 Not backwards compatible must upgrade VT with new version of VSTools.
+               - Fixed the TNamespace.ShowContextMenu so that the context menu
+                 would show owner draw submenus it the Owner passed is not a
+                 VET or decendent
+               - Added an Active property to the Combobox.  WARNING its default
+                 is not Active so you must set to true.
+
+VirtualListviewEx - Version 1.4.4
+
+21 December 2004 
+  - Added EditFile method, to easily browse for a file to select it and begin
+    to edit it.
+  - Fixed incorrect checkboxes sync.
+  - Fixed incorrect mouse button click handling when ComCtrls 6 is used,
+    thanks to Gabriel Cristescu for reporting this.
+

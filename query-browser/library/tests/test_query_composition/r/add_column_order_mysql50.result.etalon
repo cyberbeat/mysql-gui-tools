@@ -1,0 +1,38 @@
+-----------------
+SELECT * FROM mysql.help_relation hr 
+ORDER BY hr.help_keyword_id
+-----------------
+
+-----------------
+-----------------
+SELECT * FROM mysql.help_relation hr
+ORDER BY hr.help_keyword_id, hr.help_topic_id
+-----------------
+
+-----------------
+-----------------
+UPDATE mysql.help_topic ht
+SET ht.help_topic_id=1 
+ORDER BY ht.name
+-----------------
+
+-----------------
+-----------------
+UPDATE mysql.help_topic ht
+SET ht.help_topic_id=1
+ORDER BY ht.name, ht.content
+-----------------
+
+-----------------
+-----------------
+DELETE FROM mysql.help_topic ht 
+ORDER BY ht.name
+-----------------
+
+-----------------
+-----------------
+DELETE FROM mysql.help_topic ht
+ORDER BY ht.name, ht.content
+-----------------
+
+-----------------

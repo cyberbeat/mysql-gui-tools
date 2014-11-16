@@ -1,0 +1,101 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLGrtWorkbenchLibrary", "MySQLGrtWorkbenchLibrary.vcproj", "{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25} = {E1EBAE94-B56A-432D-865F-F8AD3107FE25}
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5} = {7DE910DF-4057-447D-98C3-5B1ECE715ED5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLGenericCanvas", "..\library_gc\MySQLGenericCanvas.vcproj", "{E1EBAE94-B56A-432D-865F-F8AD3107FE25}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13} = {2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ftgl_static_lib", "..\library_gc\ftgl\win32_vcpp\ftgl_static_lib\ftgl_static_lib.vcproj", "{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLGrtLibrary", "..\library_grt\MySQLGrtLibrary.vcproj", "{7DE910DF-4057-447D-98C3-5B1ECE715ED5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{142530C4-B184-4833-9A1A-F268B6E336A7} = {142530C4-B184-4833-9A1A-F268B6E336A7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLUtilLibrary", "..\library_util\MySQLUtilLibrary.vcproj", "{142530C4-B184-4833-9A1A-F268B6E336A7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug MT = Debug MT
+		Lib_Debug = Lib_Debug
+		Lib_Release = Lib_Release
+		Release = Release
+		Release MT = Release MT
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Debug.ActiveCfg = Lib_Debug|Win32
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Debug.Build.0 = Lib_Debug|Win32
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Debug MT.ActiveCfg = Lib_Release|Win32
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Debug MT.Build.0 = Lib_Release|Win32
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Lib_Release.Build.0 = Lib_Release|Win32
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Release.ActiveCfg = Lib_Release|Win32
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Release.Build.0 = Lib_Release|Win32
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Release MT.ActiveCfg = Lib_Release|Win32
+		{63B1D3C6-4E76-4850-A1D8-666C53DACFD9}.Release MT.Build.0 = Lib_Release|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Debug.ActiveCfg = Lib_Debug|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Debug.Build.0 = Lib_Debug|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Debug MT.ActiveCfg = Lib_Release|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Debug MT.Build.0 = Lib_Release|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Lib_Release.Build.0 = Lib_Release|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Release.ActiveCfg = Lib_Release|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Release.Build.0 = Lib_Release|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Release MT.ActiveCfg = Lib_Release|Win32
+		{E1EBAE94-B56A-432D-865F-F8AD3107FE25}.Release MT.Build.0 = Lib_Release|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Debug.ActiveCfg = Debug|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Debug.Build.0 = Debug|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Debug MT.ActiveCfg = Debug MT|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Debug MT.Build.0 = Debug MT|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Lib_Release.Build.0 = Lib_Release|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Release.ActiveCfg = Release|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Release.Build.0 = Release|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Release MT.ActiveCfg = Release MT|Win32
+		{2E6DB239-5B46-4AB9-8D05-8A03F5B45E13}.Release MT.Build.0 = Release MT|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Debug.ActiveCfg = Lib_Debug|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Debug.Build.0 = Lib_Debug|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Debug MT.ActiveCfg = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Debug MT.Build.0 = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Release.Build.0 = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Release.ActiveCfg = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Release.Build.0 = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Release MT.ActiveCfg = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Release MT.Build.0 = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Debug.ActiveCfg = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Debug.Build.0 = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Debug MT.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Debug MT.Build.0 = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Release.Build.0 = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Release.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Release.Build.0 = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Release MT.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Release MT.Build.0 = Lib_Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

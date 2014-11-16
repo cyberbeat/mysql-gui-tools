@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                addItem = id; 
+                deleteItem = id; 
+                hideDetailed = id; 
+                showDetailed = id; 
+                toggleMigrate = id; 
+            }; 
+            CLASS = MGRTRevEngFilterPane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                box = NSBox; 
+                ignoreList = NSTableView; 
+                objectList = NSTableView; 
+                view = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

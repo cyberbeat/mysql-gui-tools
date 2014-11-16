@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<project>
+  <meta>
+    <product>
+      MySQL Administrator
+    </product>
+    <version>
+      1.2
+    </version>
+    <os>
+      Linux
+    </os>
+    <framework>
+      Gtk2
+    </framework>
+  </meta>
+  <application platform="linux-gtk">
+    <basedir>
+      
+    </basedir>
+    <executable>
+      
+    </executable>
+    <variables/>
+  </application>
+  <application platform="windows">
+    <basedir>
+      ..\..\administrator\bin\windows
+    </basedir>
+    <executable>
+      MySQLAdministrator.exe -start_snoop
+    </executable>
+    <variables/>
+  </application>
+  <setup>
+    <vnc_password>
+      
+    </vnc_password>
+    <vnc_display>
+      1
+    </vnc_display>
+    <snoop_port>
+      4444
+    </snoop_port>
+  </setup>
+  <groups>
+    <group name="Login dialog">
+      <case abortsGroup="0">
+        test1.py
+      </case>
+    </group>
+  </groups>
+</project>

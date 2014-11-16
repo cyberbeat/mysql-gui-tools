@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="db.mysql.Catalog" parent="db.Catalog">
+    <members>
+      <member name="schemata" type="list" content-type="dict" content-struct-name="db.mysql.Schema" overrides="db.Schema" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mysql.Schema" parent="db.Schema" caption="MySQL Schema" >
+    <members>
+      <member name="tables" type="list" content-type="dict" content-struct-name="db.mysql.Table" overrides="db.Table" />
+      <member name="views" type="list" content-type="dict" content-struct-name="db.mysql.View" overrides="db.View" />
+      <member name="routines" type="list" content-type="dict" content-struct-name="db.mysql.Routine" overrides="db.Routine" />
+      <member name="routineGroups" type="list" content-type="dict" content-struct-name="db.mysql.RoutineGroup" overrides="db.RoutineGroup" />
+      <member name="synonyms" type="list" content-type="dict" content-struct-name="db.mysql.Synonym" overrides="db.Synonym" />
+      <member name="structuredTypes" type="list" content-type="dict" content-struct-name="db.mysql.StructuredDatatype" overrides="db.StructuredDatatype" />
+      <member name="sequences" type="list" content-type="dict" content-struct-name="db.mysql.Sequence" overrides="db.Sequence" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mysql.Table" parent="db.Table" caption="MySQL Table">
+    <members>
+      <member name="columns" type="list" content-type="dict" content-struct-name="db.mysql.Column" caption="Columns" overrides="db.Column" />
+      <member name="indices" type="list" content-type="dict" content-struct-name="db.mysql.Index" caption="Indices" overrides="db.Index" />
+      <member name="triggers" type="list" content-type="dict" content-struct-name="db.mysql.Trigger" caption="Triggers" overrides="db.Trigger" />
+      <member name="tableEngine" type="string" />
+      <member name="nextAutoInc" type="string" />
+      <member name="password" type="string" />
+      <member name="delayKeyWrite" type="int" />
+      <member name="defaultCharacterSetName" type="string" />
+      <member name="defaultCollationName" type="string" />
+      <member name="mergeUnion" type="string" />
+      <member name="mergeInsert" type="string" />
+      <member name="tableDataDir" type="string" />
+      <member name="tableIndexDir" type="string" />
+      <member name="packKeys" type="string" />
+      <member name="raidType" type="string" />
+      <member name="raidChunks" type="string" />
+      <member name="raidChunkSize" type="string" />
+      <member name="checksum" type="int" />
+      <member name="rowFormat" type="string" />
+      <member name="avgRowLength" type="string" />
+      <member name="minRows" type="string" />
+      <member name="maxRows" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mysql.Column" parent="db.Column">
+    <members>
+      <member name="autoIncrement" type="int" />
+      <member name="datatypeExplicitParams" type="string" desc="For ENUM, SET and similar datatypes the parametes can be defined explictly. Note that brackets need to be included. This will overwrite the precision, scale and length setting" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mysql.SimpleDatatype" parent="db.SimpleDatatype" />
+
+  <gstruct name="db.mysql.StructuredDatatype" parent="db.StructuredDatatype" caption="MySQL Structured Datatype" />
+
+  <gstruct name="db.mysql.Index" parent="db.Index">
+    <members>
+      <member name="indexKind" type="string" />      
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mysql.IndexColumn" parent="db.IndexColumn" />
+
+  <gstruct name="db.mysql.ForeignKey" parent="db.ForeignKey" />
+  
+  <gstruct name="db.mysql.Trigger" parent="db.Trigger" />
+
+  <gstruct name="db.mysql.View" parent="db.View" caption="MySQL View" />
+  
+  <gstruct name="db.mysql.RoutineGroup" parent="db.RoutineGroup" caption="MySQL Routine Group" />
+
+  <gstruct name="db.mysql.Routine" parent="db.Routine" caption="MySQL Routine">
+    <members>
+      <member name="security" type="string" />
+      <member name="returnDatatype" type="string" />
+      <member name="params" type="list" content-type="dict" content-struct-name="db.mysql.RoutineParam" caption="Parameters" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mysql.RoutineParam" parent="GrtObject">
+    <members>
+      <member name="datatype" type="string" />
+      <member name="paramType" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mysql.Synonym" parent="db.Synonym" caption="MySQL Synonym" desc="a MySQL synonym object" />
+  
+  <gstruct name="db.mysql.Sequence" parent="db.Sequence" caption="MySQL Sequence" desc="a MySQL database sequence object" />
+
+  <gstruct name="db.mysql.StorageEngineOption" parent="base.NamedGrtObject" caption="MySQL Storage Engine Option" desc="an option description for a MySQL storage engine">
+    <members>
+      <member name="caption" type="string" />
+      <member name="description" type="string" />
+      <member name="type" type="string" />
+    </members>
+  </gstruct>
+
+  <gstruct name="db.mysql.StorageEngine" parent="base.NamedGrtObject" caption="MySQL Storage Engine Type" desc="a MySQL storage engine type description">
+    <members>
+      <member name="caption" type="string" />
+      <member name="description" type="string" />
+      <member name="supportsForeignKeys" type="int" />
+      <member name="options" type="list" content-type="dict" content-struct-name="db.mysql.StorageEngineOption" caption="Options" />
+    </members>
+  </gstruct>
+</gstructs>
+
+

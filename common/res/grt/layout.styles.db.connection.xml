@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc-styles xmlns="http://dev.mysql.com/gc/styles" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <!-- Crow's foot ************************************************************************************ -->
+
+  <style-definition id="db.connection.crow.end.single.mandatory">
+    <svg:svg>
+			<line stroke="black" stroke-width="1" x1="0" y1="0" x2="18" y2="0"/>
+			<line stroke="black" stroke-width="1" x1="13.5" y1="-4.5" x2="13.5" y2="4.5"/>
+			<line stroke="black" stroke-width="1" x1="18" y1="-4.5" x2="18" y2="4.5"/>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.connection.crow.end.single.optional">
+    <svg:svg>
+			<line stroke="black" stroke-width="1" x1="0" y1="0" x2="9" y2="0"/>
+			<line stroke="black" stroke-width="1" x1="4.5" y1="-4.5" x2="4.5" y2="4.5"/>
+			<circle fill="white" stroke="black" stroke-width="1" cx="13.5" cy="0" r="4.5"/>
+    </svg:svg>
+  </style-definition>
+
+  <style-definition id="db.connection.crow.end.multiple.optional">
+    <svg:svg>
+			<line stroke="black" stroke-width="1" x1="0" y1="0" x2="9" y2="0"/>
+			<line stroke="black" stroke-width="1" x1="0" y1="-4.5" x2="9" y2="0"/>
+			<line stroke="black" stroke-width="1" x1="0" y1="4.5" x2="9" y2="0"/>
+			<circle fill="white" stroke="black" stroke-width="1" cx="13.5" cy="0" r="4.5"/>
+    </svg:svg>
+  </style-definition>
+
+  <style-definition id="db.connection.crow.end.multiple.mandatory">
+    <svg:svg>
+			<line stroke="black" stroke-width="1" x1="0" y1="0" x2="18" y2="0"/>
+			<line stroke="black" stroke-width="1" x1="0" y1="-4.5" x2="9" y2="0"/>
+			<line stroke="black" stroke-width="1" x1="0" y1="4.5" x2="9" y2="0"/>
+			<line stroke="black" stroke-width="1" x1="18" y1="-4.5" x2="18" y2="4.5"/>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.connection.crow.center">
+    <svg:svg />
+  </style-definition>
+
+  <style-definition id="db.connection.crow.end1.text">
+    <svg:svg>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.connection.crow.end2.text">
+    <svg:svg>
+    </svg:svg>
+  </style-definition>
+
+  <style-definition id="db.connection.crow.info.lbl">
+    <svg:svg>
+      <rect fill="#FFFFFF" stroke="#AAAAAA" width="120" height="22"/>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.connection.crow.info.menu">
+    <svg:svg>
+      <g>
+        <polygon fill="#FFFFFF" stroke="#AAAAAA" points="0,0 28,0 28,22 0,22 "/>
+        <rect x="13" y="9.287" fill="#808080" width="9.266" height="9.234"/>
+        <rect x="14.031" y="10.318" fill="#FFFFFF" width="7.219" height="1.719"/>
+        <rect x="14.031" y="13.068" fill="#FFFFFF" width="7.219" height="1.719"/>
+        <rect x="14.031" y="15.787" fill="#FFFFFF" width="7.219" height="1.719"/>
+        <polygon fill="#808080" points="6.813,2.162 6.813,10.912 8.792,8.934 10.667,12.746 
+          11.229,12.746 12.181,12.078 12.259,11.547 10.5,8.225 12.833,8.225 "/>
+      </g>
+    </svg:svg>
+  </style-definition>
+  
+  <!-- EER *************************************************************************************** -->  
+
+  <style-definition id="db.connection.eer.end.multiple.mandatory">
+    <svg:svg>
+      <line stroke="black" stroke-width="1" x1="0" y1="0" x2="18" y2="0"/>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.connection.eer.end.multiple.optional">
+    <svg:svg>
+			<circle fill="white" stroke="black" stroke-width="1" cx="13.5" cy="0" r="4.5"/>
+    </svg:svg>
+  </style-definition>
+
+  <style-definition id="db.connection.eer.end.single.optional">
+    <svg:svg>
+			<circle fill="white" stroke="black" stroke-width="1" cx="13.5" cy="0" r="4.5"/>
+    </svg:svg>
+  </style-definition>
+
+  <style-definition id="db.connection.eer.end.single.mandatory">
+    <svg:svg>
+      <line stroke="black" stroke-width="1" x1="0" y1="0" x2="18" y2="0"/>
+    </svg:svg>
+  </style-definition>
+
+  <style-definition id="db.connection.eer.center.one.one">
+    <svg:svg>
+      <polygon fill="#FFFFFF" stroke="#000000" points="-10,0 0,-10 10,0 0,10 "/>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.connection.eer.center.one.many">
+    <svg:svg>
+      <polygon fill="#FFFFFF" stroke="#000000" points="-10,0 0,-10 0,10 "/>
+      <polygon fill="#000000" stroke="#000000" points="10,0 0,-10 0,10 "/>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.connection.eer.center.many.many">
+    <svg:svg>
+      <polygon fill="#000000" stroke="#000000" points="-10,0 0,-10 10,0 0,10 "/>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.connection.eer.end1.text">
+    <svg:svg>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.connection.eer.end2.text">
+    <svg:svg>
+    </svg:svg>
+  </style-definition>
+
+  <style-definition id="db.connection.eer.info.lbl">
+    <svg:svg>
+      <rect fill="#FFFFFF" stroke="#AAAAAA" width="120" height="22"/>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.connection.eer.info.menu">
+    <svg:svg>
+      <g>
+        <polygon fill="#FFFFFF" stroke="#AAAAAA" points="0,0 28,0 28,22 0,22 "/>
+        <rect x="13" y="9.287" fill="#808080" width="9.266" height="9.234"/>
+        <rect x="14.031" y="10.318" fill="#FFFFFF" width="7.219" height="1.719"/>
+        <rect x="14.031" y="13.068" fill="#FFFFFF" width="7.219" height="1.719"/>
+        <rect x="14.031" y="15.787" fill="#FFFFFF" width="7.219" height="1.719"/>
+        <polygon fill="#808080" points="6.813,2.162 6.813,10.912 8.792,8.934 10.667,12.746 
+          11.229,12.746 12.181,12.078 12.259,11.547 10.5,8.225 12.833,8.225 "/>
+      </g>
+    </svg:svg>
+  </style-definition>
+  
+</gc-styles>

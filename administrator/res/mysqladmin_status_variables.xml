@@ -1,0 +1,514 @@
+<?xml version="1.0"?>
+<!-- Please do not use tab chars -->
+<variables_listing>
+ <group pos="1" name="General" caption_id="General">
+  <variable mysql_id="Uptime">
+	<description>How many seconds the server has been up.</description>
+  </variable>
+  <variable mysql_id="Open_tables">
+	<description>Number of tables that are currently open.</description>
+  </variable>
+  <variable mysql_id="Open_files">
+	<description>Number of files that are open.</description>
+  </variable>
+  <variable mysql_id="Open_streams">
+	<description>Number of streams that are open (used mainly for logging).</description>
+  </variable>
+  <variable mysql_id="Opened_tables">
+	<description>Number of tables that have been opened since server start.</description>
+  </variable>
+  <variable mysql_id="Questions">
+	<description>Number of queries sent to the server.</description>
+  </variable>
+  <subgroup pos="1" name="Threads" caption_id="Threads">
+   <variable mysql_id="Threads_cached">
+	 <description>Number of threads in the thread cache.</description>
+   </variable>
+   <variable mysql_id="Threads_created">
+	 <description>Number of threads created to handle connections.</description>
+   </variable>
+   <variable mysql_id="Threads_connected">
+	 <description>Number of currently open connections.</description>
+   </variable>
+   <variable mysql_id="Threads_running">
+	 <description>Number of threads that are not sleeping.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="2" name="Temporary" caption_id="Temporary">
+   <variable mysql_id="Created_tmp_disk_tables">
+	 <description>Number of implicit temporary tables on disk created while executing statements.</description>
+   </variable>
+   <variable mysql_id="Created_tmp_tables">
+	 <description>Number of implicit temporary tables in memory created while executing statements.</description>
+   </variable>
+   <variable mysql_id="Created_tmp_files">
+	 <description>Number of temporary files the MySQL server has created.</description>
+   </variable>
+  </subgroup>
+ </group>
+ <group pos="2" name="Performance" caption_id="Connections">
+  <variable mysql_id="Slow_launch_threads">
+	<description>Number of threads that have taken more than slow_launch_time to create.</description>
+  </variable>
+  <variable mysql_id="Slow_queries">
+	<description>Number of queries that have taken more than long_query_time seconds.</description>
+  </variable>
+  <subgroup pos="1" name="Query cache" caption_id="Query cache">
+   <variable mysql_id="Qcache_queries_in_cache">
+	 <description>Number of queries registered in the query cache.</description>
+   </variable>
+   <variable mysql_id="Qcache_inserts">
+	 <description>Number of queries added to the query cache.</description>
+   </variable>
+   <variable mysql_id="Qcache_hits">
+	 <description>Number of query cache hits.</description>
+   </variable>
+   <variable mysql_id="Qcache_lowmem_prunes">
+	 <description>Number of queries that were deleted from query cache because of low memory. </description>
+   </variable>
+   <variable mysql_id="Qcache_not_cached">
+	 <description>Number of non-cached queries (not cachable, or due to QUERY_CACHE_TYPE).</description>
+   </variable>
+   <variable mysql_id="Qcache_free_memory">
+	 <description>Amount of free memory for query cache.</description>
+   </variable>
+   <variable mysql_id="Qcache_free_blocks">
+	 <description>Number of free memory blocks in query cache.</description>
+   </variable>
+   <variable mysql_id="Qcache_total_blocks">
+	 <description>Total number of blocks in query cache.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="2" name="Keys" caption_id="Keys">
+   <variable mysql_id="Key_blocks_not_flushed">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="Key_blocks_used">
+	 <description>Number of used blocks in the key cache.</description>
+   </variable>
+   <variable mysql_id="Key_read_requests">
+	 <description>Number of requests to read a key block from the cache.</description>
+   </variable>
+   <variable mysql_id="Key_reads">
+	 <description>The number of physical reads of a key block from disk.</description>
+   </variable>
+   <variable mysql_id="Key_write_requests">
+	 <description>The number of requests to write a key block to the cache.</description>
+   </variable>
+   <variable mysql_id="Key_writes">
+	 <description>The number of physical writes of a key block to disk.</description>
+   </variable>
+   <variable mysql_id="Not_flushed_key_blocks">
+	 <description>Keys blocks in the key cache that has changed but hasn't yet been flushed to disk. </description>
+   </variable>
+  </subgroup>
+  <subgroup pos="3" name="Sort" caption_id="Sort">
+   <variable mysql_id="Sort_merge_passes">
+	 <description>Number of merge passes the sort algorithm have had to do. If this value is large you should consider increasing sort_buffer.</description>
+   </variable>
+   <variable mysql_id="Sort_range">
+	 <description>Number of sorts that were done with ranges.</description>
+   </variable>
+   <variable mysql_id="Sort_rows">
+	 <description>Number of sorted rows.</description>
+   </variable>
+   <variable mysql_id="Sort_scan">
+	 <description>Number of sorts that were done by scanning the table.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="4" name="Delayed" caption_id="Delayed">
+   <variable mysql_id="Delayed_insert_threads">
+	 <description>Number of delayed insert handler threads in use.</description>
+   </variable>
+   <variable mysql_id="Delayed_writes">
+	 <description>Number of rows written with INSERT DELAYED.</description>
+   </variable>
+   <variable mysql_id="Delayed_errors">
+	 <description>Number of rows written with INSERT DELAYED for which some error occurred (probably duplicate key).</description>
+   </variable>
+   <variable mysql_id="Not_flushed_delayed_rows">
+	 <description>Number of rows waiting to be written in INSERT DELAY queues.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="5" name="Selects" caption_id="Selects">
+   <variable mysql_id="Select_full_join">
+	 <description>Number of joins without keys. If this is not 0, you should carefully check the indexes of your tables.</description>
+   </variable>
+   <variable mysql_id="Select_full_range_join">
+	 <description>Number of joins where a range search on the reference table was used.</description>
+   </variable>
+   <variable mysql_id="Select_range">
+	 <description>Number of joins where ranges on the first table were used. It's normally not critical even if this is big.</description>
+   </variable>
+   <variable mysql_id="Select_range_check">
+	 <description>Number of joins where ranges on the first table were used. It's normally not critical even if this is big</description>
+   </variable>
+   <variable mysql_id="Select_scan">
+	 <description>Number of joins where a full scan of the first table was done.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="6" name="Locks" caption_id="Locks">
+   <variable mysql_id="Table_locks_immediate">
+	 <description>Number of times a table lock was acquired immediately.</description>
+   </variable>
+   <variable mysql_id="Table_locks_waited">
+	 <description>Number of times a table lock could not be acquired immediately and a wait was needed. If this is high, and you have performance problems, you should first optimize your queries, and then either split your table or tables or use replication.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="7" name="InnoDB" caption_id="status_var_group_InnoDB">
+   <variable mysql_id="innodb_buffer_free_buffers">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="innodb_buffer_pages_created">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="innodb_buffer_pages_read">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="innodb_buffer_pages_written">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="innodb_buffer_pool_size">
+	 <description>No description available.</description>
+   </variable>
+  </subgroup>
+ </group>
+ <group pos="3" name="Networking" caption_id="Networking">
+  <variable mysql_id="Aborted_clients">
+	<description>Number of connections aborted because the client died without closing the connection properly.</description>
+  </variable>
+  <variable mysql_id="Aborted_connects">
+	<description>Number of tries to connect to the MySQL server that failed.</description>
+  </variable>
+  <variable mysql_id="Connections">
+	<description>Number of connection attempts to the MySQL server.</description>
+  </variable>
+  <variable mysql_id="Max_used_connections">
+	<description>Maximum number of connections in use simultaneously.</description>
+  </variable>
+  <subgroup pos="1" name="Traffic" caption_id="Traffic">
+   <variable mysql_id="Bytes_received">
+	 <description>Number of bytes received from all clients.</description>
+   </variable>
+   <variable mysql_id="Bytes_sent">
+	 <description>Number of bytes sent to all clients.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="2" name="Replication" caption_id="Replication">
+   <variable mysql_id="Rpl_status">
+	 <description>Status of failsafe replication.</description>
+   </variable>
+   <variable mysql_id="Slave_open_temp_tables">
+	 <description>Number of temporary tables currently open by the slave thread.</description>
+   </variable>
+   <variable mysql_id="Slave_running">
+	 <description>Is ON if this server is a slave that is connected to a master.</description>
+   </variable>
+  </subgroup>
+ </group>
+ <group pos="4" name="Commands executed" caption_id="Commands executed">
+  <variable mysql_id="Flush_commands">
+	<description>No description available.</description>
+  </variable>
+  <variable mysql_id="Com_admin_commands">
+	<description>No description available.</description>
+  </variable>
+  <variable mysql_id="Com_change_db">
+	<description>Number of USE &lt;database&gt; commands performed that actually changed the default database, since server start.</description>
+  </variable>
+  <variable mysql_id="Com_drop_user">
+	<description>Number of DROP USER commands performed since server start.</description>
+  </variable>
+  <variable mysql_id="Com_flush">
+	<description>Number of FLUSH (LOGS, PRIVILEGES, etc.) commands since server start.</description>
+  </variable>
+  <variable mysql_id="Com_grant">
+	<description>Number of GRANT &lt;privileges&gt; commands since server start.</description>
+  </variable>
+  <variable mysql_id="Com_ha_close">
+	<description>No description available.</description>
+  </variable>
+  <variable mysql_id="Com_ha_open">
+	<description>No description available.</description>
+  </variable>
+  <variable mysql_id="Com_ha_read">
+	<description>No description available.</description>
+  </variable>
+  <variable mysql_id="Com_help">
+	<description>Number of HELP commands since server start.</description>
+  </variable>
+  <variable mysql_id="Com_kill">
+	<description>Number of KILL &lt;connection_id&gt; commands since server start.</description>
+  </variable>
+  <variable mysql_id="Com_lock_tables">
+	<description>Number of LOCK TABLES commands since server start.</description>
+  </variable>
+  <variable mysql_id="Com_preload_keys">
+	<description>No description available.</description>
+  </variable>
+  <variable mysql_id="Com_purge">
+	<description>No description available.</description>
+  </variable>
+  <variable mysql_id="Com_purge_before_date">
+	<description>No description available</description>
+  </variable>
+  <variable mysql_id="Com_reset">
+	<description>Number of RESET (MASTER | SLAVE) replication commands since server start.</description>
+  </variable>
+  <variable mysql_id="Com_revoke">
+	<description>Number of REVOKE &lt;privileges&gt; commands since server start.</description>
+  </variable>
+  <variable mysql_id="Com_revoke_all">
+	<description>Number of REVOKE &lt;privileges&gt; commands since server start</description>
+  </variable>
+  <variable mysql_id="Com_savepoint">
+	<description>No description available.</description>
+  </variable>
+  <variable mysql_id="Com_set_option">
+	<description>Number of SET (GLOBAL | LOCAL) VARIABLE commands since server start.</description>
+  </variable>
+  <variable mysql_id="Com_unlock_tables">
+	<description>Number of UNLOCK TABLES commands since server start.</description>
+  </variable>
+  <subgroup pos="1" name="DDL" caption_id="DDL">
+   <variable mysql_id="Com_truncate">
+	 <description>Number of TRUNCATE TABLE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_restore_table">
+	 <description>Number of RESTORE TABLE commands since server start (regardless whether or not those were successful).</description>
+   </variable>
+   <variable mysql_id="Com_repair">
+	 <description>Number of REPAIR TABLE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_optimize">
+	 <description>Number of OPTIMIZE TABLE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_check">
+	 <description>Number of CHECK TABLE commands performed since server start.</description>
+   </variable>
+   <variable mysql_id="Com_checksum">
+	 <description>Number of CHECK TABLE commands performed since server start.sum</description>
+   </variable>
+   <variable mysql_id="Com_analyze">
+	 <description>Number of ANALYZE TABLE commands performed since server start.</description>
+   </variable>
+   <variable mysql_id="Com_backup_table">
+	 <description>Number of BACKUP TABLE commands performed since server start.</description>
+   </variable>
+   <variable mysql_id="Com_alter_db">
+	 <description>Number of ALTER DATABASE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_alter_table">
+	 <description>Number of ALTER TABLE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_create_db">
+	 <description>Number of CREATE DB commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_create_function">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="Com_create_index">
+	 <description>Number of CREATE INDEX commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_create_table">
+	 <description>Number of CREATE TABLE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_drop_db">
+	 <description>Number of DROP DATABASE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_drop_function">
+	 <description>Number of DROP FUNCTION commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_drop_index">
+	 <description>Number of DROP INDEX commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_drop_table">
+	 <description>Number of DROP TABLE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_rename_table">
+	 <description>Number of RENAME TABLE commands since server start.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="2" name="DML" caption_id="DML">
+   <variable mysql_id="Com_do">
+	 <description>Number of DO commands performed since server start.</description>
+   </variable>
+   <variable mysql_id="Com_begin">
+	 <description>Number of BEGIN transactional commands performed since server start.</description>
+   </variable>
+   <variable mysql_id="Com_commit">
+	 <description>Number of COMMIT transactional commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_delete">
+	 <description>Number of DELETE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_delete_multi">
+	 <description>Number of DELETE commands since server start</description>
+   </variable>
+   <variable mysql_id="Com_insert">
+	 <description>Number of INSERT commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_insert_select">
+	 <description>Number of INSERT commands since server start</description>
+   </variable>
+   <variable mysql_id="Com_load">
+	 <description>Number of LOAD DATA INFILE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_replace">
+	 <description>Number of REPLACE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_replace_select">
+	 <description>Number of REPLACE commands since server start</description>
+   </variable>
+   <variable mysql_id="Com_rollback">
+	 <description>Number of ROLLBACK transactional commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_select">
+	 <description>Number of SELECT commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_update">
+	 <description>Number of UPDATE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_update_multi">
+	 <description>Number of UPDATE commands since server start</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="3" name="Show" caption_id="Show">
+   <variable mysql_id="Com_show_binlog_events">
+	 <description>Number of SHOW BINLOG EVENTS commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_binlogs">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="Com_show_charsets">
+	 <description>Number of SHOW CHARACTER SET commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_collations">
+	 <description>Number of SHOW COLLATION commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_column_types">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="Com_show_create">
+	 <description>status_var_Com_show_create</description>
+   </variable>
+   <variable mysql_id="Com_show_create_db">
+	 <description>Number of SHOW CREATE DATABASE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_create_table">
+	 <description>Number of SHOW CREATE TABLE commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_databases">
+	 <description>Number of SHOW DATABASES commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_errors">
+	 <description>Number of SHOW ERRORS commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_fields">
+	 <description>Number of SHOW (FIELDS | COLUMNS) FROM &lt;tbl&gt; or DESCRIBE &lt;tbl&gt; commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_grants">
+	 <description>Number of SHOW GRANTS commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_keys">
+	 <description>Number of SHOW (INDEX | KEYS) commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_logs">
+	 <description>Number of SHOW LOGS commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_master_status">
+	 <description>Number of SHOW MASTER STATUS replication commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_new_master">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="Com_show_open_tables">
+	 <description>Number of SHOW OPEN TABLES commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_privileges">
+	 <description>Number of SHOW PRIVILEGES commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_processlist">
+	 <description>Number of SHOW PROCESSLIST commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_slave_hosts">
+	 <description>Number of SHOW SLAVE HOSTS replication commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_slave_status">
+	 <description>Number of SHOW SLAVE STATUS replication commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_status">
+	 <description>Number of SHOW STATUS commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_storage_engines">
+	 <description>Number of SHOW STORAGE ENGINES commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_innodb_status">
+	 <description>Number of SHOW INNODB STATUS commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_tables">
+	 <description>Number of SHOW TABLES commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_variables">
+	 <description>Number of SHOW VARIABLES commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_show_warnings">
+	 <description>Number of SHOW WARNINGS commands since server start.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="4" name="Replication" caption_id="DDL">
+   <variable mysql_id="Com_slave_start">
+	 <description>Number of START SLAVE replication commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_slave_stop">
+	 <description>Number of STOP SLAVE replication commands since server start.</description>
+   </variable>
+   <variable mysql_id="Com_change_master">
+	 <description>Number of CHANGE MASTER TO replication commands performed since server start.</description>
+   </variable>
+   <variable mysql_id="Com_load_master_data">
+	 <description>Number of LOAD DATA INFILE commands since server start</description>
+   </variable>
+   <variable mysql_id="Com_load_master_table">
+	 <description>Number of LOAD DATA INFILE commands since server start</description>
+   </variable>
+  </subgroup>
+ </group>
+ <group pos="5" name="Miscellaneous" caption_id="Miscellaneous">
+  <subgroup pos="1" name="Handler" caption_id="Handler">
+   <variable mysql_id="Handler_commit">
+	 <description>Number of internal COMMIT commands.</description>
+   </variable>
+   <variable mysql_id="Handler_delete">
+	 <description>Number of times a row was deleted from a table.</description>
+   </variable>
+   <variable mysql_id="Handler_read_first">
+	 <description>Number of times the first entry was read from an index. If this is high, it suggests that the server is doing a lot of full index scans, for example, SELECT col1 FROM foo, assuming that col1 is indexed.</description>
+   </variable>
+   <variable mysql_id="Handler_read_key">
+	 <description>Number of requests to read a row based on a key. If this is high, it is a good indication that your queries and tables are properly indexed.</description>
+   </variable>
+   <variable mysql_id="Handler_read_next">
+	 <description>Number of requests to read next row in key order. This will be incremented if you are querying an index column with a range constraint. This also will be incremented if you are doing an index scan.</description>
+   </variable>
+   <variable mysql_id="Handler_read_prev">
+	 <description>Number of requests to read previous row in key order. This is mainly used to optimize ORDER BY ... DESC.</description>
+   </variable>
+   <variable mysql_id="Handler_read_rnd">
+	 <description>Number of requests to read a row based on a fixed position. This will be high if you are doing a lot of queries that require sorting of the result.</description>
+   </variable>
+   <variable mysql_id="Handler_read_rnd_next">
+	 <description>Number of requests to read a row based on a fixed position. This will be high if you are doing a lot of queries that require sorting of the result</description>
+   </variable>
+   <variable mysql_id="Handler_rollback">
+	 <description>Number of internal ROLLBACK commands.</description>
+   </variable>
+   <variable mysql_id="Handler_update">
+	 <description>Number of requests to update a row in a table.</description>
+   </variable>
+   <variable mysql_id="Handler_write">
+	 <description>Number of requests to insert a row in a table.</description>
+   </variable>
+  </subgroup>
+ </group>
+</variables_listing>

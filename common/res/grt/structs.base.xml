@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<gstructs>
+
+  <gstruct name="base.ApplicationData" parent="GrtObject">
+    <members>
+      <member name="commonOptions" type="dict" content-type="string" desc="stores options that are shared between applications" />
+      <member name="options" type="dict" content-type="string" desc="stores application specific options" />
+      <member name="formPositions" type="dict" content-type="dict" content-struct-name="forms.Position" desc="stores application specific options" />
+      <member name="editors" type="list" content-type="dict" content-struct-name="base.ObjectEditor" desc="the list of available object editors" />
+      <member name="pluginGroups" type="list" content-type="dict" content-struct-name="base.PluginGroup" desc="the list of available plugin groups" />
+      <member name="plugins" type="list" content-type="dict" content-struct-name="base.Plugin" desc="the list of available plugins" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="base.NamedGrtObject" parent="GrtObject">
+    <members>
+      <member name="oldName" type="string" desc="used to keep track of the old, original name of the object if the object gets renamed" />
+      <member name="comment" type="string" desc="a text describing the object" />
+    </members>
+  </gstruct>
+
+  <gstruct name="base.ObjectLog" parent="GrtObject" desc="an object log">
+    <members>
+      <member name="logObject" type="string" option="ref" content-struct-name="GrtObject" desc="a link to the object" />
+      <member name="refObject" type="string" option="ref" content-struct-name="GrtObject" desc="an optional link to a referenced object" />
+      <member name="entries" type="list" content-type="dict" content-struct-name="base.ObjectLogEntry" desc="the generated messages" />
+    </members>
+  </gstruct>
+
+  <gstruct name="base.ObjectLogEntry" parent="GrtObject" desc="an object log entry">
+    <members>
+      <member name="entryType" type="int" desc="type of the log entry, 0 for a normal message, 1 for a warning and 2 for an error" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="base.ObjectEditor" parent="GrtObject">
+    <members>
+      <member name="moduleName" type="string" desc="the module that implements the editor" />
+      <member name="moduleFunctionName" type="string" desc="the module function that implements the editor" />
+      <member name="objectStructName" type="string" desc="the type of object that can be edited by this editor" />
+      <member name="rating" type="int" desc="the rating of this editor. A editor with the highest rating will be choosen" />
+      <member name="actionId" type="int" desc="the action id that this editor handles. Make it 0 for handling any action" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="base.PluginGroup" parent="GrtObject">
+    <members>
+      <member name="subGroups" type="list" content-type="dict" content-struct-name="base.PluginGroup" desc="the sub-groups of this group" />
+      <member name="plugins" type="list" content-type="string" option="ref" content-struct-name="base.Plugin" desc="the list of plugins in this group" />
+      <member name="position" type="int" desc="the position of the group in the group list" />
+    </members>
+  </gstruct>
+  
+  <gstruct name="base.Plugin" parent="GrtObject">
+    <members>
+      <member name="caption" type="string" desc="the plugin caption" />
+      <member name="description" type="string" desc="the plugin description" />      
+      <member name="groupPath" type="string" desc="the path to the group this plugin belongs to" />
+      <member name="moduleName" type="string" desc="the module that implements the editor" />
+      <member name="moduleFunctionName" type="string" desc="the module function that implements the editor" />
+      <member name="categories" type="list" content-type="string" desc="a list of categories this plugin can be used with" />
+      <member name="objectStructNames" type="list" content-type="string" desc="the types of objects that can be handled by this plugin" />
+      <member name="singleArgument" type="int" desc="set to 1 if the plugin does not take a list of object but only a single object" />
+    </members>
+  </gstruct>
+
+</gstructs>

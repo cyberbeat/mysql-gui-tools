@@ -1,0 +1,135 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "grtsh", "grtsh.vcproj", "{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63} = {BD973A45-5752-4F92-9C80-C4FECE3D4A63}
+		{142530C4-B184-4833-9A1A-F268B6E336A7} = {142530C4-B184-4833-9A1A-F268B6E336A7}
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5} = {7DE910DF-4057-447D-98C3-5B1ECE715ED5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLGrtLibrary", "..\..\library\generic-runtime\MySQLGrtLibrary.vcproj", "{7DE910DF-4057-447D-98C3-5B1ECE715ED5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{142530C4-B184-4833-9A1A-F268B6E336A7} = {142530C4-B184-4833-9A1A-F268B6E336A7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLGrtBuiltinModuleLibrary", "..\..\library\grt-modules\MySQLGrtBuiltinModuleLibrary.vcproj", "{BD973A45-5752-4F92-9C80-C4FECE3D4A63}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17} = {8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29} = {6FBC86A7-892F-47C5-B62E-7304AB98DA29}
+		{142530C4-B184-4833-9A1A-F268B6E336A7} = {142530C4-B184-4833-9A1A-F268B6E336A7}
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5} = {7DE910DF-4057-447D-98C3-5B1ECE715ED5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLXLibrary", "..\..\library\base-library\MySQLXLibrary.vcproj", "{6FBC86A7-892F-47C5-B62E-7304AB98DA29}"
+	ProjectSection(ProjectDependencies) = postProject
+		{142530C4-B184-4833-9A1A-F268B6E336A7} = {142530C4-B184-4833-9A1A-F268B6E336A7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLUtilLibrary", "..\..\library\utilities\MySQLUtilLibrary.vcproj", "{142530C4-B184-4833-9A1A-F268B6E336A7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "library_sql_parser", "..\..\library\sql-parser\library_sql_parser.vcproj", "{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Lib_Commercial = Lib_Commercial
+		Lib_Debug = Lib_Debug
+		Lib_Embedded_Debug = Lib_Embedded_Debug
+		Lib_Embedded_Release = Lib_Embedded_Release
+		Lib_Release = Lib_Release
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Debug.ActiveCfg = Debug|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Debug.Build.0 = Debug|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Lib_Commercial.ActiveCfg = Release|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Lib_Commercial.Build.0 = Release|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Lib_Debug.ActiveCfg = Debug|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Lib_Debug.Build.0 = Debug|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Lib_Embedded_Debug.ActiveCfg = Debug|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Lib_Embedded_Debug.Build.0 = Debug|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Lib_Embedded_Release.ActiveCfg = Release|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Lib_Embedded_Release.Build.0 = Release|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Lib_Release.ActiveCfg = Release|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Lib_Release.Build.0 = Release|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Release.ActiveCfg = Release|Win32
+		{9650AB9E-1E16-4A8C-829D-EAA507A23D0B}.Release.Build.0 = Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Debug.ActiveCfg = Lib_Debug|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Debug.Build.0 = Lib_Debug|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Commercial.ActiveCfg = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Commercial.Build.0 = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Embedded_Debug.ActiveCfg = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Embedded_Debug.Build.0 = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Embedded_Release.ActiveCfg = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Embedded_Release.Build.0 = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Lib_Release.Build.0 = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Release.ActiveCfg = Lib_Release|Win32
+		{7DE910DF-4057-447D-98C3-5B1ECE715ED5}.Release.Build.0 = Lib_Release|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Debug.ActiveCfg = Lib_Debug|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Debug.Build.0 = Lib_Debug|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Lib_Commercial.ActiveCfg = Lib_Release|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Lib_Commercial.Build.0 = Lib_Release|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Lib_Embedded_Debug.ActiveCfg = Lib_Release|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Lib_Embedded_Debug.Build.0 = Lib_Release|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Lib_Embedded_Release.ActiveCfg = Lib_Release|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Lib_Embedded_Release.Build.0 = Lib_Release|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Lib_Release.Build.0 = Lib_Release|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Release.ActiveCfg = Lib_Release|Win32
+		{BD973A45-5752-4F92-9C80-C4FECE3D4A63}.Release.Build.0 = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Debug.ActiveCfg = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Debug.Build.0 = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Commercial.ActiveCfg = Lib_Commercial|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Commercial.Build.0 = Lib_Commercial|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Embedded_Debug.ActiveCfg = Lib_Embedded_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Embedded_Debug.Build.0 = Lib_Embedded_Debug|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Embedded_Release.ActiveCfg = Lib_Embedded_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Embedded_Release.Build.0 = Lib_Embedded_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Lib_Release.Build.0 = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Release.ActiveCfg = Lib_Release|Win32
+		{6FBC86A7-892F-47C5-B62E-7304AB98DA29}.Release.Build.0 = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Debug.ActiveCfg = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Debug.Build.0 = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Commercial.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Commercial.Build.0 = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Embedded_Debug.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Embedded_Debug.Build.0 = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Embedded_Release.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Embedded_Release.Build.0 = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Lib_Release.Build.0 = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Release.ActiveCfg = Lib_Release|Win32
+		{142530C4-B184-4833-9A1A-F268B6E336A7}.Release.Build.0 = Lib_Release|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Debug.ActiveCfg = Lib_Debug|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Debug.Build.0 = Lib_Debug|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Commercial.ActiveCfg = Lib_Release|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Commercial.Build.0 = Lib_Release|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Debug.ActiveCfg = Lib_Debug|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Debug.Build.0 = Lib_Debug|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Embedded_Debug.ActiveCfg = Lib_Release|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Embedded_Debug.Build.0 = Lib_Release|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Embedded_Release.ActiveCfg = Lib_Release|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Embedded_Release.Build.0 = Lib_Release|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Release.ActiveCfg = Lib_Release|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Lib_Release.Build.0 = Lib_Release|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Release.ActiveCfg = Lib_Release|Win32
+		{8FB4B84C-D91B-4A26-BBB2-CC8F87944C17}.Release.Build.0 = Lib_Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

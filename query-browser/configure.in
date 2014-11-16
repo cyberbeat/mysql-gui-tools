@@ -1,0 +1,146 @@
+AC_INIT(mysql-query-browser, 1.2.12)
+AC_CONFIG_SRCDIR(source/linux/main.cc)
+AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
+
+AM_CONFIG_HEADER(source/linux/config.h)
+
+#
+# standard stuff
+#
+AC_CANONICAL_HOST
+AC_PROG_CC
+AC_PROG_CXX
+
+AC_PROG_RANLIB
+AC_CHECK_TOOL(PKG_CONFIG, pkg-config)
+
+#
+# internal libraries
+#
+AC_CHECK_FILE(../mysql-gui-common/library/base-library/include, 
+        [MYSQLA_INCLUDE='-I$(top_srcdir)/../mysql-gui-common/library/base-library/include -I$(top_srcdir)/../mysql-gui-common/source/linux'],
+	        AC_MSG_ERROR([mysql-gui-common source tree must be present in the same directory as this program]))
+
+#AC_CHECK_FILE(../mysql-gui-common/source/linux/libqbcommongui.a, [],
+#	AC_MSG_ERROR([mysql-gui-common source tree must be compiled and present in the same directory as this program]))
+
+
+AUX_CFLAGS="$MYSQLA_INCLUDE"
+AC_SUBST(AUX_CFLAGS)
+AC_SUBST(AUX_LIBS)
+
+
+# 
+# gettext
+#
+GETTEXT_PACKAGE="mysql-query-browser"
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [The gettext package name])
+
+# list of supported languages
+ALL_LINGUAS="pt_BR"
+AM_GLIB_GNU_GETTEXT
+
+#
+# mysql libraries
+#
+AC_CHECK_PROG(MYSQL_CFLAGS,mysql_config,`mysql_config --cflags`)
+if test -z "$MYSQL_CFLAGS"; then 
+        AC_MSG_ERROR([Could not find mysql_config script. Make sure the mysql client libraries are installed])
+fi
+AC_SUBST(MYSQL_CFLAGS)
+
+
+AC_CHECK_PROG(MYSQL_LIBS,mysql_config,`mysql_config --libs_r`)
+if test -z "$MYSQL_LIBS"; then 
+        AC_MSG_ERROR([Could not find mysql_config script. Make sure the mysql client libraries are installed])
+fi
+AC_SUBST(MYSQL_LIBS)
+
+
+# 
+# gnome libraries
+#
+AC_ARG_WITH(gtkhtml,
+[  --with-gtkhtml=LIBRARY	specify the version of libgtkhtml to be used (default: libgtkhtml-3.0)],
+     gtkhtml=$withval, gtkhtml=libgtkhtml-3.0)
+
+
+PKG_CHECK_MODULES(GLIB, [glib-2.0 libxml-2.0 >= 2.6.2])
+AC_SUBST(GLIB_CFLAGS)
+AC_SUBST(GLIB_LIBS)
+
+PKG_CHECK_MODULES(GNOME, [libglade-2.0
+			gthread-2.0
+			libxml-2.0 >= 2.6.2
+                        $gtkhtml
+                        gtkmm-2.4])
+AC_SUBST(GNOME_CFLAGS)
+AC_SUBST(GNOME_LIBS)
+
+if test x$gtkhtml = xlibgtkhtml-2.0; then
+	AC_DEFINE(WITH_GTKHTML2, [], [Define if using libgtkhtml-2.0 instead of 3.x])
+fi
+
+
+#
+# panda (pdf output)
+#
+#PKG_CHECK_MODULES(PDF, [panda >= 0.5.4])
+#AC_SUBST(PDF_CFLAGS)
+#AC_SUBST(PDF_LIBS)
+
+
+#
+# pcre
+#
+AC_CHECK_PROG(PCRE_LIBS,pcre-config,`pcre-config --libs`)
+if test -z "$PCRE_LIBS"; then         AC_MSG_ERROR([Could not find pcre-config script. Make sure the pcre libraries are installed])
+fi
+AC_CHECK_PROG(PCRE_CFLAGS,pcre-config,`pcre-config --cflags`)
+AC_SUBST(PCRE_CFLAGS)
+AC_SUBST(PCRE_LIBS)
+
+# path mangling
+                                                                              
+commondirname="common"
+AC_ARG_WITH(commondirname,
+        [  --with-commondirname         sets the common data directory name],
+        [commondirname="$withval"])
+
+MG_COMMONDIR=$commondirname
+AC_SUBST(MG_COMMONDIR)
+
+DATADIRNAME=`echo $datadir|sed -e "s@${prefix}/@@" -e 's@${prefix}/@@'`
+AC_SUBST(DATADIRNAME)
+
+
+mydatadir='$(datadir)/mysql-gui'
+AC_SUBST(mydatadir)
+qbdatadir='$(datadir)/mysql-gui/query-browser'
+AC_SUBST(qbdatadir)
+
+
+
+AC_CONFIG_FILES([
+mysql-query-browser.spec
+Makefile
+res/Makefile
+res/doc/Makefile
+po/Makefile.in
+res/linux/Makefile
+images/Makefile
+images/cursors/Makefile
+images/png/Makefile
+images/png/sidebar/Makefile
+images/toolbar/Makefile
+library/Makefile
+library/source/Makefile
+library/tests/Makefile
+library/tests/test_query_analyze/Makefile
+library/tests/test_query_composition/Makefile
+library/tests/test_strip_sql/Makefile
+source/Makefile
+source/linux/Makefile])
+
+AC_OUTPUT()

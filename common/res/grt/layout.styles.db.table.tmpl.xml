@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc-styles xmlns="http://dev.mysql.com/gc/styles" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Variables: color strokeColor -->
+
+  <!-- Table ****************************************************************************************** -->
+  <style-definition id="db.table.header.left:$colorName$">
+    <svg:svg>
+			<g>
+        <polyline fill="$color$" stroke="#AAAAAA" points="26,28 0,28 0,7.785 0.324,6.117 0.958,4.545 1.879,3.13 3.051,1.927 
+          4.429,0.982 5.961,0.332 7.586,0 26,0 "/>
+        <image width="64" height="64" xlink:href="grt/db/table_64.png"  transform="matrix(0.3437 0 0 0.3437 3.4727 3.4419)" />
+			</g>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.table.header.middle:$colorName$">
+    <svg:svg>
+			<g>
+        <rect y="0" fill="$color$" width="142" height="28"/>
+        <line fill="$color$" stroke="#AAA9AA" stroke-width="1" x1="142" y1="28" x2="0" y2="28"/>
+        <line fill="$color$" stroke="#AAA9AA" stroke-width="1" x1="142" y1="0" x2="0" y2="0"/>
+			</g>
+    </svg:svg>
+  </style-definition>
+
+  <style-definition id="db.table.header.arrow.right:$colorName$">
+    <svg:svg>
+			<g>
+        <polyline fill="$color$" stroke="#AAAAAA" points="0,0 14.414,0 16.04,0.323 17.571,0.957 18.949,1.878 20.122,3.051 
+          21.043,4.429 21.677,5.961 22,7.586 22,28 0,28 "/>
+        <polygon fill="black" points="7,21 15,15 7,9 "/>        
+			</g>
+    </svg:svg>
+  </style-definition>
+
+  <style-definition id="db.table.header.arrow.down:$colorName$">
+    <svg:svg>
+			<g>
+        <polyline fill="$color$" stroke="#AAAAAA" points="0,0 14.414,0 16.04,0.323 17.571,0.957 18.949,1.878 20.122,3.051 
+          21.043,4.429 21.677,5.961 22,7.586 22,28 0,28 "/>
+        <polygon fill="black" points="5,11 11,19 17,11 "/>
+			</g>
+    </svg:svg>
+  </style-definition>
+  
+  <style-definition id="db.table.footer.simple:$colorName$">
+    <svg:svg>
+      <g>
+        <polyline fill="$color$" stroke="#AAAAAA" points="190,0 189.677,1.824 189.043,3.356 188.122,4.734 186.949,5.907 
+          185.571,6.828 184.04,7.462 182.414,7.785 7.586,7.785 5.961,7.453 4.43,6.803 3.051,5.858 1.879,4.655 0.958,3.24 0.324,1.668 0,0 "/>
+			</g>
+    </svg:svg>
+  </style-definition>
+  
+</gc-styles>

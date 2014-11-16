@@ -1,0 +1,5 @@
+-----------------
+SELECT * FROM mysql.help_relation hr, hr.help_keyword_id
+-----------------
+
+-----------------

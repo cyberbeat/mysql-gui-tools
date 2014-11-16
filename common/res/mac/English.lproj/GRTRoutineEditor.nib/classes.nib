@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {deleteRoutine = id; toggleView = id; }; 
+            CLASS = MGRTRoutineEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {baseView = NSView; editor = MSourceTextEditor; nameText = NSTextField; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MSourceTextEditor; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

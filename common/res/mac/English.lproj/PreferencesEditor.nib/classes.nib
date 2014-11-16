@@ -1,0 +1,44 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                addConnection = id; 
+                load = id; 
+                removeConnection = id; 
+                save = id; 
+                toggleOption = id; 
+            }; 
+            CLASS = MConnectionEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                compress = NSButton; 
+                hostname = NSTextField; 
+                list = NSOutlineView; 
+                name = NSTextField; 
+                notes = NSTextView; 
+                password = NSTextField; 
+                port = NSTextField; 
+                schema = NSTextField; 
+                socket = NSTextField; 
+                tabview = NSTabView; 
+                topView = NSView; 
+                username = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MNibOwner; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {controller = id; view = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MPreferenceEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {passwordStorage = NSPopUpButton; tabView = NSTabView; window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

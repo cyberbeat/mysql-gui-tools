@@ -1,0 +1,659 @@
+<?xml version="1.0"?>
+<!-- Please do not use tab chars -->
+<variables_listing>
+ <group pos="1" name="General" caption_id="General">
+  <variable mysql_id="old_passwords">
+	<description>No description available.</description>
+  </variable>
+  <variable mysql_id="version">
+	<description>Version number of the MySQL server.</description>
+  </variable>
+  <variable mysql_id="version_comment">
+	<description>Version number of the MySQL server._comment</description>
+  </variable>
+  <variable mysql_id="version_compile_machine">
+	<description>Version number of the MySQL server._compile_machine</description>
+  </variable>
+  <variable mysql_id="version_compile_os">
+	<description>Version number of the MySQL server._compile_os</description>
+  </variable>
+  <variable mysql_id="language">
+	<description>Language used for error messages.</description>
+  </variable>
+  <variable mysql_id="timezone">
+	<description>Timezone for the server. This is set from the TZ environment variable when the MySQL server is started.</description>
+  </variable>
+  <variable mysql_id="protocol_version">
+	<description>Protocol version used by the MySQL server.</description>
+  </variable>
+  <variable mysql_id="server_id" editable="yes">
+	<description>Value of the --server-id option.</description>
+  </variable>
+  <variable mysql_id="port">
+	<description>Port on which the MySQL server listens. Value of the --port option.</description>
+  </variable>
+  <variable mysql_id="init_file">
+	<description>The name of the file specified with the --init-file option when you start the server. This is a file of SQL statements you want the server to execute when it starts.</description>
+  </variable>
+  <subgroup pos="1" name="Features" caption_id="Features">
+   <variable mysql_id="have_innodb">
+	 <description>Indicates if the MySQL server supports InnoDB tables.</description>
+   </variable>
+   <variable mysql_id="have_bdb">
+	 <description>Indicates if the MySQL server supports Berkeley DB tables.</description>
+   </variable>
+   <variable mysql_id="have_compress">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="have_crypt">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="have_isam">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="have_raid">
+	 <description>Indicates if the MySQL server supports the RAID option.</description>
+   </variable>
+   <variable mysql_id="have_symlink">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="have_openssl">
+	 <description>Indicates if the MySQL server supports SSL (encryption) on the client/server protocol.</description>
+   </variable>
+   <variable mysql_id="have_query_cache">
+	 <description>Indicates if the MySQL server supports caching queries.</description>
+   </variable>
+   <variable mysql_id="concurrent_insert">
+	 <description>If ON (the default), MySQL will allow you to use INSERT on MyISAM tables at the same time as you run SELECT queries on them.</description>
+   </variable>
+   <variable mysql_id="named_pipe" editable="yes">
+	 <description>Indicates whether the MySQL server uses named pipes for local connections under Windows.</description>
+   </variable>
+   <variable mysql_id="skip_networking">
+	 <description>ON if the MySQL server allows local connections only.</description>
+   </variable>
+   <variable mysql_id="low_priority_updates" editable="yes">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="lower_case_table_names">
+	 <description>If set to 1, table names are stored in lowercase on disk and table name comparisons will be case-insensitive. From version 4.0.2, this option also applies to database names. From 4.1.1 this option also applies to table alias.</description>
+   </variable>
+   <variable mysql_id="large_files_support">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="local_infile" editable="yes">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="new">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="read_only">
+	 <description>No description available.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="2" name="Directories / Files" caption_id="Directories/Files">
+   <variable mysql_id="basedir">
+	 <description>MySQL installation directory. Value of the --basedir option.</description>
+   </variable>
+   <variable mysql_id="datadir">
+	 <description>Directory for database files. The value of the --datadir option.</description>
+   </variable>
+   <variable mysql_id="tmpdir">
+	 <description>Directory for temporary files. The value of the --tmpdir option.</description>
+   </variable>
+   <variable mysql_id="pid_file">
+	 <description>PID file of the MySQL server process. The value of the --pid-file option.</description>
+   </variable>
+   <variable mysql_id="log_error">
+	 <description>Name of the error log file.</description>
+   </variable>
+   <variable mysql_id="bdb_home">
+	 <description>BDB home directory. The value of the --bdb-home option</description>
+   </variable>
+   <variable mysql_id="bdb_logdir">
+	 <description>BDB log file directory. The value of the --bdb-logdir option.</description>
+   </variable>
+   <variable mysql_id="bdb_tmpdir">
+	 <description>BDB temporary files directory. The value of the --bdb_tmpdir option.</description>
+   </variable>
+   <variable mysql_id="Common part of the directory path for all InnoDB datafiles. Default is the MySQL datadir.">
+	 <description>system_var_Common part of the directory path for all InnoDB datafiles. Default is the MySQL datadir.</description>
+   </variable>
+   <variable mysql_id="innodb_data_file_path">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="innodb_log_arch_dir">
+	 <description>Directory where fully written log files would be archived if log archiving is used.</description>
+   </variable>
+   <variable mysql_id="innodb_log_group_home_dir">
+	 <description>Directory path to InnoDB log files. The default is the datadir of MySQL.</description>
+   </variable>
+   <variable mysql_id="open_files_limit">
+	 <description>Number of files the system allows the MySQL server to open.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="3" name="Logs" caption_id="Logs">
+   <variable mysql_id="log_error">
+	 <description>Name of the error log file.</description>
+   </variable>
+   <variable mysql_id="log">
+	 <description>Indicates if the general query log is enabled.</description>
+   </variable>
+   <variable mysql_id="log_update">
+	 <description>Indicates if the general query log is enabled._update</description>
+   </variable>
+   <variable mysql_id="log_bin">
+	 <description>Indicates if the general query log is enabled._bin</description>
+   </variable>
+   <variable mysql_id="log_slave_updates">
+	 <description>Indicates if the general query log is enabled._slave_updates</description>
+   </variable>
+   <variable mysql_id="log_slow_queries">
+	 <description>Indicates if the general query log is enabled._slow_queries</description>
+   </variable>
+   <variable mysql_id="rpl_recovery_rank" editable="yes">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="max_binlog_cache_size" editable="yes">
+	 <description>If a multiple-statement transaction requires more than this amount of memory, one will get the error "Multi-statement transaction required more than 'max_binlog_cache_size' bytes of storage".</description>
+   </variable>
+   <variable mysql_id="max_binlog_size" editable="yes">
+	 <description>If a write to the binary update log exceeds the given value, rotate the logs.</description>
+   </variable>
+   <variable mysql_id="max_relay_log_size" editable="yes">
+	 <description>If a write to the relay log exceeds the given value, rotate the relay log.</description>
+   </variable>
+   <variable mysql_id="innodb_log_arch_dir">
+	 <description>Directory where fully written log files would be archived if log archiving is used.</description>
+   </variable>
+   <variable mysql_id="innodb_log_archive">
+	 <description>This value should currently be set to 0. As recovery from a backup is done by MySQL using its own log files, there is currently no need to archive InnoDB log files.</description>
+   </variable>
+   <variable mysql_id="innodb_log_buffer_size">
+	 <description>Size of the buffer which InnoDB uses to write log to the log files on disk. Sensible values range from 1M to 8M. A big log buffer allows large transactions to run without a need to write the log to disk until the transaction commit. Thus, if you have big transactions, making the log buffer big will save disk I/O.</description>
+   </variable>
+   <variable mysql_id="innodb_log_file_size">
+	 <description>Size of each log file in a log group in megabytes. Sensible values range from 1M to 1/n-th of the size of the buffer pool, where n is the number of log files in the group. The larger the value, the less checkpoint flush activity is needed in the buffer pool, saving disk I/O. But larger log files also mean that recovery will be slower in case of a crash. The combined size of log files must be less than 4 GB on 32-bit computers. The default is 5M.</description>
+   </variable>
+   <variable mysql_id="innodb_log_files_in_group">
+	 <description>Number of log files in the log group. InnoDB writes to the files in a circular fashion. Value 2 is recommended here. The default is 2.</description>
+   </variable>
+   <variable mysql_id="innodb_log_group_home_dir">
+	 <description>Directory path to InnoDB log files. The default is the datadir of MySQL.</description>
+   </variable>
+   <variable mysql_id="bdb_logdir">
+	 <description>BDB log file directory. The value of the --bdb-logdir option.</description>
+   </variable>
+   <variable mysql_id="bdb_log_buffer_size">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="log_warnings">
+	 <description>Indicates if the general query log is enabled._warnings</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="4" name="Performance" caption_id="Performance">
+   <variable mysql_id="long_query_time" editable="yes">
+	 <description>If a query takes longer than this time (in seconds), the Slow_queries counter will be incremented.</description>
+   </variable>
+   <variable mysql_id="low_priority_updates" editable="yes">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="thread_cache_size" editable="yes">
+	 <description>Indicates how many threads should be kept in a cache for reuse.</description>
+   </variable>
+   <variable mysql_id="slow_launch_time" editable="yes">
+	 <description>If creating the thread takes longer than this time (in seconds), the Slow_launch_threads counter will be incremented.</description>
+   </variable>
+   <variable mysql_id="delay_key_write" editable="yes">
+	 <description>Option for MyISAM tables. Can have one of the following values: ON, OFF, ALL.</description>
+   </variable>
+   <variable mysql_id="delayed_insert_limit" editable="yes">
+	 <description>After inserting delayed_insert_limit rows, the INSERT DELAYED handler will check if there are any SELECT statements pending. If so, it allows these to execute before continuing.</description>
+   </variable>
+   <variable mysql_id="delayed_insert_timeout" editable="yes">
+	 <description>Indicates how long a INSERT DELAYED thread should wait for INSERT statements before terminating.</description>
+   </variable>
+   <variable mysql_id="delayed_queue_size" editable="yes">
+	 <description>Indicates what size queue (in rows) should be allocated for handling INSERT DELAYED. If the queue becomes full, any client that does INSERT DELAYED will wait until there is room in the queue again.</description>
+   </variable>
+   <variable mysql_id="flush" editable="yes">
+	 <description>ON if you have started the MySQL server with the --flush option.</description>
+   </variable>
+   <variable mysql_id="flush_time" editable="yes">
+	 <description>ON if you have started the MySQL server with the --flush option._time</description>
+   </variable>
+   <variable mysql_id="max_delayed_threads" editable="yes">
+	 <description>Don't start more than this number of threads to handle INSERT DELAYED statements.</description>
+   </variable>
+   <variable mysql_id="max_seeks_for_key" editable="yes">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="max_write_lock_count" editable="yes">
+	 <description>After this many write locks, allow some read locks to run in between.</description>
+   </variable>
+   <variable mysql_id="max_join_size" editable="yes">
+	 <description>Joins that are probably going to read more than max_join_size records return an error. Set this value if your users tend to perform joins that lack a WHERE clause, that take a long time, and that return millions of rows.</description>
+   </variable>
+   <variable mysql_id="max_sort_length" editable="yes">
+	 <description>Number of bytes to use when sorting BLOB or TEXT values. Only the first max_sort_length bytes of each value are used; the rest are ignored.</description>
+   </variable>
+   <variable mysql_id="query_alloc_block_size" editable="yes">
+	 <description>Size of memory allocation blocks that are allocated for objects created during query parsing and execution. If you have problem with memory fragmentation, it may help to increase this a bit. This variable was added in MySQL 4.0.16.</description>
+   </variable>
+   <variable mysql_id="query_prealloc_size" editable="yes">
+	 <description>Size of the persistent buffer used for query parsing and execution. This buffer is not freed between queries. If you are running complex queries, a larger query_prealloc_size value may be helpful in improving performance, because it can reduce the need for the server to perform memory allocation during query execution operations. This variable was added in MySQL 4.0.16.</description>
+   </variable>
+   <variable mysql_id="range_alloc_block_size" editable="yes">
+	 <description>Size of blocks that are allocated when doing range optimization. This variable was added in MySQL 4.0.16.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="5" name="Miscellaneous" caption_id="system_var_group_Miscellaneous">
+   <variable mysql_id="expire_logs_days">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="max_error_count">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="max_length_for_sort_data">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="preload_buffer_size">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="pseudo_thread_id">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="relay_log_purge">
+	 <description>Disables (0) / enables (1) automatic purging of relay logs as soon as they are not needed any more. The default value is 1. This option is available as of MySQL 4.1.1.</description>
+   </variable>
+   <variable mysql_id="secure_auth">
+	 <description>If the MySQL server has been started with the --secure-auth option, it will block all connections from users with passwords stored in old (pre-4.1) format. In that case, the value of the variable is ON, otherwise it is OFF. Note, that the server start will fail with an error if this option has been enabled and the privilege tables are in pre-4.1 format. You should enable this option if you want to prevent all usage  of passwords in old format (and hence insecure communication over the network). Available as of MySQL 4.1.1.</description>
+   </variable>
+   <variable mysql_id="shared_memory">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="shared_memory_base_name">
+	 <description>No description available._base_name</description>
+   </variable>
+   <variable mysql_id="storage_engine">
+	 <description>No description available.</description>
+   </variable>
+  </subgroup>
+ </group>
+ <group pos="2" name="Connections" caption_id="Connections">
+  <variable mysql_id="connect_timeout" editable="yes">
+	<description>Number of seconds the MySQL server is waiting for a connect packet before responding with "Bad handshake".</description>
+  </variable>
+  <variable mysql_id="interactive_timeout" editable="yes">
+	<description>Number of seconds the server waits for activity on an interactive connection before closing it. An interactive client is defined as a client that uses the CLIENT_INTERACTIVE option to mysql_real_connect().</description>
+  </variable>
+  <variable mysql_id="wait_timeout" editable="yes">
+	<description>Number of seconds the server waits for activity on a not interactive connection before closing it.</description>
+  </variable>
+  <variable mysql_id="back_log">
+	<description>Number of outstanding connection requests MySQL can have.</description>
+  </variable>
+  <variable mysql_id="max_connections" editable="yes">
+	<description>Number of simultaneous clients allowed. Increasing this value increases the number of file descriptors that MySQL server requires.</description>
+  </variable>
+  <variable mysql_id="max_connect_errors" editable="yes">
+	<description>If there is more than this number of interrupted connections from a host this host will be blocked from further connections. You can unblock a host with the command FLUSH HOSTS.</description>
+  </variable>
+  <variable mysql_id="max_user_connections" editable="yes">
+	<description>Maximum number of active connections for a single user (0 = no limit).</description>
+  </variable>
+  <subgroup pos="1" name="Networking" caption_id="Networking">
+   <variable mysql_id="skip_networking">
+	 <description>ON if the MySQL server allows local connections only.</description>
+   </variable>
+   <variable mysql_id="named_pipe">
+	 <description>Indicates whether the MySQL server uses named pipes for local connections under Windows.</description>
+   </variable>
+   <variable mysql_id="net_read_timeout" editable="yes">
+	 <description>Number of seconds to wait for more data from a connection before aborting the read. Note that when the MySQL server doesn't expect data from a connection, the timeout is defined by write_timeout.</description>
+   </variable>
+   <variable mysql_id="net_retry_count" editable="yes">
+	 <description>If a read on a communication port is interrupted, retry as many times as specified before giving up. This value should be quite high on FreeBSD as internal interrupts are sent to all threads.</description>
+   </variable>
+   <variable mysql_id="net_write_timeout" editable="yes">
+	 <description>Number of seconds to wait for a block to be written to a connection before aborting the write.</description>
+   </variable>
+   <variable mysql_id="connect_timeout" editable="yes">
+	 <description>Number of seconds the MySQL server is waiting for a connect packet before responding with "Bad handshake".</description>
+   </variable>
+   <variable mysql_id="wait_timeout" editable="yes">
+	 <description>Number of seconds the server waits for activity on a not interactive connection before closing it.</description>
+   </variable>
+   <variable mysql_id="slave_net_timeout" editable="yes">
+	 <description>Number of seconds to wait for more data from a master/slave connection before aborting the read.</description>
+   </variable>
+   <variable mysql_id="max_allowed_packet" editable="yes">
+	 <description>Maximum size of one packet. The message buffer is initialized to net_buffer_length bytes, but can grow up to max_allowed_packet bytes when needed.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="2" name="Security" caption_id="Networking">
+   <variable mysql_id="skip_show_database">
+	 <description>This prevents users from doing SHOW DATABASES if they don't have the PROCESS privilege, or, as of version 4.0.2, the SHOW DATABASES privilege.</description>
+   </variable>
+   <variable mysql_id="skip_networking">
+	 <description>On if the MySQL server allows local connections only.</description>
+   </variable>
+  </subgroup>     
+ </group>
+ <group pos="3" name="SQL" caption_id="SQL">
+  <variable mysql_id="init_connect">
+	<description>A string to be executed by the server for each client that connects. The string consists of one or more SQL statements. To specify multiple statements, separate them by semicolon characters. This variable was added in MySQL 4.1.2.</description>
+  </variable>
+  <variable mysql_id="init_slave">
+	<description>String to be executed by a slave server each time the SQL thread starts (similar to init_connect). The format of the string is the same as for the init_connect variable. This variable was added in MySQL 4.1.2.</description>
+  </variable>
+  <variable mysql_id="log_warnings">
+	<description>Indicates if the general query log is enabled._warnings</description>
+  </variable>
+  <variable mysql_id="lower_case_table_names">
+	<description>If set to 1, table names are stored in lowercase on disk and table name comparisons will be case-insensitive. From version 4.0.2, this option also applies to database names. From 4.1.1 this option also applies to table alias.</description>
+  </variable>
+  <variable mysql_id="tx_isolation" editable="yes">
+	<description>The transaction isolation level the InnoDB storage engine uses. This can be either READ-UNCOMMITTED, READ-COMMITTED, REPEATABLE-READ, or SERIALIZABLE.</description>
+  </variable>
+  <variable mysql_id="transaction_alloc_block_size">
+	<description>Size of memory allocation blocks that are allocated for storing queries that are part of a transaction that are to be stored in the binary log when doing a commit. This variable was added in MySQL 4.0.16.</description>
+  </variable>
+  <variable mysql_id="transaction_prealloc_size">
+	<description>Persistent buffer for transaction_alloc_blocks that is not freed between queries. By making this big enough to fit all queries in a common transaction you can avoid a lot of malloc() calls. This variable was added in MySQL 4.0.16.</description>
+  </variable>
+  <variable mysql_id="sql_mode">
+	<description>The SQL mode define what SQL syntax MySQL should support and what kind of validation checks it should perform on the data. As of version 4.1.1, the following modes are supported: ANSI, DB2, MAXDB, MSSQL, MYSQL323, MYSQL40, ORACLE, and POSTGRESQL.</description>
+  </variable>
+  <variable mysql_id="skip_external_locking">
+	<description>If the MySQL server uses external locking, this value is ON; otherwise, it's OFF.</description>
+  </variable>
+  <variable mysql_id="max_sort_length" editable="yes">
+	<description>Number of bytes to use when sorting BLOB or TEXT values. Only the first max_sort_length bytes of each value are used; the rest are ignored.</description>
+  </variable>
+  <subgroup pos="1" name="Charsets" caption_id="system_var_group_Charsets">
+   <variable mysql_id="character_set">
+	 <description>The default character set.</description>
+   </variable>
+   <variable mysql_id="character_sets">
+	 <description>The default character set.s</description>
+   </variable>
+   <variable mysql_id="convert_character_set" editable="yes">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="character_set_client">
+	 <description>The default character set._client</description>
+   </variable>
+   <variable mysql_id="character_set_connection">
+	 <description>The default character set._connection</description>
+   </variable>
+   <variable mysql_id="character_set_database">
+	 <description>The default character set._database</description>
+   </variable>
+   <variable mysql_id="character_set_results">
+	 <description>The default character set._results</description>
+   </variable>
+   <variable mysql_id="character_set_server">
+	 <description>The default character set._server</description>
+   </variable>
+   <variable mysql_id="character_set_system">
+	 <description>The default character set._system</description>
+   </variable>
+   <variable mysql_id="character-sets-dir">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="collation_connection">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="collation_database">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="collation_server">
+	 <description>No description available.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="2" name="Formats" caption_id="system_var_group_Formats">
+   <variable mysql_id="default_week_format">
+	 <description>Indicates if the general query log is enabled._default_week_format</description>
+   </variable>
+   <variable mysql_id="date_format">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="datetime_format">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="time_format">
+	 <description>No description available.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="3" name="Full Text Search" caption_id="Full Text Search">
+   <variable mysql_id="ft_boolean_syntax">
+	 <description>List of operators supported by MATCH ... AGAINST(... IN BOOLEAN MODE).</description>
+   </variable>
+   <variable mysql_id="ft_min_word_len">
+	 <description>Minimum length of a word to be included in a FULLTEXT index.</description>
+   </variable>
+   <variable mysql_id="ft_max_word_len">
+	 <description>Maximum length of a word to be included in a FULLTEXT index.</description>
+   </variable>
+   <variable mysql_id="ft_max_word_len_for_sort">
+	 <description>Maximum length of a word to be included in a FULLTEXT index._for_sort</description>
+   </variable>
+   <variable mysql_id="ft_query_expansion_limit">
+	 <description>Number of top matches to use for query expansion (in MATCH ... AGAINST (... WITH QUERY EXPANSION). This variable is available as of MySQL 4.1.1.</description>
+   </variable>
+   <variable mysql_id="ft_stopword_file">
+	 <description>The file from which the list of stopwords for full-text searches should be read from. All the words from the file will be used; comments are not honored.</description>
+   </variable>
+  </subgroup>
+ </group>
+ <group pos="4" name="Memory" caption_id="Memory">
+  <variable mysql_id="tmp_table_size" editable="yes">
+	<description>If an in-memory temporary table exceeds this size, MySQL will automatically convert it to an on-disk MyISAM table.</description>
+  </variable>
+  <variable mysql_id="max_tmp_tables" editable="yes">
+	<description>Maximum number of temporary tables a client can keep open at the same time.</description>
+  </variable>
+  <variable mysql_id="thread_stack">
+	<description>The stack size for each thread. Many of the limits detected by the crash-me test are dependent on this value. The default is large enough for normal operation.</description>
+  </variable>
+  <variable mysql_id="max_heap_table_size" editable="yes">
+	<description>Maximum size to which subsequently created HEAP tables are allowed to grow. The value of this variable is used to calculate a HEAP table's MAX_ROWS value. Setting this variable has no effect on any existing HEAP table, unless the table is recreated with a statement such as CREATE TABLE or TRUNCATE TABLE, or altered with ALTER TABLE.</description>
+  </variable>
+  <subgroup pos="1" name="Buffers" caption_id="Buffers">
+   <variable mysql_id="bulk_insert_buffer_size" editable="yes">
+	 <description>MyISAM uses special tree-like cache to make bulk inserts (that is, INSERT ... SELECT, INSERT ... VALUES (...), (...), (...), and LOAD DATA INFILE) faster. This variable limits the size of the cache tree in bytes per thread. Setting it to 0 will disable this optimization. Note: This cache is only used when adding data to a non-empty table. Default value is 8 MB.</description>
+   </variable>
+   <variable mysql_id="join_buffer_size" editable="yes">
+	 <description>Size of the buffer that is used for full joins (joins that do not use indexes). The buffer is allocated one time for each full join between two tables. Increase this value to get a faster full join when adding indexes is not possible. (Normally the best way to get fast joins is to add indexes.)</description>
+   </variable>
+   <variable mysql_id="key_buffer_size" editable="yes">
+	 <description>Size of the buffer used for index blocks. Index blocks are buffered and are shared by all threads. Increase this value to get better index handling (for all reads and multiple writes) to as much as you can afford.</description>
+   </variable>
+   <variable mysql_id="read_buffer_size" editable="yes">
+	 <description>Each thread that does a sequential scan allocates a buffer of this size for each table it scans. If you do many sequential scans, you may want to increase this value.</description>
+   </variable>
+   <variable mysql_id="net_buffer_length" editable="yes">
+	 <description>The communication buffer is reset to this size between queries. This should not normally be changed, but if you have very little memory, you can set it to the expected size of a query. (That is, the expected length of SQL statements sent by clients. If statements exceed this length, the buffer is automatically enlarged, up to max_allowed_packet bytes.)</description>
+   </variable>
+   <variable mysql_id="read_rnd_buffer_size" editable="yes">
+	 <description>When reading rows in sorted order after a sort, the rows are read through this buffer to avoid disk seeks. Can improve ORDER BY by a lot if set to a high value. As this is a thread-specific variable, one should not set this big globally, but just change this when running some specific big queries.</description>
+   </variable>
+   <variable mysql_id="sort_buffer_size" editable="yes">
+	 <description>Each thread that needs to do a sort allocates a buffer of this size. Increase this value for faster ORDER BY or GROUP BY operations.</description>
+   </variable>
+   <variable mysql_id="myisam_sort_buffer_size" editable="yes">
+	 <description>The buffer that is allocated when sorting the index when doing a REPAIR or when creating indexes with CREATE INDEX or ALTER TABLE.</description>
+   </variable>
+   <variable mysql_id="innodb_buffer_pool_size">
+	 <description>Size of the memory buffer InnoDB uses to cache data and indexes of its tables. The larger you set this, the less disk I/O is needed to access data in tables. On a dedicated database server you may set this parameter up to 80% of the machine physical memory size. Do not set it too large, though, because competition of the physical memory might cause paging in the operating system.</description>
+   </variable>
+   <variable mysql_id="innodb_log_buffer_size">
+	 <description>Size of the buffer which InnoDB uses to write log to the log files on disk. Sensible values range from 1M to 8M. A big log buffer allows large transactions to run without a need to write the log to disk until the transaction commit. Thus, if you have big transactions, making the log buffer big will save disk I/O.</description>
+   </variable>
+   <variable mysql_id="innodb_additional_mem_pool_size">
+	 <description>Size of a memory pool InnoDB uses to store data dictionary information and other internal data structures. A sensible value for this might be 2M, but the more tables you have in your application the more you will need to allocate here. If InnoDB runs out of memory in this pool, it will start to allocate memory from the operating system, and write warning messages to the MySQL error log.</description>
+   </variable>
+   <variable mysql_id="innodb_buffer_pool_awe_mem_mb">
+	 <description>Size of the buffer pool in MB, if it is placed in the AWE memory of 32-bit Windows. Available starting from 4.1.0 and only relevant in 32-bit Windows. If your 32-bit Windows operating system supports more than 4 GB memory, so-called Address Windowing Extensions, you can allocate the InnoDB buffer pool into the AWE physical memory using this parameter. The maximum possible value for this is 64000. If this parameter is specified, then innodb_buffer_pool_size is the window in the 32-bit address space of the MySQL server where InnoDB maps that AWE memory. A good value for innodb_buffer_pool_size is then 500 MB.</description>
+   </variable>
+   <variable mysql_id="bdb_log_buffer_size">
+	 <description>No description available.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="2" name="Caches" caption_id="Caches">
+   <variable mysql_id="bdb_cache_size">
+	 <description>Buffer that is allocated to cache index and rows for BDB tables. If you don't use BDB tables, you should start the MySQL server with --skip-bdb to not waste memory for this cache.</description>
+   </variable>
+   <variable mysql_id="binlog_cache_size" editable="yes">
+	 <description>Size of the cache to hold the SQL statements for the binary log during a transaction. If you often use big, multi-statement transactions you can increase this to get more performance.</description>
+   </variable>
+   <variable mysql_id="key_cache_age_threshold">
+	 <description>Controls the demotion of buffers from the hot sub-chain of a key cache to the warm sub-chain. Lower values cause demotion to happen more quickly. The minimum value is 100. The default value is 300. This variable was added in MySQL 4.1.1.</description>
+   </variable>
+   <variable mysql_id="key_cache_block_size">
+	 <description>Size in bytes of blocks in the key buffer. The default value is 1024. This variable was added in MySQL 4.1.1. </description>
+   </variable>
+   <variable mysql_id="key_cache_division_limit">
+	 <description>Division point between the hot and warm sub-chains of the key cache buffer chain. The value is the percentage of the buffer chain to use for the warm sub-chain. Allowable values range from 1 to 100. The default value is 100. This variable was added in MySQL 4.1.1.</description>
+   </variable>
+   <variable mysql_id="query_cache_limit" editable="yes">
+	 <description>Don't cache results that are bigger than this. (Default 1M). </description>
+   </variable>
+   <variable mysql_id="query_cache_min_res_unit" editable="yes">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="query_cache_size" editable="yes">
+	 <description>Memory allocated to store results from old queries. If this is 0, the query cache is disabled (default).</description>
+   </variable>
+   <variable mysql_id="query_cache_type" editable="yes">
+	 <description>This may be set (only numeric) to 0 (OFF), 1 (ON), 2 (DEMAND).</description>
+   </variable>
+   <variable mysql_id="table_cache" editable="yes">
+	 <description>Number of open tables for all threads. Increasing this value increases the number of file descriptors that the MySQL server requires. You can check if you need to increase the table cache by checking the Opened_tables variable.</description>
+   </variable>
+  </subgroup>
+ </group>
+ <group pos="5" name="Table Types" caption_id="Storage Engines">
+  <variable mysql_id="table_type" editable="yes">
+	<description>The default table type (storage engine).</description>
+  </variable>
+  <subgroup pos="1" name="InnoDB" caption_id="InnoDB">
+   <variable mysql_id="have_innodb">
+	 <description>Indicates if the MySQL server supports InnoDB tables.</description>
+   </variable>
+   <variable mysql_id="innodb_additional_mem_pool_size">
+	 <description>Size of a memory pool InnoDB uses to store data dictionary information and other internal data structures. A sensible value for this might be 2M, but the more tables you have in your application the more you will need to allocate here. If InnoDB runs out of memory in this pool, it will start to allocate memory from the operating system, and write warning messages to the MySQL error log.</description>
+   </variable>
+   <variable mysql_id="innodb_buffer_pool_awe_mem_mb">
+	 <description>Size of the buffer pool in MB, if it is placed in the AWE memory of 32-bit Windows. Available starting from 4.1.0 and only relevant in 32-bit Windows. If your 32-bit Windows operating system supports more than 4 GB memory, so-called Address Windowing Extensions, you can allocate the InnoDB buffer pool into the AWE physical memory using this parameter. The maximum possible value for this is 64000. If this parameter is specified, then innodb_buffer_pool_size is the window in the 32-bit address space of the MySQL server where InnoDB maps that AWE memory. A good value for innodb_buffer_pool_size is then 500 MB.</description>
+   </variable>
+   <variable mysql_id="innodb_buffer_pool_size">
+	 <description>Size of the memory buffer InnoDB uses to cache data and indexes of its tables. The larger you set this, the less disk I/O is needed to access data in tables. On a dedicated database server you may set this parameter up to 80% of the machine physical memory size. Do not set it too large, though, because competition of the physical memory might cause paging in the operating system.</description>
+   </variable>
+   <variable mysql_id="innodb_data_file_path">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="Common part of the directory path for all InnoDB datafiles. Default is the MySQL datadir.">
+	 <description>system_var_Common part of the directory path for all InnoDB datafiles. Default is the MySQL datadir.</description>
+   </variable>
+   <variable mysql_id="innodb_file_io_threads">
+	 <description>Number of file I/O threads in InnoDB. Normally, this should be 4, but on Windows disk I/O may benefit from a larger number.</description>
+   </variable>
+   <variable mysql_id="innodb_file_per_table">
+	 <description>Makes InnoDB store each created table in its own `.ibd' file (multiple tablespaces).</description>
+   </variable>
+   <variable mysql_id="innodb_force_recovery">
+	 <description>Warning: This option should be defined only in an emergency situation when you want to dump your tables from a corrupt database! Possible values are 1 through 6.</description>
+   </variable>
+   <variable mysql_id="innodb_thread_concurrency">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="innodb_flush_log_at_trx_commit">
+	 <description>Normally you set this to 1, meaning that at a transaction commit, the log is flushed to disk, and the modifications made by the transaction become permanent, and survive a database crash. If you are willing to compromise this safety, and you are running small transactions, you may set this to 0 or 2 to reduce disk I/O to the logs. Value 0 means that the log is only written to the log file and the log file flushed to disk approximately once per second. Value 2 means the log is written to the log file at each commit, but the log file is only flushed to disk approximately once per second. The default value is 1 starting from MySQL-4.0.13; previously it was 0.</description>
+   </variable>
+   <variable mysql_id="innodb_fast_shutdown">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="innodb_flush_method">
+	 <description>Default value for this is fdatasync. Another option is O_DSYNC.</description>
+   </variable>
+   <variable mysql_id="innodb_lock_wait_timeout">
+	 <description>Timeout in seconds an InnoDB transaction may wait for a lock before being rolled back. InnoDB automatically detects transaction deadlocks in its own lock table and rolls back the transaction. If you use the LOCK TABLES command, or other transaction-safe storage engines than InnoDB in the same transaction, then a deadlock may arise which InnoDB cannot notice. In cases like this the timeout is useful to resolve the situation.</description>
+   </variable>
+   <variable mysql_id="innodb_log_arch_dir">
+	 <description>Directory where fully written log files would be archived if log archiving is used.</description>
+   </variable>
+   <variable mysql_id="innodb_log_archive">
+	 <description>This value should currently be set to 0. As recovery from a backup is done by MySQL using its own log files, there is currently no need to archive InnoDB log files.</description>
+   </variable>
+   <variable mysql_id="innodb_log_buffer_size">
+	 <description>Size of the buffer which InnoDB uses to write log to the log files on disk. Sensible values range from 1M to 8M. A big log buffer allows large transactions to run without a need to write the log to disk until the transaction commit. Thus, if you have big transactions, making the log buffer big will save disk I/O.</description>
+   </variable>
+   <variable mysql_id="innodb_log_file_size">
+	 <description>Size of each log file in a log group in megabytes. Sensible values range from 1M to 1/n-th of the size of the buffer pool, where n is the number of log files in the group. The larger the value, the less checkpoint flush activity is needed in the buffer pool, saving disk I/O. But larger log files also mean that recovery will be slower in case of a crash. The combined size of log files must be less than 4 GB on 32-bit computers. The default is 5M.</description>
+   </variable>
+   <variable mysql_id="innodb_log_files_in_group">
+	 <description>Number of log files in the log group. InnoDB writes to the files in a circular fashion. Value 2 is recommended here. The default is 2.</description>
+   </variable>
+   <variable mysql_id="innodb_log_group_home_dir">
+	 <description>Directory path to InnoDB log files. The default is the datadir of MySQL.</description>
+   </variable>
+   <variable mysql_id="innodb_mirrored_log_groups">
+	 <description>Number of identical copies of log groups that are kept for the database. Currently this should be set to 1.</description>
+   </variable>
+   <variable mysql_id="innodb_max_dirty_pages_pct">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="innodb_open_files">
+	 <description>This is relevant only if you use multiple tablespaces in InnoDB. This specifies the maximum how many `.ibd' files InnoDB can keep open at one time. The minimum value for this is 10. The default is 300. Numeric `my.cnf' parameter format. Available starting from 4.1.1.</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="2" name="BDB" caption_id="BDB">
+   <variable mysql_id="have_bdb">
+	 <description>Indicates if the MySQL server supports Berkeley DB tables.</description>
+   </variable>
+   <variable mysql_id="bdb_cache_size">
+	 <description>Buffer that is allocated to cache index and rows for BDB tables. If you don't use BDB tables, you should start the MySQL server with --skip-bdb to not waste memory for this cache.</description>
+   </variable>
+   <variable mysql_id="bdb_log_buffer_size">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="bdb_home">
+	 <description>BDB home directory. The value of the --bdb-home option</description>
+   </variable>
+   <variable mysql_id="bdb_max_lock">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="bdb_logdir">
+	 <description>BDB log file directory. The value of the --bdb-logdir option.</description>
+   </variable>
+   <variable mysql_id="bdb_shared_data">
+	 <description>No description available.</description>
+   </variable>
+   <variable mysql_id="bdb_tmpdirk">
+	 <description>BDB temporary files directory. The value of the --bdb_tmpdir option.</description>
+   </variable>
+   <variable mysql_id="bdb_version">
+	 <description>Berkeley DataBase (BDB) version.</description>
+   </variable>
+   <variable mysql_id="version_bdb">
+	 <description>Version number of the MySQL server._bdb</description>
+   </variable>
+  </subgroup>
+  <subgroup pos="3" name="MyIsam" caption_id="MyISAM">
+   <variable mysql_id="myisam_max_extra_sort_file_size" editable="yes">
+	 <description>If the temporary file used for fast index creation would be bigger than using the key cache by the amount specified here, then prefer the key cache method. This is mainly used to force long character keys in large tables to use the slower key cache method to create the index. Note that this parameter is given in megabytes before 4.0.3 and in bytes beginning with this version.</description>
+   </variable>
+   <variable mysql_id="myisam_max_sort_file_size" editable="yes">
+	 <description>Maximum size of the temporary file MySQL is allowed to use while recreating the index (during REPAIR, ALTER TABLE or LOAD DATA INFILE. If the file-size would be bigger than this, the index will be created through the key cache (which is slower). Note that this parameter is given in megabytes before 4.0.3 and in bytes beginning with this version.</description>
+   </variable>
+   <variable mysql_id="myisam_repair_threads" editable="yes">
+	 <description>If this value is greater than 1, MyISAM table indexes during REPAIR by sorting process will be created in parallel - each index in its own thread.</description>
+   </variable>
+   <variable mysql_id="myisam_recover_options">
+	 <description>Value of the --myisam-recover option.</description>
+   </variable>
+  </subgroup>
+ </group>
+</variables_listing>

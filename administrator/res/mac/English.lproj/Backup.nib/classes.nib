@@ -1,0 +1,69 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                abortBackup = id; 
+                addContent = id; 
+                addProfile = id; 
+                chooseTargetDirectory = id; 
+                importProfile = id; 
+                removeContent = id; 
+                removeProfile = id; 
+                scheduleBackup = id; 
+                showConnectionEditor = id; 
+                startBackup = id; 
+                unscheduleBackup = id; 
+            }; 
+            CLASS = MABackup; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                backupProgress = NSProgressIndicator; 
+                connectionPopUp = NSPopUpButton; 
+                contentAddButton = NSButton; 
+                contentOutline = NSOutlineView; 
+                contentRemoveButton = NSButton; 
+                fullBackupButton = NSButton; 
+                modeMatrix = NSMatrix; 
+                monthlyDaysText = NSTextField; 
+                monthlyTimeText = NSTextField; 
+                nameText = NSTextField; 
+                optionMatrix = NSMatrix; 
+                prefixText = NSTextField; 
+                profileTable = NSTableView; 
+                progressPanel = NSPanel; 
+                progressText = NSTextField; 
+                scheduleButton = NSButton; 
+                scheduleDailyTime = NSTextField; 
+                schedulePopUp = NSPopUpButton; 
+                scheduleTab = NSTabView; 
+                scheduleWeekdays = NSMatrix; 
+                scheduleWeeklyTime = NSTextField; 
+                schemaOutline = NSOutlineView; 
+                schemaSearch = NSSearchField; 
+                startButton = NSButton; 
+                statusText = NSTextField; 
+                tabView = NSTabView; 
+                tableProgressText = NSTextField; 
+                targetText = NSTextField; 
+                typePopUp = NSPopUpButton; 
+                unscheduleButton = NSButton; 
+                weeklyTimeText = NSTextField; 
+            }; 
+            SUPERCLASS = MAPanel; 
+        }, 
+        {
+            CLASS = MAPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {topBox = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}

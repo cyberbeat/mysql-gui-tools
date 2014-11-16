@@ -1,0 +1,45 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                cancel = id; 
+                connect = id; 
+                connectionChanged = id; 
+                deleteConnection = id; 
+                driverSelected = id; 
+                rdbmsSelected = id; 
+                saveConnection = id; 
+                toggleDetails = id; 
+            }; 
+            CLASS = MGRTConnectionPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addButton = NSButton; 
+                advParamsView = NSView; 
+                bottomView = NSView; 
+                connectButton = NSButton; 
+                connectionPop = NSPopUpButton; 
+                connectionsView = NSView; 
+                detailsButton = NSButton; 
+                driverDescLabel = NSTextField; 
+                driverLabel = NSTextField; 
+                driverPop = NSPopUpButton; 
+                errorPanel = NSPanel; 
+                errorText = NSTextField; 
+                paramsView = NSView; 
+                pingButton = NSButton; 
+                pingText = NSTextView; 
+                pingTextContainer = id; 
+                progressIndicator = NSProgressIndicator; 
+                rdbmsPop = NSPopUpButton; 
+                rdbmsView = NSView; 
+                removeButton = NSButton; 
+                topImage = NSImageView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

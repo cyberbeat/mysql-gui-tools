@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+			<Option Name="ProjectType">CppConsoleApplication</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{3DA9EA4B-1790-43AD-8B1D-0EFF2AD7BD9D}</Option>
+		</Option>
+	</PersonalityInfo>
+	<CPlusPlusBuilder.Personality>
+		<Source>
+			<Source Name="MainSource">MySQLAdministratorTest.bpf</Source>
+		</Source>
+		<BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="0"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="bin"/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="bin"/>
+        <property category="build.node" name="name" value="MySQLAdministratorTest.exe"/>
+        <property category="build.node" name="packages" value="vcl;rtl;vclx;dbrtl;adortl;vcldb;dbxcds;dbexpress;vclib;ibxpress;xmlrtl;vclie;inet;inetdbbde;inetdbxpress;IndyCore;IndySystem;soaprtl;dsnap;IndyProtocols;bdertl;teeui;teedb;tee;vcldbx;dsnapcon;websnap;webdsnap;vclactnband;bcbie"/>
+        <property category="build.node" name="use_packages" value="0"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.Od.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.k.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.v.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.vi.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.y.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.V.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="..\..\..\win-external-libs\lib\mysql\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.vi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$O.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="..\..\..\win-external-libs\lib\mysql\opt"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.additional_switches.arg" value="libmysqlsqlparser_static.lib libmysqlutil_static.lib libmysqlx_static.lib libmysqladmin_static.lib glib-2.0-bcc.lib iconv-bcc.lib libxml-bcc.lib pcre3-bcc.lib libmysql-bcc.lib icmp-bcc.lib"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.additional_switches.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.additional_switches.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="All Configurations"/>
+          <property category="win32.*.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.3.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.4.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.5.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.6.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.A.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.AK.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.AU.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.1" value="_WINDOWS"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.2" value="__i386__"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.3" value="HAVE_OFF_T"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.4" value="TUT_USE_SEH"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="$(BDS)\lib\vcl100.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hc.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.He.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hs.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="..\..\..\common\library\sql-parser\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.10" value="..\..\..\common\library\utilities\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.11" value="..\..\..\common\library\base-library\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.12" value="..\..\..\common\library\testing\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.13" value="..\..\..\win-external-libs\include\mysql"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.14" value="..\..\..\win-external-libs\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.15" value="..\..\..\win-external-libs\include\libxml"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.16" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.17" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.18" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="..\..\..\common\library\testing\source"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="source"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.4" value="..\unit-tests"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.5" value="..\..\library\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.6" value="..\..\library\source"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.7" value="res"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.8" value="..\..\..\win-external-libs\include\glib-2.0"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.9" value="..\..\..\common\library\utilities\shared_include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Jgi.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Jgx.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.O1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.O2.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Od.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Q.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.U.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.V0.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.V1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Ve.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vmd.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vmm.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vms.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-2.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-3.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-5.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.d.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.disablewarns.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.infomsgs.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.arg.1" value="intermediate"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.arg.merge" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.noregistervars.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.p.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.pm.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.pr.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.ps.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.q.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.rd.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="_RTLDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.3" value="_NO_VCL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tW.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWC.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWD.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.w.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.xp.enabled" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.16.enabled" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.31.enabled" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.enabled" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.arg.1" value="res"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.arg.merge" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.1" value="..\..\..\common\library\testing\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.2" value="..\unit-tests"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.3" value="..\..\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.4" value="res"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.5" value="..\unit tests"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.6" value="..\work\workbench\test\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.7" value="source"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.1" value="..\..\..\common\library\testing\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.2" value="..\unit-tests"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.3" value="..\..\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.4" value="res"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.5" value="..\unit tests"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.6" value="..\work\workbench\test\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.7" value="source"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.1" value="..\..\..\common\library\testing\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.2" value="..\unit-tests"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.3" value="..\..\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.4" value="res"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.5" value="..\unit tests"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.6" value="..\work\workbench\test\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.7" value="source"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value="..\..\..\common\library\testing\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.10" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value="..\unit-tests"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="..\..\library\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.4" value="res"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.5" value="..\unit tests"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.6" value="..\work\workbench\test\source"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.7" value="source"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.8" value="..\..\..\Borland Studio Projects"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.9" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="..\..\..\common\library\testing\source"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.10" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.100" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.101" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.102" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.103" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.104" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.105" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.106" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.107" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.108" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.109" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.11" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.110" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.111" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.112" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.113" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.114" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.115" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.116" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.117" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.118" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.119" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.12" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.120" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.121" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.122" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.123" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.124" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.125" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.126" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.127" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.128" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.129" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.13" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.130" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.131" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.132" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.133" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.134" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.135" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.136" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.137" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.138" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.139" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.14" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.140" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.141" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.142" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.143" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.144" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.145" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.146" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.147" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.148" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.149" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.15" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.150" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.151" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.152" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.153" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.154" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.155" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.156" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.157" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.158" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.159" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.16" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.160" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.161" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.162" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.163" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.164" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.165" value="..\..\library\source"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.166" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.167" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.168" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.169" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.17" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.170" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.171" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.172" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.173" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.174" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.175" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.176" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.177" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.178" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.179" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.18" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.180" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.181" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.182" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.183" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.184" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.185" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.186" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.187" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.188" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.189" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.19" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.190" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.191" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.192" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.193" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.194" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.195" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.196" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.197" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.198" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.199" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.2" value="..\unit-tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.20" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.200" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.201" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.202" value="res"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.203" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.204" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.205" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.206" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.207" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.208" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.209" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.21" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.210" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.211" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.212" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.213" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.214" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.215" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.216" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.217" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.218" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.219" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.22" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.220" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.221" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.222" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.223" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.224" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.225" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.226" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.227" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.228" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.229" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.23" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.230" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.231" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.232" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.233" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.234" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.235" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.236" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.237" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.238" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.239" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.24" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.240" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.241" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.242" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.243" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.244" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.245" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.246" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.247" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.248" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.249" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.25" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.250" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.251" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.252" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.253" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.254" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.255" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.256" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.257" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.258" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.259" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.26" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.260" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.261" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.262" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.263" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.264" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.265" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.266" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.267" value="..\work\workbench\test\source"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.268" value="source"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.27" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.28" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.29" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.3" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.30" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.31" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.32" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.33" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.34" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.35" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.36" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.37" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.38" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.39" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.4" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.40" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.41" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.42" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.43" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.44" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.45" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.46" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.47" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.48" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.49" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.5" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.50" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.51" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.52" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.53" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.54" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.55" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.56" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.57" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.58" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.59" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.6" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.60" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.61" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.62" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.63" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.64" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.65" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.66" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.67" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.68" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.69" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.7" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.70" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.71" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.72" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.73" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.74" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.75" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.76" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.77" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.78" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.79" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.8" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.80" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.81" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.82" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.83" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.84" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.85" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.86" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.87" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.88" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.89" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.9" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.90" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.91" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.92" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.93" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.94" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.95" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.96" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.97" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.98" value="tests"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.99" value="..\unit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="container.SelectedWarnings.containerenabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.-w-.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.C.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gn.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gpd.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gpr.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gz.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.arg.1" value="intermediate"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="..\unit-tests"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.10" value="..\..\..\win-external-libs\lib\libxml"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.11" value="..\..\..\win-external-libs\lib\windows"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.12" value="..\..\..\win-external-libs\lib\pcre"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.13" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.14" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.15" value="$(BDS)\lib\psdk"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="res"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="source"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.4" value="..\..\library\static"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.5" value="..\..\..\common\library\sql-parser\static"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.6" value="..\..\..\common\library\testing\source"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.7" value="..\..\..\common\library\base-library\static"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.8" value="..\..\..\common\library\utilities\static"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.9" value="..\..\..\win-external-libs\lib\glib-2.0"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpd.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpe.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpp.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.additional_switches.arg" value="libmysqlsqlparser_static.lib libmysqlutil_static.lib libmysqlx_static.lib libmysqladmin_static.lib glib-2.0-bcc.lib iconv-bcc.lib libxml-bcc.lib pcre3-bcc.lib libmysql-bcc.lib icmp-bcc.lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.additional_switches.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.additional_switches.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.ap.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.1" value="..\..\..\common\library\testing\source"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.2" value="..\unit-tests"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.3" value="..\..\library\source"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.4" value="res"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.5" value="..\unit tests"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.6" value="..\work\workbench\test\source"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.7" value="source"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.arg.1" value="intermediate"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.m.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.map_segments.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.1" value="bin"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.r.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.s.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.w.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="cw32i.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0x32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="project_filelist_changed.cmd" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="MySQLAdministratorTest.bpf" CONTAINERID="BPF" LOCALCOMMAND="" UNITNAME="MySQLAdministratorTest" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="source\main.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="main" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="res\Extra.rc" CONTAINERID="RCCompiler" LOCALCOMMAND="" UNITNAME="Extra.rc" FORMNAME="Extra.res" DESIGNCLASS=""/>
+        <FILE FILENAME="..\unit-tests\myx_backup_test.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_backup_test" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\unit-tests\common.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="common" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\common\library\testing\source\test_helpers.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="test_helpers" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\unit-tests\myx_restore_test.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_restore_test" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\unit-tests\myx_catalog_test.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_catalog_test" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\unit-tests\myx_admin_library_test.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="myx_admin_library_test" FORMNAME="" DESIGNCLASS=""/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">1</VersionInfo>
+          <VersionInfo Name="MinorVer">0</VersionInfo>
+          <VersionInfo Name="Release">0</VersionInfo>
+          <VersionInfo Name="Build">0</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">3079</VersionInfo>
+          <VersionInfo Name="CodePage">1252</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+        </VersionInfoKeys>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs"></Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams">--host=localhost --port=3304 --data=..\..\unit-tests\test-data --data=..\..\..\res --wait --user=root --password=root</Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">True</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication"></Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Language>
+          <Language Name="ActiveLang"></Language>
+          <Language Name="ProjectLang">$00000000</Language>
+          <Language Name="RootDir"></Language>
+        </Language>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+		<buildevents/>
+	</CPlusPlusBuilder.Personality>
+	<StarTeamAssociation></StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-03 20:21+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\source\linux\MGAboutPanel.cc:46 ..\source\linux\MGAboutPanel.cc:64
+msgid "Credits"
+msgstr ""
+
+#: ..\source\linux\MGAboutPanel.cc:51
+msgid "About"
+msgstr ""
+
+#: ..\source\linux\MGAboutPanel.cc:64
+msgid "OK"
+msgstr ""
+
+#: ..\source\linux\MGAboutPanel.cc:106
+#, c-format
+msgid "About %s"
+msgstr ""
+
+#: ..\source\linux\MGBlobEditor.cc:207
+msgid "Field Viewer"
+msgstr ""
+
+#: ..\source\linux\MGBlobEditor.cc:220
+msgid "Text"
+msgstr ""
+
+#: ..\source\linux\MGBlobEditor.cc:238
+msgid "Image"
+msgstr ""
+
+#: ..\source\linux\MGBlobEditor.cc:314
+msgid "Binary"
+msgstr ""
+
+#: ..\source\linux\MGBlobEditor.cc:404
+#, c-format
+msgid "Total Length: %i bytes"
+msgstr ""
+
+#: ..\source\linux\MGBlobEditor.cc:444
+#, c-format
+msgid ""
+"Image size: %i x %i\n"
+"Format: %s"
+msgstr ""
+
+#: ..\source\linux\MGBlobEditor.cc:450
+msgid "Cannot display as image data."
+msgstr ""
+
+#: ..\source\linux\MGCharsetPickDialog.cc:28
+msgid "Select Encoding of File"
+msgstr ""
+
+#: ..\source\linux\MGCharsetPickDialog.cc:29
+msgid "Auto Detect"
+msgstr ""
+
+#: ..\source\linux\MGCharsetPickDialog.cc:31
+msgid "Please pick the correct character set encoding for the file."
+msgstr ""
+
+#: ..\source\linux\MGCharsetPickDialog.cc:95
+#: ..\source\linux\MGCharsetPickDialog.cc:100
+msgid "Could not detect encoding of file."
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:81
+msgid "Skip"
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:94
+#: ..\source\linux\MGConnectDialog.cc:934
+msgid "Connect"
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:237
+msgid ""
+"Can't show connection dialog.\n"
+"Software installation might be incorrect or corrupted."
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:394
+msgid "(last connection)"
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:426
+msgid "Save This Connection..."
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:429
+msgid "Open Connection Editor"
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:572
+#: ..\source\linux\MGConnectDialog.cc:582
+msgid "Save Connection"
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:573
+msgid "Type in a name for the connection to be saved."
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:583
+msgid ""
+"There is already a connection saved with the supplied name.\n"
+"Type in another name for the connection to be saved."
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:654
+msgid "Error"
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:664
+#, c-format
+msgid ""
+"Could not connect to host '%s'.\n"
+"MySQL Error Nr. %i\n"
+"%s\n"
+"\n"
+"Click the 'Ping' button to see if there is a networking problem."
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:677
+#: ..\source\linux\MGConnectDialog.cc:684
+msgid "_Ping Host"
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:719
+msgid "Could not execute ping\n"
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:727
+msgid "Stop _Ping"
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:979
+msgid "_Details >>"
+msgstr ""
+
+#: ..\source\linux\MGConnectDialog.cc:986
+msgid "_Details <<"
+msgstr ""
+
+#: ..\source\linux\MGFileBrowserList.cc:36 ..\source\linux\MGPreferences.cc:35
+#, c-format
+msgid "Could not create directory %s: %s"
+msgstr ""
+
+#: ..\source\linux\MGFileBrowserList.cc:49
+msgid "Change Path..."
+msgstr ""
+
+#: ..\source\linux\MGFileBrowserList.cc:168
+#, c-format
+msgid "Could not rename file '%s' to '%s': %s"
+msgstr ""
+
+#: ..\source\linux\MGFileBrowserList.cc:182
+#, c-format
+msgid "Could not erase file '%s': %s"
+msgstr ""
+
+#: ..\source\linux\MGFileBrowserList.cc:192
+msgid "Select Backup File Directory"
+msgstr ""
+
+#: ..\source\linux\MGMySQLConsole.cc:154
+msgid "No connection."
+msgstr ""
+
+#: ..\source\linux\MGMySQLConsole.cc:285
+msgid "Control-C pressed. Aborting data retrieval..."
+msgstr ""
+
+#: ..\source\linux\MGPreferences.cc:42
+#, c-format
+msgid "Directory %s does not exist"
+msgstr ""
+
+#: ..\source\linux\MGPreferencesEditor.cc:57
+msgid "Connection"
+msgstr ""
+
+#: ..\source\linux\MGPreferencesEditor.cc:129
+msgid "Connections"
+msgstr ""
+
+#: ..\source\linux\MGPreferencesEditor.cc:135
+msgid "History"
+msgstr ""
+
+#: ..\source\linux\MGPreferencesEditor.cc:339
+msgid "General Options"
+msgstr ""
+
+#: ..\source\linux\MGSchemaBrowserHelper.cc:55
+msgid "Create Schema"
+msgstr ""
+
+#: ..\source\linux\MGSchemaBrowserHelper.cc:56
+msgid ""
+"<b>Create Schema</b>\n"
+"Enter a name for the new schema."
+msgstr ""
+
+#: ..\source\linux\MGSchemaBrowserHelper.cc:63
+msgid "Error creating schema."
+msgstr ""
+
+#: ..\source\linux\MGSchemaBrowserHelper.cc:151
+#, c-format
+msgid ""
+"This will permanently drop (delete) the Schema '%s' and all its tables.\n"
+"Please confirm."
+msgstr ""
+
+#: ..\source\linux\MGSchemaBrowserHelper.cc:161
+#, c-format
+msgid ""
+"This will permanently drop (delete) the View '%s'.\n"
+"Please confirm."
+msgstr ""
+
+#: ..\source\linux\MGSchemaBrowserHelper.cc:169
+#, c-format
+msgid ""
+"This will permanently drop (delete) the Table '%s'.\n"
+"Please confirm."
+msgstr ""
+
+#: ..\source\linux\MGSchemaBrowserHelper.cc:179
+#, c-format
+msgid ""
+"This will permanently drop (delete) the Procedure/Function '%s'.\n"
+"Please confirm."
+msgstr ""
+
+#: ..\source\linux\MGSchemaBrowserHelper.cc:205
+#, c-format
+msgid "Error executing drop of %s."
+msgstr ""
+
+#: ..\source\linux\MGSchemaBrowserList.cc:219
+#: ..\source\linux\MGTableBrowserList.cc:117
+msgid "Tables"
+msgstr ""
+
+#: ..\source\linux\MGSchemaBrowserList.cc:313
+msgid "Indices"
+msgstr ""
+
+#: ..\source\linux\MGTableBrowserList.cc:113
+msgid "All"
+msgstr ""
+
+#: ..\source\linux\MGTableBrowserList.cc:115
+msgid "Schemas"
+msgstr ""
+
+#: ..\source\linux\MGTableBrowserList.cc:119
+msgid "Procedures/Functions"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:153 ..\source\linux\MGTableEditor.cc:168
+msgid "Column"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:154
+msgid "Foreign Column"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:169
+msgid "Length"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:181
+msgid "Column Name"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:192
+msgid "Data Type"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:195
+msgid "Flags"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:196
+msgid "Default Value"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:200
+msgid "Comments"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:279
+msgid "Back"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:966
+#, c-format
+msgid "Could not load data files '%s' for table editor."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:983
+msgid ""
+"Could not retrieve available character set information for table editor."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:1075
+#, c-format
+msgid "Please confirm deletion of column '%s'."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:1557 ..\source\linux\MGTableEditor.cc:1560
+msgid ""
+"Foreign Keys can only be defined for tables that use the InnoDB engine.\n"
+"Make this an InnoDB table by selecting 'InnoDB' in the 'Table Options' tab."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:1663
+#, c-format
+msgid "Could not retrieve information for table '%s.%s'"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:1667
+#, c-format
+msgid "Error retrieving information for table '%s.%s'"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2059 ..\source\linux\MGTableEditor.cc:2063
+#, c-format
+msgid "Could not retrieve information for table '%s.%s' to perform table diff."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2077
+msgid ""
+"Could not generate differences between original table and modified table."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2081
+msgid "No modifications to be applied."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2096
+msgid "Error executing SQL commands to create table."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2098
+msgid "Error executing SQL commands to update table."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2112
+msgid "Table created."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2115
+msgid "Table modifications applied."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2146
+msgid "Confirm Table Creation"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2148
+msgid "Confirm Table Changes"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2167
+msgid "Save SQL Script"
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2177
+#, c-format
+msgid "Could not create file '%s'."
+msgstr ""
+
+#: ..\source\linux\MGTableEditor.cc:2182
+#, c-format
+msgid "Could not save to file '%s'."
+msgstr ""

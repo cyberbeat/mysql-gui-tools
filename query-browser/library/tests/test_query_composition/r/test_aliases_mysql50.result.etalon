@@ -1,0 +1,15 @@
+-----------------
+select * from forum_user fu, forum_administrator f
+-----------------
+
+-----------------
+-----------------
+select * from forum_user fu, forum_administrator f, forum_moderator fm
+-----------------
+
+-----------------
+-----------------
+select * from country c, countrylanguage cl
+-----------------
+
+-----------------

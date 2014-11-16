@@ -1,0 +1,1 @@
+..\..\..\win-external-libs\bin\flex "-osource\myx_sql_scanner.lex.c" "source\myx_sql_scanner.lex"

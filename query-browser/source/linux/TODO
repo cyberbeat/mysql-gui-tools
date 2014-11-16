@@ -1,0 +1,9 @@
+
+
+** Optimization of the Resultset View
+
+the Gtk treeview pre-computes the height of all rows in the tree
+before displaying it. So, a custom cellrenderer that:
+ - computes the height of a row only once
+ - trims text to 1 line only 
+would greatly enhance performance in the 1st time a rs is displayed

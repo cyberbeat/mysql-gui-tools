@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>MySQL Query Browser Quick Start Guide</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+<center><h2>MySQL Query Browser Quick Start Guide</h2></center>
+<center><b>Welcome to MySQL Query Browser</b></center><br>
+</div>
+<br>
+The MySQL Query Browser is a graphical
+shell where you can execute queries and develop SQL scripts, with
+several features to help you improve your productivity.<br>
+<br>
+This short guide will guide you through the main features available in the MySQL Query Browser
+and will to show you how to use most of the basic functionality available.
+For full documentation, please refer to the MySQL Query Browser User Manual.<br>
+<br>
+The MySQL Query Browser interface tries to mimic the interface of a web browser.
+Therefore, many of the features you normally find in a web browser are
+also available here, such as Back/Next navigation, query
+bookmarks and query history.<br>
+<br>
+<h3>Executing SQL Queries</h3>
+<b>Selecting the Default Schema</b>
+<p>Before executing queries, you must select the <i>
+default schema</i> that you will be
+working on. You can select that by:</p>
+<ul>
+  <li>typing the name of the schema you want to use in the connection
+dialog, when starting the program;</li>
+  <li>through the <b>Select Schema...</b>
+command in the <b>File </b>menu; or</li>
+  <li>by directly selecting the desired schema in the Schemata list and
+selecting <b>Set as Default Schema</b>,
+from the right click popup menu.<br>
+  </li>
+</ul>
+All subsequent queries will be executed using that schema by default.<br>
+<br>
+<b>Executing SQL Statements</b>
+<p>The main query bar is located at the top of the window and contains 
+navigation buttons and the query entry box. You can execute
+SQL statements by typing them in that field and pressing the
+Execute button (or by pressing Control-Enter). The results of SELECT
+statements are shown in the main area below. </p>
+<br>
+<b>Editing Resultsets</b>
+<p>If the query resultset is editable, you can click the <b>
+Edit</b> button below the resultset
+view. Double clicking cells in the resultset will allow you to edit their
+contents. Changes are commited to the database only after the <b>
+Apply Changes</b> button is pressed.<br>
+For a resultset to be editable, the following conditions must be met:
+</p>
+<ul>
+  <li>the resultset must contain columns from no more than one single
+table;</li>
+  <li>the queried columns must be proper column names (e.g: no
+functions, such as in <code>SELECT max(price) FROM products</code>);<br>
+  </li>
+  <li>this table must contain a Primary Key column, although not
+necessarily in the query. If the query does not contain the primary
+key, it will be automatically added before the MySQL Query Browser sends the query to the
+MySQL server, but will display only the columns you requested;</li>
+</ul>
+<br>
+<b>Comparing Resultsets</b>
+<p>You can compare two resultsets that contain the same column names
+with the same datatypes, for example, to compare the differences of a
+backed up version of a table with its up-to-date counterpart. For that,
+split the resultset area in 2 (through the right-click popup menu from
+the resultset area), execute one of the queries selecting the top
+resulset view and the second query after selecting the bottom resultset
+view. Once you press the <b>Compare</b>
+button, the contents of the resultsets will be sorted and compared
+side-by-side, with different colors.<br>
+</p>
+<h3>Query History and Bookmarks</h3>
+Every query that you execute will be recorded in the History. You can
+return to previously executed queries by pressing the Back button in
+the top toolbar, by double clicking the desired entry in the History
+browser, at the right of the main window or by dragging the query you
+want and dropping to the query editor area or directly in the resultset
+view. <br>
+<br>
+To bookmark a query, press Control-D. A dialog will request a name for
+the query bookmark, which will be listed in the Bookmarks list. To
+retrieve a bookmark, you can use the same actions as for the History.<br>
+<br>
+<h3>Query Composition</h3>
+<p>The MySQL Query Browser supports some very handy "query composition" features. You can quickly
+build SQL queries with drag&drop and mouse clicks.</p>
+
+<p>By selecting a table from the database list and dragging it over the query
+entry box, an action bar with some query composition actions will pop-up.
+Drop the table you're dragging on the desired action and the query will be
+modified accordingly. The following actions are possible:</p>
+
+<ul>
+<li><b>SELECT</b> will replace the current query with a SELECT statement
+containing the dragged table;
+<li><b>Add Table</b> will add the dragged table to the list of tables in the
+current SELECT statement;
+<li><b>JOIN Table</b> if a SELECT statement is already in the query box, with
+a table in it, the new dragged table will be added and the appropriate WHERE
+clauses to perform a JOIN will be added;
+<li><b>LEFT OUTER JOIN</b> same as the previous, but will do a LEFT OUTER
+JOIN instead of a JOIN;
+<li><b>UPDATE</b> will replace the current query with an UPDATE statement
+containing the dragged table;
+<li><b>INSERT</b> will replace the current query with an INSERT statement
+containing the dragged table;
+<li><b>DELETE</b> will replace the current query with an DELETE statement
+containing the dragged table.
+</ul>
+
+<p>Also, dragging and dropping a table directly to the query box or double-clicking a 
+table in the database list, will compose a new SELECT statment.</p>
+
+</body>
+</html>

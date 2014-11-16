@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancel = id; changeView = id; load = id; ok = id; save = id; }; 
+            CLASS = MQFieldViewer; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                columnText = NSTextField; 
+                contentView = NSView; 
+                formatPop = NSPopUpButton; 
+                infoText = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

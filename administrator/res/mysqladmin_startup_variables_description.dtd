@@ -1,0 +1,42 @@
+<!ENTITY % pos_and_id "position CDATA #REQUIRED id ID #IMPLIED">
+
+<!ELEMENT gui_description (page+)>
+
+<!ELEMENT page (caption, description, group+)>
+<!ATTLIST page %pos_and_id;>
+
+<!ELEMENT group (caption,(checkbox|spinedit|textedit|dropdownbox)+ )>
+<!ATTLIST group %pos_and_id; version_start CDATA '4.0' version_end CDATA #IMPLIED>
+<!-- version_start and version_end indicate for what mysql-server-versions this group-element should be shown. -->
+
+
+<!-- Now follow the GUI-elements -->
+
+<!ENTITY % widget_elements "caption,default_value+,description, alt_name*">
+<!ENTITY % widget_elements_no_default_value "caption,default_value*,description, alt_name*">
+
+<!ENTITY % widget_attrs "position NMTOKEN #REQUIRED id ID #REQUIRED  multiple (yes|no) 'no' version_start CDATA '4.0' version_end CDATA #IMPLIED platform (linux|windows|macos|all) 'all'">
+
+
+<!ELEMENT checkbox (%widget_elements;)>
+<!ATTLIST checkbox %widget_attrs; is_boolean (yes|no) 'no' invert (yes|no) 'no'>
+
+<!ELEMENT spinedit ( %widget_elements; , unitcontrolbox?)>
+<!ATTLIST spinedit %widget_attrs;>
+
+<!ELEMENT unitcontrolbox EMPTY>
+<!ATTLIST unitcontrolbox type CDATA #REQUIRED>
+
+<!ELEMENT textedit (%widget_elements_no_default_value;)>
+<!ATTLIST textedit %widget_attrs; type (normal|ip|directory|file|innodbfilepath|memo|repldodb) "normal">
+
+<!ELEMENT dropdownbox (%widget_elements;, items+)>
+<!ATTLIST dropdownbox %widget_attrs;>
+<!ELEMENT items (item+)>
+<!ELEMENT item (#PCDATA)>
+
+<!ELEMENT caption (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT default_value (#PCDATA)>
+<!ATTLIST default_value version CDATA "4.0" platform (linux|windows|macos|all) 'all'>
+<!ELEMENT alt_name (#PCDATA)>

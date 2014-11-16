@@ -1,0 +1,78 @@
+%define version		@VERSION@
+%define release		1
+
+%define gtkhtml		libgtkhtml-3.1
+
+
+Summary: A graphical MySQL query shell.
+Name: mysql-query-browser
+Version: %{version}
+Release: %{release}%{targos}
+Group: Applications/Databases
+License: GPL
+Vendor: MySQL AB
+URL: http://www.mysql.com/products/query-browser
+Source: %{name}-%{version}.tar.gz
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
+BuildRequires: libglade2-devel >= 2.0.0, gtkmm24-devel >= 2.4.0
+BuildRequires: pcre-devel >= 3.9, gettext
+# gtkhtml3-devel
+
+%description
+MySQL Query Browser is a GUI tool for executing SQL queries.
+It will display the result in a list where you can edit its contents
+and save. It has several auxiliar features to facilitate work, such
+as query "bookmarking", query history, syntax highlighting and online
+help.
+
+It's part of the MySQL Developer Suite.
+
+
+%prep
+%setup -q -n %{name}-%{version}/mysql-gui-common
+%setup -q -n %{name}-%{version}/%{name}
+
+%build
+
+# first we have to build the common libs
+cd ../mysql-gui-common
+%configure --with-commondirname=query-browser
+make %{?_smp_mflags} 
+
+# then the app itself
+cd ../%{name}
+%configure --with-commondirname=query-browser --with-gtkhtml=%{gtkhtml}
+make -i %{?_smp_mflags} %{?qblibs}
+(cd source/linux; ./static_make)
+
+%install
+rm -rf %{buildroot}
+cd ../mysql-gui-common
+make DESTDIR=%{buildroot} install
+
+cd ../%{name}
+make DESTDIR=%{buildroot} install
+
+mkdir -p %{buildroot}%{_datadir}/mysql-gui/doc/query-browser/
+cp -a doc/* %{buildroot}%{_datadir}/mysql-gui/doc/query-browser/
+
+%clean
+rm -rf %{buildroot}
+
+%files
+%defattr(0644, root, root, 0755)
+%doc COPYING 
+%attr(0755,root,root) %{_bindir}/mysql-query-browser
+%attr(0755,root,root) %{_bindir}/mysql-query-browser-bin
+%{_datadir}/applications/*.desktop
+%{_datadir}/mysql-gui/*.png
+%dir %{_datadir}/mysql-gui/query-browser
+%{_datadir}/mysql-gui/query-browser/*
+%{_datadir}/mysql-gui/doc/query-browser/*
+%{_datadir}/locale/*
+
+
+%changelog
+* Sat Apr  3 2004 Alfredo Kojima <alfredo@mysql.com> 0.1.0_alpha-1
+- initial RPM packaging
+

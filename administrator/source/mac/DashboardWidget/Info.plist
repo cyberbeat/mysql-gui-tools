@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>MySQL Health</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.mysql.widget.health</string>
+    <key>CFBundleName</key>
+    <string>MySQLHealth</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.1</string>
+    <key>CFBundleVersion</key>
+    <string>1.1</string>
+    <key>CloseBoxInsetX</key>
+    <integer>16</integer>
+    <key>CloseBoxInsetY</key>
+    <integer>14</integer>
+    <key>MainHTML</key>
+    <string>MySQLHealth.html</string>
+    <key>Plugin</key>
+    <string>MySQLMonitor.widgetplugin</string>
+</dict>
+</plist>

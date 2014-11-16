@@ -1,0 +1,1938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0175290922707100F96F01 /* entities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0175220922707100F96F01 /* entities.h */; };
+		2B01752A0922707100F96F01 /* keywords.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0175230922707100F96F01 /* keywords.h */; };
+		2B01752B0922707100F96F01 /* myx_international_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0175240922707100F96F01 /* myx_international_file.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B01752C0922707100F96F01 /* myx_util_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0175250922707100F96F01 /* myx_util_functions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B01752D0922707100F96F01 /* myx_util_public_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0175260922707100F96F01 /* myx_util_public_interface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B01752E0922707100F96F01 /* myx_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0175270922707100F96F01 /* myx_util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B01752F0922707100F96F01 /* myx_xml_util_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0175280922707100F96F01 /* myx_xml_util_functions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0175310922707900F96F01 /* myx_shared_util_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0175300922707900F96F01 /* myx_shared_util_functions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0175330922708100F96F01 /* myx_shared_util_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B0175320922708100F96F01 /* myx_shared_util_functions.c */; };
+		2B0175380922708900F96F01 /* myx_international_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B0175340922708900F96F01 /* myx_international_file.c */; };
+		2B0175390922708900F96F01 /* myx_util_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B0175350922708900F96F01 /* myx_util_functions.c */; };
+		2B01753A0922708900F96F01 /* myx_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B0175360922708900F96F01 /* myx_util.c */; };
+		2B01753B0922708900F96F01 /* myx_xml_util_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B0175370922708900F96F01 /* myx_xml_util_functions.c */; };
+		2B1BCC5E093D1EDD00946E36 /* myx_sql_parser_public_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1BCBFC093D1AA300946E36 /* myx_sql_parser_public_interface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1BCC5F093D1EDD00946E36 /* myx_lex_helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BCBFD093D1AA300946E36 /* myx_lex_helpers.cpp */; };
+		2B1BCC60093D1EDD00946E36 /* MyxSQLTreeItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BCBFE093D1AA300946E36 /* MyxSQLTreeItem.cpp */; };
+		2B1BCC61093D1EDD00946E36 /* MyxStatementParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BCBFF093D1AA300946E36 /* MyxStatementParser.cpp */; };
+		2B1BCC62093D1EDD00946E36 /* myx_lex_helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1BCC00093D1AA300946E36 /* myx_lex_helpers.h */; };
+		2B1BCC63093D1EDD00946E36 /* MyxSQLTreeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1BCC01093D1AA300946E36 /* MyxSQLTreeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1BCC64093D1EDD00946E36 /* MyxStatementParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1BCC02093D1AA300946E36 /* MyxStatementParser.h */; };
+		2B1F2562087CC45400455FC3 /* MSQLEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F2560087CC45400455FC3 /* MSQLEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1F2563087CC45400455FC3 /* MSQLEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F2561087CC45400455FC3 /* MSQLEditor.m */; };
+		2B1F2570087CCB1000455FC3 /* SQLEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1F256E087CCB1000455FC3 /* SQLEditor.nib */; };
+		2B23D25909D9AE5B00FD540F /* libglib-2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B23D25809D9AE5B00FD540F /* libglib-2.0.dylib */; };
+		2B23D25A09D9AE5B00FD540F /* libglib-2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B23D25809D9AE5B00FD540F /* libglib-2.0.dylib */; };
+		2B39E27A074FB7A400ACFF2D /* myx_query.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B39E279074FB7A400ACFF2D /* myx_query.cpp */; };
+		2B39E283074FB7F000ACFF2D /* myx_const_string.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B39E282074FB7F000ACFF2D /* myx_const_string.h */; };
+		2B39E28A074FB7FF00ACFF2D /* myx_query_reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B39E289074FB7FF00ACFF2D /* myx_query_reader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B3EFCA108462B3B00145705 /* gutter_breakpoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B3EFC9E08462B3B00145705 /* gutter_breakpoint.png */; };
+		2B3EFCA208462B3B00145705 /* gutter_current_pos.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B3EFC9F08462B3B00145705 /* gutter_current_pos.png */; };
+		2B3EFCA308462B3B00145705 /* gutter_query_start.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B3EFCA008462B3B00145705 /* gutter_query_start.png */; };
+		2B60042C08385C4D00DCF8AC /* MMenuButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B60042A08385C4D00DCF8AC /* MMenuButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B60042D08385C4D00DCF8AC /* MMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B60042B08385C4D00DCF8AC /* MMenuButton.m */; };
+		2B6281FD083D39B1001FC0B3 /* MSourceTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6281FB083D39B1001FC0B3 /* MSourceTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6281FE083D39B1001FC0B3 /* MSourceTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6281FC083D39B1001FC0B3 /* MSourceTextView.m */; };
+		2B628412083E3D2B001FC0B3 /* MSyntaxColoring.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B628410083E3D2B001FC0B3 /* MSyntaxColoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B628413083E3D2B001FC0B3 /* MSyntaxColoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B628411083E3D2B001FC0B3 /* MSyntaxColoring.m */; };
+		2B62848D083E54AA001FC0B3 /* MSQLSyntaxColoring.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B62848B083E54AA001FC0B3 /* MSQLSyntaxColoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B62848E083E54AA001FC0B3 /* MSQLSyntaxColoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B62848C083E54AA001FC0B3 /* MSQLSyntaxColoring.m */; };
+		2B62CF37078F9A4E0063A0C0 /* MPreferenceEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B62CF35078F9A4E0063A0C0 /* MPreferenceEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B62CF38078F9A4E0063A0C0 /* MPreferenceEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B62CF36078F9A4E0063A0C0 /* MPreferenceEditor.m */; };
+		2B62CF4A078FAAD90063A0C0 /* MConnectionEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B62CF48078FAAD90063A0C0 /* MConnectionEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B62CF4B078FAAD90063A0C0 /* MConnectionEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B62CF49078FAAD90063A0C0 /* MConnectionEditor.m */; };
+		2B62CF5D078FAB200063A0C0 /* ConnectionEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B62CF5B078FAB200063A0C0 /* ConnectionEditor.nib */; };
+		2B64ED080851387B00E6D340 /* mini_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B64ED050851387B00E6D340 /* mini_error.png */; };
+		2B64ED090851387B00E6D340 /* mini_notice.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B64ED060851387B00E6D340 /* mini_notice.png */; };
+		2B64ED0A0851387B00E6D340 /* mini_warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B64ED070851387B00E6D340 /* mini_warning.png */; };
+		2B64EE9C0851559600E6D340 /* myx_schema_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B64EE980851559600E6D340 /* myx_schema_16x16.png */; };
+		2B64EE9D0851559600E6D340 /* myx_schema_sp_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B64EE990851559600E6D340 /* myx_schema_sp_16x16.png */; };
+		2B64EE9E0851559600E6D340 /* myx_schema_table_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B64EE9A0851559600E6D340 /* myx_schema_table_16x16.png */; };
+		2B64EE9F0851559600E6D340 /* myx_schema_view_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B64EE9B0851559600E6D340 /* myx_schema_view_16x16.png */; };
+		2B69601407DA4CDC00512190 /* MTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B69601207DA4CDC00512190 /* MTabView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B69601507DA4CDC00512190 /* MTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B69601307DA4CDC00512190 /* MTabView.m */; };
+		2B83395A08653A1600D8BEB0 /* myx_exporter.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B83395908653A1600D8BEB0 /* myx_exporter.c */; };
+		2B8A3B9B0872118F0079FC4E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8A3B9A0872118F0079FC4E /* libxml2.dylib */; };
+		2B8A3BDE087215CB0079FC4E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8A3BDD087215CB0079FC4E /* libiconv.dylib */; };
+		2B8B721009317235001C28EE /* libmysqlclient_r.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8B720F09317235001C28EE /* libmysqlclient_r.a */; };
+		2B8C46DE0838D2B600A72366 /* MCrontab.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C46DC0838D2B600A72366 /* MCrontab.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C46DF0838D2B600A72366 /* MCrontab.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C46DD0838D2B600A72366 /* MCrontab.m */; };
+		2B8C490F083A7A1500A72366 /* MQResultSetDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C490D083A7A1500A72366 /* MQResultSetDataSource.h */; };
+		2B8C4910083A7A1500A72366 /* MQResultSetDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C490E083A7A1500A72366 /* MQResultSetDataSource.mm */; };
+		2B8C492F083BAE0A00A72366 /* MYXResultSet.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C492D083BAE0A00A72366 /* MYXResultSet.cc */; };
+		2B8C4930083BAE0A00A72366 /* MYXResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C492E083BAE0A00A72366 /* MYXResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C4D84083C5B5D00A72366 /* MTextGutterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C4D82083C5B5D00A72366 /* MTextGutterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C4D85083C5B5D00A72366 /* MTextGutterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C4D83083C5B5D00A72366 /* MTextGutterView.m */; };
+		2B8C4D9A083C5D1300A72366 /* MSourceTextEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C4D98083C5D1300A72366 /* MSourceTextEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C4D9B083C5D1300A72366 /* MSourceTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C4D99083C5D1300A72366 /* MSourceTextEditor.m */; };
+		2B8FAB3B082B5CEA00D63986 /* MSplitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8FAB39082B5CEA00D63986 /* MSplitView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8FAB3C082B5CEA00D63986 /* MSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FAB3A082B5CEA00D63986 /* MSplitView.m */; };
+		2B8FB47E0830E13E00D63986 /* tab_close_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB47B0830E13E00D63986 /* tab_close_normal.png */; };
+		2B8FB47F0830E13E00D63986 /* tab_close_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB47C0830E13E00D63986 /* tab_close_over.png */; };
+		2B8FB4800830E13E00D63986 /* tab_close_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB47D0830E13E00D63986 /* tab_close_pressed.png */; };
+		2B8FB7D2083429E700D63986 /* MQBinaryViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8FB7C0083429E700D63986 /* MQBinaryViewer.h */; settings = {ATTRIBUTES = (); }; };
+		2B8FB7D3083429E700D63986 /* MQBinaryViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FB7C1083429E700D63986 /* MQBinaryViewer.m */; };
+		2B8FB7D4083429E700D63986 /* MQResultSetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8FB7C2083429E700D63986 /* MQResultSetCell.h */; };
+		2B8FB7D5083429E700D63986 /* MQResultSetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FB7C3083429E700D63986 /* MQResultSetCell.m */; };
+		2B8FB7D6083429E700D63986 /* MQFieldViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8FB7C4083429E700D63986 /* MQFieldViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8FB7D7083429E700D63986 /* MQFieldViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FB7C5083429E700D63986 /* MQFieldViewer.m */; };
+		2B8FB7D8083429E700D63986 /* MQImageViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8FB7C6083429E700D63986 /* MQImageViewer.h */; };
+		2B8FB7D9083429E700D63986 /* MQImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FB7C7083429E700D63986 /* MQImageViewer.m */; };
+		2B8FB7DA083429E700D63986 /* MQIndicatorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8FB7C8083429E700D63986 /* MQIndicatorCell.h */; };
+		2B8FB7DB083429E700D63986 /* MQIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FB7C9083429E700D63986 /* MQIndicatorCell.m */; };
+		2B8FB7DE083429E700D63986 /* MQResultSetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8FB7CC083429E700D63986 /* MQResultSetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8FB7DF083429E700D63986 /* MQResultSetView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FB7CD083429E700D63986 /* MQResultSetView.mm */; };
+		2B8FB7E0083429E700D63986 /* MQTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8FB7CE083429E700D63986 /* MQTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8FB7E1083429E700D63986 /* MQTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FB7CF083429E700D63986 /* MQTableView.m */; };
+		2B8FB7E2083429E700D63986 /* MQTextViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8FB7D0083429E700D63986 /* MQTextViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8FB7E3083429E700D63986 /* MQTextViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FB7D1083429E700D63986 /* MQTextViewer.m */; };
+		2B8FB7ED08342BB600D63986 /* FieldViewer.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB7E908342BB600D63986 /* FieldViewer.nib */; };
+		2B8FB7EE08342BB600D63986 /* ResultSet.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB7EB08342BB600D63986 /* ResultSet.nib */; };
+		2B8FB8820834318F00D63986 /* field_overlay_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB87C0834318F00D63986 /* field_overlay_clear.png */; };
+		2B8FB8830834318F00D63986 /* field_overlay_edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB87D0834318F00D63986 /* field_overlay_edit.png */; };
+		2B8FB8840834318F00D63986 /* field_overlay_load.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB87E0834318F00D63986 /* field_overlay_load.png */; };
+		2B8FB8850834318F00D63986 /* field_overlay_null.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB87F0834318F00D63986 /* field_overlay_null.png */; };
+		2B8FB8860834318F00D63986 /* field_overlay_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB8800834318F00D63986 /* field_overlay_save.png */; };
+		2B8FB8870834318F00D63986 /* field_overlay_view.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB8810834318F00D63986 /* field_overlay_view.png */; };
+		2B8FB88C083431C500D63986 /* blob_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8FB88B083431C500D63986 /* blob_icon.png */; };
+		2B90AE3D074FD46900F9E62D /* MConnectionPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E36F4E068414B20058F7AC /* MConnectionPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE40074FD46900F9E62D /* myxutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6567DE03068A6A99008CA5D8 /* myxutil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE41074FD46900F9E62D /* MSchemaDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EE4066068E9ECD004BB623 /* MSchemaDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE42074FD46900F9E62D /* MButtonImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 65878BFC06AE132E002C5449 /* MButtonImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE43074FD46900F9E62D /* MDialogs.h in Headers */ = {isa = PBXBuildFile; fileRef = 65878C0306AE1340002C5449 /* MDialogs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE44074FD46900F9E62D /* MMySQLDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 65878C0506AE1340002C5449 /* MMySQLDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE45074FD46900F9E62D /* MPtrArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 65878C1306AE1352002C5449 /* MPtrArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE46074FD46900F9E62D /* MPtrNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 65878C1506AE1352002C5449 /* MPtrNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE47074FD46900F9E62D /* MTextImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 65878C2006AE135D002C5449 /* MTextImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE48074FD46900F9E62D /* NSString_extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 65878C2706AE136F002C5449 /* NSString_extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE49074FD46900F9E62D /* MPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 65878C2F06AE138C002C5449 /* MPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE4B074FD46900F9E62D /* MTreeDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 659D64ED06B639710061E70D /* MTreeDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE4C074FD46900F9E62D /* NSView_extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 6533424406D1B86B00717689 /* NSView_extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE4D074FD46900F9E62D /* MTableEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 653342EE06D26A9600717689 /* MTableEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE4E074FD46900F9E62D /* MAccessoryScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D1F2AA06E8291300A3F1A7 /* MAccessoryScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE4F074FD46900F9E62D /* mxUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D261E006FE912900AF25F8 /* mxUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90AE51074FD4A100F9E62D /* MConnectionPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E36F4F068414B20058F7AC /* MConnectionPanel.m */; };
+		2B90AE54074FD4A100F9E62D /* myxutil.m in Sources */ = {isa = PBXBuildFile; fileRef = 65999613068BCC7200609548 /* myxutil.m */; };
+		2B90AE55074FD4A100F9E62D /* MSchemaDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE4067068E9ECD004BB623 /* MSchemaDataSource.m */; };
+		2B90AE56074FD4A100F9E62D /* MButtonImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65878BFD06AE132E002C5449 /* MButtonImageCell.m */; };
+		2B90AE57074FD4A100F9E62D /* MDialogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 65878C0406AE1340002C5449 /* MDialogs.m */; };
+		2B90AE58074FD4A100F9E62D /* MMySQLDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 65878C0606AE1340002C5449 /* MMySQLDispatcher.m */; };
+		2B90AE59074FD4A100F9E62D /* MPtrArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 65878C1406AE1352002C5449 /* MPtrArray.m */; };
+		2B90AE5A074FD4A100F9E62D /* MPtrNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 65878C1606AE1352002C5449 /* MPtrNode.m */; };
+		2B90AE5B074FD4A100F9E62D /* MTextImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65878C2106AE135D002C5449 /* MTextImageCell.m */; };
+		2B90AE5C074FD4A100F9E62D /* NSString_extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 65878C2806AE136F002C5449 /* NSString_extras.m */; };
+		2B90AE5D074FD4A100F9E62D /* MPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 65878C3006AE138C002C5449 /* MPreferences.m */; };
+		2B90AE5F074FD4A100F9E62D /* MTreeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 659D64EE06B639710061E70D /* MTreeDataSource.m */; };
+		2B90AE60074FD4A100F9E62D /* NSView_extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533424506D1B86B00717689 /* NSView_extras.m */; };
+		2B90AE61074FD4A100F9E62D /* MTableEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 653342EF06D26A9600717689 /* MTableEditor.m */; };
+		2B90AE62074FD4A100F9E62D /* MAccessoryScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D1F2AB06E8291300A3F1A7 /* MAccessoryScrollView.m */; };
+		2B90AE63074FD4A100F9E62D /* mxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D261E106FE912900AF25F8 /* mxUtils.m */; };
+		2B90AE64074FD4BD00F9E62D /* connect_to_instance.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E36F3606840AD00058F7AC /* connect_to_instance.png */; };
+		2B90AE65074FD4BD00F9E62D /* ConnectPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = 65B087180693404300C4DB29 /* ConnectPanel.nib */; };
+		2B90AE66074FD4BD00F9E62D /* TableEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6533431706D26BAF00717689 /* TableEditor.nib */; };
+		2B90AE67074FD4BD00F9E62D /* mysqlx_dbm_charsets.xml in Resources */ = {isa = PBXBuildFile; fileRef = 65D1F40506E848A900A3F1A7 /* mysqlx_dbm_charsets.xml */; };
+		2B90AE68074FD4BD00F9E62D /* mysqlx_dbm_datatypes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 65D1F40606E848A900A3F1A7 /* mysqlx_dbm_datatypes.xml */; };
+		2B90AE69074FD4BD00F9E62D /* column_pk.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CF85006F3E79B0095AD20 /* column_pk.png */; };
+		2B90AE6A074FD4BD00F9E62D /* datatype_blob.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CF85706F3E7AA0095AD20 /* datatype_blob.png */; };
+		2B90AE6B074FD4BD00F9E62D /* datatype_datetime.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CF85806F3E7AA0095AD20 /* datatype_datetime.png */; };
+		2B90AE6C074FD4BD00F9E62D /* datatype_numeric.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CF85906F3E7AA0095AD20 /* datatype_numeric.png */; };
+		2B90AE6D074FD4BD00F9E62D /* datatype_spatial.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CF85A06F3E7AA0095AD20 /* datatype_spatial.png */; };
+		2B90AE6E074FD4BD00F9E62D /* datatype_string.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CF85B06F3E7AA0095AD20 /* datatype_string.png */; };
+		2B90AE6F074FD4BD00F9E62D /* datatype_userdefined.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CF85C06F3E7AA0095AD20 /* datatype_userdefined.png */; };
+		2B90AE70074FD4BD00F9E62D /* column.png in Resources */ = {isa = PBXBuildFile; fileRef = 658CF88A06F3E8EE0095AD20 /* column.png */; };
+		2B90AE71074FD4BD00F9E62D /* editor_table_auto_inc.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B39E290074FB87400ACFF2D /* editor_table_auto_inc.png */; };
+		2B90AE72074FD4BD00F9E62D /* editor_table_not_null.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B39E291074FB87400ACFF2D /* editor_table_not_null.png */; };
+		2B90AE74074FD4D300F9E62D /* libmysqlx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B39E263074FAD4000ACFF2D /* libmysqlx.a */; };
+		2B90AE78074FD4D300F9E62D /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65261EE1068663BD008C655D /* libpcre.a */; };
+		2B90AE7A074FD4D300F9E62D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		2B90AE7B074FD4D300F9E62D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 655E73730688EFAF002FFCE5 /* libz.dylib */; };
+		2B9A358F0793863F00A708EA /* PreferencesEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A358D0793863F00A708EA /* PreferencesEditor.nib */; };
+		2B9A364E07938F4500A708EA /* folder_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A364D07938F4500A708EA /* folder_16x16.png */; };
+		2B9A365407938F5100A708EA /* networkhost_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A365307938F5100A708EA /* networkhost_16x16.png */; };
+		2B9A44A10795EBA500A708EA /* mini_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A449F0795EBA500A708EA /* mini_add.png */; };
+		2B9A44A20795EBA500A708EA /* mini_del.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A44A00795EBA500A708EA /* mini_del.png */; };
+		2B9A45430795F71E00A708EA /* mini_add_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A45410795F71E00A708EA /* mini_add_pressed.png */; };
+		2B9A45440795F71E00A708EA /* mini_del_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A45420795F71E00A708EA /* mini_del_pressed.png */; };
+		2B9A567307A3684500A708EA /* libintl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 655E738B0688F1FF002FFCE5 /* libintl.dylib */; };
+		2B9A567D07A368C200A708EA /* README.MacOSX in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A567C07A368C200A708EA /* README.MacOSX */; };
+		2BA948BC081CC3710022CE53 /* NSArray_extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA948BA081CC3710022CE53 /* NSArray_extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BA948BD081CC3710022CE53 /* NSArray_extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA948BB081CC3710022CE53 /* NSArray_extras.m */; };
+		2BB7DB2E0869E7B400D420FB /* MConnectionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB7DB2C0869E7B400D420FB /* MConnectionInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB7DB2F0869E7B400D420FB /* MConnectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB7DB2D0869E7B400D420FB /* MConnectionInfo.m */; };
+		2BB95FE90A052FD2008C9EEF /* MTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB95FE70A052FD2008C9EEF /* MTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB95FEA0A052FD2008C9EEF /* MTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB95FE80A052FD2008C9EEF /* MTextFieldCell.m */; };
+		2BB960B40A055C01008C9EEF /* MControlForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB960B20A055C01008C9EEF /* MControlForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB960B50A055C01008C9EEF /* MControlForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB960B30A055C01008C9EEF /* MControlForm.m */; };
+		2BB9613F0A05BE21008C9EEF /* MFileChooserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB9613D0A05BE21008C9EEF /* MFileChooserCell.h */; };
+		2BB961400A05BE21008C9EEF /* MFileChooserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9613E0A05BE21008C9EEF /* MFileChooserCell.m */; };
+		2BBE4A4908D5361F00BB50E6 /* MVerticalBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBE4A4708D5361F00BB50E6 /* MVerticalBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBE4A4A08D5361F00BB50E6 /* MVerticalBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE4A4808D5361F00BB50E6 /* MVerticalBox.m */; };
+		2BBEAD9F08FAE02C008D57B7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBEAD9E08FAE02C008D57B7 /* Security.framework */; };
+		2BC7C6F107F21D5C00CB83E9 /* 16x16_Catalog.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC7C6EC07F21D5C00CB83E9 /* 16x16_Catalog.png */; };
+		2BC7C6F207F21D5C00CB83E9 /* 16x16_Database.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC7C6ED07F21D5C00CB83E9 /* 16x16_Database.png */; };
+		2BC7C6F307F21D5C00CB83E9 /* 16x16_Field.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC7C6EE07F21D5C00CB83E9 /* 16x16_Field.png */; };
+		2BC7C6F407F21D5C00CB83E9 /* 16x16_KeyColumn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC7C6EF07F21D5C00CB83E9 /* 16x16_KeyColumn.png */; };
+		2BC7C6F507F21D5C00CB83E9 /* 16x16_Table.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC7C6F007F21D5C00CB83E9 /* 16x16_Table.png */; };
+		2BC7C81007F23AF000CB83E9 /* MSchemaEditHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC7C80E07F23AF000CB83E9 /* MSchemaEditHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC7C81107F23AF000CB83E9 /* MSchemaEditHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7C80F07F23AF000CB83E9 /* MSchemaEditHelper.m */; };
+		2BC7C9D207F26D6900CB83E9 /* MSparseMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC7C9D007F26D6900CB83E9 /* MSparseMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC7C9D307F26D6900CB83E9 /* MSparseMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7C9D107F26D6900CB83E9 /* MSparseMatrix.m */; };
+		2BC9420207701EF600B1EAF4 /* MProgressPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC941CF07701CD600B1EAF4 /* MProgressPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC9420307701EF700B1EAF4 /* MProgressPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC941D007701CD600B1EAF4 /* MProgressPanel.m */; };
+		2BC9422107701F8300B1EAF4 /* ProgressPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC9421F07701F8300B1EAF4 /* ProgressPanel.nib */; };
+		2BC9464D0771293C00B1EAF4 /* MTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC9464B0771293C00B1EAF4 /* MTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC9464E0771293C00B1EAF4 /* MTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC9464C0771293C00B1EAF4 /* MTableView.m */; };
+		2BC9469507712CDC00B1EAF4 /* MOutlineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC9469307712CDC00B1EAF4 /* MOutlineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC9469607712CDC00B1EAF4 /* MOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC9469407712CDC00B1EAF4 /* MOutlineView.m */; };
+		2BD9A8EA085CC07D00DF65E9 /* mini_add_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9A8E6085CC07D00DF65E9 /* mini_add_12.png */; };
+		2BD9A8EB085CC07D00DF65E9 /* mini_add_pressed_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9A8E7085CC07D00DF65E9 /* mini_add_pressed_12.png */; };
+		2BD9A8EC085CC07D00DF65E9 /* mini_del_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9A8E8085CC07D00DF65E9 /* mini_del_12.png */; };
+		2BD9A8ED085CC07D00DF65E9 /* mini_del_pressed_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9A8E9085CC07D00DF65E9 /* mini_del_pressed_12.png */; };
+		2BDCABD6098A7E180034C2C2 /* myx_sql_scanner.lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCABD5098A7E180034C2C2 /* myx_sql_scanner.lex.c */; };
+		2BDCABD9098A7E330034C2C2 /* myx_sql_parser.tab.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCABD7098A7E330034C2C2 /* myx_sql_parser.tab.cc */; };
+		2BDCABDA098A7E330034C2C2 /* myx_sql_parser.tab.hh in Headers */ = {isa = PBXBuildFile; fileRef = 2BDCABD8098A7E330034C2C2 /* myx_sql_parser.tab.hh */; };
+		2BF6AF9C07B087CF00C58861 /* mysql_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6AF9B07B087CF00C58861 /* mysql_logo.png */; };
+		2BF91EF50B123F8400DE5E5E /* libmysqlparser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1BCC49093D1EC100946E36 /* libmysqlparser.a */; };
+		2BFA199207AA06300025EA94 /* MNibOwner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BFA199007AA06300025EA94 /* MNibOwner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BFA199C07AA08780025EA94 /* MNibOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA199B07AA08780025EA94 /* MNibOwner.m */; };
+		2BFFF7670842E4F200D8345A /* MSourceLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BFFF7650842E4F200D8345A /* MSourceLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BFFF7680842E4F200D8345A /* MSourceLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFF7660842E4F200D8345A /* MSourceLayoutManager.m */; };
+		6567E5C00685322800730877 /* myx_catalogs.c in Sources */ = {isa = PBXBuildFile; fileRef = 6567E5AE0685322800730877 /* myx_catalogs.c */; };
+		6567E5C10685322800730877 /* myx_database_model.c in Sources */ = {isa = PBXBuildFile; fileRef = 6567E5AF0685322800730877 /* myx_database_model.c */; };
+		6567E5C40685322800730877 /* myx_library.c in Sources */ = {isa = PBXBuildFile; fileRef = 6567E5B20685322800730877 /* myx_library.c */; };
+		6567E5C50685322800730877 /* myx_network.c in Sources */ = {isa = PBXBuildFile; fileRef = 6567E5B30685322800730877 /* myx_network.c */; };
+		6567E5C70685322800730877 /* myx_recordset.c in Sources */ = {isa = PBXBuildFile; fileRef = 6567E5B50685322800730877 /* myx_recordset.c */; };
+		6567E5C80685322800730877 /* myx_simple_sql_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 6567E5B60685322800730877 /* myx_simple_sql_parsing.c */; };
+		6567E5C90685322800730877 /* myx_sql_highlighting.c in Sources */ = {isa = PBXBuildFile; fileRef = 6567E5B70685322800730877 /* myx_sql_highlighting.c */; };
+		6567E5CC0685322800730877 /* myx_xml_charset.c in Sources */ = {isa = PBXBuildFile; fileRef = 6567E5BA0685322800730877 /* myx_xml_charset.c */; };
+		6567E5CD0685322800730877 /* myx_xml_datatype.c in Sources */ = {isa = PBXBuildFile; fileRef = 6567E5BB0685322800730877 /* myx_xml_datatype.c */; };
+		6567E5CE0685322800730877 /* myx_xml_option_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 6567E5BC0685322800730877 /* myx_xml_option_functions.c */; };
+		6567E5D00685322800730877 /* myx_xml_user_connections.c in Sources */ = {isa = PBXBuildFile; fileRef = 6567E5BE0685322800730877 /* myx_xml_user_connections.c */; };
+		6567E5E00685327500730877 /* myx_library.h in Headers */ = {isa = PBXBuildFile; fileRef = 6567E5D80685327500730877 /* myx_library.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6567E5E10685327500730877 /* myx_network.h in Headers */ = {isa = PBXBuildFile; fileRef = 6567E5D90685327500730877 /* myx_network.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6567E5E20685327500730877 /* myx_public_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6567E5DA0685327500730877 /* myx_public_interface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6567E5E30685327500730877 /* myx_query.h in Headers */ = {isa = PBXBuildFile; fileRef = 6567E5DB0685327500730877 /* myx_query.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6567E5E40685327500730877 /* myx_recordset.h in Headers */ = {isa = PBXBuildFile; fileRef = 6567E5DC0685327500730877 /* myx_recordset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6567E5E50685327500730877 /* myx_simple_sql_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6567E5DD0685327500730877 /* myx_simple_sql_parsing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F55BB7D60AF2785100955CFB /* libmysqlparser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1BCC49093D1EC100946E36 /* libmysqlparser.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B57294609852CF40008B8C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1BCD03093F614000946E36;
+			remoteInfo = myxutils;
+		};
+		2B682AB30A92025500389BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1BCC48093D1EC100946E36;
+			remoteInfo = mysqlparser;
+		};
+		2B9A55F607A360A300A708EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6567E5AB068531F700730877;
+			remoteInfo = mysqlx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2B0175220922707100F96F01 /* entities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = entities.h; path = include/entities.h; sourceTree = "<group>"; };
+		2B0175230922707100F96F01 /* keywords.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = keywords.h; path = include/keywords.h; sourceTree = "<group>"; };
+		2B0175240922707100F96F01 /* myx_international_file.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_international_file.h; path = include/myx_international_file.h; sourceTree = "<group>"; };
+		2B0175250922707100F96F01 /* myx_util_functions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_util_functions.h; path = include/myx_util_functions.h; sourceTree = "<group>"; };
+		2B0175260922707100F96F01 /* myx_util_public_interface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_util_public_interface.h; path = include/myx_util_public_interface.h; sourceTree = "<group>"; };
+		2B0175270922707100F96F01 /* myx_util.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_util.h; path = include/myx_util.h; sourceTree = "<group>"; };
+		2B0175280922707100F96F01 /* myx_xml_util_functions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_xml_util_functions.h; path = include/myx_xml_util_functions.h; sourceTree = "<group>"; };
+		2B0175300922707900F96F01 /* myx_shared_util_functions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_shared_util_functions.h; path = shared_include/myx_shared_util_functions.h; sourceTree = "<group>"; };
+		2B0175320922708100F96F01 /* myx_shared_util_functions.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_shared_util_functions.c; path = shared_source/myx_shared_util_functions.c; sourceTree = "<group>"; };
+		2B0175340922708900F96F01 /* myx_international_file.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_international_file.c; path = source/myx_international_file.c; sourceTree = "<group>"; };
+		2B0175350922708900F96F01 /* myx_util_functions.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_util_functions.c; path = source/myx_util_functions.c; sourceTree = "<group>"; };
+		2B0175360922708900F96F01 /* myx_util.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_util.c; path = source/myx_util.c; sourceTree = "<group>"; };
+		2B0175370922708900F96F01 /* myx_xml_util_functions.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_xml_util_functions.c; path = source/myx_xml_util_functions.c; sourceTree = "<group>"; };
+		2B1BCBFC093D1AA300946E36 /* myx_sql_parser_public_interface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_sql_parser_public_interface.h; path = include/myx_sql_parser_public_interface.h; sourceTree = "<group>"; };
+		2B1BCBFD093D1AA300946E36 /* myx_lex_helpers.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_lex_helpers.cpp; path = source/myx_lex_helpers.cpp; sourceTree = "<group>"; };
+		2B1BCBFE093D1AA300946E36 /* MyxSQLTreeItem.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MyxSQLTreeItem.cpp; path = source/MyxSQLTreeItem.cpp; sourceTree = "<group>"; };
+		2B1BCBFF093D1AA300946E36 /* MyxStatementParser.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MyxStatementParser.cpp; path = source/MyxStatementParser.cpp; sourceTree = "<group>"; };
+		2B1BCC00093D1AA300946E36 /* myx_lex_helpers.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_lex_helpers.h; path = include/myx_lex_helpers.h; sourceTree = "<group>"; };
+		2B1BCC01093D1AA300946E36 /* MyxSQLTreeItem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MyxSQLTreeItem.h; path = include/MyxSQLTreeItem.h; sourceTree = "<group>"; };
+		2B1BCC02093D1AA300946E36 /* MyxStatementParser.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MyxStatementParser.h; path = include/MyxStatementParser.h; sourceTree = "<group>"; };
+		2B1BCC49093D1EC100946E36 /* libmysqlparser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmysqlparser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1BCD04093F614000946E36 /* libmyxutils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmyxutils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1F2560087CC45400455FC3 /* MSQLEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSQLEditor.h; sourceTree = "<group>"; };
+		2B1F2561087CC45400455FC3 /* MSQLEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSQLEditor.m; sourceTree = "<group>"; };
+		2B1F256F087CCB1000455FC3 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SQLEditor.nib; sourceTree = "<group>"; };
+		2B23D25809D9AE5B00FD540F /* libglib-2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.dylib"; path = "/sw/lib/libglib-2.0.dylib"; sourceTree = "<absolute>"; };
+		2B39E263074FAD4000ACFF2D /* libmysqlx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmysqlx.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B39E279074FB7A400ACFF2D /* myx_query.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_query.cpp; path = source/myx_query.cpp; sourceTree = "<group>"; };
+		2B39E282074FB7F000ACFF2D /* myx_const_string.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_const_string.h; path = include/myx_const_string.h; sourceTree = "<group>"; };
+		2B39E289074FB7FF00ACFF2D /* myx_query_reader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_query_reader.h; path = include/myx_query_reader.h; sourceTree = "<group>"; };
+		2B39E290074FB87400ACFF2D /* editor_table_auto_inc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = editor_table_auto_inc.png; path = ../../images/png/editor_table_auto_inc.png; sourceTree = "<group>"; };
+		2B39E291074FB87400ACFF2D /* editor_table_not_null.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = editor_table_not_null.png; path = ../../images/png/editor_table_not_null.png; sourceTree = "<group>"; };
+		2B3EFC9E08462B3B00145705 /* gutter_breakpoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gutter_breakpoint.png; path = "../../../mysql-query-browser/images/png/gutter_breakpoint.png"; sourceTree = SOURCE_ROOT; };
+		2B3EFC9F08462B3B00145705 /* gutter_current_pos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gutter_current_pos.png; path = "../../../mysql-query-browser/images/png/gutter_current_pos.png"; sourceTree = SOURCE_ROOT; };
+		2B3EFCA008462B3B00145705 /* gutter_query_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gutter_query_start.png; path = "../../../mysql-query-browser/images/png/gutter_query_start.png"; sourceTree = SOURCE_ROOT; };
+		2B60042A08385C4D00DCF8AC /* MMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMenuButton.h; sourceTree = "<group>"; };
+		2B60042B08385C4D00DCF8AC /* MMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMenuButton.m; sourceTree = "<group>"; };
+		2B6281FB083D39B1001FC0B3 /* MSourceTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSourceTextView.h; path = SourceEditor/MSourceTextView.h; sourceTree = "<group>"; };
+		2B6281FC083D39B1001FC0B3 /* MSourceTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSourceTextView.m; path = SourceEditor/MSourceTextView.m; sourceTree = "<group>"; };
+		2B628410083E3D2B001FC0B3 /* MSyntaxColoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSyntaxColoring.h; path = SourceEditor/MSyntaxColoring.h; sourceTree = "<group>"; };
+		2B628411083E3D2B001FC0B3 /* MSyntaxColoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSyntaxColoring.m; path = SourceEditor/MSyntaxColoring.m; sourceTree = "<group>"; };
+		2B62848B083E54AA001FC0B3 /* MSQLSyntaxColoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSQLSyntaxColoring.h; path = SourceEditor/MSQLSyntaxColoring.h; sourceTree = "<group>"; };
+		2B62848C083E54AA001FC0B3 /* MSQLSyntaxColoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSQLSyntaxColoring.m; path = SourceEditor/MSQLSyntaxColoring.m; sourceTree = "<group>"; };
+		2B62CF35078F9A4E0063A0C0 /* MPreferenceEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPreferenceEditor.h; sourceTree = "<group>"; };
+		2B62CF36078F9A4E0063A0C0 /* MPreferenceEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPreferenceEditor.m; sourceTree = "<group>"; };
+		2B62CF48078FAAD90063A0C0 /* MConnectionEditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MConnectionEditor.h; sourceTree = "<group>"; };
+		2B62CF49078FAAD90063A0C0 /* MConnectionEditor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MConnectionEditor.m; sourceTree = "<group>"; };
+		2B62CF5C078FAB200063A0C0 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ConnectionEditor.nib; sourceTree = "<group>"; };
+		2B64ED050851387B00E6D340 /* mini_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_error.png; path = ../../images/png/mini_error.png; sourceTree = SOURCE_ROOT; };
+		2B64ED060851387B00E6D340 /* mini_notice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_notice.png; path = ../../images/png/mini_notice.png; sourceTree = SOURCE_ROOT; };
+		2B64ED070851387B00E6D340 /* mini_warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_warning.png; path = ../../images/png/mini_warning.png; sourceTree = SOURCE_ROOT; };
+		2B64EE980851559600E6D340 /* myx_schema_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myx_schema_16x16.png; path = ../../images/icons/png/myx_schema_16x16.png; sourceTree = SOURCE_ROOT; };
+		2B64EE990851559600E6D340 /* myx_schema_sp_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myx_schema_sp_16x16.png; path = ../../images/icons/png/myx_schema_sp_16x16.png; sourceTree = SOURCE_ROOT; };
+		2B64EE9A0851559600E6D340 /* myx_schema_table_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myx_schema_table_16x16.png; path = ../../images/icons/png/myx_schema_table_16x16.png; sourceTree = SOURCE_ROOT; };
+		2B64EE9B0851559600E6D340 /* myx_schema_view_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myx_schema_view_16x16.png; path = ../../images/icons/png/myx_schema_view_16x16.png; sourceTree = SOURCE_ROOT; };
+		2B69601207DA4CDC00512190 /* MTabView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MTabView.h; sourceTree = "<group>"; };
+		2B69601307DA4CDC00512190 /* MTabView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MTabView.m; sourceTree = "<group>"; };
+		2B832A1D08611A9800D8BEB0 /* MGlobalSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGlobalSwitcher.h; sourceTree = "<group>"; };
+		2B832A1E08611A9800D8BEB0 /* MGlobalSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; path = MGlobalSwitcher.m; sourceTree = "<group>"; };
+		2B83395908653A1600D8BEB0 /* myx_exporter.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_exporter.c; path = source/myx_exporter.c; sourceTree = "<group>"; };
+		2B8A3B9A0872118F0079FC4E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = /usr/lib/libxml2.2.dylib; sourceTree = "<absolute>"; };
+		2B8A3BDD087215CB0079FC4E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = /usr/lib/libiconv.2.dylib; sourceTree = "<absolute>"; };
+		2B8B720F09317235001C28EE /* libmysqlclient_r.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmysqlclient_r.a; path = "/usr/local/mysql-max-5.1.4-alpha-osx10.3-powerpc/lib/libmysqlclient_r.a"; sourceTree = "<absolute>"; };
+		2B8C46DC0838D2B600A72366 /* MCrontab.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MCrontab.h; sourceTree = "<group>"; };
+		2B8C46DD0838D2B600A72366 /* MCrontab.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MCrontab.m; sourceTree = "<group>"; };
+		2B8C490D083A7A1500A72366 /* MQResultSetDataSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MQResultSetDataSource.h; path = ResultSet/MQResultSetDataSource.h; sourceTree = "<group>"; };
+		2B8C490E083A7A1500A72366 /* MQResultSetDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; name = MQResultSetDataSource.mm; path = ResultSet/MQResultSetDataSource.mm; sourceTree = "<group>"; };
+		2B8C492D083BAE0A00A72366 /* MYXResultSet.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MYXResultSet.cc; path = ../linux/MYXResultSet.cc; sourceTree = SOURCE_ROOT; };
+		2B8C492E083BAE0A00A72366 /* MYXResultSet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 30; name = MYXResultSet.h; path = ../linux/MYXResultSet.h; sourceTree = SOURCE_ROOT; };
+		2B8C4D82083C5B5D00A72366 /* MTextGutterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTextGutterView.h; path = SourceEditor/MTextGutterView.h; sourceTree = "<group>"; };
+		2B8C4D83083C5B5D00A72366 /* MTextGutterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTextGutterView.m; path = SourceEditor/MTextGutterView.m; sourceTree = "<group>"; };
+		2B8C4D98083C5D1300A72366 /* MSourceTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSourceTextEditor.h; path = SourceEditor/MSourceTextEditor.h; sourceTree = "<group>"; };
+		2B8C4D99083C5D1300A72366 /* MSourceTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSourceTextEditor.m; path = SourceEditor/MSourceTextEditor.m; sourceTree = "<group>"; };
+		2B8FAB39082B5CEA00D63986 /* MSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSplitView.h; sourceTree = "<group>"; };
+		2B8FAB3A082B5CEA00D63986 /* MSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSplitView.m; sourceTree = "<group>"; };
+		2B8FB47B0830E13E00D63986 /* tab_close_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_close_normal.png; path = ../../images/png/tab_close_normal.png; sourceTree = SOURCE_ROOT; };
+		2B8FB47C0830E13E00D63986 /* tab_close_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_close_over.png; path = ../../images/png/tab_close_over.png; sourceTree = SOURCE_ROOT; };
+		2B8FB47D0830E13E00D63986 /* tab_close_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_close_pressed.png; path = ../../images/png/tab_close_pressed.png; sourceTree = SOURCE_ROOT; };
+		2B8FB7C0083429E700D63986 /* MQBinaryViewer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MQBinaryViewer.h; path = ResultSet/MQBinaryViewer.h; sourceTree = "<group>"; };
+		2B8FB7C1083429E700D63986 /* MQBinaryViewer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MQBinaryViewer.m; path = ResultSet/MQBinaryViewer.m; sourceTree = "<group>"; };
+		2B8FB7C2083429E700D63986 /* MQResultSetCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MQResultSetCell.h; path = ResultSet/MQResultSetCell.h; sourceTree = "<group>"; };
+		2B8FB7C3083429E700D63986 /* MQResultSetCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MQResultSetCell.m; path = ResultSet/MQResultSetCell.m; sourceTree = "<group>"; };
+		2B8FB7C4083429E700D63986 /* MQFieldViewer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MQFieldViewer.h; path = ResultSet/MQFieldViewer.h; sourceTree = "<group>"; };
+		2B8FB7C5083429E700D63986 /* MQFieldViewer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MQFieldViewer.m; path = ResultSet/MQFieldViewer.m; sourceTree = "<group>"; };
+		2B8FB7C6083429E700D63986 /* MQImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MQImageViewer.h; path = ResultSet/MQImageViewer.h; sourceTree = "<group>"; };
+		2B8FB7C7083429E700D63986 /* MQImageViewer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MQImageViewer.m; path = ResultSet/MQImageViewer.m; sourceTree = "<group>"; };
+		2B8FB7C8083429E700D63986 /* MQIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MQIndicatorCell.h; path = ResultSet/MQIndicatorCell.h; sourceTree = "<group>"; };
+		2B8FB7C9083429E700D63986 /* MQIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MQIndicatorCell.m; path = ResultSet/MQIndicatorCell.m; sourceTree = "<group>"; };
+		2B8FB7CC083429E700D63986 /* MQResultSetView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MQResultSetView.h; path = ResultSet/MQResultSetView.h; sourceTree = "<group>"; };
+		2B8FB7CD083429E700D63986 /* MQResultSetView.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = MQResultSetView.mm; path = ResultSet/MQResultSetView.mm; sourceTree = "<group>"; };
+		2B8FB7CE083429E700D63986 /* MQTableView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MQTableView.h; path = ResultSet/MQTableView.h; sourceTree = "<group>"; };
+		2B8FB7CF083429E700D63986 /* MQTableView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MQTableView.m; path = ResultSet/MQTableView.m; sourceTree = "<group>"; };
+		2B8FB7D0083429E700D63986 /* MQTextViewer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MQTextViewer.h; path = ResultSet/MQTextViewer.h; sourceTree = "<group>"; };
+		2B8FB7D1083429E700D63986 /* MQTextViewer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MQTextViewer.m; path = ResultSet/MQTextViewer.m; sourceTree = "<group>"; };
+		2B8FB7EA08342BB600D63986 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/FieldViewer.nib; sourceTree = "<group>"; };
+		2B8FB7EC08342BB600D63986 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ResultSet.nib; sourceTree = "<group>"; };
+		2B8FB87C0834318F00D63986 /* field_overlay_clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = field_overlay_clear.png; path = ../../images/png/field_overlay_clear.png; sourceTree = SOURCE_ROOT; };
+		2B8FB87D0834318F00D63986 /* field_overlay_edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = field_overlay_edit.png; path = ../../images/png/field_overlay_edit.png; sourceTree = SOURCE_ROOT; };
+		2B8FB87E0834318F00D63986 /* field_overlay_load.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = field_overlay_load.png; path = ../../images/png/field_overlay_load.png; sourceTree = SOURCE_ROOT; };
+		2B8FB87F0834318F00D63986 /* field_overlay_null.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = field_overlay_null.png; path = ../../images/png/field_overlay_null.png; sourceTree = SOURCE_ROOT; };
+		2B8FB8800834318F00D63986 /* field_overlay_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = field_overlay_save.png; path = ../../images/png/field_overlay_save.png; sourceTree = SOURCE_ROOT; };
+		2B8FB8810834318F00D63986 /* field_overlay_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = field_overlay_view.png; path = ../../images/png/field_overlay_view.png; sourceTree = SOURCE_ROOT; };
+		2B8FB88B083431C500D63986 /* blob_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blob_icon.png; path = ../../images/png/blob_icon.png; sourceTree = SOURCE_ROOT; };
+		2B90ADB8074FD07F00F9E62D /* MySQLGUIToolsCommon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MySQLGUIToolsCommon-Info.plist"; sourceTree = "<group>"; };
+		2B90AE13074FD28100F9E62D /* MySQLToolsCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MySQLToolsCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B90AE14074FD28100F9E62D /* MySQLToolsCommon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MySQLToolsCommon-Info.plist"; sourceTree = "<group>"; };
+		2B9A358E0793863F00A708EA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PreferencesEditor.nib; sourceTree = "<group>"; };
+		2B9A364D07938F4500A708EA /* folder_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = folder_16x16.png; path = ../../images/png/folder_16x16.png; sourceTree = "<group>"; };
+		2B9A365307938F5100A708EA /* networkhost_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = networkhost_16x16.png; path = ../../images/png/networkhost_16x16.png; sourceTree = "<group>"; };
+		2B9A449F0795EBA500A708EA /* mini_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_add.png; path = ../../images/icons/png/mini_add.png; sourceTree = "<group>"; };
+		2B9A44A00795EBA500A708EA /* mini_del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_del.png; path = ../../images/icons/png/mini_del.png; sourceTree = "<group>"; };
+		2B9A45410795F71E00A708EA /* mini_add_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_add_pressed.png; path = ../../images/icons/png/mini_add_pressed.png; sourceTree = "<group>"; };
+		2B9A45420795F71E00A708EA /* mini_del_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_del_pressed.png; path = ../../images/icons/png/mini_del_pressed.png; sourceTree = "<group>"; };
+		2B9A567C07A368C200A708EA /* README.MacOSX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.MacOSX; sourceTree = "<group>"; };
+		2BA948BA081CC3710022CE53 /* NSArray_extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_extras.h; sourceTree = "<group>"; };
+		2BA948BB081CC3710022CE53 /* NSArray_extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_extras.m; sourceTree = "<group>"; };
+		2BB7DB2C0869E7B400D420FB /* MConnectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MConnectionInfo.h; sourceTree = "<group>"; };
+		2BB7DB2D0869E7B400D420FB /* MConnectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MConnectionInfo.m; sourceTree = "<group>"; };
+		2BB95FE70A052FD2008C9EEF /* MTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTextFieldCell.h; sourceTree = "<group>"; };
+		2BB95FE80A052FD2008C9EEF /* MTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTextFieldCell.m; sourceTree = "<group>"; };
+		2BB960B20A055C01008C9EEF /* MControlForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MControlForm.h; sourceTree = "<group>"; };
+		2BB960B30A055C01008C9EEF /* MControlForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MControlForm.m; sourceTree = "<group>"; };
+		2BB9613D0A05BE21008C9EEF /* MFileChooserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFileChooserCell.h; sourceTree = "<group>"; };
+		2BB9613E0A05BE21008C9EEF /* MFileChooserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFileChooserCell.m; sourceTree = "<group>"; };
+		2BBE4A4708D5361F00BB50E6 /* MVerticalBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVerticalBox.h; sourceTree = "<group>"; };
+		2BBE4A4808D5361F00BB50E6 /* MVerticalBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVerticalBox.m; sourceTree = "<group>"; };
+		2BBEAD9E08FAE02C008D57B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		2BC7C6EC07F21D5C00CB83E9 /* 16x16_Catalog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_Catalog.png; path = ../../images/png/16x16_Catalog.png; sourceTree = "<group>"; };
+		2BC7C6ED07F21D5C00CB83E9 /* 16x16_Database.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_Database.png; path = ../../images/png/16x16_Database.png; sourceTree = "<group>"; };
+		2BC7C6EE07F21D5C00CB83E9 /* 16x16_Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_Field.png; path = ../../images/png/16x16_Field.png; sourceTree = "<group>"; };
+		2BC7C6EF07F21D5C00CB83E9 /* 16x16_KeyColumn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_KeyColumn.png; path = ../../images/png/16x16_KeyColumn.png; sourceTree = "<group>"; };
+		2BC7C6F007F21D5C00CB83E9 /* 16x16_Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16_Table.png; path = ../../images/png/16x16_Table.png; sourceTree = "<group>"; };
+		2BC7C80E07F23AF000CB83E9 /* MSchemaEditHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSchemaEditHelper.h; sourceTree = "<group>"; };
+		2BC7C80F07F23AF000CB83E9 /* MSchemaEditHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSchemaEditHelper.m; sourceTree = "<group>"; };
+		2BC7C9D007F26D6900CB83E9 /* MSparseMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSparseMatrix.h; sourceTree = "<group>"; };
+		2BC7C9D107F26D6900CB83E9 /* MSparseMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSparseMatrix.m; sourceTree = "<group>"; };
+		2BC941CF07701CD600B1EAF4 /* MProgressPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MProgressPanel.h; sourceTree = "<group>"; };
+		2BC941D007701CD600B1EAF4 /* MProgressPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MProgressPanel.m; sourceTree = "<group>"; };
+		2BC9422007701F8300B1EAF4 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ProgressPanel.nib; sourceTree = "<group>"; };
+		2BC9464B0771293C00B1EAF4 /* MTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTableView.h; sourceTree = "<group>"; };
+		2BC9464C0771293C00B1EAF4 /* MTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTableView.m; sourceTree = "<group>"; };
+		2BC9469307712CDC00B1EAF4 /* MOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOutlineView.h; sourceTree = "<group>"; };
+		2BC9469407712CDC00B1EAF4 /* MOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOutlineView.m; sourceTree = "<group>"; };
+		2BD9A8E6085CC07D00DF65E9 /* mini_add_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_add_12.png; path = ../../images/icons/png/mini_add_12.png; sourceTree = SOURCE_ROOT; };
+		2BD9A8E7085CC07D00DF65E9 /* mini_add_pressed_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_add_pressed_12.png; path = ../../images/icons/png/mini_add_pressed_12.png; sourceTree = SOURCE_ROOT; };
+		2BD9A8E8085CC07D00DF65E9 /* mini_del_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_del_12.png; path = ../../images/icons/png/mini_del_12.png; sourceTree = SOURCE_ROOT; };
+		2BD9A8E9085CC07D00DF65E9 /* mini_del_pressed_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mini_del_pressed_12.png; path = ../../images/icons/png/mini_del_pressed_12.png; sourceTree = SOURCE_ROOT; };
+		2BDCABD5098A7E180034C2C2 /* myx_sql_scanner.lex.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_sql_scanner.lex.c; path = source/myx_sql_scanner.lex.c; sourceTree = "<group>"; };
+		2BDCABD7098A7E330034C2C2 /* myx_sql_parser.tab.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = myx_sql_parser.tab.cc; path = source/myx_sql_parser.tab.cc; sourceTree = "<group>"; };
+		2BDCABD8098A7E330034C2C2 /* myx_sql_parser.tab.hh */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = myx_sql_parser.tab.hh; path = source/myx_sql_parser.tab.hh; sourceTree = "<group>"; };
+		2BF6AF9B07B087CF00C58861 /* mysql_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mysql_logo.png; path = ../../images/png/mysql_logo.png; sourceTree = "<group>"; };
+		2BFA199007AA06300025EA94 /* MNibOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNibOwner.h; sourceTree = "<group>"; };
+		2BFA199B07AA08780025EA94 /* MNibOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNibOwner.m; sourceTree = "<group>"; };
+		2BFFF7650842E4F200D8345A /* MSourceLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSourceLayoutManager.h; path = SourceEditor/MSourceLayoutManager.h; sourceTree = "<group>"; };
+		2BFFF7660842E4F200D8345A /* MSourceLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSourceLayoutManager.m; path = SourceEditor/MSourceLayoutManager.m; sourceTree = "<group>"; };
+		65261EE1068663BD008C655D /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcre.a; path = /sw/lib/libpcre.a; sourceTree = "<absolute>"; };
+		653084940687CD4900D2072C /* MySQLGUICommon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MySQLGUICommon-Info.plist"; sourceTree = "<group>"; };
+		653196BD0685152400443638 /* GUICommonTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "GUICommonTest-Info.plist"; sourceTree = "<group>"; };
+		6533424406D1B86B00717689 /* NSView_extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSView_extras.h; sourceTree = "<group>"; };
+		6533424506D1B86B00717689 /* NSView_extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSView_extras.m; sourceTree = "<group>"; };
+		653342EE06D26A9600717689 /* MTableEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTableEditor.h; sourceTree = "<group>"; };
+		653342EF06D26A9600717689 /* MTableEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTableEditor.m; sourceTree = "<group>"; };
+		6533431806D26BAF00717689 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TableEditor.nib; sourceTree = "<group>"; };
+		6535B47506B0C1D8000445A4 /* MBoxLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBoxLayout.h; sourceTree = "<group>"; };
+		6535B47606B0C1D8000445A4 /* MBoxLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBoxLayout.m; sourceTree = "<group>"; };
+		655E73730688EFAF002FFCE5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = /usr/lib/libz.dylib; sourceTree = "<absolute>"; };
+		655E738B0688F1FF002FFCE5 /* libintl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.dylib; path = /sw/lib/libintl.dylib; sourceTree = "<absolute>"; };
+		6567DE03068A6A99008CA5D8 /* myxutil.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = myxutil.h; sourceTree = "<group>"; };
+		6567E5AE0685322800730877 /* myx_catalogs.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_catalogs.c; path = source/myx_catalogs.c; sourceTree = "<group>"; };
+		6567E5AF0685322800730877 /* myx_database_model.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_database_model.c; path = source/myx_database_model.c; sourceTree = "<group>"; };
+		6567E5B20685322800730877 /* myx_library.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_library.c; path = source/myx_library.c; sourceTree = "<group>"; };
+		6567E5B30685322800730877 /* myx_network.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_network.c; path = source/myx_network.c; sourceTree = "<group>"; };
+		6567E5B50685322800730877 /* myx_recordset.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_recordset.c; path = source/myx_recordset.c; sourceTree = "<group>"; };
+		6567E5B60685322800730877 /* myx_simple_sql_parsing.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_simple_sql_parsing.c; path = source/myx_simple_sql_parsing.c; sourceTree = "<group>"; };
+		6567E5B70685322800730877 /* myx_sql_highlighting.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_sql_highlighting.c; path = source/myx_sql_highlighting.c; sourceTree = "<group>"; };
+		6567E5BA0685322800730877 /* myx_xml_charset.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_xml_charset.c; path = source/myx_xml_charset.c; sourceTree = "<group>"; };
+		6567E5BB0685322800730877 /* myx_xml_datatype.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_xml_datatype.c; path = source/myx_xml_datatype.c; sourceTree = "<group>"; };
+		6567E5BC0685322800730877 /* myx_xml_option_functions.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_xml_option_functions.c; path = source/myx_xml_option_functions.c; sourceTree = "<group>"; };
+		6567E5BE0685322800730877 /* myx_xml_user_connections.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = myx_xml_user_connections.c; path = source/myx_xml_user_connections.c; sourceTree = "<group>"; };
+		6567E5D80685327500730877 /* myx_library.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_library.h; path = include/myx_library.h; sourceTree = "<group>"; };
+		6567E5D90685327500730877 /* myx_network.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_network.h; path = include/myx_network.h; sourceTree = "<group>"; };
+		6567E5DA0685327500730877 /* myx_public_interface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_public_interface.h; path = include/myx_public_interface.h; sourceTree = "<group>"; };
+		6567E5DB0685327500730877 /* myx_query.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_query.h; path = include/myx_query.h; sourceTree = "<group>"; };
+		6567E5DC0685327500730877 /* myx_recordset.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_recordset.h; path = include/myx_recordset.h; sourceTree = "<group>"; };
+		6567E5DD0685327500730877 /* myx_simple_sql_parsing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = myx_simple_sql_parsing.h; path = include/myx_simple_sql_parsing.h; sourceTree = "<group>"; };
+		65878BFC06AE132E002C5449 /* MButtonImageCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MButtonImageCell.h; sourceTree = "<group>"; };
+		65878BFD06AE132E002C5449 /* MButtonImageCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MButtonImageCell.m; sourceTree = "<group>"; };
+		65878C0306AE1340002C5449 /* MDialogs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MDialogs.h; sourceTree = "<group>"; };
+		65878C0406AE1340002C5449 /* MDialogs.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MDialogs.m; sourceTree = "<group>"; };
+		65878C0506AE1340002C5449 /* MMySQLDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MMySQLDispatcher.h; sourceTree = "<group>"; };
+		65878C0606AE1340002C5449 /* MMySQLDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MMySQLDispatcher.m; sourceTree = "<group>"; };
+		65878C1306AE1352002C5449 /* MPtrArray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MPtrArray.h; sourceTree = "<group>"; };
+		65878C1406AE1352002C5449 /* MPtrArray.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MPtrArray.m; sourceTree = "<group>"; };
+		65878C1506AE1352002C5449 /* MPtrNode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MPtrNode.h; sourceTree = "<group>"; };
+		65878C1606AE1352002C5449 /* MPtrNode.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MPtrNode.m; sourceTree = "<group>"; };
+		65878C2006AE135D002C5449 /* MTextImageCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MTextImageCell.h; sourceTree = "<group>"; };
+		65878C2106AE135D002C5449 /* MTextImageCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MTextImageCell.m; sourceTree = "<group>"; };
+		65878C2706AE136F002C5449 /* NSString_extras.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSString_extras.h; sourceTree = "<group>"; };
+		65878C2806AE136F002C5449 /* NSString_extras.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NSString_extras.m; sourceTree = "<group>"; };
+		65878C2F06AE138C002C5449 /* MPreferences.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MPreferences.h; sourceTree = "<group>"; };
+		65878C3006AE138C002C5449 /* MPreferences.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MPreferences.m; sourceTree = "<group>"; };
+		658CF85006F3E79B0095AD20 /* column_pk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column_pk.png; path = ../../images/icons/png/column_pk.png; sourceTree = "<group>"; };
+		658CF85706F3E7AA0095AD20 /* datatype_blob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_blob.png; path = ../../images/icons/png/datatype_blob.png; sourceTree = "<group>"; };
+		658CF85806F3E7AA0095AD20 /* datatype_datetime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_datetime.png; path = ../../images/icons/png/datatype_datetime.png; sourceTree = "<group>"; };
+		658CF85906F3E7AA0095AD20 /* datatype_numeric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_numeric.png; path = ../../images/icons/png/datatype_numeric.png; sourceTree = "<group>"; };
+		658CF85A06F3E7AA0095AD20 /* datatype_spatial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_spatial.png; path = ../../images/icons/png/datatype_spatial.png; sourceTree = "<group>"; };
+		658CF85B06F3E7AA0095AD20 /* datatype_string.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_string.png; path = ../../images/icons/png/datatype_string.png; sourceTree = "<group>"; };
+		658CF85C06F3E7AA0095AD20 /* datatype_userdefined.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = datatype_userdefined.png; path = ../../images/icons/png/datatype_userdefined.png; sourceTree = "<group>"; };
+		658CF88A06F3E8EE0095AD20 /* column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = column.png; path = ../../images/icons/png/column.png; sourceTree = "<group>"; };
+		65999613068BCC7200609548 /* myxutil.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = myxutil.m; sourceTree = "<group>"; };
+		659D64ED06B639710061E70D /* MTreeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTreeDataSource.h; sourceTree = "<group>"; };
+		659D64EE06B639710061E70D /* MTreeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTreeDataSource.m; sourceTree = "<group>"; };
+		65B087140693403900C4DB29 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ConnectPanel.nib; sourceTree = "<group>"; };
+		65D1F2AA06E8291300A3F1A7 /* MAccessoryScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAccessoryScrollView.h; sourceTree = "<group>"; };
+		65D1F2AB06E8291300A3F1A7 /* MAccessoryScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAccessoryScrollView.m; sourceTree = "<group>"; };
+		65D1F40506E848A900A3F1A7 /* mysqlx_dbm_charsets.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = mysqlx_dbm_charsets.xml; path = ../../res/mysqlx_dbm_charsets.xml; sourceTree = "<group>"; };
+		65D1F40606E848A900A3F1A7 /* mysqlx_dbm_datatypes.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = mysqlx_dbm_datatypes.xml; path = ../mysqlx_dbm_datatypes.xml; sourceTree = "<group>"; };
+		65D261E006FE912900AF25F8 /* mxUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mxUtils.h; sourceTree = "<group>"; };
+		65D261E106FE912900AF25F8 /* mxUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mxUtils.m; sourceTree = "<group>"; };
+		65E36F3606840AD00058F7AC /* connect_to_instance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = connect_to_instance.png; path = ../../images/icons/png/connect_to_instance.png; sourceTree = "<group>"; };
+		65E36F4E068414B20058F7AC /* MConnectionPanel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MConnectionPanel.h; sourceTree = "<group>"; };
+		65E36F4F068414B20058F7AC /* MConnectionPanel.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MConnectionPanel.m; sourceTree = "<group>"; };
+		65EE4066068E9ECD004BB623 /* MSchemaDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSchemaDataSource.h; sourceTree = "<group>"; };
+		65EE4067068E9ECD004BB623 /* MSchemaDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSchemaDataSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B1BCC47093D1EC100946E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B23D25909D9AE5B00FD540F /* libglib-2.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1BCD02093F614000946E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B90AE11074FD28100F9E62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B90AE7B074FD4D300F9E62D /* libz.dylib in Frameworks */,
+				2B90AE74074FD4D300F9E62D /* libmysqlx.a in Frameworks */,
+				2BF91EF50B123F8400DE5E5E /* libmysqlparser.a in Frameworks */,
+				2B90AE7B074FD4D300F9E62D /* libz.dylib in Frameworks */,
+				2B90AE78074FD4D300F9E62D /* libpcre.a in Frameworks */,
+				2B90AE7A074FD4D300F9E62D /* Cocoa.framework in Frameworks */,
+				2B8A3B9B0872118F0079FC4E /* libxml2.dylib in Frameworks */,
+				2B8A3BDE087215CB0079FC4E /* libiconv.dylib in Frameworks */,
+				2BBEAD9F08FAE02C008D57B7 /* Security.framework in Frameworks */,
+				2B8B721009317235001C28EE /* libmysqlclient_r.a in Frameworks */,
+				2B23D25A09D9AE5B00FD540F /* libglib-2.0.dylib in Frameworks */,
+				2B9A567307A3684500A708EA /* libintl.dylib in Frameworks */,
+				F55BB7D60AF2785100955CFB /* libmysqlparser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B39E263074FAD4000ACFF2D /* libmysqlx.a */,
+				2B1BCC49093D1EC100946E36 /* libmysqlparser.a */,
+				2B90AE13074FD28100F9E62D /* MySQLToolsCommon.framework */,
+				2B1BCD04093F614000946E36 /* libmyxutils.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* MySQLGUICommon */ = {
+			isa = PBXGroup;
+			children = (
+				2B9A567C07A368C200A708EA /* README.MacOSX */,
+				2B1BCC44093D1E7400946E36 /* GUI Common */,
+				32C88DFF0371C24200C91783 /* base-library */,
+				2B01751F0922702000F96F01 /* utilities */,
+				2B1BCBFB093D1AA300946E36 /* sql-parser */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				658CF84806F3E7680095AD20 /* Resources */,
+				653196BD0685152400443638 /* GUICommonTest-Info.plist */,
+				653084940687CD4900D2072C /* MySQLGUICommon-Info.plist */,
+				2B90ADB8074FD07F00F9E62D /* MySQLGUIToolsCommon-Info.plist */,
+				2B90AE14074FD28100F9E62D /* MySQLToolsCommon-Info.plist */,
+			);
+			name = MySQLGUICommon;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				655E738B0688F1FF002FFCE5 /* libintl.dylib */,
+				65261EE1068663BD008C655D /* libpcre.a */,
+				2B23D25809D9AE5B00FD540F /* libglib-2.0.dylib */,
+				2B8A3BDD087215CB0079FC4E /* libiconv.dylib */,
+				2B8A3B9A0872118F0079FC4E /* libxml2.dylib */,
+				655E73730688EFAF002FFCE5 /* libz.dylib */,
+				2B8B720F09317235001C28EE /* libmysqlclient_r.a */,
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Other Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2BC7D5C207F3B7E800CB83E9 /* Data Structs */,
+				2BA948B9081CC3500022CE53 /* Extras */,
+				2B8C46DC0838D2B600A72366 /* MCrontab.h */,
+				2B8C46DD0838D2B600A72366 /* MCrontab.m */,
+				2BFA199B07AA08780025EA94 /* MNibOwner.m */,
+				2BFA199007AA06300025EA94 /* MNibOwner.h */,
+				659D64EE06B639710061E70D /* MTreeDataSource.m */,
+				659D64ED06B639710061E70D /* MTreeDataSource.h */,
+				65878C0506AE1340002C5449 /* MMySQLDispatcher.h */,
+				65878C0606AE1340002C5449 /* MMySQLDispatcher.m */,
+				65D261E006FE912900AF25F8 /* mxUtils.h */,
+				65D261E106FE912900AF25F8 /* mxUtils.m */,
+				65999613068BCC7200609548 /* myxutil.m */,
+				6567DE03068A6A99008CA5D8 /* myxutil.h */,
+			);
+			name = "Other Classes";
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BBEAD9E08FAE02C008D57B7 /* Security.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2B01751F0922702000F96F01 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2B0175220922707100F96F01 /* entities.h */,
+				2B0175300922707900F96F01 /* myx_shared_util_functions.h */,
+				2B0175230922707100F96F01 /* keywords.h */,
+				2B0175240922707100F96F01 /* myx_international_file.h */,
+				2B0175250922707100F96F01 /* myx_util_functions.h */,
+				2B0175260922707100F96F01 /* myx_util_public_interface.h */,
+				2B0175270922707100F96F01 /* myx_util.h */,
+				2B0175280922707100F96F01 /* myx_xml_util_functions.h */,
+				2B0175320922708100F96F01 /* myx_shared_util_functions.c */,
+				2B0175340922708900F96F01 /* myx_international_file.c */,
+				2B0175350922708900F96F01 /* myx_util_functions.c */,
+				2B0175360922708900F96F01 /* myx_util.c */,
+				2B0175370922708900F96F01 /* myx_xml_util_functions.c */,
+			);
+			name = utilities;
+			path = ../../library/utilities;
+			sourceTree = "<group>";
+		};
+		2B1BCBFB093D1AA300946E36 /* sql-parser */ = {
+			isa = PBXGroup;
+			children = (
+				2B1BCBFC093D1AA300946E36 /* myx_sql_parser_public_interface.h */,
+				2BDCABD5098A7E180034C2C2 /* myx_sql_scanner.lex.c */,
+				2B1BCBFD093D1AA300946E36 /* myx_lex_helpers.cpp */,
+				2B1BCBFE093D1AA300946E36 /* MyxSQLTreeItem.cpp */,
+				2B1BCBFF093D1AA300946E36 /* MyxStatementParser.cpp */,
+				2BDCABD7098A7E330034C2C2 /* myx_sql_parser.tab.cc */,
+				2BDCABD8098A7E330034C2C2 /* myx_sql_parser.tab.hh */,
+				2B1BCC00093D1AA300946E36 /* myx_lex_helpers.h */,
+				2B1BCC01093D1AA300946E36 /* MyxSQLTreeItem.h */,
+				2B1BCC02093D1AA300946E36 /* MyxStatementParser.h */,
+			);
+			name = "sql-parser";
+			path = "../../library/sql-parser";
+			sourceTree = "<group>";
+		};
+		2B1BCC44093D1E7400946E36 /* GUI Common */ = {
+			isa = PBXGroup;
+			children = (
+				2B62CF34078F9A2D0063A0C0 /* Preferences */,
+				2B832A2208611AA000D8BEB0 /* Switcher */,
+				6533430606D26AB300717689 /* ConnectionPanel */,
+				653342FA06D26A9B00717689 /* Schema Editors */,
+				2BC7D5B607F3B74300CB83E9 /* SchemaBrowser */,
+				2B8C4D50083C56EE00A72366 /* SourceEditor */,
+				2B8FB7BA083428D400D63986 /* ResultSet */,
+				65878C3906AE13BB002C5449 /* Controls */,
+				08FB77AEFE84172EC02AAC07 /* Other Classes */,
+			);
+			name = "GUI Common";
+			sourceTree = "<group>";
+		};
+		2B60043308385C7500DCF8AC /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				2BC9469307712CDC00B1EAF4 /* MOutlineView.h */,
+				2BC9469407712CDC00B1EAF4 /* MOutlineView.m */,
+				2BC9464B0771293C00B1EAF4 /* MTableView.h */,
+				2BC9464C0771293C00B1EAF4 /* MTableView.m */,
+			);
+			name = TableViews;
+			sourceTree = "<group>";
+		};
+		2B62CF34078F9A2D0063A0C0 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				65878C2F06AE138C002C5449 /* MPreferences.h */,
+				65878C3006AE138C002C5449 /* MPreferences.m */,
+				2B62CF48078FAAD90063A0C0 /* MConnectionEditor.h */,
+				2B62CF49078FAAD90063A0C0 /* MConnectionEditor.m */,
+				2B62CF35078F9A4E0063A0C0 /* MPreferenceEditor.h */,
+				2B62CF36078F9A4E0063A0C0 /* MPreferenceEditor.m */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		2B832A2208611AA000D8BEB0 /* Switcher */ = {
+			isa = PBXGroup;
+			children = (
+				2B832A1D08611A9800D8BEB0 /* MGlobalSwitcher.h */,
+				2B832A1E08611A9800D8BEB0 /* MGlobalSwitcher.m */,
+			);
+			name = Switcher;
+			sourceTree = "<group>";
+		};
+		2B8C4D50083C56EE00A72366 /* SourceEditor */ = {
+			isa = PBXGroup;
+			children = (
+				2B628410083E3D2B001FC0B3 /* MSyntaxColoring.h */,
+				2B628411083E3D2B001FC0B3 /* MSyntaxColoring.m */,
+				2B62848B083E54AA001FC0B3 /* MSQLSyntaxColoring.h */,
+				2B62848C083E54AA001FC0B3 /* MSQLSyntaxColoring.m */,
+				2B6281FB083D39B1001FC0B3 /* MSourceTextView.h */,
+				2B6281FC083D39B1001FC0B3 /* MSourceTextView.m */,
+				2BFFF7650842E4F200D8345A /* MSourceLayoutManager.h */,
+				2BFFF7660842E4F200D8345A /* MSourceLayoutManager.m */,
+				2B8C4D82083C5B5D00A72366 /* MTextGutterView.h */,
+				2B8C4D83083C5B5D00A72366 /* MTextGutterView.m */,
+				2B8C4D98083C5D1300A72366 /* MSourceTextEditor.h */,
+				2B8C4D99083C5D1300A72366 /* MSourceTextEditor.m */,
+			);
+			name = SourceEditor;
+			sourceTree = "<group>";
+		};
+		2B8FB7BA083428D400D63986 /* ResultSet */ = {
+			isa = PBXGroup;
+			children = (
+				2B8FB7E4083429F500D63986 /* Field Viewer */,
+				2B8C492D083BAE0A00A72366 /* MYXResultSet.cc */,
+				2B8C492E083BAE0A00A72366 /* MYXResultSet.h */,
+				2B8C490D083A7A1500A72366 /* MQResultSetDataSource.h */,
+				2B8C490E083A7A1500A72366 /* MQResultSetDataSource.mm */,
+				2B8FB7CC083429E700D63986 /* MQResultSetView.h */,
+				2B8FB7CD083429E700D63986 /* MQResultSetView.mm */,
+				2B8FB7CE083429E700D63986 /* MQTableView.h */,
+				2B8FB7CF083429E700D63986 /* MQTableView.m */,
+				2B8FB7C2083429E700D63986 /* MQResultSetCell.h */,
+				2B8FB7C3083429E700D63986 /* MQResultSetCell.m */,
+				2B8FB7C8083429E700D63986 /* MQIndicatorCell.h */,
+				2B8FB7C9083429E700D63986 /* MQIndicatorCell.m */,
+			);
+			name = ResultSet;
+			sourceTree = "<group>";
+		};
+		2B8FB7E4083429F500D63986 /* Field Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				2B8FB7C4083429E700D63986 /* MQFieldViewer.h */,
+				2B8FB7C5083429E700D63986 /* MQFieldViewer.m */,
+				2B8FB7C0083429E700D63986 /* MQBinaryViewer.h */,
+				2B8FB7C1083429E700D63986 /* MQBinaryViewer.m */,
+				2B8FB7C6083429E700D63986 /* MQImageViewer.h */,
+				2B8FB7C7083429E700D63986 /* MQImageViewer.m */,
+				2B8FB7D0083429E700D63986 /* MQTextViewer.h */,
+				2B8FB7D1083429E700D63986 /* MQTextViewer.m */,
+			);
+			name = "Field Viewer";
+			sourceTree = "<group>";
+		};
+		2BA948B9081CC3500022CE53 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				2BA948BA081CC3710022CE53 /* NSArray_extras.h */,
+				2BA948BB081CC3710022CE53 /* NSArray_extras.m */,
+				65878C2706AE136F002C5449 /* NSString_extras.h */,
+				65878C2806AE136F002C5449 /* NSString_extras.m */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		2BA949FA081D23770022CE53 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				2B64EE980851559600E6D340 /* myx_schema_16x16.png */,
+				2B64EE990851559600E6D340 /* myx_schema_sp_16x16.png */,
+				2B64EE9A0851559600E6D340 /* myx_schema_table_16x16.png */,
+				2B64EE9B0851559600E6D340 /* myx_schema_view_16x16.png */,
+				2B64ED050851387B00E6D340 /* mini_error.png */,
+				2B64ED060851387B00E6D340 /* mini_notice.png */,
+				2B64ED070851387B00E6D340 /* mini_warning.png */,
+				2B3EFC9E08462B3B00145705 /* gutter_breakpoint.png */,
+				2B3EFC9F08462B3B00145705 /* gutter_current_pos.png */,
+				2B3EFCA008462B3B00145705 /* gutter_query_start.png */,
+				2B9A449F0795EBA500A708EA /* mini_add.png */,
+				2B9A44A00795EBA500A708EA /* mini_del.png */,
+				2B9A45410795F71E00A708EA /* mini_add_pressed.png */,
+				2B9A45420795F71E00A708EA /* mini_del_pressed.png */,
+				2BD9A8E6085CC07D00DF65E9 /* mini_add_12.png */,
+				2BD9A8E7085CC07D00DF65E9 /* mini_add_pressed_12.png */,
+				2BD9A8E8085CC07D00DF65E9 /* mini_del_12.png */,
+				2BD9A8E9085CC07D00DF65E9 /* mini_del_pressed_12.png */,
+				65E36F3606840AD00058F7AC /* connect_to_instance.png */,
+				658CF88A06F3E8EE0095AD20 /* column.png */,
+				658CF85006F3E79B0095AD20 /* column_pk.png */,
+				658CF85706F3E7AA0095AD20 /* datatype_blob.png */,
+				658CF85806F3E7AA0095AD20 /* datatype_datetime.png */,
+				658CF85906F3E7AA0095AD20 /* datatype_numeric.png */,
+				658CF85A06F3E7AA0095AD20 /* datatype_spatial.png */,
+				658CF85B06F3E7AA0095AD20 /* datatype_string.png */,
+				658CF85C06F3E7AA0095AD20 /* datatype_userdefined.png */,
+				2B39E290074FB87400ACFF2D /* editor_table_auto_inc.png */,
+				2B39E291074FB87400ACFF2D /* editor_table_not_null.png */,
+				2B9A364D07938F4500A708EA /* folder_16x16.png */,
+				2B9A365307938F5100A708EA /* networkhost_16x16.png */,
+				2BF6AF9B07B087CF00C58861 /* mysql_logo.png */,
+				2BC7C6EC07F21D5C00CB83E9 /* 16x16_Catalog.png */,
+				2BC7C6ED07F21D5C00CB83E9 /* 16x16_Database.png */,
+				2BC7C6EE07F21D5C00CB83E9 /* 16x16_Field.png */,
+				2BC7C6EF07F21D5C00CB83E9 /* 16x16_KeyColumn.png */,
+				2BC7C6F007F21D5C00CB83E9 /* 16x16_Table.png */,
+				2B8FB47B0830E13E00D63986 /* tab_close_normal.png */,
+				2B8FB47C0830E13E00D63986 /* tab_close_over.png */,
+				2B8FB47D0830E13E00D63986 /* tab_close_pressed.png */,
+				2B8FB88B083431C500D63986 /* blob_icon.png */,
+				2B8FB87C0834318F00D63986 /* field_overlay_clear.png */,
+				2B8FB87D0834318F00D63986 /* field_overlay_edit.png */,
+				2B8FB87E0834318F00D63986 /* field_overlay_load.png */,
+				2B8FB87F0834318F00D63986 /* field_overlay_null.png */,
+				2B8FB8800834318F00D63986 /* field_overlay_save.png */,
+				2B8FB8810834318F00D63986 /* field_overlay_view.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		2BC7D5B607F3B74300CB83E9 /* SchemaBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				65EE4066068E9ECD004BB623 /* MSchemaDataSource.h */,
+				65EE4067068E9ECD004BB623 /* MSchemaDataSource.m */,
+				2BC7C80E07F23AF000CB83E9 /* MSchemaEditHelper.h */,
+				2BC7C80F07F23AF000CB83E9 /* MSchemaEditHelper.m */,
+			);
+			name = SchemaBrowser;
+			sourceTree = "<group>";
+		};
+		2BC7D5B907F3B77200CB83E9 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				2B69601207DA4CDC00512190 /* MTabView.h */,
+				2B69601307DA4CDC00512190 /* MTabView.m */,
+			);
+			name = TabView;
+			sourceTree = "<group>";
+		};
+		2BC7D5BC07F3B78900CB83E9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				65878C2006AE135D002C5449 /* MTextImageCell.h */,
+				65878C2106AE135D002C5449 /* MTextImageCell.m */,
+				65878BFC06AE132E002C5449 /* MButtonImageCell.h */,
+				65878BFD06AE132E002C5449 /* MButtonImageCell.m */,
+				2BB9613D0A05BE21008C9EEF /* MFileChooserCell.h */,
+				2BB9613E0A05BE21008C9EEF /* MFileChooserCell.m */,
+				2BB95FE70A052FD2008C9EEF /* MTextFieldCell.h */,
+				2BB95FE80A052FD2008C9EEF /* MTextFieldCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		2BC7D5BF07F3B7AE00CB83E9 /* Misc Panels */ = {
+			isa = PBXGroup;
+			children = (
+				65878C0306AE1340002C5449 /* MDialogs.h */,
+				65878C0406AE1340002C5449 /* MDialogs.m */,
+				2BC941CF07701CD600B1EAF4 /* MProgressPanel.h */,
+				2BC941D007701CD600B1EAF4 /* MProgressPanel.m */,
+			);
+			name = "Misc Panels";
+			sourceTree = "<group>";
+		};
+		2BC7D5C207F3B7E800CB83E9 /* Data Structs */ = {
+			isa = PBXGroup;
+			children = (
+				2BC7C9D007F26D6900CB83E9 /* MSparseMatrix.h */,
+				2BC7C9D107F26D6900CB83E9 /* MSparseMatrix.m */,
+				65878C1306AE1352002C5449 /* MPtrArray.h */,
+				65878C1406AE1352002C5449 /* MPtrArray.m */,
+				65878C1506AE1352002C5449 /* MPtrNode.h */,
+				65878C1606AE1352002C5449 /* MPtrNode.m */,
+			);
+			name = "Data Structs";
+			sourceTree = "<group>";
+		};
+		2BC7D60E07F3BF5B00CB83E9 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				6533424406D1B86B00717689 /* NSView_extras.h */,
+				6533424506D1B86B00717689 /* NSView_extras.m */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* base-library */ = {
+			isa = PBXGroup;
+			children = (
+				2B39E282074FB7F000ACFF2D /* myx_const_string.h */,
+				6567E5D80685327500730877 /* myx_library.h */,
+				6567E5D90685327500730877 /* myx_network.h */,
+				6567E5DA0685327500730877 /* myx_public_interface.h */,
+				6567E5DB0685327500730877 /* myx_query.h */,
+				2B39E289074FB7FF00ACFF2D /* myx_query_reader.h */,
+				6567E5DC0685327500730877 /* myx_recordset.h */,
+				6567E5DD0685327500730877 /* myx_simple_sql_parsing.h */,
+				6567E5AE0685322800730877 /* myx_catalogs.c */,
+				6567E5AF0685322800730877 /* myx_database_model.c */,
+				2B83395908653A1600D8BEB0 /* myx_exporter.c */,
+				6567E5B20685322800730877 /* myx_library.c */,
+				6567E5B30685322800730877 /* myx_network.c */,
+				2B39E279074FB7A400ACFF2D /* myx_query.cpp */,
+				6567E5B50685322800730877 /* myx_recordset.c */,
+				6567E5B60685322800730877 /* myx_simple_sql_parsing.c */,
+				6567E5B70685322800730877 /* myx_sql_highlighting.c */,
+				6567E5BA0685322800730877 /* myx_xml_charset.c */,
+				6567E5BB0685322800730877 /* myx_xml_datatype.c */,
+				6567E5BC0685322800730877 /* myx_xml_option_functions.c */,
+				6567E5BE0685322800730877 /* myx_xml_user_connections.c */,
+			);
+			name = "base-library";
+			path = "../../library/base-library";
+			sourceTree = "<group>";
+		};
+		653342FA06D26A9B00717689 /* Schema Editors */ = {
+			isa = PBXGroup;
+			children = (
+				653342EE06D26A9600717689 /* MTableEditor.h */,
+				653342EF06D26A9600717689 /* MTableEditor.m */,
+				2B1F2560087CC45400455FC3 /* MSQLEditor.h */,
+				2B1F2561087CC45400455FC3 /* MSQLEditor.m */,
+			);
+			name = "Schema Editors";
+			sourceTree = "<group>";
+		};
+		6533430606D26AB300717689 /* ConnectionPanel */ = {
+			isa = PBXGroup;
+			children = (
+				2BB7DB2C0869E7B400D420FB /* MConnectionInfo.h */,
+				2BB7DB2D0869E7B400D420FB /* MConnectionInfo.m */,
+				65E36F4E068414B20058F7AC /* MConnectionPanel.h */,
+				65E36F4F068414B20058F7AC /* MConnectionPanel.m */,
+			);
+			name = ConnectionPanel;
+			sourceTree = "<group>";
+		};
+		65878C3906AE13BB002C5449 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				2BC7D5B907F3B77200CB83E9 /* TabView */,
+				2BC7D5BC07F3B78900CB83E9 /* Cells */,
+				2BC7D5BF07F3B7AE00CB83E9 /* Misc Panels */,
+				2B60043308385C7500DCF8AC /* TableViews */,
+				2BB960B20A055C01008C9EEF /* MControlForm.h */,
+				2BB960B30A055C01008C9EEF /* MControlForm.m */,
+				2B60042A08385C4D00DCF8AC /* MMenuButton.h */,
+				2B60042B08385C4D00DCF8AC /* MMenuButton.m */,
+				65D1F2AA06E8291300A3F1A7 /* MAccessoryScrollView.h */,
+				65D1F2AB06E8291300A3F1A7 /* MAccessoryScrollView.m */,
+				6535B47506B0C1D8000445A4 /* MBoxLayout.h */,
+				6535B47606B0C1D8000445A4 /* MBoxLayout.m */,
+				2BBE4A4708D5361F00BB50E6 /* MVerticalBox.h */,
+				2BBE4A4808D5361F00BB50E6 /* MVerticalBox.m */,
+				2B8FAB39082B5CEA00D63986 /* MSplitView.h */,
+				2B8FAB3A082B5CEA00D63986 /* MSplitView.m */,
+				2BC7D60E07F3BF5B00CB83E9 /* Extras */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		658CF84806F3E7680095AD20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65B0870506933F9500C4DB29 /* Nibs */,
+				2BA949FA081D23770022CE53 /* Icons */,
+				65D1F40506E848A900A3F1A7 /* mysqlx_dbm_charsets.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		65B0870506933F9500C4DB29 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				65D1F40606E848A900A3F1A7 /* mysqlx_dbm_datatypes.xml */,
+				2B1F256E087CCB1000455FC3 /* SQLEditor.nib */,
+				2B9A358D0793863F00A708EA /* PreferencesEditor.nib */,
+				2B62CF5B078FAB200063A0C0 /* ConnectionEditor.nib */,
+				2BC9421F07701F8300B1EAF4 /* ProgressPanel.nib */,
+				6533431706D26BAF00717689 /* TableEditor.nib */,
+				65B087180693404300C4DB29 /* ConnectPanel.nib */,
+				2B8FB7E908342BB600D63986 /* FieldViewer.nib */,
+				2B8FB7EB08342BB600D63986 /* ResultSet.nib */,
+			);
+			name = Nibs;
+			path = ../../res/mac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B1BCC45093D1EC100946E36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1BCC5E093D1EDD00946E36 /* myx_sql_parser_public_interface.h in Headers */,
+				2B1BCC62093D1EDD00946E36 /* myx_lex_helpers.h in Headers */,
+				2B1BCC63093D1EDD00946E36 /* MyxSQLTreeItem.h in Headers */,
+				2B1BCC64093D1EDD00946E36 /* MyxStatementParser.h in Headers */,
+				2BDCABDA098A7E330034C2C2 /* myx_sql_parser.tab.hh in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1BCD00093F614000946E36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B90AE0E074FD28100F9E62D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B90AE3D074FD46900F9E62D /* MConnectionPanel.h in Headers */,
+				2B90AE40074FD46900F9E62D /* myxutil.h in Headers */,
+				2B90AE41074FD46900F9E62D /* MSchemaDataSource.h in Headers */,
+				2B90AE42074FD46900F9E62D /* MButtonImageCell.h in Headers */,
+				2B90AE43074FD46900F9E62D /* MDialogs.h in Headers */,
+				2B90AE44074FD46900F9E62D /* MMySQLDispatcher.h in Headers */,
+				2B90AE45074FD46900F9E62D /* MPtrArray.h in Headers */,
+				2B90AE46074FD46900F9E62D /* MPtrNode.h in Headers */,
+				2B90AE47074FD46900F9E62D /* MTextImageCell.h in Headers */,
+				2B90AE48074FD46900F9E62D /* NSString_extras.h in Headers */,
+				2B90AE49074FD46900F9E62D /* MPreferences.h in Headers */,
+				2B90AE4B074FD46900F9E62D /* MTreeDataSource.h in Headers */,
+				2B90AE4C074FD46900F9E62D /* NSView_extras.h in Headers */,
+				2B90AE4D074FD46900F9E62D /* MTableEditor.h in Headers */,
+				2B90AE4E074FD46900F9E62D /* MAccessoryScrollView.h in Headers */,
+				2B90AE4F074FD46900F9E62D /* mxUtils.h in Headers */,
+				2BC9420207701EF600B1EAF4 /* MProgressPanel.h in Headers */,
+				2BC9464D0771293C00B1EAF4 /* MTableView.h in Headers */,
+				2BC9469507712CDC00B1EAF4 /* MOutlineView.h in Headers */,
+				2B62CF37078F9A4E0063A0C0 /* MPreferenceEditor.h in Headers */,
+				2B62CF4A078FAAD90063A0C0 /* MConnectionEditor.h in Headers */,
+				2BFA199207AA06300025EA94 /* MNibOwner.h in Headers */,
+				2B69601407DA4CDC00512190 /* MTabView.h in Headers */,
+				2BC7C81007F23AF000CB83E9 /* MSchemaEditHelper.h in Headers */,
+				2BC7C9D207F26D6900CB83E9 /* MSparseMatrix.h in Headers */,
+				2BA948BC081CC3710022CE53 /* NSArray_extras.h in Headers */,
+				2B8FAB3B082B5CEA00D63986 /* MSplitView.h in Headers */,
+				2B8FB7D2083429E700D63986 /* MQBinaryViewer.h in Headers */,
+				2B8FB7D4083429E700D63986 /* MQResultSetCell.h in Headers */,
+				2B8FB7D6083429E700D63986 /* MQFieldViewer.h in Headers */,
+				2B8FB7D8083429E700D63986 /* MQImageViewer.h in Headers */,
+				2B8FB7DA083429E700D63986 /* MQIndicatorCell.h in Headers */,
+				2B8FB7DE083429E700D63986 /* MQResultSetView.h in Headers */,
+				2B8FB7E0083429E700D63986 /* MQTableView.h in Headers */,
+				2B8FB7E2083429E700D63986 /* MQTextViewer.h in Headers */,
+				2B60042C08385C4D00DCF8AC /* MMenuButton.h in Headers */,
+				2B8C46DE0838D2B600A72366 /* MCrontab.h in Headers */,
+				2B8C490F083A7A1500A72366 /* MQResultSetDataSource.h in Headers */,
+				2B8C4930083BAE0A00A72366 /* MYXResultSet.h in Headers */,
+				2B8C4D84083C5B5D00A72366 /* MTextGutterView.h in Headers */,
+				2B8C4D9A083C5D1300A72366 /* MSourceTextEditor.h in Headers */,
+				2B6281FD083D39B1001FC0B3 /* MSourceTextView.h in Headers */,
+				2B628412083E3D2B001FC0B3 /* MSyntaxColoring.h in Headers */,
+				2B62848D083E54AA001FC0B3 /* MSQLSyntaxColoring.h in Headers */,
+				2BFFF7670842E4F200D8345A /* MSourceLayoutManager.h in Headers */,
+				2BB7DB2E0869E7B400D420FB /* MConnectionInfo.h in Headers */,
+				2B1F2562087CC45400455FC3 /* MSQLEditor.h in Headers */,
+				2BBE4A4908D5361F00BB50E6 /* MVerticalBox.h in Headers */,
+				2BB95FE90A052FD2008C9EEF /* MTextFieldCell.h in Headers */,
+				2BB960B40A055C01008C9EEF /* MControlForm.h in Headers */,
+				2BB9613F0A05BE21008C9EEF /* MFileChooserCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567E5A9068531F700730877 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6567E5E00685327500730877 /* myx_library.h in Headers */,
+				6567E5E10685327500730877 /* myx_network.h in Headers */,
+				6567E5E20685327500730877 /* myx_public_interface.h in Headers */,
+				6567E5E30685327500730877 /* myx_query.h in Headers */,
+				6567E5E40685327500730877 /* myx_recordset.h in Headers */,
+				6567E5E50685327500730877 /* myx_simple_sql_parsing.h in Headers */,
+				2B39E283074FB7F000ACFF2D /* myx_const_string.h in Headers */,
+				2B39E28A074FB7FF00ACFF2D /* myx_query_reader.h in Headers */,
+				2B0175290922707100F96F01 /* entities.h in Headers */,
+				2B01752A0922707100F96F01 /* keywords.h in Headers */,
+				2B01752B0922707100F96F01 /* myx_international_file.h in Headers */,
+				2B01752C0922707100F96F01 /* myx_util_functions.h in Headers */,
+				2B01752D0922707100F96F01 /* myx_util_public_interface.h in Headers */,
+				2B01752E0922707100F96F01 /* myx_util.h in Headers */,
+				2B01752F0922707100F96F01 /* myx_xml_util_functions.h in Headers */,
+				2B0175310922707900F96F01 /* myx_shared_util_functions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B1BCC48093D1EC100946E36 /* mysqlparser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1BCC65093D1EE400946E36 /* Build configuration list for PBXNativeTarget "mysqlparser" */;
+			buildPhases = (
+				2B1BCC45093D1EC100946E36 /* Headers */,
+				2B1BCC46093D1EC100946E36 /* Sources */,
+				2B1BCC47093D1EC100946E36 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mysqlparser;
+			productName = mysqlparser;
+			productReference = 2B1BCC49093D1EC100946E36 /* libmysqlparser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2B1BCD03093F614000946E36 /* myxutils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1BCD19093F615F00946E36 /* Build configuration list for PBXNativeTarget "myxutils" */;
+			buildPhases = (
+				2B1BCD00093F614000946E36 /* Headers */,
+				2B1BCD01093F614000946E36 /* Sources */,
+				2B1BCD02093F614000946E36 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myxutils;
+			productName = myxutils;
+			productReference = 2B1BCD04093F614000946E36 /* libmyxutils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2B90AE12074FD28100F9E62D /* MySQLToolsCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB4FE5D08574AA4004F8852 /* Build configuration list for PBXNativeTarget "MySQLToolsCommon" */;
+			buildPhases = (
+				2B90AE0E074FD28100F9E62D /* Headers */,
+				2B90AE0F074FD28100F9E62D /* Resources */,
+				2B90AE10074FD28100F9E62D /* Sources */,
+				2B90AE11074FD28100F9E62D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B57294709852CF40008B8C7 /* PBXTargetDependency */,
+				2B9A55F707A360A300A708EA /* PBXTargetDependency */,
+				2B682AB40A92025500389BA0 /* PBXTargetDependency */,
+			);
+			name = MySQLToolsCommon;
+			productName = MySQLToolsCommon;
+			productReference = 2B90AE13074FD28100F9E62D /* MySQLToolsCommon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6567E5AB068531F700730877 /* mysqlx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB4FE5908574AA4004F8852 /* Build configuration list for PBXNativeTarget "mysqlx" */;
+			buildPhases = (
+				6567E5A9068531F700730877 /* Headers */,
+				6567E5AA068531F700730877 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mysqlx;
+			productName = mysqlx;
+			productReference = 2B39E263074FAD4000ACFF2D /* libmysqlx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2BB4FE6908574AA4004F8852 /* Build configuration list for PBXProject "MySQLGUICommon" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* MySQLGUICommon */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			targets = (
+				2B90AE12074FD28100F9E62D /* MySQLToolsCommon */,
+				6567E5AB068531F700730877 /* mysqlx */,
+				2B1BCC48093D1EC100946E36 /* mysqlparser */,
+				2B1BCD03093F614000946E36 /* myxutils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B90AE0F074FD28100F9E62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B90AE64074FD4BD00F9E62D /* connect_to_instance.png in Resources */,
+				2B90AE65074FD4BD00F9E62D /* ConnectPanel.nib in Resources */,
+				2B90AE66074FD4BD00F9E62D /* TableEditor.nib in Resources */,
+				2B90AE67074FD4BD00F9E62D /* mysqlx_dbm_charsets.xml in Resources */,
+				2B90AE68074FD4BD00F9E62D /* mysqlx_dbm_datatypes.xml in Resources */,
+				2B90AE69074FD4BD00F9E62D /* column_pk.png in Resources */,
+				2B90AE6A074FD4BD00F9E62D /* datatype_blob.png in Resources */,
+				2B90AE6B074FD4BD00F9E62D /* datatype_datetime.png in Resources */,
+				2B90AE6C074FD4BD00F9E62D /* datatype_numeric.png in Resources */,
+				2B90AE6D074FD4BD00F9E62D /* datatype_spatial.png in Resources */,
+				2B90AE6E074FD4BD00F9E62D /* datatype_string.png in Resources */,
+				2B90AE6F074FD4BD00F9E62D /* datatype_userdefined.png in Resources */,
+				2B90AE70074FD4BD00F9E62D /* column.png in Resources */,
+				2B90AE71074FD4BD00F9E62D /* editor_table_auto_inc.png in Resources */,
+				2B90AE72074FD4BD00F9E62D /* editor_table_not_null.png in Resources */,
+				2BC9422107701F8300B1EAF4 /* ProgressPanel.nib in Resources */,
+				2B62CF5D078FAB200063A0C0 /* ConnectionEditor.nib in Resources */,
+				2B9A358F0793863F00A708EA /* PreferencesEditor.nib in Resources */,
+				2B9A364E07938F4500A708EA /* folder_16x16.png in Resources */,
+				2B9A365407938F5100A708EA /* networkhost_16x16.png in Resources */,
+				2B9A44A10795EBA500A708EA /* mini_add.png in Resources */,
+				2B9A44A20795EBA500A708EA /* mini_del.png in Resources */,
+				2B9A45430795F71E00A708EA /* mini_add_pressed.png in Resources */,
+				2B9A45440795F71E00A708EA /* mini_del_pressed.png in Resources */,
+				2B9A567D07A368C200A708EA /* README.MacOSX in Resources */,
+				2BF6AF9C07B087CF00C58861 /* mysql_logo.png in Resources */,
+				2BC7C6F107F21D5C00CB83E9 /* 16x16_Catalog.png in Resources */,
+				2BC7C6F207F21D5C00CB83E9 /* 16x16_Database.png in Resources */,
+				2BC7C6F307F21D5C00CB83E9 /* 16x16_Field.png in Resources */,
+				2BC7C6F407F21D5C00CB83E9 /* 16x16_KeyColumn.png in Resources */,
+				2BC7C6F507F21D5C00CB83E9 /* 16x16_Table.png in Resources */,
+				2B8FB47E0830E13E00D63986 /* tab_close_normal.png in Resources */,
+				2B8FB47F0830E13E00D63986 /* tab_close_over.png in Resources */,
+				2B8FB4800830E13E00D63986 /* tab_close_pressed.png in Resources */,
+				2B8FB7ED08342BB600D63986 /* FieldViewer.nib in Resources */,
+				2B8FB7EE08342BB600D63986 /* ResultSet.nib in Resources */,
+				2B8FB8820834318F00D63986 /* field_overlay_clear.png in Resources */,
+				2B8FB8830834318F00D63986 /* field_overlay_edit.png in Resources */,
+				2B8FB8840834318F00D63986 /* field_overlay_load.png in Resources */,
+				2B8FB8850834318F00D63986 /* field_overlay_null.png in Resources */,
+				2B8FB8860834318F00D63986 /* field_overlay_save.png in Resources */,
+				2B8FB8870834318F00D63986 /* field_overlay_view.png in Resources */,
+				2B8FB88C083431C500D63986 /* blob_icon.png in Resources */,
+				2B3EFCA108462B3B00145705 /* gutter_breakpoint.png in Resources */,
+				2B3EFCA208462B3B00145705 /* gutter_current_pos.png in Resources */,
+				2B3EFCA308462B3B00145705 /* gutter_query_start.png in Resources */,
+				2B64ED080851387B00E6D340 /* mini_error.png in Resources */,
+				2B64ED090851387B00E6D340 /* mini_notice.png in Resources */,
+				2B64ED0A0851387B00E6D340 /* mini_warning.png in Resources */,
+				2B64EE9C0851559600E6D340 /* myx_schema_16x16.png in Resources */,
+				2B64EE9D0851559600E6D340 /* myx_schema_sp_16x16.png in Resources */,
+				2B64EE9E0851559600E6D340 /* myx_schema_table_16x16.png in Resources */,
+				2B64EE9F0851559600E6D340 /* myx_schema_view_16x16.png in Resources */,
+				2BD9A8EA085CC07D00DF65E9 /* mini_add_12.png in Resources */,
+				2BD9A8EB085CC07D00DF65E9 /* mini_add_pressed_12.png in Resources */,
+				2BD9A8EC085CC07D00DF65E9 /* mini_del_12.png in Resources */,
+				2BD9A8ED085CC07D00DF65E9 /* mini_del_pressed_12.png in Resources */,
+				2B1F2570087CCB1000455FC3 /* SQLEditor.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B1BCC46093D1EC100946E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1BCC5F093D1EDD00946E36 /* myx_lex_helpers.cpp in Sources */,
+				2B1BCC60093D1EDD00946E36 /* MyxSQLTreeItem.cpp in Sources */,
+				2B1BCC61093D1EDD00946E36 /* MyxStatementParser.cpp in Sources */,
+				2BDCABD6098A7E180034C2C2 /* myx_sql_scanner.lex.c in Sources */,
+				2BDCABD9098A7E330034C2C2 /* myx_sql_parser.tab.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1BCD01093F614000946E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B90AE10074FD28100F9E62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B90AE51074FD4A100F9E62D /* MConnectionPanel.m in Sources */,
+				2B90AE54074FD4A100F9E62D /* myxutil.m in Sources */,
+				2B90AE55074FD4A100F9E62D /* MSchemaDataSource.m in Sources */,
+				2B90AE56074FD4A100F9E62D /* MButtonImageCell.m in Sources */,
+				2B90AE57074FD4A100F9E62D /* MDialogs.m in Sources */,
+				2B90AE58074FD4A100F9E62D /* MMySQLDispatcher.m in Sources */,
+				2B90AE59074FD4A100F9E62D /* MPtrArray.m in Sources */,
+				2B90AE5A074FD4A100F9E62D /* MPtrNode.m in Sources */,
+				2B90AE5B074FD4A100F9E62D /* MTextImageCell.m in Sources */,
+				2B90AE5C074FD4A100F9E62D /* NSString_extras.m in Sources */,
+				2B90AE5D074FD4A100F9E62D /* MPreferences.m in Sources */,
+				2B90AE5F074FD4A100F9E62D /* MTreeDataSource.m in Sources */,
+				2B90AE60074FD4A100F9E62D /* NSView_extras.m in Sources */,
+				2B90AE61074FD4A100F9E62D /* MTableEditor.m in Sources */,
+				2B90AE62074FD4A100F9E62D /* MAccessoryScrollView.m in Sources */,
+				2B90AE63074FD4A100F9E62D /* mxUtils.m in Sources */,
+				2BC9420307701EF700B1EAF4 /* MProgressPanel.m in Sources */,
+				2BC9464E0771293C00B1EAF4 /* MTableView.m in Sources */,
+				2BC9469607712CDC00B1EAF4 /* MOutlineView.m in Sources */,
+				2B62CF38078F9A4E0063A0C0 /* MPreferenceEditor.m in Sources */,
+				2B62CF4B078FAAD90063A0C0 /* MConnectionEditor.m in Sources */,
+				2BFA199C07AA08780025EA94 /* MNibOwner.m in Sources */,
+				2B69601507DA4CDC00512190 /* MTabView.m in Sources */,
+				2BC7C81107F23AF000CB83E9 /* MSchemaEditHelper.m in Sources */,
+				2BC7C9D307F26D6900CB83E9 /* MSparseMatrix.m in Sources */,
+				2BA948BD081CC3710022CE53 /* NSArray_extras.m in Sources */,
+				2B8FAB3C082B5CEA00D63986 /* MSplitView.m in Sources */,
+				2B8FB7D3083429E700D63986 /* MQBinaryViewer.m in Sources */,
+				2B8FB7D5083429E700D63986 /* MQResultSetCell.m in Sources */,
+				2B8FB7D7083429E700D63986 /* MQFieldViewer.m in Sources */,
+				2B8FB7D9083429E700D63986 /* MQImageViewer.m in Sources */,
+				2B8FB7DB083429E700D63986 /* MQIndicatorCell.m in Sources */,
+				2B8FB7DF083429E700D63986 /* MQResultSetView.mm in Sources */,
+				2B8FB7E1083429E700D63986 /* MQTableView.m in Sources */,
+				2B8FB7E3083429E700D63986 /* MQTextViewer.m in Sources */,
+				2B60042D08385C4D00DCF8AC /* MMenuButton.m in Sources */,
+				2B8C46DF0838D2B600A72366 /* MCrontab.m in Sources */,
+				2B8C4910083A7A1500A72366 /* MQResultSetDataSource.mm in Sources */,
+				2B8C492F083BAE0A00A72366 /* MYXResultSet.cc in Sources */,
+				2B8C4D85083C5B5D00A72366 /* MTextGutterView.m in Sources */,
+				2B8C4D9B083C5D1300A72366 /* MSourceTextEditor.m in Sources */,
+				2B6281FE083D39B1001FC0B3 /* MSourceTextView.m in Sources */,
+				2B628413083E3D2B001FC0B3 /* MSyntaxColoring.m in Sources */,
+				2B62848E083E54AA001FC0B3 /* MSQLSyntaxColoring.m in Sources */,
+				2BFFF7680842E4F200D8345A /* MSourceLayoutManager.m in Sources */,
+				2B83395A08653A1600D8BEB0 /* myx_exporter.c in Sources */,
+				2BB7DB2F0869E7B400D420FB /* MConnectionInfo.m in Sources */,
+				2B1F2563087CC45400455FC3 /* MSQLEditor.m in Sources */,
+				2BBE4A4A08D5361F00BB50E6 /* MVerticalBox.m in Sources */,
+				2BB95FEA0A052FD2008C9EEF /* MTextFieldCell.m in Sources */,
+				2BB960B50A055C01008C9EEF /* MControlForm.m in Sources */,
+				2BB961400A05BE21008C9EEF /* MFileChooserCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567E5AA068531F700730877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6567E5C00685322800730877 /* myx_catalogs.c in Sources */,
+				6567E5C10685322800730877 /* myx_database_model.c in Sources */,
+				6567E5C40685322800730877 /* myx_library.c in Sources */,
+				6567E5C50685322800730877 /* myx_network.c in Sources */,
+				6567E5C70685322800730877 /* myx_recordset.c in Sources */,
+				6567E5C80685322800730877 /* myx_simple_sql_parsing.c in Sources */,
+				6567E5C90685322800730877 /* myx_sql_highlighting.c in Sources */,
+				6567E5CC0685322800730877 /* myx_xml_charset.c in Sources */,
+				6567E5CD0685322800730877 /* myx_xml_datatype.c in Sources */,
+				6567E5CE0685322800730877 /* myx_xml_option_functions.c in Sources */,
+				6567E5D00685322800730877 /* myx_xml_user_connections.c in Sources */,
+				2B39E27A074FB7A400ACFF2D /* myx_query.cpp in Sources */,
+				2B0175330922708100F96F01 /* myx_shared_util_functions.c in Sources */,
+				2B0175380922708900F96F01 /* myx_international_file.c in Sources */,
+				2B0175390922708900F96F01 /* myx_util_functions.c in Sources */,
+				2B01753A0922708900F96F01 /* myx_util.c in Sources */,
+				2B01753B0922708900F96F01 /* myx_xml_util_functions.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B57294709852CF40008B8C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B1BCD03093F614000946E36 /* myxutils */;
+			targetProxy = 2B57294609852CF40008B8C7 /* PBXContainerItemProxy */;
+		};
+		2B682AB40A92025500389BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B1BCC48093D1EC100946E36 /* mysqlparser */;
+			targetProxy = 2B682AB30A92025500389BA0 /* PBXContainerItemProxy */;
+		};
+		2B9A55F707A360A300A708EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6567E5AB068531F700730877 /* mysqlx */;
+			targetProxy = 2B9A55F607A360A300A708EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B1F256E087CCB1000455FC3 /* SQLEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1F256F087CCB1000455FC3 /* English */,
+			);
+			name = SQLEditor.nib;
+			sourceTree = "<group>";
+		};
+		2B62CF5B078FAB200063A0C0 /* ConnectionEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B62CF5C078FAB200063A0C0 /* English */,
+			);
+			name = ConnectionEditor.nib;
+			sourceTree = "<group>";
+		};
+		2B8FB7E908342BB600D63986 /* FieldViewer.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8FB7EA08342BB600D63986 /* English */,
+			);
+			name = FieldViewer.nib;
+			sourceTree = "<group>";
+		};
+		2B8FB7EB08342BB600D63986 /* ResultSet.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8FB7EC08342BB600D63986 /* English */,
+			);
+			name = ResultSet.nib;
+			sourceTree = "<group>";
+		};
+		2B9A358D0793863F00A708EA /* PreferencesEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B9A358E0793863F00A708EA /* English */,
+			);
+			name = PreferencesEditor.nib;
+			sourceTree = "<group>";
+		};
+		2BC9421F07701F8300B1EAF4 /* ProgressPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BC9422007701F8300B1EAF4 /* English */,
+			);
+			name = ProgressPanel.nib;
+			sourceTree = "<group>";
+		};
+		6533431706D26BAF00717689 /* TableEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6533431806D26BAF00717689 /* English */,
+			);
+			name = TableEditor.nib;
+			sourceTree = "<group>";
+		};
+		65B087180693404300C4DB29 /* ConnectPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B087140693403900C4DB29 /* English */,
+			);
+			name = ConnectPanel.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B1BCC66093D1EE400946E36 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/lib";
+				LIBRARY_SEARCH_PATHS = (
+					/uni/lib,
+					/usr/local/mysql/lib,
+				);
+				LIBRARY_STYLE = STATIC;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = mysqlparser;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "~/guibuild";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Development;
+		};
+		2B1BCC67093D1EE400946E36 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(LIBRARY_SEARCH_PATHS)",
+					/sw/lib,
+				);
+				LIBRARY_STYLE = STATIC;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = mysqlparser;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		2B1BCD1A093F615F00946E36 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/lib";
+				LIBRARY_SEARCH_PATHS = (
+					/uni/lib,
+					/usr/local/mysql/lib,
+				);
+				LIBRARY_STYLE = STATIC;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = myxutils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "~/guibuild";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Development;
+		};
+		2B1BCD1B093F615F00946E36 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/lib";
+				LIBRARY_STYLE = STATIC;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = myxutils;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		2BB4FE5A08574AA4004F8852 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					/uni/lib,
+					/usr/local/mysql/lib,
+					/Users/vlad/guibuild,
+				);
+				LIBRARY_STYLE = STATIC;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mysqlx;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = "~/guibuild";
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		2BB4FE5B08574AA4004F8852 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_STYLE = STATIC;
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mysqlx;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2BB4FE5E08574AA4004F8852 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "MySQLToolsCommon-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/uni/lib,
+					/usr/local/mysql/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-seg1addr",
+					0x10000000,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MySQLToolsCommon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "~/guibuild";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		2BB4FE5F08574AA4004F8852 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "MySQLToolsCommon-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/sw/lib,
+					/usr/local/mysql/lib,
+					/,
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-seg1addr",
+					0x10000000,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MySQLToolsCommon;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2BB4FE6A08574AA4004F8852 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/sw/lib,
+					/usr/local/mysql/lib,
+					/Users/vlad/guibuild,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../library/base-library/include $(SOURCE_ROOT)/../../library/utilities/shared_include $(SOURCE_ROOT)/../../library/utilities/include";
+			};
+			name = Development;
+		};
+		2BB4FE6B08574AA4004F8852 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/sw/lib,
+					/usr/local/mysql/lib,
+					/Users/vlad/guibuild,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../library/base-library/include $(SOURCE_ROOT)/../../library/utilities/shared_include $(SOURCE_ROOT)/../../library/utilities/include";
+			};
+			name = Deployment;
+		};
+		2BB55FEB09E458BA00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/lib";
+				LIBRARY_STYLE = STATIC;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = myxutils;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = DeploymentU;
+		};
+		2BB55FEC09E458BA00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_STYLE = STATIC;
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mysqlx;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/library/base-library/include $(SOURCE_ROOT)/library/utilities/shared_include $(SOURCE_ROOT)/library/utilities/include";
+				WARNING_CFLAGS = "-Wmost";
+				ZERO_LINK = NO;
+			};
+			name = DeploymentU;
+		};
+		2BB55FED09E458BA00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "MySQLToolsCommon-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/sw/lib,
+					/usr/local/mysql/lib,
+					/,
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-seg1addr",
+					0x10000000,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MySQLToolsCommon;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = DeploymentU;
+		};
+		2BB55FEE09E458BA00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(LIBRARY_SEARCH_PATHS)",
+					/sw/lib,
+				);
+				LIBRARY_STYLE = STATIC;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = mysqlparser;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = DeploymentU;
+		};
+		2BB55FEF09E458BA00FC03E1 /* DeploymentU */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/mysql/include,
+					/usr/include/libxml2,
+					/sw/include,
+					"/sw/include/glib-2.0",
+					"/sw/lib/glib-2.0/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/sw/lib,
+					/usr/local/mysql/lib,
+					/Users/vlad/guibuild,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../library/base-library/include $(SOURCE_ROOT)/../../library/utilities/shared_include $(SOURCE_ROOT)/../../library/utilities/include";
+			};
+			name = DeploymentU;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B1BCC65093D1EE400946E36 /* Build configuration list for PBXNativeTarget "mysqlparser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1BCC66093D1EE400946E36 /* Development */,
+				2B1BCC67093D1EE400946E36 /* Deployment */,
+				2BB55FEE09E458BA00FC03E1 /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2B1BCD19093F615F00946E36 /* Build configuration list for PBXNativeTarget "myxutils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1BCD1A093F615F00946E36 /* Development */,
+				2B1BCD1B093F615F00946E36 /* Deployment */,
+				2BB55FEB09E458BA00FC03E1 /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2BB4FE5908574AA4004F8852 /* Build configuration list for PBXNativeTarget "mysqlx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4FE5A08574AA4004F8852 /* Development */,
+				2BB4FE5B08574AA4004F8852 /* Deployment */,
+				2BB55FEC09E458BA00FC03E1 /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2BB4FE5D08574AA4004F8852 /* Build configuration list for PBXNativeTarget "MySQLToolsCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4FE5E08574AA4004F8852 /* Development */,
+				2BB4FE5F08574AA4004F8852 /* Deployment */,
+				2BB55FED09E458BA00FC03E1 /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2BB4FE6908574AA4004F8852 /* Build configuration list for PBXProject "MySQLGUICommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4FE6A08574AA4004F8852 /* Development */,
+				2BB4FE6B08574AA4004F8852 /* Deployment */,
+				2BB55FEF09E458BA00FC03E1 /* DeploymentU */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

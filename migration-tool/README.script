@@ -1,0 +1,25 @@
+
+MySQL Migration Toolkit
+-----------------------
+
+This is the script version of the MySQL Migration Toolkit. It has a simple text 
+version and one with a slightly more elaborate, curses based text interface. 
+There is also a separately distributed, GUI version, available for Windows.
+
+To use the toolkit, you need to have JDK 1.4.x or newer installed. If you use MacOS X, you
+will need Tiger or the Java 1.4.1 update from Apple: 
+http://www.apple.com/downloads/macosx/apple/java.html
+
+The recommended version is JDK 1.6.0 and it must be installed in /usr/java/jdk1.6.0
+If you have a different installation, you must update the run_migration* scripts and
+set the JRE_LIB_PATH to point to where the JRE libraries are installed in your system.
+
+To start the simple text version, run ./run_migration_simple
+To start the text UI version, run ./run_migration
+
+In MacOS X, for best results, use Terminal.app with the VT100 font, size 9 with the 
+"Wide glyphs for Japanese/Chinese/etc." option in "Window Settings..." disabled.
+
+There is a forum about the Migration Toolkit at:
+http://forums.mysql.com/list.php?104
+

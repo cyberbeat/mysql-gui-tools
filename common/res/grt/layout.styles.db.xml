@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc-styles xmlns="http://dev.mysql.com/gc/styles" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <!-- =====  Textures ===== -->
+	<!-- <texture id="column-pk" location="grt/db/column_pk.png" dimensions="2" mode="modulate" min-filter="linear"
+    mag-filter="linear"/>
+
+	<texture id="paper-shadow-t" location="textures/paper_t.png" dimensions="2" mode="modulate"
+    min-filter="nearest-mipmap-linear" mag-filter="linear"
+    wrap-mode-horizontal="repeat" wrap-mode-vertical="clamp-to-edge"/>
+	<texture id="paper-shadow-rt" location="textures/paper_rt.png" dimensions="2" mode="modulate"
+    min-filter="nearest-mipmap-linear" mag-filter="linear"
+    wrap-mode-horizontal="clamp-to-edge" wrap-mode-vertical="clamp-to-edge"/>
+	<texture id="paper-shadow-r" location="textures/paper_r.png" dimensions="2" mode="modulate"
+    min-filter="nearest-mipmap-linear" mag-filter="linear"
+    wrap-mode-horizontal="clamp-to-edge" wrap-mode-vertical="repeat"/>
+	<texture id="paper-shadow-rb" location="textures/paper_rb.png" dimensions="2" mode="modulate"
+    min-filter="nearest-mipmap-linear" mag-filter="linear"
+    wrap-mode-horizontal="clamp-to-edge" wrap-mode-vertical="clamp-to-edge"/>
+	<texture id="paper-shadow-b" location="textures/paper_b.png" dimensions="2" mode="modulate"
+    min-filter="nearest-mipmap-linear" mag-filter="linear"
+    wrap-mode-horizontal="repeat" wrap-mode-vertical="clamp-to-edge"/>
+	<texture id="paper-shadow-lb" location="textures/paper_lb.png" dimensions="2" mode="modulate"
+    min-filter="nearest-mipmap-linear" mag-filter="linear"
+    wrap-mode-horizontal="clamp-to-edge" wrap-mode-vertical="clamp-to-edge"/>
+	<texture id="paper-shadow-l" location="textures/paper_l.png" dimensions="2" mode="modulate"
+    min-filter="nearest-mipmap-linear" mag-filter="linear"
+    wrap-mode-horizontal="clamp-to-edge" wrap-mode-vertical="repeat"/>
+	<texture id="paper-shadow-lt" location="textures/paper_lt.png" dimensions="2" mode="modulate"
+    min-filter="nearest-mipmap-linear" mag-filter="linear"
+    wrap-mode-horizontal="clamp-to-edge" wrap-mode-vertical="clamp-to-edge"/>
+
+  <style-definition id="paper">
+    <svg:svg>
+      <svg:g>
+        <svg:rect x="0" y="0" width="1" height="1" fill="rgb(255, 255, 255)" texture="paper-shadow-lt"/>
+        <svg:rect x="1" y="0" width="60" height="1" fill="rgb(255, 255, 255)" texture="paper-shadow-t"/>
+        <svg:rect x="61" y="0" width="1" height="1" fill="rgb(255, 255, 255)" texture="paper-shadow-rt"/>
+
+        <svg:rect x="0" y="1" width="1" height="60" fill="rgb(255, 255, 255)" texture="paper-shadow-l"/>
+        <svg:rect x="61" y="1" width="1" height="60" fill="rgb(255, 255, 255)" texture="paper-shadow-r"/>
+
+        <svg:rect x="0" y="61" width="1" height="1" fill="rgb(255, 255, 255)" texture="paper-shadow-lb"/>
+        <svg:rect x="1" y="61" width="60" height="1" fill="rgb(255, 255, 255)" texture="paper-shadow-b"/>
+        <svg:rect x="61" y="61" width="1" height="1" fill="rgb(255, 255, 255)" texture="paper-shadow-rb"/>
+
+        <svg:rect x="0.5" y="0.5" width="61" height="61" fill="rgb(255, 255, 255)"/>
+      </svg:g>
+    </svg:svg>
+  </style-definition>-->
+  
+  <style-definition id="paper">
+    <svg:svg>
+      <g>
+        <rect fill="#FFFFFF" width="1" height="1"/>
+      </g>
+    </svg:svg>
+  </style-definition>
+
+</gc-styles>

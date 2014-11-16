@@ -1,0 +1,26 @@
+This framework/library needs Fink (fink.sourceforge.net) and the following libraries:
+- glib-2
+- libpcre
+- mysql client library, 4.1 or later
+
+If building on MacOS X 10.3, it must be 10.3.9, as older versions had an outdated
+libxml2 (needs 2.6.x, was 2.5.x)
+
+Before building:
+- open the project info panel (click on the project icon in the side
+tree and press Command-i) 
+- in the General tab, Custom Location for "Place Build Products on:"
+- type in some directory name, such as ~/guibuild
+- select "Build Products Location" for "Place Intermediate Build Files on:" 
+
+For making shippable binaries, without external dependencies, remove 
+.dylib symbolic links from /sw/lib for libraries that are linked to MySQLToolsCommon.
+For example, libglib-2.0.0.dylib 
+Glib from Fink doesn't include a static version (at least not now), so build one.
+
+Run otool -L MySQLToolsCommon.framework/MySQLToolsCommon to make sure that there
+is nothing from /sw/lib dynamically linked.
+
+Note: you will also need to remove/move away /usr/lib/libxml2.2.dylib 
+otherwise the linker will pick it instead of the static one from /sw/lib.
+

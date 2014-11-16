@@ -1,0 +1,85 @@
+INSTALLATION OF SCINTILLA COMPONENTS FOR DELPHI
+
+NOTE: As of version 0.19, I've began to use versioning for the components.
+This means that version 0.19 and later components will no longer interfere
+with eachother when installed in the system directory on the same computer,
+and programs compiled with different versions can be used,
+and no longer interfere with eachother.
+
+i.e you can have both version 0.19 and 0.20++ inside the system directory.
+
+This also means that you need to uninstall the current version of the
+Delphi Scintilla Interface Components packages in Delphi or C++ Builder
+(if they are installed), compile the new packages, and then install the
+new versions of the files as specified below. 
+
+The reason for this is because the filename of the .BPL files now
+changes with each version, but the .dcp/.lib/.bpi filenames
+doesn't change.
+
+COMPILING THE PACKAGES:
+
+DELPHI 7 (In the D7 Packages directory)
+
+Open DelphiSciD7.BPG, and select BUILD ALL or
+
+Open Scit.DPK. If a messagebox about TTcFontComboBox not existing appears,
+just click cancel. Compile the package the usual way.
+
+Open DScit.DPK, and compile it the usual way.
+
+/// The packages below requires that your version of Delphi has the
+/// Borland Database components (it doesn't exist in the Personal version I think)
+
+Open ScitDB.DPK. Compile the package the usual way.
+
+Open DScitDB.DPK, and compile it the usual way.
+
+Delphi 2005 (In the D9 Packages directory)
+
+Open DelphiSciD9.BPG, and select BUILD ALL or:
+
+See above the instructions on Delphi 7.
+
+
+C++ BUILDER 6 (In the C6 Packages directory)
+
+Open DelphiSciC6.BPG, and select BUILD ALL or:
+
+See above, but with the filenames Scit.BPK and DScit.BPK.
+And ScitDB.BPK, DScitDB.BPK (if you want databaseversions of the components)
+
+INSTALLING THE PACKAGES INTO DELPHI/C++ Builder:
+
+On the menu select Component->Install Packages
+Click add, and locate the compiled DSCITxx.BPL file
+(it's located where your default BPL output path is).
+Select the package, and thats it.
+
+Do the same with DSCITDBxx.BPL (if you want databaseversions of the components)
+
+FILENAME EXPLANATION AND EXAMPLES
+
+xx = the version and compiler of the file
+
+If the prefix is DCL then it's a designtime package,
+otherwise it's a runtime.
+
+If the word DB is in the filename, it's the database support.
+
+Example:
+SCIT19D7.BPL (Version 0.19 for Delphi 7)
+
+The .bpi/.lib/.dcp files created is named with only the basename.
+
+Example:
+SCIT.DCP (for the same file as the example above)
+
+OTHER COMPILERS
+
+If you get the packages to compile with another Delphi/C++ Builder
+version, give me a message, along with the package source for it.
+i.e packagename.bpk,packagename.res,packagename.cpp (C++ Builder) or
+packagename.dpk,packagename.cfg,packagename.dof,packagename.res (Delphi).
+
+
