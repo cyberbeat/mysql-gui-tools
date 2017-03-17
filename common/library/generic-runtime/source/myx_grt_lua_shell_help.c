@@ -1948,7 +1948,7 @@ void myx_grt_shell_show_command_help_print(MYX_GRT *grt, const char *group_name,
         char ul[80];
         unsigned int k;
 
-        for (k= 0; k < min(strlen(help_group.group_caption) + strlen(help_group.group_name) + 3, 79); k++)
+        for (k= 0; k < MIN(strlen(help_group.group_caption) + strlen(help_group.group_name) + 3, 79); k++)
           ul[k]= '-';
         ul[k]= 0;
 
@@ -1989,7 +1989,7 @@ void myx_grt_shell_show_command_help_print(MYX_GRT *grt, const char *group_name,
             char ul[80];
             unsigned int k;
 
-            for (k= 0; k < min(strlen(help_group.group_caption) + strlen(help_group.group_name) + strlen(help_text.cmd) + 4, 79); k++)
+            for (k= 0; k < MIN(strlen(help_group.group_caption) + strlen(help_group.group_name) + strlen(help_text.cmd) + 4, 79); k++)
               ul[k]= '-';
             ul[k]= 0;
 
