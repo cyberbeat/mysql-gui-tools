@@ -98,8 +98,8 @@ extern "C" {
   typedef __int64 longlong;
   typedef unsigned __int64 ulonglong;
 #else
-# define min(a,b) ((a)<(b)?(a):(b))
-# define max(a,b) ((a)>(b)?(a):(b))
+// # define min(a,b) ((a)<(b)?(a):(b))
+// # define max(a,b) ((a)>(b)?(a):(b))
 
   typedef unsigned char uint8;
   typedef unsigned char uchar;
