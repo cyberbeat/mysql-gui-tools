@@ -22,7 +22,7 @@
 
 #include "MGMySQLConsole.h"
 
-#include <sigc++/class_slot.h>
+//#include <sigc++/class_slot.h>
 
 #include <gtkmm/main.h>
 
