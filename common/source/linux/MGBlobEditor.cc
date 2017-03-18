@@ -22,7 +22,7 @@
 #include "mygpriv.h"
 
 
-class MGBlobListStore : public Glib::Object, public Gtk::TreeModel
+class MGBlobListStore : public Gtk::TreeModel, public Glib::Object
 {
   protected:
     virtual bool iter_is_valid(const Gtk::TreeModel::iterator& iter) const;

@@ -109,7 +109,7 @@ class DropDataReceivedProxyHack : public Glib::ObjectBase {
             if (prefs.default_limit_value > 0)
               query+=" LIMIT 0,"+tostr(prefs.default_limit_value);
           
-            warea->execute_query(catalog, schema, query, false);
+            warea->execute_query(catalog, schema, query, 0, false);
           }
         }
         else
@@ -3522,7 +3522,7 @@ void MQWorkArea::execute_query(const Glib::ustring &catalog, const Glib::ustring
 
 void MQWorkArea::open_bookmark(MQBookmarks::BookmarkItem *bookmark)
 {
-  execute_query(bookmark->catalog, bookmark->schema, bookmark->query, false);
+  execute_query(bookmark->catalog, bookmark->schema, bookmark->query, 0, false);
 }
 
 
