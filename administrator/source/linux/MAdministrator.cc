@@ -328,7 +328,7 @@ void MAdministrator::show()
   {
     _tree->get_background_area(Gtk::TreePath(iter),
                                *_tree->get_column(0), rect);
-    w= max(w, rect.get_width());
+    w= std::max(w, rect.get_width());
     h += rect.get_height();
   }
 

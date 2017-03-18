@@ -1287,9 +1287,9 @@ void CanvasViewController::autoArrangeElements(bool selectedOnly)
       double newx= iter->second->newleft();
       double newy= iter->second->newtop();
 
-      bottom_y= max(newy + iter->second->height(), bottom_y);
-      left_x= min(newx, left_x);
-      right_x= max(newx + iter->second->width(), right_x);
+      bottom_y= std::max(newy + iter->second->height(), bottom_y);
+      left_x= std::min(newx, left_x);
+      right_x= std::max(newx + iter->second->width(), right_x);
 
       iter->first->moveTo(newx, newy);
     };
@@ -1331,7 +1331,7 @@ void CanvasViewController::autoArrangeElements(bool selectedOnly)
 
       (*iter)->moveTo(x, y);
       x+= bounds.width() + spacing;
-      row_height= max((double)bounds.height(), row_height);
+      row_height= std::max((double)bounds.height(), row_height);
       i++;
       if (x >= right_x)
       {

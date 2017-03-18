@@ -151,7 +151,7 @@ MYX_GRT_VALUE * query_print(MYX_GRT_VALUE *param, void *data)
     unsigned int length= field->name_length;
 #endif
 
-    length= max(length,field->max_length);
+    length= MAX(length,field->max_length);
     length*= 2; //consider UTF8 2-byte chars
     if (length < 4 && !IS_NOT_NULL(field->flags))
       length=4;                                 // Room for "NULL"
@@ -166,7 +166,7 @@ MYX_GRT_VALUE * query_print(MYX_GRT_VALUE *param, void *data)
   mysql_field_seek(res, 0);
   while ((field= mysql_fetch_field(res)))
   {
-    fill_char(line_sep+strlen(line_sep), '-', min((int)field->max_length+1, MAX_COLUMN_LENGTH+1));
+    fill_char(line_sep+strlen(line_sep), '-', MIN((int)field->max_length+1, MAX_COLUMN_LENGTH+1));
     strcat(line_sep,"+");
   }
   myx_grt_messages_stack_add(grt, 0, line_sep, NULL, 0, -1);
@@ -181,7 +181,7 @@ MYX_GRT_VALUE * query_print(MYX_GRT_VALUE *param, void *data)
   {
     char *field_name= myx_convert_dbstr_utf8(mysql_conn->mysql, field->name, field->name_length);
 
-    sprintf(buf, " %-*s|", min((int)field->max_length, MAX_COLUMN_LENGTH),
+    sprintf(buf, " %-*s|", MIN((int)field->max_length, MAX_COLUMN_LENGTH),
               field_name);
 
     line= str_g_append(line, buf);
@@ -246,7 +246,7 @@ MYX_GRT_VALUE * query_print(MYX_GRT_VALUE *param, void *data)
       else
       {
         line_end+= sprintf(line_end, IS_NUM(field->type) ? "%*s |" : " %-*s|",
-                min(length, MAX_COLUMN_LENGTH+clength-u8length), field_value);
+                MIN(length, MAX_COLUMN_LENGTH+clength-u8length), field_value);
         //line_end+= strlen(line_end);
       }
 

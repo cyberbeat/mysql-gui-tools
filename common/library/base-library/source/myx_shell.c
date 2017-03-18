@@ -87,7 +87,7 @@ static void show_result(MYX_TEXT_SHELL *shell, MYSQL_RES *res)
     if (field == NULL)
       break;
 
-    length= max(length,field->max_length);
+    length= MAX(length,field->max_length);
     length*= 2; //consider UTF8 2-byte chars
     if (length < 4 && !IS_NOT_NULL(field->flags))
       length=4;                                 // Room for "NULL"
@@ -107,7 +107,7 @@ static void show_result(MYX_TEXT_SHELL *shell, MYSQL_RES *res)
     if (field == NULL)
       break;
 
-    fill_char(line_sep+strlen(line_sep), '-', min((int)field->max_length+1, MAX_COLUMN_LENGTH+1));
+    fill_char(line_sep+strlen(line_sep), '-', MIN((int)field->max_length+1, MAX_COLUMN_LENGTH+1));
     strcat(line_sep,"+");
   }
   while (1);
@@ -132,7 +132,7 @@ static void show_result(MYX_TEXT_SHELL *shell, MYSQL_RES *res)
 
     field_name= myx_convert_dbstr_utf8(shell->mysql, field->name, -1);
 
-    sprintf(line, " %-*s|",min((int)field->max_length,MAX_COLUMN_LENGTH),
+    sprintf(line, " %-*s|",MIN((int)field->max_length,MAX_COLUMN_LENGTH),
             field_name);
 
     g_free(field_name);
@@ -194,7 +194,7 @@ static void show_result(MYX_TEXT_SHELL *shell, MYSQL_RES *res)
       else
       {
         line_end+= sprintf(line_end, IS_NUM(field->type) ? "%*s |" : " %-*s|",
-                min(length, MAX_COLUMN_LENGTH+clength-u8length), field_value);
+                MIN(length, MAX_COLUMN_LENGTH+clength-u8length), field_value);
         //line_end+= strlen(line_end);
       }
 

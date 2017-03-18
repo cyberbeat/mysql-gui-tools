@@ -3267,7 +3267,7 @@ MYX_IMAGE_FORMAT myx_guess_image_format(const void *data, unsigned int length)
     for (Image_format * format= file_headers; format!=file_headers_end; format++)
     {
       if (memcmp(format->name.data(), data,
-                 min((size_t)length, format->name.length()))==0)
+                 std::min((size_t)length, format->name.length()))==0)
       {
         return format->format;
       };
