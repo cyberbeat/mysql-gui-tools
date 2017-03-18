@@ -72,7 +72,7 @@ Glib::ustring strreplace(const Glib::ustring &str,const Glib::ustring &from,cons
 #if __GNUC__ < 3
 #define myg_log(msg, args...) g_printerr("%s: "msg"\n", g_get_prgname(), args)
 #else
-#define myg_log(msg, ...) g_printerr("%s: "msg"\n", g_get_prgname(), ## __VA_ARGS__)
+#define myg_log(msg, ...) g_printerr("%s: " msg "\n", g_get_prgname(), ## __VA_ARGS__)
 #endif
 
 #endif /* _MYG_UTILS_H_ */
